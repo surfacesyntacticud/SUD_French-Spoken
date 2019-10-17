@@ -1,8 +1,5 @@
 # sent_id = ParisStories_2019_choixPostLicence_1
 # text = J'ai dû beaucoup travailler sur , euh , les notions de licence une , parce que , enfin , je me suis rendu compte , en vrai , que l'équivalence ne préparait pas autant que , euh , qu'une vrai année de fac .
-# tree_status = problem
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	J'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	dû	devoir	VERB	_	_	2	comp:aux	_	_
@@ -53,9 +50,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_2
 # text = Donc il y avait beaucoup de , euh , de notions que j'avais pas et , euh , donc j'ai dû les rattraper ,
-# tree_status = ok
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	Donc	donc	ADV	_	_	4	cc	_	_
 2	il	il	PRON	_	_	4	subj	_	_
 3	y	y	PRON	_	_	4	mod	_	_
@@ -85,9 +79,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_3
 # text = j'ai dû en même temps travailler ma licence deux pour , euh , pour pas perdre le rythme .
-# tree_status = problem
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	j'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	dû	devoir	VERB	_	_	2	comp:aux	_	_
@@ -111,9 +102,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_4
 # text = Et en même temps , j'ai continué , euh , à préparer les concours d'orthophonie .
-# tree_status = ok
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	Et	et	CCONJ	_	_	7	cc	_	_
 2	en	en	ADP	_	_	7	mod	_	_
 3	même	même	ADJ	_	_	4	mod	_	_
@@ -135,9 +123,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_5
 # text = Donc , euh , ça fait que c'était , euh , assez compliqué à tout gérer ,
-# tree_status = problem
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	Donc	donc	ADV	_	_	6	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
@@ -159,9 +144,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_6
 # text = j'ai une fois de plus raté mes concours , mais , euh , mais j'ai eu ma ma licence deux .
-# tree_status = ok
-# user_id = Oussa
-# user_name = Oussama ID ALI
 1	j'	je	PRON	_	_	2	subj	_	SpaceAfter=No
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	une	un	DET	_	_	4	det	_	_
@@ -188,9 +170,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_7
 # text = Et , euh , j'étais , euh , assez perdue parce que , euh , du coup , la licence sciences du langage , je me suis rendu compte , qu'au niveau des débouchées ça me correspondait pas du tout , parce que , j'ai pas envie de faire , euh , des métiers dans le professorat ou ou quoi que ce soit qu'elle propose .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Et	et	CCONJ	_	_	6	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
@@ -264,9 +243,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_8
 # text = Euh du coup , j'ai commencé , euh , à faire des recherches là cette année ,
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Euh	euh	INTJ	_	_	6	discourse	_	_
 2	du	de+le	ADP	_	_	6	discourse	_	_
 3	coup	coup	NOUN	_	_	2	comp:obj	_	_
@@ -288,9 +264,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_9
 # text = je je fais plus que deux concours là cette année en orthophonie donc , euh , j'ai beaucoup restreint .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	je	je	PRON	_	_	3	subj	_	_
 2	je	je	PRON	_	_	1	conj:dicto	_	_
 3	fais	faire	VERB	_	_	0	root	_	_
@@ -315,9 +288,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_10
 # text = Mais , en même temps , euh , je vais envoyer , euh , mon dossier en Belgique pour , euh , pour tenter une dernière fois , et , et mettre toutes mes chances de mon côté .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Mais	mais	ADV	_	_	10	cc	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	en	en	ADP	_	_	10	mod	_	_
@@ -360,9 +330,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_11
 # text = Mais , euh , en même temps , je me renseigne pour , euh , une passerelle pour ne pas à avoir à continuer , euh , en master dans les dans les sciences du langage .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Mais	mais	ADV	_	_	11	cc	_	_
 2	,	_	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
@@ -403,9 +370,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_12
 # text = Euh donc , euh , en m~ en me renseignant , je suis tombée sur , euh , le métier de neuropsychologue qui , euh , qui à l'air très intéressant , parce que ça enfin dans dans ce que j'ai vu , ça regroupe vraiment ce que ce que je veux faire .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Euh	euh	INTJ	_	_	13	discourse	_	_
 2	donc	donc	ADV	_	_	13	cc	_	_
 3	,	_	PUNCT	_	_	4	punct	_	_
@@ -465,9 +429,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_13
 # text = Parce que déjà , à la base , le la psychologie m'intéressait , mais elle regroupe aussi , euh , la spécialité neuro que , euh , qui m'intéressait beaucoup dans l'orthophonie , et je savais pas que c'était possible , euh , de l'associer aussi au métier de psychologue .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	déjà	déjà	ADV	_	_	13	discourse	_	_
@@ -527,9 +488,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_14
 # text = Du coup , ça a été une découverte cette année et je suis en train vraiment de de me pencher sur le sujet .
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Du	de+le	ADP	_	_	5	discourse	_	_
 2	coup	coup	NOUN	_	_	1	comp:obj	_	_
 3	,	_	PUNCT	_	_	1	punct	_	_
@@ -557,9 +515,6 @@
 
 # sent_id = ParisStories_2019_choixPostLicence_15
 # text = Mais , euh , le problème c'est que la licence de sciences du langage , ne permet pas forcément d'accéder directement à un master en psychologie ,
-# tree_status = ok
-# user_id = F_MARS
-# user_name = LIANG_TAO
 1	Mais	mais	ADV	_	_	8	cc	_	_
 2	,	_	PUNCT	_	_	1	punct	_	_
 3	euh	euh	INTJ	_	_	8	discourse	_	_
