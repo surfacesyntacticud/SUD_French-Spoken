@@ -11931,7 +11931,9 @@
 5	dans	dans	ADP	_	_	4	comp:pred	_	_
 6	la	le	DET	_	_	7	det	_	_
 7	région	région	NOUN	_	_	5	comp:obj	_	_
-8	comme	comme	SCONJ	_	_	7	c	_	8	comp:obj	_	_
+8	comme	comme	SCONJ	_	_	7	c	_	8
+9	euh	euh	PART	_	_	10	discourse	_	_
+10	à	à	PREP	_	_	8	comp:obj	_	_
 11	l'	le	DET	_	_	12	det	_	_
 12	étranger	étranger	NOUN	_	_	10	comp:obj	_	_
 13	et	et	CCONJ	_	_	14	cc	_	_
