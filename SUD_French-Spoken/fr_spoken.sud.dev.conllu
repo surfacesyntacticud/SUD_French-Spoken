@@ -101,7 +101,7 @@
 # sent_id = Rhap_M0024-4
 # text = et euh Charlot s' est accusé plutôt que de laisser la jeune fille s' accuser
 # macrosyntax = ^et "euh" Charlot s'est accusé > plutôt que de laisser la jeune fille s'accuser // 
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	Charlot	Charlot	PROPN	_	_	5	subj	_	_
 4	s'	se	PRON	_	_	6	comp:obj	_	_
@@ -161,13 +161,13 @@
 # sent_id = Rhap_D0006-2
 # text = j' ai
 # macrosyntax = $L2 j'ai ESPERLUETTE //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D0006-3
 # text = il se trouve que dans les adresses qu' on m' avait données j' ai euh il y a deux rendez - vous que j' ai dû remettre parce que les gens vendaient euh euh des biens de famille
 # macrosyntax = il se trouve que [ dans les adresses qu'on m'avait données < { j'ai "euh" | il y a } deux rendez-vous que j'ai dû remettre parce que les gens vendaient "euh" "euh" des biens de famille ] //
-1	il	il	PRON	_	_	3	nsubj	_	_
+1	il	il	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	trouve	trouver	VERB	_	_	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
@@ -209,7 +209,7 @@
 # sent_id = Rhap_D0006-4
 # text = donc euh on dit oui on veut bien parler avec vous mais a~ après le déménagement
 # macrosyntax = $L2 donc < "euh" on dit [ oui // on veut bien parler avec vous //+ ^mais { a~ | après } le déménagement // ]
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	on	on	PRON	_	_	4	subj	_	_
 4	dit	dire	VERB	_	_	0	root	_	_
@@ -229,13 +229,13 @@
 # sent_id = Rhap_D0006-5
 # text = d' accord
 # macrosyntax = $- $L1 d'accord //
-1	d'	d'	ADP	_	_	2	case	_	_
+1	d'	d'	ADP	_	_	0	root	_	_
 2	accord	accord	NOUN	_	_	1	comp:obj	_	_
 
 # sent_id = Rhap_D0006-6
 # text = vous n' avez pas autour de vous cette impression que
 # macrosyntax = $L2 vous n'avez -$ $L2 pas autour de vous cette impression que ESPERLUETTE //
-1	vous	vous	PRON	_	_	3	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	avez	avoir	VERB	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -249,7 +249,7 @@
 # sent_id = Rhap_D0006-7
 # text = c' est plus au niveau de la fac
 # macrosyntax = c'est plus au niveau de la fac //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	plus	plus	ADV	_	_	4	mod	_	_
 4	au	à+le	ADP	_	_	2	comp:pred	_	_
@@ -261,7 +261,7 @@
 # sent_id = Rhap_D0006-8
 # text = je vois euh moi la fac ça m' a fait beaucoup de bien
 # macrosyntax = $L1 "je vois" "euh" moi < la fac < ça m'a fait beaucoup de bien //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	vois	voir	VERB	DISCOURSE	_	9	parataxis@discourse	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	moi	lui	PRON	_	_	9	dislocated	_	_
@@ -278,7 +278,7 @@
 # sent_id = Rhap_D0006-9
 # text = ça m' a sorti un petit peu de mon petit cocon du septième
 # macrosyntax = ça m'a sorti un petit peu de mon petit cocon du septième //
-1	ça	ça	PRON	_	_	4	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	4	comp:obl	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
 4	sorti	sortir	VERB	ETRE	_	3	comp:aux	_	_
@@ -295,7 +295,7 @@
 # sent_id = Rhap_D0006-10
 # text = et ça m' a fait voir
 # macrosyntax = ^et ça m'a fait voir ESPERLUETTE //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	ça	ça	PRON	_	_	4	subj@caus	_	_
 3	m'	me	PRON	_	_	6	comp:obl	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
@@ -305,7 +305,7 @@
 # sent_id = Rhap_D0006-11
 # text = même si c' est quand même une fac dans le septième enfin ç~ il y a des gens qui viennent de partout euh
 # macrosyntax = même si c'est quand même une fac dans le septième < "enfin" { ç~ | il y a } des gens qui viennent de partout "euh" //
-1	même	même	ADV	_	_	8	mark	_	_
+1	même	même	ADV	_	_	16	mod	_	_
 2	si	si	SCONJ	_	_	1	unk@fixed	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	1	comp:obj	_	_
@@ -332,7 +332,7 @@
 # sent_id = Rhap_D0006-12
 # text = et euh ça m' a frappé de voir que euh j' avais une amie euh qui vivait à vingt ans euh complètement autonome mh parce que euh ses parents sont divorcés et n' ont pas les moyens de faire vivre
 # macrosyntax = ^et "euh" ça m'a frappé de voir que "euh" j'avais { une amie "euh" qui vivait à vingt ans "euh" complètement autonome ( $L2 "mh" // ) $L1 parce que "euh" ses parents { sont divorcés | ^et n'ont pas les moyens de faire vivre } } ESPERLUETTE //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	ça	ça	PRON	_	_	5	subj	_	_
 4	m'	me	PRON	_	_	6	comp:obl	_	_
@@ -479,7 +479,7 @@
 # sent_id = Rhap_D0006-17
 # text = ou c' est l' argent du cinéma
 # macrosyntax = $L2 ^ou -$ $L2 c'est l'argent du cinéma //
-1	ou	ou	CCONJ	_	_	5	cc	_	_
+1	ou	ou	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	l'	le	DET	_	_	5	det	_	_
@@ -539,7 +539,7 @@
 # sent_id = Rhap_D0006-21
 # text = là je viens de faire mes des vaccins par exemple
 # macrosyntax = là < je viens de faire { mes | des } vaccins > par exemple //
-1	là	là	ADV	_	_	3	advmod:periph	_	_
+1	là	là	ADV	_	_	3	mod	_	_
 2	je	je	PRON	_	_	3	subj	_	_
 3	viens	venir	VERB	_	_	0	root	_	_
 4	de	de	ADP	_	_	3	comp:obl@x	_	_
@@ -565,7 +565,7 @@
 # sent_id = Rhap_D0006-23
 # text = et c' est des principes éducatifs des parents
 # macrosyntax = $L2 ^et c'est des principes éducatifs des parents //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	des	de+le	DET	_	_	3	comp:pred	_	_
@@ -577,7 +577,7 @@
 # sent_id = Rhap_D0006-24
 # text = ou c' est vous qui avez dit bon quand - même
 # macrosyntax = ^ou c'est vous qui avez dit ["bon" quand-même // ] //
-1	ou	ou	CCONJ	_	_	4	cc	_	_
+1	ou	ou	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	vous	lui	PRON	_	_	3	comp:pred	_	_
@@ -592,7 +592,7 @@
 # sent_id = Rhap_D0006-25
 # text = c' est les parents je pense
 # macrosyntax = c'est les parents "je pense" //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	parents	parent	NOUN	_	_	2	comp:pred	_	_
@@ -643,7 +643,7 @@
 # sent_id = Rhap_D0006-28
 # text = donc la la rencontre des de la difficulté à vivre c' est le
 # macrosyntax = $L2 donc < { la | la } rencontre { des | de la } difficulté à vivre < c'est le ESPERLUETTE //
-1	donc	donc	ADV	_	_	12	advmod:periph	_	_
+1	donc	donc	ADV	_	_	12	mod	_	_
 2	la	le	DET	_	_	4	det	_	_
 3	la	le	DET	conj:reform	_	2	conj:dicto	_	_
 4	rencontre	rencontre	NOUN	_	_	12	dislocated	_	_
@@ -680,7 +680,7 @@
 # sent_id = Rhap_D0006-31
 # text = honnêtement on vit vraiment dans un petit micro~ enfin vraiment dans un petit microcosme
 # macrosyntax = $L1 honnêtement < on vit { vraiment dans un petit micro~ | "enfin" vraiment dans un petit microcosme } //
-1	honnêtement	honnêtement	ADV	_	_	3	advmod:periph	_	_
+1	honnêtement	honnêtement	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	vit	voir	VERB	_	_	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
@@ -730,7 +730,7 @@
 # sent_id = Rhap_D0006-34
 # text = vous allez être médecin en France en hôpital
 # macrosyntax = vous allez être médecin en France en hôpital //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	allez	aller	AUX	ETRE	_	0	root	_	_
 3	être	être	AUX	_	_	2	comp:aux	_	_
 4	médecin	médecin	NOUN	_	_	3	comp:pred	_	_
@@ -742,7 +742,7 @@
 # sent_id = Rhap_D0006-35
 # text = alors moi déjà je veux travailler dans le public et pas dans le privé
 # macrosyntax = $- $L1 alors < moi < déjà < je veux travailler { dans le public //+ | ^et pas dans le privé } //
-1	alors	alors	ADV	_	_	5	advmod:periph	_	_
+1	alors	alors	ADV	_	_	5	mod	_	_
 2	moi	lui	PRON	_	_	5	dislocated	_	_
 3	déjà	déjà	ADV	_	_	5	mod	_	_
 4	je	je	PRON	_	_	5	subj	_	_
@@ -793,7 +793,7 @@
 # sent_id = Rhap_D0006-39
 # text = je fais des petits boulots en plus
 # macrosyntax = je fais des petits boulots en plus //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	fais	faire	VERB	_	_	0	root	_	_
 3	des	un	DET	_	_	5	det	_	_
 4	petits	petit	ADJ	_	_	5	mod	_	_
@@ -804,7 +804,7 @@
 # sent_id = Rhap_D0006-40
 # text = et euh c' est un endroit que j' aime pas parce que c' est vraiment uniquement tourné vers l' argent
 # macrosyntax = ^et "euh" c'est un endroit que j'aime pas parce que c'est vraiment uniquement tourné vers l'argent //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -828,7 +828,7 @@
 # sent_id = Rhap_D0006-41
 # text = il y a cette dimension contact avec le malade qui a complètement disparu
 # macrosyntax = il y a cette dimension contact avec le malade qui a complètement disparu //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	cette	ce	DET	_	_	5	det	_	_
@@ -882,7 +882,7 @@
 # sent_id = Rhap_D0006-43
 # text = donc ça c' est un endroit que j' aime pas trop euh
 # macrosyntax = donc < ça < c'est un endroit que j'aime pas trop "euh" //
-1	donc	donc	ADV	_	_	6	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	ça	ça	PRON	_	_	4	dislocated	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -898,7 +898,7 @@
 # sent_id = Rhap_D0006-44
 # text = et en plus euh la vraie médecine euh c' est à l' hôpital qu' on qu' on l' apprend
 # macrosyntax = ^et en plus < "euh" la vraie médecine < "euh" c'est à l'hôpital { qu'on | qu'on } l'apprend //
-1	et	et	CCONJ	_	_	13	cc	_	_
+1	et	et	CCONJ	_	_	10	cc	_	_
 2	en	en	ADP	_	_	10	mod	_	_
 3	plus	plus	ADV	_	_	2	unk@fixed	_	_
 4	euh	euh	INTJ	_	_	2	discourse	_	_
@@ -921,7 +921,7 @@
 # sent_id = Rhap_D0006-45
 # text = vraie médecine de pointe ou vraie médecine de
 # macrosyntax = $L2 { vraie médecine de $- $L2 pointe | ^ou vraie médecine de ESPERLUETTE } // 
-1	vraie	vrai	ADJ	_	_	2	amod	_	_
+1	vraie	vrai	ADJ	_	_	2	mod	_	_
 2	médecine	médecine	NOUN	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	pointe	pointe	NOUN	_	_	3	comp:obj	_	_
@@ -1011,7 +1011,7 @@
 # sent_id = Rhap_D0006-50
 # text = comme spécialité je sais pas
 # macrosyntax = comme spécialité < je sais pas //
-1	comme	comme	ADP	_	_	2	case	_	_
+1	comme	comme	ADP	_	_	4	mod	_	_
 2	spécialité	spécialité	NOUN	_	_	1	comp:obj	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	sais	savoir	VERB	_	_	0	root	_	_
@@ -1020,7 +1020,7 @@
 # sent_id = Rhap_D0006-51
 # text = je peux pas vous dire
 # macrosyntax = je peux pas vous dire //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	peux	pouvoir	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	vous	vous	PRON	_	_	5	comp:obj	_	_
@@ -1035,7 +1035,7 @@
 # sent_id = Rhap_D0006-53
 # text = c' est c' est c' est surtout l' hôpital public qui m' attire
 # macrosyntax = { c'est | c'est | c'est } surtout l'hôpital public qui m'attire //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	conj:reform	_	2	conj:dicto	_	_
@@ -1069,7 +1069,7 @@
 # sent_id = Rhap_D0006-55
 # text = alors ça div~ ça ça varie beaucoup
 # macrosyntax = $L1 alors < { ça div~ | { ça | $- $L1 ça } varie } beaucoup //=
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	ça	ça	PRON	_	_	3	subj	_	_
 3	div~	div~	VERB	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	6	subj	_	_
@@ -1080,7 +1080,7 @@
 # sent_id = Rhap_D0006-56
 # text = c' est très variable
 # macrosyntax = $L2 c'est très variable //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	2	mod	_	_
 4	variable	variable	ADJ	_	_	2	comp:pred	_	_
@@ -1088,7 +1088,7 @@
 # sent_id = Rhap_D0006-57
 # text = il y a des gens euh de très bons amis hein mh mh mais sur par contre quand on parle de ça ça se passe mal mh euh qui veulent euh clairement euh
 # macrosyntax = $L1 il y a { des gens "euh" | de très bons amis } "hein" ( $L2 "mh mh" // ) ( $L1 ^mais sur ESPERLUETTE // par contre < quand on parle de ça <+ ça se passe mal // ) ( $L2 "mh" // ) $L1 "euh" qui veulent "euh" clairement "euh" ESPERLUETTE //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	des	un	DET	_	_	5	det	_	_
@@ -1125,7 +1125,7 @@
 # sent_id = Rhap_D0006-58
 # text = ils ont fait médecine parce que euh ça va être un métier stable un métier où ils gagneront de l' argent
 # macrosyntax = ils ont fait médecine parce que "euh" ça va être { un métier stable | un métier où ils gagneront de l'argent } //
-1	ils	il	PRON	_	_	3	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	ont	avoir	AUX	_	_	0	root	_	_
 3	fait	faire	VERB	_	_	2	comp:aux	_	_
 4	médecine	médecine	NOUN	_	_	3	comp:obj	_	_
@@ -1150,7 +1150,7 @@
 # sent_id = Rhap_D0006-59
 # text = pour eux c' est important
 # macrosyntax = pour eux < c'est important //
-1	pour	pour	ADP	_	_	2	case	_	_
+1	pour	pour	ADP	_	_	5	mod	_	_
 2	eux	lui	PRON	_	_	1	comp:obj	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -1222,7 +1222,7 @@
 # sent_id = Rhap_D0006-63
 # text = il y a des spécialités délaissées parce que ça ne rapporte pas assez d' argent je sais pas la psychiatrie des choses comme ça
 # macrosyntax = $L2 il y a -$ $L2 { des spécialités délaissées parce que ça ne rapporte pas assez d'argent | "je sais pas" { la psychiatrie | des choses comme ça } } //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	des	un	DET	_	_	5	det	_	_
@@ -1250,7 +1250,7 @@
 # sent_id = Rhap_D0006-64
 # text = alors là la psychiatrie c' est autre chose
 # macrosyntax = alors < là < la psychiatrie < c'est autre chose //
-1	alors	alors	ADV	_	_	8	advmod:periph	_	_
+1	alors	alors	ADV	_	_	6	mod	_	_
 2	là	là	ADV	_	_	6	mod	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	psychiatrie	psychiatrie	NOUN	_	_	6	dislocated	_	_
@@ -1262,7 +1262,7 @@
 # sent_id = Rhap_D0006-65
 # text = vraiment la psychiatrie il faut ê~ il faut être
 # macrosyntax = vraiment < la psychiatrie < { il faut ê~ | il faut être } ESPERLUETTE //
-1	vraiment	vraiment	ADV	_	_	5	advmod:periph	_	_
+1	vraiment	vraiment	ADV	_	_	5	mod	_	_
 2	la	le	DET	_	_	3	det	_	_
 3	psychiatrie	psychiatrie	NOUN	_	_	5	dislocated	_	_
 4	il	il	PRON	_	_	5	subj	_	_
@@ -1286,7 +1286,7 @@
 # sent_id = Rhap_D0006-67
 # text = il il y a certains métiers où il f~ il faut être né
 # macrosyntax = { il | il } y a certains métiers où { il f~ | il faut } être né //
-1	il	il	PRON	_	_	4	nsubj:expl	_	_
+1	il	il	PRON	_	_	4	subj@expl	_	_
 2	il	il	PRON	conj:reform	_	1	conj:dicto	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
 4	a	avoir	VERB	_	_	0	root	_	_
@@ -1315,7 +1315,7 @@
 # sent_id = Rhap_D0006-69
 # text = il faut être né psychiatre pour être psychiatre
 # macrosyntax = il faut être né psychiatre pour être psychiatre //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	3	subj	_	_
 2	faut	falloir	VERB	_	_	3	comp:aux	_	_
 3	être	être	AUX	DoubleAux	_	0	root	_	_
 4	né	naître	VERB	ETRE	_	2	comp:pred	_	_
@@ -1327,7 +1327,7 @@
 # sent_id = Rhap_D0006-70
 # text = on peut pas
 # macrosyntax = on peut pas ESPERLUETTE //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	peut	pouvoir	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 
@@ -1370,7 +1370,7 @@
 # sent_id = Rhap_D0006-73
 # text = n' importe qui pourrait pas être chirurgien
 # macrosyntax = n'importe qui pourrait pas être chirurgien //
-1	n'	ne	PART	_	_	2	advmod	_	_
+1	n'	ne	ADV	_	_	2	mod	_	_
 2	importe	importe	VERB	_	_	4	subj	_	_
 3	qui	qui	PRON	_	_	2	unk@fixed	_	_
 4	pourrait	pouvoir	AUX	_	_	0	root	_	_
@@ -1424,7 +1424,7 @@
 # sent_id = Rhap_D0006-78
 # text = et euh et c' est vrai que elle est peut-être pas compatible avec euh la une vie de famille par exemple
 # macrosyntax = { ^et "euh" | ^et } c'est vrai que [ elle est peut-être pas compatible avec "euh" { la | une } vie de famille > par exemple ] //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -1479,7 +1479,7 @@
 # sent_id = Rhap_D0006-82
 # text = et c' est une des moins payées
 # macrosyntax = ^et c'est une des moins payées //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	une	un	PRON	_	_	3	comp:pred	_	_
@@ -1515,7 +1515,7 @@
 # sent_id = Rhap_D0006-86
 # text = en volume horaire en fait
 # macrosyntax = en volume horaire < en fait < ESPERLUETTE //
-1	en	en	ADP	_	_	2	case	_	_
+1	en	en	ADP	_	_	0	root	_	_
 2	volume	volume	NOUN	_	_	1	comp:obj	_	_
 3	horaire	horaire	ADJ	_	_	2	mod	_	_
 4	en	en	PRON	_	_	3	discourse	_	_
@@ -1524,7 +1524,7 @@
 # sent_id = Rhap_D0006-87
 # text = il y a énormément euh de fois où on ira à l' hôpital
 # macrosyntax = il y a énormément "euh" de fois où on ira à l'hôpital //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	énormément	énormément	ADV	_	_	3	comp:obj	_	_
@@ -1541,7 +1541,7 @@
 # sent_id = Rhap_D0006-88
 # text = et on sera pas payé en plus
 # macrosyntax = ^et on sera pas payé en plus //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	_	3	subj@pass	_	_
 3	sera	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -1552,7 +1552,7 @@
 # sent_id = Rhap_D0006-89
 # text = vous voyez ce que je veux dire
 # macrosyntax = vous voyez ce que je veux dire //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	voyez	voir	VERB	_	_	0	root	_	_
 3	ce	ce	PRON	_	_	2	comp:obj	_	_
 4	que	que	PRON	_	_	7	comp:obj	_	_
@@ -1563,7 +1563,7 @@
 # sent_id = Rhap_D0006-90
 # text = je comprends
 # macrosyntax = je comprends //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	comprends	comprendre	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D0006-91
@@ -1650,7 +1650,7 @@
 # sent_id = Rhap_D0006-95
 # text = c' est des choses dont vous parlez dans en classe euh
 # macrosyntax = $L2 c'est des choses dont vous parlez { dans | en } classe "euh" //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	des	de+le	DET	_	_	2	comp:pred	_	_
 4	choses	chose	NOUN	_	_	3	comp:obj	_	_
@@ -1674,7 +1674,7 @@
 # sent_id = Rhap_D0006-97
 # text = c' est important euh
 # macrosyntax = c'est important -$ $L1 "euh" //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	important	important	ADJ	_	_	2	comp:pred	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -1682,7 +1682,7 @@
 # sent_id = Rhap_D0006-98
 # text = parce que euh c~ c' est pour moi c' est très important d' avoir ses idéaux
 # macrosyntax = ^parce ^que "euh" { c~ | c'est | pour moi < c'est } très important d'avoir ses idéaux //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	c~	c~	X	_	_	6	subj	_	_
@@ -1730,7 +1730,7 @@
 # sent_id = Rhap_D0006-102
 # text = je vais pas vous vous poser toutes mes questions sur l' équipement du quartier
 # macrosyntax = je vais pas { vous | vous } poser toutes mes questions sur l'équipement du quartier //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	vais	aller	VERB	ETRE	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	vous	vous	PRON	_	_	2	comp:obl	_	_
@@ -1748,7 +1748,7 @@
 # sent_id = Rhap_D0006-103
 # text = j' ai compris que ça allait que vous étiez content que il y avait suffisamment de d' espaces verts de d' équipements mh et caetera
 # macrosyntax = j'ai compris { que ça allait | que vous étiez content | que il y avait suffisamment { { de | d' } espaces verts | { de | $- $L2 d' } équipements | ( $L1 "mh" // ) -$ $L2 et caetera } } //
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	compris	comprendre	VERB	_	_	2	comp:aux	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
@@ -1809,7 +1809,7 @@
 # sent_id = Rhap_D0006-106
 # text = c' est vrai que depuis euh
 # macrosyntax = c'est vrai que depuis "euh" ESPERLUETTE // 
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	vrai	vrai	ADJ	_	_	2	comp:pred	_	_
 4	que	que	SCONJ	_	_	3	unk	_	_
@@ -1819,7 +1819,7 @@
 # sent_id = Rhap_D0006-107
 # text = je sais pas je sais pas si il y a une loi qui a été instaurée
 # macrosyntax = { je sais pas | $- $L1 je sais pas } si il y a une loi qui a été instaurée //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	sais	savoir	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	je	je	PRON	_	_	5	subj	_	_
@@ -1943,7 +1943,7 @@
 # sent_id = Rhap_M2006-3
 # text = nouvelle nuit de pillage et d' affrontement en Guadeloupe
 # macrosyntax = nouvelle nuit { de pillage | ^et d'affrontement } en Guadeloupe //
-1	nouvelle	nouveau	ADJ	_	_	2	amod	_	_
+1	nouvelle	nouveau	ADJ	_	_	2	mod	_	_
 2	nuit	nuit	NOUN	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	pillage	pillage	NOUN	_	_	3	comp:obj	_	_
@@ -1956,7 +1956,7 @@
 # sent_id = Rhap_M2006-4
 # text = trois policiers blessés
 # macrosyntax = trois policiers blessés //
-1	trois	trois	NUM	_	_	2	nummod	_	_
+1	trois	trois	NUM	_	_	2	mod	_	_
 2	policiers	policier	NOUN	_	_	0	root	_	_
 3	blessés	blesser	ADJ	_	_	2	mod	_	_
 
@@ -1993,7 +1993,7 @@
 # sent_id = Rhap_M2006-7
 # text = nous ferons le point sur les violences en direct avec notre envoyé spécial Sébastien Paour dans quelques instants
 # macrosyntax = nous ferons le point sur les violences en direct avec { notre envoyé spécial | Sébastien Paour } dans quelques instants //
-1	nous	nous	PRON	_	_	2	nsubj	_	_
+1	nous	nous	PRON	_	_	2	subj	_	_
 2	ferons	faire	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	point	point	NOUN	_	_	2	comp:obj	_	_
@@ -2015,7 +2015,7 @@
 # sent_id = Rhap_M2006-8
 # text = de la crise aux Antilles il ne devrait pas en être question au sommet social de l' Élysée cet après - midi
 # macrosyntax = de la crise aux Antilles < il ne devrait pas en être question au sommet social de l'Élysée cet après-midi //
-1	de	de	ADP	_	_	3	case	_	_
+1	de	de	ADP	_	_	12	mod	_	_
 2	la	le	DET	_	_	3	det	_	_
 3	crise	crise	NOUN	_	_	1	comp:obj	_	_
 4	aux	à+le	ADP	_	_	3	mod	_	_
@@ -2059,7 +2059,7 @@
 # sent_id = Rhap_M2006-10
 # text = pour Bernard Van Craeynest de la CFE CGC la priorité c' est bien de sauver les emplois
 # macrosyntax = pour Bernard Van Craeynest de la CFE CGC <+ la priorité < c'est bien de sauver les emplois //
-1	pour	pour	ADP	_	_	2	case	_	_
+1	pour	pour	ADP	_	_	12	mod	_	_
 2	Bernard	Bernard	PROPN	_	_	1	comp:obj	_	_
 3	Van	Van	PROPN	_	_	2	flat	_	_
 4	Craeynest	Craeynest	PROPN	_	_	3	flat	_	_
@@ -2107,7 +2107,7 @@
 # sent_id = Rhap_M2006-12
 # text = pendant ce temps les étudiants et les enseignants - chercheurs ne désarment pas
 # macrosyntax = pendant ce temps <+ { les étudiants | ^et les enseignants-chercheurs } ne désarment pas //
-1	pendant	pendant	ADP	_	_	3	case	_	_
+1	pendant	pendant	ADP	_	_	12	mod	_	_
 2	ce	ce	DET	_	_	3	det	_	_
 3	temps	temps	NOUN	_	_	1	comp:obj	_	_
 4	les	le	DET	_	_	5	det	_	_
@@ -2124,7 +2124,7 @@
 # sent_id = Rhap_M2006-13
 # text = nouvelle journée d' action hier en attendant celle de demain
 # macrosyntax = nouvelle journée d'action >+ hier >+ en attendant celle de demain //
-1	nouvelle	nouveau	ADJ	_	_	2	amod	_	_
+1	nouvelle	nouveau	ADJ	_	_	2	mod	_	_
 2	journée	journée	NOUN	_	_	0	root	_	_
 3	d'	de	ADP	_	_	2	mod	_	_
 4	action	action	NOUN	_	_	3	comp:obj	_	_
@@ -2208,7 +2208,7 @@
 # sent_id = Rhap_M2006-19
 # text = c' est dans un contexte pour le moins tendu que le chef de l' État réunit syndicats et patronat
 # macrosyntax = c'est dans un contexte pour le moins tendu que le chef de l'État réunit { syndicats | ^et patronat } //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	dans	dans	ADP	_	_	2	mod	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -2261,7 +2261,7 @@
 # sent_id = Rhap_M2006-22
 # text = alors avant d' aborder ce qui peut en sortir je vous propose de voir où quand et comment cela va se passer avec vous Jean - François Achilli
 # macrosyntax = alors < avant d'aborder ce qui peut en sortir <+ je vous propose de voir { où | quand | ^et comment } cela va se passer avec { vous | Jean-François Achilli } //
-1	alors	alors	ADV	_	_	12	advmod:periph	_	_
+1	alors	alors	ADV	_	_	12	mod	_	_
 2	avant	avant	NOUN	_	_	12	dislocated	_	_
 3	d'	de	ADP	_	_	2	mod	_	_
 4	aborder	aborder	VERB	_	_	3	comp:obj	_	_
@@ -2293,7 +2293,7 @@
 # sent_id = Rhap_M2006-23
 # text = alors passons maintenant au détail des mesures discutées et aux attentes des syndicats et du patronat
 # macrosyntax = alors < passons maintenant { au détail des mesures discutées | ^et aux attentes { des syndicats | ^et du patronat } } //
-1	alors	alors	ADV	_	_	2	advmod:periph	_	_
+1	alors	alors	ADV	_	_	2	mod	_	_
 2	passons	passer	VERB	ETRE	_	0	root	_	_
 3	maintenant	maintenant	ADV	_	_	2	mod	_	_
 4	au	à+le	ADP	à	_	2	comp:obl	_	_
@@ -2435,7 +2435,7 @@
 # sent_id = Rhap_M2006-29
 # text = au moins six blessés légers des policiers
 # macrosyntax = au moins six blessés légers > des policiers //
-1	au	à+le	ADP	_	_	3	dep	_	_
+1	au	à+le	ADP	_	_	3	unk	_	_
 2	moins	moins	ADV	_	_	1	unk@fixed	_	_
 3	six	six	NUM	_	_	4	mod	_	_
 4	blessés	blessé	NOUN	_	_	0	root	_	_
@@ -2446,7 +2446,7 @@
 # sent_id = Rhap_M2006-30
 # text = des jeunes cagoulés et armés ont pillé des magasins brûlé des pneus et des voitures
 # macrosyntax = des jeunes { cagoulés | ^et armés } ont { pillé des magasins | brûlé { des pneus | ^et des voitures } } //
-1	des	de+le	ADP	_	_	2	case	_	_
+1	des	de+le	DET	_	_	6	subj	_	_
 2	jeunes	jeune	NOUN	_	_	1	comp:obj	_	_
 3	cagoulés	cagoulé	ADJ	_	_	2	mod	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
@@ -2472,7 +2472,7 @@
 # sent_id = Rhap_M2006-32
 # text = vous vous trouvez au Gosier
 # macrosyntax = vous vous trouvez au Gosier //
-1	vous	vous	PRON	_	_	3	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	vous	vous	PRON	_	_	3	comp:obl	_	_
 3	trouvez	trouver	VERB	_	_	0	root	_	_
 4	au	à+le	ADP	_	_	3	comp:obl	_	_
@@ -2481,7 +2481,7 @@
 # sent_id = Rhap_M2006-33
 # text = où en est la situation
 # macrosyntax = où en est la situation //
-1	où	où	PRON	_	_	2	obl:mod	_	_
+1	où	où	PRON	_	_	3	mod	_	_
 2	en	en	PRON	_	_	3	comp:pred	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -2497,7 +2497,7 @@
 # sent_id = Rhap_M2006-35
 # text = on vous retrouve pour un nouveau point dans le journal de huit heures
 # macrosyntax = on vous retrouve pour un nouveau point dans le journal de huit heures //
-1	on	on	PRON	_	_	3	nsubj	_	_
+1	on	on	PRON	_	_	3	subj	_	_
 2	vous	vous	PRON	_	_	3	comp:obj	_	_
 3	retrouve	retrouver	VERB	_	_	0	root	_	_
 4	pour	pour	ADP	_	_	3	mod	_	_
@@ -2514,14 +2514,14 @@
 # sent_id = Rhap_M2006-36
 # text = vous le savez
 # macrosyntax = vous le savez //
-1	vous	vous	PRON	_	_	3	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	le	le	PRON	_	_	3	comp:obj	_	_
 3	savez	savoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_M2006-37
 # text = vous y étiez il y a pas longtemps
 # macrosyntax = vous y étiez il y a pas longtemps //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	y	y	PRON	_	_	3	comp:pred	_	_
 3	étiez	être	AUX	_	_	0	root	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -2533,7 +2533,7 @@
 # sent_id = Rhap_M2006-38
 # text = tout le monde est maintenant en tout cas suspendu à ce que Nicolas Sarkozy annoncera demain lors de sa rencontre à l' Élysée avec les élus d' outre - mer
 # macrosyntax = tout le monde est maintenant ( en tout cas ) suspendu à ce que Nicolas Sarkozy annoncera demain lors de sa rencontre à l'Élysée avec les élus d'outre-mer //
-1	tout	tout	ADV	_	_	3	advmod	_	_
+1	tout	tout	ADV	_	_	3	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	monde	monde	NOUN	_	_	4	subj@pass	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -2567,7 +2567,7 @@
 # sent_id = Rhap_M2006-39
 # text = pendant ce temps en métropole la contestation ne faiblit pas dans l' enseignement
 # macrosyntax = pendant ce temps <+ en métropole <+ la contestation ne faiblit pas dans l'enseignement //
-1	pendant	pendant	ADP	_	_	3	case	_	_
+1	pendant	pendant	ADP	_	_	9	mod	_	_
 2	ce	ce	DET	_	_	3	det	_	_
 3	temps	temps	NOUN	_	_	1	comp:obj	_	_
 4	en	en	ADP	_	_	9	mod	_	_
@@ -2584,7 +2584,7 @@
 # sent_id = Rhap_M2006-40
 # text = hier tour de chauffe avant la grande mobilisation de demain
 # macrosyntax = hier <+ tour de chauffe avant la grande mobilisation de demain //
-1	hier	hier	ADV	_	_	2	advmod:periph	_	_
+1	hier	hier	ADV	_	_	2	mod	_	_
 2	tour	tour	NOUN	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	chauffe	chauffe	NOUN	_	_	3	comp:obj	_	_
@@ -2622,7 +2622,7 @@
 # sent_id = Rhap_M2006-43
 # text = à Paris un rassemblement devant le ministère de l' enseignement supérieur
 # macrosyntax = à Paris < un rassemblement devant le ministère de l'enseignement supérieur //
-1	à	à	ADP	_	_	2	case	_	_
+1	à	à	ADP	_	_	4	mod	_	_
 2	Paris	Paris	PROPN	_	_	1	comp:obj	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	rassemblement	rassemblement	NOUN	_	_	0	root	_	_
@@ -2676,7 +2676,7 @@
 # sent_id = Rhap_M2006-46
 # text = aux États - Unis Barack Obama a promulgué son plan de relance adopté ce week - end par le congrès
 # macrosyntax = aux États Unis <+ Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès //
-1	aux	à+le	ADP	_	_	2	case	_	_
+1	aux	à+le	ADP	_	_	8	mod	_	_
 2	États	États	PROPN	_	_	1	comp:obj	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	Unis	Unis	ADJ	_	_	2	mod	_	_
@@ -2700,7 +2700,7 @@
 # sent_id = Rhap_M2006-47
 # text = sept cent quatre-vingt-sept milliards de dollars destinés à sauver ou créer plus de trois millions et demi d' emplois
 # macrosyntax = sept-cent quatre-vingt-sept milliards de dollars destinés à { sauver | ^ou créer } plus de trois millions et demi d'emplois //
-1	sept	sept	NUM	_	_	4	nummod	_	_
+1	sept	sept	NUM	_	_	4	mod	_	_
 2	cent	cent	NUM	_	_	1	mod	_	_
 3	quatre-vingt-sept	quatre-vingt-sept	NUM	_	_	2	mod	_	_
 4	milliards	milliard	NOUN	_	_	0	root	_	_
@@ -2747,7 +2747,7 @@
 # sent_id = Rhap_M2006-49
 # text = cela concerne plusieurs millions d' américains à la rue faute de pouvoir payer leur crédit
 # macrosyntax = cela concerne plusieurs millions d'américains à la rue faute de pouvoir payer leur crédit //
-1	cela	cela	PRON	_	_	2	nsubj	_	_
+1	cela	cela	PRON	_	_	2	subj	_	_
 2	concerne	concerner	VERB	_	_	0	root	_	_
 3	plusieurs	plusieurs	DET	_	_	4	det	_	_
 4	millions	million	NOUN	_	_	2	comp:obj	_	_
@@ -2779,7 +2779,7 @@
 # sent_id = Rhap_M2006-51
 # text = General Motors et Chrysler ont présenté hier leur plan de restructuration à l' administration Obama
 # macrosyntax = { General Motors | ^et Chrysler } ont présenté hier leur plan de restructuration à l'administration Obama //
-1	General	General	PROPN	_	_	6	nsubj	_	_
+1	General	General	PROPN	_	_	5	subj	_	_
 2	Motors	Motors	PROPN	_	_	1	flat	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
 4	Chrysler	Chrysler	PROPN	_	_	1	conj:coord	_	_
@@ -2798,7 +2798,7 @@
 # sent_id = Rhap_M2006-52
 # text = ils demandent vingt-deux milliards de dollars en contrepartie de suppressions d' emplois mais pas seulement
 # macrosyntax = ils demandent vingt-deux milliards de dollars { en contrepartie de suppressions d'emplois | ^mais pas seulement } //
-1	ils	il	PRON	_	_	2	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	demandent	demander	VERB	_	_	0	root	_	_
 3	vingt-deux	vingt-deux	NUM	_	_	4	mod	_	_
 4	milliards	milliard	NOUN	_	_	2	comp:obj	_	_
@@ -2817,7 +2817,7 @@
 # sent_id = Rhap_M2006-53
 # text = tout est bon vous le verrez avec Bertrand Vanier
 # macrosyntax = tout est bon "vous le verrez" > avec Bertrand Vanier //
-1	tout	tout	PRON	_	_	3	nsubj	_	_
+1	tout	tout	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	bon	bon	ADJ	_	_	2	comp:pred	_	_
 4	vous	vous	PRON	_	_	6	subj	_	_
@@ -2889,7 +2889,7 @@
 # sent_id = Rhap_M2006-57
 # text = elle se trouvait dans le parloir de la prison au moment où les deux détenus se sont fait la belle
 # macrosyntax = elle se trouvait dans le parloir de la prison au moment où les deux détenus se sont fait la belle //
-1	elle	il	PRON	_	_	3	nsubj	_	_
+1	elle	il	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	trouvait	trouver	VERB	_	_	0	root	_	_
 4	dans	dans	ADP	_	_	3	comp:obl	_	_
@@ -2970,7 +2970,7 @@
 # sent_id = Rhap_M2006-61
 # text = lundi le président avait annoncé qu' il rendrait sa décision dans un délai raisonnable après avoir entendu notamment l' ancien préfet Bonnet
 # macrosyntax = lundi <+ le président avait annoncé qu'il rendrait sa décision { dans un délai raisonnable | après avoir entendu notamment l'ancien préfet Bonnet } //
-1	lundi	lundi	NOUN	_	_	5	dislocated	_	_
+1	lundi	lundi	NOUN	_	_	4	dislocated	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	président	président	NOUN	_	_	4	subj	_	_
 4	avait	avoir	AUX	_	_	0	root	_	_
@@ -2996,7 +2996,7 @@
 # sent_id = Rhap_M2006-62
 # text = depuis vendredi soir la défense fait le forcing pour prendre le contrôle des débats
 # macrosyntax = depuis vendredi soir <+ la défense fait le forcing pour prendre le contrôle des débats //
-1	depuis	depuis	ADP	_	_	2	case	_	_
+1	depuis	depuis	ADP	_	_	6	mod	_	_
 2	vendredi	vendredi	NOUN	_	_	1	comp:obj	_	_
 3	soir	soir	NOUN	_	_	2	compound	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -3014,7 +3014,7 @@
 # sent_id = Rhap_M2006-63
 # text = on écoute maître Sollacaro au micro de Christian Binner
 # macrosyntax = on écoute maître Sollacaro au micro de Christian Binner //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	écoute	écouter	VERB	_	_	0	root	_	_
 3	maître	maître	NOUN	_	_	2	comp:obj	_	_
 4	Sollacaro	Sollacaro	PROPN	_	_	3	appos@nmod	_	_
@@ -3027,7 +3027,7 @@
 # sent_id = Rhap_M2006-64
 # text = il est l' avocat l' un des avocats d' Yvan Colonna
 # macrosyntax = ( il est { l'avocat | l'un des avocats } d'Yvan Colonna // )
-1	il	il	PRON	_	_	4	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	l'	le	DET	_	_	4	det	_	_
 4	avocat	avocat	NOUN	_	_	2	comp:pred	_	_
@@ -3042,7 +3042,7 @@
 # sent_id = Rhap_M2006-65
 # text = pour Philippe Lemaire l' avocat des parties civiles c' est d~ ce sont des procédés terroristes
 # macrosyntax = pour { Philippe Lemaire | (+ l' avocat des parties civiles ) } <+ { c' est d~ | ce sont des } procédés terroristes //
-1	pour	pour	ADP	_	_	2	case	_	_
+1	pour	pour	ADP	_	_	10	mod	_	_
 2	Philippe	Philippe	PROPN	_	_	1	comp:obj	_	_
 3	Lemaire	Lemaire	PROPN	_	_	2	flat	_	_
 4	l'	le	DET	_	_	5	det	_	_
@@ -3062,7 +3062,7 @@
 # sent_id = Rhap_M2006-66
 # text = il le dit à Laurent Doulsant
 # macrosyntax = il le dit à Laurent Doulsant //
-1	il	il	PRON	_	_	3	nsubj	_	_
+1	il	il	PRON	_	_	3	subj	_	_
 2	le	le	PRON	_	_	3	comp:obj	_	_
 3	dit	dire	VERB	_	_	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -3090,7 +3090,7 @@
 # sent_id = Rhap_M2006-68
 # text = pour la première fois dans l' histoire du portable les ventes devraient baisser en deux mille neuf
 # macrosyntax = pour la première fois dans l'histoire du portable <+ les ventes devraient baisser en deux mille neuf //
-1	pour	pour	ADP	_	_	4	case	_	_
+1	pour	pour	ADP	_	_	13	mod	_	_
 2	la	le	DET	_	_	4	det	_	_
 3	première	premier	ADJ	_	_	4	mod	_	_
 4	fois	fois	NOUN	_	_	1	comp:obj	_	_
@@ -3141,7 +3141,7 @@
 # sent_id = Rhap_M2006-71
 # text = on jouait trois matchs en retard dans la vingtième journée de ligue un hier
 # macrosyntax = on jouait trois matchs en retard dans la vingtième journée de ligue un hier //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	jouait	jouer	VERB	_	_	0	root	_	_
 3	trois	trois	NUM	_	_	4	mod	_	_
 4	matchs	match	NOUN	_	_	2	comp:obj	_	_
@@ -3171,7 +3171,7 @@
 # sent_id = Rhap_M2006-73
 # text = Valenciennes sort de la zone de relégation après sa victoire sur Caen deux zéro
 # macrosyntax = Valenciennes sort de la zone de relégation après sa victoire sur Caen >+ deux zéro //
-1	Valenciennes	Valenciennes	PROPN	_	_	2	nsubj	_	_
+1	Valenciennes	Valenciennes	PROPN	_	_	2	subj	_	_
 2	sort	sortir	VERB	ETRE	_	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -3189,7 +3189,7 @@
 # sent_id = Rhap_M2006-74
 # text = Nice s' impose à Nancy deux à un
 # macrosyntax = Nice s'impose à Nancy >+ deux à un //
-1	Nice	Nice	PROPN	_	_	3	nsubj	_	_
+1	Nice	Nice	PROPN	_	_	3	subj	_	_
 2	s'	se	PRON	_	_	3	comp@fixed	_	_
 3	impose	imposer	VERB	_	_	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -3201,7 +3201,7 @@
 # sent_id = Rhap_D1003-1
 # text = euh à la base je voulais pas faire L
 # macrosyntax = $L1 "euh" à la base <+ je voulais pas faire L //=
-1	euh	euh	INTJ	_	_	6	discourse	_	_
+1	euh	euh	INTJ	_	_	8	discourse	_	_
 2	à	à	ADP	_	_	8	mod	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	base	base	NOUN	_	_	2	comp:obj	_	_
@@ -3214,7 +3214,7 @@
 # sent_id = Rhap_D1003-2
 # text = je voulais faire S
 # macrosyntax = je voulais faire S //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	voulais	vouloir	AUX	_	_	0	root	_	_
 3	faire	faire	VERB	_	_	2	comp:aux	_	_
 4	S	S	PROPN	_	_	3	comp:obj	_	_
@@ -3222,7 +3222,7 @@
 # sent_id = Rhap_D1003-3
 # text = et euh en fin de compte euh on m' a pas acceptée en S parce que j' avais une trop mauvaise moyenne en SVT
 # macrosyntax = ^et "euh" en fin de compte < "euh" on m'a pas acceptée en S parce que j'avais une trop mauvaise moyenne en SVT //
-1	et	et	CCONJ	_	_	12	cc	_	_
+1	et	et	CCONJ	_	_	10	cc	_	_
 2	euh	euh	INTJ	_	_	12	discourse	_	_
 3	en	en	ADP	_	_	12	mod	_	_
 4	fin	fin	NOUN	_	_	3	comp:obj	_	_
@@ -3257,7 +3257,7 @@
 # sent_id = Rhap_D1003-5
 # text = ça m' a beaucoup déçue parce que j' avais énormément de d' attachement pour les les matières scientifiques
 # macrosyntax = ça m'a beaucoup déçue parce que j'avais énormément { de | d' } attachement pour { les | les } matières scientifiques //
-1	ça	ça	PRON	_	_	5	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	5	comp:obj	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
 4	beaucoup	beaucoup	ADV	_	_	3	mod	_	_
@@ -3279,7 +3279,7 @@
 # sent_id = Rhap_D1003-6
 # text = et euh et donc j' ai choisi L un peu par défaut au début
 # macrosyntax = { ^et "euh" | ^et } donc < j'ai choisi L un peu par défaut >+ au début //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3	et	et	CCONJ	_	_	6	cc	_	_
 4	donc	donc	ADV	_	_	6	mod	_	_
@@ -3297,7 +3297,7 @@
 # sent_id = Rhap_D1003-7
 # text = mais ensuite je me suis rendu compte que c' était vraiment ce qui me plaisait
 # macrosyntax = ^mais ensuite <+ je me suis rendu compte que c'était vraiment ce qui me plaisait //
-1	mais	mais	CCONJ	_	_	6	cc	_	_
+1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	ensuite	ensuite	ADV	_	_	5	mod	_	_
 3	je	je	PRON	_	_	5	subj@pass	_	_
 4	me	me	PRON	_	_	6	unk@iobj	_	_
@@ -3316,7 +3316,7 @@
 # sent_id = Rhap_D1003-8
 # text = parce que quand j' étais petite quand j' avais onze ans euh enfin même avant à sept ans on a commencé à énormément déménager avec ma famille
 # macrosyntax = ^parce ^que { quand j'étais petite | quand j'avais onze ans "euh" | "enfin" même avant | à sept ans } <+ on a commencé à énormément déménager avec ma famille //
-1	parce	parce	SCONJ	_	_	21	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	quand	quand	SCONJ	_	_	20	mod	_	_
 4	j'	je	PRON	_	_	5	subj	_	_
@@ -3347,7 +3347,7 @@
 # sent_id = Rhap_D1003-9
 # text = et euh et quand j' étais petite j' ai vraiment mal vécu le fait qu' on déménage tout le temps
 # macrosyntax = { ^et "euh" | ^et } quand j'étais petite <+ j'ai vraiment mal vécu le fait qu'on déménage tout le temps //
-1	et	et	CCONJ	_	_	12	cc	_	_
+1	et	et	CCONJ	_	_	9	cc	_	_
 2	euh	euh	INTJ	_	_	12	discourse	_	_
 3	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
 4	quand	quand	SCONJ	_	_	9	mod	_	_
@@ -3371,7 +3371,7 @@
 # sent_id = Rhap_D1003-10
 # text = parce que j' ai démé~ déménagé neuf fois dans ma vie
 # macrosyntax = ^parce ^que j'ai { démé~ | déménagé } neuf fois dans ma vie //
-1	parce	parce	SCONJ	_	_	5	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	1	comp:obj	_	_
@@ -3402,7 +3402,7 @@
 # sent_id = Rhap_D1003-12
 # text = on changeait de de de quotidien de de d' entour~ d' entour~ d' entourage
 # macrosyntax = on changeait { { de | de | de } quotidien | { { de | de | d'} entour~ | d'entour~ | d'entourage } } //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	changeait	changer	VERB	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	de	de	ADP	conj:reform	_	6	unk	_	_
@@ -3420,7 +3420,7 @@
 # sent_id = Rhap_D1003-13
 # text = donc euh ça m' a vraiment vraiment marquée
 # macrosyntax = donc < "euh" ça m'a { vraiment | vraiment } marquée //
-1	donc	donc	ADV	_	_	8	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	ça	ça	PRON	_	_	5	subj	_	_
 4	m'	me	PRON	_	_	8	comp:obj	_	_
@@ -3432,7 +3432,7 @@
 # sent_id = Rhap_D1003-14
 # text = et j' ai vraiment mal vécu ça
 # macrosyntax = ^et j'ai vraiment mal vécu > ça //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	5	mod	_	_
@@ -3443,7 +3443,7 @@
 # sent_id = Rhap_D1003-15
 # text = et euh et en quand j' ai eu onze ans en deux mille un justement euh on est partis au Portugal complètement
 # macrosyntax = { ^et "euh"| ^et } { en ESPERLUETTE | quand j'ai eu onze ans | en deux mille un justement } <+ "euh" on est partis au Portugal complètement //
-1	et	et	CCONJ	_	_	19	cc	_	_
+1	et	et	CCONJ	_	_	18	cc	_	_
 2	euh	euh	INTJ	_	_	19	discourse	_	_
 3	et	et	CCONJ	_	_	1	conj:dicto	_	_
 4	en	en	ADP	_	_	18	mod	_	_
@@ -3469,7 +3469,7 @@
 # sent_id = Rhap_D1003-16
 # text = parce que je suis d' origine portugaise
 # macrosyntax = ^parce ^que je suis d'origine portugaise //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	suis	être	AUX	_	_	1	comp:obj	_	_
@@ -3490,7 +3490,7 @@
 # sent_id = Rhap_D1003-18
 # text = donc on est partis vivre au Portugal
 # macrosyntax = donc < on est partis vivre au Portugal //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	partis	partir	VERB	ETRE	_	3	comp:aux	_	_
@@ -3501,7 +3501,7 @@
 # sent_id = Rhap_D1003-19
 # text = j' ai été un an à Lisbonne et un an à Porto dans les dans des collèges et dans des dans des primaires portu~ euh enfin françaises
 # macrosyntax = j'ai été { un an à Lisbonne | ^et un an à Porto } { { dans les | dans des } collèges | ^et { dans des | dans des } primaires { portu~ "euh" | "enfin" françaises } } //
-1	j'	je	PRON	_	_	7	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	été	être	AUX	_	_	2	comp:aux	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -3532,7 +3532,7 @@
 # sent_id = Rhap_D1003-20
 # text = donc on parlait français
 # macrosyntax = donc < on parlait français //
-1	donc	donc	ADV	_	_	3	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	parlait	parler	VERB	_	_	0	root	_	_
 4	français	français	NOUN	_	_	3	comp:obj	_	_
@@ -3540,7 +3540,7 @@
 # sent_id = Rhap_D1003-21
 # text = mais c' était au Portugal
 # macrosyntax = ^mais c'était au Portugal //
-1	mais	mais	CCONJ	_	_	5	cc	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	était	être	AUX	_	_	0	root	_	_
 4	au	à+le	ADP	_	_	3	comp:pred	_	_
@@ -3549,7 +3549,7 @@
 # sent_id = Rhap_D1003-22
 # text = et euh et donc j' y ai vécu deux ans
 # macrosyntax = { ^et "euh" | ^et } donc < j'y ai vécu deux ans //
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	8	discourse	_	_
 3	et	et	CCONJ	_	_	7	cc	_	_
 4	donc	donc	ADV	_	_	7	mod	_	_
@@ -3563,7 +3563,7 @@
 # sent_id = Rhap_D1003-23
 # text = et euh j' ai aussi très mal vécu le la chose parce que je je je je connaissais aucun mot du portugais
 # macrosyntax = ^et "euh" j'ai aussi très mal vécu { le | la } chose parce que { je | je | je | je } connaissais aucun mot du portugais //
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	8	discourse	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	0	root	_	_
@@ -3622,7 +3622,7 @@
 # sent_id = Rhap_D1003-25
 # text = et je me suis sentie complètement abandonnée
 # macrosyntax = $L1 ^et je me suis sentie complètement abandonnée //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	je	PRON	_	_	4	subj@pass	_	_
 3	me	me	PRON	_	_	5	unk@iobj	_	_
 4	suis	être	AUX	_	_	0	root	_	_
@@ -3633,7 +3633,7 @@
 # sent_id = Rhap_D1003-26
 # text = je connaissais personne
 # macrosyntax = je connaissais personne //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	connaissais	connaître	VERB	_	_	0	root	_	_
 3	personne	personne	PRON	_	_	2	comp:obj	_	_
 
@@ -3675,7 +3675,7 @@
 # sent_id = Rhap_D1003-30
 # text = parce que souvent c' était les Portugais qui venaient dans le le collège français pour avoir euh en gros un meilleur diplôme
 # macrosyntax = ^parce ^que souvent < c'était les Portugais qui venaient dans { le | le } collège français pour avoir "euh" ( en gros ) un meilleur diplôme //
-1	parce	parce	SCONJ	_	_	7	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	souvent	souvent	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -3711,7 +3711,7 @@
 # sent_id = Rhap_D1003-32
 # text = j' ai très mal vécu la chose
 # macrosyntax = j'ai très mal vécu la chose //
-1	j'	je	PRON	_	_	5	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	4	mod	_	_
 4	mal	mal	ADV	_	_	2	mod	_	_
@@ -3722,7 +3722,7 @@
 # sent_id = Rhap_D1003-33
 # text = donc euh j' avais qu' un souhait c' était re~ de revenir en France
 # macrosyntax = donc < "euh" j'avais qu'un souhait < c'était { re~ | de revenir } en France //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	avais	avoir	VERB	_	_	0	root	_	_
@@ -3740,7 +3740,7 @@
 # sent_id = Rhap_D1003-34
 # text = donc quand je suis revenue en France ça a été un grand soulagement
 # macrosyntax = donc < quand je suis revenue en France <+ ça a été un grand soulagement //+
-1	donc	donc	ADV	_	_	13	advmod:periph	_	_
+1	donc	donc	ADV	_	_	9	mod	_	_
 2	quand	quand	SCONJ	_	_	9	mod	_	_
 3	je	je	PRON	_	_	4	subj@pass	_	_
 4	suis	être	AUX	_	_	2	comp:obj	_	_
@@ -3757,7 +3757,7 @@
 # sent_id = Rhap_D1003-35
 # text = et euh jusque jusqu' à la première justement où après on m' a dit tu tu iras pas en S
 # macrosyntax = ^et "euh" { jusque | jusqu' } à la première justement où après on m'a dit [ { tu | tu } iras pas en S // ] //
-1	et	et	CCONJ	_	_	14	cc	_	_
+1	et	et	CCONJ	_	_	13	cc	_	_
 2	euh	euh	INTJ	_	_	14	discourse	_	_
 3	jusque	jusque	ADP	_	_	13	mod	_	_
 4	jusqu'	jusque	ADP	_	_	3	conj:dicto	_	_
@@ -3781,7 +3781,7 @@
 # sent_id = Rhap_D1003-36
 # text = j' ai euh j' ai ga~ j' ai j' en ai gardé un très mauvais souvenir
 # macrosyntax = { { j'ai "euh" | j'ai } ga~ | { j'ai | j'en ai } gardé } un très mauvais souvenir //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	j'	je	PRON	_	_	5	subj	_	_
@@ -3801,7 +3801,7 @@
 # sent_id = Rhap_D1003-37
 # text = et c' est ensuite quand je suis partie partie en en première L que je me suis rendu compte qu' en fait c' était un un un un super enfin une super expérience
 # macrosyntax = ^et c'est { ensuite | quand je suis { partie | partie } { en | en } première L } que je me suis rendu compte qu' [ en fait < c'était { { un | un | un | un } super | "enfin" une super } expérience ] //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	ensuite	ensuite	ADV	_	_	3	comp:pred	_	_
@@ -3838,7 +3838,7 @@
 # sent_id = Rhap_D1003-38
 # text = ça m' a~ ça m' avait beaucoup en~ enrichie intérieurement
 # macrosyntax = { ça m'a~ | ça m'avait } beaucoup { en~ | enrichie } intérieurement //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	3	comp:obj	_	_
 3	a~	a~	VERB	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	6	subj	_	_
@@ -3852,7 +3852,7 @@
 # sent_id = Rhap_D1003-39
 # text = déjà j' ai retrouvé mes origines quand même
 # macrosyntax = déjà < j'ai retrouvé mes origines > quand même //
-1	déjà	déjà	ADV	_	_	4	advmod:periph	_	_
+1	déjà	déjà	ADV	_	_	3	mod	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	retrouvé	retrouver	VERB	_	_	3	comp:aux	_	_
@@ -3864,7 +3864,7 @@
 # sent_id = Rhap_D1003-40
 # text = j' ai commencé à apprendre la langue
 # macrosyntax = j'ai commencé à apprendre la langue //
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	commencé	commencer	VERB	_	_	2	comp:aux	_	_
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
@@ -3875,7 +3875,7 @@
 # sent_id = Rhap_D1003-41
 # text = j' ai connu s~ connu beaucoup enfin une nouvelle culture
 # macrosyntax = j'ai { connu s~ | connu } { beaucoup ESPERLUETTE | "enfin" une nouvelle culture } //
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	connu	connaître	VERB	_	_	2	comp:aux	_	_
 4	s~	s~	X	_	_	3	unk	_	_
@@ -3889,7 +3889,7 @@
 # sent_id = Rhap_D1003-42
 # text = je me suis vraiment ouverte sur le monde
 # macrosyntax = je me suis vraiment ouverte sur le monde //
-1	je	je	PRON	_	_	5	nsubj:pass	_	_
+1	je	je	PRON	_	_	3	subj@pass	_	_
 2	me	me	PRON	_	_	5	unk@obj	_	_
 3	suis	être	AUX	_	_	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
@@ -3901,7 +3901,7 @@
 # sent_id = Rhap_D1003-43
 # text = et donc euh c' est pour ça qu' aujourd' hui je suis en italien en euh
 # macrosyntax = ^et donc < "euh" c'est pour ça qu' [ aujourd'hui <+ je suis { en italien | en XXX } "euh" ] //+
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	6	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -3921,7 +3921,7 @@
 # sent_id = Rhap_M0004-1
 # text = tu montes les escaliers
 # macrosyntax = tu montes les escaliers //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	montes	monter	VERB	ETRE	_	0	root	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	escaliers	escalier	NOUN	_	_	2	comp:obj	_	_
@@ -3929,7 +3929,7 @@
 # sent_id = Rhap_M0004-2
 # text = tu descends jusqu' au cinéma Star
 # macrosyntax = tu descends jusqu' au cinéma Star //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	descends	descendre	VERB	ETRE	_	0	root	_	_
 3	jusqu'	jusque	ADP	_	_	2	mod	_	_
 4	au	à+le	ADP	_	_	5	unk	_	_
@@ -3939,7 +3939,7 @@
 # sent_id = Rhap_M0004-3
 # text = arrivé au cinéma Star il faut continuer tout droit jusqu' en bas de la rue jusqu' au rond - point
 # macrosyntax = arrivé au cinéma Star < il faut continuer tout droit { jusqu' en bas de la rue | jusqu' au rond-point } //
-1	arrivé	arriver	VERB	ETRE	_	6	advcl:periph	_	_
+1	arrivé	arriver	VERB	ETRE	_	6	mod	_	_
 2	au	à+le	ADP	_	_	1	comp:obl	_	_
 3	cinéma	cinéma	NOUN	_	_	2	comp:obj	_	_
 4	Star	Star	PROPN	_	_	3	appos@nmod	_	_
@@ -3963,7 +3963,7 @@
 # sent_id = Rhap_M0004-4
 # text = au rond - point il faut tourner à gauche
 # macrosyntax = au rond-point <+ il faut tourner à gauche //
-1	au	à+le	ADP	_	_	2	case	_	_
+1	au	à+le	ADP	_	_	6	mod	_	_
 2	rond	rond	NOUN	_	_	1	comp:obj	_	_
 3	-	-	PUNCT	_	_	4	punct	_	_
 4	point	point	NOUN	_	_	2	unk@fixed	_	_
@@ -3992,7 +3992,7 @@
 # sent_id = Rhap_M0013-1
 # text = alors à pied
 # macrosyntax = alors à pied //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	2	mod	_	_
 2	à	à	ADP	_	_	0	root	_	_
 3	pied	pied	NOUN	_	_	2	comp:obj	_	_
 
@@ -4040,7 +4040,7 @@
 # sent_id = Rhap_M0013-4
 # text = elle fait un petit coude à un moment vous verrez
 # macrosyntax = elle fait un petit coude à un moment "vous verrez" //
-1	elle	il	PRON	_	_	2	nsubj	_	_
+1	elle	il	PRON	_	_	2	subj	_	_
 2	fait	faire	VERB	_	_	0	root	_	_
 3	un	un	DET	_	_	5	det	_	_
 4	petit	petit	ADJ	_	_	5	mod	_	_
@@ -4092,7 +4092,7 @@
 # sent_id = Rhap_M0013-7
 # text = c' est la place Victor Hugo
 # macrosyntax = c' est la place Victor Hugo //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	place	place	NOUN	_	_	2	comp:pred	_	_
@@ -4185,7 +4185,7 @@
 # sent_id = Rhap_M0013-10
 # text = c' est un grand bâtiment
 # macrosyntax = c' est un grand bâtiment //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	5	det	_	_
 4	grand	grand	ADJ	_	_	5	mod	_	_
@@ -4194,7 +4194,7 @@
 # sent_id = Rhap_M0013-11
 # text = vous le verrez euh sans problème
 # macrosyntax = vous le verrez "euh" sans problème //
-1	vous	vous	PRON	_	_	3	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	le	le	PRON	_	_	3	comp:obj	_	_
 3	verrez	voir	VERB	_	_	0	root	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -4204,7 +4204,7 @@
 # sent_id = Rhap_M0013-12
 # text = vous connaissez déjà un peu ou
 # macrosyntax = { connaissez déjà un peu | ^ou ESPERLUETTE } //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	connaissez	connaître	VERB	_	_	0	root	_	_
 3	déjà	déjà	ADV	_	_	2	mod	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
@@ -4221,7 +4221,7 @@
 # sent_id = Rhap_D0009-2
 # text = on a nos nos chaises qui ont besoin de refaire
 # macrosyntax = on a { nos | nos } chaises qui ont besoin de refaire //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	a	avoir	VERB	_	_	0	root	_	_
 3	nos	son	DET	_	_	5	det	_	_
 4	nos	son	DET	conj:reform	_	3	conj:dicto	_	_
@@ -4235,7 +4235,7 @@
 # sent_id = Rhap_D0009-3
 # text = est -ce que tu connais des un endroit où je pourrais les laisser pour le rempaillage
 # macrosyntax = est-ce que tu connais { des | un } endroit où je pourrais les laisser pour le rempaillage //
-1	est	être	VERB	_	_	0	root	_	_
+1	est	être	VERB	_	_	5	comp:obj	_	_
 2	-ce	ce	PRON	_	_	1	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
@@ -4273,7 +4273,7 @@
 # sent_id = Rhap_D0009-6
 # text = c' est plus simple
 # macrosyntax = $L1 c'est plus simple // -$
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	plus	plus	ADV	_	_	4	mod	_	_
 4	simple	simple	ADJ	_	_	2	comp:pred	_	_
@@ -4281,7 +4281,7 @@
 # sent_id = Rhap_D0009-7
 # text = tu as tu as quelqu' un qui peut
 # macrosyntax = $- $L2 { tu as | tu as } quelqu'un qui peut ESPERLUETTE //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	as	avoir	VERB	_	_	0	root	_	_
 3	tu	tu	PRON	_	_	4	subj	_	_
 4	as	avoir	VERB	conj:reform	_	2	conj:dicto	_	_
@@ -4305,7 +4305,7 @@
 # sent_id = Rhap_D0009-10
 # text = j' ai quelqu' un qui est de Saint - Sauveur Lorzac qui passe
 # macrosyntax = j'ai quelqu'un -$ qui est de Saint-Sauveur Lorzac qui passe //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	quelqu'	quelque	DET	_	_	4	det	_	_
 4	un	un	PRON	_	_	2	comp:obj	_	_
@@ -4354,14 +4354,14 @@
 # sent_id = Rhap_D0009-14
 # text = c' est quoi
 # macrosyntax = $L1 c'est quoi //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	quoi	quoi	PRON	_	_	2	comp:pred	_	_
 
 # sent_id = Rhap_D0009-15
 # text = ce sont des XXX juste XXX
 # macrosyntax = ce sont des $- $L1 XXX juste XXX //
-1	ce	ce	PRON	_	_	4	nsubj	_	_
+1	ce	ce	PRON	_	_	2	subj	_	_
 2	sont	être	AUX	_	_	0	root	_	_
 3	des	de+le	DET	_	_	2	comp:pred	_	_
 4	XXX	XXX	PROPN	_	_	3	comp:obj	_	_
@@ -4395,7 +4395,7 @@
 # sent_id = Rhap_D0009-18
 # text = il faut compter euh pff l' équivalent de quarante euros quelque chose comme ça ah oui ah
 # macrosyntax = il faut compter "euh" "pff" { { l'équivalent de quarante euros | quelque chose comme ça } |} //+ $L2 "ah" "oui" //+ ( "ah" 
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	faut	falloir	VERB	_	_	0	root	_	_
 3	compter	compter	VERB	_	_	2	comp:pred	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -4416,7 +4416,7 @@
 # sent_id = Rhap_D0009-19
 # text = je pensais plus que ça oui quarante quarante-cinq
 # macrosyntax = je pensais plus que $- ça // ) ( $L1 "oui" // ) -$ {| { quarante $- | quarante-cinq } } //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	pensais	penser	VERB	_	_	0	root	_	_
 3	plus	plus	ADV	_	_	2	comp:obj	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
@@ -4441,7 +4441,7 @@
 # sent_id = Rhap_D0009-21
 # text = là par contre ça doit être plus onéreux
 # macrosyntax = $L2 là < par contre < ça doit être $- plus onéreux //
-1	là	là	ADV	_	_	5	obl:periph	_	_
+1	là	là	ADV	_	_	5	mod	_	_
 2	par	par	ADP	_	_	5	mod	_	_
 3	contre	contre	ADP	_	_	2	comp:obj	_	_
 4	ça	ça	PRON	_	_	5	subj	_	_
@@ -4453,7 +4453,7 @@
 # sent_id = Rhap_D0009-22
 # text = il faut faut compter autour de soixante soixante-dix
 # macrosyntax = il { faut -$ | faut } compter autour de { soixante | soixante-dix } //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	faut	falloir	VERB	_	_	0	root	_	_
 3	faut	falloir	VERB	_	_	2	conj:dicto	_	_
 4	compter	compter	VERB	_	_	2	comp:pred	_	_
@@ -4500,7 +4500,7 @@
 # sent_id = Rhap_D0009-26
 # text = très rapidement hein
 # macrosyntax = ( $L1 très rapidement "hein" // )
-1	très	très	ADV	_	_	2	advmod	_	_
+1	très	très	ADV	_	_	2	mod	_	_
 2	rapidement	rapidement	ADV	_	_	0	root	_	_
 3	hein	hein	INTJ	_	_	2	discourse	_	_
 
@@ -4538,7 +4538,7 @@
 # sent_id = Rhap_D0009-30
 # text = elle a été abîmée
 # macrosyntax = $L2 elle a été abîmée //
-1	elle	il	PRON	_	_	4	nsubj:pass	_	_
+1	elle	il	PRON	_	_	2	subj@pass	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	été	être	AUX	DoubleAux	_	2	comp:aux	_	_
 4	abîmée	abîmer	VERB	DoubleAux	_	3	comp:aux@pass	_	_
@@ -4546,7 +4546,7 @@
 # sent_id = Rhap_D0009-31
 # text = parce que dessus il y avait des c' est pas des coussins c' était des des carrés de laine tissés qu' on avait eus en Tunisie et qui avaient été mis dessus
 # macrosyntax = ^parce ^que dessus <+ il y avait { des ESPERLUETTE | [ c'est pas des coussins // c'était { des | des } carrés de laine tissés { qu'on avait eus en Tunisie | ^et qui avaient été mis $- dessus } // ] } //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	dessus	dessus	ADV	_	_	6	mod	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -4588,7 +4588,7 @@
 # sent_id = Rhap_D0009-33
 # text = et vraiment c' est c' est pas uni
 # macrosyntax = $L2 ^et vraiment < { c'est | c'est } pas uni //
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	vraiment	vraiment	ADV	_	_	4	mod	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -4600,7 +4600,7 @@
 # sent_id = Rhap_D0009-34
 # text = c' est pas joli hein
 # macrosyntax = c'est $- pas joli "hein" //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	joli	joli	ADJ	_	_	2	comp:pred	_	_
@@ -4609,7 +4609,7 @@
 # sent_id = Rhap_D0009-35
 # text = ça a fait des impacts ouais
 # macrosyntax = $L1 ça a fait des -$ impacts "ouais" //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	fait	faire	VERB	_	_	2	comp:aux	_	_
 4	des	un	DET	_	_	5	det	_	_
@@ -4654,13 +4654,13 @@
 # sent_id = Rhap_D0009-39
 # text = non non
 # macrosyntax = { non | non } //
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 
 # sent_id = Rhap_D0009-40
 # text = mais ce sont les les impacts des coussins qui ont qui ont pénétré dans la paille
 # macrosyntax = ^mais ce sont { les | les } impacts des coussins { qui ont | qui ont } pénétré dans la paille // $- XXX //
-1	mais	mais	CCONJ	_	_	6	cc	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	ce	ce	PRON	_	_	3	subj	_	_
 3	sont	être	AUX	_	_	0	root	_	_
 4	les	le	DET	_	_	6	det	_	_
@@ -4707,7 +4707,7 @@
 # sent_id = Rhap_D0009-43
 # text = il y a pas de problème
 # macrosyntax = il y a pas de problème //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -4731,7 +4731,7 @@
 # sent_id = Rhap_D0009-45
 # text = en plus il travaille avec de la de de la pas de la la de la véritable paille quoi
 # macrosyntax = en plus < il travaille avec { de la | { de | de } la | pas de { la | la } | de la } véritable paille "quoi" //
-1	en	en	ADP	_	_	4	advcl:periph	_	_
+1	en	en	ADP	_	_	4	mod	_	_
 2	plus	plus	ADV	_	_	1	unk	_	_
 3	il	il	PRON	_	_	4	subj	_	_
 4	travaille	travailler	VERB	_	_	0	root	_	_
@@ -4767,7 +4767,7 @@
 # sent_id = Rhap_D0009-47
 # text = d' accord tu as aucun problème
 # macrosyntax = ( $L2 d'accord ) XXX } tu as aucun problème //
-1	d'	d'	ADP	_	_	2	case	_	_
+1	d'	d'	ADP	_	_	4	mod	_	_
 2	accord	accord	NOUN	_	_	1	comp:obj	_	_
 3	tu	tu	PRON	_	_	4	subj	_	_
 4	as	avoir	VERB	_	_	0	root	_	_
@@ -4777,7 +4777,7 @@
 # sent_id = Rhap_D0009-48
 # text = et en une semaine ou deux ça y est
 # macrosyntax = $L2 ^et en { une semaine | ^ou deux } <+ $- "ça y est" 
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	9	cc	_	_
 2	en	en	ADP	_	_	8	mod	_	_
 3	une	un	DET	_	_	4	det	_	_
 4	semaine	semaine	NOUN	_	_	2	comp:obj	_	_
@@ -4790,7 +4790,7 @@
 # sent_id = Rhap_D0009-49
 # text = c' est mh ouais ouais il c' est relivré
 # macrosyntax = { c'est | ( $L1 "mh" -$ { ouais | ouais } // il $- XXX // ) $L2 c'est } relivré -$ //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	mh	mh	INTJ	_	_	2	discourse	_	_
 4	ouais	ouais	INTJ	_	_	2	discourse	_	_
@@ -4837,7 +4837,7 @@
 # sent_id = Rhap_D0009-52
 # text = est -ce que c' en est un vrai
 # macrosyntax = est-ce que c'en est un vrai //
-1	est	être	AUX	_	_	0	root	_	_
+1	est	être	AUX	_	_	6	comp:pred	_	_
 2	-ce	ce	PRON	_	_	6	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	c'	ce	PRON	_	_	6	subj	_	_
@@ -4855,7 +4855,7 @@
 # sent_id = Rhap_D0009-54
 # text = c' est un fauteuil crapaud un véritable
 # macrosyntax = c'est { un fauteuil-crapaud | un $- véritable } //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	fauteuil	fauteuil	NOUN	_	_	2	comp:pred	_	_
@@ -4909,7 +4909,7 @@
 # sent_id = Rhap_D0009-57
 # text = et ils étaient vraiment très très assis très bas très bas
 # macrosyntax = ^et ils étaient vraiment { { très | très } $- assis //+ | $L2 très bas | -$ //+ $L1 très bas } //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	ils	il	PRON	_	_	3	subj	_	_
 3	étaient	être	AUX	_	_	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
@@ -4942,7 +4942,7 @@
 # sent_id = Rhap_D0009-59
 # text = donc alors ça date de quand à peu près ce fauteuil -là
 # macrosyntax = $L2 donc < alors < ça date de -$ quand à peu près > ce fauteuil-là //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	alors	alors	ADV	_	_	4	mod	_	_
 3	ça	ça	PRON	_	_	4	subj	_	_
 4	date	dater	VERB	_	_	0	root	_	_
@@ -4987,7 +4987,7 @@
 # sent_id = Rhap_D0009-62
 # text = ils sont noirs
 # macrosyntax = ( ils sont noirs // ) | 
-1	ils	il	PRON	_	_	3	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	sont	être	AUX	_	_	0	root	_	_
 3	noirs	noir	ADJ	_	_	2	comp:pred	_	_
 
@@ -5003,7 +5003,7 @@
 # sent_id = Rhap_D0009-64
 # text = ils sont typi~ typiquement Napoléon trois
 # macrosyntax = $L1 ils sont -$ { typi~ | typiquement } Napoléon trois //
-1	ils	il	PRON	_	_	5	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	sont	être	AUX	_	_	0	root	_	_
 3	typi~	typi~	ADV	_	_	2	mod	_	_
 4	typiquement	typiquement	ADV	conj:reform	_	3	conj:dicto	_	_
@@ -5013,7 +5013,7 @@
 # sent_id = Rhap_D0009-65
 # text = c' est je te dis dix-huit cent soixante-dix par là
 # macrosyntax = c'est "je te dis" dix-huit cent soixante-dix > par là //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	je	je	PRON	_	_	5	subj	_	_
 4	te	te	PRON	_	_	5	comp:obj	_	_
@@ -5027,7 +5027,7 @@
 # sent_id = Rhap_D0009-66
 # text = donc c' est quel bois
 # macrosyntax = $L2 donc < c'est quel bois //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	quel	quel	PRON	_	_	5	det	_	_
@@ -5036,7 +5036,7 @@
 # sent_id = Rhap_D0009-67
 # text = c' est du bois de hêtre
 # macrosyntax = $L1 c'est du bois de hêtre //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	du	de+le	DET	_	_	2	comp:pred	_	_
 4	bois	bois	NOUN	_	_	3	comp:obj	_	_
@@ -5046,7 +5046,7 @@
 # sent_id = Rhap_D0009-68
 # text = normalement c' est du bois de hêtre dessous et qui est p~ qui est laqué noir
 # macrosyntax = normalement < c'est du bois de hêtre dessous //+ ^et { qui est p~ | qui est laqué noir } //
-1	normalement	normalement	ADV	_	_	5	advmod:periph	_	_
+1	normalement	normalement	ADV	_	_	4	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	du	de+le	ADP	_	_	3	comp:pred	_	_
@@ -5066,7 +5066,7 @@
 # sent_id = Rhap_D0009-69
 # text = alors pour le refaire tu me dis qu' il faudrait que j' aille vers Isigny mh mh Ducey
 # macrosyntax = alors < pour le refaire <+ tu me dis qu'il faudrait que j'aille vers { Isigny |} ( $L1 "mh mh" // ) $L2 {| Ducey } //
-1	alors	alors	ADV	_	_	7	advmod:periph	_	_
+1	alors	alors	ADV	_	_	7	mod	_	_
 2	pour	pour	ADP	_	_	7	mod	_	_
 3	le	le	PRON	_	_	4	comp:obj	_	_
 4	refaire	refaire	VERB	_	_	2	comp:obj	_	_
@@ -5100,7 +5100,7 @@
 # sent_id = Rhap_D0009-71
 # text = c' est la maison de Soré
 # macrosyntax = c'est la maison de Soré //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	maison	maison	NOUN	_	_	2	comp:pred	_	_
@@ -5110,7 +5110,7 @@
 # sent_id = Rhap_D0009-72
 # text = mais ils sont à mh Ducey actuellement
 # macrosyntax = $- $L1 ^mais ils sont à ( $L2 "mh" // ) -$ $L1 Ducey actuellement // 
-1	mais	mais	CCONJ	_	_	6	cc	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	ils	il	PRON	_	_	3	subj	_	_
 3	sont	être	AUX	_	_	0	root	_	_
 4	à	à	ADP	_	_	3	comp:pred	_	_
@@ -5127,7 +5127,7 @@
 # sent_id = Rhap_D0009-74
 # text = alors ils me referaient l' assise
 # macrosyntax = $L2 alors < ils me referaient l'assise //
-1	alors	alors	ADV	_	_	4	advmod:periph	_	_
+1	alors	alors	ADV	_	_	4	mod	_	_
 2	ils	il	PRON	_	_	4	subj	_	_
 3	me	me	PRON	_	_	4	comp:obl	_	_
 4	referaient	refaire	VERB	_	_	0	root	_	_
@@ -5154,7 +5154,7 @@
 # sent_id = Rhap_D0009-76
 # text = tu as vu comment ils sont
 # macrosyntax = tu as vu comment ils sont //
-1	tu	tu	PRON	_	_	3	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	as	avoir	AUX	_	_	0	root	_	_
 3	vu	voir	VERB	_	_	2	comp:aux	_	_
 4	comment	comment	PRON	_	_	6	comp:pred	_	_
@@ -5170,7 +5170,7 @@
 # sent_id = Rhap_D0009-78
 # text = de toutes façons il faut tout reprendre hein
 # macrosyntax = de toutes façons < il faut tout reprendre "hein" //
-1	de	de	ADP	_	_	3	case	_	_
+1	de	de	ADP	_	_	5	mod	_	_
 2	toutes	tout	DET	_	_	3	det	_	_
 3	façons	façon	NOUN	_	_	1	comp:obj	_	_
 4	il	il	PRON	_	_	5	subj	_	_
@@ -5182,7 +5182,7 @@
 # sent_id = Rhap_D0009-79
 # text = quitte à faire le travail il faut faire l' assise et les accoudoirs
 # macrosyntax = quitte à faire le travail < il faut faire { l'assise | ^et les accoudoirs } //
-1	quitte	quitter	VERB	_	_	7	advcl:periph	_	_
+1	quitte	quitter	VERB	_	_	7	mod	_	_
 2	à	à	ADP	_	_	1	mod	_	_
 3	faire	faire	VERB	_	_	2	comp:obj	_	_
 4	le	le	DET	_	_	5	det	_	_
@@ -5199,7 +5199,7 @@
 # sent_id = Rhap_D0009-80
 # text = ça changera pas grand - chose au prix hein
 # macrosyntax = ça changera pas grand-chose au prix "hein" //
-1	ça	ça	PRON	_	_	2	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	changera	changer	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	grand	grand	PRON	_	_	2	comp:obj	_	_
@@ -5212,7 +5212,7 @@
 # sent_id = Rhap_D0009-81
 # text = est -ce que lui peut me le recouvrir en même temps
 # macrosyntax = $L2 est-ce que lui peut me le recouvrir en même temps //
-1	est	être	AUX	_	_	0	root	_	_
+1	est	être	AUX	_	_	8	comp:obj	_	_
 2	-ce	ce	PRON	_	_	5	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	lui	lui	PRON	_	_	5	subj	_	_
@@ -5233,7 +5233,7 @@
 # sent_id = Rhap_D0009-83
 # text = ah oui il fait pas que de le remettre le restaurer
 # macrosyntax = $L2 "ah" "oui" il fait pas que $- de { le remettre | le restaurer } //
-1	ah	ah	INTJ	_	_	4	discourse	_	_
+1	ah	ah	INTJ	_	_	9	discourse	_	_
 2	oui	oui	INTJ	_	_	9	discourse	_	_
 3	il	il	PRON	_	_	4	subj	_	_
 4	fait	faire	SCONJ	_	_	0	root	_	_
@@ -5248,13 +5248,13 @@
 # sent_id = Rhap_D0009-84
 # text = il peut
 # macrosyntax = il peut ESPERLUETTE //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	peut	pouvoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D0009-85
 # text = non non non non non non
 # macrosyntax = $L1 { non | non | non | non | non | non } //
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 3	non	non	ADV	_	_	2	conj:coord	_	_
 4	non	non	ADV	_	_	3	conj:coord	_	_
@@ -5264,20 +5264,20 @@
 # sent_id = Rhap_D0009-86
 # text = non non non
 # macrosyntax = { non | non | non } //
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 3	non	non	ADV	_	_	2	conj:coord	_	_
 
 # sent_id = Rhap_D0009-87
 # text = non non
 # macrosyntax = { non | non } // -$
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 
 # sent_id = Rhap_D0009-88
 # text = oh ben ça ça doit pas être donné hein
 # macrosyntax = $L2 "oh" "ben" ça < ça doit pas être donné "hein" //
-1	oh	oh	INTJ	_	_	5	discourse	_	_
+1	oh	oh	INTJ	_	_	8	discourse	_	_
 2	ben	ben	INTJ	_	_	8	discourse	_	_
 3	ça	ça	PRON	_	_	5	dislocated	_	_
 4	ça	ça	PRON	_	_	5	subj@pass	_	_
@@ -5298,14 +5298,14 @@
 # sent_id = Rhap_D0009-90
 # text = tout est relatif
 # macrosyntax = tout est relatif //
-1	tout	tout	PRON	_	_	3	nsubj	_	_
+1	tout	tout	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	relatif	relatif	ADJ	_	_	2	comp:pred	_	_
 
 # sent_id = Rhap_D0009-91
 # text = parce que c' est des heures ça hein
 # macrosyntax = $L2 ^parce ^que c'est des heures > ça "hein" //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	1	comp:obj	_	_
@@ -5340,7 +5340,7 @@
 # sent_id = Rhap_D0009-93
 # text = est -ce que c' est est -ce que c' est moi qui p~ est -ce que je peux sau~ lui amener le tissu
 # macrosyntax = $L2 { { est-ce que c'est | est-ce que c'est } moi qui p~ | est-ce que je peux } { sau~ | lui amener le tissu } //
-1	est	être	AUX	_	_	0	root	_	_
+1	est	être	AUX	_	_	3	comp:obj	_	_
 2	-ce	ce	PRON	_	_	1	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	c'	ce	PRON	_	_	1	subj	_	_
@@ -5373,7 +5373,7 @@
 # sent_id = Rhap_D0009-95
 # text = parce que j' ai un rouleau de tissu de velours beige
 # macrosyntax = $L2 ^parce ^que j'ai un rouleau de tissu de velours beige //
-1	parce	parce	SCONJ	_	_	4	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	VERB	_	_	1	comp:obj	_	_
@@ -5388,7 +5388,7 @@
 # sent_id = Rhap_D0009-96
 # text = alors oui
 # macrosyntax = alors < oui // 
-1	alors	alors	ADV	_	_	2	advmod:periph	_	_
+1	alors	alors	ADV	_	_	2	mod	_	_
 2	oui	oui	INTJ	_	_	0	root	_	_
 
 # sent_id = Rhap_D0009-97
@@ -5433,7 +5433,7 @@
 # sent_id = Rhap_D0009-99
 # text = tout est en fonction de ta pièce déjà
 # macrosyntax = tout est en fonction de ta pièce > déjà //
-1	tout	tout	PRON	_	_	4	nsubj	_	_
+1	tout	tout	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	en	en	ADP	_	_	2	comp:pred	_	_
 4	fonction	fonction	NOUN	_	_	3	comp:obj	_	_
@@ -5476,7 +5476,7 @@
 # sent_id = Rhap_D0009-102
 # text = c' est pas obligé
 # macrosyntax = $- c'est pas obligé //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	obligé	obliger	VERB	_	_	2	comp:pred	_	_
@@ -5494,7 +5494,7 @@
 # sent_id = Rhap_D0009-104
 # text = j' ai un beige beige clair un velours beige clair
 # macrosyntax = $L2 j'ai { un -$ { beige | beige clair } | un velours beige clair } //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	beige	beige	NOUN	_	_	2	comp:obj	_	_
@@ -5524,7 +5524,7 @@
 # sent_id = Rhap_D0009-107
 # text = si c' est pour mettre dans la pièce ici
 # macrosyntax = si c'est pour mettre dans la pièce ici ESPERLUETTE //
-1	si	si	SCONJ	_	_	3	mark	_	_
+1	si	si	SCONJ	_	_	0	root	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	1	comp:obj	_	_
 4	pour	pour	ADP	_	_	3	comp:obl@x	_	_
@@ -5565,7 +5565,7 @@
 # sent_id = Rhap_D0009-110
 # text = parce que ouais c' est ça
 # macrosyntax = ^parce ^que "ouais" c'est ça //=
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	ouais	ouais	INTJ	_	_	6	discourse	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -5575,7 +5575,7 @@
 # sent_id = Rhap_D0009-111
 # text = parce que du fait que tu as déjà quelque chose d' un d' un fond clair mh je crains que le beige et le et le le jaunâtre un petit peu ça risque de
 # macrosyntax = ^parce ^que -$ $L1 du fait que tu as déjà quelque chose { d'un | d'un } fond clair < ( $L2 "mh" // ) $L1 je crains que [ { le beige | { ^et le | ^et { le | le } } jaunâtre un petit peu } < ça risque de $- XXX ] //
-1	parce	parce	SCONJ	_	_	19	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	du	du	ADP	_	_	19	mod	_	_
 4	fait	fait	NOUN	_	_	3	comp:obj	_	_
@@ -5639,7 +5639,7 @@
 # sent_id = Rhap_D0009-114
 # text = ça c' est bon
 # macrosyntax = ça < c'est bon //
-1	ça	ça	PRON	_	_	4	dislocated	_	_
+1	ça	ça	PRON	_	_	3	dislocated	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	bon	bon	ADJ	_	_	3	comp:pred	_	_
@@ -5675,7 +5675,7 @@
 # sent_id = Rhap_D0009-118
 # text = parce que j' aime pas trop la frange tout autour encore
 # macrosyntax = ( ^parce ^que j'aime pas trop // ) la frange tout autour encore //
-1	parce	parce	SCONJ	_	_	4	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	aime	aimer	VERB	_	_	1	comp:obj	_	_
@@ -5690,7 +5690,7 @@
 # sent_id = Rhap_D0009-119
 # text = parce que c' était une frange de vingt trente
 # macrosyntax = ^parce ^que c'était une frange $- de { vingt | trente } //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	était	être	AUX	_	_	1	comp:obj	_	_
@@ -5712,7 +5712,7 @@
 # sent_id = Rhap_D0009-121
 # text = c' est pas une obligation
 # macrosyntax = c'est pas une obligation //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	une	un	DET	_	_	5	det	_	_
@@ -5721,7 +5721,7 @@
 # sent_id = Rhap_D0009-122
 # text = si ça t' embête tu ne le mets pas
 # macrosyntax = si ça t'embête < tu ne le mets pas //
-1	si	si	SCONJ	_	_	4	mark	_	_
+1	si	si	SCONJ	_	_	8	mod	_	_
 2	ça	ça	PRON	_	_	4	subj	_	_
 3	t'	te	PRON	_	_	4	comp:obj	_	_
 4	embête	embêter	VERB	_	_	1	comp:obj	_	_
@@ -5760,13 +5760,13 @@
 # sent_id = Rhap_D0009-125
 # text = pas nécessairement
 # macrosyntax = pas nécessairement //
-1	pas	pas	PART	_	_	2	advmod	_	_
+1	pas	pas	ADV	_	_	2	mod	_	_
 2	nécessairement	nécessairement	ADV	_	_	0	root	_	_
 
 # sent_id = Rhap_D0009-126
 # text = dans la mesure où tu vas pas mettre de frange c' est une XXX
 # macrosyntax = dans la mesure où tu vas pas mettre de frange < c'est une XXX //
-1	dans	dans	ADP	_	_	3	case	_	_
+1	dans	dans	ADP	_	_	12	mod	_	_
 2	la	le	PRON	_	_	3	det	_	_
 3	mesure	mesurer	VERB	_	_	1	comp:obj	_	_
 4	où	où	PRON	_	_	6	mod	_	_
@@ -5790,7 +5790,7 @@
 # sent_id = Rhap_D0009-128
 # text = parce que j' ai regardé sur un catalogue
 # macrosyntax = ^parce ^que j'ai regardé sur un catalogue // 
-1	parce	parce	SCONJ	_	_	5	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	1	comp:obj	_	_
@@ -5802,7 +5802,7 @@
 # sent_id = Rhap_D0009-129
 # text = et j' ai vu qu' en fait le tissu parfois descendait jusqu' au bas
 # macrosyntax = ^et j'ai vu qu' [ en fait < le tissu parfois descendait $- jusqu'au bas ] //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	vu	voir	VERB	_	_	3	comp:aux	_	_
@@ -5870,7 +5870,7 @@
 # sent_id = Rhap_D0009-134
 # text = il y avait les deux
 # macrosyntax = il y avait les deux //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	avait	avoir	VERB	_	_	0	root	_	_
 4	les	le	DET	_	_	5	det	_	_
@@ -5879,7 +5879,7 @@
 # sent_id = Rhap_D0009-135
 # text = parce que ça donne un aspect quand même plus moderne si tu mets le tissu tout autour
 # macrosyntax = $L2 ^parce ^que ça donne un aspect ( quand même ) plus moderne si tu $- mets le tissu tout autour //
-1	parce	parce	SCONJ	_	_	4	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	ça	ça	PRON	_	_	4	subj	_	_
 4	donne	donner	VERB	_	_	1	comp:obj	_	_
@@ -5908,7 +5908,7 @@
 # sent_id = Rhap_D0009-137
 # text = mais c' est pas gênant
 # macrosyntax = ^mais c'est pas gênant //
-1	mais	mais	CCONJ	_	_	5	cc	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -5926,19 +5926,19 @@
 # sent_id = Rhap_D0009-139
 # text = non non
 # macrosyntax = $L1 { non | non } // -$
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 
 # sent_id = Rhap_D0009-140
 # text = non non
 # macrosyntax = $L1 { non | non } //
-1	non	non	INTJ	_	_	0	root	_	_
+1	non	non	ADV	_	_	0	root	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 
 # sent_id = Rhap_D0009-141
 # text = par contre je l' ai gardée la frange
 # macrosyntax = $L2 par contre < je l'ai gardée > la frange //
-1	par	par	ADP	_	_	6	advmod:periph	_	_
+1	par	par	ADP	_	_	5	mod	_	_
 2	contre	contre	NOUN	_	_	1	unk@fixed	_	_
 3	je	je	PRON	_	_	5	subj	_	_
 4	l'	le	PRON	_	_	6	comp:obj	_	_
@@ -5950,7 +5950,7 @@
 # sent_id = Rhap_D0009-142
 # text = mais c' est inutilisable hein
 # macrosyntax = ^mais c'est inutilisable "hein" //
-1	mais	mais	CCONJ	_	_	4	cc	_	_
+1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	inutilisable	inutilisable	ADJ	_	_	3	comp:pred	_	_
@@ -5959,7 +5959,7 @@
 # sent_id = Rhap_D0009-143
 # text = non non ça a pris la poussière
 # macrosyntax = $L1 { non | non } $L2 ça a pris la poussière //
-1	non	non	INTJ	_	_	5	discourse	_	_
+1	non	non	ADV	_	_	5	discourse	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 3	ça	ça	PRON	_	_	4	subj	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
@@ -5970,13 +5970,13 @@
 # sent_id = Rhap_D0009-144
 # text = c' est
 # macrosyntax = c'est ESPERLUETTE //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 
 # sent_id = Rhap_D0009-145
 # text = même au nettoyage je crois que c' est pas la peine
 # macrosyntax = $L2 même au nettoyage < je crois que c'est pas la $- peine //
-1	même	même	ADV	_	_	5	advmod:periph	_	_
+1	même	même	ADV	_	_	5	mod	_	_
 2	au	à+le	ADP	_	_	1	comp:obl	_	_
 3	nettoyage	nettoyage	NOUN	_	_	2	comp:obj	_	_
 4	je	je	PRON	_	_	5	subj	_	_
@@ -5997,7 +5997,7 @@
 # sent_id = Rhap_D0009-147
 # text = non non mais tu peux faire comme ça
 # macrosyntax = $L1 { "non" | "non" } ^mais tu peux faire comme ça //
-1	non	non	INTJ	_	_	5	discourse	_	_
+1	non	non	ADV	_	_	6	discourse	_	_
 2	non	non	ADV	_	_	1	conj:coord	_	_
 3	mais	mais	CCONJ	_	_	5	cc	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
@@ -6039,7 +6039,7 @@
 # sent_id = Rhap_D0009-151
 # text = si tu tiens à aller là il y a pas de problème
 # macrosyntax = $L1 XXX // si tu tiens à aller -$ là < il y a pas de problème //
-1	si	si	SCONJ	_	_	3	mark	_	_
+1	si	si	SCONJ	_	_	9	mod	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	tiens	tenir	VERB	_	_	1	comp:obj	_	_
 4	à	à	ADP	_	_	3	comp:obl@x	_	_
@@ -6055,7 +6055,7 @@
 # sent_id = Rhap_D0009-152
 # text = je me disais j' irai peut-être à Vire
 # macrosyntax = $L2 "je me disais" j'irai peut-être à Vire // 
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	me	me	PRON	_	_	3	comp:obl	_	_
 3	disais	dire	VERB	_	_	0	root	_	_
 4	j'	je	PRON	_	_	5	subj	_	_
@@ -6067,7 +6067,7 @@
 # sent_id = Rhap_D0009-153
 # text = parce qu' on était allé le voir ce monsieur -là
 # macrosyntax = ^parce ^qu' on était allé le voir ce monsieur-là //
-1	parce	parce	SCONJ	_	_	5	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	qu'	que	SCONJ	_	_	1	unk@fixed	_	_
 3	on	on	PRON	_	_	4	subj@pass	_	_
 4	était	être	AUX	_	_	1	comp:obj	_	_
@@ -6081,7 +6081,7 @@
 # sent_id = Rhap_D0009-154
 # text = il était très sympa
 # macrosyntax = il était très sympa //
-1	il	il	PRON	_	_	4	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	2	mod	_	_
 4	sympa	sympa	ADJ	_	_	2	comp:pred	_	_
@@ -6089,7 +6089,7 @@
 # sent_id = Rhap_D0009-155
 # text = je connais pas
 # macrosyntax = $L1 je connais pas //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	connais	connaître	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 
@@ -6102,7 +6102,7 @@
 # sent_id = Rhap_D0009-157
 # text = je connais pas
 # macrosyntax = je connais pas //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	connais	connaître	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 
@@ -6150,7 +6150,7 @@
 # sent_id = Rhap_D0009-162
 # text = il y a pas de problème
 # macrosyntax = $L1 il y a pas de problème //=
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -6170,7 +6170,7 @@
 # sent_id = Rhap_M0007-2
 # text = vous sortez euh de la euh commune de Pontamafrey
 # macrosyntax = vous sortez "euh" de la "euh" commune de Pontamafrey //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	sortez	sortir	VERB	ETRE	_	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	de	de	ADP	_	_	2	comp:obl	_	_
@@ -6183,14 +6183,14 @@
 # sent_id = Rhap_M0007-3
 # text = vous allez arriver
 # macrosyntax = vous allez arriver < 
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	allez	aller	VERB	ETRE	_	0	root	_	_
 3	arriver	arriver	VERB	ETRE	_	2	comp:pred	_	_
 
 # sent_id = Rhap_M0007-4
 # text = à un moment il y aura l' échangeur de l' autoroute
 # macrosyntax = à un moment <+ il y aura l' échangeur de l' autoroute //
-1	à	à	ADP	_	_	3	case	_	_
+1	à	à	ADP	_	_	6	mod	_	_
 2	un	un	DET	_	_	3	det	_	_
 3	moment	moment	NOUN	_	_	1	comp:obj	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -6205,13 +6205,13 @@
 # sent_id = Rhap_M0007-5
 # text = vous continuez
 # macrosyntax = vous continuez //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	continuez	continuer	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_M0007-6
 # text = vous prenez le rond - point tout droit
 # macrosyntax = vous prenez le rond-point tout droit //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	prenez	prendre	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	rond	rond	NOUN	_	_	2	comp:obj	_	_
@@ -6223,7 +6223,7 @@
 # sent_id = Rhap_M0007-7
 # text = vous passez le pont euh à le dessus de la voie ferrée
 # macrosyntax = vous passez le pont "euh" au-dessus de la voie ferrée //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	passez	passer	VERB	ETRE	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	pont	pont	NOUN	_	_	2	comp:obj	_	_
@@ -6239,7 +6239,7 @@
 # sent_id = Rhap_M0007-8
 # text = après vous continuez direction Saint - Jean
 # macrosyntax = après <+ vous continuez direction Saint-Jean //
-1	après	après	ADV	_	_	3	obl:periph	_	_
+1	après	après	ADV	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	continuez	continuer	VERB	_	_	0	root	_	_
 4	direction	direction	NOUN	_	_	3	mod	_	_
@@ -6263,14 +6263,14 @@
 # sent_id = Rhap_M0007-10
 # text = après vous continuez
 # macrosyntax = après <+ vous continuez //
-1	après	après	ADP	_	_	3	obl:periph	_	_
+1	après	après	ADP	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	continuez	continuer	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_M0007-11
 # text = vous suivez la route
 # macrosyntax = vous suivez la route //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	suivez	suivre	VERB	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	route	route	NOUN	_	_	2	comp:obj	_	_
@@ -6278,7 +6278,7 @@
 # sent_id = Rhap_M0007-12
 # text = il y a un grand tournant et une grande ligne droite
 # macrosyntax = il y a { un grand tournant | ^et une grande ligne droite } //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	un	un	DET	_	_	6	det	_	_
@@ -6293,7 +6293,7 @@
 # sent_id = Rhap_M0007-13
 # text = vous arrivez à l' entrée de Saint - Jean - de - Maurienne euh où se situe un garage Fiat
 # macrosyntax = vous arrivez à l' entrée de Saint-Jean-de-Maurienne "euh" est situé un garage Fiat //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	l'	le	DET	_	_	5	det	_	_
@@ -6317,7 +6317,7 @@
 # sent_id = Rhap_M0007-14
 # text = vous prenez ce rond - point à gauche
 # macrosyntax = vous prenez ce rond-point à gauche //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	prenez	prendre	VERB	_	_	0	root	_	_
 3	ce	ce	DET	_	_	4	det	_	_
 4	rond	rond	NOUN	_	_	2	comp:obj	_	_
@@ -6329,7 +6329,7 @@
 # sent_id = Rhap_M0007-15
 # text = il y aura Géant euh juste euh sur votre droite
 # macrosyntax = il y aura Géant "euh" juste "euh" sur votre droite //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	aura	avoir	VERB	_	_	0	root	_	_
 4	Géant	Géant	PROPN	_	_	3	comp:obj	_	_
@@ -6343,14 +6343,14 @@
 # sent_id = Rhap_M0007-16
 # text = après vous continuez
 # macrosyntax = après <+ vous continuez //
-1	après	après	ADV	_	_	3	advmod:periph	_	_
+1	après	après	ADV	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	continuez	continuer	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_M0007-17
 # text = au prochain rond - point vous prenez à gauche
 # macrosyntax = au prochain rond-point <+ vous prenez à gauche //
-1	au	à+le	ADP	_	_	3	case	_	_
+1	au	à+le	ADP	_	_	7	mod	_	_
 2	prochain	prochain	ADJ	_	_	3	mod	_	_
 3	rond	rond	NOUN	_	_	1	comp:obj	_	_
 4	-	-	PUNCT	_	_	5	punct	_	_
@@ -6363,7 +6363,7 @@
 # sent_id = Rhap_M0007-18
 # text = vous descendez la route euh vers les sapeurs pompiers euh en bas de la route
 # macrosyntax = vous descendez la route "euh" vers les sapeurs pompiers "euh" en bas de la route //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	descendez	descendre	VERB	ETRE	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	route	route	NOUN	_	_	2	comp:obj	_	_
@@ -6382,7 +6382,7 @@
 # sent_id = Rhap_M0007-19
 # text = vous arrivez après au fond de la route
 # macrosyntax = vous arrivez après au fond de la route //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	_	0	root	_	_
 3	après	après	ADV	_	_	2	mod	_	_
 4	au	à+le	ADP	_	_	2	comp:obl	_	_
@@ -6394,7 +6394,7 @@
 # sent_id = Rhap_M0007-20
 # text = vous prenez à gauche devant euh Dorhôtel
 # macrosyntax = vous prenez à gauche devant "euh" Dorhôtel //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	prenez	prendre	VERB	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	gauche	gauche	NOUN	_	_	3	comp:obj	_	_
@@ -6405,7 +6405,7 @@
 # sent_id = Rhap_M0007-21
 # text = vous continuez tout droit
 # macrosyntax = vous continuez tout droit //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	continuez	continuer	VERB	_	_	0	root	_	_
 3	tout	tout	ADV	_	_	4	mod	_	_
 4	droit	droit	ADJ	_	_	2	mod	_	_
@@ -6413,7 +6413,7 @@
 # sent_id = Rhap_M0007-22
 # text = vous arrivez euh en face de la gare au bout de la ligne droite
 # macrosyntax = vous arrivez "euh" en face de la gare au bout de la ligne droite //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	_	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	en	en	ADP	_	_	2	comp:obl	_	_
@@ -6431,7 +6431,7 @@
 # sent_id = Rhap_M0010-1
 # text = alors tu vas sur le forum là
 # macrosyntax = alors < tu vas { sur le forum | là  } //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	vas	aller	VERB	ETRE	_	0	root	_	_
 4	sur	sur	ADP	_	_	3	comp:obl	_	_
@@ -6442,7 +6442,7 @@
 # sent_id = Rhap_M0010-2
 # text = ensuite c' est des escaliers
 # macrosyntax = ensuite <+ c'est des escaliers //
-1	ensuite	ensuite	ADV	_	_	5	advmod:periph	_	_
+1	ensuite	ensuite	ADV	_	_	4	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	des	de+le	DET	_	_	3	comp:pred	_	_
@@ -6451,7 +6451,7 @@
 # sent_id = Rhap_M0010-3
 # text = tu descends les escaliers
 # macrosyntax = tu descends les escaliers //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	descends	descendre	VERB	ETRE	_	0	root	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	escaliers	escalier	NOUN	_	_	2	comp:obj	_	_
@@ -6459,7 +6459,7 @@
 # sent_id = Rhap_M0010-4
 # text = tu vas tout droit
 # macrosyntax = tu vas tout droit //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	vas	aller	VERB	ETRE	_	0	root	_	_
 3	tout	tout	ADV	_	_	4	mod	_	_
 4	droit	droit	ADJ	_	_	2	comp:obj	_	_
@@ -6467,7 +6467,7 @@
 # sent_id = Rhap_M0010-5
 # text = tu vas passer devant un magasin de pantalons
 # macrosyntax = tu vas passer devant un magasin de pantalons //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	vas	aller	VERB	ETRE	_	0	root	_	_
 3	passer	passer	VERB	ETRE	_	2	comp:pred	_	_
 4	devant	devant	ADP	_	_	3	comp:obl	_	_
@@ -6479,7 +6479,7 @@
 # sent_id = Rhap_M0010-6
 # text = ensuite tu vas te retrouver vers le cinéma Star
 # macrosyntax = ensuite <+ tu vas te retrouver vers le cinéma Star //
-1	ensuite	ensuite	ADV	_	_	3	advmod:periph	_	_
+1	ensuite	ensuite	ADV	_	_	3	mod	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	vas	aller	VERB	ETRE	_	0	root	_	_
 4	te	te	PRON	_	_	3	comp:obl	_	_
@@ -6492,7 +6492,7 @@
 # sent_id = Rhap_M0010-7
 # text = tu descends toute la pente
 # macrosyntax = tu descends toute la pente //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	descends	descendre	VERB	ETRE	_	0	root	_	_
 3	toute	tout	ADJ	_	_	5	mod	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -6501,7 +6501,7 @@
 # sent_id = Rhap_M0010-8
 # text = ensuite tu verras un rond - point
 # macrosyntax = ensuite <+ tu verras un rond-point //
-1	ensuite	ensuite	ADV	_	_	3	advmod:periph	_	_
+1	ensuite	ensuite	ADV	_	_	3	mod	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	verras	voir	VERB	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -6512,7 +6512,7 @@
 # sent_id = Rhap_M0010-9
 # text = tu tournes à gauche
 # macrosyntax = tu tournes à  gauche //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	tournes	tourner	VERB	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	mod	_	_
 4	gauche	gauche	NOUN	_	_	3	comp:obj	_	_
@@ -6540,7 +6540,7 @@
 # sent_id = Rhap_D0017-2
 # text = vous vous vous prenez à droite la droite
 # macrosyntax = { vous | vous | vous } prenez { à droite | la droite } //
-1	vous	vous	PRON	_	_	4	nsubj	_	_
+1	vous	vous	PRON	_	_	4	subj	_	_
 2	vous	vous	PRON	conj:reform	_	1	conj:dicto	_	_
 3	vous	vous	PRON	conj:reform	_	2	conj:dicto	_	_
 4	prenez	prendre	VERB	_	_	0	root	_	_
@@ -6620,7 +6620,7 @@
 # sent_id = Rhap_D0017-7
 # text = et vous y êtes
 # macrosyntax = ^et vous y êtes //
-1	et	et	CCONJ	_	_	3	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	vous	vous	PRON	_	_	4	subj	_	_
 3	y	y	PRON	_	_	4	comp:pred	_	_
 4	êtes	être	AUX	_	_	0	root	_	_
@@ -6693,7 +6693,7 @@
 # sent_id = Rhap_D0020-2
 # text = il y a plein d' autres itinéraires possibles
 # macrosyntax = il y a plein d' autres itinéraires possibles //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	plein	plein	ADJ	_	_	3	comp:obj	_	_
@@ -6705,7 +6705,7 @@
 # sent_id = Rhap_D0020-3
 # text = après ça peut être par la rue Lakanal
 # macrosyntax = après < ça peut être par la rue Lakanal //
-1	après	après	ADP	_	_	3	obl:periph	_	_
+1	après	après	ADP	_	_	5	mod	_	_
 2	ça	ça	PRON	_	_	3	subj	_	_
 3	peut	pouvoir	AUX	_	_	0	root	_	_
 4	être	être	AUX	_	_	3	comp:aux	_	_
@@ -6717,7 +6717,7 @@
 # sent_id = Rhap_D0020-4
 # text = donc euh on traverse la place un petit peu en face
 # macrosyntax = donc < "euh" on traverse la place un petit peu en face //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	on	on	PRON	_	_	4	subj	_	_
 4	traverse	traverser	VERB	_	_	0	root	_	_
@@ -6755,7 +6755,7 @@
 # sent_id = Rhap_D0020-7
 # text = et après légèrement sur la droite
 # macrosyntax = ^et après < légèrement sur la droite //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	après	après	ADP	_	_	4	mod	_	_
 3	légèrement	légèrement	ADV	_	_	4	mod	_	_
 4	sur	sur	ADP	_	_	0	root	_	_
@@ -6800,7 +6800,7 @@
 # sent_id = Rhap_D0020-9
 # text = c' est la place euh je sais plus quoi Verdun Verdun
 # macrosyntax = c' est la place "euh" { [ je sais plus quoi // ] | Verdun |} //+ $L2 {| Verdun } //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	place	place	NOUN	_	_	2	comp:pred	_	_
@@ -6815,7 +6815,7 @@
 # sent_id = Rhap_D0020-10
 # text = et après euh légèrement à gauche
 # macrosyntax = ^et après < "euh" légèrement à gauche //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	après	après	ADP	_	_	5	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	légèrement	légèrement	ADV	_	_	5	mod	_	_
@@ -6825,7 +6825,7 @@
 # sent_id = Rhap_D0020-11
 # text = est -ce que ça vous va
 # macrosyntax = est-ce que ça vous va //
-1	est	être	AUX	_	_	0	root	_	_
+1	est	être	AUX	_	_	6	comp:obj	_	_
 2	-ce	ce	PRON	_	_	6	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	6	subj	_	_
@@ -6835,7 +6835,7 @@
 # sent_id = Rhap_D2007-1
 # text = alors vous étiez un peu choquée quand même hein non mais
 # macrosyntax = $L1 alors < vous étiez un peu choquée > quand même  " hein "   "  non mais  "  //
-1	alors	alors	ADV	_	_	6	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj@pass	_	_
 3	étiez	être	AUX	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
@@ -6850,7 +6850,7 @@
 # sent_id = Rhap_D2007-2
 # text = je pensais à son procès en fait
 # macrosyntax = $- $L2 je pensais à son procès > en fait //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	pensais	penser	VERB	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	son	son	DET	_	_	5	det	_	_
@@ -6861,7 +6861,7 @@
 # sent_id = Rhap_D2007-3
 # text = tu peux le dire
 # macrosyntax = $L1 tu peux le dire //=
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	peux	pouvoir	AUX	_	_	0	root	_	_
 3	le	le	PRON	_	_	4	comp:obj	_	_
 4	dire	dire	VERB	_	_	2	comp:aux	_	_
@@ -6869,13 +6869,13 @@
 # sent_id = Rhap_D2007-4
 # text = tu peux
 # macrosyntax = tu peux //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	peux	pouvoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D2007-5
 # text = Maria elle est elle était solidaire pour mon futur procès
 # macrosyntax = -$ $L1 XXX Maria < { elle est | $- $L1 elle était } solidaire //+ ( $L2 XXX // ) -$ $L1 pour mon futur procès //
-1	Maria	Maria	PROPN	_	_	6	dislocated	_	_
+1	Maria	Maria	PROPN	_	_	3	dislocated	_	_
 2	elle	il	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	elle	il	PRON	_	_	5	subj	_	_
@@ -6889,7 +6889,7 @@
 # sent_id = Rhap_D2007-6
 # text = c' est vachement bien hein
 # macrosyntax = $L3 c'est vachement bien  " hein  "  //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	vachement	vachement	ADV	_	_	2	mod	_	_
 4	bien	bien	ADJ	_	_	2	comp:pred	_	_
@@ -6936,7 +6936,7 @@
 # sent_id = Rhap_D2007-9
 # text = c' est pour mouiller personne
 # macrosyntax = c'est pour mouiller personne // ) //=
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pour	pour	ADP	_	_	2	comp:obl@x	_	_
 4	mouiller	mouiller	VERB	_	_	3	comp:obj	_	_
@@ -6945,7 +6945,7 @@
 # sent_id = Rhap_D2007-10
 # text = on m' a dit tu as l' antenne un mois
 # macrosyntax = $L1 on m'a dit [ tu as l'antenne un mois // ] //
-1	on	on	PRON	_	_	4	nsubj	_	_
+1	on	on	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	4	comp:obl	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
@@ -6959,7 +6959,7 @@
 # sent_id = Rhap_D2007-11
 # text = j' ai dit un mois
 # macrosyntax = j'ai dit [ un mois // 
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	dit	dire	VERB	_	_	2	comp:aux	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -6978,7 +6978,7 @@
 # sent_id = Rhap_D2007-13
 # text = et donc on est parti euh c' est vrai avec Jean - François Alain
 # macrosyntax = ^et donc < on est parti  " euh "   " c'est vrai "  avec { Jean François Alain |
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	donc	donc	ADV	_	_	4	mod	_	_
 3	on	on	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -6996,7 +6996,7 @@
 # sent_id = Rhap_D2007-14
 # text = c' est bien Alexandre XXX
 # macrosyntax = $- ( $L3 c'est bien // ) $L1 Alexandre XXX } //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	bien	bien	ADJ	_	_	4	mod	_	_
 4	Alexandre	Alexandre	PROPN	_	_	2	comp:pred	_	_
@@ -7005,7 +7005,7 @@
 # sent_id = Rhap_D2007-15
 # text = on est des supers euh complices
 # macrosyntax = on est -$ $L1 des supers  " euh "  complices //
-1	on	on	PRON	_	_	6	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	des	de+le	CCONJ	_	_	2	comp:pred	_	_
 4	supers	super	ADJ	_	_	6	mod	_	_
@@ -7015,7 +7015,7 @@
 # sent_id = Rhap_D2007-16
 # text = on écrivait des spectacles ensemble
 # macrosyntax = $- ( $L1 on écrivait des spectacles ensemble // )
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	écrivait	écrire	VERB	_	_	0	root	_	_
 3	des	de+le	ADP	_	_	2	comp:obl	_	_
 4	spectacles	spectacle	NOUN	_	_	3	comp:obj	_	_
@@ -7024,7 +7024,7 @@
 # sent_id = Rhap_D2007-17
 # text = ça manque à la radio ça
 # macrosyntax = $L3 ça manque { à la radio  >+ ça //+ | 
-1	ça	ça	PRON	_	_	2	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	manque	manquer	VERB	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	mod	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -7034,7 +7034,7 @@
 # sent_id = Rhap_D2007-18
 # text = en télé aussi d' ailleurs ouais
 # macrosyntax = en -$ $L3 télé aussi d'ailleurs }  " ouais "  //
-1	en	en	ADP	_	_	2	case	_	_
+1	en	en	ADP	_	_	3	mod	_	_
 2	télé	télé	NOUN	_	_	1	comp:obj	_	_
 3	aussi	aussi	ADV	_	_	0	root	_	_
 4	d'	d'	ADP	_	_	3	mod	_	_
@@ -7082,7 +7082,7 @@
 # sent_id = Rhap_D2007-21
 # text = alors en plus comme c' est l' époque où vous tourniez Landru il y a la barbe le bonnet
 # macrosyntax = $L3 alors < en plus < comme c'est l'époque où vous tourniez Landru < il y a { la barbe | le bonnet } // 
-1	alors	alors	ADV	_	_	15	advmod:periph	_	_
+1	alors	alors	ADV	_	_	15	mod	_	_
 2	en	en	ADP	_	_	15	mod	_	_
 3	plus	plus	ADV	_	_	2	unk	_	_
 4	comme	comme	SCONJ	_	_	15	dislocated	_	_
@@ -7105,7 +7105,7 @@
 # sent_id = Rhap_D2007-22
 # text = c' est infernal
 # macrosyntax = c'est infernal //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	infernal	infernal	ADJ	_	_	2	comp:pred	_	_
 
@@ -7119,7 +7119,7 @@
 # sent_id = Rhap_D2007-24
 # text = c' est pour ça que c' était ouais pas de la radio
 # macrosyntax = c'est $- $L1 pour ça que c'était ( $L3 ouais // ) -$ $L1 pas de la radio //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pour	pour	ADP	_	_	2	comp:pred	_	_
 4	ça	ça	PRON	_	_	3	comp:obj	_	_
@@ -7135,7 +7135,7 @@
 # sent_id = Rhap_D2007-25
 # text = c' était à un moment c' était c' était du show
 # macrosyntax = { c'était | à un moment < { c'était | c'était } } du show //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	à	à	ADP	_	_	7	mod	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -7150,7 +7150,7 @@
 # sent_id = Rhap_D2007-26
 # text = je me planquais sous le bureau
 # macrosyntax = je me planquais sous le bureau //
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	me	me	PRON	_	_	3	comp:obj	_	_
 3	planquais	planquer	VERB	_	_	0	root	_	_
 4	sous	sous	ADP	_	_	3	mod	_	_
@@ -7160,7 +7160,7 @@
 # sent_id = Rhap_D2007-27
 # text = on devait expliquer ce que je faisais euh
 # macrosyntax = on devait expliquer ce que je faisais  " euh "  //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	devait	devoir	AUX	_	_	0	root	_	_
 3	expliquer	expliquer	VERB	_	_	2	comp:aux	_	_
 4	ce	ce	PRON	_	_	3	comp:obj	_	_
@@ -7172,7 +7172,7 @@
 # sent_id = Rhap_D2007-28
 # text = c' est c' est un gros bordel
 # macrosyntax = $L1 { c'est | $- $L1 c'est } un gros bordel //
-1	c'	ce	PRON	_	_	7	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	conj:reform	_	7	unk	_	_
@@ -7183,7 +7183,7 @@
 # sent_id = Rhap_D2007-29
 # text = alors c' est marrant parce que vous avez commencé acteur ensuite réalisateur ensuite scénariste ensuite animateur radio
 # macrosyntax = $L3 ^alors c'est marrant parce que -$ $L3 vous avez commencé { acteur | ^ensuite réalisateur | ^ensuite scénariste | ^ensuite animateur radio } //
-1	alors	alors	ADV	_	_	4	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	marrant	marrant	ADJ	_	_	3	comp:pred	_	_
@@ -7204,7 +7204,7 @@
 # sent_id = Rhap_D2007-30
 # text = c' est un peu la carrière d' Orson Welles à l' envers d' une certaine façon non
 # macrosyntax = c'est un peu la carrière d'Orson Welles à l'envers d'une certaine façon  " non "  //
-1	c'	ce	PRON	_	_	6	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det@fixed	_	_
 4	peu	peu	NOUN	_	_	6	mod	_	EXTPOS=ADV
@@ -7238,7 +7238,7 @@
 # sent_id = Rhap_D2007-33
 # text = je retiendrais Orson Welles
 # macrosyntax = XXX je retiendrais Orson Welles //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	retiendrais	retenir	VERB	_	_	0	root	_	_
 3	Orson	Orson	PROPN	_	_	2	comp:obj	_	_
 4	Welles	Welles	PROPN	_	_	3	flat	_	_
@@ -7258,7 +7258,7 @@
 # sent_id = Rhap_D2007-36
 # text = il y a plus de question
 # macrosyntax = $L3 il y a plus de question //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	plus	plus	ADP	_	_	3	mod	_	_
@@ -7268,7 +7268,7 @@
 # sent_id = Rhap_D2007-37
 # text = maintenant on va faire une interview vaudeville
 # macrosyntax = maintenant <+ on va faire une interview vaudeville //
-1	maintenant	maintenant	ADV	_	_	3	advmod:periph	_	_
+1	maintenant	maintenant	ADV	_	_	3	mod	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	va	aller	VERB	ETRE	_	0	root	_	_
 4	faire	faire	VERB	_	_	3	comp:pred	_	_
@@ -7279,7 +7279,7 @@
 # sent_id = Rhap_D2007-38
 # text = alors ça marche ça marche pour tous les deux hein
 # macrosyntax = ^alors { ça marche | ça marche } pour tous les deux  " hein "  //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	ça	ça	PRON	_	_	3	subj	_	_
 3	marche	marcher	VERB	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	5	subj	_	_
@@ -7334,14 +7334,14 @@
 # sent_id = Rhap_D2007-40
 # text = ça se saurait
 # macrosyntax = $L2 ça se saurait //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	saurait	savoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D2007-41
 # text = il serait mort
 # macrosyntax = il serait mort //=
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	serait	être	AUX	_	_	0	root	_	_
 3	mort	mourir	VERB	ETRE	_	2	comp:pred	_	_
 
@@ -7357,7 +7357,7 @@
 # sent_id = Rhap_D2007-43
 # text = ça se saurait
 # macrosyntax = ça se saurait //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	saurait	savoir	VERB	_	_	0	root	_	_
 
@@ -7381,7 +7381,7 @@
 # sent_id = Rhap_D2007-45
 # text = plus tard je préviens pas
 # macrosyntax = plus tard < je préviens pas //=
-1	plus	plus	NOUN	_	_	2	dep	_	_
+1	plus	plus	ADV	_	_	2	mod	_	_
 2	tard	tard	ADV	_	_	4	mod	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	préviens	prévenir	VERB	_	_	0	root	_	_
@@ -7390,7 +7390,7 @@
 # sent_id = Rhap_D2007-46
 # text = plus tôt je préviens
 # macrosyntax = plus tôt < je préviens //
-1	plus	plus	PART	_	_	2	dep	_	_
+1	plus	plus	ADV	_	_	2	mod	_	_
 2	tôt	tôt	ADV	_	_	4	mod	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	préviens	prévenir	VERB	_	_	0	root	_	_
@@ -7421,7 +7421,7 @@
 # sent_id = Rhap_D2007-48
 # text = elle réfléchit parce qu' elle ne baise que dans les voitures
 # macrosyntax = $L4 elle réfléchit parce qu'elle ne baise que dans les voitures //
-1	elle	il	PRON	_	_	2	nsubj	_	_
+1	elle	il	PRON	_	_	2	subj	_	_
 2	réfléchit	réfléchir	VERB	_	_	0	root	_	_
 3	parce	parce	SCONJ	_	_	2	mod	_	_
 4	qu'	que	SCONJ	_	_	3	unk@fixed	_	_
@@ -7436,7 +7436,7 @@
 # sent_id = Rhap_D2007-49
 # text = alors elle est tu vois
 # macrosyntax = ^alors elle est  " tu vois "  & //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	elle	il	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
@@ -7463,7 +7463,7 @@
 # sent_id = Rhap_D2007-52
 # text = j' aime pas j~ non j' aime pas le principe
 # macrosyntax = $L2 { j'aime pas | { j~ |  " non "  j' } aime pas } le principe //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	aime	aimer	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	j~	j~	PRON	_	_	7	subj	_	_
@@ -7477,14 +7477,14 @@
 # sent_id = Rhap_D2007-53
 # text = ça m' emmerde
 # macrosyntax = ça m'emmerde //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	3	comp:obj	_	_
 3	emmerde	emmerder	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D2007-54
 # text = on s' en va
 # macrosyntax = $- $L2 on s'en va //
-1	on	on	PRON	_	_	4	nsubj	_	_
+1	on	on	PRON	_	_	4	subj	_	_
 2	s'	se	PRON	_	_	4	comp@fixed	_	_
 3	en	en	PRON	_	_	4	comp:obj	_	_
 4	va	aller	VERB	ETRE	_	0	root	_	_
@@ -7492,7 +7492,7 @@
 # sent_id = Rhap_D2007-55
 # text = vous avez des fidélités
 # macrosyntax = $L3 vous avez des fidélités // -$
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	avez	avoir	VERB	_	_	0	root	_	_
 3	des	un	DET	_	_	4	det	_	_
 4	fidélités	fidélité	NOUN	_	_	2	comp:obl	_	_
@@ -7500,7 +7500,7 @@
 # sent_id = Rhap_D2007-56
 # text = si on si on n' est pas heureux on s' en va
 # macrosyntax = $L2 { si on | si on } n'est pas heureux < on s'en va //
-1	si	si	SCONJ	_	_	12	advcl:periph	_	_
+1	si	si	SCONJ	_	_	12	mod	_	_
 2	on	on	PRON	_	_	1	conj:dicto	_	_
 3	si	si	SCONJ	_	_	2	conj:dicto	_	_
 4	on	on	PRON	_	_	6	subj	_	_
@@ -7526,7 +7526,7 @@
 # sent_id = Rhap_D2007-58
 # text = je suis désolée
 # macrosyntax = ( je suis désolée // )
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	suis	être	AUX	_	_	0	root	_	_
 3	désolée	désoler	ADJ	_	_	2	comp:pred	_	_
 
@@ -7554,7 +7554,7 @@
 # sent_id = Rhap_D2007-62
 # text = vous avez des fidélités successives en fait
 # macrosyntax = $L3 vous avez des fidélités successives > en fait //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	avez	avoir	VERB	_	_	0	root	_	_
 3	des	un	DET	_	_	4	det	_	_
 4	fidélités	fidélité	NOUN	_	_	2	comp:obl	_	_
@@ -7565,7 +7565,7 @@
 # sent_id = Rhap_D2007-63
 # text = moi j' ai été fidèle oui
 # macrosyntax = $L2 moi < j'ai été fidèle  " oui "  //
-1	moi	lui	PRON	_	_	5	dislocated	_	_
+1	moi	lui	PRON	_	_	3	dislocated	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	été	être	AUX	_	_	3	comp:aux	_	_
@@ -7575,7 +7575,7 @@
 # sent_id = Rhap_D2007-64
 # text = quand j' ai aimé j' ai été fidèle mh
 # macrosyntax = quand j'ai aimé <+ j'ai été fidèle  " mh "  //
-1	quand	quand	SCONJ	_	_	4	mark	_	_
+1	quand	quand	SCONJ	_	_	6	mod	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	1	comp:obj	_	_
 4	aimé	aimer	VERB	_	_	3	comp:aux	_	_
@@ -7630,7 +7630,7 @@
 # sent_id = Rhap_D2007-68
 # text = il y a aucun problème
 # macrosyntax = [ il y a aucun problème // ] //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	aucun	aucun	PRON	_	_	5	det	_	_
@@ -7639,7 +7639,7 @@
 # sent_id = Rhap_D2007-69
 # text = s' il y a un endroit pour se confier je crois que c' est la télé
 # macrosyntax = $L1 oui // XXX -$ $L1 XXX // s' il y a un endroit pour se confier je crois que c' est la télé
-1	s'	si	SCONJ	_	_	4	mark	_	_
+1	s'	si	SCONJ	_	_	11	mod	_	_
 2	il	il	PRON	_	_	4	subj@expl	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
 4	a	avoir	VERB	_	_	1	comp:obj	_	_
@@ -7659,7 +7659,7 @@
 # sent_id = Rhap_D2007-70
 # text = c' est là
 # macrosyntax = $L4 oui // c'est { là | -$ 
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	là	là	ADV	_	_	2	comp:pred	_	_
 
@@ -7671,7 +7671,7 @@
 # sent_id = Rhap_D2007-72
 # text = tu vois s' il y a un endroit tu vois euh
 # macrosyntax = $L1  " tu vois "  -$ $- $L1 s'il y a un endroit  " tu vois "   " euh "  //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	vois	voir	VERB	DISCOURSE	_	10	parataxis@discourse	_	_
 3	s'	si	SCONJ	_	_	10	mod	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -7686,7 +7686,7 @@
 # sent_id = Rhap_D2007-73
 # text = c' est marrant il y a des gens ils ont des emmerdes parce qu' ils se sont confiés en télé
 # macrosyntax = $L1  " c'est marrant "  il y a des gens < ils ont des emmerdes parce qu'ils se sont confiés en télé //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	10	discourse	_	_
 3	marrant	marrant	ADJ	_	_	2	comp:pred	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -7710,7 +7710,7 @@
 # sent_id = Rhap_D2007-74
 # text = tu peux jamais avoir de la peine pour eux quoi
 # macrosyntax = tu peux jamais avoir de la peine pour eux  " quoi "  //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	peux	pouvoir	AUX	_	_	0	root	_	_
 3	jamais	jamais	ADV	_	_	2	mod	_	_
 4	avoir	avoir	VERB	_	_	2	comp:aux	_	_
@@ -7724,7 +7724,7 @@
 # sent_id = Rhap_D2007-75
 # text = tu dis mais il est con ou quoi
 # macrosyntax = tu dis [ ^mais { il est con | ^ou quoi } // ] //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	dis	dire	VERB	_	_	0	root	_	_
 3	mais	mais	CCONJ	_	_	5	cc	_	_
 4	il	il	PRON	_	_	5	subj	_	_
@@ -7736,7 +7736,7 @@
 # sent_id = Rhap_D2007-76
 # text = il a été se confier en télé
 # macrosyntax = il a été se confier en télé //
-1	il	il	PRON	_	_	3	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	été	être	AUX	_	_	2	comp:aux	_	_
 4	se	se	PRON	_	_	5	comp@fixed	_	_
@@ -7761,7 +7761,7 @@
 # sent_id = Rhap_D2007-78
 # text = je croyais je croyais
 # macrosyntax = $L3 ( { je croyais | -$ $- $L3 je croyais } XXX //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	croyais	croire	VERB	_	_	0	root	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	croyais	croire	VERB	_	_	2	conj:dicto	_	_
@@ -7785,7 +7785,7 @@
 # sent_id = Rhap_D2007-81
 # text = c' est ça qui est terrible
 # macrosyntax = $L1 oui // c'est ça qui est terrible //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	ça	ça	PRON	_	_	2	comp:pred	_	_
 4	qui	qui	PRON	_	_	5	subj	_	_
@@ -7795,7 +7795,7 @@
 # sent_id = Rhap_D2007-82
 # text = je croyais que le fait de t' habiller comme moi te rendrait plus sincère
 # macrosyntax = $L3 je croyais que le fait de t'habiller comme moi te rendrait plus sincère //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	croyais	croire	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	le	le	DET	_	_	5	det	_	_
@@ -7821,7 +7821,7 @@
 # sent_id = Rhap_D2007-84
 # text = ça te va bien
 # macrosyntax = $- $L3 ça te va bien //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	te	te	PRON	_	_	3	comp:obj	_	_
 3	va	aller	VERB	ETRE	_	0	root	_	_
 4	bien	bien	ADV	_	_	3	mod	_	_
@@ -7842,7 +7842,7 @@
 # sent_id = Rhap_D2007-86
 # text = ça te va bien tu sais
 # macrosyntax = $- $L3 ça te va bien  " tu sais "  //
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	te	te	PRON	_	_	3	comp:obj	_	_
 3	va	aller	VERB	ETRE	_	0	root	_	_
 4	bien	bien	ADV	_	_	3	mod	_	_
@@ -7861,7 +7861,7 @@
 # sent_id = Rhap_D2007-88
 # text = je regarde comme ça
 # macrosyntax = je $- $L1 regarde > comme ça //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	regarde	regarder	VERB	_	_	0	root	_	_
 3	comme	comme	ADP	_	_	2	mod	_	_
 4	ça	ça	PRON	_	_	3	comp:obj	_	_
@@ -7869,7 +7869,7 @@
 # sent_id = Rhap_D2007-89
 # text = bientôt vous allez changer
 # macrosyntax = bientôt <+ ( $L4 vous allez changer 
-1	bientôt	bientôt	ADV	_	_	3	advmod:periph	_	_
+1	bientôt	bientôt	ADV	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	allez	aller	VERB	ETRE	_	0	root	_	_
 4	changer	changer	VERB	_	_	3	comp:pred	_	_
@@ -7877,7 +7877,7 @@
 # sent_id = Rhap_D2007-90
 # text = tout à l' heure je serai grisonnant
 # macrosyntax = tout à l'heure // ) -$ $L1 je serai grisonnant // XXX //
-1	tout	tout	ADV	_	_	7	advmod:periph	_	_
+1	tout	tout	ADV	_	_	6	mod	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	l'	le	DET	_	_	4	det	_	_
 4	heure	heure	NOUN	_	_	2	comp:obj	_	_
@@ -7912,7 +7912,7 @@
 # sent_id = Rhap_D2007-92
 # text = j' ai jamais m~ j' ai jamais je me suis jamais mariée
 # macrosyntax = $L2 { j'ai jamais m~ & | j'ai jamais & | je me suis jamais mariée } //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	jamais	jamais	ADV	_	_	2	mod	_	_
 4	m~	m~	X	_	_	3	conj:dicto	_	_
@@ -7928,7 +7928,7 @@
 # sent_id = Rhap_D2007-93
 # text = ça t' est déjà arrivé de dire ciel mon mari toi en entendant la porte que
 # macrosyntax = $L3 ça t'est déjà arrivé de dire [ ciel < mon mari // ] > toi > en entendant la porte que & //
-1	ça	ça	PRON	_	_	5	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	t'	te	PRON	_	_	5	comp:obl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	déjà	déjà	ADV	_	_	3	mod	_	_
@@ -7948,7 +7948,7 @@
 # sent_id = Rhap_D2007-94
 # text = ça voudrait dire que tu trompes ton ma~
 # macrosyntax = $L1 ça voudrait dire que tu trompes ton ma~ //
-1	ça	ça	PRON	_	_	2	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	voudrait	vouloir	AUX	_	_	0	root	_	_
 3	dire	dire	VERB	_	_	2	comp:aux	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
@@ -7960,7 +7960,7 @@
 # sent_id = Rhap_D2007-95
 # text = et en plus tu es chez toi mh
 # macrosyntax = ^et en plus < tu es chez toi  " mh "  //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	en	en	ADP	_	_	5	mod	_	_
 3	plus	plus	ADV	_	_	2	unk	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
@@ -7972,14 +7972,14 @@
 # sent_id = Rhap_D2007-96
 # text = tu vois non
 # macrosyntax =  " tu vois "  non //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	vois	voir	VERB	_	_	0	root	_	_
 3	non	non	ADV	_	_	2	discourse	_	_
 
 # sent_id = Rhap_D2007-97
 # text = je n' ai jamais trompé mon mari
 # macrosyntax = je n'ai jamais trompé mon mari //
-1	je	je	PRON	_	_	5	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	jamais	jamais	ADV	_	_	3	mod	_	_
@@ -7990,7 +7990,7 @@
 # sent_id = Rhap_D2007-98
 # text = est -ce que tu as déjà dit à ta petite amie mais non c' est pas ce que tu crois c' est une copine
 # macrosyntax = $L3 est-ce que tu as déjà dit à ta petite amie [ ^mais non // c'est pas ce que tu crois // c'est une copine // ] //
-1	est	être	AUX	_	_	0	root	_	_
+1	est	être	AUX	_	_	7	comp:obj	_	_
 2	-ce	ce	PRON	_	_	5	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
@@ -8018,7 +8018,7 @@
 # sent_id = Rhap_D2007-99
 # text = c' est déjà arrivé ça
 # macrosyntax = c'est déjà arrivé > ça //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	déjà	déjà	ADV	_	_	2	mod	_	_
 4	arrivé	arriver	VERB	ETRE	_	2	comp:aux	_	_
@@ -8047,7 +8047,7 @@
 # sent_id = Rhap_D2007-102
 # text = ça sent le César
 # macrosyntax = $L4 ça sent le César //
-1	ça	ça	PRON	_	_	2	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	sent	sentir	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	César	César	PROPN	_	_	2	comp:obj	_	_
@@ -8091,14 +8091,14 @@
 # sent_id = Rhap_D2007-105
 # text = c' est arrivé
 # macrosyntax = c'est arrivé //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	arrivé	arriver	VERB	ETRE	_	2	comp:aux	_	_
 
 # sent_id = Rhap_D2007-106
 # text = parce que le début c' était Da
 # macrosyntax = ^parce ^que le début < c'était Da //
-1	parce	parce	SCONJ	_	_	7	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	début	début	NOUN	_	_	6	dislocated	_	_
@@ -8109,7 +8109,7 @@
 # sent_id = Rhap_D2007-107
 # text = vous voyez ce que je veux dire
 # macrosyntax = $L2 vous voyez ce que je veux dire // donc & //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	voyez	voir	VERB	_	_	0	root	_	_
 3	ce	ce	PRON	_	_	2	comp:obj	_	_
 4	que	que	PRON	_	_	7	comp:obj	_	_
@@ -8120,13 +8120,13 @@
 # sent_id = Rhap_D2007-108
 # text = très bien
 # macrosyntax = $L3 très bien //
-1	très	très	ADV	_	_	2	advmod	_	_
+1	très	très	ADV	_	_	2	mod	_	_
 2	bien	bien	ADJ	_	_	0	root	_	_
 
 # sent_id = Rhap_D2007-109
 # text = toi ça t' est déjà arrivé
 # macrosyntax = $L3 toi < ça t'est déjà arrivé //
-1	toi	lui	PRON	_	_	6	dislocated	_	_
+1	toi	lui	PRON	_	_	4	dislocated	_	_
 2	ça	ça	PRON	_	_	4	subj	_	_
 3	t'	te	PRON	_	_	6	comp:obj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -8152,7 +8152,7 @@
 # sent_id = Rhap_D2007-111
 # text = c' est bien Ginette
 # macrosyntax = $L4 c'est bien > Ginette //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	bien	bien	ADJ	_	_	2	mod	_	_
 4	Ginette	Ginette	PROPN	_	_	2	comp:pred	_	_
@@ -8160,7 +8160,7 @@
 # sent_id = Rhap_D2007-112
 # text = ça passe partout hein
 # macrosyntax = ça passe partout  " hein "  //
-1	ça	ça	PRON	_	_	2	nsubj	_	_
+1	ça	ça	PRON	_	_	2	subj	_	_
 2	passe	passer	VERB	ETRE	_	0	root	_	_
 3	partout	partout	ADV	_	_	2	mod	_	_
 4	hein	hein	INTJ	_	_	3	discourse	_	_
@@ -8168,7 +8168,7 @@
 # sent_id = Rhap_D2007-113
 # text = Patrick est -ce qu' au téléphone vous avez déjà chauffé la mère en pensant que vous vous adressiez à la fille
 # macrosyntax = $L3 Patrick < est-ce qu' [ au téléphone <+ vous avez déjà chauffé la mère en pensant que vous vous adressiez à la fille ] //
-1	Patrick	Patrick	PROPN	_	_	2	dislocated	_	_
+1	Patrick	Patrick	PROPN	_	_	2	vocative	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	-ce	ce	PRON	_	_	2	subj	_	_
 4	qu'	que	SCONJ	_	_	2	comp:pred	_	_
@@ -8230,7 +8230,7 @@
 # sent_id = Rhap_D2007-117
 # text = mais ça c' était pas une relation amoureuse
 # macrosyntax = ^mais ça < c'était pas une relation amoureuse //
-1	mais	mais	CCONJ	_	_	7	cc	_	_
+1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	ça	ça	PRON	_	_	4	dislocated	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	était	être	AUX	_	_	0	root	_	_
@@ -8242,7 +8242,7 @@
 # sent_id = Rhap_D2007-118
 # text = donc c' est pas du
 # macrosyntax = donc < c'est pas du & //
-1	donc	donc	ADV	_	_	3	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -8316,7 +8316,7 @@
 # sent_id = Rhap_D2007-125
 # text = c' est en croyant que c' était la fille
 # macrosyntax = c'est en croyant que c'était la fille //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	en	en	ADP	_	_	2	unk	_	_
 4	croyant	croire	VERB	_	_	3	comp:obj	_	_
@@ -8329,7 +8329,7 @@
 # sent_id = Rhap_D2007-126
 # text = en croyant que c' était la fille ah oui
 # macrosyntax = $L1 en croyant que c'était la fille  " ah "   " oui "  //
-1	en	en	ADP	_	_	2	case	_	_
+1	en	en	ADP	_	_	0	root	_	_
 2	croyant	croire	VERB	_	_	1	comp:obj	_	_
 3	que	que	PRON	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -8342,7 +8342,7 @@
 # sent_id = Rhap_D2007-127
 # text = j' ai toujours su que c' était
 # macrosyntax = j'ai toujours su $- $L1 que c'était
-1	j'	je	PRON	_	_	4	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
 4	su	savoir	VERB	_	_	2	comp:aux	_	_
@@ -8353,7 +8353,7 @@
 # sent_id = Rhap_D2007-128
 # text = tu as vu la mère
 # macrosyntax = ( $L4  " tu as vu "  # ) -$ $L1 la mère //
-1	tu	tu	PRON	_	_	3	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	as	avoir	AUX	_	_	0	root	_	_
 3	vu	voir	VERB	_	_	2	comp:aux	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -8362,14 +8362,14 @@
 # sent_id = Rhap_D2007-129
 # text = tu as vu
 # macrosyntax = $L4 ##  " tu as vu "  
-1	tu	tu	PRON	_	_	3	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	as	avoir	AUX	_	_	0	root	_	_
 3	vu	voir	VERB	_	_	2	comp:aux	_	_
 
 # sent_id = Rhap_D2007-130
 # text = il répond d' abord
 # macrosyntax = il répond d'abord //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	répond	répondre	VERB	_	_	0	root	_	_
 3	d'	de	ADP	_	_	2	mod	_	_
 4	abord	abord	NOUN	_	_	3	comp:obj	_	_
@@ -8385,14 +8385,14 @@
 # sent_id = Rhap_D2007-132
 # text = c' est très
 # macrosyntax = c'est très & //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	2	conj:dicto	_	_
 
 # sent_id = Rhap_D2005-1
 # text = écrivain conseiller spécial du président François Mitterrand banquier du monde Jacques Attali a usé de tous les pouvoirs dans les coulisses de l' histoire
 # macrosyntax = $L1 { écrivain | conseiller spécial du président François Mitterrand | banquier du monde } < Jacques Attali a usé de tous les pouvoirs dans les coulisses de l'histoire //
-1	écrivain	écrivain	NOUN	_	_	14	dislocated	_	_
+1	écrivain	écrivain	NOUN	_	_	13	dislocated	_	_
 2	conseiller	conseiller	NOUN	_	_	1	appos@conj	_	_
 3	spécial	spécial	ADJ	_	_	2	mod	_	_
 4	du	de+le	ADP	_	_	2	mod	_	_
@@ -8420,7 +8420,7 @@
 # sent_id = Rhap_D2005-2
 # text = il s' est voulu comme un homme d' idées un homme de concepts
 # macrosyntax = il s'est voulu comme { un homme d'idées | un homme de concepts } //
-1	il	il	PRON	_	_	4	nsubj:pass	_	_
+1	il	il	PRON	_	_	3	subj@pass	_	_
 2	s'	se	PRON	_	_	4	comp@fixed	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	voulu	vouloir	VERB	_	_	3	comp:aux@pass	_	_
@@ -8447,7 +8447,7 @@
 # sent_id = Rhap_D2005-4
 # text = considéré par certains comme un des esprits les plus vifs il est l' auteur de nombreux best sellers comme Mille quatre cent quatre-vingt-douze ou le Dictionnaire du vingt-et-unième siècle
 # macrosyntax = considéré par certains comme un des esprits les plus vifs < il est l'auteur de nombreux best sellers comme { Mille quatre cent quatre-vingt-douze | ^ou le Dictionnaire du vingt et unième siècle } //
-1	considéré	considérer	VERB	_	_	14	advcl:periph	_	_
+1	considéré	considérer	VERB	_	_	12	mod	_	_
 2	par	par	ADP	_	_	1	comp:obl	_	_
 3	certains	certain	PRON	_	_	2	comp:obj	_	_
 4	comme	comme	ADP	_	_	1	comp:obl	_	_
@@ -8480,7 +8480,7 @@
 # sent_id = Rhap_D2005-5
 # text = perçu comme un surdoué de sa génération son action s' étend aux allées du pouvoir
 # macrosyntax = perçu comme un surdoué de sa génération < son action s'étend aux allées du pouvoir //
-1	perçu	percevoir	VERB	_	_	11	advcl:periph	_	_
+1	perçu	percevoir	VERB	_	_	11	mod	_	_
 2	comme	comme	ADP	_	_	1	comp:obl	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	surdoué	surdoué	NOUN	_	_	2	comp:obj	_	_
@@ -8499,7 +8499,7 @@
 # sent_id = Rhap_D2005-6
 # text = il devient le sherpa du président le porteur de valises le conseiller influent du prince qui négocie au plus haut niveau avec les hommes et les États
 # macrosyntax = il devient { le sherpa du président | le porteur de valises | le conseiller influent du prince qui négocie au plus haut niveau avec { les hommes | ^et les États } } //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	devient	devenir	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	sherpa	sherpa	NOUN	_	_	2	comp:obj	_	_
@@ -8530,7 +8530,7 @@
 # sent_id = Rhap_D2005-7
 # text = devenu l' acteur principal de ses idées il s' expose directement comme concepteur et président d' une banque internationale pour la reconstruction d' un monde qui vacille la Russie et le bloc de l' Est
 # macrosyntax = devenu l'acteur principal de ses idées < il s'expose directement comme { concepteur | ^et président } d'une banque internationale pour la reconstruction d' { un monde qui vacille | { la Russie | ^et le bloc de l'est } } //
-1	devenu	devenir	VERB	_	_	10	advcl:periph	_	_
+1	devenu	devenir	VERB	_	_	10	mod	_	_
 2	l'	le	DET	_	_	3	det	_	_
 3	acteur	acteur	NOUN	_	_	1	comp:obj	_	_
 4	principal	principal	ADJ	_	_	3	mod	_	_
@@ -8590,7 +8590,7 @@
 # sent_id = Rhap_D2005-10
 # text = il démissionne et se retire
 # macrosyntax = il { démissionne | ^et se retire } //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	démissionne	démissionner	VERB	_	_	0	root	_	_
 3	et	et	CCONJ	_	_	5	cc	_	_
 4	se	se	PRON	_	_	5	comp@fixed	_	_
@@ -8599,7 +8599,7 @@
 # sent_id = Rhap_D2005-11
 # text = aujourd' hui il continue son activité de conseil et se consacre toujours à l' écriture et à l' histoire qui ne l' a pas toujours reconnu
 # macrosyntax = aujourd'hui <+ il { continue son activité de conseil | ^et se consacre toujours { à l'écriture | ^et à l'histoire (+ qui ne l'a pas toujours reconnu ) } } //
-1	aujourd'	aujourd'	NOUN	_	_	4	advmod:periph	_	_
+1	aujourd'	aujourd'	NOUN	_	_	4	mod	_	_
 2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
 3	il	il	PRON	_	_	4	subj	_	_
 4	continue	continuer	VERB	_	_	0	root	_	_
@@ -8629,7 +8629,7 @@
 # sent_id = Rhap_D2005-12
 # text = je suis né à Alger en mille neuf cent quarante-trois
 # macrosyntax = $L2 je suis né à Alger en mille neuf cent quarante-trois //
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	suis	être	AUX	_	_	0	root	_	_
 3	né	naître	VERB	ETRE	_	2	comp:aux	_	_
 4	à	à	ADP	_	_	2	mod	_	_
@@ -8643,7 +8643,7 @@
 # sent_id = Rhap_D2005-13
 # text = donc euh j' ai connu l' Algérie heureuse
 # macrosyntax = donc < "euh" j'ai connu l'Algérie heureuse //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	0	root	_	_
@@ -8655,7 +8655,7 @@
 # sent_id = Rhap_D2005-14
 # text = je suis né un premier novembre
 # macrosyntax = je suis né un premier novembre //
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	suis	être	AUX	_	_	0	root	_	_
 3	né	naître	VERB	ETRE	_	2	comp:aux	_	_
 4	un	un	DET	_	_	6	det	_	_
@@ -8665,7 +8665,7 @@
 # sent_id = Rhap_D2005-15
 # text = donc euh mon anniversaire coïncide avec le début de l' insurrection algérienne
 # macrosyntax = ^donc "euh" mon anniversaire coïncide avec le début de l'insurrection algérienne //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	mon	son	DET	_	_	4	det	_	_
 4	anniversaire	anniversaire	NOUN	_	_	5	subj	_	_
@@ -8681,7 +8681,7 @@
 # sent_id = Rhap_D2005-16
 # text = et j' étais d' une famille très unie très aisée
 # macrosyntax = ^et j'étais d'une famille { très unie | très aisée } //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	étais	être	AUX	_	_	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:pred	_	_
@@ -8733,7 +8733,7 @@
 # sent_id = Rhap_D2005-18
 # text = et j' ai vécu avec mon frère jumeau et ma soeur dans dans une ambiance où le livre était sacré et où euh le travail était la moindre des choses
 # macrosyntax = ^et j'ai vécu avec { mon frère jumeau | ^et ma soeur } { dans | dans } une ambiance { où le livre était sacré | ^et où "euh" le travail était la moindre des choses } //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	vécu	vivre	VERB	_	_	3	comp:aux	_	_
@@ -8767,7 +8767,7 @@
 # sent_id = Rhap_D2005-19
 # text = nous sommes venus en France en mille neuf cent cinquante-six
 # macrosyntax = nous sommes venus en France en mille neuf cent cinquante-six //
-1	nous	nous	PRON	_	_	3	nsubj:pass	_	_
+1	nous	nous	PRON	_	_	2	subj@pass	_	_
 2	sommes	être	AUX	_	_	0	root	_	_
 3	venus	venir	VERB	_	_	2	comp:aux@pass	_	_
 4	en	en	ADP	_	_	3	comp:obl	_	_
@@ -8781,7 +8781,7 @@
 # sent_id = Rhap_D2005-20
 # text = j' avais douze ans
 # macrosyntax = j'avais douze ans //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	avais	avoir	VERB	_	_	0	root	_	_
 3	douze	douze	NUM	_	_	4	mod	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
@@ -8789,7 +8789,7 @@
 # sent_id = Rhap_D2005-21
 # text = et je suis entré au fait mes études au à Janson de Sailly à Paris
 # macrosyntax = ^et je suis { entré au | fait mes études { au | à } } Janson de Sailly à Paris //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	je	PRON	_	_	3	subj	_	_
 3	suis	être	AUX	_	_	0	root	_	_
 4	entré	entrer	VERB	ETRE	_	3	comp:aux	_	_
@@ -8808,7 +8808,7 @@
 # sent_id = Rhap_D2005-22
 # text = et avec une ambition qui commençait à se cristalliser déjà autour de l' idée d' écrire et de chercher j' ai toujours pensé qu' on n' est pas sur terre pour être heureux mais pour euh essayer d' être utile
 # macrosyntax = ^et avec une ambition qui commençait à se cristalliser déjà autour de l'idée { d'écrire | ^et de chercher } < j'ai toujours pensé qu'on n'est pas sur terre { pour être heureux | ^mais pour "euh" essayer d'être utile } //
-1	et	et	CCONJ	_	_	23	cc	_	_
+1	et	et	CCONJ	_	_	21	cc	_	_
 2	avec	avec	ADP	_	_	23	mod	_	_
 3	une	un	DET	_	_	4	det	_	_
 4	ambition	ambition	NOUN	_	_	2	comp:obj	_	_
@@ -8863,7 +8863,7 @@
 # sent_id = Rhap_D2005-24
 # text = servir à quelque chose est quelque chose qui me préoccupe tout le temps
 # macrosyntax = servir à quelque chose est quelque chose qui me préoccupe tout le temps //
-1	servir	servir	VERB	_	_	7	csubj	_	_
+1	servir	servir	VERB	_	_	5	subj	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
 3	quelque	quelque	DET	_	_	4	det	_	_
 4	chose	chose	NOUN	_	_	2	comp:obj	_	_
@@ -8880,7 +8880,7 @@
 # sent_id = Rhap_D2005-25
 # text = et faire avancer le savoir ou faire avancer la littérature ou créer des des choses qui durent et qui servent euh m' a paru être essentiel
 # macrosyntax = ^et { faire avancer le savoir | ^ou faire avancer la littérature | ^ou créer { des | des } choses { qui durent | ^et qui servent } } "euh" m'a paru être essentiel //
-1	et	et	CCONJ	_	_	24	cc	_	_
+1	et	et	CCONJ	_	_	23	cc	_	_
 2	faire	faire	AUX	_	_	23	subj	_	_
 3	avancer	avancer	VERB	_	_	2	comp:aux@caus	_	_
 4	le	le	DET	_	_	5	det	_	_
@@ -8910,7 +8910,7 @@
 # sent_id = Rhap_D2005-26
 # text = et très tôt vous avez eu cette conviction profonde
 # macrosyntax = $L1 ^et très tôt <+ vous avez eu cette conviction profonde //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	très	très	ADV	_	_	3	mod	_	_
 3	tôt	tôt	ADV	_	_	5	mod	_	_
 4	vous	vous	PRON	_	_	5	subj	_	_
@@ -8923,7 +8923,7 @@
 # sent_id = Rhap_D2005-27
 # text = très tôt dès disons dès quinze seize ans j' ai eu envie d' être un intellectuel qui marque son temps
 # macrosyntax = $L2 { très tôt | { dès | "disons" dès } { quinze | seize } ans } <+ j'ai eu envie d'être un intellectuel qui marque son temps //
-1	très	très	ADV	_	_	2	advmod	_	_
+1	très	très	ADV	_	_	2	mod	_	_
 2	tôt	tôt	ADV	_	_	10	mod	_	_
 3	dès	dès	ADP	_	_	10	mod	_	_
 4	disons	dire	VERB	DISCOURSE	_	3	parataxis@discourse	_	_
@@ -8947,7 +8947,7 @@
 # sent_id = Rhap_D2005-28
 # text = dans ma famille on a toujours fait euh de la littérature et de la recherche quelque chose d' essentiel
 # macrosyntax = dans ma famille on a toujours fait "euh" { de la littérature | ^et de la recherche } quelque chose d'essentiel //
-1	dans	dans	ADP	_	_	3	case	_	_
+1	dans	dans	ADP	_	_	7	mod	_	_
 2	ma	son	DET	_	_	3	det	_	_
 3	famille	famille	NOUN	_	_	1	comp:obj	_	_
 4	on	on	PRON	_	_	5	subj	_	_
@@ -8970,13 +8970,13 @@
 # sent_id = Rhap_D2005-29
 # text = j' ai
 # macrosyntax = j'ai ESPERLUETTE //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D2005-30
 # text = c' est pas en révolte avec mon environnement que j' ai voulu ça non
 # macrosyntax = c'est pas en révolte avec mon environnement que j'ai voulu ça "non" //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	en	en	ADP	_	_	2	comp:pred	_	_
@@ -8994,7 +8994,7 @@
 # sent_id = Rhap_D2005-31
 # text = qu~ quel a été le le le le le poids de de de la religion de votre communauté euh culturelle
 # macrosyntax = $L1 { qu~ | quel } a été { le | le | le | le | le } poids { { de | de | de } la religion | de votre communauté "euh" $- $L1 culturelle } //
-1	qu~	qu~	PRON	_	_	0	root	_	_
+1	qu~	qu~	PRON	_	_	4	comp:pred	_	_
 2	quel	quel	PRON	_	_	1	conj:dicto	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
 4	été	être	AUX	_	_	3	comp:aux	_	_
@@ -9047,7 +9047,7 @@
 # sent_id = Rhap_D2005-34
 # text = même s' ils parlaient le français absolument parfaitement sans accent sans même aucun accent pied noir
 # macrosyntax = même s'ils parlaient le français { absolument parfaitement | sans accent | sans même aucun accent pied noir } //
-1	même	même	ADV	_	_	4	mark	_	_
+1	même	même	ADV	_	_	0	root	_	_
 2	s'	si	SCONJ	_	_	1	unk@fixed	_	_
 3	ils	il	PRON	_	_	4	subj	_	_
 4	parlaient	parler	VERB	_	_	1	comp:obj	_	_
@@ -9067,7 +9067,7 @@
 # sent_id = Rhap_D2005-35
 # text = je n' ai jamais eu un environnement d' accent pied noir
 # macrosyntax = je n'ai jamais eu un environnement d'accent pied noir //
-1	je	je	PRON	_	_	5	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	jamais	jamais	ADV	_	_	3	mod	_	_
@@ -9082,7 +9082,7 @@
 # sent_id = Rhap_D2005-36
 # text = entre eux ils parlaient l' arabe
 # macrosyntax = entre eux <+ ils parlaient l'arabe //
-1	entre	entre	ADP	_	_	2	case	_	_
+1	entre	entre	ADP	_	_	4	mod	_	_
 2	eux	lui	PRON	_	_	1	comp:obj	_	_
 3	ils	il	PRON	_	_	4	subj	_	_
 4	parlaient	parler	VERB	_	_	0	root	_	_
@@ -9092,7 +9092,7 @@
 # sent_id = Rhap_D2005-37
 # text = quelles étaient vos vos lectures
 # macrosyntax = $L1 quelles étaient { vos | vos } lectures //
-1	quelles	quel	PRON	_	_	0	root	_	_
+1	quelles	quel	PRON	_	_	2	comp:pred	_	_
 2	étaient	être	AUX	_	_	0	root	_	_
 3	vos	son	DET	_	_	5	det	_	_
 4	vos	son	DET	conj:reform	_	3	conj:dicto	_	_
@@ -9110,7 +9110,7 @@
 # sent_id = Rhap_D2005-39
 # text = j' ai lu beaucoup beaucoup
 # macrosyntax = j'ai lu { beaucoup | beaucoup } //
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	lu	lire	VERB	_	_	2	comp:aux	_	_
 4	beaucoup	beaucoup	ADV	_	_	2	mod	_	_
@@ -9119,7 +9119,7 @@
 # sent_id = Rhap_D2005-40
 # text = d' abord la littérature française du dix-huitième dix-neuvième
 # macrosyntax = d'abord < la littérature française du { dix-huitième | dix-neuvième } //
-1	d'	de	ADP	_	_	2	case	_	_
+1	d'	de	ADP	_	_	4	mod	_	_
 2	abord	abord	NOUN	_	_	1	comp:obj	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	littérature	littérature	NOUN	_	_	0	root	_	_
@@ -9131,7 +9131,7 @@
 # sent_id = Rhap_D2005-41
 # text = j' étais très impressionné par le théâtre de Marivaux qui était important pour moi
 # macrosyntax = j'étais très impressionné par le théâtre de Marivaux qui était important pour moi //
-1	j'	je	PRON	_	_	4	nsubj:pass	_	_
+1	j'	je	PRON	_	_	2	subj@pass	_	_
 2	étais	être	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	2	mod	_	_
 4	impressionné	impressionner	VERB	_	_	2	comp:aux@pass	_	_
@@ -9149,7 +9149,7 @@
 # sent_id = Rhap_D2005-42
 # text = et puis je me suis mis un peu plus tard c' est - à - dire vers dix-huit ans à découvrir la littérature étrangère
 # macrosyntax = ^et ^puis je me suis mis { un peu plus tard | ^c'^est-^à-^dire vers dix-huit ans } à découvrir la littérature étrangère //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	je	je	PRON	_	_	5	subj@pass	_	_
 4	me	me	PRON	_	_	6	unk@iobj	_	_
@@ -9177,7 +9177,7 @@
 # sent_id = Rhap_D2005-43
 # text = c' était une partie assez secondaire quand même de mon activité parce que je faisais beaucoup de piano aussi
 # macrosyntax = c'était une partie assez secondaire quand même de mon activité parce que je faisais beaucoup de piano aussi //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	une	un	DET	_	_	4	det	_	_
 4	partie	partie	NOUN	_	_	2	comp:pred	_	_
@@ -9200,7 +9200,7 @@
 # sent_id = Rhap_D2005-44
 # text = je jouais énormément de musique
 # macrosyntax = je jouais énormément de musique //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	jouais	jouer	VERB	_	_	0	root	_	_
 3	énormément	énormément	ADV	_	_	2	comp:obj	_	_
 4	de	de	ADP	_	_	3	comp:obl	_	_
@@ -9247,7 +9247,7 @@
 # sent_id = Rhap_D2005-46
 # text = c' était une enfance heureuse oui très heureuse
 # macrosyntax = $L1 c'était une enfance { heureuse |} //+ $L2 oui //+ {| très heureuse } //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	une	un	DET	_	_	4	det	_	_
 4	enfance	enfance	NOUN	_	_	2	comp:pred	_	_
@@ -9259,7 +9259,7 @@
 # sent_id = Rhap_D2005-47
 # text = déjà au lycée vous vous distinguez par vos vos vos talents intellectuels
 # macrosyntax = $L1 déjà < au lycée <+ vous vous distinguez par { vos | vos | vos } talents intellectuels //
-1	déjà	déjà	ADV	_	_	6	advmod:periph	_	_
+1	déjà	déjà	ADV	_	_	6	mod	_	_
 2	au	à+le	ADP	_	_	6	mod	_	_
 3	lycée	lycée	NOUN	_	_	2	comp:obj	_	_
 4	vous	vous	PRON	_	_	6	subj	_	_
@@ -9275,7 +9275,7 @@
 # sent_id = Rhap_D2005-48
 # text = j' étais euh j' avais la réputation d' être un très bon élève
 # macrosyntax = { j'étais ESPERLUETTE | "euh" j'avais } la réputation d'être un très bon élève //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	étais	être	AUX	_	_	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	j'	je	PRON	_	_	5	subj	_	_
@@ -9292,7 +9292,7 @@
 # sent_id = Rhap_D2005-49
 # text = et j' étais pas un très bon élève
 # macrosyntax = ^et j'étais pas un très bon élève //
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	étais	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -9304,7 +9304,7 @@
 # sent_id = Rhap_D2005-50
 # text = j' avais la réputation d' être très doué
 # macrosyntax = j'avais la réputation d'être très doué //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	avais	avoir	VERB	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	réputation	réputation	NOUN	_	_	2	comp:obj	_	_
@@ -9327,7 +9327,7 @@
 # sent_id = Rhap_D2005-52
 # text = j' étais toujours euh dans les cinq premiers de la classe mais sans plus
 # macrosyntax = j'étais toujours "euh" dans les cinq premiers de la classe //+ ^mais sans plus //
-1	j'	je	PRON	_	_	8	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	étais	être	AUX	_	_	0	root	_	_
 3	toujours	toujours	ADV	_	_	5	mod	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -9369,7 +9369,7 @@
 # sent_id = Rhap_D2005-54
 # text = alors euh pourquoi se diriger vers ces grandes écoles
 # macrosyntax = alors < "euh" pourquoi se diriger vers ces grandes écoles //
-1	alors	alors	ADV	_	_	5	advmod:periph	_	_
+1	alors	alors	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	pourquoi	pourquoi	PRON	_	_	5	mod	_	_
 4	se	se	PRON	_	_	5	comp@fixed	_	_
@@ -9382,7 +9382,7 @@
 # sent_id = Rhap_D2005-55
 # text = quel était le projet à l' époque
 # macrosyntax = quel était le projet à l'époque //
-1	quel	quel	PRON	_	_	0	root	_	_
+1	quel	quel	PRON	_	_	2	comp:pred	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	projet	projet	NOUN	_	_	2	subj	_	_
@@ -9393,7 +9393,7 @@
 # sent_id = Rhap_D2005-56
 # text = pourquoi ne pas faire de la sociologie de l' histoire ou de la recherche
 # macrosyntax = pourquoi ne pas faire { de la sociologie | de l'histoire | ^ou de la recherche } //
-1	pourquoi	pourquoi	PRON	_	_	4	obl:mod	_	_
+1	pourquoi	pourquoi	PRON	_	_	4	mod	_	_
 2	ne	ne	ADV	_	_	4	mod	_	_
 3	pas	pas	ADV	_	_	4	mod	_	_
 4	faire	faire	VERB	_	_	0	root	_	_
@@ -9411,7 +9411,7 @@
 # sent_id = Rhap_D2005-57
 # text = dans ma génération euh c' était à peu près évident quand on était bon en maths de ne pas gaspiller ce talent
 # macrosyntax = $L2 dans ma génération <+ "euh" c'était à peu près évident quand on était bon en maths de ne pas gaspiller ce talent //
-1	dans	dans	ADP	_	_	3	case	_	_
+1	dans	dans	ADP	_	_	10	mod	_	_
 2	ma	son	DET	_	_	3	det	_	_
 3	génération	génération	NOUN	_	_	1	comp:obj	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -9446,7 +9446,7 @@
 # sent_id = Rhap_D2005-59
 # text = il se trouve qu' à partir de la Math Elem je me suis trouvé très bon en maths
 # macrosyntax = il se trouve qu' [ à partir de la Math Elem <+ je me suis trouvé très bon en maths ] //
-1	il	il	PRON	_	_	3	nsubj	_	_
+1	il	il	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	trouve	trouver	VERB	_	_	0	root	_	_
 4	qu'	que	SCONJ	_	_	3	comp:obj	_	_
@@ -9499,7 +9499,7 @@
 # sent_id = Rhap_D2005-61
 # text = je serais jamais ingénieur
 # macrosyntax = je serais jamais ingénieur //
-1	je	je	PRON	_	_	4	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	serais	être	AUX	_	_	0	root	_	_
 3	jamais	jamais	ADV	_	_	2	mod	_	_
 4	ingénieur	ingénieur	NOUN	_	_	2	comp:pred	_	_
@@ -9614,13 +9614,13 @@
 # sent_id = Rhap_D2005-67
 # text = j' avais
 # macrosyntax = j'avais ESPERLUETTE // -$
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	avais	avoir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D2005-68
 # text = je suis un intellectuel
 # macrosyntax = je suis un intellectuel //
-1	je	je	PRON	_	_	4	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	suis	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	intellectuel	intellectuel	NOUN	_	_	2	comp:pred	_	_
@@ -9628,7 +9628,7 @@
 # sent_id = Rhap_D2005-69
 # text = je l' ai toujours été
 # macrosyntax = je l'ai toujours été //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	l'	le	PRON	_	_	5	comp:pred	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	toujours	toujours	ADV	_	_	3	mod	_	_
@@ -9637,7 +9637,7 @@
 # sent_id = Rhap_D2005-70
 # text = j' ai jamais eu envie d' aller faire une carrière politique
 # macrosyntax = j'ai jamais eu envie d'aller faire une carrière politique //
-1	j'	je	PRON	_	_	4	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	jamais	jamais	ADV	_	_	2	mod	_	_
 4	eu	avoir	VERB	_	_	2	comp:aux	_	_
@@ -9652,7 +9652,7 @@
 # sent_id = Rhap_D2005-71
 # text = j' ai toujours envie de faire euh avancer le monde par mes idées quitte à les mettre en oeuvre moi -même
 # macrosyntax = j'ai toujours envie de faire "euh" avancer le monde par mes idées > quitte à les mettre en oeuvre moi-même //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
 4	envie	envie	NOUN	_	_	2	comp:obj	_	_
@@ -9677,7 +9677,7 @@
 # sent_id = Rhap_D0003-1
 # text = vous êtes venue à Paris à quel âge
 # macrosyntax = $L1 vous êtes venue à Paris à quel âge //
-1	vous	vous	PRON	_	_	3	nsubj:pass	_	_
+1	vous	vous	PRON	_	_	2	subj@pass	_	_
 2	êtes	être	AUX	_	_	0	root	_	_
 3	venue	venir	VERB	_	_	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -9728,7 +9728,7 @@
 # sent_id = Rhap_D0003-5
 # text = et petit à petit ils ont essayé d' avoir quelque chose à Paris petit studio ou quelque chose comme ça pour revenir voir leurs amis et puis pour y
 # macrosyntax = ^et petit à petit < ils ont essayé d'avoir { quelque chose |} à Paris {| petit studio | ^ou quelque chose comme ça } { pour revenir voir leurs amis | ^et ^puis pour y ESPERLUETTE } //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	_
 2	petit	petit	ADJ	_	_	7	mod	_	_
 3	à	à	ADP	_	_	2	unk	_	_
 4	petit	petit	ADJ	_	_	3	comp:obj	_	_
@@ -9761,7 +9761,7 @@
 # sent_id = Rhap_D0003-6
 # text = ils étaient très mélomanes
 # macrosyntax = $- $L1 ils étaient très mélomanes // 
-1	ils	il	PRON	_	_	4	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	étaient	être	AUX	_	_	0	root	_	_
 3	très	très	ADV	_	_	2	mod	_	_
 4	mélomanes	mélomane	NOUN	_	_	2	comp:pred	_	_
@@ -9769,7 +9769,7 @@
 # sent_id = Rhap_D0003-7
 # text = alors ils avaient envie d' entendre de la musique
 # macrosyntax = alors < ils avaient envie d'entendre de la musique //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	ils	il	PRON	_	_	3	subj	_	_
 3	avaient	avoir	VERB	_	_	0	root	_	_
 4	envie	envie	NOUN	_	_	3	comp:obj	_	_
@@ -9825,7 +9825,7 @@
 # sent_id = Rhap_D0003-11
 # text = il y avait cet endroit à Paris où on pouvait arriver
 # macrosyntax = il y avait cet endroit à Paris où on pouvait arriver //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	avait	avoir	VERB	_	_	0	root	_	_
 4	cet	ce	DET	_	_	5	det	_	_
@@ -9840,7 +9840,7 @@
 # sent_id = Rhap_D0003-12
 # text = il y avait deux pièces voyez
 # macrosyntax = il y avait deux pièces "voyez" //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	avait	avoir	VERB	_	_	0	root	_	_
 4	deux	deux	NUM	_	_	5	mod	_	_
@@ -9862,7 +9862,7 @@
 # sent_id = Rhap_D0003-14
 # text = nous avons été sous très gros bombardements américains puis anglais
 # macrosyntax = nous avons été sous très gros bombardements $- $L2 { américains | ^puis anglais } //
-1	nous	nous	PRON	_	_	7	nsubj	_	_
+1	nous	nous	PRON	_	_	2	subj	_	_
 2	avons	avoir	AUX	_	_	0	root	_	_
 3	été	être	AUX	_	_	2	comp:aux	_	_
 4	sous	sous	ADP	_	_	3	comp:pred	_	_
@@ -9876,7 +9876,7 @@
 # sent_id = Rhap_D0003-15
 # text = et nous sommes ob~ ob~
 # macrosyntax = ( ^et nous sommes { aub~ | aub~ | 
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	nous	nous	PRON	_	_	3	subj	_	_
 3	sommes	être	AUX	_	_	0	root	_	_
 4	ob~	ob~	X	_	_	3	comp:aux	_	_
@@ -9885,7 +9885,7 @@
 # sent_id = Rhap_D0003-16
 # text = après le bombardement anglais mon mh mon père a dit bon il f~ il faut partir il faut
 # macrosyntax = après } le bombardement anglais // ) { mon | ( $L1 "mh" ) -$ $L2 mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
-1	après	après	ADP	_	_	3	case	_	_
+1	après	après	ADP	_	_	10	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	bombardement	bombardement	NOUN	_	_	1	comp:obj	_	_
 4	anglais	anglais	ADJ	_	_	3	mod	_	_
@@ -9907,7 +9907,7 @@
 # sent_id = Rhap_D0003-17
 # text = tout le monde partait
 # macrosyntax = tout le monde partait //
-1	tout	tout	ADV	_	_	3	advmod	_	_
+1	tout	tout	ADV	_	_	3	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	monde	monde	NOUN	_	_	4	subj	_	_
 4	partait	partir	VERB	ETRE	_	0	root	_	_
@@ -9915,7 +9915,7 @@
 # sent_id = Rhap_D0003-18
 # text = lui il avait passé les quatre nuits ou trois nuits à à ramper dans les décombres pour aider les gens à mourir parce qu' on pouvait pas sortir les gens de là
 # macrosyntax = lui < il avait passé les { quatre nuits | ^ou trois nuits } { à | à } ramper dans les décombres pour aider les gens à mourir > parce qu'on pouvait pas sortir les gens de là //=
-1	lui	lui	PRON	_	_	4	dislocated	_	_
+1	lui	lui	PRON	_	_	3	dislocated	_	_
 2	il	il	PRON	_	_	3	subj	_	_
 3	avait	avoir	AUX	_	_	0	root	_	_
 4	passé	passer	VERB	ETRE	_	3	comp:aux	_	_
@@ -9951,14 +9951,14 @@
 # sent_id = Rhap_D0003-19
 # text = c' était impossible
 # macrosyntax = c' était impossible //
-1	c'	ce	PRON	_	_	3	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	impossible	impossible	ADJ	_	_	2	comp:pred	_	_
 
 # sent_id = Rhap_D0003-20
 # text = on s' est retrouvés sans eau ni gaz ni téléphone ni électricité
 # macrosyntax = on s'est retrouvés sans { eau | ^ni gaz | ^ni téléphone | ^ni électricité } //
-1	on	on	PRON	_	_	4	nsubj:pass	_	_
+1	on	on	PRON	_	_	3	subj@pass	_	_
 2	s'	se	PRON	_	_	4	comp@fixed	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	retrouvés	retrouver	VERB	_	_	3	comp:aux@pass	_	_
@@ -9983,7 +9983,7 @@
 # sent_id = Rhap_D0003-22
 # text = c' était à Nantes
 # macrosyntax = c'était à Nantes //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:pred	_	_
 4	Nantes	Nantes	PROPN	_	_	3	comp:obj	_	_
@@ -10032,7 +10032,7 @@
 # sent_id = Rhap_D0003-26
 # text = voyez c' était c' était effarant
 # macrosyntax = "voyez" { c'était | c'était } effarant //
-1	voyez	voir	VERB	DISCOURSE	_	3	parataxis:discourse	_	_
+1	voyez	voir	VERB	DISCOURSE	_	3	parataxis@discourse	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	était	être	AUX	_	_	0	root	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -10042,7 +10042,7 @@
 # sent_id = Rhap_D0003-27
 # text = c' était assez assez terrible
 # macrosyntax = $L2 c'était { assez | assez } terrible //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	assez	assez	ADV	_	_	2	mod	_	_
 4	assez	assez	ADV	conj:reform	_	3	conj:dicto	_	_
@@ -10051,7 +10051,7 @@
 # sent_id = Rhap_D0003-28
 # text = et les les maisons ont brûlé
 # macrosyntax = ^et { les | les } maisons ont brûlé //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	les	le	DET	_	_	4	det	_	_
 3	les	le	DET	conj:reform	_	2	conj:dicto	_	_
 4	maisons	maison	NOUN	_	_	5	subj	_	_
@@ -10086,7 +10086,7 @@
 # sent_id = Rhap_D0003-31
 # text = alors mon père avait passé ses nuits à faire ça
 # macrosyntax = alors < mon père avait passé ses nuits à faire ça //
-1	alors	alors	ADV	_	_	5	advmod:periph	_	_
+1	alors	alors	ADV	_	_	4	mod	_	_
 2	mon	son	DET	_	_	3	det	_	_
 3	père	père	NOUN	_	_	4	subj	_	_
 4	avait	avoir	AUX	_	_	0	root	_	_
@@ -10100,7 +10100,7 @@
 # sent_id = Rhap_D0003-32
 # text = et puis quand il a entendu le bombardement anglais le de~ le dernier soir il a dit mh mh ça ce sont les anglais
 # macrosyntax = ^et ^puis quand il a entendu le bombardement anglais { le de~ | le $- $L2 dernier soir } <+ il a dit ( $L1 "mh" "mh" ) -$ $L2 [ ça < ce sont les anglais // ] //
-1	et	et	CCONJ	_	_	17	cc	_	_
+1	et	et	CCONJ	_	_	16	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	quand	quand	SCONJ	_	_	16	mod	_	_
 4	il	il	PRON	_	_	5	subj	_	_
@@ -10128,7 +10128,7 @@
 # sent_id = Rhap_D0003-33
 # text = c' est parce qu' il avait été pilote d' essai dès dix-sept dix-huit
 # macrosyntax = c'est parce qu'il avait été pilote d'essai XXX dès dix sept dix huit //
-1	c'	ce	PRON	_	_	2	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	parce	parce	SCONJ	_	_	2	comp:obj	_	_
 4	qu'	que	SCONJ	_	_	3	unk@fixed	_	_
@@ -10145,7 +10145,7 @@
 # sent_id = Rhap_D0003-34
 # text = alors il a bien reconnu
 # macrosyntax = alors < il a bien reconnu //
-1	alors	alors	ADV	_	_	5	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	il	il	PRON	_	_	3	subj	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
 4	bien	bien	ADV	_	_	3	mod	_	_
@@ -10154,7 +10154,7 @@
 # sent_id = Rhap_D0003-35
 # text = il a dit ça ce sont les anglais
 # macrosyntax = il a dit { [ ça < ce sont les anglais XXX // 
-1	il	il	PRON	_	_	3	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	dit	dire	VERB	_	_	2	comp:aux	_	_
 4	ça	ça	PRON	_	_	6	dislocated	_	_
@@ -10166,7 +10166,7 @@
 # sent_id = Rhap_D0003-36
 # text = ils vont démolir ce qu' il faut démolir et caetera
 # macrosyntax = ils vont démolir ce qu'il faut démolir // ] | et caetera } //
-1	ils	il	PRON	_	_	2	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	vont	aller	VERB	ETRE	_	0	root	_	_
 3	démolir	démolir	VERB	_	_	2	comp:pred	_	_
 4	ce	ce	PRON	_	_	3	comp:obj	_	_
@@ -10180,7 +10180,7 @@
 # sent_id = Rhap_D0003-37
 # text = et puis il a décidé de partir
 # macrosyntax = ^et ^puis il a décidé de partir //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	il	il	PRON	_	_	4	subj	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
@@ -10191,7 +10191,7 @@
 # sent_id = Rhap_D0003-38
 # text = alors nous sommes partis le lendemain
 # macrosyntax = alors < nous sommes partis le lendemain //
-1	alors	alors	ADV	_	_	4	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	nous	nous	PRON	_	_	3	subj	_	_
 3	sommes	être	AUX	_	_	0	root	_	_
 4	partis	partir	VERB	ETRE	_	3	comp:aux	_	_
@@ -10201,7 +10201,7 @@
 # sent_id = Rhap_D0003-39
 # text = nous avons attendu je crois sept ou huit heures dans la gare parce que tous les officiers allemands tout l' état major allemand rentraient à Paris
 # macrosyntax = nous avons attendu "je crois" { sept | ^ou huit } heures dans la gare parce que { tous les officiers allemands | tout l'état major allemand } rentraient à Paris //
-1	nous	nous	PRON	_	_	3	nsubj	_	_
+1	nous	nous	PRON	_	_	2	subj	_	_
 2	avons	avoir	AUX	_	_	0	root	_	_
 3	attendu	attendre	VERB	_	_	2	comp:aux	_	_
 4	je	je	PRON	_	_	5	subj	_	_
@@ -10241,7 +10241,7 @@
 # sent_id = Rhap_D0003-41
 # text = ça c' était l' ha~ l' habitude
 # macrosyntax = ça < c'était l' { ha~ | l'habitude } //
-1	ça	ça	PRON	_	_	5	dislocated	_	_
+1	ça	ça	PRON	_	_	3	dislocated	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	était	être	AUX	_	_	0	root	_	_
 4	l'	le	DET	_	_	5	det	_	_
@@ -10252,7 +10252,7 @@
 # sent_id = Rhap_D0003-42
 # text = dès qu' il y avait quelque chose ça se passait comme ça
 # macrosyntax = dès qu'il y avait quelque chose <+ ça se passait comme ça //
-1	dès	dès	ADP	_	_	5	case	_	_
+1	dès	dès	ADP	_	_	10	mod	_	_
 2	qu'	que	SCONJ	_	_	5	unk	_	_
 3	il	il	PRON	_	_	1	subj@expl	_	_
 4	y	y	PRON	_	_	5	comp:obl	_	_
@@ -10268,7 +10268,7 @@
 # sent_id = Rhap_D0003-43
 # text = c' était pas anormal
 # macrosyntax = c'était pas anormal //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	anormal	anormal	ADJ	_	_	2	comp:pred	_	_
@@ -10276,7 +10276,7 @@
 # sent_id = Rhap_D0003-44
 # text = et finalement nous sommes rentrés à Paris
 # macrosyntax = ^et finalement < nous sommes rentrés à Paris //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	finalement	finalement	ADV	_	_	4	mod	_	_
 3	nous	nous	PRON	_	_	4	subj@pass	_	_
 4	sommes	être	AUX	_	_	0	root	_	_
@@ -10287,7 +10287,7 @@
 # sent_id = Rhap_D0003-45
 # text = et nous nous sommes installés dans ce petit appartement
 # macrosyntax = ^et nous nous sommes installés dans ce petit appartement //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	nous	nous	PRON	_	_	4	subj@pass	_	_
 3	nous	nous	PRON	_	_	5	unk@obj	_	_
 4	sommes	être	AUX	_	_	0	root	_	_
@@ -10300,7 +10300,7 @@
 # sent_id = Rhap_D0003-46
 # text = et nous sommes plus jamais repartis de Paris
 # macrosyntax = ^et nous sommes plus jamais repartis de Paris //
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	nous	nous	PRON	_	_	3	subj@pass	_	_
 3	sommes	être	AUX	_	_	0	root	_	_
 4	plus	plus	ADV	_	_	5	mod	_	_
@@ -10312,7 +10312,7 @@
 # sent_id = Rhap_D0003-47
 # text = on est toujours restés à ah oui Paris en allant fidèlement en Bretagne euh souvent et l' été
 # macrosyntax = $- $L2 on est toujours restés à ( $L1 "ah" oui // ) -$ $L2 Paris > en allant fidèlement en Bretagne "euh" $- $L2 >+ { souvent | ^et l'été } //
-1	on	on	PRON	_	_	4	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
 4	restés	rester	VERB	ETRE	_	2	comp:aux	_	_
@@ -10334,7 +10334,7 @@
 # sent_id = Rhap_M0012-1
 # text = donc euh j' irais à pied euh en longeant là donc euh jusqu' au cinéma Nef Chavant
 # macrosyntax = donc < "euh" j' irais à pied "euh" en longeant { là | donc "euh" jusqu' au cinéma Nef Chavant } //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	irais	aller	VERB	ETRE	_	0	root	_	_
@@ -10355,7 +10355,7 @@
 # sent_id = Rhap_M0012-2
 # text = ensuite je continuerais jusqu' à la Préfecture
 # macrosyntax = ensuite <+ je continuerais jusqu' à la Préfecture //
-1	ensuite	ensuite	ADV	_	_	3	advmod:periph	_	_
+1	ensuite	ensuite	ADV	_	_	3	mod	_	_
 2	je	je	PRON	_	_	3	subj	_	_
 3	continuerais	continuer	VERB	_	_	0	root	_	_
 4	jusqu'	jusque	ADP	_	_	3	mod	_	_
@@ -10366,7 +10366,7 @@
 # sent_id = Rhap_M0012-3
 # text = je couperais par la place Grenette
 # macrosyntax = je couperais par la place Grenette //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	couperais	couper	VERB	_	_	0	root	_	_
 3	par	par	ADP	_	_	2	comp:obl	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -10376,7 +10376,7 @@
 # sent_id = Rhap_M0012-4
 # text = donc après je longerais le boulevard euh Gambetta
 # macrosyntax = donc < après <+ je longerais le boulevard "euh" Gambetta //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	après	après	ADP	_	_	4	mod	_	_
 3	je	je	PRON	_	_	4	subj	_	_
 4	longerais	longer	VERB	_	_	0	root	_	_
@@ -10388,7 +10388,7 @@
 # sent_id = Rhap_M0012-5
 # text = je traverse donc le cours Jean Jaurès
 # macrosyntax = je traverse ( donc ) le cours Jean Jaurès //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	traverse	traverser	VERB	_	_	0	root	_	_
 3	donc	donc	ADV	_	_	2	discourse	_	_
 4	le	le	DET	_	_	5	det	_	_
@@ -10418,7 +10418,7 @@
 # sent_id = Rhap_D0002-2
 # text = j' avais de la chance d' avoir des enfants qui travaillaient euh
 # macrosyntax = j'avais de la chance d'avoir des enfants qui travaillaient "euh" //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	avais	avoir	VERB	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	comp:obl	_	_
 4	la	le	PRON	_	_	3	unk@fixed	_	_
@@ -10434,7 +10434,7 @@
 # sent_id = Rhap_D0002-3
 # text = je dirais c~ c' était
 # macrosyntax = "je dirais" { c~ | c' } était ESPERLUETTE //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	dirais	dire	VERB	DISCOURSE	_	5	parataxis@discourse	_	_
 3	c~	c~	X	_	_	5	subj	_	_
 4	c'	ce	PRON	_	_	3	conj:dicto	_	_
@@ -10443,7 +10443,7 @@
 # sent_id = Rhap_D0002-4
 # text = ils préféraient rigoler que de travailler
 # macrosyntax = ils préféraient rigoler que de travailler //
-1	ils	il	PRON	_	_	2	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	préféraient	préférer	VERB	_	_	0	root	_	_
 3	rigoler	rigoler	VERB	_	_	2	comp:pred	_	_
 4	que	que	SCONJ	_	_	6	cc	_	_
@@ -10453,7 +10453,7 @@
 # sent_id = Rhap_D0002-5
 # text = ils étaient tout à fait normaux
 # macrosyntax = $- $L1 ils étaient tout à fait normaux //
-1	ils	il	PRON	_	_	6	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	étaient	être	AUX	_	_	0	root	_	_
 3	tout	tout	ADV	_	_	2	mod	_	_
 4	à	à	ADP	_	_	3	unk@fixed	_	_
@@ -10477,7 +10477,7 @@
 # sent_id = Rhap_D0002-7
 # text = et c' est vrai que bon habitant dans le centre de Paris euh les écoles sont de très bon niveau hein je veux dire
 # macrosyntax = ^et c'est vrai que [ "bon" habitant dans le centre de Paris "euh" < les écoles sont de très bon niveau "hein" $- $L1 "je veux dire" ] //
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	_
@@ -10520,7 +10520,7 @@
 # sent_id = Rhap_D0002-9
 # text = moi j' ai eu aucun problème scolaire pour mes enfants
 # macrosyntax = moi < j'ai eu aucun problème scolaire pour mes enfants //
-1	moi	lui	PRON	_	_	4	dislocated	_	_
+1	moi	lui	PRON	_	_	3	dislocated	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	eu	avoir	VERB	_	_	3	comp:aux	_	_
@@ -10550,7 +10550,7 @@
 # sent_id = Rhap_D0002-11
 # text = j~ je connaissais des gens dans le septième qui mettaient leurs enfants d' abord dans le public puis dans le privé pour qu' ils puissent passer après éventuellement euh euh et qu' ils soient plus forts
 # macrosyntax = { j~ | je } connaissais des gens dans le septième qui mettaient leurs enfants { d'abord dans le public | ^puis dans le privé } pour { qu'ils puissent passer après éventuellement ESPERLUETTE "euh" "euh" | ^et qu'ils soient plus forts } //
-1	j~	j~	PRON	_	_	3	nsubj	_	_
+1	j~	j~	PRON	_	_	3	subj	_	_
 2	je	je	PRON	_	_	1	conj:dicto	_	_
 3	connaissais	connaître	VERB	_	_	0	root	_	_
 4	des	un	DET	_	_	5	det	_	_
@@ -10590,7 +10590,7 @@
 # sent_id = Rhap_D0002-12
 # text = et puis après ils étaient très étonnés parce que quand ils voulaient entrer en prépa on les prenait après les gens qui venaient du public
 # macrosyntax = ^et ^puis après <+ ils étaient très étonnés parce que [ quand ils voulaient entrer en prépa <+ on les prenait après les gens qui venaient du public ] //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	après	après	ADV	_	_	5	mod	_	_
 4	ils	il	PRON	_	_	5	subj	_	_
@@ -10646,7 +10646,7 @@
 # sent_id = Rhap_D0002-15
 # text = je pense que à l' intérieur de Paris euh globalement euh les les écoles sont sont d' un bon niveau voilà
 # macrosyntax = je pense que [ à l'intérieur de Paris <+ "euh" globalement < "euh" { les | les } écoles { sont | sont } d'un bon niveau ] $- $L1 "voilà" //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	pense	penser	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	à	à	ADP	_	_	15	mod	_	_
@@ -10686,7 +10686,7 @@
 # sent_id = Rhap_D0002-18
 # text = dans le vingtième j' ai des il y a des enfants
 # macrosyntax = dans le vingtième <+ { j'ai des | il y a des } enfants 
-1	dans	dans	ADP	_	_	3	case	_	_
+1	dans	dans	ADP	_	_	5	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	vingtième	vingtième	NOUN	_	_	1	comp:obj	_	_
 4	j'	je	PRON	_	_	5	subj	_	_
@@ -10719,7 +10719,7 @@
 # sent_id = Rhap_D0002-21
 # text = il y a il y a il y a il y a il y a des bons établissements
 # macrosyntax = { il y a | il y a | il y a | il y a | il y a } des bons établissements //=
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	il	il	PRON	_	_	6	subj@expl	_	_
@@ -10741,7 +10741,7 @@
 # sent_id = Rhap_D0002-22
 # text = il y en a des moins bons
 # macrosyntax = il y en a des moins bons //
-1	il	il	PRON	_	_	4	nsubj:expl	_	_
+1	il	il	PRON	_	_	4	subj@expl	_	_
 2	y	y	PRON	_	_	4	comp:obl	_	_
 3	en	en	PRON	_	_	7	comp:obj	_	_
 4	a	avoir	VERB	_	_	0	root	_	_
@@ -10752,7 +10752,7 @@
 # sent_id = Rhap_D0002-23
 # text = alors le problème si vous voulez qui se pose euh à Paris enfin que je vois dans le vingtième c' est le problème des écoles maternelles et primaires dans lequel quand vous avez effectivement un certain nombre d' enfants qui ne sont pas qui ne parlent pas couramment français mh euh pour les enseignants c' est c' est pas facile
 # macrosyntax = ^alors le problème ( si vous voulez ) { qui se pose "euh" à Paris | "enfin" que je vois dans le vingtième } < c'est le problème des écoles { maternelles | ^et primaires } dans lequel [ quand vous avez effectivement un certain nombre d'enfants { qui ne sont pas ESPERLUETTE | qui ne parlent pas couramment $- $ L1 français } <+ ( $L2 mh // ) -$ "euh" pour les enseignants <+ { c'est | c'est } pas facile ] //
-1	alors	alors	ADV	_	_	23	advmod:periph	_	_
+1	alors	alors	ADV	_	_	21	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	problème	problème	NOUN	_	_	21	dislocated	_	_
 4	si	si	SCONJ	_	_	3	parataxis@discourse	_	_
@@ -10839,13 +10839,13 @@
 # sent_id = Rhap_D0002-26
 # text = il faudrait
 # macrosyntax = il faudrait ESPERLUETTE //
-1	il	il	PRON	_	_	2	nsubj	_	_
+1	il	il	PRON	_	_	2	subj	_	_
 2	faudrait	falloir	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_D0002-27
 # text = si j' étais ministre de l' Éducation nationale je mettrais beaucoup plus d' enseignants dans les maternelles pour qu' un enfant qui sorte de maternelle parle obligatoirement français
 # macrosyntax = si j'étais ministre de l'Éducation nationale < je mettrais beaucoup plus d'enseignants dans les maternelles pour qu'un enfant qui sorte de maternelle parle obligatoirement français //
-1	si	si	SCONJ	_	_	4	mark	_	_
+1	si	si	SCONJ	_	_	10	dislocated	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	étais	être	AUX	_	_	1	comp:obj	_	_
 4	ministre	ministre	NOUN	_	_	3	comp:pred	_	_
@@ -10883,7 +10883,7 @@
 # sent_id = Rhap_D0002-29
 # text = parce que tous ces petits enfants qui arrivent ils vont en maternelle
 # macrosyntax = $L1 ^parce ^que tous ces petits enfants qui arrivent < ils vont en maternelle //
-1	parce	parce	SCONJ	_	_	10	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	tous	tout	ADJ	_	_	6	mod	_	_
 4	ces	ce	DET	_	_	6	det	_	_
@@ -10962,7 +10962,7 @@
 # sent_id = Rhap_D0002-33
 # text = on pourrait imaginer des mélanges
 # macrosyntax = $L2 on pourrait imaginer des mélanges // -$
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	pourrait	pouvoir	AUX	_	_	0	root	_	_
 3	imaginer	imaginer	VERB	_	_	2	comp:aux	_	_
 4	des	un	DET	_	_	5	det	_	_
@@ -10971,7 +10971,7 @@
 # sent_id = Rhap_D0002-34
 # text = on pourrait imaginer du busing
 # macrosyntax = $L2 on pourrait imaginer du busing //
-1	on	on	PRON	_	_	2	nsubj	_	_
+1	on	on	PRON	_	_	2	subj	_	_
 2	pourrait	pouvoir	AUX	_	_	0	root	_	_
 3	imaginer	imaginer	VERB	_	_	2	comp:aux	_	_
 4	du	un	DET	_	_	3	comp:obl	_	_
@@ -11072,7 +11072,7 @@
 # sent_id = Rhap_D0002-39
 # text = dans le oui vingtième il faudrait qu' il y ait qu' on sépare enfin qu' il y ait des cours de français pour les petits enfants qui parlent pas français c' est pas compliqué quand même c' est pas très difficile d' apprendre le français à des petits enfants de cet âge -là ça ça ça se fait assez facilement dont les mamans ne parlent pas français
 # macrosyntax = $- $L1 dans le ( $L2 oui // ) -$ $L1 vingtième <+ il faudrait { qu'il y ait ESPERLUETTE | qu'on sépare ESPERLUETTE | "enfin" qu'il y ait des cours de français pour les petits enfants { qui parlent pas français | # c'est pas compliqué quand même // c'est pas très difficile d'apprendre le français à des petits enfants de cet âge-là // { ça | ça | ça } se fait assez facilement // ##  dont les mamans ne parlent pas français } } //
-1	dans	dans	ADP	_	_	4	case	_	_
+1	dans	dans	ADP	_	_	6	discourse	_	_
 2	le	le	DET	_	_	4	det	_	_
 3	oui	oui	INTJ	_	_	2	discourse	_	_
 4	vingtième	vingtième	NOUN	_	_	1	comp:obj	_	_
@@ -11143,7 +11143,7 @@
 # sent_id = Rhap_D0002-40
 # text = donc ils ne voient pas souvent leur papa
 # macrosyntax = donc < ils ne voient pas souvent leur papa //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	4	mod	_	_
 2	ils	il	PRON	_	_	4	subj	_	_
 3	ne	ne	ADV	_	_	4	mod	_	_
 4	voient	voir	VERB	_	_	0	root	_	_
@@ -11155,7 +11155,7 @@
 # sent_id = Rhap_D0002-41
 # text = donc par définition mh ils ne parlent pas français
 # macrosyntax = donc < $- $L1 par définition < ( $L3 mh // ) -$ $L1 ils ne parlent pas français //=
-1	donc	donc	ADV	_	_	7	advmod:periph	_	_
+1	donc	donc	ADV	_	_	7	mod	_	_
 2	par	par	ADP	_	_	7	mod	_	_
 3	définition	définition	NOUN	_	_	2	comp:obj	_	_
 4	mh	mh	INTJ	_	_	3	discourse	_	_
@@ -11168,7 +11168,7 @@
 # sent_id = Rhap_D0002-42
 # text = ils ne parlent jamais français
 # macrosyntax = ils ne parlent jamais français //=
-1	ils	il	PRON	_	_	3	nsubj	_	_
+1	ils	il	PRON	_	_	3	subj	_	_
 2	ne	ne	ADV	_	_	3	mod	_	_
 3	parlent	parler	VERB	_	_	0	root	_	_
 4	jamais	jamais	ADV	_	_	3	mod	_	_
@@ -11177,7 +11177,7 @@
 # sent_id = Rhap_D0002-43
 # text = ils parlent pas français à la maison
 # macrosyntax = ils parlent pas français à la maison //
-1	ils	il	PRON	_	_	2	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	parlent	parler	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	français	français	NOUN	_	_	2	comp:obj	_	_
@@ -11223,7 +11223,7 @@
 # sent_id = Rhap_D0002-46
 # text = car euh les formations linguistiques qui sont données aux immigrés qui arrivent ne sont pas faites pour les gens qui ne parlent pas du tout ni qui n' ont jamais été à l' école
 # macrosyntax = ^car "euh" les formations linguistiques qui sont données aux immigrés qui arrivent ne sont pas faites pour les gens { qui ne parlent pas du tout | ^ni qui n'ont jamais été à l'école } //
-1	car	car	CCONJ	_	_	16	cc	_	_
+1	car	car	CCONJ	_	_	14	cc	_	_
 2	euh	euh	INTJ	_	_	16	discourse	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	formations	formation	NOUN	_	_	14	subj@pass	_	_
@@ -11261,7 +11261,7 @@
 # sent_id = Rhap_D0002-47
 # text = parce que ça personne n' en veut
 # macrosyntax = ^parce ^que ça < personne n'en veut //
-1	parce	parce	SCONJ	_	_	7	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	ça	ça	PRON	_	_	7	discourse	_	_
 4	personne	personne	PRON	_	_	7	subj	_	_
@@ -11324,7 +11324,7 @@
 # sent_id = Rhap_D0002-51
 # text = donc euh non je je pense que le problème
 # macrosyntax = $L1 donc < "euh" "non" { je | je } pense que le problème ESPERLUETTE //
-1	donc	donc	ADV	_	_	6	advmod:periph	_	_
+1	donc	donc	ADV	_	_	6	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	non	non	ADV	_	_	1	discourse	_	_
 4	je	je	PRON	_	_	6	subj	_	_
@@ -11337,7 +11337,7 @@
 # sent_id = Rhap_D0002-52
 # text = je dis pas que tous les problèmes viennent de là
 # macrosyntax = je dis pas que tous les problèmes viennent de là //=
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	dis	dire	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	que	que	SCONJ	_	_	2	comp:obj	_	_
@@ -11362,7 +11362,7 @@
 # sent_id = Rhap_D0002-54
 # text = comment voulez vous apprendre à lire à un enfant qui parle pas français
 # macrosyntax = comment voulez vous apprendre à lire à un enfant $- $L1 qui parle pas français //
-1	comment	comment	PRON	_	_	2	obl:mod	_	_
+1	comment	comment	PRON	_	_	2	mod	_	_
 2	voulez	vouloir	AUX	_	_	0	root	_	_
 3	vous	vous	PRON	_	_	2	subj	_	_
 4	apprendre	apprendre	VERB	_	_	2	comp:aux	_	_
@@ -11405,7 +11405,7 @@
 # sent_id = Rhap_D0002-57
 # text = alors mh bien sûr qu' il y en a qui s' en sortent
 # macrosyntax = $- ^alors ( $L2 mh // ) -$ $L1 bien sûr qu'il y en a qui s'en sortent //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	mh	mh	INTJ	_	_	1	discourse	_	_
 3	bien	bien	ADV	_	_	0	root	_	_
 4	sûr	sûr	ADJ	_	_	3	unk@fixed	_	_
@@ -11422,7 +11422,7 @@
 # sent_id = Rhap_D0002-58
 # text = il y a toujours des gens très intelligents quelque part
 # macrosyntax = il y a toujours des gens très intelligents quelque part //
-1	il	il	PRON	_	_	3	nsubj:expl	_	_
+1	il	il	PRON	_	_	3	subj@expl	_	_
 2	y	y	PRON	_	_	3	comp:obl	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	toujours	toujours	ADV	_	_	3	mod	_	_
@@ -11453,7 +11453,7 @@
 # sent_id = Rhap_D0002-60
 # text = globalement c' est difficile
 # macrosyntax = $L3 globalement < c'est difficile //
-1	globalement	globalement	ADV	_	_	4	advmod:periph	_	_
+1	globalement	globalement	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	difficile	difficile	ADJ	_	_	3	comp:pred	_	_
@@ -11467,7 +11467,7 @@
 # sent_id = Rhap_D0002-62
 # text = mais globalement c' est très difficile
 # macrosyntax = ( $L2 ^mais ESPERLUETTE // ) -$ $L1 globalement < c'est très $- $L1 difficile //
-1	mais	mais	CCONJ	_	_	6	cc	_	_
+1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	globalement	globalement	ADV	_	_	4	mod	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -11508,7 +11508,7 @@
 # sent_id = Rhap_D0002-64
 # text = ça s' installe très très vite
 # macrosyntax = ça s'installe $- $L2 { très | très } vite // 
-1	ça	ça	PRON	_	_	3	nsubj	_	_
+1	ça	ça	PRON	_	_	3	subj	_	_
 2	s'	se	PRON	_	_	3	comp@fixed	_	_
 3	installe	installer	VERB	_	_	0	root	_	_
 4	très	très	ADV	_	_	6	mod	_	_
@@ -11527,7 +11527,7 @@
 # sent_id = Rhap_D0002-66
 # text = et le français langue étrangère dans un milieu euh où quatre-vingt-dix pour cent de la classe est en langue étrangère c' est beaucoup ben moins facile malgré tout
 # macrosyntax = $L2 ^et -$ $L2 le français langue étrangère dans un milieu "euh" où quatre vingt dix pour cent de la classe est en langue étrangère < c' est beaucoup $- ( $L1 "ben" ) $L2 moins -$ $- $L2 facile malgré tout //
-1	et	et	CCONJ	_	_	26	cc	_	_
+1	et	et	CCONJ	_	_	22	cc	_	_
 2	le	le	DET	_	_	3	det	_	_
 3	français	français	NOUN	_	_	22	dislocated	_	_
 4	langue	langue	NOUN	_	_	3	compound	_	_
@@ -11594,7 +11594,7 @@
 # sent_id = Rhap_D0002-69
 # text = je crois que là
 # macrosyntax = je crois que là ESPERLUETTE // -$
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	crois	croire	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	unk	_	_
 4	là	là	ADV	_	_	3	discourse	_	_
@@ -11602,7 +11602,7 @@
 # sent_id = Rhap_D0002-70
 # text = je pense que vous avez raison
 # macrosyntax = $L1 je pense que vous avez $- $L1 raison //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	pense	penser	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	vous	vous	PRON	_	_	5	subj	_	_
@@ -11631,7 +11631,7 @@
 # sent_id = Rhap_D0002-72
 # text = parce que quand ils sont petits ben euh quand il faut les emmener et que c' est pas facile
 # macrosyntax = ^parce ^que $- $L1 { quand ils sont petits  "ben" "euh" ESPERLUETTE //+ | $L2 quand il faut les emmener | ^et que c'est pas facile } //
-1	parce	parce	SCONJ	_	_	6	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	quand	quand	SCONJ	_	_	1	comp:obj	_	_
 4	ils	il	PRON	_	_	5	subj	_	_
@@ -11690,7 +11690,7 @@
 # sent_id = Rhap_D0002-74
 # text = parce que déjà c' est
 # macrosyntax = ^parce ^que déjà < c'est ESPERLUETTE //
-1	parce	parce	SCONJ	_	_	5	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	déjà	déjà	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -11699,7 +11699,7 @@
 # sent_id = Rhap_D0002-75
 # text = quand même pour eux d' aller à l' école c' est pas évident hein
 # macrosyntax = quand même < pour eux <+ d'aller à l'école <+ c'est pas $- $L1 évident "hein" //
-1	quand	quand	PRON	_	_	13	advcl:periph	_	_
+1	quand	quand	PRON	_	_	11	mod	_	_
 2	même	même	ADV	_	_	1	unk@fixed	_	_
 3	pour	pour	ADP	_	_	13	mod	_	_
 4	eux	lui	PRON	_	_	3	comp:obj	_	_
@@ -11731,7 +11731,7 @@
 # sent_id = Rhap_D0002-77
 # text = parce que les mamans africaines elles ont beaucoup de mal à se séparer de leurs petits
 # macrosyntax = ^parce ^que les mamans africaines < elles ont beaucoup de mal à se séparer de leurs petits //=
-1	parce	parce	SCONJ	_	_	7	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	mamans	maman	NOUN	_	_	7	dislocated	_	_
@@ -11762,7 +11762,7 @@
 # sent_id = Rhap_D0002-79
 # text = donc si en plus on leur explique que euh ça veut dire que l' enfant restera déjeuner là - bas les mamans africaines elles veulent pas
 # macrosyntax = donc < si ( en plus ) on leur explique que "euh" ça veut dire que l'enfant restera déjeuner là-bas <+ les mamans africaines < elles veulent pas //= $-
-1	donc	donc	ADV	_	_	25	advmod:periph	_	_
+1	donc	donc	ADV	_	_	25	mod	_	_
 2	si	si	SCONJ	_	_	25	mod	_	_
 3	en	en	ADP	_	_	7	mod	_	_
 4	plus	plus	ADV	_	_	3	unk	_	_
@@ -11803,7 +11803,7 @@
 # sent_id = Rhap_M0002-1
 # text = donc euh il y a une jeune fille euh habillée tout en noir qui euh en se baladant dans la rue a vu une euh vitrine de pâtissier - boulanger
 # macrosyntax = donc < "euh" il y a une jeune fille habillée tout en noir qui "euh" (+ en se baladant dans la rue ) a vu une vitrine de pâtissier-boulanger //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	il	il	PRON	_	_	5	subj@expl	_	_
 4	y	y	PRON	_	_	5	comp:obl	_	_
@@ -11866,7 +11866,7 @@
 # sent_id = Rhap_M0002-3
 # text = et pendant qu' il était à l' intérieur de la boutique il avait laissé son camion ouvert
 # macrosyntax = ^et pendant qu'il était à l'intérieur de la boutique <+ il avait laissé son camion ouvert //
-1	et	et	CCONJ	_	_	14	cc	_	_
+1	et	et	CCONJ	_	_	13	cc	_	_
 2	pendant	pendant	ADP	_	_	5	comp:pred	_	_
 3	qu'	que	SCONJ	_	_	8	unk	_	_
 4	il	il	PRON	_	_	5	subj	_	_
@@ -11931,7 +11931,7 @@
 # sent_id = Rhap_M0002-6
 # text = elle s' est mise à courir
 # macrosyntax = elle s'est mise à courir //
-1	elle	il	PRON	_	_	4	nsubj:pass	_	_
+1	elle	il	PRON	_	_	3	subj@pass	_	_
 2	s'	se	PRON	_	_	4	comp@fixed	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	mise	mettre	VERB	_	_	3	comp:aux@pass	_	_
@@ -11941,7 +11941,7 @@
 # sent_id = Rhap_M0002-7
 # text = elle est rentrée euh dans Charlie Chaplin
 # macrosyntax = elle est rentrée "euh" dans Charlie Chaplin //
-1	elle	il	PRON	_	_	3	nsubj:pass	_	_
+1	elle	il	PRON	_	_	2	subj@pass	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	rentrée	rentrer	VERB	_	_	2	comp:aux@pass	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -11952,7 +11952,7 @@
 # sent_id = Rhap_M0002-8
 # text = et là ils sont tombés tous les deux
 # macrosyntax = ils sont tombés tous les deux //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
 3	ils	il	PRON	_	_	4	subj	_	_
 4	sont	être	AUX	_	_	0	root	_	_
@@ -11982,7 +11982,7 @@
 # sent_id = Rhap_M0002-10
 # text = puis euh comme ils étaient tous les deux par terre le boulanger est arrivé avec la police
 # macrosyntax = ^puis "euh" comme ils étaient tous les deux par terre < le boulanger est arrivé avec la police //
-1	puis	puis	CCONJ	_	_	14	cc	_	_
+1	puis	puis	CCONJ	_	_	13	cc	_	_
 2	euh	euh	INTJ	_	_	14	discourse	_	_
 3	comme	comme	SCONJ	_	_	13	mod	_	_
 4	ils	il	PRON	_	_	5	subj	_	_
@@ -12003,7 +12003,7 @@
 # sent_id = Rhap_M0002-11
 # text = ils ont discuté
 # macrosyntax = ils ont discuté //
-1	ils	il	PRON	_	_	3	nsubj	_	_
+1	ils	il	PRON	_	_	2	subj	_	_
 2	ont	avoir	AUX	_	_	0	root	_	_
 3	discuté	discuter	VERB	_	_	2	comp:aux	_	_
 
@@ -12068,7 +12068,7 @@
 # sent_id = Rhap_M0003-3
 # text = donc là ben vous partez là
 # macrosyntax = donc < là <+ "ben" vous partez là //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	là	là	ADV	_	_	5	mod	_	_
 3	ben	ben	INTJ	_	_	2	discourse	_	_
 4	vous	vous	PRON	_	_	5	subj	_	_
@@ -12078,7 +12078,7 @@
 # sent_id = Rhap_M0003-4
 # text = vous remontez le grand boulevard là euh
 # macrosyntax = vous remontez le grand boulevard là "euh" //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	remontez	remonter	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	5	det	_	_
 4	grand	grand	ADJ	_	_	5	mod	_	_
@@ -12089,7 +12089,7 @@
 # sent_id = Rhap_M0003-5
 # text = donc vous allez jusqu' au bout jusqu' à un grand carrefour là où vous allez voir le le cinéma La Nef Chavant
 # macrosyntax = donc < vous allez { jusqu' au bout | jusqu' à un grand carrefour | là } où vous allez voir { le | le } cinéma La Nef Chavant //
-1	donc	donc	ADV	_	_	3	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	allez	aller	VERB	ETRE	_	0	root	_	_
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	_
@@ -12157,7 +12157,7 @@
 # sent_id = Rhap_M0003-8
 # text = c' est sur la ligne du tram hein
 # macrosyntax = c' est sur la ligne du tram "hein" //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	sur	sur	ADP	_	_	2	comp:pred	_	_
 4	la	le	DET	_	_	5	det	_	_
@@ -12169,7 +12169,7 @@
 # sent_id = Rhap_M0003-9
 # text = vous suivez la ligne du tram
 # macrosyntax = vous suivez la ligne du tram //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	suivez	suivre	VERB	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	ligne	ligne	NOUN	_	_	2	comp:obj	_	_
@@ -12193,7 +12193,7 @@
 # sent_id = Rhap_M0003-11
 # text = c' est la place de Verdun
 # macrosyntax = c' est la place de Verdun //
-1	c'	ce	PRON	_	_	4	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	place	place	NOUN	_	_	2	comp:pred	_	_
@@ -12203,7 +12203,7 @@
 # sent_id = Rhap_M0003-12
 # text = là sur la place de Verdun il y a mh la Préfecture
 # macrosyntax = { là | sur la place de Verdun } <+ il y a "mh" la Préfecture //
-1	là	là	ADV	_	_	9	advmod:periph	_	_
+1	là	là	ADV	_	_	9	mod	_	_
 2	sur	sur	ADP	_	_	1	conj:dicto	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	place	place	NOUN	_	_	2	comp:obj	_	_
@@ -12219,7 +12219,7 @@
 # sent_id = Rhap_M0003-13
 # text = comme repère il y a la Préfecture
 # macrosyntax = comme repère < il y a la Préfecture //
-1	comme	comme	ADP	_	_	2	case	_	_
+1	comme	comme	ADP	_	_	5	mod	_	_
 2	repère	repère	NOUN	_	_	1	comp:obj	_	_
 3	il	il	PRON	_	_	5	subj@expl	_	_
 4	y	y	PRON	_	_	5	comp:obl	_	_
@@ -12230,7 +12230,7 @@
 # sent_id = Rhap_M0003-14
 # text = donc quand vous arrivez sur la place de Verdun la Préfecture est sur votre droite
 # macrosyntax = donc < quand vous arrivez sur la place de Verdun <+ la Préfecture est sur votre droite //
-1	donc	donc	ADV	_	_	15	advmod:periph	_	_
+1	donc	donc	ADV	_	_	13	mod	_	_
 2	quand	quand	SCONJ	_	_	12	mod	_	_
 3	vous	vous	PRON	_	_	4	subj	_	_
 4	arrivez	arriver	VERB	ETRE	_	2	comp:obj	_	_
@@ -12249,7 +12249,7 @@
 # sent_id = Rhap_M0003-15
 # text = vous vous continuez tout droit
 # macrosyntax = vous < vous continuez tout droit //
-1	vous	vous	PRON	_	_	3	nsubj	_	_
+1	vous	vous	PRON	_	_	3	subj	_	_
 2	vous	vous	PRON	_	_	1	conj:dicto	_	_
 3	continuez	continuer	VERB	_	_	0	root	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
@@ -12258,7 +12258,7 @@
 # sent_id = Rhap_M0003-16
 # text = en fait euh ben là euh vous passez euh
 # macrosyntax = en fait < "euh" "ben" là <+ "euh" vous passez "euh" & //
-1	en	en	PRON	_	_	8	advcl:periph	_	_
+1	en	en	PRON	_	_	8	mod	_	_
 2	fait	fait	NOUN	_	_	1	unk@fixed	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	ben	ben	INTJ	_	_	1	discourse	_	_
@@ -12286,7 +12286,7 @@
 # sent_id = Rhap_M0003-18
 # text = vous t~ vous suivez la ligne du tram qui passe vers la
 # macrosyntax = { vous t~ | vous suivez } la ligne du tram qui passe vers { la & | 
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	t~	t~	X	_	_	0	root	_	_
 3	vous	vous	PRON	_	_	4	subj	_	_
 4	suivez	suivre	VERB	conj:reform	_	2	conj:dicto	_	_
@@ -12302,7 +12302,7 @@
 # sent_id = Rhap_M0003-19
 # text = je crois que c' est une ancienne caserne je crois
 # macrosyntax = [ je crois que c' est une ancienne caserne "je crois" // ] } //
-1	je	je	PRON	_	_	2	nsubj	_	_
+1	je	je	PRON	_	_	2	subj	_	_
 2	crois	croire	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -12353,7 +12353,7 @@
 # sent_id = Rhap_M0003-23
 # text = à la Maison du tourisme donc vous allez continuer s~ à droite de la Maison du tourisme passer de~
 # macrosyntax = à la Maison du tourisme <+ donc < vous allez { continuer { s~ | à droite de la Maison du tourisme } | passer de~ & } //
-1	à	à	ADP	_	_	3	case	_	_
+1	à	à	ADP	_	_	8	mod	_	_
 2	la	le	DET	_	_	3	det	_	_
 3	Maison	Maison	PROPN	_	_	1	comp:obj	_	_
 4	du	de+le	ADP	_	_	3	udep	_	_
@@ -12392,7 +12392,7 @@
 # sent_id = Rhap_M0003-25
 # text = c' est en fait un marché couvert
 # macrosyntax = c' est ( en fait ) un marché couvert //
-1	c'	ce	PRON	_	_	6	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	en	en	PRON	_	_	6	discourse	_	_
 4	fait	fait	NOUN	_	_	3	unk@fixed	_	_
@@ -12473,7 +12473,7 @@
 # sent_id = Rhap_M0003-31
 # text = vous pou~ vous vous êtes obligé de passer devant en fait
 # macrosyntax = { vous pou~ | { vous | vous } êtes obligé } de passer devant > en fait //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	pou~	pou~	VERB	_	_	0	root	_	_
 3	vous	vous	PRON	_	_	5	subj@pass	_	_
 4	vous	vous	PRON	conj:reform	_	3	conj:dicto	_	_
@@ -12488,7 +12488,7 @@
 # sent_id = Rhap_M0003-32
 # text = en en fait tout le long vous suivez la ligne du tram
 # macrosyntax = { en | en } fait < tout le long <+ vous suivez la ligne du tram //
-1	en	en	ADP	_	_	8	advcl:periph	_	_
+1	en	en	ADP	_	_	8	mod	_	_
 2	en	en	PRON	_	_	1	conj:dicto	_	_
 3	fait	fait	NOUN	_	_	2	unk@fixed	_	_
 4	tout	tout	ADJ	_	_	6	mod	_	_
@@ -12504,7 +12504,7 @@
 # sent_id = Rhap_M0003-33
 # text = c' est pas bien compliqué à y aller hein
 # macrosyntax = c' est pas bien compliqué à y aller "hein" //
-1	c'	ce	PRON	_	_	5	nsubj	_	_
+1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	bien	bien	ADV	_	_	2	mod	_	_
@@ -12517,7 +12517,7 @@
 # sent_id = Rhap_M0003-34
 # text = vous pouvez pas vous tromper
 # macrosyntax = vous pouvez pas vous tromper //
-1	vous	vous	PRON	_	_	2	nsubj	_	_
+1	vous	vous	PRON	_	_	2	subj	_	_
 2	pouvez	pouvoir	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
 4	vous	vous	PRON	_	_	5	comp:obj	_	_
@@ -12526,7 +12526,7 @@
 # sent_id = Rhap_M1003-1
 # text = alors euh bonjour à tous
 # macrosyntax = ^alors "euh" bonjour à tous //
-1	alors	alors	ADV	_	_	3	advmod:periph	_	_
+1	alors	alors	ADV	_	_	3	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	bonjour	bonjour	NOUN	_	_	0	root	_	_
 4	à	à	ADP	_	_	3	mod	_	_
@@ -12535,7 +12535,7 @@
 # sent_id = Rhap_M1003-2
 # text = donc euh je me présente de façon brève
 # macrosyntax = donc < "euh" je me présente de façon brève //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	je	je	PRON	_	_	5	subj	_	_
 4	me	me	PRON	_	_	5	comp:obj	_	_
@@ -12547,7 +12547,7 @@
 # sent_id = Rhap_M1003-3
 # text = je m' appelle Angelina
 # macrosyntax = je m'appelle Angelina //
-1	je	je	PRON	_	_	3	nsubj	_	_
+1	je	je	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	3	comp:obl	_	_
 3	appelle	appeler	VERB	_	_	0	root	_	_
 4	Angelina	Angelina	PROPN	_	_	3	comp:obj	_	_
@@ -12555,7 +12555,7 @@
 # sent_id = Rhap_M1003-4
 # text = j' ai dix-huit ans
 # macrosyntax = j'ai dix-huit ans //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	dix-huit	dix-huit	NUM	_	_	4	mod	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
@@ -12563,7 +12563,7 @@
 # sent_id = Rhap_M1003-5
 # text = j' ai obtenu mon bac l' année dernière donc euh section économique et sociale
 # macrosyntax = j'ai obtenu mon bac l'année dernière //+ donc < "euh" section { économique | ^et sociale } //
-1	j'	je	PRON	_	_	3	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	AUX	_	_	0	root	_	_
 3	obtenu	obtenir	VERB	_	_	2	comp:aux	_	_
 4	mon	son	DET	_	_	5	det	_	_
@@ -12689,7 +12689,7 @@
 # sent_id = Rhap_M1003-9
 # text = car les élèves sont souvent complexes et également fragiles
 # macrosyntax = ^car les élèves sont { souvent complexes | ^et également fragiles } //
-1	car	car	CCONJ	_	_	6	cc	_	_
+1	car	car	CCONJ	_	_	4	cc	_	_
 2	les	le	DET	_	_	3	det	_	_
 3	élèves	élève	NOUN	_	_	4	subj	_	_
 4	sont	être	AUX	_	_	0	root	_	_
@@ -12734,7 +12734,7 @@
 # sent_id = Rhap_M1003-11
 # text = et euh également c' est le fait euh enfin de corriger mais également de réaliser des devoirs
 # macrosyntax = ^et "euh" également < c'est le fait "euh" "enfin" { de corriger | ^mais également de réaliser } des devoirs //
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3	également	également	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -12755,7 +12755,7 @@
 # sent_id = Rhap_M1003-12
 # text = donc euh par ailleurs euh ce métier peut nous emmener euh nous amener également à nous déplacer donc lors de sorties qui peuvent être plus ou moins importantes
 # macrosyntax = donc < "euh" par ailleurs < "euh" ce métier peut { nous emmener "euh" | nous amener } ( également ) à nous déplacer ( donc ) lors de sorties qui peuvent être { plus | ^ou moins } importantes //
-1	donc	donc	ADV	_	_	8	advmod:periph	_	_
+1	donc	donc	ADV	_	_	8	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	par	par	NOUN	_	_	8	dislocated	_	_
 4	ailleurs	ailleurs	ADV	_	_	3	unk@fixed	_	_
@@ -12787,7 +12787,7 @@
 # sent_id = Rhap_M1003-13
 # text = donc ça peut être dans la région comme euh à l' étranger et en particulier lorsqu' on enseigne une langue
 # macrosyntax = donc < ça peut être { dans la région | ^comme "euh" à l' étranger } //+ ^et en particulier lorsqu' on enseigne une langue //
-1	donc	donc	ADV	_	_	3	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	ça	ça	PRON	_	_	3	subj	_	_
 3	peut	pouvoir	AUX	_	_	0	root	_	_
 4	être	être	AUX	_	_	3	comp:aux	_	_
@@ -12811,7 +12811,7 @@
 # sent_id = Rhap_M1003-14
 # text = donc euh ce métier s' exerce
 # macrosyntax = donc < "euh" ce métier s'exerce 
-1	donc	donc	ADV	_	_	6	advmod:periph	_	_
+1	donc	donc	ADV	_	_	6	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	ce	ce	DET	_	_	4	det	_	_
 4	métier	métier	NOUN	_	_	6	subj	_	_
@@ -12821,7 +12821,7 @@
 # sent_id = Rhap_M1003-15
 # text = ou dans le privé
 # macrosyntax = { ^ou dans le privé | 
-1	ou	ou	CCONJ	_	_	4	cc	_	_
+1	ou	ou	CCONJ	_	_	2	cc	_	_
 2	dans	dans	ADP	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	privé	privé	NOUN	_	_	2	comp:obj	_	_
@@ -12829,7 +12829,7 @@
 # sent_id = Rhap_M1003-16
 # text = ou dans le public
 # macrosyntax = ^ou dans le public } //
-1	ou	ou	CCONJ	_	_	4	cc	_	_
+1	ou	ou	CCONJ	_	_	2	cc	_	_
 2	dans	dans	ADP	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	public	public	NOUN	_	_	2	comp:obj	_	_
@@ -12837,7 +12837,7 @@
 # sent_id = Rhap_M1003-17
 # text = en ce qui me concerne j' aimerais enseigner dans un établissement public
 # macrosyntax = en ce qui me concerne < j'aimerais enseigner dans un établissement public //
-1	en	en	ADP	_	_	2	case	_	_
+1	en	en	ADP	_	_	7	mod	_	_
 2	ce	ce	PRON	_	_	1	comp:obj	_	_
 3	qui	qui	PRON	_	_	5	subj	_	_
 4	me	me	PRON	_	_	5	comp:obj	_	_
@@ -12853,7 +12853,7 @@
 # sent_id = Rhap_M1003-18
 # text = donc euh mh c' est à peu près
 # macrosyntax = donc < "euh" "mh" c'est à peu près ESPERLUETTE //
-1	donc	donc	ADV	_	_	5	advmod:periph	_	_
+1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	mh	mh	INTJ	_	_	1	discourse	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
@@ -12883,7 +12883,7 @@
 # sent_id = Rhap_M1003-20
 # text = donc j' ai réalisé une enquête métier qui a mis euh fortement en valeur le fait que cette profession est véritablement réservée aux personnes non seulement passionnées par la matière qu' ils enseignent mais également par l' enseignement
 # macrosyntax = donc < j'ai réalisé une enquête métier qui a mis "euh" fortement en valeur le fait que cette profession est véritablement réservée aux personnes { non seulement passionnées par la matière qu'ils enseignent | ^mais également par l'enseignement } //
-1	donc	donc	ADV	_	_	4	advmod:periph	_	_
+1	donc	donc	ADV	_	_	3	mod	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	ai	avoir	AUX	_	_	0	root	_	_
 4	réalisé	réaliser	VERB	_	_	3	comp:aux	_	_
@@ -12925,7 +12925,7 @@
 # sent_id = Rhap_M1003-21
 # text = parce qu' on remarque euh ass~ euh de façon euh on remarque bien que le salaire n' est ni en adéquation avec le nombre d' années euh avec le nombre d' études suivies ni avec le travail à fournir personnel que l' on fournit
 # macrosyntax = ^parce ^qu' { on remarque "euh" { ass~ "euh" | de façon "euh" } ESPERLUETTE | on remarque bien que le salaire n'est { ^ni en adéquation { avec le nombre d'années "euh" | avec le nombre d'études suivies } | ^ni avec le travail { à fournir | personnel que l'on fournit } } } //
-1	parce	parce	SCONJ	_	_	4	mark	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	_
 2	qu'	que	SCONJ	_	_	1	unk@fixed	_	_
 3	on	on	PRON	_	_	4	subj	_	_
 4	remarque	remarquer	VERB	_	_	1	comp:obj	_	_
@@ -12973,7 +12973,7 @@
 # sent_id = Rhap_M1003-22
 # text = euh d' autre part j' ai pu relever en faisant tous ces tests au cours de donc euh de du semestre dans cette matière mais également grâce à mon dossier à à la à l' élaboration de mon projet que euh je on pouvait enfin je pouvais noter certains euh atouts indispensables euh dans ce métier
 # macrosyntax = "euh" d'autre part < j'ai pu relever { en faisant tous ces tests au cours { de ( donc ) "euh" | de | du } semestre dans cette matière | ^mais également grâce { à mon dossier | { à | à la | à l' } élaboration de mon projet } } que "euh" { { je | on } pouvait | enfin je pouvais } noter certains "euh" atouts indispensables "euh" dans ce métier //
-1	euh	euh	INTJ	_	_	7	discourse	_	_
+1	euh	euh	INTJ	_	_	8	discourse	_	_
 2	d'	de	ADP	_	_	6	mod	_	_
 3	autre	autre	ADJ	_	_	2	unk@fixed	_	_
 4	part	part	NOUN	_	_	3	unk@fixed	_	_
@@ -13033,7 +13033,7 @@
 # sent_id = Rhap_M1003-23
 # text = à savoir euh donc euh je suis dynamique consciencieuse euh persévérante objective et juste
 # macrosyntax = ^à ^savoir "euh" donc < "euh" je suis { dynamique | consciencieuse | "euh" persévérante | objective | ^et juste } //
-1	à	à	ADP	_	_	8	mark	_	_
+1	à	à	ADP	_	_	0	root	_	_
 2	savoir	savoir	VERB	_	_	1	unk@fixed	_	_
 3	euh	euh	INTJ	_	_	8	discourse	_	_
 4	donc	donc	ADV	_	_	8	discourse	_	_
@@ -13051,7 +13051,7 @@
 # sent_id = Rhap_M1003-24
 # text = j' aime énormément m' adresser face à un auditoire
 # macrosyntax = j'aime énormément m'adresser face à un auditoire //
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	aime	aimer	VERB	_	_	0	root	_	_
 3	énormément	énormément	ADV	_	_	2	mod	_	_
 4	m'	me	PRON	_	_	5	comp:obj	_	_
@@ -13144,7 +13144,7 @@
 # sent_id = Rhap_M1003-27
 # text = j' ai le souci également de bien faire donc
 # macrosyntax = ( j'ai le souci également de bien faire // ) | donc < 
-1	j'	je	PRON	_	_	2	nsubj	_	_
+1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	souci	souci	NOUN	_	_	2	comp:obj	_	_
@@ -13175,7 +13175,7 @@
 # sent_id = Rhap_M1003-29
 # text = puisque on peut après passer le concours de l' agreg pour enseigner à l' université
 # macrosyntax = ^puisque on peut après passer le concours de l'agreg pour enseigner à l'université //
-1	puisque	puisque	SCONJ	_	_	3	mark	_	_
+1	puisque	puisque	SCONJ	_	_	0	root	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	peut	pouvoir	AUX	_	_	1	comp:obj	_	_
 4	après	après	ADV	_	_	3	mod	_	_
@@ -13246,7 +13246,7 @@
 # sent_id = Rhap_M1003-34
 # text = puisque dix-huit heures par semaine ce n' est pas non plus atroce
 # macrosyntax = ^puisque dix-huit heures par semaine < ce n'est pas non plus atroce //
-1	puisque	puisque	SCONJ	_	_	12	mark	_	_
+1	puisque	puisque	SCONJ	_	_	0	root	_	_
 2	dix-huit	dix-huit	NUM	_	_	3	mod	_	_
 3	heures	heure	NOUN	_	_	8	dislocated	_	_
 4	par	par	ADP	_	_	3	mod	_	_
@@ -13262,7 +13262,7 @@
 # sent_id = Rhap_M1003-35
 # text = et euh c' est vrai que même si on a un programme à suivre donc les programmes sont établis euh on on jouit d' une certaine liberté en en cours
 # macrosyntax = ^et "euh" c'est vrai que [ même si on a un programme à suivre ( donc < les programmes sont établis // ) < "euh" { on | on } jouit d'une certaine liberté { en | en } cours ] //
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
@@ -13318,7 +13318,7 @@
 # sent_id = Rhap_M1003-37
 # text = puisque un professeur certifié va commencer à mille quatre cents euros par mois et finira aux alentours de trois mille euros
 # macrosyntax = ^puisque un professeur certifié { va commencer à mille quatre cents euros par mois | ^et finira aux alentours de trois mille euros } //
-1	puisque	puisque	SCONJ	_	_	5	mark	_	_
+1	puisque	puisque	SCONJ	_	_	0	root	_	_
 2	un	un	DET	_	_	3	det	_	_
 3	professeur	professeur	NOUN	_	_	5	subj	_	_
 4	certifié	certifier	ADJ	_	_	3	mod	_	_
@@ -13383,7 +13383,7 @@
 # sent_id = Rhap_M1003-41
 # text = ce n' était pas le cas il y a plusieurs années
 # macrosyntax = ce n'était pas le cas il y a plusieurs années //
-1	ce	ce	PRON	_	_	6	nsubj	_	_
+1	ce	ce	PRON	_	_	3	subj	_	_
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	était	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
@@ -13478,7 +13478,7 @@
 # sent_id = Rhap_M1003-48
 # text = puisque ma professeur d' italien par exemple de l' année dernière euh mettait une heure et demie avant d' arriver donc à son lycée
 # macrosyntax = ^puisque ma professeur d'italien ( par exemple ) de l'année dernière "euh" mettait une heure et demie avant d'arriver ( donc ) à son lycée //
-1	puisque	puisque	SCONJ	_	_	13	mark	_	_
+1	puisque	puisque	SCONJ	_	_	0	root	_	_
 2	ma	son	DET	_	_	3	det	_	_
 3	professeur	professeur	NOUN	_	_	13	subj	_	_
 4	d'	de	ADP	_	_	3	mod	_	_
@@ -13506,7 +13506,7 @@
 # sent_id = Rhap_M1003-49
 # text = et ma mère qui est également prof est à trois quarts d' heure de de son lycée également
 # macrosyntax = ^et ma mère qui est également prof est à trois quarts d'heure { de | de } son lycée > également //
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	8	cc	_	_
 2	ma	son	DET	_	_	3	det	_	_
 3	mère	mère	NOUN	_	_	8	subj	_	_
 4	qui	qui	PRON	_	_	5	subj	_	_
@@ -13555,13 +13555,13 @@
 # sent_id = Rhap_M0001-2
 # text = tu continues
 # macrosyntax = tu continues //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	continues	continuer	VERB	_	_	0	root	_	_
 
 # sent_id = Rhap_M0001-3
 # text = tu vas arriver sur la place euh Victor Hugo
 # macrosyntax = tu vas arriver sur la place "euh" Victor Hugo //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	vas	aller	VERB	ETRE	_	0	root	_	_
 3	arriver	arriver	VERB	ETRE	_	2	comp:pred	_	_
 4	sur	sur	ADP	_	_	3	comp:obl	_	_
@@ -13595,7 +13595,7 @@
 # sent_id = Rhap_M0001-5
 # text = tu longes les les rails du tram jusqu' à la place Grenette
 # macrosyntax = tu longes { les | les } rails du tram jusqu' à la place Grenette //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	longes	longer	VERB	_	_	0	root	_	_
 3	les	le	DET	_	_	5	det	_	_
 4	les	le	DET	conj:reform	_	3	conj:dicto	_	_
@@ -13611,7 +13611,7 @@
 # sent_id = Rhap_M0001-6
 # text = tu continues dans la vieille ville
 # macrosyntax = tu continues dans la vieille ville //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	continues	continuer	VERB	_	_	0	root	_	_
 3	dans	dans	ADP	_	_	2	mod	_	_
 4	la	le	DET	_	_	6	det	_	_
@@ -13621,7 +13621,7 @@
 # sent_id = Rhap_M0001-7
 # text = tu prends la grande rue
 # macrosyntax = tu prends la grande rue //
-1	tu	tu	PRON	_	_	2	nsubj	_	_
+1	tu	tu	PRON	_	_	2	subj	_	_
 2	prends	prendre	VERB	_	_	0	root	_	_
 3	la	le	DET	_	_	5	det	_	_
 4	grande	grand	ADJ	_	_	5	mod	_	_
@@ -13635,6 +13635,3 @@
 3	après	après	ADP	_	_	5	mod	_	_
 4	tu	tu	PRON	_	_	5	subj	_	_
 5	bifurques	bifurquer	VERB	_	_	0	root	_	_
-
-
-
