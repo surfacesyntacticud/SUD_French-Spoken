@@ -174,13 +174,13 @@
 6	de	de	ADP	_	_	3	comp:obl	_	_
 7	ceci	ceci	PRON	_	_	6	comp:obj	_	_
 8	une	un	DET	_	_	9	det	_	_
-9	boule	boule	NOUN	_	_	7	appos@conj	_	_
+9	boule	boule	NOUN	_	_	7	conj:appos	_	_
 10	de	de	ADP	_	_	9	mod	_	_
 11	lavage	lavage	NOUN	_	_	10	comp:obj	_	_
 12	que	que	PRON	_	_	15	comp:obj	_	_
 13	vous	vous	PRON	_	_	14	subj	_	_
 14	allez	aller	VERB	ETRE	_	9	mod@relcl	_	_
-15	placer	placer	VERB	_	_	14	comp:pred	_	_
+15	placer	placer	VERB	_	_	14	comp:obj@x	_	_
 16	au	à+le	ADP	_	_	15	comp:obl	_	_
 17	coeur	coeur	NOUN	_	_	16	comp:obj	_	_
 18	de	de	ADP	_	_	17	mod	_	_
@@ -209,7 +209,7 @@
 # sent_id = Rhap_D2011-7
 # text = voilà c' est ça qui est incroyable effectivement
 # macrosyntax = c'est ça qui est incroyable > -$ $L1 effectivement //
-1	voilà	voilà	VERB	DISCOURSE	_	3	parataxis@discourse	_	_
+1	voilà	voilà	VERB	DISCOURSE	_	3	discourse	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	3	comp:pred	_	_
@@ -240,7 +240,7 @@
 8	boule	boule	NOUN	_	_	3	comp:obj	_	_
 9	magique	magique	ADJ	_	_	8	mod	_	_
 10	la	le	DET	_	_	11	det	_	_
-11	boule	boule	NOUN	_	_	8	appos@conj	_	_
+11	boule	boule	NOUN	_	_	8	conj:appos	_	_
 12	de	de	ADP	_	_	11	mod	_	_
 13	lavage	lavage	NOUN	_	_	12	comp:obj	_	_
 14	avec	avec	ADP	_	_	3	mod	_	_
@@ -253,7 +253,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	allez	aller	VERB	ETRE	_	0	root	_	_
-4	voir	voir	VERB	_	_	3	comp:pred	_	_
+4	voir	voir	VERB	_	_	3	comp:obj@x	_	_
 5	le	le	DET	_	_	6	det	_	_
 6	résultat	résultat	NOUN	_	_	4	comp:obj	_	_
 
@@ -307,7 +307,7 @@
 1	nous	nous	PRON	_	_	2	subj	_	_
 2	allons	aller	VERB	ETRE	_	0	root	_	_
 3	vous	vous	PRON	_	_	2	comp:obl	_	_
-4	prouver	prouver	VERB	_	_	2	comp:pred	_	_
+4	prouver	prouver	VERB	_	_	2	comp:obj@x	_	_
 5	l'	le	DET	_	_	6	det	_	_
 6	efficacité	efficacité	NOUN	_	_	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	mod	_	_
@@ -363,7 +363,7 @@
 19	machine	machine	NOUN	_	_	17	comp:obj	_	_
 20	à	à	ADP	_	_	19	mod	_	_
 21	laver	laver	VERB	_	_	20	comp:obj	_	_
-22	dans	dans	ADP	_	_	16	appos@conj	_	_
+22	dans	dans	ADP	_	_	16	conj:appos	_	_
 23	le	le	DET	_	_	24	det	_	_
 24	tambour	tambour	NOUN	_	_	22	comp:obj	_	_
 25	et	et	CCONJ	_	_	27	cc	_	_
@@ -391,12 +391,12 @@
 # macrosyntax = on va mettre ici cette chemise avec { du fond de teint sur le col difficile à partir | également une grosse tache de café } //
 1	on	on	PRON	_	_	2	subj	_	_
 2	va	aller	VERB	ETRE	_	0	root	_	_
-3	mettre	mettre	VERB	_	_	2	comp:pred	_	_
+3	mettre	mettre	VERB	_	_	2	comp:obj@x	_	_
 4	ici	ici	ADV	_	_	3	comp:obj	_	_
 5	cette	ce	DET	_	_	6	det	_	_
 6	chemise	chemise	NOUN	_	_	3	comp:obj	_	_
 7	avec	avec	ADP	_	_	6	mod	_	_
-8	du	de+le	DET	_	_	7	comp:obj	_	_
+8	du	du	DET	_	_	7	comp:obj	_	_
 9	fond	fond	NOUN	_	_	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	_
 11	teint	teint	NOUN	_	_	10	comp:obj	_	_
@@ -483,7 +483,7 @@
 # macrosyntax = on va rajouter tout simplement notre boule magique qui va remplacer votre lessive à l'intérieur du tambour //
 1	on	on	PRON	_	_	2	subj	_	_
 2	va	aller	VERB	ETRE	_	0	root	_	_
-3	rajouter	rajouter	VERB	_	_	2	comp:pred	_	_
+3	rajouter	rajouter	VERB	_	_	2	comp:obj@x	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	simplement	simplement	ADV	_	_	3	mod	_	_
 6	notre	son	DET	_	_	7	det	_	_
@@ -491,7 +491,7 @@
 8	magique	magique	ADJ	_	_	7	mod	_	_
 9	qui	qui	PRON	_	_	10	subj	_	_
 10	va	aller	VERB	ETRE	_	7	mod@relcl	_	_
-11	remplacer	remplacer	VERB	_	_	10	comp:pred	_	_
+11	remplacer	remplacer	VERB	_	_	10	comp:obj@x	_	_
 12	votre	son	DET	_	_	13	det	_	_
 13	lessive	lessive	NOUN	_	_	11	comp:obj	_	_
 14	à	à	ADP	_	_	11	mod	_	_
@@ -593,7 +593,7 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	vais	aller	VERB	ETRE	_	0	root	_	_
 3	vous	vous	PRON	_	_	2	comp:obl	_	_
-4	demander	demander	VERB	_	_	2	comp:pred	_	_
+4	demander	demander	VERB	_	_	2	comp:obj@x	_	_
 5	maître	maître	NOUN	_	_	4	dislocated	_	_
 6	de	de	ADP	_	_	4	comp:obl@x	_	_
 7	briser	briser	VERB	_	_	6	comp:obj	_	_
@@ -623,7 +623,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	nous	nous	PRON	_	_	3	subj	_	_
 3	allons	aller	VERB	ETRE	_	0	root	_	_
-4	voir	voir	VERB	_	_	3	comp:pred	_	_
+4	voir	voir	VERB	_	_	3	comp:obj@x	_	_
 5	le	le	DET	_	_	6	det	_	_
 6	résultat	résultat	NOUN	_	_	4	comp:obj	_	_
 
@@ -637,7 +637,7 @@
 5	notre	son	DET	_	_	6	det	_	_
 6	pantalon	pantalon	NOUN	_	_	4	comp:obj	_	_
 7	avec	avec	ADP	_	_	6	mod	_	_
-8	des	de+le	DET	_	_	7	comp:obj	_	_
+8	des	un	DET	_	_	7	comp:obj	_	_
 9	taches	tache	NOUN	_	_	8	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	_
 11	grenadine	grenadin	NOUN	_	_	10	comp:obj	_	_
@@ -669,8 +669,8 @@
 2	ne	ne	ADV	_	_	3	mod	_	_
 3	vois	voir	VERB	_	_	0	root	_	_
 4	plus	plus	ADV	_	_	3	mod	_	_
-5	de	un	DET	_	_	3	comp:obl	_	_
-6	taches	tache	NOUN	_	_	5	comp:obj	_	_
+5	de	un	DET	_	_	6	det	_	_
+6	taches	tache	NOUN	_	_	3	comp:obl	_	_
 
 # sent_id = Rhap_D2011-44
 # text = c' est propre
@@ -693,7 +693,7 @@
 9	sur	sur	ADP	_	_	13	mod	_	_
 10	le	le	DET	_	_	11	det	_	_
 11	col	col	NOUN	_	_	9	comp:obj	_	_
-12	du	de+le	DET	_	_	8	comp:obj	_	_
+12	du	du	DET	_	_	8	comp:obj	_	_
 13	fond	fond	NOUN	_	_	12	comp:obj	_	_
 14	de	de	ADP	_	_	13	mod	_	_
 15	teint	teint	NOUN	_	_	14	comp:obj	_	_
@@ -767,7 +767,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	tout	tout	ADJ	_	_	3	mod	_	_
 3	cela	cela	PRON	_	_	0	root	_	_
-4	grâce	grâce	ADV	_	_	3	udep	_	_
+4	grâce	grâce	ADV	_	_	3	mod	_	_
 5	à	à	ADP	_	_	4	unk@fixed	_	_
 6	notre	son	DET	_	_	7	det	_	_
 7	boule	boule	NOUN	_	_	4	comp:obj	_	_
@@ -821,12 +821,12 @@
 4	de	de	ADP	_	_	3	mod	_	_
 5	lavage	lavage	NOUN	_	_	4	comp:obj	_	_
 6	notre	son	DET	_	_	7	det	_	_
-7	boule	boule	NOUN	_	_	3	appos@conj	_	_
+7	boule	boule	NOUN	_	_	3	conj:appos	_	_
 8	magique	magique	ADJ	_	_	7	mod	_	_
 9	elle	il	PRON	_	_	10	subj	_	_
 10	va	aller	VERB	ETRE	_	0	root	_	_
 11	véritablement	véritablement	ADV	_	_	10	mod	_	_
-12	remplacer	remplacer	VERB	_	_	10	comp:pred	_	_
+12	remplacer	remplacer	VERB	_	_	10	comp:obj@x	_	_
 13	votre	son	DET	_	_	14	det	_	_
 14	lessive	lessive	NOUN	_	_	12	comp:obj	_	_
 
@@ -848,7 +848,7 @@
 5	il	il	PRON	_	_	6	subj	_	_
 6	est	être	AUX	_	_	0	root	_	_
 7	là	là	ADV	_	_	6	comp:pred	_	_
-8	dans	dans	ADP	_	_	7	appos@conj	_	_
+8	dans	dans	ADP	_	_	7	conj:appos	_	_
 9	ce	ce	DET	_	_	13	det	_	_
 10	eh	eh	INTJ	_	_	9	discourse	_	_
 11	oui	oui	INTJ	_	_	9	discourse	_	_
@@ -928,7 +928,7 @@
 14	le	le	DET	_	_	15	det	_	_
 15	spécialiste	spécialiste	NOUN	_	_	11	comp:obj	_	_
 16	nous	nous	PRON	_	_	17	comp:obl	_	_
-17	expliquer	expliquer	VERB	_	_	11	comp:pred	_	_
+17	expliquer	expliquer	VERB	_	_	11	comp:obj@x	_	_
 18	comment	comment	PRON	_	_	20	mod	_	_
 19	ça	ça	PRON	_	_	20	subj	_	_
 20	marche	marcher	VERB	CCOMP	_	17	parataxis@obj	_	_
@@ -1014,7 +1014,7 @@
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	3	subj	_	_
 3	va	aller	VERB	ETRE	_	1	mod@relcl	_	_
-4	faciliter	faciliter	VERB	_	_	3	comp:pred	_	_
+4	faciliter	faciliter	VERB	_	_	3	comp:obj@x	_	_
 5	l'	le	DET	_	_	6	det	_	_
 6	élimination	élimination	NOUN	_	_	4	comp:obj	_	_
 7	des	de+le	ADP	_	_	6	mod	_	_
@@ -1084,7 +1084,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	allez	aller	VERB	ETRE	_	0	root	_	_
-4	faire	faire	VERB	_	_	3	comp:pred	_	_
+4	faire	faire	VERB	_	_	3	comp:obj@x	_	_
 5	en	en	PRON	_	_	4	mod	_	_
 6	plus	plus	NOUN	_	_	5	unk	_	_
 7	d'	de	ADP	_	_	4	comp:obl	_	_
@@ -1170,7 +1170,7 @@
 4	ce	ce	PRON	_	_	2	subj	_	_
 5	qu'	que	SCONJ	_	_	8	comp:obj	_	_
 6	vous	vous	PRON	_	_	8	subj	_	_
-7	en	en	PRON	_	_	8	udep	_	_
+7	en	en	PRON	_	_	8	mod	_	_
 8	pensez	penser	VERB	_	_	2	comp:cleft	_	_
 9	de	de	ADP	_	_	8	mod	_	_
 10	la	le	DET	_	_	11	det	_	_
@@ -1322,7 +1322,7 @@
 14	y	y	PRON	_	_	15	comp:obl	_	_
 15	avoir	avoir	VERB	_	_	13	comp:aux	_	_
 16	sur	sur	ADP	_	_	13	mod	_	_
-17	du	de+le	DET	_	_	16	comp:obj	_	_
+17	du	du	DET	_	_	16	comp:obj	_	_
 18	linge	linge	NOUN	_	_	17	comp:obj	_	_
 
 # sent_id = Rhap_D2011-88
@@ -1431,7 +1431,7 @@
 5	bien	bien	INTJ	_	_	3	discourse	_	_
 6	vous	vous	PRON	_	_	7	subj	_	_
 7	allez	aller	VERB	ETRE	_	0	root	_	_
-8	préserver	préserver	VERB	_	_	7	comp:pred	_	_
+8	préserver	préserver	VERB	_	_	7	comp:obj@x	_	_
 9	la	le	DET	_	_	10	det	_	_
 10	planète	planète	NOUN	_	_	8	comp:obj	_	_
 11	avec	avec	ADP	_	_	8	mod	_	_
@@ -1477,7 +1477,7 @@
 33	vous	vous	PRON	_	_	34	subj	_	_
 34	allez	aller	VERB	ETRE	_	0	root	_	_
 35	vraiment	vraiment	ADV	_	_	34	mod	_	_
-36	faire	faire	VERB	_	_	34	comp:pred	_	_
+36	faire	faire	VERB	_	_	34	comp:obj@x	_	_
 37	un	un	DET	_	_	39	det	_	_
 38	joli	joli	ADJ	_	_	39	mod	_	_
 39	geste	geste	NOUN	_	_	36	comp:obj	_	_
@@ -1492,7 +1492,7 @@
 5	vous	vous	PRON	_	_	7	subj@pass	_	_
 6	allez	aller	VERB	ETRE	_	7	comp:aux@pass	_	_
 7	être	être	AUX	DoubleAux	_	4	comp:obj	_	_
-8	convaincus	convaincre	VERB	DoubleAux	_	6	comp:pred	_	_
+8	convaincus	convaincre	VERB	DoubleAux	_	6	comp:obj@x	_	_
 9	par	par	ADP	_	_	8	comp:obl	_	_
 10	notre	son	DET	_	_	11	det	_	_
 11	boule	boule	NOUN	_	_	9	comp:obj	_	_
@@ -1649,7 +1649,7 @@
 19	une	un	DET	_	_	20	det	_	_
 20	peur	peur	NOUN	_	_	14	conj:dicto	_	_
 21	relative	relative	ADJ	_	_	20	mod	_	_
-22	remarquez	remarquer	VERB	DISCOURSE	_	21	parataxis@discourse	_	_
+22	remarquez	remarquer	VERB	DISCOURSE	_	21	discourse	_	_
 
 # sent_id = Rhap_D2010-8
 # text = mais j' avais peur qu' il ne soit pas celui que les gens attendaient de moi
@@ -1699,8 +1699,8 @@
 3	un	un	PRON	_	_	4	subj	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
 5	dit	dire	VERB	_	_	4	comp:aux	_	_
-6	du	un	DET	_	_	5	comp:obl	_	_
-7	mal	mal	NOUN	_	_	6	comp:obj	_	_
+6	du	du	DET	_	_	7	det	_	_
+7	mal	mal	NOUN	_	_	5	comp:obl	_	_
 8	quand	quand	PRON	_	_	4	mod	_	_
 9	même	même	ADV	_	_	8	unk@fixed	_	_
 10	de	de	ADP	_	_	5	unk	_	_
@@ -1768,7 +1768,7 @@
 13	un	un	DET	_	_	14	det	_	_
 14	éditeur	éditeur	NOUN	_	_	15	subj	_	_
 15	laisse	laisser	VERB	_	_	12	comp:obj	_	_
-16	passer	passer	VERB	ETRE	_	15	comp:pred	_	_
+16	passer	passer	VERB	ETRE	_	15	comp:obj@x	_	_
 17	des	un	DET	_	_	18	det	_	_
 18	fautes	faute	NOUN	_	_	16	comp:obl	_	_
 19	de	de	ADP	_	_	18	mod	_	_
@@ -2122,7 +2122,7 @@
 3	neuf	neuf	NUM	_	_	2	mod	_	_
 4	cent	cent	NUM	_	_	3	mod	_	_
 5	cinquante	cinquante	NUM	_	_	4	mod	_	_
-6	quand	quand	SCONJ	_	_	2	appos@conj	_	_
+6	quand	quand	SCONJ	_	_	2	conj:appos	_	_
 7	vous	vous	PRON	_	_	8	subj@caus	_	_
 8	avez	avoir	AUX	_	_	6	comp:obj	_	_
 9	fait	faire	VERB	DoubleAux	_	8	comp:aux	_	_
@@ -2246,14 +2246,14 @@
 2	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	Barrage	Barrage	PROPN	_	_	10	dislocated	_	_
-5	contre	contre	ADP	_	_	4	udep	_	_
+5	contre	contre	ADP	_	_	4	mod	_	_
 6	le	le	DET	_	_	7	det	_	_
 7	Pacifique	Pacifique	PROPN	_	_	5	comp:obj	_	_
 8	ils	il	PRON	_	_	10	subj	_	_
 9	l'	le	PRON	_	_	11	comp:obj	_	_
 10	ont	avoir	AUX	_	_	0	root	_	_
 11	laissé	laisser	VERB	_	_	10	comp:aux	_	_
-12	tomber	tomber	VERB	ETRE	_	11	comp:pred	_	_
+12	tomber	tomber	VERB	ETRE	_	11	comp:obj@x	_	_
 
 # sent_id = Rhap_D2010-55
 # text = alors ils doivent avoir du oui regret
@@ -2262,9 +2262,9 @@
 2	ils	il	PRON	_	_	3	subj	_	_
 3	doivent	devoir	AUX	_	_	0	root	_	_
 4	avoir	avoir	VERB	_	_	3	comp:aux	_	_
-5	du	un	DET	_	_	4	comp:obl	_	_
+5	du	du	DET	_	_	7	det	_	_
 6	oui	oui	INTJ	_	_	7	discourse	_	_
-7	regret	regret	NOUN	_	_	5	comp:obj	_	_
+7	regret	regret	NOUN	_	_	4	comp:obl	_	_
 
 # sent_id = Rhap_D2010-56
 # text = ils voulaient pas
@@ -2393,7 +2393,7 @@
 11	les	le	DET	_	_	13	det	_	_
 12	deux	deux	NUM	_	_	13	mod	_	_
 13	guerres	guerre	NOUN	_	_	10	comp:obj	_	_
-14	dans	dans	ADP	_	_	13	appos@conj	_	_
+14	dans	dans	ADP	_	_	13	conj:appos	_	_
 15	les	le	DET	_	_	16	det	_	_
 16	années	année	NOUN	_	_	14	comp:obj	_	_
 17	vingt	vingt	NUM	_	_	16	mod	_	_
@@ -2474,7 +2474,7 @@
 6	homme	homme	NOUN	_	_	5	comp:obj	_	_
 7	oui	oui	INTJ	_	_	6	discourse	_	_
 8	un	un	DET	_	_	9	det	_	_
-9	feutre	feutre	NOUN	_	_	4	appos@conj	_	_
+9	feutre	feutre	NOUN	_	_	4	conj:appos	_	_
 10	oui	oui	INTJ	_	_	9	discourse	_	_
 11	un	un	DET	_	_	12	det	_	_
 12	feutre	feutre	NOUN	_	_	9	conj:dicto	_	_
@@ -2666,7 +2666,7 @@
 10	de	de	ADP	_	_	9	mod	_	_
 11	regards	regard	NOUN	_	_	10	comp:obj	_	_
 12	va	aller	VERB	ETRE	_	7	comp:obj	_	_
-13	changer	changer	VERB	_	_	12	comp:pred	_	_
+13	changer	changer	VERB	_	_	12	comp:obj@x	_	_
 14	votre	son	DET	_	_	15	det	_	_
 15	vie	vie	NOUN	_	_	13	comp:obj	_	_
 
@@ -2707,7 +2707,7 @@
 7	pas	pas	ADV	_	_	6	mod	_	_
 8	été	être	AUX	DoubleAux	_	6	comp:aux	_	_
 9	prise	prendre	VERB	DoubleAux	_	8	comp:aux@pass	_	_
-10	si	si	SCONJ	_	_	6	parataxis@discourse	_	_
+10	si	si	SCONJ	_	_	6	discourse	_	_
 11	vous	vous	PRON	_	_	12	subj	_	_
 12	voulez	vouloir	VERB	DISCOURSE	_	10	comp:obj	_	_
 
@@ -2732,7 +2732,7 @@
 3	avait	avoir	AUX	_	_	0	root	_	_
 4	rien	rien	PRON	_	_	5	comp:obj	_	_
 5	vu	voir	VERB	_	_	3	comp:aux	_	_
-6	qu'	que	PRON	_	_	4	appos@conj	_	_
+6	qu'	que	PRON	_	_	4	conj:appos	_	_
 7	un	un	DET	_	_	8	det	_	_
 8	homme	homme	NOUN	_	_	6	unk	_	_
 9	une	un	DET	_	_	10	det	_	_
@@ -2779,7 +2779,7 @@
 7	y	y	PRON	_	_	8	comp:obl	_	_
 8	a	avoir	VERB	conj:reform	_	4	conj:dicto	_	_
 9	-	-	PUNCT	_	_	10	punct	_	_
-10	t	t	ADV	_	_	12	expl	_	_
+10	t	t	PART	_	_	12	unk@expl	_	_
 11	-	-	PUNCT	_	_	10	punct	_	_
 12	il	il	PRON	_	_	8	subj@expl	_	_
 13	dans	dans	ADP	_	_	8	mod	_	_
@@ -2988,7 +2988,7 @@
 # macrosyntax = $L1 ^et { vous savez | on a l'impression que vous savez } qu'il va devenir { votre amant | votre premier amant } tout de suite //
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
-3	savez	savoir	VERB	DISCOURSE	_	5	parataxis@discourse	_	_
+3	savez	savoir	VERB	DISCOURSE	_	5	discourse	_	_
 4	on	on	PRON	_	_	5	subj	_	_
 5	a	avoir	VERB	_	_	0	root	_	_
 6	l'	le	DET	_	_	7	det	_	_
@@ -2999,7 +2999,7 @@
 11	qu'	que	SCONJ	_	_	10	comp:obj	_	_
 12	il	il	PRON	_	_	13	subj	_	_
 13	va	aller	VERB	ETRE	_	11	comp:obj	_	_
-14	devenir	devenir	VERB	_	_	13	comp:pred	_	_
+14	devenir	devenir	VERB	_	_	13	comp:obj@x	_	_
 15	votre	son	DET	_	_	16	det	_	_
 16	amant	amant	NOUN	_	_	14	comp:obj	_	_
 17	votre	son	DET	_	_	19	det	_	_
@@ -3099,7 +3099,7 @@
 13	neuf	neuf	NUM	_	_	12	mod	_	_
 14	cents	cents	NUM	_	_	13	mod	_	_
 15	le	le	DET	_	_	16	det	_	_
-16	sixième	sixième	ADJ	_	_	2	appos@conj	_	_
+16	sixième	sixième	ADJ	_	_	2	conj:appos	_	_
 17	et	et	CCONJ	_	_	19	cc	_	_
 18	le	le	DET	_	_	19	det	_	_
 19	septième	septième	ADJ	_	_	16	conj:coord	_	_
@@ -3147,17 +3147,17 @@
 11	élève	élève	NOUN	_	_	8	comp:pred	_	_
 12	de	de	ADP	_	_	11	mod	_	_
 13	Blumenfeld	Blumenfeld	PROPN	_	_	12	comp:obj	_	_
-14	de	de	ADP	_	_	13	appos@conj	_	_
+14	de	de	ADP	_	_	13	conj:appos	_	_
 15	Felix	Felix	PROPN	_	_	14	comp:obj	_	_
 16	Blumenfeld	Blumenfeld	PROPN	_	_	15	flat	_	_
 17	l'	le	DET	_	_	18	det	_	_
-18	oncle	oncle	NOUN	_	_	15	appos@conj	_	_
+18	oncle	oncle	NOUN	_	_	15	conj:appos	_	_
 19	de	de	ADP	_	_	18	mod	_	_
 20	Szymanoski	Szymanoski	PROPN	_	_	19	comp:obj	_	_
 21	dont	dont	PRON	_	_	24	comp:obj	_	_
 22	on	on	PRON	_	_	23	subj	_	_
 23	va	aller	VERB	ETRE	_	18	mod@relcl	_	_
-24	parler	parler	VERB	_	_	23	comp:pred	_	_
+24	parler	parler	VERB	_	_	23	comp:obj@x	_	_
 25	tout	tout	ADV	_	_	24	mod	_	_
 26	à	à	ADP	_	_	25	unk@fixed	_	_
 27	l'	le	DET	_	_	26	unk@fixed	_	_
@@ -3205,7 +3205,7 @@
 19	exemple	exemple	NOUN	_	_	18	comp:obj	_	_
 20	Neuhaus	Neuhaus	PROPN	_	_	26	subj	_	_
 21	le	le	DET	_	_	22	det	_	_
-22	cousin	cousin	NOUN	_	_	20	appos@conj	_	_
+22	cousin	cousin	NOUN	_	_	20	conj:appos	_	_
 23	de	de	ADP	_	_	22	mod	_	_
 24	Szymanoski	Szymanoski	PROPN	_	_	23	comp:obj	_	_
 25	les	le	PRON	_	_	26	comp:obj	_	_
@@ -3227,7 +3227,7 @@
 6	fois	fois	NOUN	_	_	4	comp:obj	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	comment	comment	PRON	_	_	9	mod	_	_
-9	dire	dire	VERB	DISCOURSE	_	7	parataxis@discourse	_	_
+9	dire	dire	VERB	DISCOURSE	_	7	discourse	_	_
 
 # sent_id = Rhap_D2012-7
 # text = parce que prélude ça fait penser à évidemment à Frédéric Chopin
@@ -3408,7 +3408,7 @@
 15	roi	roi	NOUN	_	_	13	comp:obj	_	_
 16	Roger	Roger	PROPN	_	_	15	appos@nmod	_	_
 17	ce	ce	DET	_	_	18	det	_	_
-18	berger	berger	NOUN	_	_	12	appos@conj	_	_
+18	berger	berger	NOUN	_	_	12	conj:appos	_	_
 19	qui	qui	PRON	_	_	21	subj	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	_
 21	amène	amener	VERB	_	_	18	mod@relcl	_	_
@@ -3420,7 +3420,7 @@
 27	d'	de	ADP	_	_	24	conj:dicto	_	_
 28	autres	autre	ADJ	_	_	29	mod	_	_
 29	YYY	YYY	PROPN	_	_	27	comp:obj	_	_
-30	si	si	SCONJ	_	_	29	parataxis@discourse	_	_
+30	si	si	SCONJ	_	_	29	discourse	_	_
 31	vous	vous	PRON	_	_	32	subj	_	_
 32	voulez	vouloir	VERB	DISCOURSE	_	30	comp:obj	_	_
 33	dans	dans	ADP	_	_	21	mod	_	_
@@ -3474,7 +3474,7 @@
 13	Parsifal	Parsifal	PROPN	_	_	11	conj:coord	_	_
 14	il	il	PRON	_	_	16	subj	_	_
 15	me	me	PRON	_	_	16	comp:obj	_	_
-16	semble	sembler	VERB	DISCOURSE	_	13	parataxis@discourse	_	_
+16	semble	sembler	VERB	DISCOURSE	_	13	discourse	_	_
 17	dans	dans	ADP	_	_	2	mod	_	_
 18	le	le	DET	_	_	17	comp:obj	_	_
 
@@ -3500,7 +3500,7 @@
 5	de	de	ADP	_	_	2	mod	_	_
 6	votre	son	DET	_	_	7	det	_	_
 7	ouvrage	ouvrage	NOUN	_	_	5	comp:obj	_	_
-8	donc	donc	ADV	_	_	7	appos@conj	_	_
+8	donc	donc	ADV	_	_	7	conj:appos	_	_
 9	cette	ce	DET	_	_	12	det	_	_
 10	cette	ce	DET	conj:reform	_	9	conj:dicto	_	_
 11	monumentale	monumental	ADJ	_	_	12	mod	_	_
@@ -3692,10 +3692,10 @@
 4	côté	côté	NOUN	_	_	2	comp:obj	_	_
 5	aristocrate	aristocrate	ADJ	_	_	4	mod	_	_
 6	un	un	DET	_	_	7	det	_	_
-7	côté	côté	NOUN	_	_	4	appos@conj	_	_
+7	côté	côté	NOUN	_	_	4	conj:appos	_	_
 8	dandy	dandy	NOUN	_	_	7	compound	_	_
 9	un	un	DET	_	_	10	det	_	_
-10	côté	côté	NOUN	_	_	4	appos@conj	_	_
+10	côté	côté	NOUN	_	_	4	conj:appos	_	_
 11	esthète	esthète	ADJ	_	_	10	mod	_	_
 12	qu'	que	PRON	_	_	14	comp:obj	_	_
 13	il	il	PRON	_	_	14	subj	_	_
@@ -3734,7 +3734,7 @@
 7	il	il	PRON	_	_	8	subj	_	_
 8	aimait	aimer	VERB	_	_	5	comp:obj	_	_
 9	bien	bien	ADV	_	_	8	mod	_	_
-10	descendre	descendre	VERB	ETRE	_	8	comp:pred	_	_
+10	descendre	descendre	VERB	ETRE	_	8	comp:obj@x	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
 12	les	le	DET	_	_	14	det	_	_
 13	beaux	beau	ADJ	_	_	14	mod	_	_
@@ -3757,7 +3757,7 @@
 6	sa	son	DET	_	_	7	det	_	_
 7	vie	vie	NOUN	_	_	5	comp:obj	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	quand	quand	SCONJ	_	_	4	appos@conj	_	_
+9	quand	quand	SCONJ	_	_	4	conj:appos	_	_
 10	il	il	PRON	_	_	11	subj	_	_
 11	est	être	AUX	_	_	9	comp:obj	_	_
 12	en	en	ADP	_	_	11	comp:pred	_	_
@@ -3817,7 +3817,7 @@
 # macrosyntax = $L1 il faut dire que la guerre va être pour sa famille { un | un } grand changement de fortune //
 1	il	il	PRON	_	_	2	subj	_	_
 2	faut	falloir	VERB	_	_	0	root	_	_
-3	dire	dire	VERB	_	_	2	comp:pred	_	_
+3	dire	dire	VERB	_	_	2	comp:obj@x	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	la	le	DET	_	_	6	det	_	_
 6	guerre	guerre	NOUN	_	_	7	subj	_	_
@@ -3919,7 +3919,7 @@
 11	la	le	DET	_	_	13	det	_	_
 12	jeune	jeune	ADJ	_	_	13	mod	_	_
 13	Pologne	Pologne	PROPN	_	_	5	comp:obj	_	_
-14	en	en	ADP	_	_	13	udep	_	_
+14	en	en	ADP	_	_	13	mod	_	_
 15	musique	musique	NOUN	_	_	14	comp:obj	_	_
 16	avec	avec	ADP	_	_	4	mod	_	_
 17	quatre	quatre	NUM	_	_	18	mod	_	_
@@ -3927,7 +3927,7 @@
 19	euh	euh	INTJ	_	_	18	discourse	_	_
 20	tous	tout	ADJ	_	_	22	mod	_	_
 21	ses	son	DET	_	_	22	det	_	_
-22	élèves	élève	NOUN	_	_	18	appos@conj	_	_
+22	élèves	élève	NOUN	_	_	18	conj:appos	_	_
 23	d'	d'	ADP	_	_	22	mod	_	_
 24	ailleurs	ailleurs	ADV	_	_	23	comp:obj	_	_
 25	de	de	ADP	_	_	22	mod	_	_
@@ -3963,7 +3963,7 @@
 6	ensuite	ensuite	ADV	_	_	8	mod	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	va	aller	VERB	ETRE	_	4	mod@relcl	_	_
-9	abandonner	abandonner	VERB	_	_	8	comp:pred	_	_
+9	abandonner	abandonner	VERB	_	_	8	comp:obj@x	_	_
 10	la	le	DET	_	_	11	det	_	_
 11	composition	composition	NOUN	_	_	9	comp:obj	_	_
 12	pour	pour	ADP	_	_	9	comp:obl	_	_
@@ -3973,7 +3973,7 @@
 16	de	de	ADP	_	_	15	mod	_	_
 17	l'	le	DET	_	_	18	det	_	_
 18	orchestre	orchestre	NOUN	_	_	16	comp:obj	_	_
-19	pour	pour	ADP	_	_	15	appos@conj	_	_
+19	pour	pour	ADP	_	_	15	conj:appos	_	_
 20	la	le	DET	_	_	21	det	_	_
 21	direction	direction	NOUN	_	_	19	comp:obj	_	_
 22	de	de	ADP	_	_	21	mod	_	_
@@ -4004,7 +4004,7 @@
 8	très	très	ADV	_	_	9	mod	_	_
 9	vite	vite	ADV	_	_	7	mod	_	_
 10	se	se	PRON	_	_	11	comp@fixed	_	_
-11	désunir	désunir	VERB	_	_	7	comp:pred	_	_
+11	désunir	désunir	VERB	_	_	7	comp:obj@x	_	_
 12	parce	parce	SCONJ	_	_	11	mod	_	_
 13	qu'	que	SCONJ	_	_	12	unk@fixed	_	_
 14	il	il	PRON	_	_	16	subj@expl	_	_
@@ -4041,7 +4041,7 @@
 3	n'	ne	ADV	_	_	4	mod	_	_
 4	est	être	AUX	_	_	0	root	_	_
 5	pas	pas	ADV	_	_	4	mod	_	_
-6	fait	faire	VERB	DoubleAux	_	4	comp:aux@passif	_	_
+6	fait	faire	VERB	DoubleAux	_	4	comp:aux@pass	_	_
 7	pour	pour	ADP	_	_	6	mod	_	_
 8	cimenter	cimenter	VERB	CAUSATIVE	_	7	comp:obj	_	_
 9	ce	ce	DET	_	_	10	det	_	_
@@ -4061,7 +4061,7 @@
 9	on	on	PRON	_	_	10	subj	_	_
 10	a	avoir	VERB	_	_	7	comp:obj	_	_
 11	là	là	ADV	_	_	10	mod	_	_
-12	si	si	SCONJ	_	_	11	parataxis@discourse	_	_
+12	si	si	SCONJ	_	_	11	discourse	_	_
 13	vous	vous	PRON	_	_	14	subj	_	_
 14	voulez	vouloir	VERB	DISCOURSE	_	12	comp:obj	_	_
 15	quatre	quatre	NUM	_	_	16	mod	_	_
@@ -4129,7 +4129,7 @@
 14	du	de+le	ADP	_	_	13	mod	_	_
 15	concert	concert	NOUN	_	_	14	comp:obj	_	_
 16	son	son	DET	_	_	17	det	_	_
-17	opus	opus	NOUN	_	_	13	appos@conj	_	_
+17	opus	opus	NOUN	_	_	13	conj:appos	_	_
 18	douze	douze	NUM	_	_	17	mod	_	_
 
 # sent_id = Rhap_D2012-48
@@ -4171,7 +4171,7 @@
 34	on	on	PRON	_	_	35	subj	_	_
 35	va	aller	VERB	ETRE	_	31	mod	_	_
 36	l'	le	PRON	_	_	37	comp:obj	_	_
-37	entendre	entendre	VERB	_	_	35	comp:pred	_	_
+37	entendre	entendre	VERB	_	_	35	comp:obj@x	_	_
 38	la	le	DET	_	_	39	det	_	_
 39	marque	marque	NOUN	conj:reform	_	33	conj:dicto	_	_
 40	de	de	ADP	_	_	39	mod	_	_
@@ -4304,7 +4304,7 @@
 16	radio	radio	NOUN	_	_	14	comp:obj	_	_
 17	polonaise	polonais	ADJ	_	_	16	mod	_	_
 18	direction	direction	NOUN	_	_	9	mod	_	_
-19	Casimir	Casimir	PROPN	_	_	18	appos@conj	_	_
+19	Casimir	Casimir	PROPN	_	_	18	conj:appos	_	_
 20	Kord	Kord	PROPN	_	_	19	flat	_	_
 
 # sent_id = Rhap_D2008-1
@@ -4494,13 +4494,13 @@
 4	de	de	ADP	_	_	3	mod	_	_
 5	l'	le	DET	_	_	6	det	_	_
 6	École	École	PROPN	_	_	4	comp:obj	_	_
-7	des	de+le	ADP	_	_	6	udep	_	_
+7	des	de+le	ADP	_	_	6	mod	_	_
 8	hautes	haut	ADJ	_	_	9	mod	_	_
 9	études	étude	NOUN	_	_	7	comp:obj	_	_
 10	en	en	ADP	_	_	9	mod	_	_
 11	santé	santé	NOUN	_	_	10	comp:obj	_	_
 12	publique	public	ADJ	_	_	11	mod	_	_
-13	à	à	ADP	_	_	6	udep	_	_
+13	à	à	ADP	_	_	6	mod	_	_
 14	Rennes	Rennes	PROPN	_	_	13	comp:obj	_	_
 
 # sent_id = Rhap_D2008-12
@@ -4510,7 +4510,7 @@
 2	avons	avoir	AUX	_	_	0	root	_	_
 3	tous	tout	PRON	_	_	2	mod	_	_
 4	entendu	entendre	VERB	_	_	2	comp:aux	_	_
-5	parler	parler	VERB	_	_	4	comp:pred	_	_
+5	parler	parler	VERB	_	_	4	comp:obj@x	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	votre	son	DET	_	_	8	det	_	_
 8	scénario	scénario	NOUN	_	_	6	comp:obj	_	_
@@ -4543,7 +4543,7 @@
 5	votre	son	DET	_	_	6	det	_	_
 6	livre	livre	NOUN	_	_	12	subj	_	_
 7	Des	Des	DET	_	_	8	det	_	_
-8	épidémies	épidémie	NOUN	_	_	6	appos@conj	_	_
+8	épidémies	épidémie	NOUN	_	_	6	conj:appos	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
 10	des	de+le	DET	de	_	8	conj:coord	_	_
 11	Hommes	Hommes	NOUN	_	_	10	comp:obj	_	_
@@ -4611,7 +4611,7 @@
 1	votre	son	DET	_	_	3	det	_	_
 2	dernier	dernier	ADJ	_	_	3	mod	_	_
 3	livre	livre	NOUN	_	_	10	subj	_	_
-4	À	à	ADP	_	_	3	appos@conj	_	_
+4	À	à	ADP	_	_	3	conj:appos	_	_
 5	la	le	DET	_	_	6	det	_	_
 6	conquête	conquête	NOUN	_	_	4	comp:obj	_	_
 7	des	de+le	ADP	_	_	6	mod	_	_
@@ -4646,11 +4646,11 @@
 17	Poincaré	Poincaré	PROPN	_	_	16	flat	_	_
 18	de	de	ADP	_	_	15	mod	_	_
 19	Garches	Garches	PROPN	_	_	18	comp:obj	_	_
-20	dans	dans	ADP	_	_	19	udep	_	_
+20	dans	dans	ADP	_	_	19	mod	_	_
 21	les	le	DET	_	_	22	det	_	_
 22	Hauts	Hauts	PROPN	_	_	20	comp:obj	_	_
 23	-	-	PUNCT	_	_	24	punct	_	_
-24	de	de	ADP	_	_	22	udep	_	_
+24	de	de	ADP	_	_	22	mod	_	_
 25	-	-	PUNCT	_	_	24	punct	_	_
 26	Seine	Seine	PROPN	_	_	24	comp:obj	_	_
 
@@ -4669,7 +4669,7 @@
 10	du	de+le	ADP	_	_	6	mod	_	_
 11	Haut	Haut	ADJ	_	_	12	mod	_	_
 12	Conseil	Conseil	PROPN	_	_	10	comp:obj	_	_
-13	de	de	ADP	_	_	12	udep	_	_
+13	de	de	ADP	_	_	12	mod	_	_
 14	la	le	DET	_	_	15	det	_	_
 15	santé	santé	NOUN	_	_	13	comp:obj	_	_
 16	publique	public	ADJ	_	_	15	mod	_	_
@@ -4712,7 +4712,7 @@
 20	à	à	ADP	_	_	11	mod	_	_
 21	l'	le	DET	_	_	22	det	_	_
 22	École	École	PROPN	_	_	20	comp:obj	_	_
-23	des	de+le	ADP	_	_	22	udep	_	_
+23	des	de+le	ADP	_	_	22	mod	_	_
 24	hautes	haut	ADJ	_	_	25	mod	_	_
 25	études	étude	NOUN	_	_	23	comp:obj	_	_
 26	en	en	ADP	_	_	25	mod	_	_
@@ -4742,7 +4742,7 @@
 # sent_id = Rhap_D2008-24
 # text = voilà est -ce que vous maintenez vos prévisions si je puis dire
 # macrosyntax = "voilà" est-ce que vous maintenez vos prévisions "si je puis dire" //
-1	voilà	voilà	VERB	DISCOURSE	_	2	parataxis@discourse	_	_
+1	voilà	voilà	VERB	DISCOURSE	_	2	discourse	_	_
 2	est	être	AUX	_	_	6	comp:obj	_	_
 3	-ce	ce	PRON	_	_	6	subj	_	_
 4	que	que	SCONJ	_	_	0	root	_	_
@@ -4750,7 +4750,7 @@
 6	maintenez	maintenir	VERB	_	_	4	comp:obj	_	_
 7	vos	son	DET	_	_	8	det	_	_
 8	prévisions	prévision	NOUN	_	_	6	comp:obj	_	_
-9	si	si	SCONJ	_	_	8	parataxis@discourse	_	_
+9	si	si	SCONJ	_	_	8	discourse	_	_
 10	je	je	PRON	_	_	11	subj	_	_
 11	puis	pouvoir	AUX	_	_	9	comp:obj	_	_
 12	dire	dire	VERB	DISCOURSE	_	11	comp:aux	_	_
@@ -4789,8 +4789,8 @@
 1	ce	ce	PRON	_	_	2	subj	_	_
 2	sont	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
-4	des	de+le	DET	_	_	2	comp:pred	_	_
-5	prévisions	prévision	NOUN	_	_	4	comp:obj	_	_
+4	des	un	DET	_	_	5	det	_	_
+5	prévisions	prévision	NOUN	_	_	2	comp:pred	_	_
 
 # sent_id = Rhap_D2008-29
 # text = c' est
@@ -4852,7 +4852,7 @@
 19	en	en	ADP	_	_	16	mod	_	_
 20	en	en	ADP	conj:reform	_	19	conj:dicto	_	_
 21	Amérique	Amérique	PROPN	_	_	19	comp:obj	_	_
-22	du	de+le	ADP	_	_	21	udep	_	_
+22	du	de+le	ADP	_	_	21	mod	_	_
 23	Nord	Nord	PROPN	_	_	22	comp:obj	_	_
 24	oui	oui	INTJ	_	_	21	discourse	_	_
 25	euh	euh	INTJ	_	_	21	discourse	_	_
@@ -4877,7 +4877,7 @@
 7	jusqu'	jusque	ADP	_	_	3	mod	_	_
 8	à	à	ADP	_	_	7	comp:obj	_	_
 9	présent	présent	NOUN	_	_	8	comp:obj	_	_
-10	arrêter	arrêter	VERB	_	_	6	comp:pred	_	_
+10	arrêter	arrêter	VERB	_	_	6	comp:obj@x	_	_
 11	les	le	DET	_	_	12	det	_	_
 12	épidémies	épidémie	NOUN	_	_	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
@@ -4926,7 +4926,7 @@
 8	pour	pour	ADP	_	_	6	mod	_	_
 9	l'	le	DET	_	_	10	det	_	_
 10	instant	instant	NOUN	_	_	8	comp:obj	_	_
-11	arrêter	arrêter	VERB	_	_	7	comp:pred	_	_
+11	arrêter	arrêter	VERB	_	_	7	comp:obj@x	_	_
 12	la	le	DET	_	_	13	det	_	_
 13	vague	vague	NOUN	_	_	11	comp:obj	_	_
 14	pandémique	pandémique	ADJ	_	_	13	mod	_	_
@@ -4957,8 +4957,8 @@
 18	on	on	PRON	_	_	19	subj	_	_
 19	puisse	pouvoir	AUX	_	_	5	comp:obj	_	_
 20	freiner	freiner	VERB	_	_	19	comp:aux	_	_
-21	arrêter	arrêter	VERB	_	_	20	appos@conj	_	_
-22	atténuer	atténuer	VERB	_	_	20	appos@conj	_	_
+21	arrêter	arrêter	VERB	_	_	20	conj:appos	_	_
+22	atténuer	atténuer	VERB	_	_	20	conj:appos	_	_
 23	la	le	DET	_	_	24	det	_	_
 24	vague	vague	NOUN	_	_	22	comp:obj	_	_
 
@@ -4973,7 +4973,7 @@
 6	de	de	ADP	_	_	5	mod	_	_
 7	façon	façon	NOUN	_	_	6	comp:obj	_	_
 8	je	je	PRON	_	_	9	subj	_	_
-9	dirais	dire	VERB	DISCOURSE	_	7	parataxis@discourse	_	_
+9	dirais	dire	VERB	DISCOURSE	_	7	discourse	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
 11	un	un	DET	_	_	12	det@fixed	_	_
 12	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
@@ -5044,7 +5044,7 @@
 22	guillemets	guillemet	NOUN	_	_	21	comp:obj	_	_
 23	raisonnables	raisonnable	ADJ	_	_	19	mod	_	_
 24	mais	mais	CCONJ	_	_	25	cc	_	_
-25	en	en	ADP	_	_	17	appos@conj	_	_
+25	en	en	ADP	_	_	17	conj:appos	_	_
 26	tenant	tenir	VERB	_	_	25	comp:obj	_	_
 27	compte	compte	NOUN	_	_	26	comp:obj	_	_
 28	de	de	ADP	_	_	27	mod	_	_
@@ -5132,7 +5132,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	on	on	PRON	_	_	3	subj	_	_
 3	regarde	regarder	VERB	_	_	0	root	_	_
-4	c~	c~	X	_	_	3	udep	_	_
+4	c~	c~	X	_	_	3	mod	_	_
 5	le	le	DET	_	_	8	det	_	_
 6	plus	plus	ADV	_	_	7	mod	_	_
 7	proche	proche	ADJ	_	_	8	mod	_	_
@@ -5188,8 +5188,8 @@
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	pas	pas	ADV	_	_	3	mod	_	_
-5	des	de+le	DET	_	_	3	comp:pred	_	_
-6	devins	devin	NOUN	_	_	5	comp:obj	_	_
+5	des	un	DET	_	_	6	det	_	_
+6	devins	devin	NOUN	_	_	3	comp:pred	_	_
 
 # sent_id = Rhap_D2008-50
 # text = on ne fait pas de la prédiction ou de la prévision euh
@@ -5405,15 +5405,15 @@
 # sent_id = Rhap_D2008-63
 # text = pardonnez -moi si ça c' était on va dire une des estimations à euh potentiel raisonnable le le l' estimation inquiétante c' est quoi
 # macrosyntax = "pardonnez-moi" si [ ça < c'était "on va dire" une des estimations à "euh" potentiel raisonnable ] < { le | le | l' } estimation inquiétante < c'est quoi //
-1	pardonnez	pardonner	VERB	DISCOURSE	_	23	parataxis@discourse	_	_
+1	pardonnez	pardonner	VERB	DISCOURSE	_	23	discourse	_	_
 2	-moi	moi	PRON	_	_	1	comp:obj	_	_
 3	si	si	SCONJ	_	_	23	mod	_	_
 4	ça	ça	PRON	_	_	6	dislocated	_	_
 5	c'	ce	PRON	_	_	6	subj	_	_
 6	était	être	AUX	_	_	3	comp:obj	_	_
 7	on	on	PRON	_	_	8	subj	_	_
-8	va	aller	VERB	ETRE	_	6	parataxis@discourse	_	_
-9	dire	dire	VERB	DISCOURSE	_	8	comp:pred	_	_
+8	va	aller	VERB	ETRE	_	6	discourse	_	_
+9	dire	dire	VERB	DISCOURSE	_	8	comp:obj@x	_	_
 10	une	un	PRON	_	_	6	comp:pred	_	_
 11	des	de+le	ADP	_	_	10	comp:obl	_	_
 12	estimations	estimation	NOUN	_	_	11	comp:obj	_	_
@@ -5508,7 +5508,7 @@
 14	la	le	DET	_	_	15	det	_	_
 15	planète	planète	NOUN	_	_	13	comp:obj	_	_
 16	on	on	PRON	_	_	17	subj	_	_
-17	dit	dire	VERB	DISCOURSE	_	15	parataxis@discourse	_	_
+17	dit	dire	VERB	DISCOURSE	_	15	discourse	_	_
 18	quarante	quarante	NUM	_	_	19	mod	_	_
 19	millions	million	NOUN	_	_	4	comp:obj	_	_
 20	de	de	ADP	_	_	19	mod	_	_
@@ -5544,7 +5544,7 @@
 6	dix-huit	dix-huit	NUM	_	_	5	mod	_	_
 7	à	à	ADP	_	_	13	mod	_	_
 8	Rennes	Rennes	PROPN	_	_	7	comp:obj	_	_
-9	par	par	ADP	_	_	8	udep	_	_
+9	par	par	ADP	_	_	8	mod	_	_
 10	exemple	exemple	NOUN	_	_	9	comp:obj	_	_
 11	soixante-dix	soixante-dix	NUM	_	_	13	mod	_	_
 12	mille	mille	NUM	_	_	11	mod	_	_
@@ -5713,7 +5713,7 @@
 9	a	avoir	AUX	_	_	4	mod@relcl	_	_
 10	pu	pouvoir	AUX	DoubleAux	_	9	comp:aux	_	_
 11	voir	voir	VERB	DoubleAux	_	10	comp:aux	_	_
-12	éclore	éclore	VERB	_	_	11	comp:pred	_	_
+12	éclore	éclore	VERB	_	_	11	comp:obj@x	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	ci	ci	ADV	_	_	13	comp:obj	_	_
 15	oui	oui	INTJ	_	_	14	discourse	_	_
@@ -5777,7 +5777,7 @@
 13	limite	limite	NOUN	_	_	11	comp:obj	_	_
 14	de	de	ADP	_	_	13	mod	_	_
 15	date	date	NOUN	_	_	14	comp:obj	_	_
-16	si	si	SCONJ	_	_	15	parataxis@discourse	_	_
+16	si	si	SCONJ	_	_	15	discourse	_	_
 17	je	je	PRON	_	_	18	subj	_	_
 18	puis	pouvoir	AUX	_	_	16	comp:obj	_	_
 19	dire	dire	VERB	DISCOURSE	_	18	comp:aux	_	_
@@ -5797,7 +5797,7 @@
 4	vous	vous	PRON	_	_	6	subj	_	_
 5	nous	nous	PRON	_	_	6	comp:obl	_	_
 6	dites	dire	VERB	_	_	3	comp:obj	_	_
-7	voilà	voilà	VERB	DISCOURSE	_	6	parataxis@discourse	_	_
+7	voilà	voilà	VERB	DISCOURSE	_	6	discourse	_	_
 8	si	si	SCONJ	_	_	13	mod	_	_
 9	ça	ça	PRON	_	_	10	subj	_	_
 10	tourne	tourner	VERB	_	_	8	comp:obj	_	_
@@ -5811,7 +5811,7 @@
 18	à	à	ADP	_	_	17	mod	_	_
 19	venir	venir	VERB	_	_	18	comp:obj	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	_
-21	voilà	voilà	VERB	DISCOURSE	_	20	parataxis@discourse	_	_
+21	voilà	voilà	VERB	DISCOURSE	_	20	discourse	_	_
 
 # sent_id = Rhap_D2008-86
 # text = est -ce que vous vous êtes fixé aussi un cadre si je puis dire dans la durée du du du scénario et donc du film en quelque sorte
@@ -5820,13 +5820,13 @@
 2	-ce	ce	PRON	_	_	6	subj	_	_
 3	que	que	SCONJ	_	_	0	root	_	_
 4	vous	vous	PRON	_	_	6	subj@pass	_	_
-5	vous	vous	PRON	_	_	7	unk@iobj	_	_
+5	vous	vous	PRON	_	_	7	comp@fixed	_	_
 6	êtes	être	AUX	_	_	3	comp:obj	_	_
 7	fixé	fixer	VERB	_	_	6	comp:aux@pass	_	_
 8	aussi	aussi	ADV	_	_	6	mod	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	cadre	cadre	NOUN	_	_	7	comp:obj	_	_
-11	si	si	SCONJ	_	_	6	parataxis@discourse	_	_
+11	si	si	SCONJ	_	_	6	discourse	_	_
 12	je	je	PRON	_	_	13	subj	_	_
 13	puis	pouvoir	AUX	_	_	11	comp:obj	_	_
 14	dire	dire	VERB	DISCOURSE	_	13	comp:aux	_	_
@@ -5886,7 +5886,7 @@
 6	de	de	ADP	_	_	5	mod	_	_
 7	la	le	DET	_	_	8	det	_	_
 8	santé	santé	NOUN	_	_	6	comp:obj	_	_
-9	Roselyne	Roselyne	PROPN	_	_	5	appos@conj	_	_
+9	Roselyne	Roselyne	PROPN	_	_	5	conj:appos	_	_
 10	Bachelot	Bachelot	PROPN	_	_	9	flat	_	_
 11	elle	il	PRON	_	_	12	subj	_	_
 12	a	avoir	AUX	_	_	0	root	_	_
@@ -5894,8 +5894,8 @@
 14	cette	ce	DET	_	_	15	det	_	_
 15	crise	crise	NOUN	_	_	13	comp:obj	_	_
 16	on	on	PRON	_	_	17	subj	_	_
-17	va	aller	VERB	ETRE	_	15	parataxis@discourse	_	_
-18	dire	dire	VERB	DISCOURSE	_	17	comp:pred	_	_
+17	va	aller	VERB	ETRE	_	15	discourse	_	_
+18	dire	dire	VERB	DISCOURSE	_	17	comp:obj@x	_	_
 19	au	à+le	ADP	_	_	12	mod	_	_
 20	minimum	minimum	NOUN	_	_	19	comp:obj	_	_
 21	en	en	ADP	_	_	12	mod	_	_
@@ -5951,7 +5951,7 @@
 3	a	avoir	AUX	_	_	0	root	_	_
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
 5	j'	je	PRON	_	_	6	subj	_	_
-6	ai	avoir	AUX	_	_	4	comp:pred	_	_
+6	ai	avoir	AUX	_	_	4	comp:obj@x	_	_
 7	mis	mettre	VERB	_	_	6	comp:aux	_	_
 8	tout	tout	ADJ	_	_	10	mod	_	_
 9	mon	son	DET	_	_	10	det	_	_
@@ -6022,7 +6022,7 @@
 6	dit	dire	VERB	_	_	5	comp:aux	_	_
 7	faut	falloir	VERB	CCOMP	_	5	parataxis@obj	_	_
 8	se	se	PRON	_	_	9	comp@fixed	_	_
-9	méfier	méfier	VERB	_	_	7	comp:pred	_	_
+9	méfier	méfier	VERB	_	_	7	comp:obj@x	_	_
 10	du	de+le	ADP	_	_	9	comp:obl	_	_
 11	retour	retour	NOUN	_	_	10	comp:obj	_	_
 12	de	de	ADP	_	_	11	mod	_	_
@@ -6045,7 +6045,7 @@
 12	il	il	PRON	_	_	13	subj	_	_
 13	va	aller	VERB	ETRE	_	8	comp:cleft	_	_
 14	se	se	PRON	_	_	15	comp:obl	_	_
-15	passer	passer	VERB	ETRE	_	13	comp:pred	_	_
+15	passer	passer	VERB	ETRE	_	13	comp:obj@x	_	_
 16	l'	le	DET	_	_	17	det	_	_
 17	hiver	hiver	NOUN	_	_	15	mod	_	_
 18	prochain	prochain	ADJ	_	_	17	mod	_	_
@@ -6254,7 +6254,7 @@
 22	qu'	que	PRON	_	_	25	comp:obj	_	_
 23	il	il	PRON	_	_	24	subj	_	_
 24	faut	falloir	VERB	_	_	20	conj:dicto	_	_
-25	mettre	mettre	VERB	_	_	24	comp:pred	_	_
+25	mettre	mettre	VERB	_	_	24	comp:obj@x	_	_
 26	c'	ce	PRON	_	_	27	subj	_	_
 27	est	être	AUX	_	_	0	root	_	_
 28	que	que	SCONJ	_	_	27	comp:obj	_	_
@@ -6266,13 +6266,13 @@
 34	voit	voir	VERB	_	_	30	mod@relcl	_	_
 35	en	en	ADP	_	_	34	mod	_	_
 36	Amérique	Amérique	PROPN	_	_	35	comp:obj	_	_
-37	du	de+le	ADP	_	_	36	udep	_	_
+37	du	de+le	ADP	_	_	36	mod	_	_
 38	Nord	Nord	PROPN	_	_	37	comp:obj	_	_
 39	ne	ne	ADV	_	_	40	mod	_	_
 40	va	aller	VERB	ETRE	_	28	comp:obj	_	_
 41	pas	pas	ADV	_	_	40	mod	_	_
 42	se	se	PRON	_	_	43	comp@fixed	_	_
-43	plaire	plaire	VERB	_	_	40	comp:pred	_	_
+43	plaire	plaire	VERB	_	_	40	comp:obj@x	_	_
 44	beaucoup	beaucoup	ADV	_	_	43	mod	_	_
 45	avec	avec	ADP	_	_	43	mod	_	_
 46	l'	le	DET	_	_	47	det	_	_
@@ -6280,7 +6280,7 @@
 48	euh	euh	INTJ	_	_	47	discourse	_	_
 49	chez	chez	ADP	_	_	43	mod	_	_
 50	nous	lui	PRON	_	_	49	comp:obj	_	_
-51	dans	dans	ADP	_	_	50	appos@conj	_	_
+51	dans	dans	ADP	_	_	50	conj:appos	_	_
 52	l'	le	DET	_	_	53	det	_	_
 53	hémisphère	hémisphère	NOUN	_	_	51	comp:obj	_	_
 54	nord	nord	NOUN	_	_	53	compound	_	_
@@ -6308,7 +6308,7 @@
 18	forte	fort	ADJ	_	_	19	mod	_	_
 19	ampleur	ampleur	NOUN	_	_	16	comp:obj	_	_
 20	que	que	SCONJ	_	_	17	comp:obj	_	_
-21	des	de+le	DET	_	_	20	comp:obj	_	_
+21	des	un	DET	_	_	20	comp:obj	_	_
 22	épidémies	épidémie	NOUN	_	_	21	comp:obj	_	_
 23	saisonnières	saisonnier	ADJ	_	_	22	mod	_	_
 24	habituelles	habituel	ADJ	_	_	22	mod	_	_
@@ -6323,7 +6323,7 @@
 1	on	on	PRON	_	_	2	subj	_	_
 2	va	aller	VERB	ETRE	_	0	root	_	_
 3	donc	donc	ADV	_	_	2	mod	_	_
-4	avoir	avoir	VERB	_	_	2	comp:pred	_	_
+4	avoir	avoir	VERB	_	_	2	comp:obj@x	_	_
 5	nos	son	DET	_	_	6	det	_	_
 6	regards	regard	NOUN	_	_	4	comp:obj	_	_
 7	braqués	braquer	VERB	_	_	6	mod	_	_
@@ -6392,11 +6392,11 @@
 13	qui	qui	PRON	_	_	14	subj	_	_
 14	vont	aller	VERB	ETRE	_	10	mod@relcl	_	_
 15	se	se	PRON	_	_	16	comp:obj	_	_
-16	voir	voir	VERB	DoubleAux	_	14	comp:pred	_	_
+16	voir	voir	VERB	DoubleAux	_	14	comp:obj@x	_	_
 17	euh	euh	INTJ	_	_	14	discourse	_	_
 18	non	non	ADV	_	_	20	mod	_	_
 19	pas	pas	ADV	_	_	18	unk@fixed	_	_
-20	réconfortées	réconforter	VERB	DoubleAux	_	14	comp:pred	_	_
+20	réconfortées	réconforter	VERB	DoubleAux	_	14	comp:obj@x	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	28	cc	_	_
 23	euh	euh	INTJ	_	_	30	discourse	_	_
@@ -6454,7 +6454,7 @@
 10	à	à	ADP	_	_	8	unk@fixed	_	_
 11	-	-	PUNCT	_	_	12	punct	_	_
 12	dire	dire	VERB	_	_	10	unk@fixed	_	_
-13	de	de	ADP	_	_	6	appos@conj	_	_
+13	de	de	ADP	_	_	6	conj:appos	_	_
 14	façon	façon	NOUN	_	_	13	comp:obj	_	_
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	inquiétante	inquiétant	ADJ	_	_	14	mod	_	_
@@ -6547,7 +6547,7 @@
 7	l'	le	DET	_	_	8	det	_	_
 8	année	année	NOUN	_	_	6	comp:obj	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
-10	à	à	ADP	_	_	5	appos@conj	_	_
+10	à	à	ADP	_	_	5	conj:appos	_	_
 11	l'	le	DET	_	_	12	det	_	_
 12	automne	automne	NOUN	_	_	10	comp:obj	_	_
 13	à	à	ADP	_	_	10	conj:coord	_	_
@@ -6563,7 +6563,7 @@
 23	que	que	SCONJ	_	_	20	conj:coord	_	_
 24	ça	ça	PRON	_	_	25	subj	_	_
 25	va	aller	VERB	ETRE	_	23	comp:obj	_	_
-26	s~	s~	X	_	_	25	appos@conj	_	_
+26	s~	s~	X	_	_	25	conj:appos	_	_
 27	ça	ça	PRON	_	_	28	subj	_	_
 28	sera	être	AUX	_	_	26	conj:dicto	_	_
 29	pas	pas	ADV	_	_	28	mod	_	_
@@ -6643,7 +6643,7 @@
 16	il	il	PRON	_	_	17	subj	_	_
 17	va	aller	VERB	ETRE	_	12	mod	_	_
 18	se	se	PRON	_	_	17	comp@fixed	_	_
-19	passer	passer	VERB	ETRE	_	17	comp:pred	_	_
+19	passer	passer	VERB	ETRE	_	17	comp:obj@x	_	_
 20	à	à	ADP	_	_	19	mod	_	_
 21	l'	le	DET	_	_	22	det	_	_
 22	automne	automne	NOUN	_	_	20	comp:obj	_	_
@@ -6789,7 +6789,7 @@
 11	le	le	DET	conj:reform	_	10	conj:dicto	_	_
 12	virus	virus	NOUN	_	_	13	subj	_	_
 13	sait	savoir	VERB	_	_	1	comp:obj	_	_
-14	faire	faire	VERB	_	_	13	comp:pred	_	_
+14	faire	faire	VERB	_	_	13	comp:obj@x	_	_
 15	sa	son	DET	_	_	17	det	_	_
 16	propre	propre	ADJ	_	_	17	mod	_	_
 17	besogne	besogne	NOUN	_	_	14	comp:obj	_	_
@@ -6861,7 +6861,7 @@
 57	dire	dire	VERB	_	_	55	unk@fixed	_	_
 58	peut-être	peut-être	ADV	_	_	60	mod	_	_
 59	assez	assez	ADV	_	_	60	mod	_	_
-60	précocement	précocement	ADV	_	_	51	appos@conj	_	_
+60	précocement	précocement	ADV	_	_	51	conj:appos	_	_
 
 # sent_id = Rhap_D2008-140
 # text = alors j~
@@ -7010,7 +7010,7 @@
 12	entendre	entendre	VERB	_	_	11	comp:obj	_	_
 13	la	le	DET	_	_	15	det	_	_
 14	première	premier	ADJ	_	_	15	mod	_	_
-15	journée	journée	NOUN	_	_	5	appos@conj	_	_
+15	journée	journée	NOUN	_	_	5	conj:appos	_	_
 16	où	où	PRON	_	_	18	mod	_	_
 17	il	il	PRON	_	_	18	subj	_	_
 18	manifeste	manifester	VERB	_	_	5	mod@relcl	_	_
@@ -7107,7 +7107,7 @@
 16	de	de	ADP	_	_	15	comp:obl@x	_	_
 17	se	se	PRON	_	_	19	comp@fixed	_	_
 18	laisser	laisser	VERB	_	_	16	comp:obj	_	_
-19	toucher	toucher	VERB	_	_	18	comp:pred	_	_
+19	toucher	toucher	VERB	_	_	18	comp:obj@x	_	_
 20	ou	ou	CCONJ	_	_	21	cc	_	_
 21	de	de	ADP	_	_	18	conj:coord	_	_
 22	bénir	bénir	VERB	_	_	21	comp:obj	_	_
@@ -7127,8 +7127,8 @@
 6	ce	ce	PRON	_	_	2	dislocated	_	_
 7	qui	qui	PRON	_	_	8	subj	_	_
 8	fait	faire	VERB	_	_	6	mod@relcl	_	_
-9	du	un	DET	_	_	8	comp:obl	_	_
-10	mal	mal	NOUN	_	_	9	comp:obj	_	_
+9	du	du	DET	_	_	10	det	_	_
+10	mal	mal	NOUN	_	_	8	comp:obl	_	_
 11	aux	à+le	ADP	_	_	8	comp:obl	_	_
 12	gens	gens	NOUN	_	_	11	comp:obj	_	_
 
@@ -7221,7 +7221,7 @@
 2	évangile	évangile	NOUN	_	_	21	dislocated	_	_
 3	la	le	DET	_	_	5	det	_	_
 4	bonne	bon	ADJ	_	_	5	mod	_	_
-5	nouvelle	nouvelle	NOUN	_	_	2	appos@conj	_	_
+5	nouvelle	nouvelle	NOUN	_	_	2	conj:appos	_	_
 6	comme	comme	SCONJ	_	_	21	mod	_	_
 7	le	le	PRON	_	_	8	comp:obj	_	_
 8	répète	répéter	VERB	_	_	6	comp:obj	_	_
@@ -7243,7 +7243,7 @@
 24	une	un	DET	_	_	25	det	_	_
 25	action	action	NOUN	_	_	21	comp:pred	_	_
 26	une	un	DET	_	_	27	det	_	_
-27	action	action	NOUN	_	_	25	appos@conj	_	_
+27	action	action	NOUN	_	_	25	conj:appos	_	_
 28	pour	pour	ADP	_	_	27	mod	_	_
 29	restaurer	restaurer	VERB	_	_	28	comp:obj	_	_
 30	la	le	DET	_	_	31	det	_	_
@@ -7253,7 +7253,7 @@
 34	personne	personne	NOUN	_	_	32	comp:obj	_	_
 35	humaine	humain	ADJ	_	_	34	mod	_	_
 36	une	un	DET	_	_	37	det	_	_
-37	action	action	NOUN	_	_	25	appos@conj	_	_
+37	action	action	NOUN	_	_	25	conj:appos	_	_
 38	pour	pour	ADP	_	_	37	mod	_	_
 39	rétablir	rétablir	VERB	_	_	38	comp:obj	_	_
 40	la	le	DET	_	_	41	det	_	_
@@ -7266,7 +7266,7 @@
 47	de	de	ADP	_	_	46	mod	_	_
 48	parole	parole	NOUN	_	_	47	comp:obj	_	_
 49	une	un	DET	_	_	50	det	_	_
-50	action	action	NOUN	_	_	25	appos@conj	_	_
+50	action	action	NOUN	_	_	25	conj:appos	_	_
 51	pour	pour	ADP	_	_	50	mod	_	_
 52	rétablir	rétablir	VERB	_	_	51	comp:obj	_	_
 53	les	les	DET	_	_	54	det	_	_
@@ -7298,7 +7298,7 @@
 8	de	de	ADP	_	_	7	mod	_	_
 9	bonté	bonté	NOUN	_	_	8	comp:obj	_	_
 10	comme	comme	ADP	_	_	7	mod	_	_
-11	des	de+le	DET	_	_	10	comp:obj	_	_
+11	des	un	DET	_	_	10	comp:obj	_	_
 12	appels	appel	NOUN	_	_	11	comp:obj	_	_
 13	à	à	ADP	_	_	12	mod	_	_
 14	la	le	DET	_	_	15	det	_	_
@@ -7323,11 +7323,11 @@
 14	venue	venu	NOUN	_	_	9	comp:obj	_	_
 15	de	de	ADP	_	_	14	mod	_	_
 16	Dieu	Dieu	PROPN	_	_	15	comp:obj	_	_
-17	parmi	parmi	ADP	_	_	16	udep	_	_
+17	parmi	parmi	ADP	_	_	16	mod	_	_
 18	les	le	DET	_	_	19	det	_	_
 19	Hommes	Hommes	PROPN	_	_	17	comp:obj	_	_
 20	la	le	DET	_	_	21	det	_	_
-21	venue	venu	NOUN	_	_	14	appos@conj	_	_
+21	venue	venu	NOUN	_	_	14	conj:appos	_	_
 22	définitive	définitif	ADJ	_	_	21	mod	_	_
 23	de	de	ADP	_	_	21	mod	_	_
 24	Dieu	Dieu	PROPN	_	_	23	comp:obj	_	_
@@ -7482,7 +7482,7 @@
 7	il	il	PRON	_	_	8	subj	_	_
 8	engage	engager	VERB	_	_	2	comp:cleft	_	_
 9	l'	le	DET	_	_	10	det	_	_
-10	autorité	autorité	NOUN	_	_	5	appos@conj	_	_
+10	autorité	autorité	NOUN	_	_	5	conj:appos	_	_
 11	de	de	ADP	_	_	10	mod	_	_
 12	sa	son	DET	_	_	13	det	_	_
 13	vie	vie	NOUN	_	_	11	comp:obj	_	_
@@ -7570,7 +7570,7 @@
 4	donnant	donner	VERB	_	_	3	comp:obj	_	_
 5	la	le	DET	_	_	6	det	_	_
 6	vie	vie	NOUN	_	_	4	comp:obj	_	_
-7	en	en	ADP	_	_	4	appos@conj	_	_
+7	en	en	ADP	_	_	4	conj:appos	_	_
 8	donnant	donner	VERB	_	_	7	comp:obj	_	_
 9	sa	son	DET	_	_	11	det	_	_
 10	propre	propre	ADJ	_	_	11	mod	_	_
@@ -7580,7 +7580,7 @@
 # text = mais voilà le mal est toujours présent au milieu de nous
 # macrosyntax = ^mais "voilà" le mal est toujours présent au milieu de nous // 
 1	mais	mais	CCONJ	_	_	5	cc	_	_
-2	voilà	voilà	VERB	DISCOURSE	_	5	parataxis@discourse	_	_
+2	voilà	voilà	VERB	DISCOURSE	_	5	discourse	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	mal	mal	NOUN	_	_	5	subj	_	_
 5	est	être	AUX	_	_	0	root	_	_
@@ -7608,9 +7608,9 @@
 12	l'	le	DET	_	_	13	det	_	_
 13	humanité	humanité	NOUN	_	_	11	comp:obj	_	_
 14	le	le	DET	_	_	15	det	_	_
-15	mal	mal	NOUN	_	_	10	appos@conj	_	_
+15	mal	mal	NOUN	_	_	10	conj:appos	_	_
 16	moral	moral	ADJ	_	_	15	mod	_	_
-17	celui	celui	PRON	_	_	10	appos@conj	_	_
+17	celui	celui	PRON	_	_	10	conj:appos	_	_
 18	que	que	PRON	_	_	21	comp:obj	_	_
 19	l'	l'	DET	_	_	20	det	_	_
 20	on	on	PRON	_	_	21	subj	_	_
@@ -7689,7 +7689,7 @@
 5	désire	désirer	VERB	_	_	3	mod@relcl	_	_
 6	un	un	DET	_	_	7	det@fixed	_	_
 7	peu	peu	NOUN	_	_	5	mod	_	EXTPOS=ADV
-8	d'	de	ADP	_	_	6	udep	_	_
+8	d'	de	ADP	_	_	6	mod	_	_
 9	ombre	ombre	NOUN	_	_	8	comp:obj	_	_
 10	comme	comme	ADP	_	_	1	conj:coord	_	_
 11	le	le	DET	_	_	12	det	_	_
@@ -7699,7 +7699,7 @@
 15	sa	son	DET	_	_	16	det	_	_
 16	paye	paye	NOUN	_	_	14	comp:obj	_	_
 17	depuis	depuis	ADP	_	_	14	mod	_	_
-18	des	de+le	DET	_	_	17	comp:obj	_	_
+18	des	un	DET	_	_	17	comp:obj	_	_
 19	mois	mois	NOUN	_	_	18	comp:obj	_	_
 20	dit	dire	VERB	_	_	3	parataxis@insert	_	_
 21	Job	Job	PROPN	_	_	20	subj	_	_
@@ -7746,7 +7746,7 @@
 3	il	il	PRON	_	_	4	subj	_	_
 4	faut	falloir	VERB	_	_	2	parataxis@parenth	_	_
 5	l'	le	PRON	_	_	6	comp:obj	_	_
-6	avouer	avouer	VERB	_	_	4	comp:pred	_	_
+6	avouer	avouer	VERB	_	_	4	comp:obj@x	_	_
 7	beaucoup	beaucoup	PRON	_	_	2	conj:dicto	_	_
 8	s'	se	PRON	_	_	9	comp@fixed	_	_
 9	éloignent	éloigner	VERB	_	_	0	root	_	_
@@ -7758,7 +7758,7 @@
 15	de	de	ADP	_	_	14	mod	_	_
 16	ce	ce	DET	_	_	17	det	_	_
 17	mal	mal	NOUN	_	_	15	comp:obj	_	_
-18	à	à	ADP	_	_	14	appos@conj	_	_
+18	à	à	ADP	_	_	14	conj:appos	_	_
 19	cause	cause	NOUN	_	_	18	comp:obj	_	_
 20	de	de	ADP	_	_	19	mod	_	_
 21	cette	ce	DET	_	_	22	det	_	_
@@ -7786,7 +7786,7 @@
 15	deux	deux	NUM	_	_	12	mod	_	_
 16	le	le	DET	_	_	18	det	_	_
 17	onze	onze	NUM	_	_	18	mod	_	_
-18	février	février	NOUN	_	_	4	appos@conj	_	_
+18	février	février	NOUN	_	_	4	conj:appos	_	_
 19	en	en	ADP	_	_	18	conj:dicto	_	_
 20	la	le	DET	_	_	21	det	_	_
 21	fête	fête	NOUN	conj:reform	_	19	comp:obj	_	_
@@ -7794,7 +7794,7 @@
 23	Notre	Notre	PROPN	_	_	22	comp:obj	_	_
 24	-	-	PUNCT	_	_	25	punct	_	_
 25	Dame	Dame	PROPN	_	_	23	unk@fixed	_	_
-26	de	de	ADP	_	_	23	udep	_	_
+26	de	de	ADP	_	_	23	mod	_	_
 27	Lourdes	Lourdes	PROPN	_	_	26	comp:obj	_	_
 28	en	en	ADP	_	_	19	conj:dicto	_	_
 29	ce	ce	DET	_	_	30	det	_	_
@@ -7812,7 +7812,7 @@
 41	de	de	ADP	_	_	38	mod	_	_
 42	Jésus	Jésus	PROPN	_	_	41	comp:obj	_	_
 43	le	le	DET	_	_	44	det	_	_
-44	don	don	NOUN	_	_	38	appos@conj	_	_
+44	don	don	NOUN	_	_	38	conj:appos	_	_
 45	de	de	ADP	_	_	44	mod	_	_
 46	la	le	DET	_	_	47	det	_	_
 47	vie	vie	NOUN	_	_	45	comp:obj	_	_
@@ -7829,7 +7829,7 @@
 58	Église	Église	PROPN	_	_	56	comp:obj	_	_
 59	c'est-à-dire	c'est-à-dire	CCONJ	_	_	61	cc	_	_
 60	la	le	DET	_	_	61	det	_	_
-61	responsabilité	responsabilité	NOUN	_	_	55	appos@conj	_	_
+61	responsabilité	responsabilité	NOUN	_	_	55	conj:appos	_	_
 62	de	de	ADP	_	_	61	mod	_	_
 63	chacun	chacun	PRON	_	_	62	comp:obj	_	_
 64	d'	de	ADP	_	_	63	comp:obl	_	_
@@ -7925,7 +7925,7 @@
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	SMS	SMS	PROPN	_	_	4	unk	_	_
 7	donc	donc	ADV	_	_	8	mod	_	_
-8	technologique	technologique	ADJ	_	_	6	appos@conj	_	_
+8	technologique	technologique	ADJ	_	_	6	conj:appos	_	_
 
 # sent_id = Rhap_M1001-5
 # text = c' est sciences médico - sociales
@@ -8154,7 +8154,7 @@
 9	vais	aller	VERB	ETRE	_	7	comp:obj	_	_
 10	peut-être	peut-être	ADV	_	_	9	mod	_	_
 11	me	me	PRON	_	_	12	comp:obj	_	_
-12	réorienter	réorienter	VERB	_	_	9	comp:pred	_	_
+12	réorienter	réorienter	VERB	_	_	9	comp:obj@x	_	_
 13	euh	euh	INTJ	_	_	12	discourse	_	_
 14	si	si	SCONJ	_	_	6	mod	_	_
 15	à	à	ADP	_	_	14	comp:obj	_	_
@@ -8172,7 +8172,7 @@
 1	enfin	enfin	ADV	_	_	3	discourse	_	_
 2	je	je	PRON	_	_	3	subj	_	_
 3	vais	aller	VERB	ETRE	_	0	root	_	_
-4	finir	finir	VERB	_	_	3	comp:pred	_	_
+4	finir	finir	VERB	_	_	3	comp:obj@x	_	_
 5	l'	le	DET	_	_	6	det	_	_
 6	année	année	NOUN	_	_	4	comp:obj	_	_
 7	là	là	ADV	_	_	6	discourse	_	_
@@ -8232,7 +8232,7 @@
 14	que	que	SCONJ	_	_	13	comp:obj	_	_
 15	je	je	PRON	_	_	16	subj	_	_
 16	vais	aller	VERB	ETRE	_	14	comp:obj	_	_
-17	finir	finir	VERB	_	_	16	comp:pred	_	_
+17	finir	finir	VERB	_	_	16	comp:obj@x	_	_
 18	ma	son	DET	_	_	19	det	_	_
 19	licence	licence	NOUN	_	_	17	comp:obj	_	_
 
@@ -8392,7 +8392,7 @@
 10	vais	aller	VERB	ETRE	_	7	conj:dicto	_	_
 11	sûrement	sûrement	ADV	_	_	10	mod	_	_
 12	me	me	PRON	_	_	10	comp:obl	_	_
-13	réorienter	réorienter	VERB	conj:reform	_	10	comp:pred	_	_
+13	réorienter	réorienter	VERB	conj:reform	_	10	comp:obj@x	_	_
 14	en	en	ADP	_	_	13	comp:obl	_	_
 15	psychologie	psychologie	NOUN	_	_	14	comp:obj	_	_
 
@@ -8429,7 +8429,7 @@
 10	votre	son	DET	_	_	11	det	_	_
 11	route	route	NOUN	_	_	9	comp:obj	_	_
 12	une	un	DET	_	_	13	det	_	_
-13	route	route	NOUN	_	_	11	appos@conj	_	_
+13	route	route	NOUN	_	_	11	conj:appos	_	_
 14	qui	qui	PRON	_	_	15	subj	_	_
 15	témoigne	témoigner	VERB	_	_	13	mod@relcl	_	_
 16	d'	de	ADP	_	_	15	comp:obl	_	_
@@ -8497,7 +8497,7 @@
 29	à	à	ADP	_	_	24	comp:obl	_	_
 30	la	le	DET	_	_	31	det	_	_
 31	femme	femme	NOUN	_	_	29	comp:obj	_	_
-32	des	de+le	DET	de	_	26	appos@conj	_	_
+32	des	de+le	DET	de	_	26	conj:appos	_	_
 33	armes	arme	NOUN	_	_	32	comp:obj	_	_
 34	de	de	ADP	_	_	33	mod	_	_
 35	persuasion	persuasion	NOUN	_	_	34	comp:obj	_	_
@@ -8624,7 +8624,7 @@
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	je	je	PRON	_	_	9	subj@pass	_	_
 7	ne	ne	ADV	_	_	9	mod	_	_
-8	me	me	PRON	_	_	11	unk@obj	_	_
+8	me	me	PRON	_	_	11	comp@fixed	_	_
 9	suis	être	AUX	_	_	5	comp:obj	_	_
 10	pas	pas	ADV	_	_	9	mod	_	_
 11	conduit	conduire	VERB	_	_	9	comp:aux@pass	_	_
@@ -8642,7 +8642,7 @@
 23	une	un	DET	_	_	25	det	_	_
 24	jeune	jeune	ADJ	_	_	25	mod	_	_
 25	fille	fille	NOUN	_	_	22	comp:obj	_	_
-26	d'	de	ADP	_	_	29	udep	_	_
+26	d'	de	ADP	_	_	29	mod	_	_
 27	abord	abord	NOUN	_	_	26	comp:obj	_	_
 28	et	et	CCONJ	_	_	29	cc	_	_
 29	d'	de	ADP	_	_	22	conj:coord	_	_
@@ -8655,7 +8655,7 @@
 36	bourgeoise	bourgeois	NOUN	_	_	33	comp:obj	_	_
 37	dans	dans	ADP	_	_	36	unk	_	_
 38	la	le	DET	_	_	37	comp:obj	_	_
-39	disons	dire	VERB	DISCOURSE	_	43	parataxis@discourse	_	_
+39	disons	dire	VERB	DISCOURSE	_	43	discourse	_	_
 40	d'	de	ADP	_	_	33	conj:dicto	_	_
 41	une	un	DET	_	_	43	det	_	_
 42	jeune	jeune	ADJ	_	_	43	mod	_	_
@@ -8753,7 +8753,7 @@
 9	regardé	regarder	VERB	_	_	5	comp:obj	_	_
 10	ses	son	DET	_	_	11	det	_	_
 11	yeux	yeux	NOUN	_	_	9	comp:obj	_	_
-12	des	de+le	DET	de	_	11	appos@conj	_	_
+12	des	de+le	DET	de	_	11	conj:appos	_	_
 13	yeux	yeux	NOUN	_	_	12	comp:obj	_	_
 14	qui	qui	PRON	_	_	15	subj	_	_
 15	sont	être	AUX	_	_	13	mod@relcl	_	_
@@ -8773,7 +8773,7 @@
 29	et	et	CCONJ	_	_	30	cc	_	_
 30	de	de	ADP	_	_	27	conj:coord	_	_
 31	mystère	mystère	NOUN	_	_	30	comp:obj	_	_
-32	des	de+le	DET	de	_	13	appos@conj	_	_
+32	des	de+le	DET	de	_	13	conj:appos	_	_
 33	yeux	yeux	NOUN	_	_	32	comp:obj	_	_
 34	qui	qui	PRON	_	_	35	subj	_	_
 35	enregistrent	enregistrer	VERB	_	_	33	mod@relcl	_	_
@@ -8813,7 +8813,7 @@
 # sent_id = Rhap_D2001-24
 # text = écoutez vous m' avez demandé si je suis d' accord avec Marcel Achard
 # macrosyntax = $L2 "écoutez" vous m'avez demandé si je suis d'accord avec Marcel Achard //
-1	écoutez	écouter	VERB	DISCOURSE	_	4	parataxis@discourse	_	_
+1	écoutez	écouter	VERB	DISCOURSE	_	4	discourse	_	_
 2	vous	vous	PRON	_	_	4	subj	_	_
 3	m'	me	PRON	_	_	5	comp:obl	_	_
 4	avez	avoir	AUX	_	_	0	root	_	_
@@ -8870,7 +8870,7 @@
 4	pas	pas	ADV	_	_	3	mod	_	_
 5	pourquoi	pourquoi	PRON	_	_	7	mod	_	_
 6	j'	je	PRON	_	_	7	subj	_	_
-7	aurais	avoir	AUX	_	_	3	comp:pred	_	_
+7	aurais	avoir	AUX	_	_	3	comp:obj@x	_	_
 8	fait	faire	VERB	_	_	7	comp:aux	_	_
 9	exception	exception	NOUN	_	_	8	comp:obj	_	_
 10	à	à	ADP	_	_	9	mod	_	_
@@ -8889,14 +8889,14 @@
 7	avec	avec	ADP	_	_	2	comp:pred	_	_
 8	ces	ce	DET	_	_	9	det	_	_
 9	yeux	yeux	NOUN	_	_	7	comp:obj	_	_
-10	si	si	SCONJ	_	_	9	parataxis@discourse	_	_
+10	si	si	SCONJ	_	_	9	discourse	_	_
 11	vous	vous	PRON	_	_	12	subj	_	_
 12	voulez	vouloir	AUX	_	_	10	comp:obj	_	_
 13	dire	dire	VERB	DISCOURSE	_	12	comp:aux	_	_
 14	que	que	SCONJ	_	_	6	comp:cleft	_	_
 15	je	je	PRON	_	_	16	subj	_	_
 16	sais	savoir	VERB	_	_	14	comp:obj	_	_
-17	regarder	regarder	VERB	_	_	16	comp:pred	_	_
+17	regarder	regarder	VERB	_	_	16	comp:obj@x	_	_
 
 # sent_id = Rhap_D2001-29
 # text = je crois que je sais regarder
@@ -8906,7 +8906,7 @@
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	je	je	PRON	_	_	5	subj	_	_
 5	sais	savoir	VERB	_	_	3	comp:obj	_	_
-6	regarder	regarder	VERB	_	_	5	comp:pred	_	_
+6	regarder	regarder	VERB	_	_	5	comp:obj@x	_	_
 
 # sent_id = Rhap_D2001-30
 # text = mais je crois que j' ai toujours oui eu eu cette cette disons cette faculté
@@ -8923,7 +8923,7 @@
 10	eu	avoir	VERB	conj:reform	_	9	conj:dicto	_	_
 11	cette	ce	DET	_	_	15	det	_	_
 12	cette	ce	PRON	conj:reform	_	11	conj:dicto	_	_
-13	disons	dire	VERB	DISCOURSE	_	12	parataxis@discourse	_	_
+13	disons	dire	VERB	DISCOURSE	_	12	discourse	_	_
 14	cette	ce	DET	conj:reform	_	12	conj:dicto	_	_
 15	faculté	faculté	NOUN	_	_	10	comp:obj	_	_
 
@@ -8966,7 +8966,7 @@
 1	j'	je	PRON	_	_	2	subj	_	_
 2	aime	aimer	VERB	_	_	0	root	_	_
 3	bien	bien	ADV	_	_	2	mod	_	_
-4	comprendre	comprendre	VERB	_	_	2	comp:pred	_	_
+4	comprendre	comprendre	VERB	_	_	2	comp:obj@x	_	_
 5	comment	comment	PRON	_	_	4	comp:obj	_	_
 6	ça	ça	PRON	_	_	7	subj	_	_
 7	marche	marcher	VERB	_	_	5	unk	_	_
@@ -8991,7 +8991,7 @@
 5	toujours	toujours	ADV	_	_	4	mod	_	_
 6	eu	avoir	VERB	_	_	4	comp:aux	_	_
 7	je	je	PRON	_	_	8	subj	_	_
-8	crois	croire	VERB	DISCOURSE	_	4	parataxis@discourse	_	_
+8	crois	croire	VERB	DISCOURSE	_	4	discourse	_	_
 
 # sent_id = Rhap_D2001-35
 # text = par conséquent j' ai eu envie de savoir un petit peu mieux comment ça marchait
@@ -9079,7 +9079,7 @@
 26	des	de+le	ADP	_	_	25	mod	_	_
 27	autres	autre	ADJ	_	_	26	comp:obj	_	_
 28	je	je	PRON	_	_	29	subj	_	_
-29	veux	vouloir	AUX	_	_	27	parataxis@discourse	_	_
+29	veux	vouloir	AUX	_	_	27	discourse	_	_
 30	dire	dire	VERB	DISCOURSE	_	29	comp:aux	_	_
 
 # sent_id = Rhap_D2001-39
@@ -9168,7 +9168,7 @@
 # text = oh écoutez j' ai eu un destin
 # macrosyntax = $L2 "oh" "écoutez" j'ai eu un destin //
 1	oh	oh	INTJ	_	_	5	discourse	_	_
-2	écoutez	écouter	VERB	DISCOURSE	_	4	parataxis@discourse	_	_
+2	écoutez	écouter	VERB	DISCOURSE	_	4	discourse	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	eu	avoir	VERB	_	_	4	comp:aux	_	_
@@ -9303,7 +9303,7 @@
 # macrosyntax = les circonstances "disons" qui m'ont conduit à être obligée de gagner ma vie très tôt
 1	les	le	DET	_	_	2	det	_	_
 2	circonstances	circonstance	NOUN	_	_	0	root	_	_
-3	disons	dire	VERB	DISCOURSE	_	2	parataxis@discourse	_	_
+3	disons	dire	VERB	DISCOURSE	_	2	discourse	_	_
 4	qui	qui	PRON	_	_	6	subj	_	_
 5	m'	me	PRON	_	_	7	comp:obl	_	_
 6	ont	avoir	AUX	_	_	2	mod@relcl	_	_
@@ -9324,7 +9324,7 @@
 1	peut-être	peut-être	ADV	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	mod	_	_
 3	je	je	PRON	_	_	5	subj@pass	_	_
-4	me	me	PRON	_	_	6	unk@obj	_	_
+4	me	me	PRON	_	_	6	comp@fixed	_	_
 5	serais	être	AUX	_	_	2	comp:obj	_	_
 6	mariée	marier	VERB	_	_	5	comp:aux@pass	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
@@ -9398,14 +9398,14 @@
 5	fait	faire	VERB	_	_	4	comp:aux	_	_
 6	du	de+le	ADP	_	_	5	comp:obl	_	_
 7	journalisme	journalisme	NOUN	_	_	6	comp:obj	_	_
-8	parce	parce	SCONJ	_	_	2	appos@conj	_	_
+8	parce	parce	SCONJ	_	_	2	conj:appos	_	_
 9	que	que	SCONJ	_	_	8	unk@fixed	_	_
 10	euh	euh	INTJ	_	_	13	discourse	_	_
 11	ça	ça	PRON	_	_	13	subj	_	_
 12	se	se	PRON	_	_	13	comp@fixed	_	_
 13	passait	passer	VERB	ETRE	_	8	comp:obj	_	_
 14	tout	tout	ADV	_	_	15	mod	_	_
-15	de	de	ADP	_	_	17	udep	_	_
+15	de	de	ADP	_	_	17	mod	_	_
 16	suite	suite	NOUN	_	_	15	comp:obj	_	_
 17	après	après	ADP	_	_	13	mod	_	_
 18	la	le	DET	_	_	19	det	_	_
@@ -9423,7 +9423,7 @@
 7	raison	raison	NOUN	_	_	5	comp:obj	_	_
 8	d'	de	ADP	_	_	7	mod	_	_
 9	aller	aller	VERB	ETRE	_	8	comp:obj	_	_
-10	faire	faire	VERB	_	_	9	comp:pred	_	_
+10	faire	faire	VERB	_	_	9	comp:obj@x	_	_
 11	ce	ce	DET	_	_	12	det	_	_
 12	métier	métier	NOUN	_	_	10	comp:obj	_	_
 
@@ -9550,8 +9550,8 @@
 3	ça	ça	PRON	_	_	5	dislocated	_	_
 4	ce	ce	PRON	_	_	5	subj	_	_
 5	sont	être	AUX	_	_	0	root	_	_
-6	des	de+le	DET	_	_	5	comp:pred	_	_
-7	conditions	condition	NOUN	_	_	6	comp:obj	_	_
+6	des	un	DET	_	_	7	det	_	_
+7	conditions	condition	NOUN	_	_	5	comp:pred	_	_
 8	objectives	objectif	ADJ	_	_	7	mod	_	_
 
 # sent_id = Rhap_D2001-64
@@ -9560,7 +9560,7 @@
 1	faudrait	falloir	VERB	_	_	0	root	_	_
 2	quand	quand	PRON	_	_	3	unk	_	_
 3	même	même	ADV	_	_	4	mod	_	_
-4	revenir	revenir	VERB	_	_	1	comp:pred	_	_
+4	revenir	revenir	VERB	_	_	1	comp:obj@x	_	_
 5	un	un	DET	_	_	6	det@fixed	_	_
 6	peu	peu	NOUN	_	_	4	mod	_	EXTPOS=ADV
 7	au	à+le	ADP	_	_	4	comp:obl	_	_
@@ -9639,7 +9639,7 @@
 1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	fallu	falloir	VERB	DoubleAux	_	2	comp:aux	_	_
-4	travailler	travailler	VERB	DoubleAux	_	3	comp:pred	_	_
+4	travailler	travailler	VERB	DoubleAux	_	3	comp:obj@x	_	_
 
 # sent_id = Rhap_D2001-71
 # text = vous savez ce que c' est que d' être pauvre
@@ -9690,7 +9690,7 @@
 16	de	de	ADP	_	_	15	comp:obj	_	_
 17	travailler	travailler	VERB	_	_	16	comp:obj	_	_
 18	dans	dans	ADP	_	_	17	mod	_	_
-19	des	de+le	DET	_	_	18	comp:obj	_	_
+19	des	un	DET	_	_	18	comp:obj	_	_
 20	emplois	emploi	NOUN	_	_	19	comp:obj	_	_
 21	subalternes	subalterne	ADJ	_	_	20	mod	_	_
 22	avec	avec	ADP	_	_	17	mod	_	_
@@ -9878,7 +9878,7 @@
 49	du	de+le	ADP	de	_	46	conj:dicto	_	_
 50	type	type	NOUN	conj:reform	_	49	comp:obj	_	_
 51	je	je	PRON	_	_	53	subj@pass	_	_
-52	me	me	PRON	_	_	54	unk@iobj	_	_
+52	me	me	PRON	_	_	54	comp@fixed	_	_
 53	suis	être	AUX	_	_	4	comp:obj	_	_
 54	dit	dire	VERB	_	_	53	comp:aux@pass	_	_
 55	ce	ce	PRON	_	_	60	dislocated	_	_
@@ -9914,7 +9914,7 @@
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	je	je	PRON	_	_	5	subj	_	_
 5	sache	savoir	VERB	_	_	3	comp:obj	_	_
-6	faire	faire	VERB	_	_	5	comp:pred	_	_
+6	faire	faire	VERB	_	_	5	comp:obj@x	_	_
 7	quelque	quelque	DET	_	_	8	det	_	_
 8	chose	chose	NOUN	_	_	6	comp:obj	_	_
 
@@ -9929,7 +9929,7 @@
 6	ne	ne	ADV	_	_	7	mod	_	_
 7	sais	savoir	VERB	_	_	0	root	_	_
 8	rien	rien	PRON	_	_	9	comp:obj	_	_
-9	faire	faire	VERB	_	_	7	comp:pred	_	_
+9	faire	faire	VERB	_	_	7	comp:obj@x	_	_
 
 # sent_id = Rhap_D2001-86
 # text = je sais ce qu' on apprend aux jeunes filles bien élevées donc qu' est - ce qu' je peux apprendre
@@ -9959,12 +9959,12 @@
 # text = je me suis dit je vais apprendre la sténodactylo
 # macrosyntax = je me suis dit [ je vais apprendre la sténodactylo // 
 1	je	je	PRON	_	_	3	subj@pass	_	_
-2	me	me	PRON	_	_	4	unk@iobj	_	_
+2	me	me	PRON	_	_	4	comp@fixed	_	_
 3	suis	être	AUX	_	_	0	root	_	_
 4	dit	dire	VERB	_	_	3	comp:aux@pass	_	_
 5	je	je	PRON	_	_	6	subj	_	_
 6	vais	aller	VERB	ETRE	_	3	parataxis@obj	_	_
-7	apprendre	apprendre	VERB	CCOMP	_	6	comp:pred	_	_
+7	apprendre	apprendre	VERB	CCOMP	_	6	comp:obj@x	_	_
 8	la	le	DET	_	_	9	det	_	_
 9	sténodactylo	sténodactylo	NOUN	_	_	7	comp:obj	_	_
 
@@ -10269,7 +10269,7 @@
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
 5	ben	ben	INTJ	_	_	4	discourse	_	_
 6	tu	tu	PRON	_	_	7	subj	_	_
-7	vois	voir	VERB	DISCOURSE	_	5	parataxis@discourse	_	_
+7	vois	voir	VERB	DISCOURSE	_	5	discourse	_	_
 8	je	je	PRON	_	_	9	subj	_	_
 9	vends	vendre	VERB	CCOMP	_	3	parataxis@obj	_	_
 10	des	un	DET	_	_	11	det	_	_
@@ -10357,7 +10357,7 @@
 4	gagnais	gagner	VERB	_	_	0	root	_	_
 5	un	un	DET	_	_	6	det@fixed	_	_
 6	peu	peu	NOUN	_	_	4	mod	_	EXTPOS=ADV
-7	d'	de	ADP	_	_	5	udep	_	_
+7	d'	de	ADP	_	_	5	mod	_	_
 8	argent	argent	NOUN	_	_	7	comp:obj	_	_
 
 # sent_id = Rhap_D2001-117
@@ -10368,7 +10368,7 @@
 3	m'	me	PRON	_	_	5	comp:obl	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
 5	dit	dire	VERB	_	_	4	comp:aux	_	_
-6	écoute	écouter	VERB	DISCOURSE	_	4	parataxis@discourse	_	_
+6	écoute	écouter	VERB	DISCOURSE	_	4	discourse	_	_
 7	tout	tout	ADJ	_	_	8	mod	_	_
 8	ça	ça	PRON	_	_	10	subj	_	_
 9	n'	ne	ADV	_	_	10	mod	_	_
@@ -10385,7 +10385,7 @@
 20	par	par	ADP	_	_	14	mod	_	_
 21	exemple	exemple	NOUN	_	_	20	comp:obj	_	_
 22	viens	venir	VERB	_	_	14	conj:coord	_	_
-23	travailler	travailler	VERB	_	_	22	comp:pred	_	_
+23	travailler	travailler	VERB	_	_	22	comp:obj@x	_	_
 24	avec	avec	ADP	_	_	23	mod	_	_
 25	moi	lui	PRON	_	_	24	comp:obj	_	_
 
@@ -10562,8 +10562,8 @@
 13	film	film	NOUN	_	_	14	subj	_	_
 14	ait	avoir	AUX	_	_	11	comp:obj	_	_
 15	eu	avoir	VERB	_	_	14	comp:aux	_	_
-16	du	un	DET	_	_	15	comp:obl	_	_
-17	succès	succès	NOUN	_	_	16	comp:obj	_	_
+16	du	du	DET	_	_	17	det	_	_
+17	succès	succès	NOUN	_	_	15	comp:obl	_	_
 18	oui	oui	INTJ	_	_	17	discourse	_	_
 19	que	que	SCONJ	_	_	11	conj:coord	_	_
 20	vous	vous	PRON	_	_	21	subj@pass	_	_
@@ -10799,7 +10799,7 @@
 18	grande	grand	ADJ	_	_	19	mod	_	_
 19	illusion	illusion	NOUN	_	_	15	comp:obj	_	_
 20	pour	pour	ADP	_	_	5	mod	_	_
-21	des	de+le	DET	_	_	20	comp:obj	_	_
+21	des	un	DET	_	_	20	comp:obj	_	_
 22	raisons	raison	NOUN	_	_	21	comp:obj	_	_
 23	que	que	PRON	_	_	29	comp:obj	_	_
 24	j'	je	PRON	_	_	23	conj:dicto	_	_
@@ -10867,8 +10867,8 @@
 20	à	à	ADP	_	_	18	unk@fixed	_	_
 21	-	-	PUNCT	_	_	22	punct	_	_
 22	dire	dire	VERB	_	_	20	unk@fixed	_	_
-23	disons	dire	VERB	DISCOURSE	_	26	parataxis@discourse	_	_
-24	d'	de	ADP	_	_	15	appos@conj	_	_
+23	disons	dire	VERB	DISCOURSE	_	26	discourse	_	_
+24	d'	de	ADP	_	_	15	conj:appos	_	_
 25	une	un	DET	_	_	26	det	_	_
 26	façon	façon	NOUN	_	_	24	comp:obj	_	_
 27	un	un	DET	_	_	28	det@fixed	_	_
@@ -11309,7 +11309,7 @@
 3	j'	je	PRON	_	_	4	subj	_	_
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	tenu	tenir	VERB	_	_	4	comp:aux	_	_
-6	à	à	ADP	_	_	5	udep	_	_
+6	à	à	ADP	_	_	5	mod	_	_
 7	ce	ce	PRON	_	_	6	comp:obj	_	_
 8	que	que	SCONJ	_	_	7	mod@relcl	_	_
 9	cette	ce	DET	_	_	10	det	_	_
@@ -11398,7 +11398,7 @@
 12	même	même	ADJ	_	_	13	mod	_	_
 13	pas	pas	NOUN	_	_	10	comp:obj	_	_
 14	une	un	DET	_	_	15	det	_	_
-15	Europe	Europe	PROPN	_	_	7	appos@conj	_	_
+15	Europe	Europe	PROPN	_	_	7	conj:appos	_	_
 16	résolue	résoudre	ADJ	_	_	15	mod	_	_
 17	à	à	ADP	_	_	16	mod	_	_
 18	se	se	PRON	_	_	19	comp@fixed	_	_
@@ -11719,7 +11719,7 @@
 13	compagnons	compagnon	NOUN	_	_	11	comp:obj	_	_
 14	d'	de	ADP	_	_	13	mod	_	_
 15	armes	arme	NOUN	_	_	14	comp:obj	_	_
-16	tribut	tribut	NOUN	_	_	7	appos@conj	_	_
+16	tribut	tribut	NOUN	_	_	7	conj:appos	_	_
 17	qui	qui	PRON	_	_	18	subj	_	_
 18	peut	pouvoir	AUX	_	_	16	mod@relcl	_	_
 19	aller	aller	VERB	ETRE	_	18	comp:aux	_	_
@@ -12023,7 +12023,7 @@
 1	il	il	PRON	_	_	3	subj	_	_
 2	faut	falloir	VERB	_	_	3	comp:aux	_	_
 3	avoir	avoir	AUX	DoubleAux	_	0	root	_	_
-4	fait	faire	VERB	DoubleAux	_	2	comp:pred	_	_
+4	fait	faire	VERB	DoubleAux	_	2	comp:obj@x	_	_
 5	ses	son	DET	_	_	6	det	_	_
 6	preuves	preuve	NOUN	_	_	4	comp:obj	_	_
 7	soi	soi	PRON	_	_	4	mod	_	_
@@ -12040,7 +12040,7 @@
 1	le	le	DET	_	_	2	det	_	_
 2	Beauceron	Beauceron	PROPN	_	_	3	subj	_	_
 3	sait	savoir	VERB	_	_	0	root	_	_
-4	observer	observer	VERB	_	_	3	comp:pred	_	_
+4	observer	observer	VERB	_	_	3	comp:obj@x	_	_
 5	longtemps	longtemps	ADV	_	_	4	mod	_	_
 
 # sent_id = Rhap_D1001-19
@@ -12070,7 +12070,7 @@
 22	ce	ce	DET	_	_	20	conj:dicto	_	_
 23	ce	ce	DET	_	_	22	conj:dicto	_	_
 24	lien	lien	NOUN	_	_	13	comp:obj	_	_
-25	si	si	SCONJ	_	_	24	parataxis@discourse	_	_
+25	si	si	SCONJ	_	_	24	discourse	_	_
 26	vous	vous	PRON	_	_	27	subj	_	_
 27	voulez	vouloir	VERB	DISCOURSE	_	25	comp:obj	_	_
 28	qui	qui	PRON	_	_	30	subj	_	_
@@ -12188,7 +12188,7 @@
 4	ne	ne	ADV	_	_	5	mod	_	_
 5	trouve	trouver	VERB	_	_	0	root	_	_
 6	pas	pas	ADV	_	_	5	mod	_	_
-7	si	si	SCONJ	_	_	6	parataxis@discourse	_	_
+7	si	si	SCONJ	_	_	6	discourse	_	_
 8	vous	vous	PRON	_	_	9	subj	_	_
 9	voulez	vouloir	VERB	DISCOURSE	_	7	comp:obj	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
@@ -12281,7 +12281,7 @@
 4	une	un	PRON	_	_	2	comp:pred	_	_
 5	des	de+le	ADP	_	_	4	comp:obl	_	_
 6	raisons	raison	NOUN	_	_	5	comp:obj	_	_
-7	pour	pour	ADP	_	_	15	udep	_	_
+7	pour	pour	ADP	_	_	15	mod	_	_
 8	lesquelles	lequel	PRON	_	_	7	comp:obj	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	l'	le	DET	_	_	11	det	_	_
@@ -12315,7 +12315,7 @@
 18	ont	avoir	VERB	_	_	16	comp:obj	_	_
 19	peut-être	peut-être	ADV	_	_	18	mod	_	_
 20	davantage	davantage	ADV	_	_	18	mod	_	_
-21	si	si	SCONJ	_	_	20	parataxis@discourse	_	_
+21	si	si	SCONJ	_	_	20	discourse	_	_
 22	vous	vous	PRON	_	_	23	subj	_	_
 23	voulez	vouloir	VERB	DISCOURSE	_	21	comp:obj	_	_
 24	de	de	ADP	_	_	18	comp:obl	_	_
@@ -12341,7 +12341,7 @@
 44	peut-être	peut-être	ADV	_	_	43	mod	_	_
 45	moins	moins	ADV	_	_	43	mod	_	_
 46	moins	moins	ADV	_	_	45	conj:dicto	_	_
-47	chercher	chercher	VERB	_	_	43	comp:pred	_	_
+47	chercher	chercher	VERB	_	_	43	comp:obj@x	_	_
 48	du	de+le	ADP	_	_	47	mod	_	_
 49	côté	côté	NOUN	_	_	48	comp:obj	_	_
 50	du	de+le	ADP	_	_	49	mod	_	_
@@ -12380,7 +12380,7 @@
 22	à	à	ADP	_	_	25	cc	_	_
 23	à	à	ADP	_	_	22	conj:dicto	_	_
 24	les	le	PRON	_	_	25	comp:obj	_	_
-25	toucher	toucher	VERB	_	_	21	comp:pred	_	_
+25	toucher	toucher	VERB	_	_	21	comp:obj@x	_	_
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	à	à	ADP	_	_	25	conj:coord	_	_
 28	les	le	PRON	_	_	29	comp:obj	_	_
@@ -12591,7 +12591,7 @@
 20	qui	qui	PRON	_	_	21	subj	_	_
 21	viennent	venir	VERB	_	_	19	mod@relcl	_	_
 22	le	le	PRON	_	_	23	comp:obj	_	_
-23	voir	voir	VERB	_	_	21	comp:pred	_	_
+23	voir	voir	VERB	_	_	21	comp:obj@x	_	_
 24	parce	parce	SCONJ	_	_	13	mod	_	_
 25	qu'	que	SCONJ	_	_	24	unk@fixed	_	_
 26	il	il	PRON	_	_	28	subj	_	_
@@ -12614,7 +12614,7 @@
 3	qui	qui	PRON	_	_	4	subj	_	_
 4	viennent	venir	VERB	_	_	2	mod@relcl	_	_
 5	le	le	PRON	_	_	6	comp:obj	_	_
-6	voir	voir	VERB	_	_	4	comp:pred	_	_
+6	voir	voir	VERB	_	_	4	comp:obj@x	_	_
 7	ce	ce	PRON	_	_	8	subj	_	_
 8	sont	être	AUX	_	_	0	root	_	_
 9	les	le	DET	_	_	11	det	_	_
@@ -12883,7 +12883,7 @@
 13	depuis	depuis	ADP	_	_	16	mod	_	_
 14	un	un	DET	_	_	15	det	_	_
 15	siècle	siècle	NOUN	_	_	13	comp:obj	_	_
-16	a	avoir	AUX	_	_	2	comp:pred	_	_
+16	a	avoir	AUX	_	_	2	comp:obj@x	_	_
 17	été	être	AUX	DoubleAux	_	16	comp:aux	_	_
 18	travaillé	travailler	VERB	DoubleAux	_	17	comp:aux@pass	_	_
 19	par	par	ADP	_	_	18	comp:obl	_	_
@@ -12911,3 +12911,4 @@
 12	laquelle	lequel	PRON	_	_	11	comp:obj	_	_
 13	nous	nous	PRON	_	_	14	subj	_	_
 14	appartenons	appartenir	VERB	_	_	10	mod@relcl	_	_
+
