@@ -189,7 +189,7 @@
 21	sans	sans	ADP	_	_	15	mod	_	_
 22	rien	rien	PRON	_	_	21	comp:obj	_	_
 23	d'	de	ADP	_	_	22	comp:obl	_	_
-24	autre	autre	NOUN	_	_	23	comp:obj	_	_
+24	autre	autre	PRON	_	_	23	comp:obj	_	_
 25	avant	avant	NOUN	_	_	15	mod	_	_
 26	de	de	ADP	_	_	25	mod	_	_
 27	mettre	mettre	VERB	_	_	26	comp:obj	_	_
@@ -808,7 +808,7 @@
 13	que	que	SCONJ	_	_	8	comp:obj	_	_
 14	sans	sans	ADP	_	_	24	mod	_	_
 15	savon	savon	NOUN	_	_	14	comp:obj	_	_
-16	rien	rien	PRON	_	_	20	unk	_	_
+16	rien	rien	PRON	_	_	18	mod	_	_
 17	qu'	que	SCONJ	_	_	16	unk@fixed	_	_
 18	avec	avec	ADP	_	_	14	conj:dicto	_	_
 19	la	le	DET	_	_	20	det	_	_
@@ -1122,11 +1122,11 @@
 13	jour	jour	NOUN	_	_	12	comp:obj	_	_
 14	et	et	CCONJ	_	_	15	cc	_	_
 15	pendant	pendant	ADP	_	_	12	conj:coord	_	_
-16	trois	trois	NUM	_	_	17	mod	_	_
+16	trois	trois	NUM	_	_	17	det	_	_
 17	ans	an	NOUN	_	_	15	comp:obj	_	_
 18	plus	plus	ADV	_	_	0	root	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
-20	mille	mille	NUM	_	_	21	mod	_	_
+20	mille	mille	NUM	_	_	21	det	_	_
 21	euros	euro	NOUN	_	_	19	comp:obj	_	_
 22	hein	hein	INTJ	_	_	21	discourse	_	_
 
@@ -1135,7 +1135,7 @@
 # text = c' est vraiment exceptionnel
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	vraiment	vraiment	ADV	_	_	2	mod	_	_
+3	vraiment	vraiment	ADV	_	_	4	mod	_	_
 4	exceptionnel	exceptionnel	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = alors < Magalie est avec nous //
@@ -1160,7 +1160,7 @@
 8	boule	boule	NOUN	_	_	2	comp:obj	_	_
 9	magique	magique	ADJ	_	_	8	mod	_	_
 10	depuis	depuis	ADP	_	_	3	conj:dicto	_	_
-11	deux	deux	NUM	_	_	12	mod	_	_
+11	deux	deux	NUM	_	_	12	det	_	_
 12	mois	mois	NOUN	_	_	10	comp:obj	_	_
 
 # macrosyntax = $L1 alors < dites-nous comment est votre linge //
@@ -1229,7 +1229,7 @@
 1	le	le	DET	_	_	2	det	_	_
 2	blanc	blanc	ADJ	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	très	très	ADV	_	_	3	mod	_	_
+4	très	très	ADV	_	_	5	mod	_	_
 5	blanc	blanc	ADJ	_	_	3	comp:pred	_	_
 
 # macrosyntax = c'est vraiment formidable //
@@ -1237,7 +1237,7 @@
 # text = c' est vraiment formidable
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	vraiment	vraiment	ADV	_	_	2	mod	_	_
+3	vraiment	vraiment	ADV	_	_	4	mod	_	_
 4	formidable	formidable	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = $- { ^et | ^et } au niveau ESPERLUETTE //
@@ -1358,7 +1358,7 @@
 3	est	être	AUX	_	_	0	root	_	_
 4	quand	quand	PRON	_	_	3	mod	_	_
 5	même	même	ADV	_	_	4	unk@fixed	_	_
-6	très	très	ADV	_	_	3	mod	_	_
+6	très	très	ADV	_	_	7	mod	_	_
 7	agréable	agréable	ADJ	_	_	3	comp:pred	_	_
 
 # macrosyntax = $L1 est-ce qu'elle est -$ $L1 { silencieuse |} >+ la boule magique >+ dans le $- $L1 tambour >+ quand il ( $L5 tout à fait // ) -$ $L1 tourne //+
@@ -1517,10 +1517,10 @@
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2011-99
 # text = merci beaucoup d' être venue merci Magalie sur notre plateau
 1	merci	merci	NOUN	_	_	0	root	_	_
-2	beaucoup	beaucoup	PRON	_	_	1	unk	_	_
-3	d'	de	ADP	_	_	2	comp:obl	_	_
+2	beaucoup	beaucoup	PRON	_	_	1	mod	_	_
+3	d'	de	ADP	_	_	1	mod	_	_
 4	être	être	AUX	_	_	3	comp:obj	_	_
-5	venue	venir	VERB	_	_	4	comp:aux@pass	_	_
+5	venue	venir	VERB	_	_	4	comp:aux	_	_
 6	merci	merci	NOUN	_	_	1	conj:coord	_	_
 7	Magalie	Magalie	PROPN	_	_	6	vocative	_	_
 8	sur	sur	ADP	_	_	5	comp:obl	_	_
@@ -1568,7 +1568,7 @@
 13	avez	avoir	AUX	_	_	7	comp:obj	_	_
 14	obtenu	obtenir	VERB	_	_	13	comp:pred	_	_
 15	d'	de	ADP	_	_	14	comp:obj	_	_
-16	autres	autre	ADJ	_	_	17	mod	_	_
+16	autres	autre	PRON	_	_	17	mod	_	_
 17	succès	succès	NOUN	_	_	15	comp:obj	_	_
 
 # macrosyntax = j'en ai énuméré ( d'ailleurs ) avant ce générique //
@@ -1592,15 +1592,15 @@
 3	même	même	ADV	_	_	2	unk@fixed	_	_
 4	celui	celui	PRON	_	_	13	dislocated	_	_
 5	-là	là	ADV	_	_	4	mod	_	_
-6	cent	cent	NUM	_	_	8	mod	_	_
+6	cent	cent	NUM	_	_	8	det	_	_
 7	mille	mille	NUM	_	_	6	flat	_	_
 8	exemplaires	exemplaire	NOUN	_	_	13	dislocated	_	_
 9	en	en	ADP	_	_	8	mod	_	_
-10	quatre	quatre	NUM	_	_	11	mod	_	_
+10	quatre	quatre	NUM	_	_	11	det	_	_
 11	semaines	semaine	NOUN	_	_	9	comp:obj	_	_
 12	c'	ce	PRON	_	_	13	subj	_	_
 13	est	être	AUX	_	_	0	root	_	_
-14	absolument	absolument	ADV	_	_	13	mod	_	_
+14	absolument	absolument	ADV	_	_	15	mod	_	_
 15	fabuleux	fabuleux	ADJ	_	_	13	comp:pred	_	_
 
 # macrosyntax = est-ce que votre sensibilité qui est { très aiguë | très pointue } avait un peu pressenti ce succès //
@@ -1613,7 +1613,7 @@
 5	sensibilité	sensibilité	NOUN	_	_	12	subj	_	_
 6	qui	qui	PRON	_	_	7	subj	_	_
 7	est	être	AUX	_	_	5	mod	_	_
-8	très	très	ADV	_	_	7	mod	_	_
+8	très	très	ADV	_	_	9	mod	_	_
 9	aiguë	aigu	ADJ	_	_	7	comp:pred	_	_
 10	très	très	ADV	_	_	11	mod	_	_
 11	pointue	pointu	ADJ	conj:reform	_	9	conj:dicto	_	_
@@ -1907,7 +1907,7 @@
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2010-29
 # text = pendant dix ans
 1	pendant	pendant	ADP	_	_	0	root	_	_
-2	dix	dix	NUM	_	_	3	mod	_	_
+2	dix	dix	NUM	_	_	3	det	_	_
 3	ans	an	NOUN	_	_	1	comp:obj	_	_
 
 # macrosyntax = ça a duré dix ans > le silence autour de moi //
@@ -1916,7 +1916,7 @@
 1	ça	ça	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	duré	durer	VERB	_	_	2	comp:pred	_	_
-4	dix	dix	NUM	_	_	5	mod	_	_
+4	dix	dix	NUM	_	_	5	det	_	_
 5	ans	an	NOUN	_	_	3	comp:obj	_	_
 6	le	le	DET	_	_	7	det	_	_
 7	silence	silence	NOUN	_	_	2	dislocated	_	_
@@ -2202,7 +2202,7 @@
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	VERB	_	_	0	root	_	_
 3	d'	de	ADP	_	_	2	comp:obl	_	_
-4	autres	autre	ADJ	_	_	3	comp:obj	_	_
+4	autres	autre	PRON	_	_	3	comp:obj	_	_
 
 # macrosyntax = c'était en cinquante //
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2010-50
@@ -2416,7 +2416,7 @@
 # text = vous avez quinze ans et demi
 1	vous	vous	PRON	_	_	2	subj	_	_
 2	avez	avoir	VERB	_	_	0	root	_	_
-3	quinze	quinze	NUM	_	_	4	mod	_	_
+3	quinze	quinze	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 5	et	et	CCONJ	_	_	6	cc	_	_
 6	demi	demi	ADJ	_	_	3	conj:coord	_	_
@@ -2868,16 +2868,16 @@
 7	était	être	AUX	_	_	4	comp:obj	_	_
 8	assis	asseoir	VERB	_	_	7	comp:aux	_	_
 9	l'	l'	DET	_	_	10	det	_	_
-10	un	un	PRON	_	_	13	unk	_	_
+10	un	un	PRON	_	_	13	mod	_	_
 11	devant	devant	ADP	_	_	7	mod	_	_
 12	l'	le	DET	_	_	13	det	_	_
-13	autre	autre	NOUN	_	_	11	comp:obj	_	_
+13	autre	autre	PRON	_	_	11	comp:obj	_	_
 14	on	on	PRON	_	_	15	subj	_	_
 15	aurait	avoir	AUX	_	_	3	comp:obj	_	_
 16	été	être	VERB	_	_	15	comp:pred	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
-18	c~	c~	X	_	_	17	conj:dicto	_	_
-19	à	à	ADP	conj:reform	_	18	conj:dicto	_	_
+18	c~	c~	X	_	_	17	comp:obj	_	_
+19	à	à	ADP	conj:reform	_	17	conj:dicto	_	_
 20	cette	ce	DET	_	_	21	det	_	_
 21	distance	distance	NOUN	_	_	19	comp:obj	_	_
 22	-là	là	ADV	_	_	21	mod	_	_
@@ -2962,7 +2962,7 @@
 # text = il a douze ans de plus que vous
 1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	VERB	_	_	0	root	_	_
-3	douze	douze	NUM	_	_	4	mod	_	_
+3	douze	douze	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 5	de	de	ADP	_	_	3	mod	_	_
 6	plus	plus	ADV	_	_	5	comp:obj	_	_
@@ -2974,7 +2974,7 @@
 # text = j' ai quinze ans
 1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
-3	quinze	quinze	NUM	_	_	4	mod	_	_
+3	quinze	quinze	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 
 # macrosyntax = il a vingt-sept ans //
@@ -2982,7 +2982,7 @@
 # text = il a vingt-sept ans
 1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	VERB	_	_	0	root	_	_
-3	vingt-sept	vingt-sept	NUM	_	_	4	mod	_	_
+3	vingt-sept	vingt-sept	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 
 # macrosyntax = $L2 c'est ça //
@@ -3063,7 +3063,7 @@
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
 4	étais	être	AUX	_	_	1	comp:obj	_	_
-5	assez	assez	ADV	_	_	4	mod	_	_
+5	assez	assez	ADV	_	_	6	mod	_	_
 6	étonnée	étonner	ADJ	_	_	4	comp:pred	_	_
 7	par	par	ADP	_	_	4	mod	_	_
 8	tout	tout	ADJ	_	_	10	mod	_	_
@@ -3093,7 +3093,7 @@
 # macrosyntax = $L1 { deux préludes de Karol Szymanowski extraits de son opus un de mille neuf cents | { le sixième | ^et le septième } } { interprétés par "euh" Maria Yudina | enregistrés en mille neuf cent cinquante-six } //
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2012-1
 # text = deux préludes de Karol Szymanowski extraits de son opus un de mille neuf cents le sixième et le septième interprétés par euh Maria Yudina enregistrés en mille neuf cent cinquante-six
-1	deux	deux	NUM	_	_	2	mod	_	_
+1	deux	deux	NUM	_	_	2	det	_	_
 2	préludes	prélude	NOUN	_	_	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
 4	Karol	Karol	PROPN	_	_	3	comp:obj	_	_
@@ -3289,7 +3289,7 @@
 6	a	avoir	AUX	_	_	3	mod@relcl	_	_
 7	entendu	entendre	VERB	_	_	6	comp:pred	_	_
 8	est	être	AUX	_	_	0	root	_	_
-9	très	très	ADV	_	_	8	mod	_	_
+9	très	très	ADV	_	_	10	mod	_	_
 10	tristanien	tristanien	ADJ	_	_	8	comp:pred	_	_
 
 # macrosyntax = il y a ( d'ailleurs ) à un moment { le | le } motif "euh" avec la montée chromatique du leitmotiv du désir de Tristan qui apparaît //
@@ -3349,7 +3349,7 @@
 # text = il a treize ans
 1	il	il	PRON	_	_	2	subj	_	_
 2	a	avoir	VERB	_	_	0	root	_	_
-3	treize	treize	NUM	_	_	4	mod	_	_
+3	treize	treize	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 
 # macrosyntax = il est à l'opéra de Vienne //
@@ -3422,12 +3422,12 @@
 20	euh	euh	INTJ	_	_	19	discourse	_	_
 21	amène	amener	VERB	_	_	18	mod@relcl	_	_
 22	d'	de	ADP	_	_	21	comp:obl	_	_
-23	autres	autre	ADJ	_	_	22	comp:obj	_	_
+23	autres	autre	PRON	_	_	22	comp:obj	_	_
 24	d'	de	ADP	_	_	22	conj:dicto	_	_
-25	autres	autre	ADJ	_	_	26	mod	_	_
+25	autres	autre	PRON	_	_	26	mod	_	_
 26	valeurs	valeur	NOUN	_	_	24	comp:obj	_	_
 27	d'	de	ADP	_	_	24	conj:dicto	_	_
-28	autres	autre	ADJ	_	_	29	mod	_	_
+28	autres	autre	PRON	_	_	29	mod	_	_
 29	YYY	YYY	PROPN	_	_	27	comp:obj	_	_
 30	si	si	SCONJ	_	_	29	discourse	_	_
 31	vous	vous	PRON	_	_	32	subj	_	_
@@ -3462,7 +3462,7 @@
 8	la	le	DET	_	_	7	unk@fixed	_	_
 9	psychanalyse	psychanalyse	NOUN	_	_	6	comp:obj	_	_
 10	à	à	ADP	_	_	9	mod	_	_
-11	trois	trois	NUM	_	_	12	mod	_	_
+11	trois	trois	NUM	_	_	12	det	_	_
 12	sous	sou	NOUN	_	_	10	comp:obj	_	_
 
 # macrosyntax = $L1 c'est à la fois à ce moment-là "euh" { Lohengrin | ^et Parsifal } "il me semble" dans le & //
@@ -3504,7 +3504,7 @@
 # text = alors page cent douze de votre ouvrage donc cette cette monumentale biographie de Szymanoski je lis son le portrait de notre de votre héros vers vingt-six ans à peu près euh fait par un ami qui l' attend à la gare
 1	alors	alors	ADV	_	_	16	discourse	_	_
 2	page	page	NOUN	_	_	16	mod	_	_
-3	cent	cent	NUM	_	_	2	mod	_	_
+3	cent	cent	NUM	_	_	2	det	_	_
 4	douze	douze	NUM	_	_	3	flat	_	_
 5	de	de	ADP	_	_	2	mod	_	_
 6	votre	son	DET	_	_	7	det	_	_
@@ -3527,7 +3527,7 @@
 23	votre	son	DET	_	_	24	det	_	_
 24	héros	héros	NOUN	_	_	22	comp:obj	_	_
 25	vers	vers	ADP	_	_	24	mod	_	_
-26	vingt-six	vingt-six	NUM	_	_	27	mod	_	_
+26	vingt-six	vingt-six	NUM	_	_	27	det	_	_
 27	ans	an	NOUN	_	_	25	comp:obj	_	_
 28	à	à	ADP	_	_	27	mod	_	_
 29	peu	peu	NOUN	_	_	28	comp:obj	_	_
@@ -3931,7 +3931,7 @@
 14	en	en	ADP	_	_	13	mod	_	_
 15	musique	musique	NOUN	_	_	14	comp:obj	_	_
 16	avec	avec	ADP	_	_	4	mod	_	_
-17	quatre	quatre	NUM	_	_	18	mod	_	_
+17	quatre	quatre	NUM	_	_	18	det	_	_
 18	compositeurs	compositeur	NOUN	_	_	16	comp:obj	_	_
 19	euh	euh	INTJ	_	_	18	discourse	_	_
 20	tous	tout	ADJ	_	_	22	mod	_	_
@@ -4040,7 +4040,7 @@
 6	succès	succès	NOUN	_	_	5	comp:obj	_	_
 7	que	que	SCONJ	_	_	4	comp:obj	_	_
 8	les	le	DET	_	_	9	det	_	_
-9	autres	autre	NOUN	_	_	7	comp:obj	_	_
+9	autres	autre	PRON	_	_	7	comp:obj	_	_
 
 # macrosyntax = donc < ce n'est pas fait pour cimenter ce groupe //
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2012-44
@@ -4073,7 +4073,7 @@
 12	si	si	SCONJ	_	_	11	discourse	_	_
 13	vous	vous	PRON	_	_	14	subj	_	_
 14	voulez	vouloir	VERB	DISCOURSE	_	12	comp:obj	_	_
-15	quatre	quatre	NUM	_	_	16	mod	_	_
+15	quatre	quatre	NUM	_	_	16	det	_	_
 16	mousquetaires	mousquetaire	NOUN	_	_	10	comp:obj	_	_
 17	de	de	ADP	_	_	16	mod	_	_
 18	euh	euh	INTJ	_	_	21	discourse	_	_
@@ -4098,7 +4098,7 @@
 37	société	société	NOUN	_	_	35	comp:obj	_	_
 38	d'	de	ADP	_	_	37	mod	_	_
 39	édition	édition	NOUN	_	_	38	comp:obj	_	_
-40	dont	dont	PRON	_	_	42	unk	_	_
+40	dont	dont	PRON	_	_	42	mod	_	_
 41	le	le	DET	_	_	42	det	_	_
 42	siège	siège	NOUN	_	_	43	subj	_	_
 43	est	être	VERB	_	_	37	mod	_	_
@@ -4198,7 +4198,7 @@
 1	ça	ça	PRON	_	_	3	dislocated	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	très	très	ADV	_	_	3	mod	_	_
+4	très	très	ADV	_	_	6	mod	_	_
 5	très	très	ADV	_	_	4	conj:coord	_	_
 6	évident	évident	ADJ	_	_	3	comp:pred	_	_
 7	dans	dans	ADP	_	_	3	mod	_	_
@@ -4235,7 +4235,7 @@
 11	ils	il	PRON	_	_	12	subj	_	_
 12	jouaient	jouer	VERB	_	_	10	comp:obj	_	_
 13	à	à	ADP	_	_	12	mod	_	_
-14	quatre	quatre	NUM	_	_	15	mod	_	_
+14	quatre	quatre	NUM	_	_	15	det	_	_
 15	mains	main	NOUN	_	_	13	comp:obj	_	_
 16	tout	tout	ADJ	_	_	17	mod	_	_
 17	Strauss	Strauss	PROPN	_	_	12	comp:obj	_	_
@@ -4246,7 +4246,7 @@
 22	jouait	jouer	VERB	_	_	17	mod@relcl	_	_
 23	aussi	aussi	ADV	_	_	22	mod	_	_
 24	à	à	ADP	_	_	22	mod	_	_
-25	quatre	quatre	NUM	_	_	26	mod	_	_
+25	quatre	quatre	NUM	_	_	26	det	_	_
 26	mains	main	NOUN	_	_	24	comp:obj	_	_
 27	avec	avec	ADP	_	_	22	mod	_	_
 28	le	le	DET	_	_	29	det	_	_
@@ -4918,7 +4918,7 @@
 7	l'	le	DET	_	_	6	unk@fixed	_	_
 8	expérience	expérience	NOUN	_	_	6	comp:obj	_	_
 9	de	de	ADP	_	_	8	mod	_	_
-10	trois	trois	NUM	_	_	11	mod	_	_
+10	trois	trois	NUM	_	_	11	det	_	_
 11	pandémies	pandémie	NOUN	_	_	9	comp:obj	_	_
 12	passées	passer	VERB	ETRE	_	11	mod	_	_
 
@@ -5182,7 +5182,7 @@
 17	voit	voir	VERB	_	_	14	mod@relcl	_	_
 18	c'	ce	PRON	_	_	19	subj	_	_
 19	est	être	AUX	_	_	12	comp:obj	_	_
-20	un	un	PRON	_	_	21	unk	_	_
+20	un	un	DET	_	_	21	det	_	_
 21	prémice	prémice	NOUN	_	_	19	comp:pred	_	_
 22	de	de	ADP	_	_	21	mod	_	_
 23	démarrage	démarrage	NOUN	_	_	22	comp:obj	_	_
@@ -5294,7 +5294,7 @@
 10	la	le	DET	_	_	11	det	_	_
 11	mortalité	mortalité	NOUN	_	_	12	subj	_	_
 12	est	être	AUX	_	_	8	mod@relcl	_	_
-13	très	très	ADV	_	_	12	mod	_	_
+13	très	très	ADV	_	_	14	mod	_	_
 14	voisine	voisin	ADJ	_	_	12	comp:pred	_	_
 15	de	de	ADP	_	_	12	mod	_	_
 16	la	le	DET	_	_	17	det	_	_
@@ -5327,20 +5327,20 @@
 1	mais	mais	CCONJ	_	_	16	cc	_	_
 2	enfin	enfin	ADV	_	_	16	discourse	_	_
 3	entre	entre	ADP	_	_	16	mod	_	_
-4	cinq	cinq	NUM	_	_	6	mod	_	_
+4	cinq	cinq	NUM	_	_	6	det	_	_
 5	mille	mille	NUM	_	_	4	flat	_	_
 6	morts	mort	NOUN	_	_	3	comp:obj	_	_
 7	par	par	ADP	_	_	6	mod	_	_
 8	an	an	NOUN	_	_	7	comp:obj	_	_
 9	et	et	CCONJ	_	_	12	cc	_	_
-10	trente	trente	NUM	_	_	12	mod	_	_
+10	trente	trente	NUM	_	_	12	det	_	_
 11	mille	mille	NUM	_	_	10	flat	_	_
 12	v~	v~	NOUN	_	_	6	conj:coord	_	_
 13	je	je	PRON	_	_	12	conj:dicto	_	_
 14	il	il	PRON	_	_	16	subj@expl	_	_
 15	y	y	PRON	_	_	16	comp:obl	_	_
 16	a	avoir	VERB	_	_	0	root	_	_
-17	six	six	NUM	_	_	18	mod	_	_
+17	six	six	NUM	_	_	18	det	_	_
 18	fois	fois	NOUN	_	_	19	mod	_	_
 19	plus	plus	ADV	_	_	16	comp:obj	_	_
 20	de	de	ADP	_	_	19	comp:obl	_	_
@@ -5360,7 +5360,7 @@
 2	il	il	PRON	_	_	4	subj@expl	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
 4	a	avoir	VERB	_	_	1	comp:obj	_	_
-5	six	six	NUM	_	_	6	mod	_	_
+5	six	six	NUM	_	_	6	det	_	_
 6	fois	fois	NOUN	_	_	7	mod	_	_
 7	plus	plus	ADV	_	_	4	comp:obj	_	_
 8	de	de	ADP	_	_	7	comp:obl	_	_
@@ -5387,7 +5387,7 @@
 29	il	il	PRON	_	_	31	subj@expl	_	_
 30	y	y	PRON	_	_	31	comp:obl	_	_
 31	ait	avoir	VERB	_	_	28	comp:obj	_	_
-32	six	six	NUM	_	_	33	mod	_	_
+32	six	six	NUM	_	_	33	det	_	_
 33	fois	fois	NOUN	_	_	34	mod	_	_
 34	plus	plus	ADV	_	_	31	comp:obj	_	_
 35	de	de	ADP	_	_	34	comp:obl	_	_
@@ -5518,7 +5518,7 @@
 15	planète	planète	NOUN	_	_	13	comp:obj	_	_
 16	on	on	PRON	_	_	17	subj	_	_
 17	dit	dire	VERB	DISCOURSE	_	15	discourse	_	_
-18	quarante	quarante	NUM	_	_	19	mod	_	_
+18	quarante	quarante	NUM	_	_	19	det	_	_
 19	millions	million	NOUN	_	_	4	comp:obj	_	_
 20	de	de	ADP	_	_	19	mod	_	_
 21	décès	décès	NOUN	_	_	20	comp:obj	_	_
@@ -5908,7 +5908,7 @@
 19	au	à+le	ADP	_	_	12	mod	_	_
 20	minimum	minimum	NOUN	_	_	19	comp:obj	_	_
 21	en	en	ADP	_	_	12	mod	_	_
-22	trois	trois	NUM	_	_	23	mod	_	_
+22	trois	trois	NUM	_	_	23	det	_	_
 23	temps	temps	NOUN	_	_	21	comp:obj	_	_
 24	en	en	ADP	_	_	12	mod	_	_
 25	termes	termes	NOUN	_	_	24	comp:obj	_	_
@@ -6432,10 +6432,10 @@
 2	dernière	dernier	ADJ	_	_	4	mod	_	_
 3	petite	petit	ADJ	_	_	4	mod	_	_
 4	question	question	NOUN	_	_	0	root	_	_
-5	avant	avant	NOUN	_	_	4	compound	_	_
-6	qu'	que	PRON	_	_	5	unk	_	_
+5	avant	avant	ADP	_	_	4	mod	_	_
+6	qu'	que	PRON	_	_	5	comp:obj	_	_
 7	on	on	PRON	_	_	8	subj	_	_
-8	découvre	découvrir	VERB	_	_	6	mod@relcl	_	_
+8	découvre	découvrir	VERB	_	_	6	comp:obj	_	_
 9	notre	son	DET	_	_	11	det	_	_
 10	premier	premier	ADJ	_	_	11	mod	_	_
 11	reportage	reportage	NOUN	_	_	8	comp:obj	_	_
@@ -6579,7 +6579,7 @@
 31	grippe	grippe	NOUN	_	_	28	comp:pred	_	_
 32	traditionnelle	traditionnel	ADJ	_	_	31	mod	_	_
 33	mais	mais	CCONJ	_	_	35	cc	_	_
-34	autre	autre	ADJ	_	_	35	mod	_	_
+34	autre	autre	PRON	_	_	35	mod	_	_
 35	chose	chose	NOUN	_	_	31	conj:coord	_	_
 
 # macrosyntax = $L2 alors < { les | la } probabilité ne fait qu'augmenter avec le temps //
@@ -6934,7 +6934,7 @@
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	_
 5	au	à+le	ADP	_	_	4	comp:obj	_	_
 6	niveau	niveau	NOUN	_	_	5	comp:obj	_	_
-7	cinq	cinq	NUM	_	_	6	mod	_	_
+7	cinq	cinq	NUM	_	_	6	det	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
 9	d'	de	ADP	_	_	6	mod	_	_
 10	une	un	DET	_	_	11	det	_	_
@@ -7280,7 +7280,7 @@
 54	uns	uns	PRON	_	_	52	comp:obj	_	_
 55	et	et	CCONJ	_	_	57	cc	_	_
 56	les	le	DET	_	_	57	det	_	_
-57	autres	autre	NOUN	_	_	54	conj:coord	_	_
+57	autres	autre	PRON	_	_	54	conj:coord	_	_
 58	dans	dans	ADP	_	_	52	mod	_	_
 59	les	le	DET	_	_	60	det	_	_
 60	relations	relation	NOUN	_	_	58	comp:obj	_	_
@@ -7290,7 +7290,7 @@
 64	et	et	CCONJ	_	_	65	cc	_	_
 65	avec	avec	ADP	_	_	61	conj:coord	_	_
 66	les	le	DET	_	_	67	det	_	_
-67	autres	autre	NOUN	_	_	65	comp:obj	_	_
+67	autres	autre	PRON	_	_	65	comp:obj	_	_
 
 # macrosyntax = Jésus ne pose même pas ses gestes de bonté comme des appels à la foi //
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_M2003-14
@@ -7627,7 +7627,7 @@
 24	du	de+le	ADP	_	_	23	comp:obl	_	_
 25	mal	mal	NOUN	_	_	24	comp:obj	_	_
 26	aux	à+le	ADP	_	_	23	comp:obj	_	_
-27	autres	autre	ADJ	_	_	26	comp:obj	_	_
+27	autres	autre	PRON	_	_	26	comp:obj	_	_
 28	le	le	DET	_	_	29	det	_	_
 29	mal	mal	NOUN	_	_	17	conj:coord	_	_
 30	physique	physique	ADJ	_	_	29	mod	_	_
@@ -7902,7 +7902,7 @@
 # text = j' ai dix-neuf ans
 1	j'	je	PRON	_	_	2	subj	_	_
 2	ai	avoir	VERB	_	_	0	root	_	_
-3	dix-neuf	dix-neuf	NUM	_	_	4	mod	_	_
+3	dix-neuf	dix-neuf	NUM	_	_	4	det	_	_
 4	ans	an	NOUN	_	_	2	comp:obj	_	_
 
 # macrosyntax = j'ai eu l'obtention de mon bac "euh" ( donc ) l'année dernière //
@@ -8303,7 +8303,7 @@
 2	euh	euh	INTJ	_	_	4	discourse	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	0	root	_	_
-5	très	très	ADV	_	_	4	mod	_	_
+5	très	très	ADV	_	_	6	mod	_	_
 6	intéressant	intéressant	ADJ	_	_	4	comp:pred	_	_
 
 # macrosyntax = ^mais je pense que je me réorienterai en psychologie parce que ça m'intéresse plus //
@@ -8425,10 +8425,10 @@
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2001-3
 # text = euh deux petites phrases deux vraies options qui dessinent votre route une route qui témoigne d' une certaine d' une bonne d' une très bonne conduite
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	deux	deux	NUM	_	_	4	mod	_	_
+2	deux	deux	NUM	_	_	4	det	_	_
 3	petites	petit	ADJ	_	_	4	mod	_	_
 4	phrases	phrase	NOUN	_	_	0	root	_	_
-5	deux	deux	NUM	_	_	7	mod	_	_
+5	deux	deux	NUM	_	_	7	det	_	_
 6	vraies	vrai	ADJ	_	_	7	mod	_	_
 7	options	option	NOUN	conj:reform	_	4	conj:dicto	_	_
 8	qui	qui	PRON	_	_	9	subj	_	_
@@ -8717,7 +8717,7 @@
 3	écrivait	écrire	VERB	_	_	0	root	_	_
 4	elle	il	PRON	_	_	5	subj	_	_
 5	est	être	AUX	_	_	3	comp:obj	_	_
-6	très	très	ADV	_	_	5	mod	_	_
+6	très	très	ADV	_	_	7	mod	_	_
 7	jolie	joli	ADJ	_	_	5	comp:pred	_	_
 
 # macrosyntax = elle est même belle //=
@@ -8725,7 +8725,7 @@
 # text = elle est même belle
 1	elle	il	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	même	même	ADV	_	_	2	mod	_	_
+3	même	même	ADV	_	_	4	mod	_	_
 4	belle	beau	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = elle est élégante //
@@ -8977,7 +8977,7 @@
 6	ça	ça	PRON	_	_	7	subj	_	_
 7	marche	marcher	VERB	_	_	5	mod@relcl	_	_
 8	les	le	DET	_	_	9	det	_	_
-9	autres	autre	NOUN	_	_	6	dislocated	_	_
+9	autres	autre	PRON	_	_	6	dislocated	_	_
 
 # macrosyntax = ça < c'est "euh" ESPERLUETTE //
 # sent_id = ParisStories_2019_ParisStories_2019_Rhap_D2001-33
@@ -9051,7 +9051,7 @@
 16	avait	avoir	VERB	_	_	6	comp:obj	_	_
 17	déjà	déjà	ADV	_	_	16	mod	_	_
 18	presque	presque	ADV	_	_	19	mod	_	_
-19	dix-sept	dix-sept	NUM	_	_	20	mod	_	_
+19	dix-sept	dix-sept	NUM	_	_	20	det	_	_
 20	ans	an	NOUN	_	_	16	comp:obj	_	_
 
 # macrosyntax = { ^et | ^mais } ensuite <+ j'ai toujours été étonnée de voir que les gens ne voyaient pas des choses qui me paraissaient évidentes >+ dans le comportement des autres "je veux dire" //
@@ -9083,7 +9083,7 @@
 24	le	le	DET	_	_	25	det	_	_
 25	comportement	comportement	NOUN	_	_	23	comp:obj	_	_
 26	des	de+le	ADP	_	_	25	mod	_	_
-27	autres	autre	ADJ	_	_	26	comp:obj	_	_
+27	autres	autre	PRON	_	_	26	comp:obj	_	_
 28	je	je	PRON	_	_	29	subj	_	_
 29	veux	vouloir	VERB	_	_	27	discourse	_	_
 30	dire	dire	VERB	DISCOURSE	_	29	comp:obj@x	_	_
@@ -9113,7 +9113,7 @@
 20	et	et	CCONJ	_	_	25	cc	_	_
 21	et	et	CCONJ	conj:reform	_	20	conj:dicto	_	_
 22	les	le	DET	_	_	23	det	_	_
-23	autres	autre	NOUN	_	_	25	subj	_	_
+23	autres	autre	PRON	_	_	25	subj	_	_
 24	ne	ne	ADV	_	_	25	mod	_	_
 25	voient	voir	VERB	_	_	17	conj:coord	_	_
 26	pas	pas	ADV	_	_	25	mod	_	_
@@ -9164,7 +9164,7 @@
 6	tout	tout	ADV	_	_	10	mod	_	_
 7	à	à	ADP	_	_	6	unk@fixed	_	_
 8	fait	fait	NOUN	_	_	7	unk@fixed	_	_
-9	autre	autre	ADJ	_	_	10	mod	_	_
+9	autre	autre	PRON	_	_	10	mod	_	_
 10	chose	chose	NOUN	_	_	5	comp:obj	_	_
 11	dans	dans	ADP	_	_	3	mod	_	_
 12	votre	son	DET	_	_	13	det	_	_
@@ -9264,7 +9264,7 @@
 1	maintenant	maintenant	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	tout	tout	ADV	_	_	3	mod	_	_
+4	tout	tout	ADV	_	_	7	mod	_	_
 5	à	à	ADP	_	_	4	unk@fixed	_	_
 6	fait	fait	NOUN	_	_	5	unk@fixed	_	_
 7	normal	normal	ADJ	_	_	3	comp:pred	_	_
@@ -9296,10 +9296,10 @@
 22	quand	quand	SCONJ	_	_	16	conj:dicto	_	_
 23	j'	je	PRON	_	_	24	subj	_	_
 24	avais	avoir	VERB	_	_	22	comp:obj	_	_
-25	vingt	vingt	NUM	_	_	26	mod	_	_
+25	vingt	vingt	NUM	_	_	26	det	_	_
 26	ans	an	NOUN	_	_	24	comp:obj	_	_
 27	ou	ou	CCONJ	_	_	29	cc	_	_
-28	vingt-deux	vingt-deux	NUM	_	_	29	mod	_	_
+28	vingt-deux	vingt-deux	NUM	_	_	29	det	_	_
 29	ans	an	NOUN	_	_	26	conj:coord	_	_
 30	eh	eh	INTJ	_	_	29	discourse	_	_
 31	bien	bien	INTJ	_	_	29	discourse	_	_
@@ -9366,7 +9366,7 @@
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	avais	avoir	VERB	_	_	0	root	_	_
-4	quatorze	quatorze	NUM	_	_	5	mod	_	_
+4	quatorze	quatorze	NUM	_	_	5	det	_	_
 5	ans	an	NOUN	_	_	3	comp:obj	_	_
 
 # macrosyntax = "eh ben" j'ai choisi de travailler //
@@ -9739,7 +9739,7 @@
 10	quand	quand	SCONJ	_	_	20	mod	_	_
 11	on	on	PRON	_	_	12	subj	_	_
 12	est	être	AUX	_	_	10	comp:obj	_	_
-13	très	très	ADV	_	_	12	mod	_	_
+13	très	très	ADV	_	_	14	mod	_	_
 14	jeune	jeune	ADJ	_	_	12	comp:pred	_	_
 15	ce	ce	PRON	_	_	21	subj	_	_
 16	n'	ne	ADV	_	_	21	mod	_	_
@@ -9765,7 +9765,7 @@
 8	quand	quand	SCONJ	_	_	5	mod	_	_
 9	on	on	PRON	_	_	10	subj	_	_
 10	est	être	AUX	_	_	8	comp:obj	_	_
-11	très	très	ADV	_	_	10	mod	_	_
+11	très	très	ADV	_	_	12	mod	_	_
 12	jeune	jeune	ADJ	_	_	10	comp:pred	_	_
 
 # macrosyntax = ce qui est horrible < c'est de se dire [ je n'en sortirai jamais // ] //
@@ -9904,7 +9904,7 @@
 2	s'	si	SCONJ	_	_	1	unk@fixed	_	_
 3	il	il	PRON	_	_	4	subj	_	_
 4	est	être	AUX	_	_	1	comp:obj	_	_
-5	très	très	ADV	_	_	4	mod	_	_
+5	très	très	ADV	_	_	6	mod	_	_
 6	humble	humble	ADJ	_	_	4	comp:pred	_	_
 7	ça	ça	PRON	_	_	9	subj	_	_
 8	n'	ne	ADV	_	_	9	mod	_	_
@@ -10154,7 +10154,7 @@
 3	n'	ne	ADV	_	_	4	mod	_	_
 4	était	être	AUX	_	_	1	mod	_	_
 5	pas	pas	ADV	_	_	4	mod	_	_
-6	très	très	ADV	_	_	4	mod	_	_
+6	très	très	ADV	_	_	7	mod	_	_
 7	sérieux	sérieux	ADJ	_	_	4	comp:pred	_	_
 
 # macrosyntax = "enfin" j'avais l'air d'avoir { dix-huit | ^ou dix-neuf ans } //
@@ -10167,7 +10167,7 @@
 5	air	air	NOUN	_	_	3	comp:obj	_	_
 6	d'	de	ADP	_	_	5	mod	_	_
 7	avoir	avoir	VERB	_	_	6	comp:obj	_	_
-8	dix-huit	dix-huit	NUM	_	_	11	mod	_	_
+8	dix-huit	dix-huit	NUM	_	_	11	det	_	_
 9	ou	ou	CCONJ	_	_	10	cc	_	_
 10	dix-neuf	dix-neuf	NUM	_	_	8	conj:coord	_	_
 11	ans	an	NOUN	_	_	7	comp:obj	_	_
@@ -10184,12 +10184,12 @@
 # text = ce qui quand même n' était pas très sérieux
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	6	subj	_	_
-3	quand	quand	PRON	_	_	4	unk	_	_
-4	même	même	ADV	_	_	6	mod	_	_
+3	quand	quand	ADV	_	_	6	mod	_	_
+4	même	même	ADV	_	_	3	unk@fixed	_	_
 5	n'	ne	ADV	_	_	6	mod	_	_
 6	était	être	AUX	_	_	1	mod	_	_
 7	pas	pas	ADV	_	_	6	mod	_	_
-8	très	très	ADV	_	_	6	mod	_	_
+8	très	très	ADV	_	_	9	mod	_	_
 9	sérieux	sérieux	ADJ	_	_	6	comp:pred	_	_
 
 # macrosyntax = ^mais il ne se doutait quand même pas que je n'en avais pas quinze //
@@ -10302,7 +10302,7 @@
 4	dit	dire	VERB	_	_	3	comp:pred	_	_
 5	je	je	PRON	_	_	6	subj	_	_
 6	gagne	gagner	VERB	CCOMP	_	3	parataxis:obj	_	_
-7	trois	trois	NUM	_	_	9	mod	_	_
+7	trois	trois	NUM	_	_	9	det	_	_
 8	cents	cents	NUM	_	_	7	flat	_	_
 9	francs	franc	NOUN	_	_	6	comp:obj	_	_
 10	par	par	ADP	_	_	6	mod	_	_
@@ -10398,7 +10398,7 @@
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	était	être	AUX	_	_	0	root	_	_
 3	une	un	DET	_	_	5	det	_	_
-4	autre	autre	ADJ	_	_	5	mod	_	_
+4	autre	autre	PRON	_	_	5	mod	_	_
 5	époque	époque	NOUN	_	_	2	comp:pred	_	_
 6	où	où	PRON	_	_	8	mod	_	_
 7	on	on	PRON	_	_	8	subj	_	_
@@ -10500,7 +10500,7 @@
 10	avez	avoir	AUX	_	_	8	comp:obj	_	_
 11	raté	rater	VERB	_	_	10	comp:pred	_	_
 12	une	un	DET	_	_	14	det	_	_
-13	autre	autre	ADJ	_	_	14	mod	_	_
+13	autre	autre	PRON	_	_	14	mod	_	_
 14	carrière	carrière	NOUN	_	_	11	comp:obj	_	_
 
 # macrosyntax = ^car "euh" on vous avait proposé de tourner dans un film //
@@ -10675,8 +10675,8 @@
 2	il	il	PRON	_	_	4	subj@expl	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
 4	a	avoir	VERB	_	_	0	root	_	_
-5	quand	quand	PRON	_	_	6	unk	_	_
-6	même	même	ADV	_	_	4	mod	_	_
+5	quand	quand	ADV	_	_	4	mod	_	_
+6	même	même	ADV	_	_	5	unk@fixed	_	_
 7	dans	dans	ADP	_	_	4	mod	_	_
 8	la	le	DET	_	_	9	det	_	_
 9	vie	vie	NOUN	_	_	7	comp:obj	_	_
@@ -10737,7 +10737,7 @@
 3	ensuite	ensuite	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	_	5	subj	_	_
 5	était	être	AUX	_	_	0	root	_	_
-6	autre	autre	ADJ	_	_	7	mod	_	_
+6	autre	autre	PRON	_	_	7	mod	_	_
 7	chose	chose	NOUN	_	_	5	comp:pred	_	_
 
 # macrosyntax = ^car vous avez { travaillé | travaillé } directement avec lui //
@@ -10792,10 +10792,10 @@
 8	d'	de	ADP	_	_	7	comp:obl	_	_
 9	amitié	amitié	NOUN	_	_	8	comp:obj	_	_
 10	l'	l'	DET	_	_	11	det	_	_
-11	un	un	PRON	_	_	14	unk	_	_
+11	un	un	PRON	_	_	14	mod	_	_
 12	pour	pour	ADP	_	_	5	mod	_	_
 13	l'	le	DET	_	_	14	det	_	_
-14	autre	autre	NOUN	_	_	12	comp:obj	_	_
+14	autre	autre	PRON	_	_	12	comp:obj	_	_
 15	à	à	ADP	_	_	5	mod	_	_
 16	pendant	pendant	ADP	conj:reform	_	15	conj:dicto	_	_
 17	La	le	DET	_	_	19	det	_	_
@@ -10951,8 +10951,8 @@
 3	étions	être	AUX	_	_	0	root	_	_
 4	tous	tout	ADJ	_	_	6	mod	_	_
 5	les	le	DET	_	_	6	det	_	_
-6	deux	deux	NUM	_	_	8	mod	_	_
-7	extraordinairement	extraordinairement	ADV	_	_	3	mod	_	_
+6	deux	deux	NUM	_	_	8	det	_	_
+7	extraordinairement	extraordinairement	ADV	_	_	8	mod	_	_
 8	pauvres	pauvre	ADJ	_	_	3	comp:pred	_	_
 9	à	à	ADP	_	_	3	mod	_	_
 10	ce	ce	DET	_	_	11	det	_	_
@@ -11409,7 +11409,7 @@
 20	en	en	ADP	_	_	19	mod	_	_
 21	mouvement	mouvement	NOUN	_	_	20	comp:obj	_	_
 22	après	après	ADP	_	_	19	mod	_	_
-23	deux	deux	NUM	_	_	24	mod	_	_
+23	deux	deux	NUM	_	_	24	det	_	_
 24	années	année	NOUN	_	_	22	comp:obj	_	_
 25	d'	de	ADP	_	_	24	mod	_	_
 26	immobilisme	immobilisme	NOUN	_	_	25	comp:obj	_	_
@@ -11667,7 +11667,7 @@
 22	missions	mission	NOUN	_	_	20	comp:obj	_	_
 23	dans	dans	ADP	_	_	19	mod	_	_
 24	un	un	DET	_	_	26	det	_	_
-25	tel	tel	PRON	_	_	26	unk	_	_
+25	tel	tel	ADJ	_	_	26	mod	_	_
 26	contexte	contexte	NOUN	_	_	23	comp:obj	_	_
 
 # macrosyntax = je sais également ce que cela signifie pour vos familles { que je veux saluer particulièrement | dont j' imagine qu' elles sont souvent confrontées à { l' absence | ^et parfois l' angoisse } } //
@@ -12097,7 +12097,7 @@
 3	nous	nous	PRON	_	_	4	subj	_	_
 4	avons	avoir	VERB	_	_	0	root	_	_
 5	une	un	DET	_	_	7	det	_	_
-6	autre	autre	ADJ	_	_	7	mod	_	_
+6	autre	autre	PRON	_	_	7	mod	_	_
 7	région	région	NOUN	_	_	4	comp:obj	_	_
 8	qui	qui	PRON	_	_	9	subj	_	_
 9	est	être	AUX	_	_	7	mod@relcl	_	_
@@ -12155,7 +12155,7 @@
 4	le	le	DET	_	_	5	det	_	_
 5	Gâtinais	Gâtinais	PROPN	_	_	6	subj	_	_
 6	est	être	AUX	_	_	0	root	_	_
-7	très	très	ADV	_	_	6	mod	_	_
+7	très	très	ADV	_	_	8	mod	_	_
 8	accueillant	accueillant	ADJ	_	_	6	comp:pred	_	_
 
 # macrosyntax = il est très bienveillant //=
@@ -12163,7 +12163,7 @@
 # text = il est très bienveillant
 1	il	il	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	très	très	ADV	_	_	2	mod	_	_
+3	très	très	ADV	_	_	4	mod	_	_
 4	bienveillant	bienveillant	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = il est très aimable //
@@ -12171,7 +12171,7 @@
 # text = il est très aimable
 1	il	il	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	très	très	ADV	_	_	2	mod	_	_
+3	très	très	ADV	_	_	4	mod	_	_
 4	aimable	aimable	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = ^mais "euh" on ne trouve pas "si vous voulez" "euh" la même profondeur d'attachement à la foi chrétienne dans le Gâtinet //
@@ -12407,7 +12407,7 @@
 18	plus	plus	ADV	_	_	17	mod	_	_
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	d'	de	DET	_	_	21	det	_	_
-21	autres	autre	ADJ	_	_	19	comp:obj	_	_
+21	autres	autre	PRON	_	_	19	comp:obj	_	_
 22	disons	dire	VERB	DISCOURSE	_	23	discourse	_	_
 23	dans	dans	ADP	_	_	17	mod	_	_
 24	Orléans	Orléans	PROPN	_	_	23	comp:obj	_	_
@@ -12439,7 +12439,7 @@
 4	on	on	PRON	_	_	5	subj	_	_
 5	aborde	aborder	VERB	_	_	0	root	_	_
 6	l'	le	DET	_	_	8	det	_	_
-7	autre	autre	ADJ	_	_	8	mod	_	_
+7	autre	autre	PRON	_	_	8	mod	_	_
 8	point	point	NOUN	_	_	5	comp:obj	_	_
 9	de	de	ADP	_	_	8	mod	_	_
 10	vue	vue	NOUN	_	_	9	comp:obj	_	_
@@ -12477,7 +12477,7 @@
 # text = il est bien vrai que dans les campagnes le prêtre est à même de côtoyer tout le monde mh n' est -ce pas
 1	il	il	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	bien	bien	ADV	_	_	2	mod	_	_
+3	bien	bien	ADV	_	_	4	mod	_	_
 4	vrai	vrai	ADJ	_	_	2	comp:pred	_	_
 5	que	que	SCONJ	_	_	2	mod	_	_
 6	dans	dans	ADP	_	_	12	mod	_	_
@@ -12727,9 +12727,9 @@
 43	en	en	ADP	_	_	40	mod	_	_
 44	ville	ville	NOUN	_	_	43	comp:obj	_	_
 45	est	être	AUX	_	_	37	comp:obj	_	_
-46	quand	quand	PRON	_	_	47	unk	_	_
-47	même	même	ADV	_	_	45	mod	_	_
-48	très	très	ADV	_	_	45	mod	_	_
+46	quand	quand	SCONJ	_	_	45	det	_	_
+47	même	même	ADV	_	_	46	unk@fixed	_	_
+48	très	très	ADV	_	_	49	mod	_	_
 49	petit	petit	ADJ	_	_	45	comp:pred	_	_
 50	par	par	ADP	_	_	45	mod	_	_
 51	rapport	rapport	NOUN	_	_	50	comp:obj	_	_
