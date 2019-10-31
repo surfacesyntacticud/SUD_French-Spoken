@@ -4866,7 +4866,7 @@
 9	des	de+le	ADP	de	_	8	mod	_	_
 10	des	de+le	ADP	conj:reform	_	9	conj:dicto	_	_
 11	des	de+le	ADP	conj:reform	_	10	conj:dicto	_	_
-12	de	de	ADP	_	_	11	conj:coord	_	_
+12	de	de	ADP	_	_	11	conj:dicto	_	_
 13	l'	le	DET	_	_	14	det	_	_
 14	assise	assise	NOUN	_	_	12	comp:obj	_	_
 15	là	là	ADV	_	_	14	mod	_	_

@@ -6706,7 +6706,7 @@
 15	en	en	ADP	_	_	14	conj:dicto	_	_
 16	Grande-Bretagne	Grande	PROPN	_	_	15	comp:obl	_	_
 17	au	à+le	ADP	à	_	15	conj:coord	_	_
-18	au	à+le	ADP	à	_	17	conj:coord	_	_
+18	au	à+le	ADP	à	_	17	conj:dicto	_	_
 19	Royaume-Uni	Royaume-Uni	PROPN	_	_	18	comp:obj	_	_
 
 # macrosyntax = dans tous ces endroits-là <+ il y a des chaînes de transmission locale //
