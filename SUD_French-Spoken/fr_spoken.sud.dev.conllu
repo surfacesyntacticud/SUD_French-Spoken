@@ -2338,8 +2338,8 @@
 # macrosyntax = ^et dans un sondage réalisé avant le rendez-vous d'aujourd'hui <+ les Français se montrent très sévères à l'égard de la politique économique du gouvernement qu'ils jugent mauvaise à soixante pour cent //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2006-26
 # text = et dans un sondage réalisé avant le rendez - vous d' aujourd' hui les Français se montrent très sévères à l' égard de la politique économique du gouvernement qu' ils jugent mauvaise à soixante pour cent
-1	et	et	CCONJ	_	_	15	cc	_	_
-2	dans	dans	ADP	_	_	15	mod	_	_
+1	et	et	CCONJ	_	_	14	cc	_	_
+2	dans	dans	ADP	_	_	14	mod	_	_
 3	un	un	DET	_	_	4	det	_	_
 4	sondage	sondage	NOUN	_	_	2	comp:obj	_	_
 5	réalisé	réaliser	VERB	_	_	4	mod	_	_
@@ -2347,31 +2347,30 @@
 7	le	le	DET	_	_	8	det	_	_
 8	rendez-vous	rendez	NOUN	_	_	6	comp:obj	_	_
 9	d'	de	ADP	_	_	8	mod	_	_
-10	aujourd'	aujourd'	NOUN	_	_	9	comp:obj	_	_
-11	hui	hui	NOUN	_	_	10	unk@fixed	_	_
-12	les	le	DET	_	_	13	det	_	_
-13	Français	Français	PROPN	_	_	15	subj	_	_
-14	se	se	PRON	_	_	15	comp@fixed	_	_
-15	montrent	montrer	VERB	_	_	0	root	_	_
-16	très	très	ADV	_	_	17	mod	_	_
-17	sévères	sévère	ADJ	_	_	15	comp:obj	_	_
-18	à	à	ADP	_	_	15	comp:obl	_	_
-19	l'	le	DET	_	_	20	det	_	_
-20	égard	égard	NOUN	_	_	18	comp:obj	_	_
-21	de	de	ADP	_	_	20	mod	_	_
-22	la	le	DET	_	_	23	det	_	_
-23	politique	politique	NOUN	_	_	21	comp:obj	_	_
-24	économique	économique	ADJ	_	_	23	mod	_	_
-25	du	de+le	ADP	_	_	23	mod	_	_
-26	gouvernement	gouvernement	NOUN	_	_	25	comp:obj	_	_
-27	qu'	que	PRON	_	_	29	comp:obj	_	_
-28	ils	il	PRON	_	_	29	subj	_	_
-29	jugent	juger	VERB	_	_	23	mod@relcl	_	_
-30	mauvaise	mauvais	ADJ	_	_	29	comp:obj	_	_
-31	à	à	ADP	_	_	29	mod	_	_
-32	soixante	soixante	NUM	_	_	33	det	_	_
-33	pour	pour	ADV	_	_	31	comp:obj	_	_
-34	cent	cent	NUM	_	_	33	comp:obj@fixed	_	_
+10	aujourd'hui	aujourd'	NOUN	_	_	9	comp:obj	_	_
+11	les	le	DET	_	_	12	det	_	_
+12	Français	Français	PROPN	_	_	14	subj	_	_
+13	se	se	PRON	_	_	14	comp@fixed	_	_
+14	montrent	montrer	VERB	_	_	0	root	_	_
+15	très	très	ADV	_	_	16	mod	_	_
+16	sévères	sévère	ADJ	_	_	14	comp:obj	_	_
+17	à	à	ADP	_	_	14	comp:obl	_	_
+18	l'	le	DET	_	_	19	det	_	_
+19	égard	égard	NOUN	_	_	17	comp:obj	_	_
+20	de	de	ADP	_	_	19	mod	_	_
+21	la	le	DET	_	_	22	det	_	_
+22	politique	politique	NOUN	_	_	20	comp:obj	_	_
+23	économique	économique	ADJ	_	_	22	mod	_	_
+24	du	de+le	ADP	_	_	22	mod	_	_
+25	gouvernement	gouvernement	NOUN	_	_	24	comp:obj	_	_
+26	qu'	que	PRON	_	_	28	comp:obj	_	_
+27	ils	il	PRON	_	_	28	subj	_	_
+28	jugent	juger	VERB	_	_	22	mod@relcl	_	_
+29	mauvaise	mauvais	ADJ	_	_	28	comp:obj	_	_
+30	à	à	ADP	_	_	28	mod	_	_
+31	soixante	soixante	NUM	_	_	32	det	_	_
+32	pour	pour	ADV	_	_	30	comp:obj	_	_
+33	cent	cent	NUM	_	_	32	comp:obj@fixed	_	_
 
 # macrosyntax = la mesure qu'ils attendent le plus < c'est la répartition des bénéfices dans les entreprises entre { patrons | actionnaires | ^et salariés } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2006-27
@@ -2719,12 +2718,11 @@
 12	devrait	devoir	VERB	_	_	0	root	_	_
 13	être	être	AUX	DoubleAux	_	12	comp:obj@x	_	_
 14	annoncé	annoncer	VERB	DoubleAux	_	13	comp:aux@pass	_	_
-15	aujourd'	aujourd'	NOUN	_	_	12	mod	_	_
-16	hui	hui	NOUN	_	_	15	unk@fixed	_	_
-17	par	par	ADP	_	_	14	comp:obl	_	_
-18	le	le	DET	_	_	19	det	_	_
-19	président	président	NOUN	_	_	17	comp:obj	_	_
-20	américain	américain	ADJ	_	_	19	mod	_	_
+15	aujourd'hui	aujourd'	NOUN	_	_	12	mod	_	_
+16	par	par	ADP	_	_	14	comp:obl	_	_
+17	le	le	DET	_	_	18	det	_	_
+18	président	président	NOUN	_	_	16	comp:obj	_	_
+19	américain	américain	ADJ	_	_	18	mod	_	_
 
 # macrosyntax = cela concerne plusieurs millions d'américains à la rue faute de pouvoir payer leur crédit //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2006-49
@@ -3889,14 +3887,13 @@
 6	pour	pour	ADP	_	_	5	comp:pred	_	_
 7	ça	ça	PRON	_	_	6	comp:obj	_	_
 8	qu'	que	SCONJ	_	_	5	comp:cleft	_	_
-9	aujourd'	aujourd'	NOUN	_	_	14	mod	_	_
-10	hui	hui	NOUN	_	_	9	unk@fixed	_	_
-11	je	je	PRON	_	_	12	subj	_	_
-12	suis	être	VERB	_	_	8	comp:obj	_	_
-13	en	en	ADP	_	_	12	comp:obl	_	_
-14	italien	italien	NOUN	_	_	13	comp:obj	_	_
-15	en	en	ADP	conj:reform	_	13	comp:obj	_	_
-16	euh	euh	INTJ	_	_	15	comp:obj	_	_
+9	aujourd'hui	aujourd'	NOUN	_	_	13	mod	_	_
+10	je	je	PRON	_	_	11	subj	_	_
+11	suis	être	VERB	_	_	8	comp:obj	_	_
+12	en	en	ADP	_	_	11	comp:obl	_	_
+13	italien	italien	NOUN	_	_	12	comp:obj	_	_
+14	en	en	ADP	conj:reform	_	12	comp:obj	_	_
+15	euh	euh	INTJ	_	_	14	comp:obj	_	_
 
 # macrosyntax = tu montes les escaliers //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M0004-1
@@ -8548,32 +8545,31 @@
 # macrosyntax = aujourd'hui <+ il { continue son activité de conseil | ^et se consacre toujours { à l'écriture | ^et à l'histoire (+ qui ne l'a pas toujours reconnu ) } } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2005-11
 # text = aujourd' hui il continue son activité de conseil et se consacre toujours à l' écriture et à l' histoire qui ne l' a pas toujours reconnu
-1	aujourd'	aujourd'	NOUN	_	_	4	mod	_	_
-2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
-3	il	il	PRON	_	_	4	subj	_	_
-4	continue	continuer	VERB	_	_	0	root	_	_
-5	son	son	DET	_	_	6	det	_	_
-6	activité	activité	NOUN	_	_	4	comp:obj	_	_
-7	de	de	ADP	_	_	6	mod	_	_
-8	conseil	conseil	NOUN	_	_	7	comp:obj	_	_
-9	et	et	CCONJ	_	_	11	cc	_	_
-10	se	se	PRON	_	_	11	comp@fixed	_	_
-11	consacre	consacrer	VERB	_	_	4	conj:coord	_	_
-12	toujours	toujours	ADV	_	_	11	mod	_	_
-13	à	à	ADP	_	_	11	comp:obl	_	_
-14	l'	le	DET	_	_	15	det	_	_
-15	écriture	écriture	NOUN	_	_	13	comp:obj	_	_
-16	et	et	CCONJ	_	_	17	cc	_	_
-17	à	à	ADP	_	_	13	conj:coord	_	_
-18	l'	le	DET	_	_	19	det	_	_
-19	histoire	histoire	NOUN	_	_	17	comp:obj	_	_
-20	qui	qui	PRON	_	_	23	subj	_	_
-21	ne	ne	ADV	_	_	23	mod	_	_
-22	l'	le	PRON	_	_	26	comp:obj	_	_
-23	a	avoir	AUX	_	_	19	mod@relcl	_	_
-24	pas	pas	ADV	_	_	23	mod	_	_
-25	toujours	toujours	ADV	_	_	23	mod	_	_
-26	reconnu	reconnaître	VERB	_	_	23	comp:aux	_	_
+1	aujourd'hui	aujourd'	NOUN	_	_	3	mod	_	_
+2	il	il	PRON	_	_	3	subj	_	_
+3	continue	continuer	VERB	_	_	0	root	_	_
+4	son	son	DET	_	_	5	det	_	_
+5	activité	activité	NOUN	_	_	3	comp:obj	_	_
+6	de	de	ADP	_	_	5	mod	_	_
+7	conseil	conseil	NOUN	_	_	6	comp:obj	_	_
+8	et	et	CCONJ	_	_	10	cc	_	_
+9	se	se	PRON	_	_	10	comp@fixed	_	_
+10	consacre	consacrer	VERB	_	_	3	conj:coord	_	_
+11	toujours	toujours	ADV	_	_	10	mod	_	_
+12	à	à	ADP	_	_	10	comp:obl	_	_
+13	l'	le	DET	_	_	14	det	_	_
+14	écriture	écriture	NOUN	_	_	12	comp:obj	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	à	à	ADP	_	_	12	conj:coord	_	_
+17	l'	le	DET	_	_	18	det	_	_
+18	histoire	histoire	NOUN	_	_	16	comp:obj	_	_
+19	qui	qui	PRON	_	_	22	subj	_	_
+20	ne	ne	ADV	_	_	22	mod	_	_
+21	l'	le	PRON	_	_	25	comp:obj	_	_
+22	a	avoir	AUX	_	_	18	mod@relcl	_	_
+23	pas	pas	ADV	_	_	22	mod	_	_
+24	toujours	toujours	ADV	_	_	22	mod	_	_
+25	reconnu	reconnaître	VERB	_	_	22	comp:aux	_	_
 
 # macrosyntax = $L2 je suis né à Alger en mille neuf cent quarante-trois //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2005-12

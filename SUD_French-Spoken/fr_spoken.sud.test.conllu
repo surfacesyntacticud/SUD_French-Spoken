@@ -118,13 +118,12 @@
 4	est	être	AUX	_	_	0	root	_	_
 5	le	le	DET	_	_	6	det	_	_
 6	cas	cas	NOUN	_	_	4	comp:pred	_	_
-7	aujourd'	aujourd'	NOUN	_	_	4	mod	_	_
-8	hui	hui	NOUN	_	_	7	unk@fixed	_	_
-9	de	de	ADP	_	_	6	mod	_	_
-10	ce	ce	DET	_	_	11	det	_	_
-11	produit	produit	NOUN	_	_	9	comp:obj	_	_
-12	vraiment	vraiment	ADV	_	_	13	mod	_	_
-13	révolutionnaire	révolutionnaire	ADJ	_	_	11	mod	_	_
+7	aujourd'hui	aujourd'	NOUN	_	_	4	mod	_	_
+8	de	de	ADP	_	_	6	mod	_	_
+9	ce	ce	DET	_	_	10	det	_	_
+10	produit	produit	NOUN	_	_	8	comp:obj	_	_
+11	vraiment	vraiment	ADV	_	_	12	mod	_	_
+12	révolutionnaire	révolutionnaire	ADJ	_	_	10	mod	_	_
 
 # macrosyntax = ^alors au début <+ on n' y croyait pas trop > avec toute l'équipe de la boutique > $- $L1 Valérie //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2011-3
@@ -150,16 +149,15 @@
 # macrosyntax = $L1 ^et pourtant < aujourd'hui <+ on y croit dur comme fer //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2011-4
 # text = et pourtant aujourd' hui on y croit dur comme fer
-1	et	et	CCONJ	_	_	7	cc	_	_
-2	pourtant	pourtant	ADV	_	_	7	mod	_	_
-3	aujourd'	aujourd'	NOUN	_	_	7	mod	_	_
-4	hui	hui	NOUN	_	_	3	unk@fixed	_	_
-5	on	on	PRON	_	_	7	subj	_	_
-6	y	y	PRON	_	_	7	comp:obj	_	_
-7	croit	croire	VERB	_	_	0	root	_	_
-8	dur	dur	NOUN	_	_	7	mod	_	_
-9	comme	comme	ADP	_	_	8	mod	_	_
-10	fer	fer	NOUN	_	_	9	comp:obj	_	_
+1	et	et	CCONJ	_	_	6	cc	_	_
+2	pourtant	pourtant	ADV	_	_	6	mod	_	_
+3	aujourd'hui	aujourd'	NOUN	_	_	6	mod	_	_
+4	on	on	PRON	_	_	6	subj	_	_
+5	y	y	PRON	_	_	6	comp:obj	_	_
+6	croit	croire	VERB	_	_	0	root	_	_
+7	dur	dur	NOUN	_	_	6	mod	_	_
+8	comme	comme	ADP	_	_	7	mod	_	_
+9	fer	fer	NOUN	_	_	8	comp:obj	_	_
 
 # macrosyntax = $L2 il s'agit tout simplement de { ceci | une boule de lavage que vous allez placer au coeur de votre linge sans rien d'autre avant de mettre votre machine en route } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2011-5
@@ -2222,8 +2220,7 @@
 7	de	de	ADP	_	_	5	dislocated	_	_
 8	ceux	celui	PRON	_	_	7	comp:obj	_	_
 9	d'	de	ADP	_	_	8	comp:obl	_	_
-10	aujourd'	aujourd'	NOUN	_	_	9	comp:obj	_	_
-11	hui	hui	NOUN	_	_	10	unk@fixed	_	_
+10	aujourd'hui	aujourd'	NOUN	_	_	9	comp:obj	_	_
 
 # macrosyntax = parce qu'ils ont ( $L2 non //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-52
@@ -2561,28 +2558,27 @@
 # macrosyntax = aujourd'hui <+ on vous remarquerait à peine parce que c'est une mode qui se porte couramment chez les jeunes filles "hein" //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-77
 # text = aujourd' hui on vous remarquerait à peine parce que c' est une mode qui se porte couramment chez les jeunes filles hein
-1	aujourd'	aujourd'	NOUN	_	_	5	mod	_	_
-2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
-3	on	on	PRON	_	_	5	subj	_	_
-4	vous	vous	PRON	_	_	5	comp:obj	_	_
-5	remarquerait	remarquer	VERB	_	_	0	root	_	_
-6	à	à	ADP	_	_	5	mod	_	_
-7	peine	peine	NOUN	_	_	6	comp:obj	_	_
-8	parce	parce	SCONJ	_	_	5	mod	_	_
-9	que	que	SCONJ	_	_	8	unk@fixed	_	_
-10	c'	ce	PRON	_	_	11	subj	_	_
-11	est	être	AUX	_	_	8	comp:obj	_	_
-12	une	un	DET	_	_	13	det	_	_
-13	mode	mode	NOUN	_	_	11	comp:pred	_	_
-14	qui	qui	PRON	_	_	16	subj	_	_
-15	se	se	PRON	_	_	16	comp@fixed	_	_
-16	porte	porter	VERB	_	_	13	mod@relcl	_	_
-17	couramment	couramment	ADV	_	_	16	mod	_	_
-18	chez	chez	ADP	_	_	16	mod	_	_
-19	les	le	DET	_	_	21	det	_	_
-20	jeunes	jeune	ADJ	_	_	21	mod	_	_
-21	filles	fille	NOUN	_	_	18	comp:obj	_	_
-22	hein	hein	INTJ	_	_	21	discourse	_	_
+1	aujourd'hui	aujourd'	NOUN	_	_	4	mod	_	_
+2	on	on	PRON	_	_	4	subj	_	_
+3	vous	vous	PRON	_	_	4	comp:obj	_	_
+4	remarquerait	remarquer	VERB	_	_	0	root	_	_
+5	à	à	ADP	_	_	4	mod	_	_
+6	peine	peine	NOUN	_	_	5	comp:obj	_	_
+7	parce	parce	SCONJ	_	_	4	mod	_	_
+8	que	que	SCONJ	_	_	7	unk@fixed	_	_
+9	c'	ce	PRON	_	_	10	subj	_	_
+10	est	être	AUX	_	_	7	comp:obj	_	_
+11	une	un	DET	_	_	12	det	_	_
+12	mode	mode	NOUN	_	_	10	comp:pred	_	_
+13	qui	qui	PRON	_	_	15	subj	_	_
+14	se	se	PRON	_	_	15	comp@fixed	_	_
+15	porte	porter	VERB	_	_	12	mod@relcl	_	_
+16	couramment	couramment	ADV	_	_	15	mod	_	_
+17	chez	chez	ADP	_	_	15	mod	_	_
+18	les	le	DET	_	_	20	det	_	_
+19	jeunes	jeune	ADJ	_	_	20	mod	_	_
+20	filles	fille	NOUN	_	_	17	comp:obj	_	_
+21	hein	hein	INTJ	_	_	20	discourse	_	_
 
 # macrosyntax = $- $L2 { oui | oui } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-78
@@ -2600,13 +2596,12 @@
 # macrosyntax = $L1 aujourd'hui <+ on ne vous remarquerait pas //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-80
 # text = aujourd' hui on ne vous remarquerait pas
-1	aujourd'	aujourd'	ADV	_	_	6	mod	_	_
-2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
-3	on	on	PRON	_	_	6	subj	_	_
-4	ne	ne	ADV	_	_	6	mod	_	_
-5	vous	vous	PRON	_	_	6	comp:obj	_	_
-6	remarquerait	remarquer	VERB	_	_	0	root	_	_
-7	pas	pas	ADV	_	_	6	mod	_	_
+1	aujourd'hui	aujourd'	ADV	_	_	5	mod	_	_
+2	on	on	PRON	_	_	5	subj	_	_
+3	ne	ne	ADV	_	_	5	mod	_	_
+4	vous	vous	PRON	_	_	5	comp:obj	_	_
+5	remarquerait	remarquer	VERB	_	_	0	root	_	_
+6	pas	pas	ADV	_	_	5	mod	_	_
 
 # macrosyntax = ^mais à cette époque <+ on vous remarquerait //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-81
@@ -4821,34 +4816,33 @@
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-32
 # text = c' est - à - dire que si vraiment euh l' activité que l' on constate aujourd' hui en en Amérique du Nord oui euh devient l' activité d' une pandémie alors euh
-1	c'est-à-dire	c'	CCONJ	_	_	27	cc	_	_
+1	c'est-à-dire	c'	CCONJ	_	_	26	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
-3	si	si	SCONJ	_	_	27	mod	_	_
-4	vraiment	vraiment	ADV	_	_	21	mod	_	_
-5	euh	euh	INTJ	_	_	21	discourse	_	_
+3	si	si	SCONJ	_	_	26	mod	_	_
+4	vraiment	vraiment	ADV	_	_	20	mod	_	_
+5	euh	euh	INTJ	_	_	20	discourse	_	_
 6	l'	le	DET	_	_	7	det	_	_
-7	activité	activité	NOUN	_	_	21	subj	_	_
+7	activité	activité	NOUN	_	_	20	subj	_	_
 8	que	que	PRON	_	_	11	comp:obj	_	_
 9	l'	l'	DET	_	_	10	det	_	_
 10	on	on	PRON	_	_	11	subj	_	_
 11	constate	constater	VERB	_	_	7	mod@relcl	_	_
-12	aujourd'	aujourd'	NOUN	_	_	11	mod	_	_
-13	hui	hui	NOUN	_	_	12	unk@fixed	_	_
-14	en	en	ADP	_	_	11	mod	_	_
-15	en	en	ADP	conj:reform	_	14	comp:obj	_	_
-16	Amérique	Amérique	PROPN	_	_	15	comp:obj	_	_
-17	du	de+le	ADP	_	_	16	mod	_	_
-18	Nord	Nord	PROPN	_	_	17	comp:obj	_	_
-19	oui	oui	INTJ	_	_	16	discourse	_	_
-20	euh	euh	INTJ	_	_	16	discourse	_	_
-21	devient	devenir	VERB	_	_	3	comp:obj	_	_
-22	l'	le	DET	_	_	23	det	_	_
-23	activité	activité	NOUN	_	_	21	comp:obj	_	_
-24	d'	de	ADP	_	_	23	mod	_	_
-25	une	un	DET	_	_	26	det	_	_
-26	pandémie	pandémie	NOUN	_	_	24	comp:obj	_	_
-27	alors	alors	ADV	_	_	0	root	_	_
-28	euh	euh	INTJ	_	_	21	discourse	_	_
+12	aujourd'hui	aujourd'	NOUN	_	_	11	mod	_	_
+13	en	en	ADP	_	_	11	mod	_	_
+14	en	en	ADP	conj:reform	_	13	comp:obj	_	_
+15	Amérique	Amérique	PROPN	_	_	14	comp:obj	_	_
+16	du	de+le	ADP	_	_	15	mod	_	_
+17	Nord	Nord	PROPN	_	_	16	comp:obj	_	_
+18	oui	oui	INTJ	_	_	15	discourse	_	_
+19	euh	euh	INTJ	_	_	15	discourse	_	_
+20	devient	devenir	VERB	_	_	3	comp:obj	_	_
+21	l'	le	DET	_	_	22	det	_	_
+22	activité	activité	NOUN	_	_	20	comp:obj	_	_
+23	d'	de	ADP	_	_	22	mod	_	_
+24	une	un	DET	_	_	25	det	_	_
+25	pandémie	pandémie	NOUN	_	_	23	comp:obj	_	_
+26	alors	alors	ADV	_	_	0	root	_	_
+27	euh	euh	INTJ	_	_	20	discourse	_	_
 
 # macrosyntax = on n'a jamais vraiment su jusqu'à présent arrêter les épidémies de grippe saisonnière //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-33
@@ -5087,29 +5081,28 @@
 # macrosyntax = ^mais dans le fond < quand on veut prédire un cyclone <+ au jour d'aujourd'hui <+ on se rapporte au catalogue des cyclones passés //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-46
 # text = mais dans le fond quand on veut prédire un cyclone au jour d' aujourd' hui on se rapporte au catalogue des cyclones passés
-1	mais	mais	CCONJ	_	_	18	cc	_	_
-2	dans	dans	ADP	_	_	18	mod	_	_
+1	mais	mais	CCONJ	_	_	17	cc	_	_
+2	dans	dans	ADP	_	_	17	mod	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	fond	fond	NOUN	_	_	2	comp:obj	_	_
-5	quand	quand	SCONJ	_	_	18	mod	_	_
+5	quand	quand	SCONJ	_	_	17	mod	_	_
 6	on	on	PRON	_	_	7	subj	_	_
 7	veut	vouloir	VERB	_	_	5	comp:obj	_	_
 8	prédire	prédire	VERB	_	_	7	comp:obj@x	_	_
 9	un	un	DET	_	_	10	det	_	_
 10	cyclone	cyclone	NOUN	_	_	8	comp:obj	_	_
-11	au	à+le	ADP	_	_	18	mod	_	_
+11	au	à+le	ADP	_	_	17	mod	_	_
 12	jour	jour	NOUN	_	_	11	comp:obj	_	_
 13	d'	de	ADP	_	_	12	mod	_	_
-14	aujourd'	aujourd'	NOUN	_	_	13	comp:obj	_	_
-15	hui	hui	NOUN	_	_	14	unk@fixed	_	_
-16	on	on	PRON	_	_	18	subj	_	_
-17	se	se	PRON	_	_	18	comp@fixed	_	_
-18	rapporte	rapporter	VERB	_	_	0	root	_	_
-19	au	à+le	ADP	_	_	18	comp:obl	_	_
-20	catalogue	catalogue	NOUN	_	_	19	comp:obj	_	_
-21	des	de+le	ADP	_	_	20	mod	_	_
-22	cyclones	cyclone	NOUN	_	_	21	comp:obj	_	_
-23	passés	passer	VERB	ETRE	_	22	mod	_	_
+14	aujourd'hui	aujourd'	NOUN	_	_	13	comp:obj	_	_
+15	on	on	PRON	_	_	17	subj	_	_
+16	se	se	PRON	_	_	17	comp@fixed	_	_
+17	rapporte	rapporter	VERB	_	_	0	root	_	_
+18	au	à+le	ADP	_	_	17	comp:obl	_	_
+19	catalogue	catalogue	NOUN	_	_	18	comp:obj	_	_
+20	des	de+le	ADP	_	_	19	mod	_	_
+21	cyclones	cyclone	NOUN	_	_	20	comp:obj	_	_
+22	passés	passer	VERB	ETRE	_	21	mod	_	_
 
 # macrosyntax = ^et on regarde { c~ | le plus proche { cyclone "euh" | ^ou embryon de cyclone } } de ce que l'on voit "euh" actuellement //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-47
@@ -5654,30 +5647,29 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	pense	penser	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	aujourd'	aujourd'	NOUN	_	_	22	dislocated	_	_
-5	hui	hui	NOUN	_	_	4	unk@fixed	_	_
-6	euh	euh	INTJ	_	_	22	discourse	_	_
-7	s~	s~	X	_	_	6	conj:dicto	_	_
-8	euh	euh	INTJ	_	_	7	conj:dicto	_	_
-9	même	même	ADV	_	_	11	mod	_	_
-10	une	un	DET	_	_	11	det	_	_
-11	grippe	grippe	NOUN	_	_	22	subj	_	_
-12	aussi	aussi	ADV	_	_	13	mod	_	_
-13	virulente	virulent	ADJ	_	_	11	mod	_	_
-14	que	que	SCONJ	_	_	13	mod	_	_
-15	celle	celui	PRON	_	_	14	comp:obj	_	_
-16	de	de	ADP	_	_	15	mod	_	_
-17	mille	mille	NUM	_	_	16	comp:obj	_	_
-18	neuf	neuf	NUM	_	_	17	flat	_	_
-19	cent	cent	NUM	_	_	18	flat	_	_
-20	dix-huit	dix-huit	NUM	_	_	19	flat	_	_
-21	n'	ne	ADV	_	_	22	mod	_	_
-22	entraînerait	entraîner	VERB	_	_	3	comp:obj	_	_
-23	pas	pas	ADV	_	_	22	mod	_	_
-24	une	un	DET	_	_	25	det	_	_
-25	mortalité	mortalité	NOUN	_	_	22	comp:obj	_	_
-26	aussi	aussi	ADV	_	_	27	mod	_	_
-27	effroyable	effroyable	ADJ	_	_	25	mod	_	_
+4	aujourd'hui	aujourd'	NOUN	_	_	21	dislocated	_	_
+5	euh	euh	INTJ	_	_	21	discourse	_	_
+6	s~	s~	X	_	_	5	conj:dicto	_	_
+7	euh	euh	INTJ	_	_	6	conj:dicto	_	_
+8	même	même	ADV	_	_	10	mod	_	_
+9	une	un	DET	_	_	10	det	_	_
+10	grippe	grippe	NOUN	_	_	21	subj	_	_
+11	aussi	aussi	ADV	_	_	12	mod	_	_
+12	virulente	virulent	ADJ	_	_	10	mod	_	_
+13	que	que	SCONJ	_	_	12	mod	_	_
+14	celle	celui	PRON	_	_	13	comp:obj	_	_
+15	de	de	ADP	_	_	14	mod	_	_
+16	mille	mille	NUM	_	_	15	comp:obj	_	_
+17	neuf	neuf	NUM	_	_	16	flat	_	_
+18	cent	cent	NUM	_	_	17	flat	_	_
+19	dix-huit	dix-huit	NUM	_	_	18	flat	_	_
+20	n'	ne	ADV	_	_	21	mod	_	_
+21	entraînerait	entraîner	VERB	_	_	3	comp:obj	_	_
+22	pas	pas	ADV	_	_	21	mod	_	_
+23	une	un	DET	_	_	24	det	_	_
+24	mortalité	mortalité	NOUN	_	_	21	comp:obj	_	_
+25	aussi	aussi	ADV	_	_	26	mod	_	_
+26	effroyable	effroyable	ADJ	_	_	24	mod	_	_
 
 # macrosyntax = ^donc "euh" les scénarios "euh" catastrophes qu'on a pu voir éclore { { de ci ( $L1 oui ) $L2 "euh" | de ci } | de là } { ne me paraissent pas ( ^mais encore une fois je suis pas { un | un | un } devin // ) | ne me paraissent pas } très probables //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-80
@@ -6659,33 +6651,32 @@
 # macrosyntax = aujourd'hui <+ on sait que la petite souche qui a émergé au Mexique est quand même un peu plus contagieuse que "euh" on aurait pu l'espérer //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-134
 # text = aujourd' hui on sait que la petite souche qui a émergé au Mexique est quand même un peu plus contagieuse que euh on aurait pu l' espérer
-1	aujourd'	aujourd'	ADV	_	_	4	mod	_	_
-2	hui	hui	ADV	_	_	1	unk@fixed	_	_
-3	on	on	PRON	_	_	4	subj	_	_
-4	sait	savoir	VERB	_	_	0	root	_	_
-5	que	que	SCONJ	_	_	4	comp:obj	_	_
-6	la	le	DET	_	_	8	det	_	_
-7	petite	petit	ADJ	_	_	8	mod	_	_
-8	souche	souche	NOUN	_	_	14	subj	_	_
-9	qui	qui	PRON	_	_	10	subj	_	_
-10	a	avoir	AUX	_	_	8	mod@relcl	_	_
-11	émergé	émerger	VERB	_	_	10	comp:aux	_	_
-12	au	à+le	ADP	_	_	10	mod	_	_
-13	Mexique	Mexique	PROPN	_	_	12	comp:obj	_	_
-14	est	être	AUX	_	_	5	comp:obj	_	_
-15	quand	quand	PRON	_	_	14	mod	_	_
-16	même	même	ADV	_	_	15	unk@fixed	_	_
-17	un	un	DET	_	_	18	det@fixed	_	_
-18	peu	peu	NOUN	_	EXTPOS=ADV	19	mod	_	EXTPOS=ADV
-19	plus	plus	ADV	_	_	20	mod	_	_
-20	contagieuse	contagieux	ADJ	_	_	14	comp:pred	_	_
-21	que	que	SCONJ	_	_	19	comp:obj	_	_
-22	euh	euh	INTJ	_	_	27	discourse	_	_
-23	on	on	PRON	_	_	24	subj	_	_
-24	aurait	avoir	AUX	_	_	21	comp:obj	_	_
-25	pu	pouvoir	VERB	DoubleAux	_	24	comp:aux	_	_
-26	l'	le	PRON	_	_	27	comp:obj	_	_
-27	espérer	espérer	VERB	DoubleAux	_	25	comp:obj@x	_	_
+1	aujourd'hui	aujourd'	ADV	_	_	3	mod	_	_
+2	on	on	PRON	_	_	3	subj	_	_
+3	sait	savoir	VERB	_	_	0	root	_	_
+4	que	que	SCONJ	_	_	3	comp:obj	_	_
+5	la	le	DET	_	_	7	det	_	_
+6	petite	petit	ADJ	_	_	7	mod	_	_
+7	souche	souche	NOUN	_	_	13	subj	_	_
+8	qui	qui	PRON	_	_	9	subj	_	_
+9	a	avoir	AUX	_	_	7	mod@relcl	_	_
+10	émergé	émerger	VERB	_	_	9	comp:aux	_	_
+11	au	à+le	ADP	_	_	9	mod	_	_
+12	Mexique	Mexique	PROPN	_	_	11	comp:obj	_	_
+13	est	être	AUX	_	_	4	comp:obj	_	_
+14	quand	quand	PRON	_	_	13	mod	_	_
+15	même	même	ADV	_	_	14	unk@fixed	_	_
+16	un	un	DET	_	_	17	det@fixed	_	_
+17	peu	peu	NOUN	_	EXTPOS=ADV	18	mod	_	EXTPOS=ADV
+18	plus	plus	ADV	_	_	19	mod	_	_
+19	contagieuse	contagieux	ADJ	_	_	13	comp:pred	_	_
+20	que	que	SCONJ	_	_	18	comp:obj	_	_
+21	euh	euh	INTJ	_	_	26	discourse	_	_
+22	on	on	PRON	_	_	23	subj	_	_
+23	aurait	avoir	AUX	_	_	20	comp:obj	_	_
+24	pu	pouvoir	VERB	DoubleAux	_	23	comp:aux	_	_
+25	l'	le	PRON	_	_	26	comp:obj	_	_
+26	espérer	espérer	VERB	DoubleAux	_	24	comp:obj@x	_	_
 
 # macrosyntax = $L2 elle est plus contagieuse //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-135
@@ -7144,27 +7135,26 @@
 # macrosyntax = ^et aujourd'hui <+ dans sa première journée <+ il fait de la belle-mère de Pierre une des toutes premières disciples //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-12
 # text = et aujourd' hui dans sa première journée il fait de la belle - mère de Pierre une des toutes premières disciples
-1	et	et	CCONJ	_	_	9	cc	_	_
-2	aujourd'	aujourd'	ADV	_	_	9	mod	_	_
-3	hui	hui	ADV	_	_	2	unk@fixed	_	_
-4	dans	dans	ADP	_	_	9	mod	_	_
-5	sa	son	DET	_	_	7	det	_	_
-6	première	premier	ADJ	_	_	7	mod	_	_
-7	journée	journée	NOUN	_	_	4	comp:obj	_	_
-8	il	il	PRON	_	_	9	subj	_	_
-9	fait	faire	VERB	_	_	0	root	_	_
-10	de	de	ADP	_	_	9	comp:obl	_	_
-11	la	le	DET	_	_	14	det	_	_
-12	belle	belle	ADJ	_	_	14	compound	_	_
-13	-	-	PUNCT	_	_	12	punct	_	_
-14	mère	mère	NOUN	_	_	10	comp:obj	_	_
-15	de	de	ADP	_	_	14	mod	_	_
-16	Pierre	Pierre	PROPN	_	_	15	comp:obj	_	_
-17	une	un	PRON	_	_	9	comp:obj	_	_
-18	des	de+le	ADP	_	_	17	comp:obl	_	_
-19	toutes	tout	ADJ	_	_	21	mod	_	_
-20	premières	premier	ADJ	_	_	21	mod	_	_
-21	disciples	disciple	NOUN	_	_	18	comp:obj	_	_
+1	et	et	CCONJ	_	_	8	cc	_	_
+2	aujourd'hui	aujourd'	ADV	_	_	8	mod	_	_
+3	dans	dans	ADP	_	_	8	mod	_	_
+4	sa	son	DET	_	_	6	det	_	_
+5	première	premier	ADJ	_	_	6	mod	_	_
+6	journée	journée	NOUN	_	_	3	comp:obj	_	_
+7	il	il	PRON	_	_	8	subj	_	_
+8	fait	faire	VERB	_	_	0	root	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
+10	la	le	DET	_	_	13	det	_	_
+11	belle	belle	ADJ	_	_	13	compound	_	_
+12	-	-	PUNCT	_	_	11	punct	_	_
+13	mère	mère	NOUN	_	_	9	comp:obj	_	_
+14	de	de	ADP	_	_	13	mod	_	_
+15	Pierre	Pierre	PROPN	_	_	14	comp:obj	_	_
+16	une	un	PRON	_	_	8	comp:obj	_	_
+17	des	de+le	ADP	_	_	16	comp:obl	_	_
+18	toutes	tout	ADJ	_	_	20	mod	_	_
+19	premières	premier	ADJ	_	_	20	mod	_	_
+20	disciples	disciple	NOUN	_	_	17	comp:obj	_	_
 
 # macrosyntax = { l'évangile | la bonne nouvelle ( comme le répète l'apôtre Paul // ) | la bonne nouvelle en la personne de Jésus } < c'est ( d'abord ) { une action //+ | une action pour restaurer la dignité de la personne humaine //+ | une action pour rétablir la personne en sa qualité de sujet de parole //+ | une action pour rétablir { les uns | ^et les autres } dans les relations { avec les uns | ^et avec les autres } } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-13
@@ -7321,11 +7311,10 @@
 21	message	message	NOUN	conj:reform	_	2	conj:dicto	_	_
 22	s'	se	PRON	_	_	23	comp@fixed	_	_
 23	inscrit	inscrire	VERB	_	_	0	root	_	_
-24	aujourd'	aujourd'	NOUN	_	_	23	mod	_	_
-25	hui	hui	NOUN	_	_	24	unk@fixed	_	_
-26	dans	dans	ADP	_	_	23	mod	_	_
-27	sa	son	DET	_	_	28	det	_	_
-28	personne	personne	NOUN	_	_	26	comp:obj	_	_
+24	aujourd'hui	aujourd'	NOUN	_	_	23	mod	_	_
+25	dans	dans	ADP	_	_	23	mod	_	_
+26	sa	son	DET	_	_	27	det	_	_
+27	personne	personne	NOUN	_	_	25	comp:obj	_	_
 
 # macrosyntax = il trouve sa traduction en action dans ses gestes de libération //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-17
@@ -7346,26 +7335,25 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-18
 # text = plus encore dans l' évangile d' aujourd' hui Jésus s' accorde le pouvoir de guérir et de chasser les esprits mauvais
 1	plus	plus	ADV	_	_	2	mod	_	_
-2	encore	encore	ADV	_	_	11	mod	_	_
-3	dans	dans	ADP	_	_	11	mod	_	_
+2	encore	encore	ADV	_	_	10	mod	_	_
+3	dans	dans	ADP	_	_	10	mod	_	_
 4	l'	le	DET	_	_	5	det	_	_
 5	évangile	évangile	NOUN	_	_	3	comp:obj	_	_
 6	d'	de	ADP	_	_	5	mod	_	_
-7	aujourd'	aujourd'	NOUN	_	_	6	comp:obj	_	_
-8	hui	hui	NOUN	_	_	7	unk@fixed	_	_
-9	Jésus	Jésus	PROPN	_	_	11	subj	_	_
-10	s'	se	PRON	_	_	11	comp@fixed	_	_
-11	accorde	accorder	VERB	_	_	0	root	_	_
-12	le	le	DET	_	_	13	det	_	_
-13	pouvoir	pouvoir	NOUN	_	_	11	comp:obj	_	_
-14	de	de	ADP	_	_	13	mod	_	_
-15	guérir	guérir	VERB	_	_	14	comp:obj	_	_
-16	et	et	CCONJ	_	_	17	cc	_	_
-17	de	de	ADP	_	_	14	conj:coord	_	_
-18	chasser	chasser	VERB	_	_	17	comp:obj	_	_
-19	les	le	DET	_	_	20	det	_	_
-20	esprits	esprits	NOUN	_	_	18	comp:obj	_	_
-21	mauvais	mauvais	ADJ	_	_	20	mod	_	_
+7	aujourd'hui	aujourd'	NOUN	_	_	6	comp:obj	_	_
+8	Jésus	Jésus	PROPN	_	_	10	subj	_	_
+9	s'	se	PRON	_	_	10	comp@fixed	_	_
+10	accorde	accorder	VERB	_	_	0	root	_	_
+11	le	le	DET	_	_	12	det	_	_
+12	pouvoir	pouvoir	NOUN	_	_	10	comp:obj	_	_
+13	de	de	ADP	_	_	12	mod	_	_
+14	guérir	guérir	VERB	_	_	13	comp:obj	_	_
+15	et	et	CCONJ	_	_	16	cc	_	_
+16	de	de	ADP	_	_	13	conj:coord	_	_
+17	chasser	chasser	VERB	_	_	16	comp:obj	_	_
+18	les	le	DET	_	_	19	det	_	_
+19	esprits	esprits	NOUN	_	_	17	comp:obj	_	_
+20	mauvais	mauvais	ADJ	_	_	19	mod	_	_
 
 # macrosyntax = il n'en appelle plus { ( comme on le faisait en son temps ) |} à Salomon {| >+ comme le faisaient des guérisseurs de son temps } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-19
@@ -8617,8 +8605,7 @@
 1	vous	vous	PRON	_	_	3	subj	_	_
 2	le	le	PRON	_	_	3	comp:obj	_	_
 3	regrettez	regretter	VERB	_	_	0	root	_	_
-4	aujourd'	aujourd'	NOUN	_	_	3	mod	_	_
-5	hui	hui	NOUN	_	_	4	unk@fixed	_	_
+4	aujourd'hui	aujourd'	NOUN	_	_	3	mod	_	_
 
 # macrosyntax = $L2 "ah" non //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-15
@@ -10347,17 +10334,16 @@
 # macrosyntax = aujourd'hui <+ "euh" je ne crois pas que ce serait possible //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-119
 # text = aujourd' hui euh je ne crois pas que ce serait possible
-1	aujourd'	aujourd'	ADV	_	_	6	mod	_	_
-2	hui	hui	ADV	_	_	1	unk@fixed	_	_
-3	euh	euh	INTJ	_	_	6	discourse	_	_
-4	je	je	PRON	_	_	6	subj	_	_
-5	ne	ne	ADV	_	_	6	mod	_	_
-6	crois	croire	VERB	_	_	0	root	_	_
-7	pas	pas	ADV	_	_	6	mod	_	_
-8	que	que	SCONJ	_	_	6	comp:obj	_	_
-9	ce	ce	PRON	_	_	10	subj	_	_
-10	serait	être	AUX	_	_	8	comp:obj	_	_
-11	possible	possible	ADJ	_	_	10	comp:pred	_	_
+1	aujourd'hui	aujourd'	ADV	_	_	5	mod	_	_
+2	euh	euh	INTJ	_	_	5	discourse	_	_
+3	je	je	PRON	_	_	5	subj	_	_
+4	ne	ne	ADV	_	_	5	mod	_	_
+5	crois	croire	VERB	_	_	0	root	_	_
+6	pas	pas	ADV	_	_	5	mod	_	_
+7	que	que	SCONJ	_	_	5	comp:obj	_	_
+8	ce	ce	PRON	_	_	9	subj	_	_
+9	serait	être	AUX	_	_	7	comp:obj	_	_
+10	possible	possible	ADJ	_	_	9	comp:pred	_	_
 
 # macrosyntax = ^mais à l'époque <+ "euh" personne ne savait que je n'avais jamais fait ce métier > sauf lui //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-120
@@ -10420,8 +10406,7 @@
 14	elle	il	PRON	_	_	16	subj	_	_
 15	l'	le	PRON	_	_	16	comp:pred	_	_
 16	est	être	AUX	_	_	13	comp:obj	_	_
-17	aujourd'	aujourd'	NOUN	_	_	16	mod	_	_
-18	hui	hui	NOUN	_	_	17	unk@fixed	_	_
+17	aujourd'hui	aujourd'	NOUN	_	_	16	mod	_	_
 
 # macrosyntax = $L1 c'est peut-être à ce moment-là que vous avez raté une autre carrière //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-124
@@ -11418,54 +11403,52 @@
 # macrosyntax = { demain | ^davantage ^qu' aujourd' hui } <+ je souhaite que l' Europe soit capable d' assurer sa sécurité de façon autonome //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-15
 # text = demain davantage qu' aujourd' hui je souhaite que l' Europe soit capable d' assurer sa sécurité de façon autonome
-1	demain	demain	ADV	_	_	7	mod	_	_
+1	demain	demain	ADV	_	_	6	mod	_	_
 2	davantage	davantage	ADV	_	_	1	mod	_	_
 3	qu'	que	SCONJ	_	_	1	mod	_	_
-4	aujourd'	aujourd'	NOUN	_	_	3	comp:obj	_	_
-5	hui	hui	NOUN	_	_	4	unk@fixed	_	_
-6	je	je	PRON	_	_	7	subj	_	_
-7	souhaite	souhaiter	VERB	_	_	0	root	_	_
-8	que	que	PRON	_	_	7	comp:obj	_	_
-9	l'	le	DET	_	_	10	det	_	_
-10	Europe	Europe	PROPN	_	_	11	subj	_	_
-11	soit	être	AUX	_	_	8	mod@relcl	_	_
-12	capable	capable	ADJ	_	_	11	comp:pred	_	_
-13	d'	de	ADP	_	_	11	mod	_	_
-14	assurer	assurer	VERB	_	_	13	comp:obj	_	_
-15	sa	son	DET	_	_	16	det	_	_
-16	sécurité	sécurité	NOUN	_	_	14	comp:obj	_	_
-17	de	de	ADP	_	_	14	mod	_	_
-18	façon	façon	NOUN	_	_	17	comp:obj	_	_
-19	autonome	autonome	ADJ	_	_	18	mod	_	_
+4	aujourd'hui	aujourd'	NOUN	_	_	3	comp:obj	_	_
+5	je	je	PRON	_	_	6	subj	_	_
+6	souhaite	souhaiter	VERB	_	_	0	root	_	_
+7	que	que	PRON	_	_	6	comp:obj	_	_
+8	l'	le	DET	_	_	9	det	_	_
+9	Europe	Europe	PROPN	_	_	10	subj	_	_
+10	soit	être	AUX	_	_	7	mod@relcl	_	_
+11	capable	capable	ADJ	_	_	10	comp:pred	_	_
+12	d'	de	ADP	_	_	10	mod	_	_
+13	assurer	assurer	VERB	_	_	12	comp:obj	_	_
+14	sa	son	DET	_	_	15	det	_	_
+15	sécurité	sécurité	NOUN	_	_	13	comp:obj	_	_
+16	de	de	ADP	_	_	13	mod	_	_
+17	façon	façon	NOUN	_	_	16	comp:obj	_	_
+18	autonome	autonome	ADJ	_	_	17	mod	_	_
 
 # macrosyntax = alors < si la France pèse aujourd' hui sur la scène internationale < il lui faut un outil de défense adapté à la hauteur de ses ambitions //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-16
 # text = alors si la France pèse aujourd' hui sur la scène internationale il lui faut un outil de défense adapté à la hauteur de ses ambitions
-1	alors	alors	ADV	_	_	14	discourse	_	_
-2	si	si	SCONJ	_	_	14	mod	_	_
+1	alors	alors	ADV	_	_	13	discourse	_	_
+2	si	si	SCONJ	_	_	13	mod	_	_
 3	la	le	DET	_	_	4	det	_	_
 4	France	France	PROPN	_	_	5	subj	_	_
 5	pèse	peser	VERB	_	_	2	comp:obj	_	_
-6	aujourd'	aujourd'	NOUN	_	_	5	mod	_	_
-7	hui	hui	NOUN	_	_	6	unk@fixed	_	_
-8	sur	sur	ADP	_	_	5	mod	_	_
-9	la	le	DET	_	_	10	det	_	_
-10	scène	scène	NOUN	_	_	8	comp:obj	_	_
-11	internationale	international	ADJ	_	_	10	mod	_	_
-12	il	il	PRON	_	_	14	subj	_	_
-13	lui	lui	PRON	_	_	14	comp:obl	_	_
-14	faut	falloir	VERB	_	_	0	root	_	_
-15	un	un	DET	_	_	16	det	_	_
-16	outil	outil	NOUN	_	_	14	comp:obj	_	_
-17	de	de	ADP	_	_	16	mod	_	_
-18	défense	défense	NOUN	_	_	17	comp:obj	_	_
-19	adapté	adapter	VERB	_	_	16	mod	_	_
-20	à	à	ADP	_	_	19	comp:obl	_	_
-21	la	le	DET	_	_	22	det	_	_
-22	hauteur	hauteur	NOUN	_	_	20	comp:obj	_	_
-23	de	de	ADP	_	_	22	mod	_	_
-24	ses	son	DET	_	_	25	det	_	_
-25	ambitions	ambition	NOUN	_	_	23	comp:obj	_	_
+6	aujourd'hui	aujourd'	NOUN	_	_	5	mod	_	_
+7	sur	sur	ADP	_	_	5	mod	_	_
+8	la	le	DET	_	_	9	det	_	_
+9	scène	scène	NOUN	_	_	7	comp:obj	_	_
+10	internationale	international	ADJ	_	_	9	mod	_	_
+11	il	il	PRON	_	_	13	subj	_	_
+12	lui	lui	PRON	_	_	13	comp:obl	_	_
+13	faut	falloir	VERB	_	_	0	root	_	_
+14	un	un	DET	_	_	15	det	_	_
+15	outil	outil	NOUN	_	_	13	comp:obj	_	_
+16	de	de	ADP	_	_	15	mod	_	_
+17	défense	défense	NOUN	_	_	16	comp:obj	_	_
+18	adapté	adapter	VERB	_	_	15	mod	_	_
+19	à	à	ADP	_	_	18	comp:obl	_	_
+20	la	le	DET	_	_	21	det	_	_
+21	hauteur	hauteur	NOUN	_	_	19	comp:obj	_	_
+22	de	de	ADP	_	_	21	mod	_	_
+23	ses	son	DET	_	_	24	det	_	_
+24	ambitions	ambition	NOUN	_	_	22	comp:obj	_	_
 
 # macrosyntax = c' est aussi là l' intérêt fondamental { de l' Europe | ^et de nos partenaires } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-17
@@ -11488,31 +11471,30 @@
 # macrosyntax = { aujourd' hui | ^plus ^que jamais } ( ^et vous le savez mieux que personne // ) <+ c' est sur le terrain que { se gagne | ^ou se perd } le combat //=
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-18
 # text = aujourd' hui plus que jamais et vous le savez mieux que personne c' est sur le terrain que se gagne ou se perd le combat
-1	aujourd'	aujourd'	NOUN	_	_	17	mod	_	_
-2	hui	hui	NOUN	_	_	1	unk@fixed	_	_
-3	plus	plus	ADV	_	_	5	cc	_	_
-4	que	que	SCONJ	_	_	3	unk@fixed	_	_
-5	jamais	jamais	ADV	_	_	1	conj:coord	_	_
-6	et	et	CCONJ	_	_	9	cc	_	_
-7	vous	vous	PRON	_	_	9	subj	_	_
-8	le	le	PRON	_	_	9	comp:obj	_	_
-9	savez	savoir	VERB	_	_	1	parataxis:parenth	_	_
-10	mieux	mieux	ADV	_	_	9	mod	_	_
-11	que	que	SCONJ	_	_	10	mod	_	_
-12	personne	personne	PRON	_	_	11	comp:obj	_	_
-13	c'	ce	PRON	_	_	14	subj@expl	_	_
-14	est	être	AUX	_	_	0	root	_	_
-15	sur	sur	ADP	_	_	14	comp:pred	_	_
-16	le	le	DET	_	_	17	det	_	_
-17	terrain	terrain	NOUN	_	_	15	comp:obj	_	_
-18	que	que	SCONJ	_	_	14	comp:cleft	_	_
-19	se	se	PRON	_	_	20	comp@fixed	_	_
-20	gagne	gagner	VERB	_	_	18	comp:obj	_	_
-21	ou	ou	CCONJ	_	_	23	cc	_	_
-22	se	se	PRON	_	_	23	comp@fixed	_	_
-23	perd	perdre	VERB	_	_	20	conj:coord	_	_
-24	le	le	DET	_	_	25	det	_	_
-25	combat	combat	NOUN	_	_	23	subj	_	_
+1	aujourd'hui	aujourd'	NOUN	_	_	16	mod	_	_
+2	plus	plus	ADV	_	_	4	cc	_	_
+3	que	que	SCONJ	_	_	2	unk@fixed	_	_
+4	jamais	jamais	ADV	_	_	1	conj:coord	_	_
+5	et	et	CCONJ	_	_	8	cc	_	_
+6	vous	vous	PRON	_	_	8	subj	_	_
+7	le	le	PRON	_	_	8	comp:obj	_	_
+8	savez	savoir	VERB	_	_	1	parataxis:parenth	_	_
+9	mieux	mieux	ADV	_	_	8	mod	_	_
+10	que	que	SCONJ	_	_	9	mod	_	_
+11	personne	personne	PRON	_	_	10	comp:obj	_	_
+12	c'	ce	PRON	_	_	13	subj@expl	_	_
+13	est	être	AUX	_	_	0	root	_	_
+14	sur	sur	ADP	_	_	13	comp:pred	_	_
+15	le	le	DET	_	_	16	det	_	_
+16	terrain	terrain	NOUN	_	_	14	comp:obj	_	_
+17	que	que	SCONJ	_	_	13	comp:cleft	_	_
+18	se	se	PRON	_	_	19	comp@fixed	_	_
+19	gagne	gagner	VERB	_	_	17	comp:obj	_	_
+20	ou	ou	CCONJ	_	_	22	cc	_	_
+21	se	se	PRON	_	_	22	comp@fixed	_	_
+22	perd	perdre	VERB	_	_	19	conj:coord	_	_
+23	le	le	DET	_	_	24	det	_	_
+24	combat	combat	NOUN	_	_	22	subj	_	_
 
 # macrosyntax = c' est sur le terrain { qu' une nation affirme son influence | qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-19

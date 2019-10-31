@@ -5795,16 +5795,15 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	sais	savoir	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	bien	bien	NOUN	_	_	9	subj@caus	_	_
+4	bien	bien	NOUN	_	_	8	subj@caus	_	_
 5	des	de+le	ADP	_	_	4	mod	_	_
 6	tragédies	tragédie	NOUN	_	_	5	comp:obj	_	_
-7	aujourd'	aujourd'	NOUN	_	_	9	mod	_	_
-8	hui	hui	NOUN	_	_	7	unk@fixed	_	_
-9	font	faire	AUX	_	_	3	comp:obj	_	_
-10	douter	douter	VERB	_	_	9	comp:aux@caus	_	_
-11	de	de	ADP	_	_	10	comp:obl	_	_
-12	cette	ce	DET	_	_	13	det	_	_
-13	espérance	espérance	NOUN	_	_	11	comp:obj	_	_
+7	aujourd'hui	aujourd'	NOUN	_	_	8	mod	_	_
+8	font	faire	AUX	_	_	3	comp:obj	_	_
+9	douter	douter	VERB	_	_	8	comp:aux@caus	_	_
+10	de	de	ADP	_	_	9	comp:obl	_	_
+11	cette	ce	DET	_	_	12	det	_	_
+12	espérance	espérance	NOUN	_	_	10	comp:obj	_	_
 
 # macrosyntax = pourtant < de plus en plus < les nations s'accordent { pour mieux faire respecter les droits de l'Homme | pour défendre { la liberté | ^et la dignité humaine } } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2004-28
