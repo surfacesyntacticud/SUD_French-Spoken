@@ -441,9 +441,9 @@
 21	vraiment	vraiment	ADV	_	_	16	mod	_	_
 22	ce	ce	PRON	_	_	19	comp:obj	_	_
 23	que	que	PRON	_	_	25	comp:pred	_	_
-24	c'	ce	PRON	_	_	_	_	_	_
+24	c'	ce	PRON	_	_	25	subj@expl	_	_
 25	était	être	AUX	_	_	22	mod	_	_
-26	que	que	SCONJ	_	_	25|25	comp:cleft|subj@expl	_	_
+26	que	que	SCONJ	_	_	25	comp:cleft	_	_
 27	l'	le	DET	_	_	28	det	_	_
 28	argent	argent	NOUN	_	_	26	comp:obj	_	_
 
@@ -548,12 +548,12 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D0006-22
 # text = ben c' est moi qui les ai payés
 1	ben	ben	INTJ	_	_	3	discourse	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	moi	lui	PRON	_	_	3	comp:pred	_	_
 5	qui	qui	PRON	_	_	7	subj	_	_
 6	les	le	PRON	_	_	8	comp:obj	_	_
-7	ai	avoir	AUX	_	_	3|3	comp:cleft|subj@expl	_	_
+7	ai	avoir	AUX	_	_	3	comp:cleft	_	_
 8	payés	payer	VERB	_	_	7	comp:aux	_	_
 
 # macrosyntax = $L2 ^et c'est des principes éducatifs des parents //
@@ -572,11 +572,11 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D0006-24
 # text = ou c' est vous qui avez dit bon quand - même
 1	ou	ou	CCONJ	_	_	3	cc	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	vous	lui	PRON	_	_	3	comp:pred	_	_
 5	qui	qui	PRON	_	_	6	subj	_	_
-6	avez	avoir	AUX	_	_	3|3	comp:cleft|subj@expl	_	_
+6	avez	avoir	AUX	_	_	3	comp:cleft	_	_
 7	dit	dire	VERB	_	_	6	comp:aux	_	_
 8	bon	bon	INTJ	_	_	7	comp:obj	_	_
 9	quand-même	quand	ADV	_	_	3	mod	_	_
@@ -896,12 +896,12 @@
 6	vraie	vrai	ADJ	_	_	7	mod	_	_
 7	médecine	médecine	NOUN	_	_	10	dislocated	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	c'	ce	PRON	_	_	_	_	_	_
+9	c'	ce	PRON	_	_	10	subj@expl	_	_
 10	est	être	AUX	_	_	0	root	_	_
 11	à	à	ADP	_	_	10	comp:pred	_	_
 12	l'	le	DET	_	_	13	det	_	_
 13	hôpital	hôpital	NOUN	_	_	11	comp:obj	_	_
-14	qu'	que	SCONJ	_	_	10|10	comp:cleft|subj@expl	_	_
+14	qu'	que	SCONJ	_	_	10	comp:cleft	_	_
 15	on	on	PRON	_	_	14	comp:obj	_	_
 16	qu'	que	SCONJ	_	_	14	conj:dicto	_	_
 17	on	on	PRON	_	_	19	subj	_	_
@@ -1029,7 +1029,7 @@
 2	est	être	AUX	_	_	0	root	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
 4	est	être	AUX	conj:reform	_	2	conj:dicto	_	_
-5	c'	ce	PRON	_	_	_	_	_	_
+5	c'	ce	PRON	_	_	6	subj@expl	_	_
 6	est	être	AUX	_	_	4	conj:dicto	_	_
 7	surtout	surtout	ADV	_	_	6	mod	_	_
 8	l'	le	DET	_	_	9	det	_	_
@@ -1037,7 +1037,7 @@
 10	public	public	ADJ	_	_	9	mod	_	_
 11	qui	qui	PRON	_	_	13	subj	_	_
 12	m'	me	PRON	_	_	13	comp:obj	_	_
-13	attire	attirer	VERB	_	_	6|6	comp:cleft|subj@expl	_	_
+13	attire	attirer	VERB	_	_	6	comp:cleft	_	_
 
 # macrosyntax = $L2 { votre | vos } camarades sont à peu près sur la même longueur d'ondes //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D0006-54
@@ -1579,12 +1579,12 @@
 12	sais	savoir	VERB	_	_	10	parataxis:parenth	_	_
 13	pas	pas	ADV	_	_	12	mod	_	_
 14	si	si	SCONJ	_	_	12	comp:obj	_	_
-15	c'	ce	PRON	_	_	_	_	_	_
+15	c'	ce	PRON	_	_	16	subj@expl	_	_
 16	est	être	AUX	_	_	14	comp:obj	_	_
 17	ça	ça	PRON	_	_	16	comp:pred	_	_
 18	qui	qui	PRON	_	_	20	subj	_	_
 19	vous	vous	PRON	_	_	20	comp:obj	_	_
-20	intéresse	intéresser	VERB	_	_	16|16	comp:cleft|subj@expl	_	_
+20	intéresse	intéresser	VERB	_	_	16	comp:cleft	_	_
 21	petit	petit	ADJ	_	_	22	det	_	_
 22	peu	peu	NOUN	_	_	23	mod	_	_
 23	moins	moins	ADV	_	_	10	conj:dicto	_	_
@@ -2198,7 +2198,7 @@
 # macrosyntax = c'est dans un contexte pour le moins tendu que le chef de l'État réunit { syndicats | ^et patronat } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2006-19
 # text = c' est dans un contexte pour le moins tendu que le chef de l' État réunit syndicats et patronat
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	dans	dans	ADP	_	_	2	comp:aux	_	_
 4	un	un	DET	_	_	5	det	_	_
@@ -2207,7 +2207,7 @@
 7	le	le	DET	_	_	8	det	_	_
 8	moins	moins	ADV	_	_	6	comp:obj	_	_
 9	tendu	tendre	ADJ	_	_	5	mod	_	_
-10	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+10	que	que	SCONJ	_	_	2	comp:cleft	_	_
 11	le	le	DET	_	_	12	det	_	_
 12	chef	chef	NOUN	_	_	16	subj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
@@ -3658,12 +3658,12 @@
 1	parce	parce	SCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	souvent	souvent	ADV	_	_	5	mod	_	_
-4	c'	ce	PRON	_	_	_	_	_	_
+4	c'	ce	PRON	_	_	5	subj@expl	_	_
 5	était	être	AUX	_	_	1	comp:obj	_	_
 6	les	le	DET	_	_	7	det	_	_
 7	Portugais	Portugais	PROPN	_	_	5	comp:pred	_	_
 8	qui	qui	PRON	_	_	9	subj	_	_
-9	venaient	venir	VERB	_	_	5|5	comp:cleft|subj@expl	_	_
+9	venaient	venir	VERB	_	_	5	comp:cleft	_	_
 10	dans	dans	ADP	_	_	9	comp:obl	_	_
 11	le	le	DET	_	_	13	det	_	_
 12	le	le	DET	conj:reform	_	11	conj:dicto	_	_
@@ -3782,9 +3782,9 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D1003-37
 # text = et c' est ensuite quand je suis partie partie en en première L que je me suis rendu compte qu' en fait c' était un un un un super enfin une super expérience
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	ensuite	ensuite	ADV	_	_	3	comp:obl	_	_
+4	ensuite	ensuite	ADV	_	_	3	comp:pred	_	_
 5	quand	quand	SCONJ	_	_	4	conj:appos	_	_
 6	je	je	PRON	_	_	7	subj	_	_
 7	suis	être	AUX	_	_	5	comp:obj	_	_
@@ -3794,7 +3794,7 @@
 11	en	en	ADP	_	_	10	comp:obj	_	_
 12	première	premier	NOUN	_	_	11	comp:obj	_	_
 13	L	L	PROPN	_	_	12	mod@appos	_	_
-14	que	que	SCONJ	_	_	3|3	comp:cleft|subj@expl	_	_
+14	que	que	SCONJ	_	_	3	comp:cleft	_	_
 15	je	je	PRON	_	_	17	subj	_	_
 16	me	me	PRON	_	_	18	comp@fixed	_	_
 17	suis	être	AUX	_	_	14	comp:obj	_	_
@@ -3884,11 +3884,11 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	6	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
-4	c'	ce	PRON	_	_	_	_	_	_
+4	c'	ce	PRON	_	_	5	subj@expl	_	_
 5	est	être	AUX	_	_	0	root	_	_
-6	pour	pour	ADP	_	_	5	comp:obl	_	_
+6	pour	pour	ADP	_	_	5	comp:pred	_	_
 7	ça	ça	PRON	_	_	6	comp:obj	_	_
-8	qu'	que	SCONJ	_	_	5|5	comp:cleft|subj@expl	_	_
+8	qu'	que	SCONJ	_	_	5	comp:cleft	_	_
 9	aujourd'	aujourd'	NOUN	_	_	14	mod	_	_
 10	hui	hui	NOUN	_	_	9	unk@fixed	_	_
 11	je	je	PRON	_	_	12	subj	_	_
@@ -4609,7 +4609,7 @@
 6	suis	être	AUX	_	_	0	root	_	_
 7	demandé	demander	VERB	_	_	6	comp:aux	_	_
 8	si	si	SCONJ	_	_	7	comp:obj	_	_
-9	c'	ce	PRON	_	_	_	_	_	_
+9	c'	ce	PRON	_	_	10	subj@expl	_	_
 10	était	être	AUX	_	_	8	comp:obj	_	_
 11	pas	pas	ADV	_	_	10	mod	_	_
 12	des	un	DET	de	_	14	det	_	_
@@ -4617,7 +4617,7 @@
 14	vers	vers	NOUN	_	_	10	comp:pred	_	_
 15	qui	qui	PRON	_	_	17	subj	_	_
 16	s'	se	PRON	_	_	18	comp@fixed	_	_
-17	étaient	être	AUX	_	_	10|10	comp:cleft|subj@expl	_	_
+17	étaient	être	AUX	_	_	10	comp:cleft	_	_
 18	introduits	introduire	VERB	_	_	17	comp:aux	_	_
 19	dedans	dedans	ADV	_	_	18	comp:obl	_	_
 
@@ -5323,11 +5323,11 @@
 6	est	être	AUX	_	_	1	conj:dicto	_	_
 7	-ce	ce	PRON	_	_	6	subj@expl	_	_
 8	que	que	SCONJ	_	_	6	comp:pred	_	_
-9	c'	ce	PRON	_	_	_	_	_	_
+9	c'	ce	PRON	_	_	10	subj@expl	_	_
 10	est	être	AUX	_	_	8	comp:obj	_	_
 11	moi	moi	PRON	_	_	10	comp:pred	_	_
 12	qui	qui	PRON	_	_	13	subj	_	_
-13	p~	p~	VERB	_	_	10|10	comp:cleft|subj@expl	_	_
+13	p~	p~	VERB	_	_	10	comp:cleft	_	_
 14	est	être	AUX	_	_	0	root	_	_
 15	-ce	ce	PRON	_	_	14	subj@expl	_	_
 16	que	que	SCONJ	_	_	14	comp:pred	_	_
@@ -6875,11 +6875,11 @@
 # text = un mois c' est pour ça que ça s' appelle radio Timsit quoi
 1	un	un	DET	_	_	2	det	_	_
 2	mois	mois	NOUN	_	_	0	root	_	_
-3	c'	ce	PRON	_	_	_	_	_	_
+3	c'	ce	PRON	_	_	4	subj@expl	_	_
 4	est	être	AUX	_	_	0	root	_	_
-5	pour	pour	ADP	_	_	4	comp:obl	_	_
+5	pour	pour	ADP	_	_	4	comp:pred	_	_
 6	ça	ça	PRON	_	_	5	comp:obj	_	_
-7	que	que	SCONJ	_	_	4|4	comp:cleft|subj@expl	_	_
+7	que	que	SCONJ	_	_	4	comp:cleft	_	_
 8	ça	ça	PRON	_	_	10	subj	_	_
 9	s'	se	PRON	_	_	10	comp@fixed	_	_
 10	appelle	appeler	VERB	_	_	7	comp:obj	_	_
@@ -7073,11 +7073,11 @@
 # macrosyntax = c'est $- $L1 pour ça que c'était ( $L3 ouais // ) -$ $L1 pas de la radio //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2007-24
 # text = c' est pour ça que c' était ouais pas de la radio
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	pour	pour	ADP	_	_	2	comp:obl	_	_
+3	pour	pour	ADP	_	_	2	comp:pred	_	_
 4	ça	ça	PRON	_	_	3	comp:obj	_	_
-5	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+5	que	que	SCONJ	_	_	2	comp:cleft	_	_
 6	c'	ce	PRON	_	_	7	subj	_	_
 7	était	être	VERB	_	_	5	comp:obj	_	_
 8	ouais	ouais	INTJ	_	_	9	discourse	_	_
@@ -7739,11 +7739,11 @@
 # macrosyntax = $L1 oui // c'est ça qui est terrible //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2007-81
 # text = c' est ça qui est terrible
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	ça	ça	PRON	_	_	2	comp:pred	_	_
 4	qui	qui	PRON	_	_	5	subj	_	_
-5	est	être	AUX	_	_	2|2	comp:cleft|subj@expl	_	_
+5	est	être	AUX	_	_	2	comp:cleft	_	_
 6	terrible	terrible	ADJ	_	_	5	comp:pred	_	_
 
 # macrosyntax = $L3 je croyais que le fait de t'habiller comme moi te rendrait plus sincère //
@@ -8925,15 +8925,15 @@
 # macrosyntax = c'est pas en révolte avec mon environnement que j'ai voulu ça "non" //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2005-30
 # text = c' est pas en révolte avec mon environnement que j' ai voulu ça non
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
-4	en	en	ADP	_	_	2	comp:obl	_	_
+4	en	en	ADP	_	_	2	comp:pred	_	_
 5	révolte	révolte	NOUN	_	_	4	comp:obj	_	_
 6	avec	avec	ADP	_	_	5	mod	_	_
 7	mon	son	DET	_	_	8	det	_	_
 8	environnement	environnement	NOUN	_	_	6	comp:obj	_	_
-9	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+9	que	que	SCONJ	_	_	2	comp:cleft	_	_
 10	j'	je	PRON	_	_	11	subj	_	_
 11	ai	avoir	AUX	_	_	9	comp:obj	_	_
 12	voulu	vouloir	VERB	_	_	11	comp:aux	_	_
@@ -11497,15 +11497,15 @@
 2	bien	bien	ADV	_	_	7	mod	_	_
 3	sûr	sûr	ADJ	_	_	2	unk@fixed	_	_
 4	donc	donc	ADV	_	_	2	discourse	_	_
-5	c'	ce	PRON	_	_	_	_	_	_
+5	c'	ce	PRON	_	_	6	subj@expl	_	_
 6	est	être	AUX	_	_	0	root	_	_
-7	pour	pour	ADP	_	_	6	comp:obl	_	_
+7	pour	pour	ADP	_	_	6	comp:pred	_	_
 8	ça	ça	PRON	_	_	7	comp:obj	_	_
 9	bien	bien	ADV	_	_	8	discourse	_	_
 10	sûr	sûr	ADJ	_	_	9	unk@fixed	_	_
 11	bien	bien	ADV	_	_	9	conj:dicto	_	_
 12	sûr	sûr	ADJ	_	_	11	unk@fixed	_	_
-13	que	que	SCONJ	_	_	6|6	comp:cleft|subj@expl	_	_
+13	que	que	SCONJ	_	_	6	comp:cleft	_	_
 14	je	je	PRON	_	_	15	subj	_	_
 15	parlais	parler	VERB	_	_	13	comp:obj	_	_
 16	oui	oui	INTJ	_	_	15	discourse	_	_

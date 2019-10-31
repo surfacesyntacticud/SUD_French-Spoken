@@ -208,11 +208,11 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2011-7
 # text = voilà c' est ça qui est incroyable effectivement
 1	voilà	voilà	VERB	DISCOURSE	_	3	discourse	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	ça	ça	PRON	_	_	3	comp:pred	_	_
 5	qui	qui	PRON	_	_	6	subj	_	_
-6	est	être	AUX	_	_	3|3	comp:cleft|subj@expl	_	_
+6	est	être	AUX	_	_	3	comp:cleft	_	_
 7	incroyable	incroyable	ADJ	_	_	6	comp:pred	_	_
 8	effectivement	effectivement	ADV	_	_	3	mod	_	_
 
@@ -794,10 +794,10 @@
 1	alors	alors	ADV	_	_	2	discourse	_	_
 2	qu'	qu'	PRON	_	_	3	comp:pred	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	-ce	ce	PRON	_	_	_	_	_	_
+4	-ce	ce	PRON	_	_	3	subj@expl	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	_
 6	on	on	PRON	_	_	7	subj	_	_
-7	peut	pouvoir	VERB	_	_	3|3	comp:cleft|subj@expl	_	_
+7	peut	pouvoir	VERB	_	_	3	comp:cleft	_	_
 8	dire	dire	VERB	_	_	7	comp:obj@x	_	_
 9	en	en	ADP	_	_	7	mod	_	_
 10	conclusion	conclusion	NOUN	_	_	9	comp:obj	_	_
@@ -876,10 +876,10 @@
 # text = qu' est - ce qu' c' est
 1	qu'	qu'	PRON	_	_	2	comp:pred	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	-ce	ce	PRON	_	_	_	_	_	_
+3	-ce	ce	PRON	_	_	2	subj@expl	_	_
 4	qu'	que	PRON	_	_	6	comp:pred	_	_
 5	c'	ce	PRON	_	_	6	subj	_	_
-6	est	être	AUX	_	_	2|2	comp:cleft|subj@expl	_	_
+6	est	être	AUX	_	_	2	comp:cleft	_	_
 
 # macrosyntax = $L1 alors < -$ $- $L1 "eh bah" tout simplement ESPERLUETTE //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2011-59
@@ -1177,11 +1177,11 @@
 # text = qu' est - ce qu' vous en pensez de la boule magique
 1	qu'	qu'	PRON	_	_	2	comp:pred	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	-ce	ce	PRON	_	_	_	_	_	_
+3	-ce	ce	PRON	_	_	2	subj@expl	_	_
 4	qu'	que	SCONJ	_	_	7	comp:obj	_	_
 5	vous	vous	PRON	_	_	7	subj	_	_
 6	en	en	PRON	_	_	7	mod	_	_
-7	pensez	penser	VERB	_	_	2|2	comp:cleft|subj@expl	_	_
+7	pensez	penser	VERB	_	_	2	comp:cleft	_	_
 8	de	de	ADP	_	_	7	mod	_	_
 9	la	le	DET	_	_	10	det	_	_
 10	boule	boule	NOUN	_	_	8	comp:obj	_	_
@@ -1742,7 +1742,7 @@
 # macrosyntax = $- $L2 c'est mon éditeur ( $L1 mais ESPERLUETTE // ) -$ $L2 qui me l'a dit //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-15
 # text = c' est mon éditeur mais qui me l' a dit
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	mon	son	DET	_	_	4	det	_	_
 4	éditeur	éditeur	NOUN	_	_	2	comp:pred	_	_
@@ -1750,7 +1750,7 @@
 6	qui	qui	PRON	_	_	9	subj	_	_
 7	me	me	PRON	_	_	10	comp:obl	_	_
 8	l'	le	PRON	_	_	10	comp:obj	_	_
-9	a	avoir	AUX	_	_	2|2	comp:cleft|subj@expl	_	_
+9	a	avoir	AUX	_	_	2	comp:cleft	_	_
 10	dit	dire	VERB	_	_	9	comp:aux	_	_
 
 # macrosyntax = $L1 "ah" oui "bon" //
@@ -2015,7 +2015,7 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-38
 # text = ben c' est l' habitude de la critique qui fait que un livre est toujours pris un peu comme une certaine culpabilité
 1	ben	ben	INTJ	_	_	3	discourse	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	l'	le	DET	_	_	5	det	_	_
 5	habitude	habitude	NOUN	_	_	3	comp:pred	_	_
@@ -2023,7 +2023,7 @@
 7	la	le	DET	_	_	8	det	_	_
 8	critique	critique	NOUN	_	_	6	comp:obj	_	_
 9	qui	qui	PRON	_	_	10	subj	_	_
-10	fait	faire	VERB	_	_	3|3	comp:cleft|subj@expl	_	_
+10	fait	faire	VERB	_	_	3	comp:cleft	_	_
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
 12	un	un	DET	_	_	13	det	_	_
 13	livre	livre	NOUN	_	_	14	subj@pass	_	_
@@ -2758,11 +2758,11 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2010-91
 # text = mais c' est de là que tout est parti le fleuve une fois traversé
 1	mais	mais	CCONJ	_	_	3	cc	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	de	de	ADP	_	_	3	comp:obl	_	_
+4	de	de	ADP	_	_	3	comp:pred	_	_
 5	là	là	ADV	_	_	4	comp:obj	_	_
-6	que	que	SCONJ	_	_	3|3	comp:cleft|subj@expl	_	_
+6	que	que	SCONJ	_	_	3	comp:cleft	_	_
 7	tout	tout	PRON	_	_	8	subj	_	_
 8	est	être	AUX	_	_	6	comp:obj	_	_
 9	parti	partir	VERB	ETRE	_	8	comp:aux	_	_
@@ -3168,14 +3168,14 @@
 3	peut	pouvoir	VERB	_	_	0	root	_	_
 4	penser	penser	VERB	_	_	3	comp:obj@x	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
-6	c'	ce	PRON	_	_	_	_	_	_
+6	c'	ce	PRON	_	_	7	subj@expl	_	_
 7	est	être	AUX	_	_	5	comp:obj	_	_
 8	une	un	DET	_	_	9	det	_	_
 9	tradition	tradition	NOUN	_	_	7	comp:pred	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
 11	ici	ici	ADV	_	_	7	mod	_	_
 12	qui	qui	PRON	_	_	13	subj@pass	_	_
-13	est	être	AUX	_	_	7|7	comp:cleft|subj@expl	_	_
+13	est	être	AUX	_	_	7	comp:cleft	_	_
 14	représentée	représenter	VERB	_	_	13	comp:aux@pass	_	_
 
 # macrosyntax = on peut penser { que [ "euh" à l'époque de Szymanoski <+ on jouait ces préludes comme ça ] | que [ par exemple < { Neuhaus | le cousin de Szymanoski } les jouait "euh" de cette façon aussi ] } //
@@ -4106,12 +4106,12 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2012-47
 # text = et c' est dans cet esprit qu' est proposée par Szymanoski l' ouverture du concert son opus douze
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	dans	dans	ADP	_	_	3	comp:obl	_	_
+4	dans	dans	ADP	_	_	3	comp:pred	_	_
 5	cet	ce	DET	_	_	6	det	_	_
 6	esprit	esprit	NOUN	_	_	4	comp:obj	_	_
-7	qu'	que	SCONJ	_	_	3|3	comp:cleft|subj@expl	_	_
+7	qu'	que	SCONJ	_	_	3	comp:cleft	_	_
 8	est	être	AUX	_	_	7	comp:obj	_	_
 9	proposée	proposer	VERB	_	_	8	comp:aux@pass	_	_
 10	par	par	ADP	_	_	9	comp:obl	_	_
@@ -6017,10 +6017,10 @@
 6	été	été	NOUN	_	_	4	comp:obj	_	_
 7	qu'	qu'	PRON	_	_	8	comp:pred	_	_
 8	est	être	AUX	_	_	0	root	_	_
-9	-ce	ce	PRON	_	_	_	_	_	_
+9	-ce	ce	PRON	_	_	8	subj@expl	_	_
 10	qu'	que	SCONJ	_	_	12	comp:obj	_	_
 11	il	il	PRON	_	_	12	subj	_	_
-12	va	aller	VERB	ETRE	_	8|8	comp:cleft|subj@expl	_	_
+12	va	aller	VERB	ETRE	_	8	comp:cleft	_	_
 13	se	se	PRON	_	_	14	comp:obl	_	_
 14	passer	passer	VERB	ETRE	_	12	comp:obj@x	_	_
 15	l'	le	DET	_	_	16	det	_	_
@@ -6095,34 +6095,12 @@
 8	pays	pays	NOUN	_	_	6	comp:obj	_	_
 
 # macrosyntax = ^et chaque année <+ c'est un virus qui a fait le tour du monde qui nous revient "euh" //
-# sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-105_0
+# sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-105
 # text = et chaque année c' est un virus qui a fait le tour du monde qui nous revient euh
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	chaque	chaque	DET	_	_	3	det	_	_
 3	année	année	NOUN	_	_	5	mod	_	_
-4	c'	ce	PRON	_	_	_	_	_	_
-5	est	être	AUX	_	_	0	root	_	_
-6	un	un	DET	_	_	7	det	_	_
-7	virus	virus	NOUN	_	_	5	comp:pred	_	_
-8	qui	qui	PRON	_	_	9	subj	_	_
-9	a	avoir	AUX	_	_	5|5	comp:cleft|subj@expl	_	_
-10	fait	faire	VERB	_	_	9	comp:aux	_	_
-11	le	le	DET	_	_	12	det	_	_
-12	tour	tour	NOUN	_	_	10	comp:obj	_	_
-13	du	de+le	ADP	_	_	12	mod	_	_
-14	monde	monde	NOUN	_	_	13	comp:obj	_	_
-15	qui	qui	PRON	_	_	17	subj	_	_
-16	nous	nous	PRON	_	_	17	comp:obj	_	_
-17	revient	revenir	VERB	_	_	5	comp:cleft	_	_
-18	euh	euh	INTJ	_	_	17	discourse	_	_
-
-# macrosyntax = ^et chaque année <+ c'est un virus qui a fait le tour du monde qui nous revient "euh" //
-# sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2008-105_1
-# text = et chaque année c' est un virus qui a fait le tour du monde qui nous revient euh
-1	et	et	CCONJ	_	_	5	cc	_	_
-2	chaque	chaque	DET	_	_	3	det	_	_
-3	année	année	NOUN	_	_	5	mod	_	_
-4	c'	ce	PRON	_	_	_	_	_	_
+4	c'	ce	PRON	_	_	5	subj@expl	_	_
 5	est	être	AUX	_	_	0	root	_	_
 6	un	un	DET	_	_	7	det	_	_
 7	virus	virus	NOUN	_	_	5	comp:pred	_	_
@@ -6135,7 +6113,7 @@
 14	monde	monde	NOUN	_	_	13	comp:obj	_	_
 15	qui	qui	PRON	_	_	17	subj	_	_
 16	nous	nous	PRON	_	_	17	comp:obj	_	_
-17	revient	revenir	VERB	_	_	5|5	comp:cleft|subj@expl	_	_
+17	revient	revenir	VERB	_	_	5	comp:cleft	_	_
 18	euh	euh	INTJ	_	_	17	discourse	_	_
 
 # macrosyntax = le virus < il émerge quelque part dans le monde //
@@ -6970,14 +6948,14 @@
 # macrosyntax = c'est { la première journée de Jésus que nous venons d'entendre |} //+ {| la première journée où il manifeste { son autorité | ^et { la nouveauté | la bonne nouvelle | l'évangile } qui arrive avec lui } } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-1
 # text = c' est la première journée de Jésus que nous venons d' entendre la première journée où il manifeste son autorité et la nouveauté la bonne nouvelle l' évangile qui arrive avec lui
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	la	le	DET	_	_	5	det	_	_
 4	première	premier	ADJ	_	_	5	mod	_	_
 5	journée	journée	NOUN	_	_	2	comp:pred	_	_
 6	de	de	ADP	_	_	5	mod	_	_
 7	Jésus	Jésus	PROPN	_	_	6	comp:obj	_	_
-8	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	nous	nous	PRON	_	_	10	subj	_	_
 10	venons	venir	VERB	_	_	8	comp:obj	_	_
 11	d'	de	ADP	_	_	10	comp:obl@x	_	_
@@ -7430,14 +7408,14 @@
 # macrosyntax = c'est sa propre vie qu'il communique à ceux qu'il rencontre //=
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-21
 # text = c' est sa propre vie qu' il communique à ceux qu' il rencontre
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	sa	son	DET	_	_	5	det	_	_
 4	propre	propre	ADJ	_	_	5	mod	_	_
 5	vie	vie	NOUN	_	_	2	comp:pred	_	_
 6	qu'	que	PRON	_	_	8	comp:obj	_	_
 7	il	il	PRON	_	_	8	subj	_	_
-8	communique	communiquer	VERB	_	_	2|2	comp:cleft|subj@expl	_	_
+8	communique	communiquer	VERB	_	_	2	comp:cleft	_	_
 9	à	à	ADP	_	_	8	comp:obl	_	_
 10	ceux	celui	PRON	_	_	9	comp:obj	_	_
 11	qu'	que	PRON	_	_	13	comp:obj	_	_
@@ -7447,14 +7425,14 @@
 # macrosyntax = c'est sa propre autorité qu'il engage //+
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-22
 # text = c' est sa propre autorité qu' il engage l' autorité de sa vie
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	sa	son	DET	_	_	5	det	_	_
 4	propre	propre	ADJ	_	_	5	mod	_	_
 5	autorité	autorité	NOUN	_	_	2	comp:pred	_	_
 6	qu'	que	PRON	_	_	8	comp:obj	_	_
 7	il	il	PRON	_	_	8	subj	_	_
-8	engage	engager	VERB	_	_	2|2	comp:cleft|subj@expl	_	_
+8	engage	engager	VERB	_	_	2	comp:cleft	_	_
 9	l'	le	DET	_	_	10	det	_	_
 10	autorité	autorité	NOUN	_	_	5	conj:appos	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -7507,14 +7485,14 @@
 # macrosyntax = c'est désormais en son propre nom que Jésus chasse les démons //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2003-27
 # text = c' est désormais en son propre nom que Jésus chasse les démons
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	désormais	désormais	ADV	_	_	4	mod	_	_
-4	en	en	ADP	_	_	2	comp:obl	_	_
+4	en	en	ADP	_	_	2	comp:pred	_	_
 5	son	son	DET	_	_	7	det	_	_
 6	propre	propre	ADJ	_	_	7	mod	_	_
 7	nom	nom	NOUN	_	_	4	comp:obj	_	_
-8	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	Jésus	Jésus	PROPN	_	_	10	subj	_	_
 10	chasse	chasser	VERB	_	_	8	comp:obj	_	_
 11	les	le	DET	_	_	12	det	_	_
@@ -8768,12 +8746,12 @@
 4	l'	le	DET	_	_	5	det	_	_
 5	impression	impression	NOUN	_	_	3	comp:obj@lvc	_	_
 6	que	que	SCONJ	_	_	5	comp:obl	_	_
-7	c'	ce	PRON	_	_	_	_	_	_
+7	c'	ce	PRON	_	_	8	subj@expl	_	_
 8	est	être	AUX	_	_	6	comp:obj	_	_
-9	avec	avec	ADP	_	_	8	comp:obl	_	_
+9	avec	avec	ADP	_	_	8	comp:pred	_	_
 10	ces	ce	DET	_	_	11	det	_	_
 11	yeux	yeux	NOUN	_	_	9	comp:obj	_	_
-12	que	que	SCONJ	_	_	8|8	comp:cleft|subj@expl	_	_
+12	que	que	SCONJ	_	_	8	comp:cleft	_	_
 13	vous	vous	PRON	_	_	14	subj	_	_
 14	avez	avoir	AUX	_	_	12	comp:obj	_	_
 15	dessiné	dessiner	VERB	_	_	14	comp:aux	_	_
@@ -8855,7 +8833,7 @@
 2	est	être	VERB	_	_	0	root	_	_
 3	-ce	ce	PRON	_	_	2	subj@expl	_	_
 4	que	que	SCONJ	_	_	2	comp:pred	_	_
-5	c'	ce	PRON	_	_	_	_	_	_
+5	c'	ce	PRON	_	_	6	subj@expl	_	_
 6	est	être	AUX	_	_	4	comp:obj	_	_
 7	avec	avec	ADP	_	_	6	comp:pred	_	_
 8	ces	ce	DET	_	_	9	det	_	_
@@ -8864,7 +8842,7 @@
 11	vous	vous	PRON	_	_	12	subj	_	_
 12	voulez	vouloir	VERB	_	_	10	comp:obj	_	_
 13	dire	dire	VERB	DISCOURSE	_	12	comp:obj@x	_	_
-14	que	que	SCONJ	_	_	6|6	comp:cleft|subj@expl	_	_
+14	que	que	SCONJ	_	_	6	comp:cleft	_	_
 15	je	je	PRON	_	_	16	subj	_	_
 16	sais	savoir	VERB	_	_	14	comp:obj	_	_
 17	regarder	regarder	VERB	_	_	16	comp:obj@x	_	_
@@ -9655,9 +9633,9 @@
 10	euh	euh	INTJ	_	_	9	discourse	_	_
 11	ce	ce	PRON	_	_	2	comp:obj	_	_
 12	que	que	PRON	_	_	14	comp:pred	_	_
-13	c'	ce	PRON	_	_	_	_	_	_
+13	c'	ce	PRON	_	_	14	subj@expl	_	_
 14	est	être	AUX	_	_	11	mod@relcl	_	_
-15	que	que	SCONJ	_	_	14|14	comp:cleft|subj@expl	_	_
+15	que	que	SCONJ	_	_	14	comp:cleft	_	_
 16	de	de	ADP	_	_	15	comp:obj	_	_
 17	travailler	travailler	VERB	_	_	16	comp:obj	_	_
 18	dans	dans	ADP	_	_	17	mod	_	_
@@ -9987,11 +9965,11 @@
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-92
 # text = enfin c' est comme ça que j' ai commencé à gagner ma vie
 1	enfin	enfin	ADV	_	_	5	discourse	_	_
-2	c'	ce	PRON	_	_	_	_	_	_
+2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
-4	comme	comme	ADP	_	_	3	comp:obl	_	_
+4	comme	comme	ADP	_	_	3	comp:pred	_	_
 5	ça	ça	PRON	_	_	4	comp:obj	_	_
-6	que	que	SCONJ	_	_	3|3	comp:cleft|subj@expl	_	_
+6	que	que	SCONJ	_	_	3	comp:cleft	_	_
 7	j'	je	PRON	_	_	8	subj	_	_
 8	ai	avoir	AUX	_	_	6	comp:obj	_	_
 9	commencé	commencer	VERB	_	_	8	comp:aux	_	_
@@ -10014,12 +9992,12 @@
 # macrosyntax = c'est dans cette librairie que je crois que Allégret vous a trouvée //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-94
 # text = c' est dans cette librairie que je crois que Allégret vous a trouvée
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	dans	dans	ADP	_	_	2	comp:obl	_	_
+3	dans	dans	ADP	_	_	2	comp:pred	_	_
 4	cette	ce	DET	_	_	5	det	_	_
 5	librairie	librairie	NOUN	_	_	3	comp:obj	_	_
-6	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+6	que	que	SCONJ	_	_	2	comp:cleft	_	_
 7	je	je	PRON	_	_	8	subj	_	_
 8	crois	croire	VERB	_	_	6	comp:obj	_	_
 9	que	que	SCONJ	_	_	8	comp:obj	_	_
@@ -10216,10 +10194,10 @@
 5	mais	mais	CCONJ	_	_	7	cc	_	_
 6	qu'	qu'	PRON	_	_	7	comp:pred	_	_
 7	est	être	AUX	_	_	4	comp:obj	_	_
-8	-ce	ce	PRON	_	_	_	_	_	_
+8	-ce	ce	PRON	_	_	7	subj@expl	_	_
 9	qu'	que	SCONJ	_	_	11	comp:obj	_	_
 10	tu	tu	PRON	_	_	11	subj	_	_
-11	fais	faire	VERB	CCOMP	_	7|7	comp:cleft|subj@expl	_	_
+11	fais	faire	VERB	CCOMP	_	7	comp:cleft	_	_
 12	là	là	ADV	_	_	11	mod	_	_
 13	très	très	ADV	_	_	14	mod	_	_
 14	surpris	surpris	ADJ	_	_	3	mod	_	_
@@ -10248,10 +10226,10 @@
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
 5	qu'	qu'	PRON	_	_	6	comp:pred	_	_
 6	est	être	AUX	_	_	4	comp:obj	_	_
-7	-ce	ce	PRON	_	_	_	_	_	_
+7	-ce	ce	PRON	_	_	6	subj@expl	_	_
 8	qu'	que	SCONJ	_	_	10	comp:obj	_	_
 9	tu	tu	PRON	_	_	10	subj	_	_
-10	gagnes	gagner	VERB	CCOMP	_	6|6	comp:cleft|subj@expl	_	_
+10	gagnes	gagner	VERB	CCOMP	_	6	comp:cleft	_	_
 
 # macrosyntax = ^et j'ai dit [ je gagne trois cents francs par mois // ] //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-112
@@ -10448,14 +10426,14 @@
 # macrosyntax = $L1 c'est peut-être à ce moment-là que vous avez raté une autre carrière //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_D2001-124
 # text = c' est peut-être à ce moment -là que vous avez raté une autre carrière
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	peut-être	peut-être	ADV	_	_	4	mod	_	_
-4	à	à	ADP	_	_	2	comp:obl	_	_
+4	à	à	ADP	_	_	2	comp:pred	_	_
 5	ce	ce	DET	_	_	6	det	_	_
 6	moment	moment	NOUN	_	_	4	comp:obj	_	_
 7	-là	là	ADV	_	_	6	mod	_	_
-8	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+8	que	que	SCONJ	_	_	2	comp:cleft	_	_
 9	vous	vous	PRON	_	_	10	subj	_	_
 10	avez	avoir	AUX	_	_	8	comp:obj	_	_
 11	raté	rater	VERB	_	_	10	comp:aux	_	_
@@ -11083,7 +11061,7 @@
 10	Longue	Longue	ADJ	_	_	9	mod	_	_
 11	ce	ce	DET	_	_	12	det	_	_
 12	matin	matin	NOUN	_	_	3	mod	_	_
-13	c'	ce	PRON	_	_	_	_	_	_
+13	c'	ce	PRON	_	_	14	subj@expl	_	_
 14	est	être	AUX	_	_	0	root	_	_
 15	donc	donc	ADV	_	_	17	discourse	_	_
 16	une	un	DET	_	_	17	det	_	_
@@ -11091,7 +11069,7 @@
 18	entière	entier	ADJ	_	_	17	mod	_	_
 19	que	que	PRON	_	_	22	comp:obj	_	_
 20	j'	je	PRON	_	_	21	subj	_	_
-21	aurai	avoir	AUX	_	_	14|14	comp:cleft|subj@expl	_	_
+21	aurai	avoir	AUX	_	_	14	comp:cleft	_	_
 22	passée	passer	VERB	ETRE	_	21	comp:aux	_	_
 23	avec	avec	ADP	_	_	21	mod	_	_
 24	nos	son	DET	_	_	25	det	_	_
@@ -11151,11 +11129,11 @@
 # macrosyntax = c' est pour cela que je tenais à vous rencontrer la veille de notre fête nationale //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-4
 # text = c' est pour cela que je tenais à vous rencontrer la veille de notre fête nationale
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	pour	pour	ADP	_	_	2	comp:obl	_	_
+3	pour	pour	ADP	_	_	2	comp:pred	_	_
 4	cela	cela	PRON	_	_	3	comp:obj	_	_
-5	que	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+5	que	que	SCONJ	_	_	2	comp:cleft	_	_
 6	je	je	PRON	_	_	7	subj	_	_
 7	tenais	tenir	VERB	_	_	5	comp:obj	_	_
 8	à	à	ADP	_	_	7	comp:obl@x	_	_
@@ -11178,7 +11156,7 @@
 5	de	un	DET	_	_	7	det	_	_
 6	traditionnel	traditionnel	ADJ	_	_	7	mod	_	_
 7	défilé	défilé	NOUN	_	_	4	comp:obl	_	_
-8	c'	ce	PRON	_	_	_	_	_	_
+8	c'	ce	PRON	_	_	9	subj@expl	_	_
 9	est	être	AUX	_	_	0	root	_	_
 10	la	le	DET	_	_	11	det	_	_
 11	nation	nation	NOUN	_	_	9	comp:pred	_	_
@@ -11186,7 +11164,7 @@
 13	entière	entier	ADJ	_	_	11	mod	_	_
 14	qui	qui	PRON	_	_	16	subj	_	_
 15	vous	vous	PRON	_	_	16	comp:obl	_	_
-16	rend	rendre	VERB	_	_	9|9	comp:cleft|subj@expl	_	_
+16	rend	rendre	VERB	_	_	9	comp:cleft	_	_
 17	hommage	hommage	NOUN	_	_	16	comp:obj	_	_
 
 # macrosyntax = { elle salue le courage | elle salue la loyauté | elle salue le dévouement | elle salue l' esprit de sacrifice } de ceux qui ont choisi de servir { sa défense | ses intérêts | ^et ses valeurs } à travers le monde //
@@ -11522,12 +11500,12 @@
 10	mieux	mieux	ADV	_	_	9	mod	_	_
 11	que	que	SCONJ	_	_	10	mod	_	_
 12	personne	personne	PRON	_	_	11	comp:obj	_	_
-13	c'	ce	PRON	_	_	_	_	_	_
+13	c'	ce	PRON	_	_	14	subj@expl	_	_
 14	est	être	AUX	_	_	0	root	_	_
-15	sur	sur	ADP	_	_	14	comp:obl	_	_
+15	sur	sur	ADP	_	_	14	comp:pred	_	_
 16	le	le	DET	_	_	17	det	_	_
 17	terrain	terrain	NOUN	_	_	15	comp:obj	_	_
-18	que	que	SCONJ	_	_	14|14	comp:cleft|subj@expl	_	_
+18	que	que	SCONJ	_	_	14	comp:cleft	_	_
 19	se	se	PRON	_	_	20	comp@fixed	_	_
 20	gagne	gagner	VERB	_	_	18	comp:obj	_	_
 21	ou	ou	CCONJ	_	_	23	cc	_	_
@@ -11539,12 +11517,12 @@
 # macrosyntax = c' est sur le terrain { qu' une nation affirme son influence | qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager } //
 # sent_id = ParisStories_2019_ParisStories_2019_ParisStories_2019_Rhap_M2001-19
 # text = c' est sur le terrain qu' une nation affirme son influence qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager
-1	c'	ce	PRON	_	_	_	_	_	_
+1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	sur	sur	ADP	_	_	2	comp:obl	_	_
+3	sur	sur	ADP	_	_	2	comp:pred	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	terrain	terrain	NOUN	_	_	3	comp:obj	_	_
-6	qu'	que	SCONJ	_	_	2|2	comp:cleft|subj@expl	_	_
+6	qu'	que	SCONJ	_	_	2	comp:cleft	_	_
 7	une	un	DET	_	_	8	det	_	_
 8	nation	nation	NOUN	_	_	9	subj	_	_
 9	affirme	affirmer	VERB	_	_	6	comp:obj	_	_
