@@ -2076,7 +2076,7 @@
 6	les	le	DET	_	_	7	det	_	_
 7	femmes	femme	NOUN	_	_	5	comp:obj	_	_
 8	alors	alors	ADV	_	_	7	discourse	_	_
-9	là-bas	là	ADV	_	_	_	_	_	_
+9	là-bas	là	ADV	_	_	3	mod	_	_
 
 # macrosyntax = $L2 "ah" oui > naturellement //
 # sent_id = Rhap_D2004-62
@@ -3728,7 +3728,7 @@
 3	est	être	AUX	_	_	0	root	_	_
 4	Lionel	Lionel	PROPN	_	_	3	comp:pred	_	_
 5	Messi	Messi	PROPN	_	_	4	flat	_	_
-6	là-bas	là	ADV	_	_	_	_	_	_
+6	là-bas	là	ADV	_	_	4	mod	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	sur	sur	ADP	_	_	4	mod	_	_
 9	le	le	DET	_	_	10	det	_	_
@@ -4512,11 +4512,11 @@
 3	qui	qui	PRON	_	_	4	subj	_	_
 4	veut	vouloir	VERB	_	_	2	mod@relcl	_	_
 5	donner	donner	VERB	_	_	4	comp:obj@x	_	_
-6	sur	sur	ADP	_	_	4	mod	_	_
+6	sur	sur	ADP	_	_	5	mod	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	côté	côté	NOUN	_	_	6	comp:obj	_	_
 9	gauche	gauche	ADJ	_	_	8	mod	_	_
-10	là-bas	là	ADV	_	_	_	_	_	_
+10	là-bas	là	ADV	_	_	8	mod	_	_
 11	pour	pour	ADP	_	_	4	mod	_	_
 12	Thierry	Thierry	PROPN	_	_	11	comp:obj	_	_
 13	Henry	Henry	PROPN	_	_	12	flat	_	_
@@ -4790,7 +4790,7 @@
 12	faire	faire	VERB	_	_	11	comp:obj@x	_	_
 13	cette	ce	DET	_	_	14	det	_	_
 14	touche	touche	NOUN	_	_	12	comp:obj	_	_
-15	là-bas	là	ADV	_	_	_	_	_	_
+15	là-bas	là	ADV	_	_	12	mod	_	_
 16	euh	euh	INTJ	_	_	15	discourse	_	_
 
 # macrosyntax = le joueur qui joue depuis des années { à | à } l'Inter //
@@ -4829,7 +4829,7 @@
 16	pieds	pied	NOUN	_	_	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	mod	_	_
 18	Zanetti	Zanetti	PROPN	_	_	17	comp:obj	_	_
-19	là-bas	là	ADV	_	_	_	_	_	_
+19	là-bas	là	ADV	_	_	16	mod	_	_
 20	sur	sur	ADP	_	_	19	conj:dicto	_	_
 21	la	le	DET	_	_	22	det	_	_
 22	droite	droite	NOUN	_	_	20	comp:obj	_	_
@@ -5093,7 +5093,7 @@
 12	et	et	CCONJ	_	_	14	cc	_	_
 13	l'	le	PRON	_	_	14	comp:obj	_	_
 14	écarte	écarter	VERB	_	_	9	conj:coord	_	_
-15	là-bas	là	ADV	_	_	_	_	_	_
+15	là-bas	là	ADV	_	_	14	mod	_	_
 16	côté	côté	NOUN	_	_	15	conj:dicto	_	_
 17	droit	droit	ADJ	_	_	16	mod	_	_
 18	Zanetti	Zanetti	PROPN	_	_	14	mod	_	_
@@ -8799,7 +8799,7 @@
 12	rien	rien	PRON	_	_	11	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	morbide	morbide	ADJ	_	_	13	comp:obj	_	_
-15	là-dedans	là	ADV	_	_	_	_	_	_
+15	là-dedans	là	ADV	_	_	12	mod	_	_
 16	et	et	CCONJ	_	_	21	cc	_	_
 17	donc	donc	ADV	_	_	21	mod	_	_
 18	y	y	PRON	_	_	19	comp:obj@fixed	_	_
@@ -18293,7 +18293,7 @@
 6	de	de	ADP	_	_	5	comp:obl@x	_	_
 7	vous	vous	PRON	_	_	8	comp:obj	_	_
 8	interroger	interroger	VERB	_	_	6	comp:obj	_	_
-9	là-dessus	là	ADV	_	_	_	_	_	_
+9	là-dessus	là	ADV	_	_	8	mod	_	_
 
 # macrosyntax = $L2 ^mais "euh" du coup < vous pouvez pas travailler ( par exemple ) avec les lycées //
 # sent_id = Rhap_D0004-32
@@ -18505,7 +18505,7 @@
 15	là	là	ADV	_	_	11	conj:appos	_	_
 16	un	un	DET	_	_	18	det@fixed	_	_
 17	petit	petit	ADJ	_	_	18	mod	_	_
-18	peu	peu	NOUN	_	EXTPOS=ADV	_	_	_	EXTPOS=ADV
+18	peu	peu	NOUN	_	_	15	mod	_	EXTPOS=ADV
 19	à	à	ADP	_	_	15	conj:dicto	_	_
 20	le	le	DET	_	_	21	det	_	_
 21	dessus	dessus	NOUN	conj:reform	_	19	comp:obj	_	_

@@ -5167,7 +5167,7 @@
 # text = un petit peu
 1	un	un	DET	_	_	3	det@fixed	_	_
 2	petit	petit	ADJ	_	_	3	mod	_	_
-3	peu	peu	NOUN	_	EXTPOS=ADV	_	_	_	EXTPOS=ADV
+3	peu	peu	NOUN	_	_	0	root	_	EXTPOS=ADV
 
 # macrosyntax = vous parliez de la météo //
 # sent_id = Rhap_D2008-45
@@ -6068,7 +6068,7 @@
 # text = on travaille là - dessus
 1	on	on	PRON	_	_	2	subj	_	_
 2	travaille	travailler	VERB	_	_	0	root	_	_
-3	là-dessus	là	ADV	_	_	_	_	_	_
+3	là-dessus	là	ADV	_	_	2	mod	_	_
 
 # macrosyntax = ^mais on ne peut pas exclure que il y ait quelque chose de grave // ] //
 # sent_id = Rhap_D2008-95
