@@ -66,7 +66,7 @@
 
 # macrosyntax = ^et tu arrives à la fontaine "euh" place Notre-Dame //
 # sent_id = Rhap_M0001-13
-# text = et tu arrives à la fontaine euh place Notre - Dame
+# text = et tu arrives à la fontaine euh place Notre-Dame
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	arrives	arriver	VERB	ETRE	_	0	root	_	_
@@ -798,7 +798,7 @@
 
 # macrosyntax = alors < { qu'est ce qu' |} on peut dire en conclusion //+ $L3 "eh bien" {| que [ { sans savon | rien qu'avec la boule } <+ tous ces linges sont propres ] } //
 # sent_id = Rhap_D2011-53
-# text = alors qu' est - ce qu' on peut dire en conclusion eh bien que sans savon rien qu' avec la boule tous ces linges sont propres
+# text = alors qu' est -ce qu' on peut dire en conclusion eh bien que sans savon rien qu' avec la boule tous ces linges sont propres
 1	alors	alors	ADV	_	_	2	discourse	_	_
 2	qu'	qu'	PRON	_	_	3	comp:pred	_	_
 3	est	être	AUX	_	_	0	root	_	_
@@ -881,7 +881,7 @@
 
 # macrosyntax = $- $L2 qu'est-ce que c'est //
 # sent_id = Rhap_D2011-58
-# text = qu' est - ce qu' c' est
+# text = qu' est -ce qu' c' est
 1	qu'	qu'	PRON	_	_	2	comp:pred	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	-ce	ce	PRON	_	_	2	subj@expl	_	_
@@ -1190,7 +1190,7 @@
 
 # macrosyntax = qu'est-ce que vous en pensez > de la boule magique //
 # sent_id = Rhap_D2011-76
-# text = qu' est - ce qu' vous en pensez de la boule magique
+# text = qu' est -ce qu' vous en pensez de la boule magique
 1	qu'	qu'	PRON	_	_	2	comp:pred	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	-ce	ce	PRON	_	_	2	subj@expl	_	_
@@ -2452,7 +2452,7 @@
 
 # macrosyntax = ^et vous êtes sur un bac qui traverse { le fleuve | ^c'^est-^à-^dire le Mekong } //
 # sent_id = Rhap_D2010-66
-# text = et vous êtes sur un bac qui traverse le fleuve c' est - à - dire le Mekong
+# text = et vous êtes sur un bac qui traverse le fleuve c'est-à-dire le Mekong
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	êtes	être	VERB	_	_	0	root	_	_
@@ -2811,7 +2811,7 @@
 
 # macrosyntax = $L1 { qui il y a dans | qui y a-t-il dans } la voiture noire //
 # sent_id = Rhap_D2010-92
-# text = qui il y a dans qui y a - t - il dans la voiture noire
+# text = qui il y a dans qui y a -t-il dans la voiture noire
 1	qui	qui	PRON	_	_	4	comp:obj	_	_
 2	il	il	PRON	_	_	4	subj@expl	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
@@ -3052,7 +3052,7 @@
 
 # macrosyntax = $L2 ^c'^est-^à-^dire ^que j'ai su après qu'il m'avait pas déplu //+ sur le bac //
 # sent_id = Rhap_D2010-110
-# text = c' est - à - dire que j' ai su après qu' il m' avait pas déplu sur le bac
+# text = c'est-à-dire que j' ai su après qu' il m' avait pas déplu sur le bac
 1	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
@@ -3896,7 +3896,7 @@
 
 # macrosyntax = ^c'est-à-dire nous sommes dans cette Pologne "euh" { encore occupée | ^mais { où "euh" { la | la } vie artistique { est | est } très importante | ^et où se coalise en quelque sorte { le | le | le } mouvement de la jeune Pologne } } //
 # sent_id = Rhap_D2012-35
-# text = c' est - à - dire nous sommes dans cette Pologne euh encore occupée mais où euh la la vie artistique est est très importante et où se coalise en quelque sorte le le le mouvement de la jeune Pologne
+# text = c'est-à-dire nous sommes dans cette Pologne euh encore occupée mais où euh la la vie artistique est est très importante et où se coalise en quelque sorte le le le mouvement de la jeune Pologne
 1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
 2	nous	nous	PRON	_	_	3	subj	_	_
 3	sommes	être	VERB	_	_	0	root	_	_
@@ -4449,7 +4449,7 @@
 
 # macrosyntax = c'est comme un très mauvais rendez-vous à venir //
 # sent_id = Rhap_D2008-6
-# text = c' est comme un très mauvais rendez - vous à venir
+# text = c' est comme un très mauvais rendez-vous à venir
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	VERB	_	_	0	root	_	_
 3	comme	comme	ADP	_	_	2	comp:obl	_	_
@@ -4911,7 +4911,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = Rhap_D2008-32
-# text = c' est - à - dire que si vraiment euh l' activité que l' on constate aujourd' hui en en Amérique du Nord oui euh devient l' activité d' une pandémie alors euh
+# text = c'est-à-dire que si vraiment euh l' activité que l' on constate aujourd' hui en en Amérique du Nord oui euh devient l' activité d' une pandémie alors euh
 1	c'est-à-dire	c'	CCONJ	_	_	27	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	si	si	SCONJ	_	_	27	mod	_	_
@@ -5604,7 +5604,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire une mortalité effroyable //
 # sent_id = Rhap_D2008-69
-# text = c' est - à - dire une mortalité effroyable
+# text = c'est-à-dire une mortalité effroyable
 1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
 2	une	un	DET	_	_	3	det	_	_
 3	mortalité	mortalité	NOUN	_	_	0	root	_	_
@@ -6065,7 +6065,7 @@
 
 # macrosyntax = on travaille là-dessus //
 # sent_id = Rhap_D2008-94
-# text = on travaille là - dessus
+# text = on travaille là-dessus
 1	on	on	PRON	_	_	2	subj	_	_
 2	travaille	travailler	VERB	_	_	0	root	_	_
 3	là-dessus	là	ADV	_	_	2	mod	_	_
@@ -6134,7 +6134,7 @@
 
 # macrosyntax = en gros < de passer l'été < qu'est-ce qu'il va se passer l'hiver prochain //
 # sent_id = Rhap_D2008-100
-# text = en gros de passer l' été qu' est - ce qu' il va se passer l' hiver prochain
+# text = en gros de passer l' été qu' est -ce qu' il va se passer l' hiver prochain
 1	en	en	ADP	_	_	12	mod	_	_
 2	gros	gros	ADJ	_	_	1	comp:obj	_	_
 3	de	de	ADP	_	_	12	mod	_	_
@@ -6180,7 +6180,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe & //
 # sent_id = Rhap_D2008-102
-# text = c' est - à - dire que la grippe ce qu' on connaît de la grippe
+# text = c'est-à-dire que la grippe ce qu' on connaît de la grippe
 1	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	la	le	DET	_	_	4	det	_	_
@@ -6545,7 +6545,7 @@
 
 # macrosyntax = si ça se passe { comme ça | ^c'^est-^à-^dire de façon "euh" inquiétante } < on le sait quand //=
 # sent_id = Rhap_D2008-119
-# text = si ça se passe comme ça c' est - à - dire de façon euh inquiétante on le sait quand
+# text = si ça se passe comme ça c'est-à-dire de façon euh inquiétante on le sait quand
 1	si	si	SCONJ	_	_	14	mod	_	_
 2	ça	ça	PRON	_	_	4	subj	_	_
 3	se	se	PRON	_	_	4	comp@fixed	_	_
@@ -6723,7 +6723,7 @@
 
 # macrosyntax = je reviens au milieu de l'été en me disant [ qu'est-ce qu'il va se passer à l'automne // ] //
 # sent_id = Rhap_D2008-131
-# text = je reviens au milieu de l' été en me disant qu' est - ce qu' il va se passer à l' automne
+# text = je reviens au milieu de l' été en me disant qu' est -ce qu' il va se passer à l' automne
 1	je	je	PRON	_	_	2	subj	_	_
 2	reviens	revenir	VERB	_	_	0	root	_	_
 3-4	au	_	_	_	_	_	_	_	_
@@ -6832,7 +6832,7 @@
 
 # macrosyntax = elle s'est { ren~ | répandue } assez rapidement quand même { aux États-Unis | au Canada | { en | en } Grande-Bretagne | { au | au } Royaume-Uni } //
 # sent_id = Rhap_D2008-136
-# text = elle s' est ren~ répandue assez rapidement quand même aux États - Unis au Canada en en Grande - Bretagne au au Royaume-Uni
+# text = elle s' est ren~ répandue assez rapidement quand même aux États-Unis au Canada en en Grande-Bretagne au au Royaume-Uni
 1	elle	il	PRON	_	_	3	subj	_	_
 2	s'	se	PRON	_	_	5	comp@fixed	_	_
 3	est	être	AUX	_	_	0	root	_	_
@@ -6880,7 +6880,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire ^que { le m~ | { le | le } virus } sait faire sa propre besogne de lui-même sur place //
 # sent_id = Rhap_D2008-138
-# text = c' est - à - dire que le m~ le le virus sait faire sa propre besogne de lui -même sur place
+# text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui -même sur place
 1	c'est-à-dire	c'	CCONJ	_	_	8	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	le	le	DET	_	_	4	det	_	_
@@ -6901,7 +6901,7 @@
 
 # macrosyntax = ce que je crois < c'est qu' [ à la fin de l'été <+ si on sait qu'il y a eu des très fortes épidémies dans l'hémisphère sud < la probabilité sera très renforcée que ça { nous | nous | nous } revienne { pendant notre hiver à nous | ^et peut-être même pendant l'automne | ^c'^est-^à-^dire peut-être assez précocement } ] //
 # sent_id = Rhap_D2008-139
-# text = ce que je crois c' est qu' à la fin de l' été si on sait qu' il y a eu des très fortes épidémies dans l' hémisphère sud la probabilité sera très renforcée que ça nous nous nous revienne pendant notre hiver à nous et peut-être même pendant l' automne c' est - à - dire peut-être assez précocement
+# text = ce que je crois c' est qu' à la fin de l' été si on sait qu' il y a eu des très fortes épidémies dans l' hémisphère sud la probabilité sera très renforcée que ça nous nous nous revienne pendant notre hiver à nous et peut-être même pendant l' automne c'est-à-dire peut-être assez précocement
 1	ce	ce	PRON	_	_	6	dislocated	_	_
 2	que	que	PRON	_	_	4	comp:obj	_	_
 3	je	je	PRON	_	_	4	subj	_	_
@@ -7874,7 +7874,7 @@
 
 # macrosyntax = ^aussi { à l'approche de la journée des malades voulue par Jean-Paul deux | le onze février | en la fête de Notre-Dame de Lourdes | en ce jour de la pastorale de la santé } <+ { la puissance de guérison de Jésus | le don de la vie qu'il communique } interroge { vraiment | vraiment } { la responsabilité de l'Église | ^c'^est-^à-^dire la responsabilité de chacun d'entre nous } //
 # sent_id = Rhap_M2003-39
-# text = aussi à l' approche de la journée des malades voulue par Jean - Paul deux le onze février en la fête de Notre - Dame de Lourdes en ce jour de la pastorale de la santé la puissance de guérison de Jésus le don de la vie qu' il communique interroge vraiment vraiment la responsabilité de l' Église c'est-à-dire la responsabilité de chacun d' entre nous
+# text = aussi à l' approche de la journée des malades voulue par Jean - Paul deux le onze février en la fête de Notre-Dame de Lourdes en ce jour de la pastorale de la santé la puissance de guérison de Jésus le don de la vie qu' il communique interroge vraiment vraiment la responsabilité de l' Église c'est-à-dire la responsabilité de chacun d' entre nous
 1	aussi	aussi	ADV	_	_	50	mod	_	_
 2	à	à	ADP	_	_	50	mod	_	_
 3	l'	le	DET	_	_	4	det	_	_
@@ -8953,7 +8953,7 @@
 
 # macrosyntax = c'est un homme incapable de dire quoi que ce soit de désagréable sur qui que ce soit //
 # sent_id = Rhap_D2001-26
-# text = c' est un homme incapable de dire quoi que - ce soit de désagréable sur qui que ce soit
+# text = c' est un homme incapable de dire quoi que -ce soit de désagréable sur qui que ce soit
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det	_	_
@@ -10063,7 +10063,7 @@
 
 # macrosyntax = je sais ce qu'on apprend aux jeunes filles bien élevées // donc < qu'est-ce que je peux apprendre // ] ] //
 # sent_id = Rhap_D2001-86
-# text = je sais ce qu' on apprend aux jeunes filles bien élevées donc qu' est - ce qu' je peux apprendre
+# text = je sais ce qu' on apprend aux jeunes filles bien élevées donc qu' est -ce qu' je peux apprendre
 1	je	je	PRON	_	_	2	subj	_	_
 2	sais	savoir	VERB	_	_	0	root	_	_
 3	ce	ce	PRON	_	_	2	comp:obj	_	_
@@ -10191,7 +10191,7 @@
 
 # macrosyntax = $L2 " euh " c'est-à-dire que je connaissais Allégret très bien //
 # sent_id = Rhap_D2001-95
-# text = euh c' est - à - dire que je connaissais Allégret très bien
+# text = euh c'est-à-dire que je connaissais Allégret très bien
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	c'est-à-dire	c'	CCONJ	_	_	5	cc	_	_
 3	que	que	SCONJ	_	_	2	unk@fixed	_	_
@@ -10373,7 +10373,7 @@
 
 # macrosyntax = il m'a dit [ ^mais qu'est-ce que tu fais là // ] très surpris //
 # sent_id = Rhap_D2001-109
-# text = il m' a dit mais qu' est - ce qu' tu fais là très surpris
+# text = il m' a dit mais qu' est -ce qu' tu fais là très surpris
 1	il	il	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	4	comp:obl	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
@@ -10406,7 +10406,7 @@
 
 # macrosyntax = il m'a dit [ qu'est-ce que tu gagnes // ] //
 # sent_id = Rhap_D2001-111
-# text = il m' a dit qu' est - ce qu' tu gagnes
+# text = il m' a dit qu' est -ce qu' tu gagnes
 1	il	il	PRON	_	_	3	subj	_	_
 2	m'	me	PRON	_	_	4	comp:obl	_	_
 3	a	avoir	AUX	_	_	0	root	_	_
@@ -10887,7 +10887,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire { nous avons été tous les deux " euh " | nous avons tous les deux collaboré } { avec " euh " | avec } Renoir //
 # sent_id = Rhap_D2001-142
-# text = c' est - à - dire nous avons été tous les deux euh nous avons tous les deux collaboré avec euh avec Renoir
+# text = c'est-à-dire nous avons été tous les deux euh nous avons tous les deux collaboré avec euh avec Renoir
 1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
 2	nous	nous	PRON	_	_	3	subj	_	_
 3	avons	avoir	AUX	_	_	0	root	_	_
@@ -10975,7 +10975,7 @@
 
 # macrosyntax = nous étions tous les deux { d'origine bourgeoise | élevés un peu { de la même manière |} //+ "euh" {| ^c'^est-^à-^dire "disons" d'une façon un peu britannique dans le comportement } } > n'est-ce pas //
 # sent_id = Rhap_D2001-146
-# text = nous étions tous les deux d' origine bourgeoise élevés un peu de la même manière euh c' est - à - dire disons d' une façon un peu britannique dans le comportement n' est -ce pas
+# text = nous étions tous les deux d' origine bourgeoise élevés un peu de la même manière euh c'est-à-dire disons d' une façon un peu britannique dans le comportement n' est -ce pas
 1	nous	nous	PRON	_	_	2	subj	_	_
 2	étions	être	VERB	_	_	0	root	_	_
 3	tous	tout	ADJ	_	_	5	mod	_	_
@@ -11873,7 +11873,7 @@
 
 # macrosyntax = $L1 ^et chaque région géographique a aussi son comportement "euh" { vis-à-vis de la foi | vis-à-vis { de l' | de l' } église | vis-à-vis de la vie chrétienne } //
 # sent_id = Rhap_D1001-1
-# text = et chaque région géographique a aussi son comportement euh vis - à - vis de la foi vis - à - vis de l' de l' église vis-à-vis de la vie chrétienne
+# text = et chaque région géographique a aussi son comportement euh vis-à-vis de la foi vis-à-vis de l' de l' église vis-à-vis de la vie chrétienne
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	chaque	chaque	DET	_	_	3	det	_	_
 3	région	région	NOUN	_	_	5	subj	_	_
@@ -12544,7 +12544,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire ^que est-ce qu'il y a des couches sociales qui ( plus que d'autres ) ( "disons" dans Orléans même où évidemment { la | la } société est { plus stratifiée | $- $L2 ^et peut-être plus variée } { que | qu' } à la campagne ) ESPERLUETTE //
 # sent_id = Rhap_D1001-34
-# text = c' est - à - dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
+# text = c'est-à-dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
 1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	est	être	AUX	_	_	0	root	_	_

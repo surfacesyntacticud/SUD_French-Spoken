@@ -176,7 +176,7 @@
 
 # macrosyntax = il se trouve que [ dans les adresses qu'on m'avait données < { j'ai "euh" | il y a } deux rendez-vous que j'ai dû remettre parce que les gens vendaient "euh" "euh" des biens de famille ] //
 # sent_id = Rhap_D0006-3
-# text = il se trouve que dans les adresses qu' on m' avait données j' ai euh il y a deux rendez - vous que j' ai dû remettre parce que les gens vendaient euh euh des biens de famille
+# text = il se trouve que dans les adresses qu' on m' avait données j' ai euh il y a deux rendez-vous que j' ai dû remettre parce que les gens vendaient euh euh des biens de famille
 1	il	il	PRON	_	_	3	subj	_	_
 2	se	se	PRON	_	_	3	comp@fixed	_	_
 3	trouve	trouver	VERB	_	_	0	root	_	_
@@ -387,7 +387,7 @@
 
 # macrosyntax = $L1 "euh" "mh" { des | d' } autres gens { { qui venaient de "euh" | qui venaient "euh" de } l'étranger | ^et "euh" qui pour pouvoir se payer "euh" la petite prépa en plus pour réussir le concours "euh" devaient travailler le week-end chez Monoprix } //
 # sent_id = Rhap_D0006-13
-# text = euh mh des d' autres gens qui venaient de euh qui venaient euh de l' étranger et euh qui pour pouvoir se payer euh la petite prépa en plus pour réussir le concours euh devaient travailler le week - end chez Monoprix
+# text = euh mh des d' autres gens qui venaient de euh qui venaient euh de l' étranger et euh qui pour pouvoir se payer euh la petite prépa en plus pour réussir le concours euh devaient travailler le week-end chez Monoprix
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	mh	mh	INTJ	_	_	6	discourse	_	_
 3	des	un	DET	de	_	6	det	_	_
@@ -477,7 +477,7 @@
 
 # macrosyntax = $L2 vous < vous faites le baby-sitter // -$
 # sent_id = Rhap_D0006-16
-# text = vous vous faites le baby - sitter
+# text = vous vous faites le baby-sitter
 1	vous	lui	PRON	_	_	3	dislocated	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	faites	faire	VERB	_	_	0	root	_	_
@@ -588,7 +588,7 @@
 
 # macrosyntax = ^ou c'est vous qui avez dit ["bon" quand-même // ] //
 # sent_id = Rhap_D0006-24
-# text = ou c' est vous qui avez dit bon quand - même
+# text = ou c' est vous qui avez dit bon quand-même
 1	ou	ou	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
@@ -619,7 +619,7 @@
 
 # macrosyntax = le fait { { d' a~ | d' avoir } été à la fac "euh" | de { me | m' } être un peu sorti de mon petit cocon } < ça m'a renforcé là-dedans //
 # sent_id = Rhap_D0006-27
-# text = le fait d' a~ d' avoir été à la fac euh de me m' être un peu sorti de mon petit cocon ça m' a renforcé là - dedans
+# text = le fait d' a~ d' avoir été à la fac euh de me m' être un peu sorti de mon petit cocon ça m' a renforcé là-dedans
 1	le	le	DET	_	_	2	det	_	_
 2	fait	fait	NOUN	_	_	25	dislocated	_	_
 3	d'	de	ADP	_	_	2	mod	_	_
@@ -2268,7 +2268,7 @@
 
 # macrosyntax = un rendez-vous fixé "vous l'avez dit" après la forte mobilisation du vingt-neuf janvier dernier //
 # sent_id = Rhap_M2006-20
-# text = un rendez - vous fixé vous l' avez dit après la forte mobilisation du vingt-neuf janvier dernier
+# text = un rendez-vous fixé vous l' avez dit après la forte mobilisation du vingt-neuf janvier dernier
 1	un	un	DET	_	_	2	det	_	_
 2	rendez-vous	rendez	NOUN	_	_	0	root	_	_
 3	fixé	fixer	VERB	_	_	2	mod	_	_
@@ -2298,7 +2298,7 @@
 
 # macrosyntax = alors < avant d'aborder ce qui peut en sortir <+ je vous propose de voir { où | quand | ^et comment } cela va se passer avec { vous | Jean-François Achilli } //
 # sent_id = Rhap_M2006-22
-# text = alors avant d' aborder ce qui peut en sortir je vous propose de voir où quand et comment cela va se passer avec vous Jean - François Achilli
+# text = alors avant d' aborder ce qui peut en sortir je vous propose de voir où quand et comment cela va se passer avec vous Jean-François Achilli
 1	alors	alors	ADV	_	_	12	mod	_	_
 2	avant	avant	NOUN	_	_	12	dislocated	_	_
 3	d'	de	ADP	_	_	2	mod	_	_
@@ -2397,7 +2397,7 @@
 
 # macrosyntax = ^et dans un sondage réalisé avant le rendez-vous d'aujourd'hui <+ les Français se montrent très sévères à l'égard de la politique économique du gouvernement qu'ils jugent mauvaise à soixante pour cent //
 # sent_id = Rhap_M2006-26
-# text = et dans un sondage réalisé avant le rendez - vous d' aujourd' hui les Français se montrent très sévères à l' égard de la politique économique du gouvernement qu' ils jugent mauvaise à soixante pour cent
+# text = et dans un sondage réalisé avant le rendez-vous d' aujourd' hui les Français se montrent très sévères à l' égard de la politique économique du gouvernement qu' ils jugent mauvaise à soixante pour cent
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	dans	dans	ADP	_	_	14	mod	_	_
 3	un	un	DET	_	_	4	det	_	_
@@ -2730,7 +2730,7 @@
 
 # macrosyntax = aux États Unis <+ Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès //
 # sent_id = Rhap_M2006-46
-# text = aux États - Unis Barack Obama a promulgué son plan de relance adopté ce week - end par le congrès
+# text = aux États - Unis Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès
 1-2	aux	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	9	mod	_	_
 2	les	le	DET	_	_	3	det	_	_
@@ -3674,7 +3674,7 @@
 
 # macrosyntax = ^et quand je suis arrivée là-bas <+ { on m'a | { on | en gros < on } m'a } mis { dans le lycée | ( en me disant [ "bon" ESPERLUETTE // ] ) "enfin" dans le collège } //
 # sent_id = Rhap_D1003-24
-# text = et quand je suis arrivée là - bas on m' a on en gros on m' a mis dans le lycée en me disant bon enfin dans le collège
+# text = et quand je suis arrivée là-bas on m' a on en gros on m' a mis dans le lycée en me disant bon enfin dans le collège
 1	et	et	CCONJ	_	_	9	cc	_	_
 2	quand	quand	SCONJ	_	_	9	mod	_	_
 3	je	je	PRON	_	_	4	subj	_	_
@@ -4023,7 +4023,7 @@
 
 # macrosyntax = arrivé au cinéma Star < il faut continuer tout droit { jusqu' en bas de la rue | jusqu' au rond-point } //
 # sent_id = Rhap_M0004-3
-# text = arrivé au cinéma Star il faut continuer tout droit jusqu' en bas de la rue jusqu' au rond - point
+# text = arrivé au cinéma Star il faut continuer tout droit jusqu' en bas de la rue jusqu' au rond-point
 1	arrivé	arriver	VERB	ETRE	_	7	mod	_	_
 2-3	au	_	_	_	_	_	_	_	_
 2	à	à	ADP	_	_	1	comp:obl	_	_
@@ -4049,7 +4049,7 @@
 
 # macrosyntax = au rond-point <+ il faut tourner à gauche //
 # sent_id = Rhap_M0004-4
-# text = au rond - point il faut tourner à gauche
+# text = au rond-point il faut tourner à gauche
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	5	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
@@ -5305,7 +5305,7 @@
 
 # macrosyntax = ça changera pas grand-chose au prix "hein" //
 # sent_id = Rhap_D0009-80
-# text = ça changera pas grand - chose au prix hein
+# text = ça changera pas grand -chose au prix hein
 1	ça	ça	PRON	_	_	2	subj	_	_
 2	changera	changer	VERB	_	_	0	root	_	_
 3	pas	pas	ADV	_	_	2	mod	_	_
@@ -5501,7 +5501,7 @@
 
 # macrosyntax = faudrait que tu me dises aussi les teintes que je peux mettre là-dessus //
 # sent_id = Rhap_D0009-97
-# text = faudrait que tu me dises aussi les teintes que je peux mettre là - dessus
+# text = faudrait que tu me dises aussi les teintes que je peux mettre là-dessus
 1	faudrait	falloir	VERB	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	tu	tu	PRON	_	_	5	subj	_	_
@@ -6324,7 +6324,7 @@
 
 # macrosyntax = vous prenez le rond-point tout droit //
 # sent_id = Rhap_M0007-6
-# text = vous prenez le rond - point tout droit
+# text = vous prenez le rond-point tout droit
 1	vous	vous	PRON	_	_	2	subj	_	_
 2	prenez	prendre	VERB	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
@@ -6404,7 +6404,7 @@
 
 # macrosyntax = vous arrivez à l' entrée de Saint-Jean-de-Maurienne "euh" est situé un garage Fiat //
 # sent_id = Rhap_M0007-13
-# text = vous arrivez à l' entrée de Saint - Jean - de - Maurienne euh où se situe un garage Fiat
+# text = vous arrivez à l' entrée de Saint-Jean-de-Maurienne euh où se situe un garage Fiat
 1	vous	vous	PRON	_	_	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -6422,7 +6422,7 @@
 
 # macrosyntax = vous prenez ce rond-point à gauche //
 # sent_id = Rhap_M0007-14
-# text = vous prenez ce rond - point à gauche
+# text = vous prenez ce rond-point à gauche
 1	vous	vous	PRON	_	_	2	subj	_	_
 2	prenez	prendre	VERB	_	_	0	root	_	_
 3	ce	ce	DET	_	_	4	det	_	_
@@ -6453,7 +6453,7 @@
 
 # macrosyntax = au prochain rond-point <+ vous prenez à gauche //
 # sent_id = Rhap_M0007-17
-# text = au prochain rond - point vous prenez à gauche
+# text = au prochain rond-point vous prenez à gauche
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	6	mod	_	_
 2	le	le	DET	_	_	4	det	_	_
@@ -6608,7 +6608,7 @@
 
 # macrosyntax = ensuite <+ tu verras un rond-point //
 # sent_id = Rhap_M0010-8
-# text = ensuite tu verras un rond - point
+# text = ensuite tu verras un rond-point
 1	ensuite	ensuite	ADV	_	_	3	mod	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	verras	voir	VERB	_	_	0	root	_	_
@@ -7021,7 +7021,7 @@
 
 # macrosyntax = $L1  " ben "  { c'est | ^c' ^est ^-à ^-dire } ^que je l'ai vécu comme un show  " quoi "  //
 # sent_id = Rhap_D2007-7
-# text = ben c'est~ c' est - à - dire que je l' ai vécu comme un show quoi
+# text = ben c'est~ c'est-à-dire que je l' ai vécu comme un show quoi
 1	ben	ben	INTJ	_	_	8	discourse	_	_
 2	c'est~	c'est~	CCONJ	_	_	7	cc	_	_
 3	c'est-à-dire	c'	CCONJ	_	_	2	conj:dicto	_	_
@@ -8401,7 +8401,7 @@
 
 # macrosyntax = ^c' ^est ^-à ^-dire { dragouiller la mère |
 # sent_id = Rhap_D2007-121
-# text = c' est - à - dire dragouiller la mère
+# text = c'est-à-dire dragouiller la mère
 1	c'est-à-dire	c'	CCONJ	_	_	2	cc	_	_
 2	dragouiller	dragouiller	VERB	_	_	0	root	_	_
 3	la	le	DET	_	_	4	det	_	_
@@ -9301,7 +9301,7 @@
 
 # macrosyntax = ^et ^puis je me suis mis { un peu plus tard | ^c'^est-^à-^dire vers dix-huit ans } à découvrir la littérature étrangère //
 # sent_id = Rhap_D2005-42
-# text = et puis je me suis mis un peu plus tard c' est - à - dire vers dix-huit ans à découvrir la littérature étrangère
+# text = et puis je me suis mis un peu plus tard c'est-à-dire vers dix-huit ans à découvrir la littérature étrangère
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	je	je	PRON	_	_	5	subj	_	_
@@ -9465,7 +9465,7 @@
 
 # macrosyntax = ^mais je faisais pas grand chose //
 # sent_id = Rhap_D2005-51
-# text = mais je faisais pas grand - chose
+# text = mais je faisais pas grand -chose
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	je	je	PRON	_	_	3	subj	_	_
 3	faisais	faire	VERB	_	_	0	root	_	_
@@ -9676,7 +9676,7 @@
 
 # macrosyntax = ^et ^puis j'avais toujours présent à l'esprit Lewis Carroll mathématicien-écrivain //
 # sent_id = Rhap_D2005-63
-# text = et puis j' avais toujours présent à l' esprit Lewis Carroll mathématicien - écrivain
+# text = et puis j' avais toujours présent à l' esprit Lewis Carroll mathématicien-écrivain
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	j'	je	PRON	_	_	4	subj	_	_
@@ -9692,7 +9692,7 @@
 
 # macrosyntax = ^et en même temps <+ je voyais les mathématiques { comme ça | ^c'^est-^à-^dire comme l'autre côté du miroir qui fait découvrir un univers "euh" fantastique } //
 # sent_id = Rhap_D2005-64
-# text = et en même temps je voyais les mathématiques comme ça c' est - à - dire comme l' autre côté du miroir qui fait découvrir un univers euh fantastique
+# text = et en même temps je voyais les mathématiques comme ça c'est-à-dire comme l' autre côté du miroir qui fait découvrir un univers euh fantastique
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	en	en	ADP	_	_	6	mod	_	_
 3	même	même	ADJ	_	_	4	mod	_	_
@@ -10212,7 +10212,7 @@
 
 # macrosyntax = ^et il y avait des gens là-dedans qui étaient prisonniers //
 # sent_id = Rhap_D0003-29
-# text = et il y avait des gens là - dedans qui étaient prisonniers
+# text = et il y avait des gens là-dedans qui étaient prisonniers
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	il	il	PRON	_	_	4	subj@expl	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
@@ -11935,7 +11935,7 @@
 
 # macrosyntax = donc < si ( en plus ) on leur explique que "euh" ça veut dire que l'enfant restera déjeuner là-bas <+ les mamans africaines < elles veulent pas //= $-
 # sent_id = Rhap_D0002-79
-# text = donc si en plus on leur explique que euh ça veut dire que l' enfant restera déjeuner là - bas les mamans africaines elles veulent pas
+# text = donc si en plus on leur explique que euh ça veut dire que l' enfant restera déjeuner là-bas les mamans africaines elles veulent pas
 1	donc	donc	ADV	_	_	23	mod	_	_
 2	si	si	SCONJ	_	_	23	mod	_	_
 3	en	en	ADP	_	_	7	mod	_	_
@@ -12227,7 +12227,7 @@
 
 # macrosyntax = la cathédrale Notre-Dame < alors < "euh" en fait < elle & //
 # sent_id = Rhap_M0003-2
-# text = la cathédrale Notre - Dame alors euh en fait elle
+# text = la cathédrale Notre-Dame alors euh en fait elle
 1	la	le	DET	_	_	2	det	_	_
 2	cathédrale	cathédrale	NOUN	_	_	0	root	_	_
 3	Notre-Dame	Notre	PROPN	_	_	2	mod@appos	_	_
@@ -12634,7 +12634,7 @@
 
 # macrosyntax = "euh" ^et ^puis "ben" vous tombez { place | "eh ben" place } Notre-Dame //
 # sent_id = Rhap_M0003-29
-# text = euh et puis ben vous tombez place eh ben place Notre - Dame
+# text = euh et puis ben vous tombez place eh ben place Notre-Dame
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	puis	puis	ADV	_	_	2	unk@fixed	_	_
@@ -12649,7 +12649,7 @@
 
 # macrosyntax = "eh ben" { la ca~ | { la | la } cathédrale } < elle est sur la place Notre-Dame //
 # sent_id = Rhap_M0003-30
-# text = eh ben la ca~ la la cathédrale elle est sur la place Notre - Dame
+# text = eh ben la ca~ la la cathédrale elle est sur la place Notre-Dame
 1	eh	eh	INTJ	_	_	12	discourse	_	_
 2	ben	ben	INTJ	_	_	12	discourse	_	_
 3	la	le	DET	_	_	4	det	_	_

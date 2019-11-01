@@ -366,7 +366,7 @@
 
 # macrosyntax = tu arrives à un rond-point //
 # sent_id = Rhap_M0009-4
-# text = tu arrives à un rond - point
+# text = tu arrives à un rond-point
 1	tu	tu	PRON	_	_	2	subj	_	_
 2	arrives	arriver	VERB	ETRE	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -375,7 +375,7 @@
 
 # macrosyntax = au rond-point <+ c' est { tout droit | direction Saint-Jean-de-Maurienne } //
 # sent_id = Rhap_M0009-5
-# text = au rond - point c' est tout droit direction Saint - Jean - de - Maurienne
+# text = au rond-point c' est tout droit direction Saint-Jean-de-Maurienne
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	7	mod	_	_
 2	le	le	DET	_	_	3	det	_	_
@@ -389,7 +389,7 @@
 
 # macrosyntax = "euh" donc < { tou~ | tou~ | toujours } Saint-Jean-de-Maurienne //
 # sent_id = Rhap_M0009-6
-# text = euh donc tou~ tou~ toujours Saint - Jean - de - Maurienne
+# text = euh donc tou~ tou~ toujours Saint-Jean-de-Maurienne
 1	euh	euh	INTJ	_	_	6	discourse	_	_
 2	donc	donc	ADV	_	_	6	discourse	_	_
 3	tou~	tou~	ADV	_	_	6	mod	_	_
@@ -399,7 +399,7 @@
 
 # macrosyntax = tu passes un autre rond-point //
 # sent_id = Rhap_M0009-7
-# text = tu passes un autre rond - point
+# text = tu passes un autre rond-point
 1	tu	tu	PRON	_	_	2	subj	_	_
 2	passes	passer	VERB	ETRE	_	0	root	_	_
 3	un	un	DET	_	_	5	det	_	_
@@ -450,7 +450,7 @@
 
 # macrosyntax = ^et tu arrives à un rond-point //+
 # sent_id = Rhap_M0009-12
-# text = et tu arrives à un rond - point
+# text = et tu arrives à un rond-point
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	tu	tu	PRON	_	_	3	subj	_	_
 3	arrives	arriver	VERB	ETRE	_	0	root	_	_
@@ -460,7 +460,7 @@
 
 # macrosyntax = donc là <+ tu rentres dans le centre-ville //
 # sent_id = Rhap_M0009-13
-# text = donc là tu rentres dans le centre - ville
+# text = donc là tu rentres dans le centre-ville
 1	donc	donc	ADV	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
 3	tu	tu	PRON	_	_	4	subj	_	_
@@ -471,7 +471,7 @@
 
 # macrosyntax = tu arrives à un rond-point //
 # sent_id = Rhap_M0009-14
-# text = tu arrives à un rond - point
+# text = tu arrives à un rond-point
 1	tu	tu	PRON	_	_	2	subj	_	_
 2	arrives	arriver	VERB	ETRE	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -522,7 +522,7 @@
 
 # macrosyntax = tu arrives à un autre rond-point //
 # sent_id = Rhap_M0009-18
-# text = tu arrives à un autre rond - point
+# text = tu arrives à un autre rond-point
 1	tu	tu	PRON	_	_	2	subj	_	_
 2	arrives	arriver	VERB	ETRE	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -955,7 +955,7 @@
 
 # macrosyntax = ^alors en partant de la place Paul Vallier pour aller à la place Notre-Dame // ^alors j' emprunte la rue de Strasbourg //
 # sent_id = Rhap_M0014-1
-# text = alors en partant de la place Paul Vallier pour aller à la place Notre - Dame alors j' emprunte la rue de Strasbourg
+# text = alors en partant de la place Paul Vallier pour aller à la place Notre-Dame alors j' emprunte la rue de Strasbourg
 1	alors	alors	ADV	_	_	17	discourse	_	_
 2	en	en	ADP	_	_	17	mod	_	_
 3	partant	partir	VERB	ETRE	_	2	comp:obj	_	_
@@ -1053,7 +1053,7 @@
 
 # macrosyntax = ^et j' arrive à la place Notre-Dame //
 # sent_id = Rhap_M0014-6
-# text = et j' arrive à la place Notre - Dame
+# text = et j' arrive à la place Notre-Dame
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	arrive	arriver	VERB	ETRE	_	0	root	_	_
@@ -2066,7 +2066,7 @@
 
 # macrosyntax = $L1 ^mais vous étiez auprès des femmes >+ $- ( $L2 alors // ) $L1 là-bas // -$
 # sent_id = Rhap_D2004-61
-# text = mais vous étiez auprès des femmes alors là - bas
+# text = mais vous étiez auprès des femmes alors là-bas
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	étiez	être	VERB	_	_	0	root	_	_
@@ -3722,7 +3722,7 @@
 
 # macrosyntax = ^et c'est Lionel Messi là-bas "euh" sur le côté droit qui va tirer ce corner //
 # sent_id = Rhap_D2003-37
-# text = et c' est Lionel Messi là - bas euh sur le côté droit qui va tirer ce corner
+# text = et c' est Lionel Messi là-bas euh sur le côté droit qui va tirer ce corner
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
@@ -4074,7 +4074,7 @@
 
 # macrosyntax = ^mais "bon" il pouvait pas grand-chose > là >+ sur ce tir //
 # sent_id = Rhap_D2003-64
-# text = mais bon il pouvait pas grand - chose là sur ce tir
+# text = mais bon il pouvait pas grand -chose là sur ce tir
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	bon	bon	INTJ	_	_	4	discourse	_	_
 3	il	il	PRON	_	_	4	subj	_	_
@@ -4481,7 +4481,7 @@
 
 # macrosyntax = on est à quatre minutes de la mi-temps //+ même pas //
 # sent_id = Rhap_D2003-87
-# text = on est à quatre minutes de la mi - temps même pas
+# text = on est à quatre minutes de la mi-temps même pas
 1	on	on	PRON	_	_	2	subj	_	_
 2	est	être	VERB	_	_	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
@@ -4506,7 +4506,7 @@
 
 # macrosyntax = { Anelka | Anelka } qui veut donner sur { le côté gauche | là-bas } pour Thierry Henry //
 # sent_id = Rhap_D2003-89
-# text = Anelka Anelka qui veut donner sur le côté gauche là - bas pour Thierry Henry
+# text = Anelka Anelka qui veut donner sur le côté gauche là-bas pour Thierry Henry
 1	Anelka	Anelka	PROPN	_	_	0	root	_	_
 2	Anelka	Anelka	PROPN	_	_	1	conj:dicto	_	_
 3	qui	qui	PRON	_	_	4	subj	_	_
@@ -4694,7 +4694,7 @@
 
 # macrosyntax = $L2 ^alors ^que nous sommes à -$ $L2 trois minutes de la mi-temps //
 # sent_id = Rhap_D2003-103
-# text = alors que nous sommes à trois minutes de la mi - temps
+# text = alors que nous sommes à trois minutes de la mi-temps
 1	alors	alors	ADV	_	_	0	root	_	_
 2	que	que	ADV	_	_	1	unk@fixed	_	_
 3	nous	nous	PRON	_	_	4	subj	_	_
@@ -4714,7 +4714,7 @@
 
 # macrosyntax = ^alors ^que le ballon maintenant est dans les pieds là-bas à droite de
 # sent_id = Rhap_D2003-105
-# text = alors que le ballon maintenant est dans les pieds là - bas à droite de
+# text = alors que le ballon maintenant est dans les pieds là-bas à droite de
 1	alors	alors	ADV	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
 3	le	le	DET	_	_	4	det	_	_
@@ -4775,7 +4775,7 @@
 
 # macrosyntax = sortie en touche pour les Argentins //+ avec "euh" Zanetti qui va faire cette touche là-bas "euh" //
 # sent_id = Rhap_D2003-109
-# text = sortie en touche pour les Argentins avec euh Zanetti qui va faire cette touche là - bas euh
+# text = sortie en touche pour les Argentins avec euh Zanetti qui va faire cette touche là-bas euh
 1	sortie	sortie	NOUN	_	_	0	root	_	_
 2	en	en	ADP	_	_	1	mod	_	_
 3	touche	touche	NOUN	_	_	2	comp:obj	_	_
@@ -4810,7 +4810,7 @@
 
 # macrosyntax = ^alors ^que le ballon est revenu maintenant { dans le camp ESPERLUETTE | "ouh" à nouveau dans les pieds de Zanetti | là-bas | sur la droite | tout près de la ligne de touche } //
 # sent_id = Rhap_D2003-111
-# text = alors que le ballon est revenu maintenant dans le camp ouh à nouveau dans les pieds de Zanetti là - bas sur la droite tout près de la ligne de touche
+# text = alors que le ballon est revenu maintenant dans le camp ouh à nouveau dans les pieds de Zanetti là-bas sur la droite tout près de la ligne de touche
 1	alors	alors	ADV	_	_	0	root	_	_
 2	que	que	ADV	_	_	1	unk@fixed	_	_
 3	le	le	DET	_	_	4	det	_	_
@@ -5078,7 +5078,7 @@
 
 # macrosyntax = il peut donner derrière où "euh" Heinze { a récupéré ce ballon | ^et l'écarte { là-bas | côté droit } |} ( $L2 Zanetti // ) {| pour Zanetti } //
 # sent_id = Rhap_D2003-131
-# text = il peut donner derrière où euh Heinze a récupéré ce ballon et l' écarte là - bas côté droit Zanetti pour Zanetti
+# text = il peut donner derrière où euh Heinze a récupéré ce ballon et l' écarte là-bas côté droit Zanetti pour Zanetti
 1	il	il	PRON	_	_	2	subj	_	_
 2	peut	pouvoir	VERB	_	_	0	root	_	_
 3	donner	donner	VERB	_	_	2	comp:obj@x	_	_
@@ -7440,7 +7440,7 @@
 
 # macrosyntax = "enfin" "remarque" les jeunes comme moi "euh" qui connaissent pas grand chose à l' ordinateur "euh" ESPERLUETTE //
 # sent_id = Rhap_D0005-47
-# text = enfin remarque les jeunes comme moi euh qui connaissent pas grand - chose à l' ordinateur euh
+# text = enfin remarque les jeunes comme moi euh qui connaissent pas grand -chose à l' ordinateur euh
 1	enfin	enfin	ADV	_	_	4	discourse	_	_
 2	remarque	remarquer	VERB	_	_	1	discourse	_	_
 3	les	le	DET	_	_	4	det	_	_
@@ -7503,7 +7503,7 @@
 
 # macrosyntax = { le | le | l' } histoire du mulot < là < "hein" { "euh" | "euh" } " c' est-à-dire " "enfin" { { c' est | c' est | c' est | c' est } un peu "hein" | ^mais c' est un peu } vrai > ça //
 # sent_id = Rhap_D0005-51
-# text = le le l' histoire du mulot là hein euh euh c' est - à - dire enfin c' est c' est c' est c' est un peu hein mais c' est un peu vrai ça
+# text = le le l' histoire du mulot là hein euh euh c'est-à-dire enfin c' est c' est c' est c' est un peu hein mais c' est un peu vrai ça
 1	le	le	DET	_	_	4	det	_	_
 2	le	le	DET	_	_	1	conj:dicto	_	_
 3	l'	le	DET	_	_	2	conj:dicto	_	_
@@ -8784,7 +8784,7 @@
 
 # macrosyntax = ce qu' il veut dire < c' est que il y a { rien de morbide |} là-dedans //+ ^et donc < {| ^y ^compris " euh " { le | l~ } ESPERLUETTE } //
 # sent_id = Rhap_D1002-19
-# text = ce qu' il veut dire c' est que il y a rien de morbide là - dedans et donc y compris euh le l~
+# text = ce qu' il veut dire c' est que il y a rien de morbide là-dedans et donc y compris euh le l~
 1	ce	ce	PRON	_	_	7	dislocated	_	_
 2	qu'	que	PRON	_	_	5	comp:obj	_	_
 3	il	il	PRON	_	_	4	subj	_	_
@@ -9749,7 +9749,7 @@
 
 # macrosyntax = $L3 "euh" -$ $L1 { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) $L1 {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- $L1 le même ( $L2 { oui | oui } // ) -$ $L1 discours $- $L1 "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) $L1 ému ( $L2 { oui | oui } // ) -$ $L1 quand on passe à l'arrière de Notre Dame "hein" >+ en $- $L1 particulier //
 # sent_id = Rhap_D0001-27
-# text = euh monsieur YYY oui oui je vois bien sûr je vois voisin euh prend a le même oui oui discours absolument euh absolument absolument oui oui oui je sais ému oui oui quand on passe à l' arrière de Notre - Dame hein en particulier
+# text = euh monsieur YYY oui oui je vois bien sûr je vois voisin euh prend a le même oui oui discours absolument euh absolument absolument oui oui oui je sais ému oui oui quand on passe à l' arrière de Notre-Dame hein en particulier
 1	euh	euh	INTJ	_	_	14	discourse	_	_
 2	monsieur	Monsieur	NOUN	_	_	14	subj	_	_
 3	YYY	YYY	PROPN	_	_	2	mod@appos	_	_
@@ -10985,7 +10985,7 @@
 
 # macrosyntax = ^alors donc < pour aller de la place Notre-Dame à La Nef Chavant <+ je prolonge la place Notre-Dame par la place Sainte-Claire //
 # sent_id = Rhap_M0011-1
-# text = alors donc pour aller de la place Notre - Dame à La Nef Chavant je prolonge la place Notre - Dame par la place Sainte-Claire
+# text = alors donc pour aller de la place Notre-Dame à La Nef Chavant je prolonge la place Notre-Dame par la place Sainte-Claire
 1	alors	alors	ADV	_	_	14	discourse	_	_
 2	donc	donc	ADV	_	_	14	discourse	_	_
 3	pour	pour	ADP	_	_	14	mod	_	_
@@ -11574,7 +11574,7 @@
 
 # macrosyntax = par exemple < pour organiser l'anniversaire de votre arrière-grand-mère <+ il suffit { de donner le code d'accès à tous les membres de votre famille | ^et de vous retrouver tous ensemble sur Famibook point com } //
 # sent_id = Rhap_M2005-17
-# text = par exemple pour organiser l' anniversaire de votre arrière - grand - mère il suffit de donner le code d' accès à tous les membres de votre famille et de vous retrouver tous ensemble sur Famibook point com
+# text = par exemple pour organiser l' anniversaire de votre arrière-grand-mère il suffit de donner le code d' accès à tous les membres de votre famille et de vous retrouver tous ensemble sur Famibook point com
 1	par	par	ADP	_	_	11	mod	_	_
 2	exemple	exemple	NOUN	_	_	1	comp:obj	_	_
 3	pour	pour	ADP	_	_	11	mod	_	_
@@ -12409,7 +12409,7 @@
 
 # macrosyntax = "voyez" ^c'^est-^à-^dire c'est une réponse { un peu de ESPERLUETTE | un peu trop nuancée "hein" } //
 # sent_id = Rhap_M2002-7
-# text = voyez c' est - à - dire c' est une réponse un peu de un peu trop nuancée hein
+# text = voyez c'est-à-dire c' est une réponse un peu de un peu trop nuancée hein
 1	voyez	voir	VERB	DISCOURSE	_	4	discourse	_	_
 2	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
 3	c'	ce	PRON	_	_	4	subj	_	_
@@ -12589,7 +12589,7 @@
 
 # macrosyntax = c'est un philosophe "euh" { américain "euh" | disciple du philosophe anglo { aus~ | autrichien } "euh" Wittgenstein } qui a "euh" avancé cette idée de { l'art comme concept flou | ^c'^est-^à-^dire { un art dont les ESPERLUETTE | un a~ ESPERLUETTE } } //
 # sent_id = Rhap_M2002-16
-# text = c' est un philosophe euh américain euh disciple du philosophe anglo aus~ autrichien euh Wittgenstein qui a euh avancé cette idée de l' art comme concept flou c' est - à - dire un art dont les un a~
+# text = c' est un philosophe euh américain euh disciple du philosophe anglo aus~ autrichien euh Wittgenstein qui a euh avancé cette idée de l' art comme concept flou c'est-à-dire un art dont les un a~
 1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det	_	_
@@ -14066,7 +14066,7 @@
 
 # macrosyntax = $L2 qu' est-ce que vous lisez en ce moment //
 # sent_id = Rhap_D2002-18
-# text = qu' est - ce qu' vous lisez en ce moment
+# text = qu' est -ce qu' vous lisez en ce moment
 1	qu'	qu'	PRON	_	_	2	comp:pred	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	-ce	ce	PRON	_	_	2	subj@expl	_	_
@@ -17267,7 +17267,7 @@
 
 # macrosyntax = ^ou peut-être < y a-t-il { une nouvelle & | une anti-littérature | une contre-littérature } //
 # sent_id = Rhap_D2009-45
-# text = ou peut-être y a - t - il une nouvelle une anti - littérature une contre-littérature
+# text = ou peut-être y a -t-il une nouvelle une anti - littérature une contre-littérature
 1	ou	ou	CCONJ	_	_	4	cc	_	_
 2	peut-être	peut-être	ADV	_	_	4	mod	_	_
 3	y	y	PRON	_	_	4	comp:obl	_	_
@@ -17284,7 +17284,7 @@
 
 # macrosyntax = $L1 "bah" ^c'^est-^à-^dire la littérature avec un grand L "euh" "n'est-ce pas" < ça a été pendant très longtemps une véritable institution //
 # sent_id = Rhap_D2009-46
-# text = bah c' est - à - dire la littérature avec un grand L euh n' est -ce pas ça a été pendant très longtemps une véritable institution
+# text = bah c'est-à-dire la littérature avec un grand L euh n' est -ce pas ça a été pendant très longtemps une véritable institution
 1	bah	bah	INTJ	_	_	22	discourse	_	_
 2	c'est-à-dire	c'	CCONJ	_	_	15	cc	_	_
 3	la	le	DET	_	_	4	det	_	_
@@ -18284,7 +18284,7 @@
 
 # macrosyntax = je n'avais pas prévu de vous interroger là-dessus // -$
 # sent_id = Rhap_D0004-31
-# text = je n' avais pas prévu de vous interroger là - dessus
+# text = je n' avais pas prévu de vous interroger là-dessus
 1	je	je	PRON	_	_	3	subj	_	_
 2	n'	ne	ADV	_	_	3	mod	_	_
 3	avais	avoir	AUX	_	_	0	root	_	_
