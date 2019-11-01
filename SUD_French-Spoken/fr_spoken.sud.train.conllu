@@ -3106,7 +3106,7 @@
 2	l'	le	PRON	_	_	6	comp:obj	_	_
 3	avait	avoir	AUX	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	6	mod	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	6	mod	_	EXTPOS=ADV
 6	oublié	oublier	VERB	_	_	3	comp:aux	_	_
 7	après	après	ADP	_	_	6	mod	_	_
 8	les	le	DET	_	_	9	det	_	_
@@ -3533,7 +3533,7 @@
 2	c'	ce	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	6	mod	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	6	mod	_	EXTPOS=ADV
 6	embêtant	embêtant	ADJ	_	_	3	comp:pred	_	_
 
 # macrosyntax = ^mais "enfin" "bon" //
@@ -4118,7 +4118,7 @@
 13	euh	euh	INTJ	_	_	12	discourse	_	_
 14	dominait	dominer	VERB	_	_	7	mod@relcl	_	_
 15	un	un	DET	_	_	16	det@fixed	_	_
-16	peu	peu	NOUN	_	EXTPOS=ADV	14	mod	_	EXTPOS=ADV
+16	peu	peu	NOUN	_	_	14	mod	_	EXTPOS=ADV
 17	globalement	globalement	ADV	_	_	14	mod	_	_
 
 # macrosyntax = "enfin" ^quoique là < il y avait un $- petit relâchement //
@@ -4196,7 +4196,7 @@
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	jouaient	jouer	VERB	_	_	0	root	_	_
 11	un	un	DET	_	_	12	det@fixed	_	_
-12	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+12	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 13	plus	plus	ADV	_	_	14	mod	_	_
 14	haut	haut	ADJ	_	_	10	mod	_	_
 
@@ -4402,7 +4402,7 @@
 2	il	il	PRON	_	_	3	subj	_	_
 3	a	avoir	VERB	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	3	comp:obj	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	3	comp:obj	_	EXTPOS=ADV
 6	de	de	ADP	_	_	5	mod	_	_
 7	chance	chance	NOUN	_	_	6	comp:obj	_	_
 8	également	également	ADV	_	_	3	mod	_	_
@@ -4428,7 +4428,7 @@
 16	il	il	PRON	_	_	17	subj	_	_
 17	rebondit	rebondir	VERB	_	_	14	parataxis:parenth	_	_
 18	un	un	DET	_	_	19	det@fixed	_	_
-19	peu	peu	NOUN	_	EXTPOS=ADV	17	mod	_	EXTPOS=ADV
+19	peu	peu	NOUN	_	_	17	mod	_	EXTPOS=ADV
 20	je	je	PRON	_	_	21	subj	_	_
 21	crois	croire	VERB	_	_	17	discourse	_	_
 22	le	le	DET	_	_	23	det	_	_
@@ -5667,11 +5667,11 @@
 12	instants	instant	NOUN	_	_	10	comp:obj	_	_
 13	avec	avec	ADP	_	_	10	mod	_	_
 14	un	un	DET	_	_	15	det@fixed	_	_
-15	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+15	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 16	d'	de	ADP	_	_	15	comp:obl	_	_
 17	émotion	émotion	NOUN	_	_	16	comp:obj	_	_
 18	un	un	DET	_	_	19	det@fixed	_	_
-19	peu	peu	NOUN	_	EXTPOS=ADV	15	conj:coord	_	EXTPOS=ADV
+19	peu	peu	NOUN	_	_	15	conj:coord	_	EXTPOS=ADV
 20	d'	de	ADP	_	_	19	comp:obj	_	_
 21	étonnement	étonnement	NOUN	_	_	20	comp:obj	_	_
 22	une	un	DET	_	_	23	det	_	_
@@ -7527,13 +7527,13 @@
 20	c'	ce	PRON	_	_	21	subj	_	_
 21	est	être	AUX	_	_	19	conj:dicto	_	_
 22	un	un	DET	_	_	23	det@fixed	_	_
-23	peu	peu	NOUN	_	EXTPOS=ADV	21	mod	_	EXTPOS=ADV
+23	peu	peu	NOUN	_	_	21	mod	_	EXTPOS=ADV
 24	hein	hein	INTJ	_	_	22	discourse	_	_
 25	mais	mais	CCONJ	_	_	27	cc	_	_
 26	c'	ce	PRON	_	_	27	subj	_	_
 27	est	être	AUX	_	_	21	conj:dicto	_	_
 28	un	un	DET	_	_	29	det@fixed	_	_
-29	peu	peu	NOUN	_	EXTPOS=ADV	30	mod	_	EXTPOS=ADV
+29	peu	peu	NOUN	_	_	30	mod	_	EXTPOS=ADV
 30	vrai	vrai	ADJ	_	_	27	comp:pred	_	_
 31	ça	ça	PRON	_	_	27	dislocated	_	_
 
@@ -7657,7 +7657,7 @@
 7	c'	ce	PRON	_	_	8	subj	_	_
 8	était	être	AUX	_	_	0	root	_	_
 9	un	un	DET	_	_	10	det@fixed	_	_
-10	peu	peu	NOUN	_	EXTPOS=ADV	8	mod	_	EXTPOS=ADV
+10	peu	peu	NOUN	_	_	8	mod	_	EXTPOS=ADV
 11	ça	ça	PRON	_	_	8	comp:pred	_	_
 
 # macrosyntax = $L1 ^alors ^que ESPERLUETTE //
@@ -8853,7 +8853,7 @@
 40	est	être	AUX	_	_	10	comp:obj	_	_
 41	un	un	DET	_	_	43	det@fixed	_	_
 42	petit	petit	ADJ	_	_	43	mod	_	_
-43	peu	peu	NOUN	_	EXTPOS=ADV	45	mod	_	EXTPOS=ADV
+43	peu	peu	NOUN	_	_	45	mod	_	EXTPOS=ADV
 44	du	du	DET	_	_	45	det	_	_
 45	contresens	contresens	NOUN	_	_	40	comp:pred	_	_
 46	par	par	ADP	_	_	45	mod	_	_
@@ -10074,9 +10074,9 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	suis	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det@fixed	_	_
-4	peu	peu	NOUN	_	EXTPOS=ADV	2	mod	_	EXTPOS=ADV
+4	peu	peu	NOUN	_	_	2	mod	_	EXTPOS=ADV
 5	un	un	DET	_	_	6	det@fixed	_	_
-6	peu	peu	NOUN	_	EXTPOS=ADV	4	conj:dicto	_	EXTPOS=ADV
+6	peu	peu	NOUN	_	_	4	conj:dicto	_	EXTPOS=ADV
 7	branchée	branché	ADJ	_	_	2	comp:pred	_	_
 8	bio	bio	NOUN	_	_	7	comp:obl	_	_
 
@@ -10349,7 +10349,7 @@
 2	vous	vous	PRON	_	_	3	subj	_	_
 3	êtes	être	AUX	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	6	mod	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	6	mod	_	EXTPOS=ADV
 6	plus	plus	ADV	_	_	7	mod	_	_
 7	jeune	jeune	ADJ	_	_	3	comp:pred	_	_
 8	que	que	SCONJ	_	_	6	comp:obj	_	_
@@ -11198,7 +11198,7 @@
 21	qui	qui	PRON	_	_	22	subj	_	_
 22	tourne	tourner	VERB	conj:reform	_	19	mod@relcl	_	_
 23	un	un	DET	_	_	24	det@fixed	_	_
-24	peu	peu	NOUN	_	EXTPOS=ADV	22	mod	_	EXTPOS=ADV
+24	peu	peu	NOUN	_	_	22	mod	_	EXTPOS=ADV
 
 # macrosyntax = { { je | j' } arrive | je tombe } sur La Nef Chavant //
 # sent_id = Rhap_M0011-16
@@ -12417,10 +12417,10 @@
 5	une	un	DET	_	_	6	det	_	_
 6	réponse	réponse	NOUN	_	_	4	comp:pred	_	_
 7	un	un	DET	_	_	8	det@fixed	_	_
-8	peu	peu	NOUN	_	EXTPOS=ADV	12	mod	_	EXTPOS=ADV
+8	peu	peu	NOUN	_	_	12	mod	_	EXTPOS=ADV
 9	de	de	ADP	_	_	8	comp:obl	_	_
 10	un	un	DET	_	_	11	det@fixed	_	_
-11	peu	peu	NOUN	_	EXTPOS=ADV	8	conj:dicto	_	EXTPOS=ADV
+11	peu	peu	NOUN	_	_	8	conj:dicto	_	EXTPOS=ADV
 12	trop	trop	ADV	_	_	13	mod	_	_
 13	nuancée	nuancer	ADJ	_	_	6	mod	_	_
 14	hein	hein	INTJ	_	_	13	discourse	_	_
@@ -13221,7 +13221,7 @@
 7	y	y	PRON	_	_	8	comp:obj@fixed	_	_
 8	compris	compris	VERB	_	_	13	mod	_	_
 9	un	un	DET	_	_	10	det@fixed	_	_
-10	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+10	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 11	l~	l~	X	_	_	10	unk@scrap	_	_
 12	un	un	DET	_	_	11	unk@scrap	_	_
 13	jusqu'	jusque	ADP	_	_	2	conj:coord	_	_
@@ -13875,7 +13875,7 @@
 17	essais	essai	NOUN	_	_	11	conj:coord	_	_
 18	mais	mais	CCONJ	_	_	20	cc	_	_
 19	un	un	DET	_	_	20	det@fixed	_	_
-20	peu	peu	NOUN	_	EXTPOS=ADV	16	conj:coord	_	EXTPOS=ADV
+20	peu	peu	NOUN	_	_	16	conj:coord	_	EXTPOS=ADV
 21	de	de	ADP	_	_	20	comp:obl	_	_
 22	bande	bande	NOUN	_	_	21	comp:obj	_	_
 23	dessinée	dessiné	ADJ	_	_	22	mod	_	_
@@ -14288,7 +14288,7 @@
 28	quand	quand	PRON	_	_	27	mod	_	_
 29	même	même	ADV	_	_	28	unk@fixed	_	_
 30	un	un	DET	_	_	31	det@fixed	_	_
-31	peu	peu	NOUN	_	EXTPOS=ADV	27	mod	_	EXTPOS=ADV
+31	peu	peu	NOUN	_	_	27	mod	_	EXTPOS=ADV
 32	son	son	DET	_	_	33	det	_	_
 33	chef	chef	NOUN	_	_	27	comp:pred	_	_
 34	d'	de	ADP	_	_	33	mod	_	_
@@ -14866,7 +14866,7 @@
 10	un	un	DET	_	_	11	det	_	_
 11	exercice	exercice	NOUN	_	_	7	conj:dicto	_	_
 12	un	un	DET	_	_	13	det@fixed	_	_
-13	peu	peu	NOUN	_	EXTPOS=ADV	14	mod	_	EXTPOS=ADV
+13	peu	peu	NOUN	_	_	14	mod	_	EXTPOS=ADV
 14	difficile	difficile	ADJ	_	_	11	mod	_	_
 
 # macrosyntax = ^alors comment on $- $L1 pourrait XXX & //
@@ -15339,7 +15339,7 @@
 11	droite	droite	NOUN	_	_	9	comp:obj	_	_
 12	et	et	CCONJ	_	_	27	cc	_	_
 13	un	un	DET	_	_	14	det@fixed	_	_
-14	peu	peu	NOUN	_	EXTPOS=ADV	15	mod	_	EXTPOS=ADV
+14	peu	peu	NOUN	_	_	15	mod	_	EXTPOS=ADV
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	loin	loin	ADV	_	_	27	mod	_	_
 17	euh	euh	INTJ	_	_	16	discourse	_	_
@@ -16782,7 +16782,7 @@
 11	est	être	AUX	_	_	8	parataxis:parenth	_	_
 12	peut-être	peut-être	ADV	_	_	11	mod	_	_
 13	un	un	DET	_	_	14	det@fixed	_	_
-14	peu	peu	NOUN	_	EXTPOS=ADV	15	mod	_	EXTPOS=ADV
+14	peu	peu	NOUN	_	_	15	mod	_	EXTPOS=ADV
 15	ambigu	ambigu	ADJ	_	_	11	comp:pred	_	_
 16	mais	mais	CCONJ	_	_	18	cc	_	_
 17	j'	je	PRON	_	_	18	subj	_	_
@@ -16816,7 +16816,7 @@
 9	situation	situation	NOUN	_	_	10	subj	_	_
 10	est	être	AUX	_	_	6	comp:obj	_	_
 11	un	un	DET	_	_	12	det@fixed	_	_
-12	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+12	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 13	difficile	difficile	ADJ	_	_	10	comp:pred	_	_
 14	à	à	ADP	_	_	13	comp:obl	_	_
 15	repérer	repérer	VERB	_	_	14	comp:obj	_	_
@@ -16892,7 +16892,7 @@
 7	qui	qui	PRON	_	_	8	subj	_	_
 8	est	être	AUX	_	_	5	comp:cleft	_	_
 9	un	un	DET	_	_	10	det@fixed	_	_
-10	peu	peu	NOUN	_	EXTPOS=ADV	11	mod	_	EXTPOS=ADV
+10	peu	peu	NOUN	_	_	11	mod	_	EXTPOS=ADV
 11	difficile	difficile	ADJ	_	_	8	comp:pred	_	_
 12	à	à	ADP	_	_	11	mod	_	_
 13	situer	situer	VERB	_	_	12	comp:obj	_	_
@@ -17546,7 +17546,7 @@
 11	statut	statut	NOUN	_	_	9	comp:obj	_	_
 12	souvent	souvent	ADV	_	_	15	mod	_	_
 13	un	un	DET	_	_	14	det@fixed	_	_
-14	peu	peu	NOUN	_	EXTPOS=ADV	15	mod	_	EXTPOS=ADV
+14	peu	peu	NOUN	_	_	15	mod	_	EXTPOS=ADV
 15	honteux	honteux	ADJ	_	_	11	mod	_	_
 
 # macrosyntax = ^et "euh" cela désigne l'espèce { de | de } force qui mine l'institution littéraire > certainement //
@@ -17742,7 +17742,7 @@
 5	a	avoir	VERB	_	_	0	root	_	_
 6	toujours	toujours	ADV	_	_	5	mod	_	_
 7	un	un	DET	_	_	8	det@fixed	_	_
-8	peu	peu	NOUN	_	EXTPOS=ADV	5	mod	_	EXTPOS=ADV
+8	peu	peu	NOUN	_	_	5	mod	_	EXTPOS=ADV
 9	ceux	celui	PRON	_	_	5	comp:obj	_	_
 10	-là	là	ADV	_	_	9	mod	_	_
 11	qui	qui	PRON	_	_	12	subj	_	_
@@ -18124,7 +18124,7 @@
 5	est	être	VERB	_	_	0	root	_	_
 6	un	un	DET	_	_	8	det@fixed	_	_
 7	petit	petit	ADJ	_	_	8	mod	_	_
-8	peu	peu	NOUN	_	EXTPOS=ADV	9	mod	_	EXTPOS=ADV
+8	peu	peu	NOUN	_	_	9	mod	_	EXTPOS=ADV
 9	pour	pour	ADP	_	_	5	comp:obl	_	_
 10	ce	ce	PRON	_	_	9	comp:obj	_	_
 11	qui	qui	PRON	_	_	12	subj	_	_
@@ -18418,7 +18418,7 @@
 17	je	je	PRON	_	_	18	subj	_	_
 18	travaillais	travailler	VERB	_	_	10	conj:coord	_	_
 19	un	un	DET	_	_	20	det@fixed	_	_
-20	peu	peu	NOUN	_	EXTPOS=ADV	18	mod	_	EXTPOS=ADV
+20	peu	peu	NOUN	_	_	18	mod	_	EXTPOS=ADV
 21	quand	quand	SCONJ	_	_	18	mod	_	_
 22	je	je	PRON	_	_	23	subj	_	_
 23	suis	être	AUX	_	_	21	comp:obj	_	_
@@ -18890,7 +18890,7 @@
 3	mh	mh	INTJ	_	_	10	discourse	_	_
 4	mh	mh	INTJ	_	_	10	discourse	_	_
 5	un	un	DET	_	_	6	det@fixed	_	_
-6	peu	peu	NOUN	_	EXTPOS=ADV	2	mod	_	EXTPOS=ADV
+6	peu	peu	NOUN	_	_	2	mod	_	EXTPOS=ADV
 7	bon	bon	INTJ	_	_	5	discourse	_	_
 8	évidemment	évidemment	ADV	_	_	5	discourse	_	_
 9	les	le	DET	_	_	10	det	_	_
@@ -19056,7 +19056,7 @@
 6	autres	autre	PRON	_	_	7	mod	_	_
 7	quartiers	quartier	NOUN	_	_	5	comp:obj	_	_
 8	un	un	DET	_	_	9	det@fixed	_	_
-9	peu	peu	NOUN	_	EXTPOS=ADV	10	mod	_	EXTPOS=ADV
+9	peu	peu	NOUN	_	_	10	mod	_	EXTPOS=ADV
 10	périphériques	périphérique	ADJ	_	_	7	mod	_	_
 11	de	de	ADP	_	_	7	mod	_	_
 12	Paris	Paris	PROPN	_	_	11	comp:obj	_	_
@@ -19076,7 +19076,7 @@
 9	on	on	PRON	_	_	10	subj	_	_
 10	devient	devenir	VERB	_	_	8	comp:obj	_	_
 11	un	un	DET	_	_	12	det@fixed	_	_
-12	peu	peu	NOUN	_	EXTPOS=ADV	10	mod	_	EXTPOS=ADV
+12	peu	peu	NOUN	_	_	10	mod	_	EXTPOS=ADV
 13	un	un	DET	_	_	14	det	_	_
 14	quartier	quartier	NOUN	_	_	10	comp:obj	_	_
 15	dortoir	dortoir	NOUN	_	_	14	compound	_	_
@@ -20068,7 +20068,7 @@
 6	je	je	PRON	_	_	7	subj	_	_
 7	suis	être	AUX	_	_	0	root	_	_
 8	un	un	DET	_	_	9	det@fixed	_	_
-9	peu	peu	NOUN	_	EXTPOS=ADV	10	mod	_	EXTPOS=ADV
+9	peu	peu	NOUN	_	_	10	mod	_	EXTPOS=ADV
 10	déconcentré	déconcentrer	ADJ	_	_	7	comp:pred	_	_
 
 # macrosyntax = { ^mais "euh" | ^et } ça se termine un peu en coupure où "euh" { { le boulanger | "enfin" { la | la } vieille dame } rejoint | la bourgeoise rejoint } le boulanger après que { { la fille soit par terre | ^et Charlie ESPERLUETTE } | ^ou { Charlie Chaplin soit par terre | ^et la fille soit partie } } //
@@ -20081,7 +20081,7 @@
 5	se	se	PRON	_	_	6	comp@fixed	_	_
 6	termine	terminer	VERB	_	_	0	root	_	_
 7	un	un	DET	_	_	8	det@fixed	_	_
-8	peu	peu	NOUN	_	EXTPOS=ADV	9	mod	_	EXTPOS=ADV
+8	peu	peu	NOUN	_	_	9	mod	_	EXTPOS=ADV
 9	en	en	ADP	_	_	6	mod	_	_
 10	coupure	coupure	NOUN	_	_	9	comp:obj	_	_
 11	où	où	PRON	_	_	20	mod	_	_

@@ -294,7 +294,7 @@
 4	sorti	sortir	VERB	ETRE	_	3	comp:aux	_	_
 5	un	un	DET	_	_	7	det@fixed	_	_
 6	petit	petit	ADJ	_	_	7	mod	_	_
-7	peu	peu	NOUN	_	EXTPOS=ADV	4	mod	_	EXTPOS=ADV
+7	peu	peu	NOUN	_	_	4	mod	_	EXTPOS=ADV
 8	de	de	ADP	_	_	4	comp:obl	_	_
 9	mon	son	DET	_	_	11	det	_	_
 10	petit	petit	ADJ	_	_	11	mod	_	_
@@ -636,7 +636,7 @@
 14	m'	me	PRON	_	_	13	conj:dicto	_	_
 15	être	être	AUX	_	_	12	comp:obj	_	_
 16	un	un	DET	_	_	17	det@fixed	_	_
-17	peu	peu	NOUN	_	EXTPOS=ADV	18	mod	_	EXTPOS=ADV
+17	peu	peu	NOUN	_	_	18	mod	_	EXTPOS=ADV
 18	sorti	sortir	VERB	ETRE	_	15	comp:aux	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
 20	mon	son	DET	_	_	22	det	_	_
@@ -716,7 +716,7 @@
 6	de	de	ADP	_	_	5	mod	_	_
 7	sortir	sortir	VERB	ETRE	_	6	comp:obj	_	_
 8	un	un	DET	_	_	9	det@fixed	_	_
-9	peu	peu	NOUN	_	EXTPOS=ADV	7	mod	_	EXTPOS=ADV
+9	peu	peu	NOUN	_	_	7	mod	_	EXTPOS=ADV
 
 # macrosyntax = $L2 "euh" vous avez des idées sur "euh" "euh" le type de travail que vous allez ESPERLUETTE //
 # sent_id = Rhap_D0006-33
@@ -1194,7 +1194,7 @@
 3	peu	peu	ADV	_	_	4	mod	_	_
 4	importe	importe	VERB	_	_	0	root	_	_
 5	un	un	DET	_	_	6	det@fixed	_	_
-6	peu	peu	NOUN	_	EXTPOS=ADV	4	mod	_	EXTPOS=ADV
+6	peu	peu	NOUN	_	_	4	mod	_	EXTPOS=ADV
 7	euh	euh	INTJ	_	_	5	discourse	_	_
 8	les	le	DET	_	_	9	det	_	_
 9	aspects	aspect	NOUN	_	_	4	subj	_	_
@@ -1603,7 +1603,7 @@
 6	les	le	DET	_	_	7	det	_	_
 7	m~	m~	X	_	_	24	mod	_	_
 8	un	un	DET	_	_	9	det@fixed	_	_
-9	peu	peu	NOUN	_	EXTPOS=ADV	10	mod	_	EXTPOS=ADV
+9	peu	peu	NOUN	_	_	10	mod	_	EXTPOS=ADV
 10	moins	moins	ADV	_	_	7	conj:dicto	_	_
 11	je	je	PRON	_	_	12	subj	_	_
 12	sais	savoir	VERB	_	_	10	parataxis:parenth	_	_
@@ -3364,7 +3364,7 @@
 7	choisi	choisir	VERB	_	_	6	comp:aux	_	_
 8	L	L	PROPN	_	_	7	comp:obj	_	_
 9	un	un	DET	_	_	10	det@fixed	_	_
-10	peu	peu	NOUN	_	EXTPOS=ADV	12	mod	_	EXTPOS=ADV
+10	peu	peu	NOUN	_	_	12	mod	_	EXTPOS=ADV
 11	par	par	ADP	_	_	6	mod	_	_
 12	défaut	défaut	NOUN	_	_	11	comp:obj	_	_
 13-14	au	_	_	_	_	_	_	_	_
@@ -4301,7 +4301,7 @@
 2	connaissez	connaître	VERB	_	_	0	root	_	_
 3	déjà	déjà	ADV	_	_	2	mod	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	2	mod	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	2	mod	_	EXTPOS=ADV
 6	ou	ou	CCONJ	_	_	5	conj:dicto	_	_
 
 # macrosyntax = $L2 "bon" autre chose //
@@ -5713,7 +5713,7 @@
 29	jaunâtre	jaunâtre	NOUN	_	_	25	conj:dicto	_	_
 30	un	un	DET	_	_	32	det@fixed	_	_
 31	petit	petit	ADJ	_	_	32	mod	_	_
-32	peu	peu	NOUN	_	EXTPOS=ADV	34	mod	_	EXTPOS=ADV
+32	peu	peu	NOUN	_	_	34	mod	_	EXTPOS=ADV
 33	ça	ça	PRON	_	_	34	subj	_	_
 34	risque	risquer	VERB	_	_	21	comp:obj	_	_
 35	de	de	ADP	_	_	34	comp:obl	_	_
@@ -5736,7 +5736,7 @@
 13	genre	genre	ADP	_	_	11	conj:dicto	_	_
 14	madras	madras	NOUN	_	_	13	comp:obj	_	_
 15	un	un	DET	_	_	16	det@fixed	_	_
-16	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+16	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 
 # macrosyntax = $L1 "mh" oui //
 # sent_id = Rhap_D0009-113
@@ -6849,7 +6849,7 @@
 6	place	place	NOUN	_	_	4	comp:obj	_	_
 7	un	un	DET	_	_	9	det@fixed	_	_
 8	petit	petit	ADJ	_	_	9	mod	_	_
-9	peu	peu	NOUN	_	EXTPOS=ADV	10	mod	_	EXTPOS=ADV
+9	peu	peu	NOUN	_	_	10	mod	_	EXTPOS=ADV
 10	en	en	ADP	_	_	6	mod	_	_
 11	face	face	NOUN	_	_	10	comp:obj	_	_
 
@@ -6963,7 +6963,7 @@
 2	vous	vous	PRON	_	_	3	subj@pass	_	_
 3	étiez	être	AUX	_	_	0	root	_	_
 4	un	un	DET	_	_	5	det@fixed	_	_
-5	peu	peu	NOUN	_	EXTPOS=ADV	3	mod	_	EXTPOS=ADV
+5	peu	peu	NOUN	_	_	3	mod	_	EXTPOS=ADV
 6	choquée	choquer	VERB	_	_	3	comp:aux@pass	_	_
 7	quand	quand	PRON	_	_	3	mod	_	_
 8	même	même	ADV	_	_	7	unk@fixed	_	_
@@ -7328,7 +7328,7 @@
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	un	un	DET	_	_	4	det@fixed	_	_
-4	peu	peu	NOUN	_	EXTPOS=ADV	6	mod	_	EXTPOS=ADV
+4	peu	peu	NOUN	_	_	6	mod	_	EXTPOS=ADV
 5	la	le	DET	_	_	6	det	_	_
 6	carrière	carrière	NOUN	_	_	2	comp:pred	_	_
 7	d'	de	ADP	_	_	6	mod	_	_
@@ -9309,7 +9309,7 @@
 5	suis	être	AUX	_	_	0	root	_	_
 6	mis	mettre	VERB	_	_	5	comp:aux	_	_
 7	un	un	DET	_	_	8	det@fixed	_	_
-8	peu	peu	NOUN	_	EXTPOS=ADV	9	mod	_	EXTPOS=ADV
+8	peu	peu	NOUN	_	_	9	mod	_	EXTPOS=ADV
 9	plus	plus	ADV	_	_	10	mod	_	_
 10	tard	tard	ADV	_	_	5	mod	_	_
 11	c'est-à-dire	c'	CCONJ	_	_	12	cc	_	_
@@ -11667,7 +11667,7 @@
 14	avec	avec	ADP	_	_	13	mod	_	_
 15	euh	euh	INTJ	_	_	17	discourse	_	_
 16	soixante	soixante	NUM	_	_	17	det	_	_
-17	pour	pour	ADP	_	EXTPOS=NOUN	14	comp:obj	_	EXTPOS=NOUN
+17	pour	pour	ADP	_	_	14	comp:obj	_	EXTPOS=NOUN
 18	cent	cent	NUM	_	_	17	comp:obj@fixed	_	_
 19	de	de	ADP	_	_	17	comp:obj	_	_
 20	gamins	gamin	NOUN	_	_	19	comp:obj	_	_
@@ -11712,7 +11712,7 @@
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	où	où	ADV	_	_	17	mod	_	_
 11	quatre-vingt-dix	quatre-vingt-dix	NUM	_	_	12	det	_	_
-12	pour	pour	ADV	_	EXTPOS=NOUN	17	subj	_	EXTPOS=NOUN
+12	pour	pour	ADV	_	_	17	subj	_	EXTPOS=NOUN
 13	cent	cent	NUM	_	_	12	comp:obj@fixed	_	_
 14	de	de	ADP	_	_	12	comp:obj	_	_
 15	la	le	DET	_	_	16	det	_	_
@@ -11857,7 +11857,7 @@
 27	bus	bus	NOUN	_	_	26	comp:obj	_	_
 28	euh	euh	INTJ	_	_	27	discourse	_	_
 29	un	un	DET	_	_	30	det@fixed	_	_
-30	peu	peu	NOUN	_	EXTPOS=ADV	31	mod	_	EXTPOS=ADV
+30	peu	peu	NOUN	_	_	31	mod	_	EXTPOS=ADV
 31	plus	plus	ADV	_	_	32	mod	_	_
 32	loin	loin	ADV	_	_	13	comp:obl	_	_
 
@@ -12089,7 +12089,7 @@
 9	une	un	DET	_	_	10	det	_	_
 10	dame	dame	NOUN	_	_	8	comp:obj	_	_
 11	un	un	DET	_	_	12	det@fixed	_	_
-12	peu	peu	NOUN	_	EXTPOS=ADV	13	mod	_	EXTPOS=ADV
+12	peu	peu	NOUN	_	_	13	mod	_	EXTPOS=ADV
 13	plus	plus	ADV	_	_	14	mod	_	_
 14	âgée	âgé	ADJ	_	_	10	mod	_	_
 15	avec	avec	ADP	_	_	10	mod	_	_
