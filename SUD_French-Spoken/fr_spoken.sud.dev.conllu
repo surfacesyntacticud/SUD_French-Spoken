@@ -311,7 +311,7 @@
 2	ça	ça	PRON	_	_	4	subj@caus	_	_
 3	m'	me	PRON	_	_	6	comp:obl	_	_
 4	a	avoir	AUX	_	_	0	root	_	_
-5	fait	faire	VERB	DoubleAux	_	4	comp:aux	_	_
+5	fait	faire	AUX	DoubleAux	_	4	comp:aux	_	_
 6	voir	voir	VERB	CAUSATIVE	_	5	comp:aux@caus	_	_
 
 # macrosyntax = même si c'est quand même une fac dans le septième < "enfin" { ç~ | il y a } des gens qui viennent de partout "euh" //
@@ -448,7 +448,7 @@
 14	qui	qui	PRON	_	_	16	subj@caus	_	_
 15	m'	me	PRON	_	_	19	comp:obl	_	_
 16	ont	avoir	AUX	_	_	11	conj:coord	_	_
-17	fait	faire	VERB	DoubleAux	_	16	comp:aux	_	_
+17	fait	faire	AUX	DoubleAux	_	16	comp:aux	_	_
 18	euh	euh	INTJ	_	_	19	discourse	_	_
 19	réaliser	réaliser	VERB	CAUSATIVE	_	17	comp:aux@caus	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	_
@@ -915,7 +915,7 @@
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	en	en	ADP	_	_	10	mod	_	_
 3	plus	plus	ADV	_	_	2	comp:obj	_	_
-4	euh	euh	INTJ	_	_	2	comp:obj	_	_
+4	euh	euh	INTJ	_	_	2	discourse	_	_
 5	la	le	DET	_	_	7	det	_	_
 6	vraie	vrai	ADJ	_	_	7	mod	_	_
 7	médecine	médecine	NOUN	_	_	10	dislocated	_	_
@@ -1338,7 +1338,7 @@
 3	être	être	AUX	DoubleAux	_	2	comp:obj	_	_
 4	né	naître	VERB	ETRE	_	3	comp:aux	_	_
 5	psychiatre	psychiatre	NOUN	_	_	4	mod	_	_
-6	pour	pour	ADP	_	_	4	mod@x	_	_
+6	pour	pour	ADP	_	_	4	mod	_	_
 7	être	être	AUX	_	_	6	comp:obj	_	_
 8	psychiatre	psychiatre	NOUN	_	_	7	comp:pred	_	_
 
@@ -1615,7 +1615,7 @@
 18	qui	qui	PRON	_	_	20	subj	_	_
 19	vous	vous	PRON	_	_	20	comp:obj	_	_
 20	intéresse	intéresser	VERB	_	_	16	comp:cleft	_	_
-21	petit	petit	ADJ	_	_	22	det	_	_
+21	petit	petit	ADJ	_	_	22	mod	_	_
 22	peu	peu	NOUN	_	_	23	mod	_	_
 23	moins	moins	ADV	_	_	10	conj:dicto	_	_
 24	prises	prendre	VERB	_	_	5	mod	_	_
@@ -1834,7 +1834,7 @@
 1	c'	ce	PRON	_	_	2	subj@expl	_	_
 2	est	être	AUX	_	_	0	root	_	_
 3	vrai	vrai	ADJ	_	_	2	comp:pred	_	_
-4	que	que	SCONJ	_	_	3	comp:obj@agent	_	_
+4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	depuis	depuis	ADP	_	_	4	comp:obj	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
 
@@ -2397,7 +2397,7 @@
 
 # macrosyntax = ^et dans un sondage réalisé avant le rendez-vous d'aujourd'hui <+ les Français se montrent très sévères à l'égard de la politique économique du gouvernement qu'ils jugent mauvaise à soixante pour cent //
 # sent_id = Rhap_M2006-26
-# text = et dans un sondage réalisé avant le rendez-vous d' aujourd' hui les Français se montrent très sévères à l' égard de la politique économique du gouvernement qu' ils jugent mauvaise à soixante pour cent
+# text = et dans un sondage réalisé avant le rendez-vous d' aujourd'hui les Français se montrent très sévères à l' égard de la politique économique du gouvernement qu' ils jugent mauvaise à soixante pour cent
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	dans	dans	ADP	_	_	14	mod	_	_
 3	un	un	DET	_	_	4	det	_	_
@@ -2463,7 +2463,7 @@
 
 # macrosyntax = un sondage { BVA | Les Échos | France Info } réalisé les { treize | ^et quatorze } février derniers //
 # sent_id = Rhap_M2006-28
-# text = un sondage BVA Les Échos France Info réalisé les treize et quatorze février derniers
+# text = un sondage BVA Les Échos France Info réalisé les treize et quatorze février dernier
 1	un	un	DET	_	_	2	det	_	_
 2	sondage	sondage	NOUN	_	_	0	root	_	_
 3	BVA	BVA	PROPN	_	_	2	mod@appos	_	_
@@ -2777,7 +2777,7 @@
 
 # macrosyntax = un autre plan (+ destiné ( celui-là ) à ralentir les saisies immobilières ) devrait être annoncé aujourd'hui par le président américain //
 # sent_id = Rhap_M2006-48
-# text = un autre plan destiné celui -là à ralentir les saisies immobilières devrait être annoncé aujourd' hui par le président américain
+# text = un autre plan destiné celui -là à ralentir les saisies immobilières devrait être annoncé aujourd'hui par le président américain
 1	un	un	DET	_	_	3	det	_	_
 2	autre	autre	PRON	_	_	3	mod	_	_
 3	plan	plan	NOUN	_	_	12	subj@pass	_	_
@@ -3532,10 +3532,10 @@
 9	onze	onze	NUM	_	_	10	det	_	_
 10	ans	an	NOUN	_	_	8	comp:obj	_	_
 11	en	en	ADP	_	_	8	mod	_	_
-12	deux	deux	NUM	_	_	13	flat	_	_
-13	mille	mille	NUM	_	_	11	comp:obj	_	_
+12	deux	deux	NUM	_	_	11	comp:obj	_	_
+13	mille	mille	NUM	_	_	12	flat	_	_
 14	un	un	NUM	_	_	13	flat	_	_
-15	justement	justement	ADV	_	_	13	mod	_	_
+15	justement	justement	ADV	_	_	12	mod	_	_
 16	euh	euh	INTJ	_	_	15	discourse	_	_
 17	on	on	PRON	_	_	18	subj	_	_
 18	est	être	AUX	_	_	0	root	_	_
@@ -3984,7 +3984,7 @@
 
 # macrosyntax = ^et donc < "euh" c'est pour ça qu' [ aujourd'hui <+ je suis { en italien | en XXX } "euh" ] //+
 # sent_id = Rhap_D1003-43
-# text = et donc euh c' est pour ça qu' aujourd' hui je suis en italien en euh
+# text = et donc euh c' est pour ça qu' aujourd'hui je suis en italien en euh
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	donc	donc	ADV	_	_	6	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
@@ -4652,7 +4652,7 @@
 11	des	un	DET	_	_	12	det	_	_
 12	coussins	coussin	NOUN	_	_	9	comp:pred	_	_
 13	c'	ce	PRON	_	_	14	subj	_	_
-14	était	être	AUX	_	_	0	root	_	_
+14	était	être	AUX	_	_	1	parataxis:parenth	_	_
 15	des	un	DET	_	_	14	comp:pred	_	_
 16	des	un	DET	de	_	15	conj:dicto	_	_
 17	carrés	carrer	ADJ	_	_	16	comp:obj	_	_
@@ -5461,7 +5461,7 @@
 11	moi	moi	PRON	_	_	10	comp:pred	_	_
 12	qui	qui	PRON	_	_	13	subj	_	_
 13	p~	p~	VERB	_	_	10	comp:cleft	_	_
-14	est	être	AUX	_	_	0	root	_	_
+14	est	être	AUX	_	_	1	parataxis:parenth	_	_
 15	-ce	ce	PRON	_	_	14	subj@expl	_	_
 16	que	que	SCONJ	_	_	14	comp:pred	_	_
 17	je	je	PRON	_	_	18	subj	_	_
@@ -7041,7 +7041,7 @@
 1	un	un	DET	_	_	2	det	_	_
 2	mois	mois	NOUN	_	_	0	root	_	_
 3	c'	ce	PRON	_	_	4	subj@expl	_	_
-4	est	être	AUX	_	_	0	root	_	_
+4	est	être	AUX	_	_	2	parataxis:parenth	_	_
 5	pour	pour	ADP	_	_	4	comp:pred	_	_
 6	ça	ça	PRON	_	_	5	comp:obj	_	_
 7	que	que	SCONJ	_	_	4	comp:cleft	_	_
@@ -7528,7 +7528,7 @@
 5	vous	vous	PRON	_	_	6	subj@caus	_	_
 6	avez	avoir	AUX	_	_	4	comp:obj	_	_
 7	déjà	déjà	ADV	_	_	6	mod	_	_
-8	fait	faire	VERB	DoubleAux	_	6	comp:aux	_	_
+8	fait	faire	AUX	DoubleAux	_	6	comp:aux	_	_
 9	sortir	sortir	VERB	ETRE	_	8	comp:aux@caus	_	_
 10	un	un	DET	_	_	11	det	_	_
 11	amant	amant	NOUN	_	_	9	comp:obj	_	_
@@ -8136,7 +8136,7 @@
 19	tu	tu	PRON	_	_	20	subj	_	_
 20	crois	croire	VERB	_	_	17	mod@relcl	_	_
 21	c'	ce	PRON	_	_	22	subj	_	_
-22	est	être	AUX	_	_	0	root	_	_
+22	est	être	AUX	_	_	1	parataxis:parenth	_	_
 23	une	un	DET	_	_	24	det	_	_
 24	copine	copine	NOUN	_	_	22	comp:pred	_	_
 
@@ -8279,7 +8279,7 @@
 # text = c' est bien Ginette
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	bien	bien	ADJ	_	_	2	comp:pred	_	_
+3	bien	bien	ADV	_	_	2	mod	_	_
 4	Ginette	Ginette	PROPN	_	_	2	comp:pred	_	_
 
 # macrosyntax = ça passe partout  " hein "  //
@@ -8742,7 +8742,7 @@
 
 # macrosyntax = aujourd'hui <+ il { continue son activité de conseil | ^et se consacre toujours { à l'écriture | ^et à l'histoire (+ qui ne l'a pas toujours reconnu ) } } //
 # sent_id = Rhap_D2005-11
-# text = aujourd' hui il continue son activité de conseil et se consacre toujours à l' écriture et à l' histoire qui ne l' a pas toujours reconnu
+# text = aujourd'hui il continue son activité de conseil et se consacre toujours à l' écriture et à l' histoire qui ne l' a pas toujours reconnu
 1	aujourd'hui	aujourd'	ADV	_	_	3	mod	_	_
 2	il	il	PRON	_	_	3	subj	_	_
 3	continue	continuer	VERB	_	_	0	root	_	_
@@ -9713,7 +9713,7 @@
 17	le	le	DET	_	_	18	det	_	_
 18	miroir	miroir	NOUN	_	_	16	comp:obj	_	_
 19	qui	qui	PRON	_	_	20	subj@caus	_	_
-20	fait	faire	VERB	_	_	15	mod@relcl	_	_
+20	fait	faire	AUX	_	_	15	mod@relcl	_	_
 21	découvrir	découvrir	VERB	CAUSATIVE	_	20	comp:aux@caus	_	_
 22	un	un	DET	_	_	23	det	_	_
 23	univers	univers	NOUN	_	_	21	comp:obj	_	_
@@ -10323,7 +10323,7 @@
 5	qu'	que	PRON	_	_	8	comp:obj	_	_
 6	il	il	PRON	_	_	7	subj	_	_
 7	faut	falloir	VERB	_	_	4	mod@relcl	_	_
-8	démolir	démolir	VERB	_	_	7	comp:obj@x	_	_
+8	démolir	démolir	VERB	_	_	7	comp:obj	_	_
 9	et	et	CCONJ	_	_	8	conj:dicto	_	_
 10	caetera	caetera	ADV	_	_	9	unk@fixed	_	_
 
@@ -12442,8 +12442,8 @@
 # text = en fait euh ben là euh vous passez euh
 1	en	en	ADP	_	_	8	mod	_	_
 2	fait	fait	NOUN	_	_	1	comp:obj	_	_
-3	euh	euh	INTJ	_	_	1	comp:obj	_	_
-4	ben	ben	INTJ	_	_	1	comp:obj	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	_
+4	ben	ben	INTJ	_	_	1	discourse	_	_
 5	là	là	ADV	_	_	8	mod	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
 7	vous	vous	PRON	_	_	8	subj	_	_

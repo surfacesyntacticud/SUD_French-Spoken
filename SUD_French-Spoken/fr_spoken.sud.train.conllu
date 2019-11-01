@@ -2287,7 +2287,7 @@
 
 # macrosyntax = alors < { { j'a~ | j'avais } beaucoup | j'avais beaucoup } trop peur de m'installer ( comme ça ) seule { de~ | dans } la brousse //
 # sent_id = Rhap_D2004-73
-# text = alors j' a~ j' avais beaucoup j' avais beaucoup trop peur de m' installer comme ça seule de~ dans la brousse
+# text = alors j' a~ j' avais beaucoup j' avais beaucoup trop peur de m' installer comme ça seule d~ dans la brousse
 1	alors	alors	ADV	_	_	3	discourse	_	_
 2	j'	je	PRON	_	_	3	subj	_	_
 3	a~	a~	X	_	_	0	root	_	_
@@ -2526,7 +2526,7 @@
 # text = c' est bel et bien la bérézina pour la droite
 1	c'	ce	PRON	_	_	2	subj	_	_
 2	est	être	AUX	_	_	0	root	_	_
-3	bel	bel	ADJ	_	_	2	comp:pred	_	_
+3	bel	bel	ADJ	_	_	2	mod	_	_
 4	et	et	CCONJ	_	_	5	cc	_	_
 5	bien	bien	ADV	_	_	3	conj:coord	_	_
 6	la	le	DET	_	_	7	det	_	_
@@ -4340,7 +4340,7 @@
 19	hein	hein	INTJ	_	_	17	discourse	_	_
 20	il	il	PRON	_	_	22	subj	_	_
 21	s'	se	PRON	_	_	23	comp@fixed	_	_
-22	est	être	AUX	_	_	0	root	_	_
+22	est	être	AUX	_	_	3	parataxis:parenth	_	_
 23	fait	faire	VERB	_	_	22	comp:aux	_	_
 24	mal	mal	NOUN	_	_	23	comp:obj	_	_
 25	d'	d'	ADP	_	_	22	mod	_	_
@@ -4926,7 +4926,7 @@
 # text = il me fait penser à Bixente là
 1	il	il	PRON	_	_	3	subj@caus	_	_
 2	me	me	PRON	_	_	4	comp:obl	_	_
-3	fait	faire	VERB	_	_	0	root	_	_
+3	fait	faire	AUX	_	_	0	root	_	_
 4	penser	penser	VERB	_	_	3	comp:aux@caus	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	Bixente	Bixente	PROPN	_	_	5	comp:obj	_	_
@@ -5086,7 +5086,7 @@
 5	où	où	PRON	_	_	4	mod@relcl	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
 7	Heinze	Heinze	PROPN	_	_	8	subj	_	_
-8	a	avoir	AUX	_	_	0	root	_	_
+8	a	avoir	AUX	_	_	2	parataxis:parenth	_	_
 9	récupéré	récupérer	VERB	_	_	8	comp:aux	_	_
 10	ce	ce	DET	_	_	11	det	_	_
 11	ballon	ballon	NOUN	_	_	9	comp:obj	_	_
@@ -5160,7 +5160,7 @@
 14	oui	oui	INTJ	_	_	13	discourse	_	_
 15	qui	qui	PRON	_	_	17	subj@caus	_	_
 16	se	se	PRON	_	_	17	comp:obj	_	_
-17	fait	faire	VERB	_	_	10	mod@relcl	_	_
+17	fait	faire	AUX	_	_	10	mod@relcl	_	_
 18	là	là	ADV	_	_	17	mod	_	_
 19	vraiment	vraiment	ADV	_	_	20	mod	_	_
 20	balader	balader	VERB	_	_	17	comp:aux@caus	_	_
@@ -5967,7 +5967,7 @@
 
 # macrosyntax = je sais que bien des tragédies aujourd'hui font douter de cette espérance //
 # sent_id = Rhap_M2004-27
-# text = je sais que bien des tragédies aujourd' hui font douter de cette espérance
+# text = je sais que bien des tragédies aujourd'hui font douter de cette espérance
 1	je	je	PRON	_	_	2	subj	_	_
 2	sais	savoir	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
@@ -6082,7 +6082,7 @@
 7	une	un	DET	_	_	8	det	_	_
 8	exigence	exigence	NOUN	_	_	10	subj@caus	_	_
 9	se	se	PRON	_	_	10	comp:obj	_	_
-10	fait	faire	VERB	_	_	0	root	_	_
+10	fait	faire	AUX	_	_	0	root	_	_
 11	entendre	entendre	VERB	_	_	10	comp:aux@caus	_	_
 12	toujours	toujours	ADV	_	_	14	mod	_	_
 13	plus	plus	NOUN	_	_	14	mod	_	_
@@ -6095,7 +6095,7 @@
 20	la	le	DET	_	_	21	det	_	_
 21	science	science	NOUN	_	_	19	comp:obj	_	_
 22	soient	être	AUX	_	_	16	comp:obj	_	_
-23	orientées	orienter	VERB	_	_	22	comp:aux@passif	_	_
+23	orientées	orienter	VERB	_	_	22	comp:aux@pass	_	_
 24	vers	vers	ADP	_	_	23	comp:obl	_	_
 25	le	le	DET	_	_	26	det	_	_
 26	bien	bien	NOUN	_	_	24	comp:obj	_	_
@@ -6377,7 +6377,7 @@
 15	chacun	chacun	PRON	_	_	14	comp:obj	_	_
 16	sa	son	DET	_	_	17	det	_	_
 17	chance	chance	NOUN	_	_	13	comp:obj@lvc	_	_
-18	pour	pour	ADP	_	_	13	det	_	_
+18	pour	pour	ADP	_	_	13	mod	_	_
 19	que	que	SCONJ	_	_	18	comp:obj	_	_
 20	notre	son	DET	_	_	21	det	_	_
 21	société	société	NOUN	_	_	22	subj	_	_
@@ -9175,7 +9175,7 @@
 1	ça	ça	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	_	0	root	_	_
 3	l'	le	DET	_	_	4	det	_	_
-4	air	air	NOUN	_	_	2	comp:pred	_	_
+4	air	air	NOUN	_	_	2	comp:obj	_	_
 5	d'	de	ADP	_	_	4	comp:obl@x	_	_
 6	être	être	AUX	_	_	5	comp:obj	_	_
 7	un	un	DET	_	_	8	det	_	_
@@ -10429,11 +10429,11 @@
 4	mais	mais	CCONJ	_	_	7	cc	_	_
 5	ça	ça	PRON	_	_	7	dislocated	_	_
 6	ah	ah	INTJ	_	_	7	discourse	_	_
-7	non	non	ADV	_	_	0	root	_	_
+7	non	non	ADV	_	_	3	parataxis:parenth	_	_
 8	non	non	ADV	_	_	7	conj:coord	_	_
 9	non	non	ADV	_	_	8	conj:coord	_	_
 10	ah	ah	INTJ	_	_	11	discourse	_	_
-11	non	non	ADV	_	_	0	root	_	_
+11	non	non	ADV	_	_	3	parataxis:parenth	_	_
 12	pas	pas	ADV	_	_	11	conj:coord	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	mod	_	_
@@ -11977,7 +11977,7 @@
 12	se	se	PRON	_	_	13	comp@fixed	_	_
 13	sont	être	AUX	_	_	10	comp:obj	_	_
 14	rencontrés	rencontrer	VERB	_	_	13	comp:aux	_	_
-15	tous	tout	ADJ	_	_	17	det	_	_
+15	tous	tout	ADJ	_	_	17	mod	_	_
 16	les	le	DET	_	_	17	det	_	_
 17	deux	deux	NUM	_	_	14	mod	_	_
 18	Charlot	Charlot	PROPN	conj:reform	_	9	conj:dicto	_	_
@@ -13665,7 +13665,7 @@
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	rôle	rôle	NOUN	_	_	3	comp:obj	_	_
-6	de	de	ADP	_	_	5	det	_	_
+6	de	de	ADP	_	_	5	mod	_	_
 7	la	le	DET	_	_	6	comp:obj	_	_
 8	de	de	ADP	_	_	6	conj:dicto	_	_
 9	la	le	DET	_	_	10	det	_	_
@@ -14900,8 +14900,8 @@
 5	c'	ce	PRON	_	_	6	subj	_	_
 6	est	être	AUX	_	_	3	conj:dicto	_	_
 7	le	le	DET	_	_	6	comp:pred	_	_
-8-9	Au	_	_	_	_	_	_	_	_
-8	À	à	ADP	_	_	7	conj:dicto	_	_
+8-9	au	_	_	_	_	_	_	_	_
+8	à	à	ADP	_	_	7	conj:dicto	_	_
 9	le	le	DET	_	_	10	det	_	_
 10	sud	sud	NOUN	_	_	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -16637,7 +16637,7 @@
 # text = peut-être que euh c~
 1	peut-être	peut-être	ADV	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	unk@fixed	_	_
-3	euh	euh	INTJ	_	_	2	discourse	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	c~	c~	X	_	_	1	comp:obj	_	_
 
 # macrosyntax = la question que vous posez est { très | très } importante //
@@ -18912,7 +18912,7 @@
 25	puis	puis	ADV	_	_	24	unk@fixed	_	_
 26	ça	ça	PRON	_	_	28	subj	_	_
 27	ça	ça	PRON	_	_	26	conj:dicto	_	_
-28	commence	commencer	VERB	_	_	0	root	_	_
+28	commence	commencer	VERB	_	_	2	parataxis:parenth	_	_
 29	aussi	aussi	ADV	_	_	28	mod	_	_
 30	oui	oui	INTJ	_	_	29	discourse	_	_
 31	et	et	CCONJ	_	_	36	cc	_	_
@@ -18920,7 +18920,7 @@
 33	surtout	surtout	ADV	_	_	36	mod	_	_
 34	le	le	DET	_	_	36	det	_	_
 35	le	le	DET	conj:reform	_	34	conj:dicto	_	_
-36	temps	temps	NOUN	_	_	0	root	_	_
+36	temps	temps	NOUN	_	_	2	parataxis:parenth	_	_
 37	que	que	PRON	_	_	40	comp:obj	_	_
 38	les	le	DET	_	_	39	det	_	_
 39	gens	gens	NOUN	_	_	40	subj	_	_
@@ -19141,7 +19141,7 @@
 20	en	en	ADP	_	_	19	discourse	_	_
 21	tout	tout	ADJ	_	_	22	mod	_	_
 22	cas	cas	NOUN	_	_	20	comp:obj	_	_
-23	pour	pour	ADP	_	_	4	mod@x	_	_
+23	pour	pour	ADP	_	_	4	mod	_	_
 24	aller	aller	VERB	ETRE	_	23	comp:obj	_	_
 25	travailler	travailler	VERB	_	_	24	comp:obj@x	_	_
 
