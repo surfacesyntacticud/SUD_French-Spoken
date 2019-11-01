@@ -37,7 +37,7 @@
 2	arrives	arriver	VERB	ETRE	_	0	root	_	_
 3	place	place	NOUN	_	_	2	comp:obj	_	_
 4-5	aux	_	_	_	_	_	_	_	_
-4	à	de	ADP	_	_	3	mod	_	_
+4	à	à	ADP	_	_	3	mod	_	_
 5	les	le	DET	_	_	6	det	_	_
 6	Herbes	Herbes	PROPN	_	_	4	comp:obj	_	_
 7	avec	avec	ADP	_	_	3	mod	_	_
@@ -134,7 +134,7 @@
 # text = alors au début on n' y croyait pas trop avec toute l' équipe de la boutique Valérie
 1	alors	alors	ADV	_	_	8	mod	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	À	de	ADP	_	_	8	mod	_	_
+2	à	à	ADP	_	_	8	mod	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	début	début	NOUN	_	_	2	comp:obj	_	_
 5	on	on	PRON	_	_	8	subj	_	_
@@ -184,7 +184,7 @@
 14	allez	aller	VERB	ETRE	_	9	mod@relcl	_	_
 15	placer	placer	VERB	_	_	14	comp:obj@x	_	_
 16-17	au	_	_	_	_	_	_	_	_
-16	À	de	ADP	_	_	15	comp:obl	_	_
+16	à	à	ADP	_	_	15	comp:obl	_	_
 17	le	le	DET	_	_	18	det	_	_
 18	coeur	coeur	NOUN	_	_	16	comp:obj	_	_
 19	de	de	ADP	_	_	18	mod	_	_
@@ -960,7 +960,7 @@
 # text = grâce au rayonnement à infra rouge la boule magique accroît le mouvement moléculaire de l' eau et renforce donc son pouvoir nettoyant
 1	grâce	grâce	NOUN	_	_	11	dislocated	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	À	de	ADP	_	_	1	mod	_	_
+2	à	à	ADP	_	_	1	mod	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	rayonnement	rayonnement	NOUN	_	_	2	comp:obj	_	_
 5	à	à	ADP	_	_	4	mod	_	_
@@ -1005,7 +1005,7 @@
 5	meilleure	meilleur	ADJ	_	_	6	mod	_	_
 6	pénétration	pénétration	NOUN	_	_	3	comp:obj	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	À	de	ADP	_	_	3	mod	_	_
+7	à	à	ADP	_	_	3	mod	_	_
 8	le	le	DET	_	_	9	det	_	_
 9	niveau	niveau	NOUN	_	_	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	mod	_	_
@@ -1260,7 +1260,7 @@
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
 3-4	au	_	_	_	_	_	_	_	_
-3	À	de	ADP	_	_	0	root	_	_
+3	à	à	ADP	_	_	0	root	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	niveau	niveau	NOUN	_	_	3	comp:obj	_	_
 
@@ -1312,7 +1312,7 @@
 # text = et au niveau de des des odeurs est -ce que c' est efficace également
 1	et	et	CCONJ	_	_	11	cc	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	À	de	ADP	_	_	11	mod	_	_
+2	à	à	ADP	_	_	11	mod	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	niveau	niveau	NOUN	_	_	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	mod	_	_
@@ -1659,7 +1659,7 @@
 # text = tout au contraire
 1	tout	tout	ADV	_	_	2	mod	_	_
 2-3	au	_	_	_	_	_	_	_	_
-2	À	de	ADP	_	_	0	root	_	_
+2	à	à	ADP	_	_	0	root	_	_
 3	le	le	DET	_	_	4	det	_	_
 4	contraire	contraire	NOUN	_	_	2	comp:obj	_	_
 
@@ -2333,7 +2333,7 @@
 5	donner	donner	VERB	_	_	2	comp:obj@x	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7-8	au	_	_	_	_	_	_	_	_
-7	À	de	ADP	conj:reform	_	6	conj:dicto	_	_
+7	à	à	ADP	conj:reform	_	6	conj:dicto	_	_
 8	le	le	DET	_	_	9	det	_	_
 9	Barrage	Barrage	NOUN	_	ExtPOS=PROPN|Title=Yes	7	comp:obj	_	_
 10	parce	parce	SCONJ	_	_	5	mod	_	_
@@ -2520,7 +2520,7 @@
 16	de	de	ADP	_	_	15	mod	_	_
 17	rose	rose	NOUN	_	_	16	comp:obj	_	_
 18-19	au	_	_	_	_	_	_	_	_
-18	À	de	ADP	_	_	12	mod	_	_
+18	à	à	ADP	_	_	12	mod	_	_
 19	le	le	DET	_	_	21	det	_	_
 20	large	large	ADJ	_	_	21	mod	_	_
 21	ruban	ruban	NOUN	_	_	18	comp:obj	_	_
@@ -2531,7 +2531,7 @@
 # text = et aux pieds j' ai eu ce chapeau -là
 1	et	et	CCONJ	_	_	6	cc	_	_
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	de	ADP	_	_	7	mod	_	_
+2	à	à	ADP	_	_	7	mod	_	_
 3	les	le	DET	_	_	4	det	_	_
 4	pieds	pied	NOUN	_	_	2	comp:obj	_	_
 5	j'	je	PRON	_	_	6	subj	_	_
@@ -2550,7 +2550,7 @@
 4	ai	avoir	AUX	_	_	0	root	_	_
 5	eu	avoir	VERB	_	_	4	comp:aux	_	_
 6-7	aux	_	_	_	_	_	_	_	_
-6	à	de	ADP	_	_	4	mod	_	_
+6	à	à	ADP	_	_	4	mod	_	_
 7	les	le	DET	_	_	8	det	_	_
 8	pieds	pied	NOUN	_	_	6	comp:obj	_	_
 
@@ -2975,7 +2975,7 @@
 9	et	et	CCONJ	_	_	11	cc	_	_
 10	puis	puis	ADV	_	_	9	unk@fixed	_	_
 11-12	au	_	_	_	_	_	_	_	_
-11	À	de	ADP	à	_	4	conj:coord	_	_
+11	à	à	ADP	à	_	4	conj:coord	_	_
 12	le	le	DET	_	_	13	det	_	_
 13	chauffeur	chauffeur	NOUN	_	_	11	comp:obj	_	_
 
@@ -4608,7 +4608,7 @@
 13	de	de	ADP	_	_	12	comp:obl@x	_	_
 14	paraître	paraître	VERB	_	_	13	comp:obj	_	_
 15-16	aux	_	_	_	_	_	_	_	_
-15	à	de	ADP	_	_	14	mod	_	_
+15	à	à	ADP	_	_	14	mod	_	_
 16	les	le	DET	_	_	17	det	_	_
 17	éditions	édition	NOUN	_	_	15	comp:obj	_	_
 18	de	de	ADP	_	_	17	mod	_	_
@@ -4769,7 +4769,7 @@
 4	de	de	ADP	_	_	3	mod	_	_
 5	recherche	recherche	NOUN	_	_	4	comp:obj	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	À	de	ADP	_	_	3	mod	_	_
+6	à	à	ADP	_	_	3	mod	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	CNRS	CNRS	PROPN	_	_	6	comp:obj	_	_
 9	et	et	CCONJ	_	_	10	cc	_	_
@@ -5192,7 +5192,7 @@
 9	un	un	DET	_	_	10	det	_	_
 10	cyclone	cyclone	NOUN	_	_	8	comp:obj	_	_
 11-12	au	_	_	_	_	_	_	_	_
-11	À	de	ADP	_	_	18	mod	_	_
+11	à	à	ADP	_	_	18	mod	_	_
 12	le	le	DET	_	_	13	det	_	_
 13	jour	jour	NOUN	_	_	11	comp:obj	_	_
 14	d'	de	ADP	_	_	13	mod	_	_
@@ -5201,7 +5201,7 @@
 17	se	se	PRON	_	_	18	comp@fixed	_	_
 18	rapporte	rapporter	VERB	_	_	0	root	_	_
 19-20	au	_	_	_	_	_	_	_	_
-19	À	de	ADP	_	_	18	comp:obl	_	_
+19	à	à	ADP	_	_	18	comp:obl	_	_
 20	le	le	DET	_	_	21	det	_	_
 21	catalogue	catalogue	NOUN	_	_	19	comp:obj	_	_
 22-23	des	_	_	_	_	_	_	_	_
@@ -5723,7 +5723,7 @@
 1	on	on	PRON	_	_	2	subj	_	_
 2	est	être	VERB	_	_	0	root	_	_
 3-4	au	_	_	_	_	_	_	_	_
-3	À	de	ADP	_	_	2	comp:obl	_	_
+3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	_	6	det	_	_
 5	Moyen	Moyen	ADJ	_	_	6	mod	_	_
 6	Âge	Âge	PROPN	_	_	3	comp:obj	_	_
@@ -5995,7 +5995,7 @@
 17	va	aller	VERB	ETRE	_	15	discourse	_	_
 18	dire	dire	VERB	DISCOURSE	_	17	comp:obj@x	_	_
 19-20	au	_	_	_	_	_	_	_	_
-19	À	de	ADP	_	_	12	mod	_	_
+19	à	à	ADP	_	_	12	mod	_	_
 20	le	le	DET	_	_	21	det	_	_
 21	minimum	minimum	NOUN	_	_	19	comp:obj	_	_
 22	en	en	ADP	_	_	12	mod	_	_
@@ -6021,7 +6021,7 @@
 8	on	on	PRON	_	_	9	subj	_	_
 9	est	être	VERB	_	_	6	parataxis:obj	_	_
 10-11	aux	_	_	_	_	_	_	_	_
-10	à	de	ADP	_	_	9	comp:obl	_	_
+10	à	à	ADP	_	_	9	comp:obl	_	_
 11	les	le	DET	_	_	12	det	_	_
 12	affaires	affaire	NOUN	CCOMP	_	10	comp:obj	_	_
 
@@ -6035,7 +6035,7 @@
 5	on	on	PRON	_	_	6	subj	_	_
 6	est	être	VERB	_	_	4	parataxis:obj	_	_
 7-8	aux	_	_	_	_	_	_	_	_
-7	à	de	ADP	_	_	6	comp:obl	_	_
+7	à	à	ADP	_	_	6	comp:obl	_	_
 8	les	le	DET	_	_	9	det	_	_
 9	affaires	affaire	NOUN	CCOMP	_	7	comp:obj	_	_
 
@@ -6727,7 +6727,7 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	reviens	revenir	VERB	_	_	0	root	_	_
 3-4	au	_	_	_	_	_	_	_	_
-3	À	de	ADP	_	_	2	comp:obl	_	_
+3	à	à	ADP	_	_	2	comp:obl	_	_
 4	le	le	DET	_	_	5	det	_	_
 5	milieu	milieu	NOUN	_	_	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	mod	_	_
@@ -6804,7 +6804,7 @@
 9	a	avoir	AUX	_	_	7	mod@relcl	_	_
 10	émergé	émerger	VERB	_	_	9	comp:aux	_	_
 11-12	au	_	_	_	_	_	_	_	_
-11	À	de	ADP	_	_	9	mod	_	_
+11	à	à	ADP	_	_	9	mod	_	_
 12	le	le	DET	_	_	13	det	_	_
 13	Mexique	Mexique	PROPN	_	_	11	comp:obj	_	_
 14	est	être	AUX	_	_	4	comp:obj	_	_
@@ -6843,21 +6843,21 @@
 8	quand	quand	PRON	_	_	5	mod	_	_
 9	même	même	ADV	_	_	8	unk@fixed	_	_
 10-11	aux	_	_	_	_	_	_	_	_
-10	à	de	ADP	à	_	5	mod	_	_
+10	à	à	ADP	à	_	5	mod	_	_
 11	les	le	DET	_	_	12	det	_	_
 12	États-Unis	États	PROPN	_	_	10	comp:obj	_	_
 13-14	au	_	_	_	_	_	_	_	_
-13	À	de	ADP	à	_	10	conj:coord	_	_
+13	à	à	ADP	à	_	10	conj:coord	_	_
 14	le	le	DET	_	_	15	det	_	_
 15	Canada	Canada	PROPN	_	_	13	comp:obj	_	_
 16	en	en	ADP	_	_	13	conj:coord	_	_
 17	en	en	ADP	_	_	16	conj:dicto	_	_
 18	Grande-Bretagne	Grande	PROPN	_	_	17	comp:obl	_	_
 19-20	au	_	_	_	_	_	_	_	_
-19	À	de	ADP	à	_	17	conj:coord	_	_
+19	à	à	ADP	à	_	17	conj:coord	_	_
 20	le	le	DET	_	_	19	comp:obj	_	_
 21-22	au	_	_	_	_	_	_	_	_
-21	À	de	ADP	à	_	19	conj:dicto	_	_
+21	à	à	ADP	à	_	19	conj:dicto	_	_
 22	le	le	DET	_	_	23	det	_	_
 23	Royaume-Uni	Royaume-Uni	PROPN	_	_	21	comp:obj	_	_
 
@@ -7021,7 +7021,7 @@
 3	monté	monter	VERB	ETRE	_	2	comp:aux	_	_
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	_
 5-6	au	_	_	_	_	_	_	_	_
-5	À	de	ADP	_	_	4	comp:obj	_	_
+5	à	à	ADP	_	_	4	comp:obj	_	_
 6	le	le	DET	_	_	7	det	_	_
 7	niveau	niveau	NOUN	_	_	5	comp:obj	_	_
 8	cinq	cinq	NUM	_	_	7	det	_	_
@@ -7227,7 +7227,7 @@
 9	du	du	DET	_	_	10	det	_	_
 10	mal	mal	NOUN	_	_	8	comp:obl	_	_
 11-12	aux	_	_	_	_	_	_	_	_
-11	à	de	ADP	_	_	8	comp:obl	_	_
+11	à	à	ADP	_	_	8	comp:obl	_	_
 12	les	le	DET	_	_	13	det	_	_
 13	gens	gens	NOUN	_	_	11	comp:obj	_	_
 
@@ -7450,7 +7450,7 @@
 2	message	message	NOUN	_	_	24	subj	_	_
 3	initial	initial	ADJ	_	_	2	mod	_	_
 4-5	au	_	_	_	_	_	_	_	_
-4	À	de	ADP	_	_	2	mod	_	_
+4	à	à	ADP	_	_	2	mod	_	_
 5	le	le	DET	_	_	7	det	_	_
 6	tout	tout	ADJ	_	_	7	mod	_	_
 7	début	début	NOUN	_	_	4	comp:obj	_	_
@@ -7687,7 +7687,7 @@
 6	toujours	toujours	ADV	_	_	5	mod	_	_
 7	présent	présent	ADJ	_	_	5	comp:pred	_	_
 8-9	au	_	_	_	_	_	_	_	_
-8	À	de	ADP	_	_	5	mod	_	_
+8	à	à	ADP	_	_	5	mod	_	_
 9	le	le	DET	_	_	10	det	_	_
 10	milieu	milieu	NOUN	_	_	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -7724,7 +7724,7 @@
 25	le	le	DET	_	_	26	det	_	_
 26	mal	mal	NOUN	_	_	24	comp:obj	_	_
 27-28	aux	_	_	_	_	_	_	_	_
-27	à	de	ADP	_	_	23	comp:obj	_	_
+27	à	à	ADP	_	_	23	comp:obj	_	_
 28	les	le	DET	_	_	29	det	_	_
 29	autres	autre	PRON	_	_	27	comp:obj	_	_
 30	le	le	DET	_	_	31	det	_	_
@@ -9360,7 +9360,7 @@
 26	et	et	CCONJ	_	_	27	cc	_	_
 27	appartenant	appartenir	VERB	_	_	23	conj:coord	_	_
 28-29	au	_	_	_	_	_	_	_	_
-28	À	de	ADP	_	_	27	comp:obl	_	_
+28	à	à	ADP	_	_	27	comp:obl	_	_
 29	le	le	DET	_	_	30	det	_	_
 30	monde	monde	NOUN	_	_	28	comp:obj	_	_
 31	bourgeois	bourgeois	ADJ	_	_	30	mod	_	_
@@ -9682,7 +9682,7 @@
 5	un	un	DET	_	_	6	det@fixed	_	_
 6	peu	peu	NOUN	_	EXTPOS=ADV	7	mod	_	EXTPOS=ADV
 7-8	au	_	_	_	_	_	_	_	_
-7	À	de	ADP	_	_	4	comp:obl	_	_
+7	à	à	ADP	_	_	4	comp:obl	_	_
 8	le	le	DET	_	_	9	det	_	_
 9	début	début	NOUN	_	_	7	comp:obj	_	_
 
@@ -9955,7 +9955,7 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	euh	euh	INTJ	_	_	57	discourse	_	_
 6-7	au	_	_	_	_	_	_	_	_
-6	À	de	ADP	_	_	58	mod	_	_
+6	à	à	ADP	_	_	58	mod	_	_
 7	le	le	DET	_	_	8	det	_	_
 8	moment	moment	NOUN	_	_	6	comp:obj	_	_
 9	où	où	PRON	_	_	11	mod	_	_
@@ -9986,7 +9986,7 @@
 34	fière	fier	ADJ	_	_	33	comp:pred	_	_
 35	euh	euh	INTJ	_	_	34	discourse	_	_
 36-37	au	_	_	_	_	_	_	_	_
-36	À	de	ADP	_	_	58	mod	_	_
+36	à	à	ADP	_	_	58	mod	_	_
 37	le	le	DET	_	_	38	det	_	_
 38	lieu	lieu	NOUN	_	_	36	comp:obj	_	_
 39	d'	de	ADP	_	_	38	mod	_	_
@@ -10071,7 +10071,7 @@
 5	on	on	PRON	_	_	6	subj	_	_
 6	apprend	apprendre	VERB	_	_	3	mod@relcl	_	_
 7-8	aux	_	_	_	_	_	_	_	_
-7	à	de	ADP	_	_	6	comp:obl	_	_
+7	à	à	ADP	_	_	6	comp:obl	_	_
 8	les	le	DET	_	_	10	det	_	_
 9	jeunes	jeune	ADJ	_	_	10	mod	_	_
 10	filles	fille	NOUN	_	_	7	comp:obj	_	_
@@ -11419,7 +11419,7 @@
 6	pour	pour	ADP	_	_	15	mod	_	_
 7	laquelle	lequel	PRON	_	_	6	comp:obj	_	_
 8-9	au	_	_	_	_	_	_	_	_
-8	À	de	ADP	_	_	15	mod	_	_
+8	à	à	ADP	_	_	15	mod	_	_
 9	le	le	DET	_	_	10	det	_	_
 10	nom	nom	NOUN	_	_	8	comp:obj	_	_
 11	de	de	ADP	_	_	10	mod	_	_
@@ -11473,7 +11473,7 @@
 12	qui	qui	PRON	_	_	13	subj	_	_
 13	défileront	défiler	VERB	_	_	7	mod@relcl	_	_
 14-15	aux	_	_	_	_	_	_	_	_
-14	à	de	ADP	_	_	13	mod	_	_
+14	à	à	ADP	_	_	13	mod	_	_
 15	les	le	DET	_	_	16	det	_	_
 16	côtés	côté	NOUN	_	_	14	comp:obj	_	_
 17	de	de	ADP	_	_	16	mod	_	_
@@ -11574,7 +11574,7 @@
 52	responsabilités	responsabilité	NOUN	_	_	50	comp:obj	_	_
 53	et	et	CCONJ	_	_	61	cc	_	_
 54-55	au	_	_	_	_	_	_	_	_
-54	À	de	ADP	_	_	61	comp:obl	_	_
+54	à	à	ADP	_	_	61	comp:obl	_	_
 55	le	le	DET	_	_	54	unk@fixed	_	_
 56	sein	sein	NOUN	_	_	54	unk@fixed	_	_
 57	de	de	ADP	_	_	56	unk@fixed	_	_
@@ -11741,7 +11741,7 @@
 16	une	un	DET	_	_	17	det	_	_
 17	coalition	coalition	NOUN	_	_	15	comp:obj	_	_
 18-19	au	_	_	_	_	_	_	_	_
-18	À	de	ADP	_	_	14	mod	_	_
+18	à	à	ADP	_	_	14	mod	_	_
 19	le	le	DET	_	_	20	det	_	_
 20	travers	travers	NOUN	_	_	18	comp:obj	_	_
 21-22	des	_	_	_	_	_	_	_	_
@@ -11866,7 +11866,7 @@
 19	aller	aller	VERB	ETRE	_	18	comp:obj@x	_	_
 20	jusqu'	jusque	ADP	_	_	19	comp:obl	_	_
 21-22	au	_	_	_	_	_	_	_	_
-21	À	de	ADP	_	_	20	comp:obj	_	_
+21	à	à	ADP	_	_	20	comp:obj	_	_
 22	le	le	DET	_	_	23	det	_	_
 23	sacrifice	sacrifice	NOUN	_	_	21	comp:obj	_	_
 24	ultime	ultime	ADJ	_	_	23	mod	_	_
@@ -12175,7 +12175,7 @@
 10	d'	de	ADP	_	_	6	mod	_	_
 11	attachement	attachement	NOUN	_	_	10	comp:obj	_	_
 12-13	au	_	_	_	_	_	_	_	_
-12	À	de	ADP	_	_	11	mod	_	_
+12	à	à	ADP	_	_	11	mod	_	_
 13	le	le	DET	_	_	14	det	_	_
 14	pays	pays	NOUN	_	_	12	comp:obj	_	_
 
