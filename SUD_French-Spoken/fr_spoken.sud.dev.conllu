@@ -3789,7 +3789,7 @@
 2	donc	donc	ADV	_	_	6	discourse	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
-5	donc	donc	ADV	_	_	4	discourse	_	_
+5	donc	donc	ADV	_	_	6	discourse	_	_
 6	voilà	voilà	VERB	_	_	0	root	_	_
 
 # macrosyntax = j'ai très mal vécu la chose //
@@ -4565,12 +4565,12 @@
 # sent_id = Rhap_D0009-24
 # text = et ils nous les ils te les prennent
 1	et	et	CCONJ	_	_	8	cc	_	_
-2	ils	il	PRON	_	_	1	conj:dicto	_	_
-3	nous	nous	PRON	_	_	2	conj:dicto	_	_
-4	les	le	PRON	_	_	3	conj:dicto	_	_
-5	ils	il	PRON	_	_	8	subj	_	_
-6	te	te	PRON	_	_	8	comp:obl	_	_
-7	les	le	PRON	_	_	8	comp:obj	_	_
+2	ils	il	PRON	_	_	8	subj	_	_
+3	nous	nous	PRON	_	_	8	comp:obl	_	_
+4	les	le	PRON	_	_	8	comp:obj	_	_
+5	ils	il	PRON	_	_	2	conj:dicto	_	_
+6	te	te	PRON	_	_	3	conj:dicto	_	_
+7	les	le	PRON	_	_	4	conj:dicto	_	_
 8	prennent	prendre	VERB	_	_	0	root	_	_
 
 # macrosyntax = ^et il faut compter { combien de temps après |} //+
@@ -5693,7 +5693,7 @@
 9	déjà	déjà	ADV	_	_	8	mod	_	_
 10	quelque	quelque	DET	_	_	11	det	_	_
 11	chose	chose	NOUN	_	_	8	comp:obj	_	_
-12	d'	de	ADP	_	_	11	det	_	_
+12	d'	de	ADP	_	_	11	mod	_	_
 13	un	un	DET	_	_	12	comp:obj	_	_
 14	d'	de	ADP	_	_	12	conj:dicto	_	_
 15	un	un	DET	_	_	16	det	_	_
@@ -11771,7 +11771,7 @@
 1	je	je	PRON	_	_	2	subj	_	_
 2	crois	croire	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	là	là	ADV	_	_	3	discourse	_	_
+4	là	là	ADV	_	_	3	comp:obj	_	_
 
 # macrosyntax = $L1 je pense que vous avez $- $L1 raison //
 # sent_id = Rhap_D0002-70

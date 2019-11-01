@@ -279,7 +279,7 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	7	discourse	_	_
 3	et	et	CCONJ	_	_	1	conj:dicto	_	_
-4	ben	ben	INTJ	_	_	3	discourse	_	_
+4	ben	ben	INTJ	_	_	7	discourse	_	_
 5	voilà	voilà	VERB	_	_	4	discourse	_	_
 6	j'	je	PRON	_	_	7	subj	_	_
 7	arrive	arriver	VERB	ETRE	_	0	root	_	_
@@ -11893,9 +11893,9 @@
 # sent_id = Rhap_M0023-17
 # text = et ils se ils tombent tous les deux
 1	et	et	CCONJ	_	_	5	cc	_	_
-2	ils	il	PRON	_	_	1	conj:dicto	_	_
+2	ils	il	PRON	_	_	5	subj	_	_
 3	se	se	PRON	_	_	2	conj:dicto	_	_
-4	ils	il	PRON	_	_	5	subj	_	_
+4	ils	il	PRON	_	_	3	conj:dicto	_	_
 5	tombent	tomber	VERB	ETRE	_	0	root	_	_
 6	tous	tout	ADJ	_	_	8	mod	_	_
 7	les	le	DET	_	_	8	det	_	_

@@ -1821,7 +1821,7 @@
 2	c'	ce	PRON	_	_	3	subj@expl	_	_
 3	est	être	AUX	_	_	0	root	_	_
 4	vrai	vrai	ADJ	_	_	3	comp:pred	_	_
-5	que	que	SCONJ	_	_	4	comp:obj@agent	_	_
+5	que	que	SCONJ	_	_	4	comp:obj	_	_
 
 # macrosyntax = alors < les critiques qui vous avaient boudée ( d'ailleurs ) un peu depuis quelques années //
 # sent_id = Rhap_D2010-20
@@ -6488,7 +6488,7 @@
 20	réconfortées	réconforter	VERB	DoubleAux	_	14	comp:obj@x	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	27	cc	_	_
-23	euh	euh	INTJ	_	_	22	discourse	_	_
+23	euh	euh	INTJ	_	_	24	discourse	_	_
 24	plutôt	plutôt	ADV	_	_	27	mod	_	_
 25	euh	euh	INTJ	_	_	24	discourse	_	_
 26	euh	euh	INTJ	_	_	24	discourse	_	_
@@ -9770,7 +9770,7 @@
 5	c'	ce	PRON	_	_	6	subj@expl	_	_
 6	est	être	AUX	_	_	3	mod@relcl	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
-8	d'	de	ADP	_	_	7	comp:obl	_	_
+8	d'	de	ADP	_	_	7	comp:obj	_	_
 9	être	être	AUX	_	_	8	comp:obj	_	_
 10	pauvre	pauvre	ADJ	_	_	9	comp:pred	_	_
 
@@ -10223,7 +10223,7 @@
 12	libraire	libraire	NOUN	_	_	10	comp:obj	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
 14	une	un	DET	_	_	16	det	_	_
-15	et	et	CCONJ	_	_	14	conj:dicto	_	_
+15	et	et	CCONJ	_	_	13	conj:dicto	_	_
 16	vendeuse	vendeur	NOUN	_	_	9	conj:coord	_	_
 
 # macrosyntax = ^et ^puis il ne savait pas du tout l'âge que j'avais //
