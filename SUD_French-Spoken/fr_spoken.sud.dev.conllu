@@ -1860,7 +1860,7 @@
 14	et	et	CCONJ	_	_	16	cc	_	_
 15	qui	qui	PRON	_	_	16	subj	_	_
 16	ramassent	ramer	VERB	_	_	13	conj:coord	_	_
-17	qui	qui	PRON	conj:reform	_	-1	_	_	_
+17	qui	qui	PRON	conj:reform	_	19	subj	_	_
 18	qui	qui	PRON	conj:reform	_	17	conj:dicto	_	_
 19	prennent	prendre	VERB	_	_	16	conj:coord	_	_
 20	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	21	det	_	_
