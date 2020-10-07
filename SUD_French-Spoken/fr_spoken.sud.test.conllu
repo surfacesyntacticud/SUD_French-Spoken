@@ -103,7 +103,7 @@
 16	mais	mais	CCONJ	_	_	21	cc	_	_
 17	pourquoi	pourquoi	PRON	_	_	21	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
-19	ne	ne	ADV	_	_	21	mod	_	_
+19	ne	ne	ADV	_	Polarity=Neg	21	mod	_	_
 20	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	23	comp:obj	_	_
 21	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:obj	_	_
 22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	_
@@ -667,7 +667,7 @@
 # sent_id = Rhap_D2011-43
 # text = je ne vois plus de taches
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	plus	plus	ADV	_	_	3	mod	_	_
 5	de	UN	DET	_	_	6	det	_	_
@@ -1036,12 +1036,12 @@
 # macrosyntax = ne contenant aucun détergent < elle ne laisse aucun résidu de substance allergène sur les vêtements //
 # sent_id = Rhap_D2011-68
 # text = ne contenant aucun détergent elle ne laisse aucun résidu de substance allergène sur les vêtements
-1	ne	ne	ADV	_	_	2	mod	_	_
+1	ne	ne	ADV	_	Polarity=Neg	2	mod	_	_
 2	contenant	contenir	VERB	_	Tense=Pres|VerbForm=Part	7	mod	_	_
 3	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	4	det	_	_
 4	détergent	détergent	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	laisse	laisser	VERB	_	_	0	root	_	_
 8	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	9	det	_	_
 9	résidu	résidu	NOUN	_	_	7	comp:obj	_	_
@@ -1653,7 +1653,7 @@
 4	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obl	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
-7	ne	ne	ADV	_	_	8	mod	_	_
+7	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 8	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
 10	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	comp:pred	_	_
@@ -1752,7 +1752,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	subj	_	_
 6	n~	n~	ADV	_	_	5	conj:dicto	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	conj:dicto	_	_
-8	ne	ne	ADV	_	_	9	mod	_	_
+8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	comprend	comprendre	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	qu'	que	SCONJ	_	_	9	comp:obj	_	_
@@ -2585,7 +2585,7 @@
 # text = aujourd'hui on ne vous remarquerait pas
 1	aujourd'hui	aujourd'	ADV	_	_	5	mod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
-3	ne	ne	ADV	_	_	5	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	vous	vous	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
 5	remarquerait	remarquer	VERB	_	_	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
@@ -3414,7 +3414,7 @@
 38	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	mod@relcl	_	_
 39	figé	figer	VERB	_	_	38	comp:aux@pass	_	_
 40	euh	euh	INTJ	_	_	39	discourse	_	_
-41	ne	ne	ADV	_	_	42	mod	_	_
+41	ne	ne	ADV	_	Polarity=Neg	42	mod	_	_
 42	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 43	pas	pas	ADV	_	Polarity=Neg	42	mod	_	_
 44	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	45	det@fixed	_	_
@@ -3429,7 +3429,7 @@
 # text = mais je ne voudrais pas faire de la psychanalyse à trois sous
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
@@ -3793,7 +3793,7 @@
 55	catégorie	catégorie	NOUN	_	Gender=Fem|Number=Sing	53	comp:obj	_	_
 56	alors	alors	ADV	_	_	59	mod	_	_
 57	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	59	subj	_	_
-58	ne	ne	ADV	_	_	59	mod	_	_
+58	ne	ne	ADV	_	Polarity=Neg	59	mod	_	_
 59	vaut	valoir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	parataxis:obj	_	_
 60	plus	plus	ADV	_	_	59	mod	_	_
 61	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
@@ -4242,7 +4242,7 @@
 2	Rozyski	Rozyski	PROPN	_	_	3	subj	_	_
 3	dit	dire	VERB	_	_	0	root	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
-5	ne	ne	ADV	_	_	6	mod	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 6	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis:obj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp@fixed	_	_
@@ -5181,7 +5181,7 @@
 # sent_id = Rhap_D2008-50
 # text = on ne fait pas de la prédiction ou de la prévision euh
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	fait	faire	VERB	_	_	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	de	de	ADP	_	_	3	comp:obl	_	_
@@ -5451,7 +5451,7 @@
 3	inquiétantes	inquiétant	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
-6	ne	ne	ADV	_	_	8	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 7	me	me	PRON	_	_	8	comp:obl	_	_
 8	semblent	sembler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
@@ -5600,7 +5600,7 @@
 # sent_id = Rhap_D2008-75
 # text = on ne savait pas ce qu' était un virus en mille neuf cent dix-huit
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	ce	ce	PRON	_	_	3	comp:obj	_	_
@@ -5706,7 +5706,7 @@
 18	ci	ci	ADV	_	_	17	comp:obj	_	_
 19	de	de	ADP	_	_	17	conj:coord	_	_
 20	là	là	ADV	_	_	19	comp:obj	_	_
-21	ne	ne	ADV	_	_	23	mod	_	_
+21	ne	ne	ADV	_	Polarity=Neg	23	mod	_	_
 22	me	me	PRON	_	_	23	comp:obj	_	_
 23	paraissent	paraître	VERB	_	_	0	root	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
@@ -5721,7 +5721,7 @@
 33	un	un	DET	conj:reform	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	conj:dicto	_	_
 34	un	un	DET	conj:reform	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	33	conj:dicto	_	_
 35	devin	devin	NOUN	_	Gender=Masc|Number=Sing	30	comp:pred	_	_
-36	ne	ne	ADV	_	_	38	mod	_	_
+36	ne	ne	ADV	_	Polarity=Neg	38	mod	_	_
 37	me	me	PRON	_	_	38	comp:obl	_	_
 38	paraissent	paraître	VERB	conj:reform	_	23	conj:dicto	_	_
 39	pas	pas	ADV	_	Polarity=Neg	38	mod	_	_
@@ -5962,7 +5962,7 @@
 # text = mais on ne peut pas exclure que il y ait quelque chose de grave
 1	mais	mais	CCONJ	_	_	4	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	exclure	exclure	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
@@ -6177,7 +6177,7 @@
 # sent_id = Rhap_D2008-109
 # text = on ne sait pas très bien comment
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	très	très	ADV	_	_	6	mod	_	_
@@ -6255,7 +6255,7 @@
 38	de	de	ADP	_	_	37	mod	_	_
 39	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	40	det	_	_
 40	Nord	Nord	PROPN	_	_	38	comp:obj	_	_
-41	ne	ne	ADV	_	_	42	mod	_	_
+41	ne	ne	ADV	_	Polarity=Neg	42	mod	_	_
 42	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 43	pas	pas	ADV	_	Polarity=Neg	42	mod	_	_
 44	se	se	PRON	_	Person=3|PronType=Prs	45	comp@fixed	_	_
@@ -6563,7 +6563,7 @@
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	conj:dicto	_	_
 4	probabilité	probabilité	NOUN	_	Gender=Fem|Number=Sing	6	subj	_	_
-5	ne	ne	ADV	_	_	6	mod	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 6	fait	faire	VERB	_	_	0	root	_	_
 7	qu'	que	ADV	_	_	8	mod	_	_
 8	augmenter	augmenter	VERB	CAUSATIVE	VerbForm=Inf	6	comp:obj	_	_
@@ -6587,7 +6587,7 @@
 11	par	par	ADP	_	_	15	mod	_	_
 12	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 13	enfin	enfin	ADV	_	_	12	discourse	_	_
-14	ne	ne	ADV	_	_	15	mod	_	_
+14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	fait	faire	VERB	_	_	0	root	_	_
 16	qu'	que	ADV	_	_	17	mod	_	_
 17	augmenter	augmenter	VERB	CAUSATIVE	VerbForm=Inf	15	comp:obj	_	_
@@ -7018,7 +7018,7 @@
 # sent_id = Rhap_M2003-3
 # text = Jésus ne dit rien avant la fin de l' épisode
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	dit	dire	VERB	_	_	0	root	_	_
 4	rien	rien	PRON	_	_	3	comp:obj	_	_
 5	avant	avant	ADP	_	_	3	mod	_	_
@@ -7258,7 +7258,7 @@
 # sent_id = Rhap_M2003-14
 # text = Jésus ne pose même pas ses gestes de bonté comme des appels à la foi
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	pose	poser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	même	même	ADV	_	_	3	mod	_	_
 5	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
@@ -7689,7 +7689,7 @@
 # sent_id = Rhap_M2003-36
 # text = je ne compte que des nuits de souffrance
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	compte	compter	VERB	_	_	0	root	_	_
 4	que	que	ADV	_	_	6	mod	_	_
 5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	_
@@ -7837,7 +7837,7 @@
 28	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	subj@pass	_	_
 29	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	comp:obj	_	_
 30	comprise	comprendre	VERB	conj:reform	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	29	comp:aux@pass	_	_
-31	ne	ne	ADV	_	_	32	mod	_	_
+31	ne	ne	ADV	_	Polarity=Neg	32	mod	_	_
 32	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 33	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	subj	_	_
 34	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
@@ -8435,7 +8435,7 @@
 # text = si je ne craignais pas d' entrer dans le jeu de certains hommes qui abusent de leur condition je dirais que vous avez donné quelque chose de plus à la femme des armes de persuasion
 1	si	si	SCONJ	_	_	20	mod	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	craignais	craindre	VERB	_	_	1	comp:obj	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	d'	de	ADP	_	_	4	comp:obl@x	_	_
@@ -8591,7 +8591,7 @@
 4	crois	croire	VERB	_	_	0	root	_	_
 5	que	que	SCONJ	_	_	4	comp:obj	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-7	ne	ne	ADV	_	_	9	mod	_	_
+7	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 8	me	me	PRON	_	_	11	comp@fixed	_	_
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
@@ -8831,7 +8831,7 @@
 # sent_id = Rhap_D2001-27
 # text = je ne vois pas pourquoi j' aurais fait exception à cette règle
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	pourquoi	pourquoi	PRON	_	_	7	mod	_	_
@@ -9030,7 +9030,7 @@
 11	que	que	SCONJ	_	_	10	comp:obj	_	_
 12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	det	_	_
 13	gens	gens	NOUN	_	_	15	subj	_	_
-14	ne	ne	ADV	_	_	15	mod	_	_
+14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	voyaient	voir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	_
@@ -9075,7 +9075,7 @@
 21	et	et	CCONJ	conj:reform	_	20	conj:dicto	_	_
 22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
 23	autres	autre	PRON	_	_	25	subj	_	_
-24	ne	ne	ADV	_	_	25	mod	_	_
+24	ne	ne	ADV	_	Polarity=Neg	25	mod	_	_
 25	voient	voir	VERB	_	_	14	conj:coord	_	_
 26	pas	pas	ADV	_	Polarity=Neg	25	mod	_	_
 
@@ -9216,7 +9216,7 @@
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	monde	monde	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	bourgeois	bourgeois	ADJ	_	Gender=Masc	30	mod	_	_
-32	ne	ne	ADV	_	_	33	mod	_	_
+32	ne	ne	ADV	_	Polarity=Neg	33	mod	_	_
 33	travaillaient	travailler	VERB	_	_	18	mod@relcl	_	_
 34	pas	pas	ADV	_	Polarity=Neg	33	mod	_	_
 
@@ -9251,7 +9251,7 @@
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	tard	tard	ADV	_	_	13	mod	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	19	subj	_	_
-18	ne	ne	ADV	_	_	19	mod	_	_
+18	ne	ne	ADV	_	Polarity=Neg	19	mod	_	_
 19	sais	savoir	VERB	DISCOURSE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	parataxis:parenth	_	_
 20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	_
 21	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	19	dislocated	_	_
@@ -9423,7 +9423,7 @@
 # sent_id = Rhap_D2001-60
 # text = je ne s~ n' aurais certainement pas débuté à ce moment -là comme euh une jeune journaliste
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-2	ne	ne	ADV	_	_	1	conj:dicto	_	_
+2	ne	ne	ADV	_	Polarity=Neg	1	conj:dicto	_	_
 3	s~	s~	X	_	_	2	conj:dicto	_	_
 4	n'	ne	ADV	_	Polarity=Neg	5	mod	_	_
 5	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9901,7 +9901,7 @@
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	rien	rien	PRON	_	_	9	comp:obj	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
@@ -10082,7 +10082,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	puis	puis	ADV	_	_	1	unk@fixed	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-4	ne	ne	ADV	_	_	5	mod	_	_
+4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 5	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	de	de	ADP	_	_	6	mod	_	_
@@ -10136,7 +10136,7 @@
 # text = donc il ne
 1	donc	donc	ADV	_	_	0	root	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
-3	ne	ne	ADV	_	_	2	conj:dicto	_	_
+3	ne	ne	ADV	_	Polarity=Neg	2	conj:dicto	_	_
 
 # macrosyntax = ce qui quand même n'était pas très sérieux //
 # sent_id = Rhap_D2001-104
@@ -10156,7 +10156,7 @@
 # text = mais il ne se doutait quand même pas que je n' en avais pas quinze
 1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-3	ne	ne	ADV	_	_	5	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp@fixed	_	_
 5	doutait	douter	VERB	_	_	0	root	_	_
 6	quand	quand	SCONJ	_	_	5	mod	_	EXTPOS=ADV
@@ -10358,7 +10358,7 @@
 1	aujourd'hui	aujourd'	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-4	ne	ne	ADV	_	_	5	mod	_	_
+4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 5	crois	croire	VERB	_	_	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	que	que	SCONJ	_	_	5	comp:obj	_	_
@@ -10375,7 +10375,7 @@
 4	époque	époque	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	personne	personne	PRON	_	_	8	subj	_	_
-7	ne	ne	ADV	_	_	8	mod	_	_
+7	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 8	savait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 9	que	que	SCONJ	_	_	8	comp:obj	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
@@ -10530,7 +10530,7 @@
 # sent_id = Rhap_D2001-130
 # text = je ne r~ serais pas devenue une vedette
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj@pass	_	_
-2	ne	ne	ADV	_	_	4	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 3	r~	r~	VERB	_	_	2	conj:dicto	_	_
 4	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
@@ -10561,7 +10561,7 @@
 # sent_id = Rhap_D2001-132
 # text = je ne suis pas de le tout quelqu' un de d' extraverti
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	de	de	ADP	_	_	4	mod	_	_
@@ -10577,7 +10577,7 @@
 # text = et je ne l' étais surtout pas euh à cet âge -là
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-3	ne	ne	ADV	_	_	5	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	5	comp:pred	_	_
 5	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	surtout	surtout	ADV	_	_	5	mod	_	_
@@ -10826,7 +10826,7 @@
 # text = euh on ne pleure pas
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	pleure	pleurer	VERB	_	_	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 
@@ -12121,7 +12121,7 @@
 1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
-4	ne	ne	ADV	_	_	5	mod	_	_
+4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 5	trouve	trouver	VERB	_	_	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	si	si	SCONJ	_	_	6	discourse	_	_
@@ -12530,7 +12530,7 @@
 24	parce	parce	SCONJ	_	_	13	mod	_	_
 25	qu'	que	SCONJ	_	_	24	unk@fixed	_	_
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj	_	_
-27	ne	ne	ADV	_	_	32	mod	_	_
+27	ne	ne	ADV	_	Polarity=Neg	32	mod	_	_
 28	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 29	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
 30	être	être	VERB	_	VerbForm=Inf	28	comp:obj@x	_	_

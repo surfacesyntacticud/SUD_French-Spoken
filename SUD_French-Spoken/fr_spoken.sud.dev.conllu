@@ -995,7 +995,7 @@
 3	moyennes	moyen	ADJ	_	Gender=Fem|Number=Plur	2	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 5	les	le	DET	conj:reform	Definite=Def|Number=Plur|PronType=Art	4	conj:dicto	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	en	en	ADP	_	_	7	comp:obl	_	_
@@ -1235,7 +1235,7 @@
 7	parce	parce	SCONJ	_	_	3	mod	_	_
 8	que	que	SCONJ	_	_	7	unk@fixed	_	_
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
-10	ne	ne	ADV	_	_	11	mod	_	_
+10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
 11	rapporte	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
 13	assez	assez	ADV	_	_	11	mod	_	_
@@ -2016,7 +2016,7 @@
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	Antilles	Antilles	PROPN	_	Number=Plur	4	comp:obj	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
-8	ne	ne	ADV	_	_	9	mod	_	_
+8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	devrait	devoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	en	en	PRON	_	Person=3|PronType=Prs	13	mod	_	_
@@ -2110,7 +2110,7 @@
 6	et	et	CCONJ	_	_	8	cc	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	enseignants-chercheurs	enseignants-chercheurs	NOUN	_	_	5	conj:coord	_	_
-9	ne	ne	ADV	_	_	10	mod	_	_
+9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	désarment	désarmer	VERB	_	_	0	root	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 
@@ -2340,7 +2340,7 @@
 2	Sara	Sara	PROPN	_	_	6	vocative	_	_
 3	Ghibaudo	Ghibaudo	PROPN	_	_	2	flat	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
-5	ne	ne	ADV	_	_	6	mod	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 6	pourra	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	contenter	contenter	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -2572,7 +2572,7 @@
 5	métropole	métropole	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	contestation	contestation	NOUN	_	Gender=Fem|Number=Sing	9	subj	_	_
-8	ne	ne	ADV	_	_	9	mod	_	_
+8	ne	ne	ADV	_	Polarity=Neg	9	mod	_	_
 9	faiblit	faiblir	VERB	_	_	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
 11	dans	dans	ADP	_	_	9	mod	_	_
@@ -3123,7 +3123,7 @@
 6	façade	façade	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	constructeurs	constructeur	NOUN	_	Gender=Masc|Number=Plur	10	subj	_	_
-9	ne	ne	ADV	_	_	10	mod	_	_
+9	ne	ne	ADV	_	Polarity=Neg	10	mod	_	_
 10	réagissent	réagir	VERB	_	_	0	root	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	tous	tout	ADJ	_	Gender=Masc|Number=Plur	10	mod	_	_
@@ -5729,7 +5729,7 @@
 3	t'	te	PRON	_	_	4	comp:obj	_	_
 4	embête	embêter	VERB	_	_	1	comp:obj	_	_
 5	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	subj	_	_
-6	ne	ne	ADV	_	_	8	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	8	mod	_	_
 7	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
 8	mets	mettre	VERB	_	_	0	root	_	_
 9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	_
@@ -7407,7 +7407,7 @@
 3	parce	parce	SCONJ	_	_	2	mod	_	_
 4	qu'	que	SCONJ	_	_	3	unk@fixed	_	_
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	baise	baiser	VERB	_	_	3	comp:obj	_	_
 8	que	que	ADV	_	_	7	mod	_	_
 9	dans	dans	ADP	_	_	7	mod	_	_
@@ -8603,7 +8603,7 @@
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	qui	qui	PRON	_	_	22	subj	_	_
-20	ne	ne	ADV	_	_	22	mod	_	_
+20	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 21	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	25	comp:obj	_	_
 22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
@@ -9379,7 +9379,7 @@
 # sent_id = Rhap_D2005-56
 # text = pourquoi ne pas faire de la sociologie de l' histoire ou de la recherche
 1	pourquoi	pourquoi	PRON	_	_	4	mod	_	_
-2	ne	ne	ADV	_	_	4	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 4	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
 5	de	de	ADP	_	_	4	comp:obl	_	_
@@ -9413,7 +9413,7 @@
 15	en	en	ADP	_	_	13	mod	_	_
 16	maths	maths	NOUN	_	_	15	comp:obj	_	_
 17	de	de	ADP	_	_	6	mod	_	_
-18	ne	ne	ADV	_	_	20	mod	_	_
+18	ne	ne	ADV	_	Polarity=Neg	20	mod	_	_
 19	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 20	gaspiller	gaspiller	VERB	_	_	17	comp:obj	_	_
 21	ce	ce	DET	_	_	22	det	_	_
@@ -10769,11 +10769,11 @@
 39	d'	de	ADP	_	_	38	mod	_	_
 40	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	39	comp:obj	_	_
 41	qui	qui	PRON	_	_	43	subj	_	_
-42	ne	ne	ADV	_	_	43	mod	_	_
+42	ne	ne	ADV	_	Polarity=Neg	43	mod	_	_
 43	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	40	mod@relcl	_	_
 44	pas	pas	ADV	_	Polarity=Neg	43	mod	_	_
 45	qui	qui	PRON	_	_	47	subj	_	_
-46	ne	ne	ADV	_	_	47	mod	_	_
+46	ne	ne	ADV	_	Polarity=Neg	47	mod	_	_
 47	parlent	parler	VERB	conj:reform	_	43	conj:dicto	_	_
 48	pas	pas	ADV	_	Polarity=Neg	47	mod	_	_
 49	couramment	couramment	ADV	_	_	47	mod	_	_
@@ -10884,7 +10884,7 @@
 10	arrivent	arriver	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 11	en	en	ADP	_	_	10	comp:obl	_	_
 12	CP	CP	PROPN	_	_	11	comp:obj	_	_
-13	ne	ne	ADV	_	_	14	mod	_	_
+13	ne	ne	ADV	_	Polarity=Neg	14	mod	_	_
 14	parlant	parler	VERB	_	Tense=Pres|VerbForm=Part	10	mod	_	_
 15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	_
 16	français	français	ADJ	_	Gender=Masc	14	comp:obj	_	_
@@ -10897,7 +10897,7 @@
 3	arrivent	arriver	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	en	en	ADP	_	_	3	comp:obl	_	_
 5	CP	CP	PROPN	_	_	4	comp:obj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	parlant	parler	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	_
@@ -10912,7 +10912,7 @@
 18	en	en	ADP	_	_	14	mod	_	_
 19	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
-21	ne	ne	ADV	_	_	22	mod	_	_
+21	ne	ne	ADV	_	Polarity=Neg	22	mod	_	_
 22	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 23	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
 24	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	25	comp:obl	_	_
@@ -10927,7 +10927,7 @@
 2	comme	comme	SCONJ	_	_	1	conj:dicto	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	mamans	maman	NOUN	_	_	6	subj	_	_
-5	ne	ne	ADV	_	_	6	mod	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
 6	parlent	parler	VERB	_	_	2	comp:obj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	français	français	NOUN	_	Gender=Masc	6	comp:obj	_	_
@@ -11112,7 +11112,7 @@
 61	dont	dont	PRON	_	PronType=Rel	63	mod	_	_
 62	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	63	det	_	_
 63	mamans	maman	NOUN	_	_	65	subj	_	_
-64	ne	ne	ADV	_	_	65	mod	_	_
+64	ne	ne	ADV	_	Polarity=Neg	65	mod	_	_
 65	parlent	parler	VERB	_	_	28	conj:dicto	_	_
 66	pas	pas	ADV	_	Polarity=Neg	65	mod	_	_
 67	français	français	NOUN	_	Gender=Masc	65	comp:obj	_	_
@@ -11122,7 +11122,7 @@
 # text = donc ils ne voient pas souvent leur papa
 1	donc	donc	ADV	_	_	4	mod	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	voient	voir	VERB	_	_	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	souvent	souvent	ADV	_	_	4	mod	_	_
@@ -11137,7 +11137,7 @@
 3	définition	définition	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 4	mh	mh	INTJ	_	_	3	discourse	_	_
 5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	parlent	parler	VERB	_	_	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	_
@@ -11146,7 +11146,7 @@
 # sent_id = Rhap_D0002-42
 # text = ils ne parlent jamais français
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
-2	ne	ne	ADV	_	_	3	mod	_	_
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	parlent	parler	VERB	_	_	0	root	_	_
 4	jamais	jamais	ADV	_	_	3	mod	_	_
 5	français	français	ADJ	_	Gender=Masc	3	comp:obj	_	_
@@ -11191,7 +11191,7 @@
 # text = chose que ne fait aucun organisme d' Etat
 1	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	que	que	PRON	_	_	4	comp:obj	_	_
-3	ne	ne	ADV	_	_	4	mod	_	_
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	fait	faire	VERB	_	_	1	mod@relcl	_	_
 5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	det	_	_
 6	organisme	organisme	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
@@ -11214,7 +11214,7 @@
 11	immigrés	immigré	NOUN	_	Gender=Masc|Number=Plur	9	comp:obj	_	_
 12	qui	qui	PRON	_	_	13	subj	_	_
 13	arrivent	arriver	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	_
-14	ne	ne	ADV	_	_	15	mod	_	_
+14	ne	ne	ADV	_	Polarity=Neg	15	mod	_	_
 15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
 17	faites	faire	VERB	_	_	15	comp:aux@pass	_	_
@@ -11222,7 +11222,7 @@
 19	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	gens	gens	NOUN	_	_	18	comp:obj	_	_
 21	qui	qui	PRON	_	_	23	subj	_	_
-22	ne	ne	ADV	_	_	23	mod	_	_
+22	ne	ne	ADV	_	Polarity=Neg	23	mod	_	_
 23	parlent	parler	VERB	_	_	20	mod@relcl	_	_
 24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	_
 25	de	de	ADP	_	_	24	mod	_	_
@@ -13210,7 +13210,7 @@
 3	autre	autre	PRON	_	_	4	mod	_	_
 4	part	part	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	_	7	mod	_	_
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	10	comp@fixed	_	_
