@@ -1276,7 +1276,7 @@
 4	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	mod	_	_
 6	de	de	ADP	conj:reform	_	5	conj:dicto	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	comp:obj	_	_
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	comp:obj@scrap	_	_
 8	de	de	ADP	conj:reform	_	6	conj:dicto	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	odeurs	odeur	NOUN	_	Gender=Fem|Number=Plur	8	comp:obj	_	_
@@ -3497,7 +3497,7 @@
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	conj:dicto	_	_
 19	portrait	portrait	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 20	de	de	ADP	_	_	19	mod	_	_
-21	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	20	comp:obj	_	_
+21	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	20	comp:obj@scrap	_	_
 22	de	de	ADP	_	_	20	conj:dicto	_	_
 23	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	24	det	_	_
 24	héros	héros	NOUN	_	Gender=Masc	22	comp:obj	_	_
@@ -5565,9 +5565,9 @@
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	moitié	moitié	NOUN	_	Gender=Fem|Number=Sing	12	subj	_	_
 3	de	de	ADP	de	_	2	mod	_	_
-4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	comp:obj	_	_
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	comp:obj@scrap	_	_
 5	de	de	ADP	de	_	3	conj:dicto	_	_
-6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	comp:obj	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	comp:obj@scrap	_	_
 7	de	de	ADP	de	_	5	conj:dicto	_	_
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	domiciles	domicile	NOUN	_	_	7	comp:obj	_	_
@@ -5818,9 +5818,9 @@
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	durée	durée	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	de	de	ADP	de	_	17	mod	_	_
-19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	comp:obj	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	comp:obj@scrap	_	_
 20	de	de	ADP	de	_	18	conj:dicto	_	_
-21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	comp:obj	_	_
+21	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	comp:obj@scrap	_	_
 22	de	de	ADP	de	_	20	conj:dicto	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	scénario	scénario	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -11929,7 +11929,7 @@
 11	cet	ce	DET	_	_	12	det	_	_
 12	attachement	attachement	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	comp:obj	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	comp:obj@scrap	_	_
 15	de	de	ADP	_	_	13	conj:dicto	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	population	population	NOUN	conj:reform	Gender=Fem|Number=Sing	15	comp:obj	_	_
@@ -12025,7 +12025,7 @@
 41	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	42	det	_	_
 42	fidélité	fidélité	NOUN	_	Gender=Fem|Number=Sing	40	comp:obj	_	_
 43	d'	de	ADP	_	_	42	mod	_	_
-44	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	comp:obj	_	_
+44	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	comp:obj@scrap	_	_
 45	d'	de	ADP	_	_	43	conj:coord	_	_
 46	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	47	det	_	_
 47	race	race	NOUN	_	Gender=Fem|Number=Sing	45	comp:obj	_	_

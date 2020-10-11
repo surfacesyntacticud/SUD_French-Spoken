@@ -8475,7 +8475,7 @@
 74	ensemble	ensemble	NOUN	_	Gender=Masc|Number=Sing	72	mod	_	_
 75	euh	euh	INTJ	_	_	76	discourse	_	_
 76	de	de	ADP	_	_	67	mod	_	_
-77	l~	le	DET	_	_	76	comp:obj	_	_
+77	l~	le	DET	_	_	76	comp:obj@scrap	_	_
 78	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	79	det	_	_
 79	idée	idée	NOUN	_	Gender=Fem|Number=Sing	67	conj:dicto	_	_
 80	qui	qui	PRON	_	_	82	subj	_	_
@@ -12970,7 +12970,7 @@
 20	de	de	ADP	_	_	19	mod	_	_
 21	vue	vue	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 22	de	de	ADP	de	_	21	mod	_	_
-23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	comp:obj	_	_
+23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	comp:obj@scrap	_	_
 24	de	de	ADP	_	_	22	conj:dicto	_	_
 25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	fabrication	fabrication	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
@@ -13149,7 +13149,7 @@
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	poïésis	poïésis	NOUN	_	_	14	comp:obj	_	_
 17	de	de	ADP	_	_	14	conj:dicto	_	_
-18	la	le	DET	conj:reform	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	comp:obj	_	_
+18	la	le	DET	conj:reform	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	comp:obj@scrap	_	_
 19	de	de	ADP	_	_	17	conj:dicto	_	_
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	production	production	NOUN	conj:reform	Gender=Fem|Number=Sing	19	comp:obj	_	_
@@ -13392,7 +13392,7 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	rôle	rôle	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	mod	_	_
-7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	comp:obj	_	_
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	comp:obj@scrap	_	_
 8	de	de	ADP	_	_	6	conj:dicto	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	décoration	décoration	NOUN	conj:reform	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -14156,7 +14156,7 @@
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	comp:pred	_	_
-5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	comp:obj	_	_
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	comp:obj@scrap	_	_
 6	à	à	ADP	_	_	3	mod	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	occasion	occasion	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -18270,7 +18270,7 @@
 # sent_id = Rhap_D0004-47
 # text = de le de le point de vue scolaire
 1	de	de	ADP	de	_	0	root	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	comp:obj	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	comp:obj@scrap	_	_
 3	de	de	ADP	de	_	1	conj:dicto	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	point	point	NOUN	conj:reform	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -18381,7 +18381,7 @@
 31	Français	Français	PROPN	_	_	29	comp:obj	_	_
 32	hein	hein	INTJ	_	_	31	discourse	_	_
 33	de	de	ADP	de	_	29	conj:dicto	_	_
-34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	comp:obj	_	_
+34	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	comp:obj@scrap	_	_
 35	de	de	ADP	_	_	33	conj:dicto	_	_
 36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	_
 37	humanité	humanité	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
