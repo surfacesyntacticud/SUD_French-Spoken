@@ -11499,12 +11499,12 @@
 # macrosyntax = ( $L1 ^mais { bien sûr | -$ $- $L1 bien sûr } // )
 # sent_id = Rhap_D0002-65
 # text = mais bien sûr bien sûr dans un milieu euh où quatre-vingt-dix pour cent de la classe est en langue étrangère c' est beaucoup ben moins facile malgré tout
-1	mais	mais	CCONJ	_	_	2	cc	_	_
-2	bien	bien	ADV	_	_	0	root	_	_
+1	mais	mais	CCONJ	_	_	22	cc	_	_
+2	bien	bien	ADV	_	_	22	discourse	_	_
 3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	unk	_	InIdiom=Yes
 4	bien	bien	ADV	_	_	2	conj:dicto	_	_
 5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	4	unk	_	InIdiom=Yes
-6	dans	dans	ADP	_	_	26	mod	_	_
+6	dans	dans	ADP	_	_	22	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	milieu	milieu	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
