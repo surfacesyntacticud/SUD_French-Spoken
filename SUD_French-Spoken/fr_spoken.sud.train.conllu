@@ -10559,7 +10559,7 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	changement	changement	NOUN	conj:reform	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	qui	qui	PRON	_	_	9	subj	_	_
-9	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 10	intervenu	intervenir	VERB	_	_	9	comp:aux	_	_
 
 # macrosyntax = $L2 "je veux dire" là < ça me laisse rêveur //
@@ -16066,7 +16066,7 @@
 20	s'	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
 21	en	en	PRON	_	Person=3|PronType=Prs	22	comp:obj	_	_
 22	mè~	mè~	VERB	conj:reform	_	10	conj:coord	_	_
-23	est	être	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	_
+23	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	_
 24	emmené	emmener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	_
 25	par	par	ADP	_	_	23	comp:obl	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_

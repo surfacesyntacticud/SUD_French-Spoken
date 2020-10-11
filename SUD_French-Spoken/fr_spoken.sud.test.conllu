@@ -6383,7 +6383,7 @@
 17	euh	euh	INTJ	_	_	20	discourse	_	_
 18	non	non	ADV	_	Polarity=Neg	20	mod	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	unk	_	InIdiom=Yes
-20	réconfortées	réconforter	VERB	DoubleAux	_	16	comp:aux	_	_
+20	réconfortées	réconforter	VERB	DoubleAux	_	16	comp:pred	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	27	cc	_	_
 23	euh	euh	INTJ	_	_	22	cc	_	_
