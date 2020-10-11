@@ -10224,8 +10224,8 @@
 # macrosyntax = "ah" non // ) $L1 que c'était épouvantable } //
 # sent_id = Rhap_D0001-74
 # text = ah non
-1	ah	ah	INTJ	_	_	0	discourse	_	_
-2	non	non	ADV	_	Polarity=Neg	0	discourse	_	_
+1	ah	ah	INTJ	_	_	2	discourse	_	_
+2	non	non	ADV	_	Polarity=Neg	0	root	_	_
 
 # macrosyntax = $- $L2 c'était ESPERLUETTE //=
 # sent_id = Rhap_D0001-75
@@ -18436,7 +18436,7 @@
 10	même	même	ADV	_	_	9	unk	_	InIdiom=Yes
 11	maintenant	maintenant	ADV	_	_	13	mod	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	discourse	_	_
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	15	det	_	_
 15	générations	génération	NOUN	_	Gender=Fem|Number=Plur	13	comp:pred	_	_
 
@@ -19737,16 +19737,16 @@
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:pred	_	_
 
 # text = alors alors Gu~ Gutiérrez hein
-1	alors	alors	ADV	_	_	0	mod	_	_
-2	alors	alors	ADV	_	_	0	mod	_	_
-3	Gu~	Gu~	PROPN	_	_	0	dislocated	_	_
+1	alors	alors	ADV	_	_	3	root	_	_
+2	alors	alors	ADV	_	_	1	conj:dicto	_	_
+3	Gu~	Gu~	PROPN	_	_	0	root	_	_
 4	Gutiérrez	Gutiérrez	PROPN	_	_	3	conj:dicto	_	_
 5	hein	hein	INTJ	_	_	3	discourse	_	_
 
 # text = il s' est fait mal d' ailleurs
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	parataxis:parenth	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	fait	faire	VERB	_	_	3	comp:aux	_	_
 5	mal	mal	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 6	d'	de	ADP	_	_	3	mod	_	_
@@ -19772,7 +19772,7 @@
 6	non	non	ADV	_	Polarity=Neg	5	conj:coord	_	_
 
 # text = pas de le tout
-1	pas	pas	ADV	_	Polarity=Neg	0	conj:coord	_	_
+1	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
 2	de	de	ADP	_	_	1	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	tout	tout	ADV	_	_	2	comp:obj	_	_
@@ -19792,11 +19792,11 @@
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	conj:dicto	_	_
-5	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	parataxis:parenth	_	_
+5	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	aussi	aussi	ADV	_	_	5	mod	_	_
 
 # text = oui
-1	oui	oui	INTJ	_	_	0	discourse	_	_
+1	oui	oui	INTJ	_	_	0	root	_	_
 
 # text = et puis surtout le le temps que les gens passent devant Internet
 1	et	et	CCONJ	_	_	6	cc	_	_
@@ -19843,7 +19843,7 @@
 2	ben	ben	INTJ	_	_	5	discourse	_	_
 3	pourquoi	pourquoi	PRON	_	_	5	mod	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
-5	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	comp:obj	_	_
+5	marche	marcher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 
 # text = ça ça je j' ai rien à dire

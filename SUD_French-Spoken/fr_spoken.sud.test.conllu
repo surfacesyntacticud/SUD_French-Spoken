@@ -8640,8 +8640,8 @@
 # macrosyntax = $L2 "ah" non //
 # sent_id = Rhap_D2001-15
 # text = ah non
-1	ah	ah	INTJ	_	_	0	root	_	_
-2	non	non	ADV	_	Polarity=Neg	1	discourse	_	_
+1	ah	ah	INTJ	_	_	1	discourse	_	_
+2	non	non	ADV	_	Polarity=Neg	0	root	_	_
 
 # macrosyntax = $L1 je voudrais reprendre "euh" des phrases de Marcel Achard //
 # sent_id = Rhap_D2001-16
@@ -9778,8 +9778,8 @@
 # macrosyntax = $L2 "ah" non //
 # sent_id = Rhap_D2001-80
 # text = ah non
-1	ah	ah	INTJ	_	_	0	root	_	_
-2	non	non	ADV	_	Polarity=Neg	1	discourse	_	_
+1	ah	ah	INTJ	_	_	1	discourse	_	_
+2	non	non	ADV	_	Polarity=Neg	0	root	_	_
 
 # macrosyntax = je n'ai pas pris des cours de sténodactylo //
 # sent_id = Rhap_D2001-81
@@ -12859,17 +12859,17 @@
 
 # text = il faut que tu deviennes script girl par exemple
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	parataxis:parenth	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
-5	deviennes	devenir	VERB	_	_	3	comp:obj	_	_
+5	deviennes	devenir	VERB	_	_	3	comp:pred	_	_
 6	script	script	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
 7	girl	girl	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	par	par	ADP	_	_	2	mod	_	_
 9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 
 # text = viens travailler avec moi
-1	viens	venir	VERB	_	_	0	parataxis:parenth	_	_
+1	viens	venir	VERB	_	_	0	root	_	_
 2	travailler	travailler	VERB	_	VerbForm=Inf	1	comp:obj@x	_	_
 3	avec	avec	ADP	_	_	2	mod	_	_
 4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	_
