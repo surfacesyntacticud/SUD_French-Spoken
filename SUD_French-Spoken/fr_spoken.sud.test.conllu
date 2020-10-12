@@ -3433,7 +3433,7 @@
 4	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
-7	de	de	ADP	_	_	9	det	_	_
+7	de	de	ADP	_	_	9	det	_	ExtPos=DET|PhraseType=Idiom
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes
 9	psychanalyse	psychanalyse	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 10	à	à	ADP	_	_	9	mod	_	_
@@ -9308,7 +9308,7 @@
 17	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	monsieur	Monsieur	NOUN	_	_	16	comp:obj	_	_
 19	avec	avec	ADP	_	_	18	mod	_	_
-20	de	de	ADP	_	_	22	det	_	_
+20	de	de	ADP	_	_	22	det	_	ExtPos=DET|PhraseType=Idiom
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	unk	_	InIdiom=Yes
 22	argent	argent	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 

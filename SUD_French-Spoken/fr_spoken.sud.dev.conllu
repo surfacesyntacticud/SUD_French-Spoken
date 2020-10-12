@@ -4765,7 +4765,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	de	de	ADP	_	_	7	det	_	_
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|PhraseType=Idiom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
 7	paille	paille	NOUN	_	_	3	comp:pred	_	_
 8	synthétique	synthétique	ADJ	_	Number=Sing	7	mod	_	_
@@ -9755,7 +9755,7 @@
 4	envie	envie	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 5	d'	de	ADP	_	_	4	mod	_	_
 6	entendre	entendre	VERB	_	VerbForm=Inf	5	comp:obj	_	_
-7	de	de	ADP	_	_	9	det	_	_
+7	de	de	ADP	_	_	9	det	_	ExtPos=DET|PhraseType=Idiom
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	unk	_	InIdiom=Yes
 9	musique	musique	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 

@@ -13136,7 +13136,7 @@
 2	si	si	SCONJ	_	_	11	mod	_	_
 3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
 4	faites	faire	VERB	_	Number=Plur|Person=2	2	comp:obj	_	_
-5	de	de	ADP	_	_	7	det	_	_
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|PhraseType=Idiom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
 7	musique	musique	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 8	eh	eh	INTJ	_	_	7	discourse	_	_
