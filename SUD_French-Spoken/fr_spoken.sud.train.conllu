@@ -14186,7 +14186,7 @@
 # sent_id = Rhap_D2002-35
 # text = et à la fois tout ça est un dans un mélange extrêmement singulier enfin que moi j' ai pas tellement rencontré ailleurs de choses d' une grande crudité et de et d' une grande euh
 1	et	et	CCONJ	_	_	7	cc	_	_
-2	à	à	ADP	_	_	7	flat	_	_
+2	à	à	ADP	_	_	7	mod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	fois	fois	NOUN	_	_	2	comp:obj	_	_
 5	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_

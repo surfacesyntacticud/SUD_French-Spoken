@@ -5984,7 +5984,7 @@
 # macrosyntax = donc < { il y | il y } a eu des gradations //
 # sent_id = Rhap_D2008-97
 # text = donc il y il y a eu des gradations
-1	donc	donc	ADV	_	_	6	flat	_	_
+1	donc	donc	ADV	_	_	6	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	2	unk@scrap	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	conj:dicto	_	_
