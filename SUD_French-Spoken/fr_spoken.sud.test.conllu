@@ -9778,7 +9778,7 @@
 # macrosyntax = $L2 "ah" non //
 # sent_id = Rhap_D2001-80
 # text = ah non
-1	ah	ah	INTJ	_	_	1	discourse	_	_
+1	ah	ah	INTJ	_	_	2	discourse	_	_
 2	non	non	ADV	_	Polarity=Neg	0	root	_	_
 
 # macrosyntax = je n'ai pas pris des cours de sténodactylo //
