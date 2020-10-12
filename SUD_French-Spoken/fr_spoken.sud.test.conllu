@@ -8640,7 +8640,7 @@
 # macrosyntax = $L2 "ah" non //
 # sent_id = Rhap_D2001-15
 # text = ah non
-1	ah	ah	INTJ	_	_	1	discourse	_	_
+1	ah	ah	INTJ	_	_	2	discourse	_	_
 2	non	non	ADV	_	Polarity=Neg	0	root	_	_
 
 # macrosyntax = $L1 je voudrais reprendre "euh" des phrases de Marcel Achard //
