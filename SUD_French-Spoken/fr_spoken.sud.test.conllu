@@ -1627,7 +1627,7 @@
 4	succès	succès	NOUN	_	Gender=Masc	1	comp:obj	_	_
 5	de	de	ADP	_	_	4	mod	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Maladie	Maladie	NOUN	_	ExtPOS=PROPN|Title=Yes	5	comp:obj	_	ExtPOS=PROPN|Title=Yes
+7	Maladie	Maladie	NOUN	_	_	5	comp:obj	_	ExtPOS=PROPN|Title=Yes
 8	de	de	ADP	_	_	7	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	mort	mort	NOUN	_	_	8	comp:obj	_	_
@@ -2135,7 +2135,7 @@
 25	s'	se	PRON	_	Person=3|PronType=Prs	26	comp	_	InIdiom=Yes
 26	appelle	appeler	VERB	_	_	13	mod@relcl	_	_
 27	Un	Un	DET	_	_	28	det	_	_
-28	Barrage	Barrage	NOUN	_	ExtPOS=PROPN|Title=Yes	26	comp:obj	_	ExtPOS=PROPN|Title=Yes
+28	Barrage	Barrage	NOUN	_	_	26	comp:obj	_	ExtPOS=PROPN|Title=Yes
 29	contre	contre	ADP	_	_	28	mod	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	Pacifique	Pacifique	PROPN	_	_	29	comp:obj	_	_
@@ -2223,7 +2223,7 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 5	couronné	couronner	VERB	conj:reform	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux@pass	_	_
 6	Les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	jeux	jeu	NOUN	_	ExtPOS=PROPN|Gender=Masc|Number=Plur|Title=Yes	5	comp:obj	_	ExtPOS=PROPN|Title=Yes
+7	jeux	jeu	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	ExtPOS=PROPN|Title=Yes
 8	sauvages	sauvage	ADJ	_	Number=Plur	7	mod	_	_
 9	de	de	ADP	_	_	7	mod	_	_
 10	Paul	Paul	PROPN	_	_	9	comp:obj	_	_
@@ -2287,7 +2287,7 @@
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	à	à	ADP	conj:reform	_	6	conj:dicto	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	Barrage	Barrage	NOUN	_	ExtPOS=PROPN|Title=Yes	7	comp:obj	_	ExtPOS=PROPN|Title=Yes
+9	Barrage	Barrage	NOUN	_	_	7	comp:obj	_	ExtPOS=PROPN|Title=Yes
 10	parce	parce	SCONJ	_	_	5	mod	_	_
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
@@ -2325,7 +2325,7 @@
 3	fait	faire	VERB	_	_	1	mod@relcl	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
-6	Barrage	Barrage	NOUN	_	ExtPOS=PROPN|Title=Yes	8	dislocated	_	ExtPOS=PROPN|Title=Yes
+6	Barrage	Barrage	NOUN	_	_	8	dislocated	_	ExtPOS=PROPN|Title=Yes
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
@@ -2366,13 +2366,13 @@
 2	venons	venir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
-5	Amant	Amant	NOUN	_	ExtPOS=PROPN|Title=Yes	3	comp:obj	_	ExtPOS=PROPN|Title=Yes
+5	Amant	Amant	NOUN	_	_	3	comp:obj	_	ExtPOS=PROPN|Title=Yes
 
 # macrosyntax = $L1 L'Amant < { nous sommes à | nous sommes à } Saigon { entre les deux guerres | dans les années vingt } "euh" //
 # sent_id = Rhap_D2010-64
 # text = L' Amant nous sommes à nous sommes à Saigon entre les deux guerres dans les années vingt euh
 1	L'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
-2	Amant	Amant	NOUN	_	ExtPOS=PROPN|Title=Yes	4	dislocated	_	ExtPOS=PROPN|Title=Yes
+2	Amant	Amant	NOUN	_	_	4	dislocated	_	ExtPOS=PROPN|Title=Yes
 3	nous	il	PRON	_	_	4	subj	_	_
 4	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
@@ -2665,7 +2665,7 @@
 4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	avant	avant	ADP	_	_	4	comp:obj	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	photographie	photographie	NOUN	_	ExtPOS=PROPN|Gender=Fem|Number=Sing|Type=Title	4	comp:obl	_	ExtPOS=PROPN|Type=Title
+7	photographie	photographie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obl	_	ExtPOS=PROPN|Type=Title
 8	absolue	absolu	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
 
 # macrosyntax = il m'a été commandé > ce livre "attention" "hein" //
