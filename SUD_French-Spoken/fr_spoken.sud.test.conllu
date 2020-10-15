@@ -1343,12 +1343,12 @@
 # macrosyntax = $L1 est-ce qu'elle est -$ $L1 { silencieuse |} >+ la boule magique >+ dans le $- $L1 tambour >+ quand il ( $L5 tout à fait // ) -$ $L1 tourne //+
 # sent_id = Rhap_D2011-90
 # text = est -ce qu' elle est silencieuse la boule magique dans le tambour quand il tout à fait tourne
-1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:aux	_	_
-2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
-3	qu'	que	SCONJ	_	_	0	root	_	_
+1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
+3	qu'	que	SCONJ	_	_	1	comp:pred	_	_
 4	elle	il	PRON	_	_	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	silencieuse	silencieux	ADJ	_	Gender=Fem|Number=Sing	1	comp:pred	_	_
+6	silencieuse	silencieux	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	boule	boule	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
 9	magique	magique	ADJ	_	Number=Sing	8	mod	_	_

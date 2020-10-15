@@ -4435,9 +4435,9 @@
 # sent_id = Rhap_D0009-20
 # text = et est -ce qu' ils font aussi le cannage
 1	et	et	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-4	qu'	que	SCONJ	_	_	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+4	qu'	que	SCONJ	_	_	2	comp:pred	_	_
 5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
 6	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	aussi	aussi	ADV	_	_	6	mod	_	_
@@ -5142,9 +5142,9 @@
 # sent_id = Rhap_D0009-75
 # text = mais est -ce qu' il faut que je lui dise aussi les accoudoirs
 1	mais	mais	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-4	qu'	que	SCONJ	_	_	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+4	qu'	que	SCONJ	_	_	2	comp:pred	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
@@ -5666,9 +5666,9 @@
 # sent_id = Rhap_D0009-117
 # text = et est -ce qu' il faut que j' aie
 1	et	et	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-4	qu'	que	SCONJ	_	_	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+4	qu'	que	SCONJ	_	_	2	comp:pred	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
@@ -5746,9 +5746,9 @@
 # sent_id = Rhap_D0009-124
 # text = mais est -ce qu' il faut que les pieds soient quand même euh cachés
 1	mais	mais	CCONJ	_	_	2	cc	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-4	qu'	que	SCONJ	_	_	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+4	qu'	que	SCONJ	_	_	2	comp:pred	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
