@@ -1297,13 +1297,13 @@
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	certains	certain	DET	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	6	det	_	_
 6	métiers	métier	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
-7	où	où	PRON	_	_	13	mod	_	_
+7	où	où	PRON	_	_	9	mod	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 9	f~	f~	X	_	_	6	mod@relcl	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
-11	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	comp:aux	_	_
-12	être	être	AUX	DoubleAux	Number=Sing|Person=3|VerbForm=Inf	9	conj:dicto	_	_
-13	né	naître	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	comp:obj@x	_	_
+10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
+11	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj:dicto	_	_
+12	être	être	AUX	DoubleAux	Number=Sing|Person=3|VerbForm=Inf	11	comp:obj@x	_	_
+13	né	naître	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	_
 
 # macrosyntax = $- $L1 "euh" [ vous voyez ce que je veux dire // ] //=
 # sent_id = Rhap_D0006-68
@@ -5240,7 +5240,7 @@
 1	ah	ah	INTJ	_	_	9	discourse	_	_
 2	oui	oui	INTJ	_	_	9	discourse	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-4	fait	faire	SCONJ	_	_	0	root	_	_
+4	fait	faire	VERB	_	_	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	que	que	ADV	_	_	7	mod	_	_
 7	de	de	ADP	_	_	4	comp:obj	_	_
@@ -10835,15 +10835,15 @@
 15	dans	dans	ADP	_	_	10	comp:obl	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	maternelles	maternelle	NOUN	_	_	15	comp:obj	_	_
-18	pour	pour	ADP	_	_	19	comp:obj	_	_
-19	qu'	que	SCONJ	_	_	10	mod	_	_
+18	pour	pour	ADP	_	_	10	mod	_	_
+19	qu'	que	SCONJ	_	_	18	comp:obj	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	enfant	enfant	NOUN	_	_	18	subj	_	_
+21	enfant	enfant	NOUN	_	_	26	subj	_	_
 22	qui	qui	PRON	_	_	23	subj	_	_
 23	sorte	sortir	VERB	ETRE	_	21	mod@relcl	_	_
 24	de	de	ADP	_	_	23	comp:obl	_	_
 25	maternelle	maternelle	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-26	parle	parler	VERB	_	_	18	comp:obj	_	_
+26	parle	parler	VERB	_	_	19	comp:obj	_	_
 27	obligatoirement	obligatoirement	ADV	_	_	26	mod	_	_
 28	français	français	ADJ	_	Gender=Masc	26	comp:obj	_	_
 
@@ -12289,10 +12289,10 @@
 # macrosyntax = { vous t~ | vous suivez } la ligne du tram qui passe vers { la & |
 # sent_id = Rhap_M0003-18
 # text = vous t~ vous suivez la ligne de le tram qui passe vers la
-1	vous	vous	PRON	_	Person=3|PronType=Prs	2	subj	_	_
-2	t~	t~	X	_	_	0	root	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
-4	suivez	suivre	VERB	conj:reform	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
+1	vous	vous	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+2	t~	t~	X	_	_	1	unk@scrap	_	_
+3	vous	il	PRON	_	Person=3|PronType=Prs	1	conj:dicto	_	_
+4	suivez	suivre	VERB	conj:reform	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	de	de	ADP	_	_	6	mod	_	_

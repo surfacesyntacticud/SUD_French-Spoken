@@ -1157,11 +1157,11 @@
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	crois	croire	VERB	_	Number=Sing|Person=1	0	root	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
-8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
-9	en	en	ADP	_	_	7	comp:obj	_	_
-10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
+8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
+9	en	en	ADP	_	_	8	unk@scrap	_	_
+10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	conj:dicto	_	_
 11	en	en	PRON	_	Person=3|PronType=Prs	12	mod	_	_
-12	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	comp:obj	_	_
+12	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 13	à	à	ADP	_	_	12	comp:obl	_	_
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	conj:dicto	_	_
@@ -3627,7 +3627,7 @@
 2	saute	sauter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	plus	plus	ADV	_	_	4	mod	_	_
 4	haut	haut	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
-5	aussi	aussi	ADV	_	_	6	subj	_	_
+5	aussi	aussi	ADV	_	_	4	mod	_	_
 6	qu'	que	SCONJ	_	_	3	comp:obj	_	_
 7	Agüero	Agüero	PROPN	_	_	6	comp:obj	_	_
 
@@ -17845,7 +17845,7 @@
 11	dans	dans	ADP	conj:reform	_	8	conj:dicto	_	_
 12	des	de+le	DET	_	_	14	det	_	_
 13	petites	petit	ADJ	_	Gender=Fem|Number=Plur	14	mod	_	_
-14	rues	rue	NOUN	_	Gender=Fem|Number=Plur	11	subj	_	_
+14	rues	rue	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15	comme	comme	ADP	_	_	14	mod	_	_
 16	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	comp:obj	_	_
 17	où	où	PRON	_	_	20	mod	_	_
