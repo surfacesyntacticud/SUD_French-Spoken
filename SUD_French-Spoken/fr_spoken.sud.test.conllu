@@ -344,7 +344,7 @@
 # text = alors voulez -vous bien vérifier qu' il n' y ait pas de lessive à l' intérieur de notre machine à laver dans le tambour et également dans le tiroir
 1	alors	alors	ADV	_	_	2	mod	_	_
 2	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	-vous	vous	PRON	_	_	2	subj	_	_
+3	-vous	il	PRON	_	_	2	subj	_	_
 4	bien	bien	ADV	_	_	2	mod	_	_
 5	vérifier	vérifier	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	_
@@ -9598,7 +9598,7 @@
 6	comme	comme	SCONJ	_	_	5	mod	_	_
 7	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	subj	_	_
 8	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-9	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj@pass	_	_
+9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj@pass	_	_
 10	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
 12	ruinée	ruiner	VERB	DoubleAux	_	11	comp:aux@pass	_	_

@@ -8170,7 +8170,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	là	là	ADV	_	_	5	mod	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
-4	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	conj:dicto	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	conj:dicto	_	_
 5	reprenez	reprendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -9648,7 +9648,7 @@
 # text = et vous vous avez comme ça des moments de
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
 4	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	comme	comme	ADP	_	_	4	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
@@ -10186,7 +10186,7 @@
 # text = vous en vous en souvenez plutôt avec euh euh a~ avec l' impression que ça tournait que c' était bien euh ou à le contraire d' un tel ennui
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 2	en	en	PRON	_	Person=3|PronType=Prs	1	unk@scrap	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp	_	InIdiom=Yes
+3	vous	se	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp	_	InIdiom=Yes
 4	en	en	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
 5	souvenez	souvenir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 6	plutôt	plutôt	ADV	_	_	5	mod	_	_
@@ -11002,7 +11002,7 @@
 # text = mais connaissez -vous les sites euh sociaux spécialisés dans l' ombre de Facebook
 1	mais	mais	CCONJ	_	_	2	cc	_	_
 2	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	-vous	vous	PRON	_	_	2	subj	_	_
+3	-vous	il	PRON	_	_	2	subj	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	sites	site	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
@@ -16447,7 +16447,7 @@
 31	forme	forme	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
 32	écrite	écrire	ADJ	_	_	31	mod	_	_
 33	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	32	discourse	_	_
-34	-vous	vous	PRON	_	_	33	subj	_	_
+34	-vous	il	PRON	_	_	33	subj	_	_
 
 # macrosyntax = c'est "euh" & //
 # sent_id = Rhap_D2009-17
@@ -17044,7 +17044,7 @@
 5	que	que	SCONJ	_	_	4	comp:pred	_	_
 6	actuellement	actuellement	ADV	_	_	23	mod	_	_
 7	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	discourse	_	_
-8	-vous	vous	PRON	_	_	7	subj	_	_
+8	-vous	il	PRON	_	_	7	subj	_	_
 9	en	en	ADP	_	_	6	conj:appos	_	_
 10	soixante-quinze	soixante-quinze	NUM	_	Number=Plur	9	comp:obj	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
@@ -17264,7 +17264,7 @@
 1	ou	ou	CCONJ	_	_	3	cc	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 3	reconnaissez	reconnaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	-vous	vous	PRON	_	_	3	subj	_	_
+4	-vous	íl	PRON	_	_	3	subj	_	_
 5	comme	comme	ADP	_	_	3	comp:obl	_	_
 6	tel	tel	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	comp:obj	_	_
 
