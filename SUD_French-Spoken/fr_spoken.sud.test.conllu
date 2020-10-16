@@ -1544,7 +1544,7 @@
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	discourse	_	_
 11	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	10	comp:pred	_	_
-12	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	8	conj:dicto	_	_
+12	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	conj:dicto	_	_
 13	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
 14	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
 15	d'	de	ADP	_	_	14	comp:obj	_	_
@@ -1828,7 +1828,7 @@
 # text = et ils vous
 1	et	et	CCONJ	_	_	0	root	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	conj:dicto	_	_
-3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
 
 # macrosyntax = et c'est ESPERLUETTE //
 # sent_id = Rhap_D2010-23
@@ -2114,7 +2114,7 @@
 4	cent	cent	NUM	_	Number=Plur	3	flat	_	_
 5	cinquante	cinquante	NUM	_	Number=Plur	4	flat	_	_
 6	quand	quand	SCONJ	_	_	2	conj:appos	_	_
-7	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj@caus	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj@caus	_	_
 8	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 9	fait	faire	AUX	DoubleAux	_	8	comp:aux	_	_
 10	paraître	paraître	VERB	CAUSATIVE	VerbForm=Inf	9	comp:aux@caus	_	_
@@ -2421,7 +2421,7 @@
 # sent_id = Rhap_D2010-67
 # text = et vous êtes drôlement attifée quand même
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj@pass	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj@pass	_	_
 3	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	drôlement	drôlement	ADV	_	_	3	mod	_	_
 5	attifée	attifer	VERB	_	_	3	comp:aux@pass	_	_
@@ -2438,7 +2438,7 @@
 # macrosyntax = vous êtes attifée comment //
 # sent_id = Rhap_D2010-69
 # text = vous êtes attifée comment
-1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	attifée	attifer	VERB	_	_	2	comp:aux@pass	_	_
 4	comment	comment	PRON	_	_	2	mod	_	_
@@ -2943,7 +2943,7 @@
 5	de	de	ADP	_	_	3	mod	_	_
 6	plus	plus	ADV	_	_	5	comp:obj	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
-8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
+8	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 
 # macrosyntax = $L2 j'ai quinze ans //=
 # sent_id = Rhap_D2010-106
@@ -5731,8 +5731,8 @@
 # macrosyntax = $L1 "euh" vous & //
 # sent_id = Rhap_D2008-81
 # text = euh vous
-1	euh	euh	INTJ	_	_	0	root	_	_
-2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
+1	euh	euh	INTJ	_	_	2	discourse	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	0	root	_	_
 
 # macrosyntax = { il | il } y a un & //
 # sent_id = Rhap_D2008-82
@@ -5804,7 +5804,7 @@
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
 3	que	que	SCONJ	_	_	1	comp:pred	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
-5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp	_	InIdiom=Yes
+5	vous	se	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp	_	InIdiom=Yes
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 8	aussi	aussi	ADV	_	_	6	mod	_	_
@@ -5853,7 +5853,7 @@
 # sent_id = Rhap_D2008-88
 # text = vous vous savez on a tous été frai~ très frappés
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
-2	vous	vous	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
+2	vous	il	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
 3	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
@@ -7326,7 +7326,7 @@
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	évangile	évangile	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	convertissez	convertir	VERB	_	_	2	conj:appos	_	_
-12	-vous	vous	PRON	_	_	11	subj	_	_
+12	-vous	il	PRON	_	_	11	subj	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	royaume	royaume	NOUN	_	Gender=Masc|Number=Sing	17	subj	_	_
 15	de	de	ADP	_	_	14	mod	_	_
@@ -8473,7 +8473,7 @@
 # sent_id = Rhap_D2001-6
 # text = usez -vous à ce niveau de le charme de la femme pour réussir tout à fait
 1	usez	user	VERB	_	_	0	root	_	_
-2	-vous	vous	PRON	_	_	1	subj	_	_
+2	-vous	il	PRON	_	_	1	subj	_	_
 3	à	à	ADP	_	_	1	mod	_	_
 4	ce	ce	DET	_	_	5	det	_	_
 5	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -10521,7 +10521,7 @@
 # macrosyntax = vous étiez normalement entraînée //
 # sent_id = Rhap_D2001-129
 # text = vous étiez normalement entraînée
-1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
 2	étiez	être	AUX	_	_	0	root	_	_
 3	normalement	normalement	ADV	_	_	2	mod	_	_
 4	entraînée	entraîner	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
@@ -11567,7 +11567,7 @@
 5	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pour	pour	ADP	_	_	6	mod	_	_
-8	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
+8	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 9	de	de	ADP	_	_	13	mod	_	_
 10	plus	plus	ADV	_	_	9	comp:obj	_	_
 11	en	en	ADP	_	_	9	conj:coord	_	_
