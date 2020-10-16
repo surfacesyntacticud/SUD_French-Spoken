@@ -222,7 +222,7 @@
 8	bien	bien	ADV	_	_	7	mod	_	_
 9	parler	parler	VERB	CCOMP	VerbForm=Inf	7	comp:obj@x	_	_
 10	avec	avec	ADP	_	_	9	comp:obl	_	_
-11	vous	lui	PRON	_	Person=2|PronType=Prs	10	comp:obj	_	_
+11	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	10	comp:obj	_	_
 12	mais	mais	CCONJ	_	_	13	cc	_	_
 13	a~	a~	X	_	_	9	conj:coord	_	_
 14	après	après	ADP	_	_	13	conj:dicto	_	_
@@ -238,13 +238,13 @@
 # macrosyntax = $L2 vous n'avez -$ $L2 pas autour de vous cette impression que ESPERLUETTE //
 # sent_id = Rhap_D0006-6
 # text = vous n' avez pas autour de vous cette impression que
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	autour	autour	ADV	_	_	3	mod	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
-7	vous	lui	PRON	_	Person=2|PronType=Prs	6	comp:obj	_	_
+7	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
 8	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	9	det	_	_
 9	impression	impression	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 10	que	que	SCONJ	_	_	9	mod	_	_
@@ -471,8 +471,8 @@
 # macrosyntax = $L2 vous < vous faites le baby-sitter // -$
 # sent_id = Rhap_D0006-16
 # text = vous vous faites le baby-sitter
-1	vous	lui	PRON	_	Person=2|PronType=Prs	3	dislocated	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	dislocated	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	faites	faire	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	baby-sitter	baby	NOUN	_	_	3	comp:obj	_	_
@@ -583,7 +583,7 @@
 1	ou	ou	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	vous	lui	PRON	_	Person=2|PronType=Prs	3	comp:pred	_	_
+4	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:pred	_	_
 5	qui	qui	PRON	_	_	6	subj	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:cleft	_	_
 7	dit	dire	VERB	_	_	6	comp:aux	_	_
@@ -713,7 +713,7 @@
 # sent_id = Rhap_D0006-33
 # text = euh vous avez des idées sur euh euh le type de travail que vous allez
 1	euh	euh	INTJ	_	_	3	discourse	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	idées	idée	NOUN	_	Gender=Fem|Number=Plur	3	comp:obl	_	_
@@ -725,13 +725,13 @@
 11	de	de	ADP	_	_	10	mod	_	_
 12	travail	travail	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 13	que	que	SCONJ	_	_	12	mod	_	_
-14	vous	il	PRON	_	Person=3|PronType=Prs	15	subj	_	_
+14	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	15	subj	_	_
 15	allez	aller	VERB	ETRE	Number=Plur|Person=2	13	comp:obj	_	_
 
 # macrosyntax = vous allez être médecin en France en hôpital //
 # sent_id = Rhap_D0006-34
 # text = vous allez être médecin en France en hôpital
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	médecin	médecin	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
@@ -766,7 +766,7 @@
 3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
 5	si	si	SCONJ	_	_	3	comp:obj	_	_
-6	vous	il	PRON	_	Person=3|PronType=Prs	7	subj	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
 7	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	savoir	savoir	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
 9	pourquoi	pourquoi	PRON	_	_	8	comp:obj	_	_
@@ -1026,7 +1026,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	peux	pouvoir	VERB	_	Number=Sing|Person=1	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	vous	le	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
+4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	_
 5	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 
 # macrosyntax = ^mais voilà //
@@ -1189,7 +1189,7 @@
 9	aspects	aspect	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 10	dont	dont	PRON	_	PronType=Rel	14	comp:obj	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
-12	vous	lui	PRON	_	Person=3|PronType=Prs	14	comp:obl	_	_
+12	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	14	comp:obl	_	_
 13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 14	parlé	parler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
 
@@ -1309,7 +1309,7 @@
 # sent_id = Rhap_D0006-68
 # text = euh vous voyez ce que je veux dire
 1	euh	euh	INTJ	_	_	3	discourse	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ce	ce	PRON	_	_	3	comp:obj	_	_
 5	que	que	PRON	_	_	8	comp:obj	_	_
@@ -1558,7 +1558,7 @@
 # macrosyntax = vous voyez ce que je veux dire //
 # sent_id = Rhap_D0006-89
 # text = vous voyez ce que je veux dire
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	ce	PRON	_	_	2	comp:obj	_	_
 4	que	que	PRON	_	_	7	comp:obj	_	_
@@ -1599,7 +1599,7 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 17	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	comp:pred	_	_
 18	qui	qui	PRON	_	_	20	subj	_	_
-19	vous	le	PRON	_	Person=3|PronType=Prs	20	comp:obj	_	_
+19	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	20	comp:obj	_	_
 20	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:cleft	_	_
 21	petit	petit	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 22	peu	peu	NOUN	_	_	23	mod	_	_
@@ -1661,7 +1661,7 @@
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	choses	chose	NOUN	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
 5	dont	dont	PRON	_	PronType=Rel	7	comp:obj	_	_
-6	vous	il	PRON	_	Person=3|PronType=Prs	7	subj	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
 7	parlez	parler	VERB	_	Number=Plur|Person=2	4	mod@relcl	_	_
 8	dans	dans	ADP	_	_	7	mod	_	_
 9	en	en	ADP	conj:reform	_	8	conj:dicto	_	_
@@ -1739,8 +1739,8 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	vous	lui	PRON	_	Person=3|PronType=Prs	2	comp:obl	_	_
-5	vous	vous	PRON	conj:reform	Person=3|PronType=Prs	4	conj:dicto	_	_
+4	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	2	comp:obl	_	_
+5	vous	lui	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	4	conj:dicto	_	_
 6	poser	poser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
 8	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	9	det	_	_
@@ -1762,7 +1762,7 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 6	allait	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
 7	que	que	SCONJ	_	_	4	conj:dicto	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	étiez	être	AUX	_	Number=Plur|Person=2	7	comp:obj	_	_
 10	content	content	ADJ	conj:reform	Gender=Masc|Number=Sing	9	comp:pred	_	_
 11	que	que	SCONJ	_	_	7	conj:appos	_	_
@@ -1792,7 +1792,7 @@
 7	quartiers	quartier	NOUN	conj:reform	Gender=Masc|Number=Plur	5	comp:obj	_	_
 8	de	de	ADP	_	_	7	mod	_	_
 9	Paris	Paris	PROPN	_	_	8	comp:obj	_	_
-10	vous	il	PRON	_	Person=3|PronType=Prs	12	subj	_	_
+10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
 11	en	en	PRON	_	Person=3|PronType=Prs	12	comp:obj	_	_
 12	pensez	penser	VERB	_	Number=Plur|Person=2	0	root	_	_
 13	quoi	quoi	PRON	_	_	12	comp:obj	_	_
@@ -2231,7 +2231,7 @@
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	rendez-vous	rendez	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	mod	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 5	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:parenth	_	_
 7	dit	dire	VERB	_	_	6	comp:aux	_	_
@@ -2267,7 +2267,7 @@
 8	en	en	PRON	_	Person=3|PronType=Prs	9	comp:obj	_	_
 9	sortir	sortir	VERB	ETRE	VerbForm=Inf	7	comp:obj@x	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-11	vous	lui	PRON	_	Person=3|PronType=Prs	12	comp:obl	_	_
+11	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	12	comp:obl	_	_
 12	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	de	de	ADP	_	_	12	comp:obl@x	_	_
 14	voir	voir	VERB	_	VerbForm=Inf	13	comp:obj	_	_
@@ -2280,7 +2280,7 @@
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
 22	passer	passer	VERB	ETRE	VerbForm=Inf	20	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 23	avec	avec	ADP	_	_	14	mod	_	_
-24	vous	lui	PRON	_	Person=2|PronType=Prs	23	comp:obj	_	_
+24	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	23	comp:obj	_	_
 25	Jean-François	Jean-François	PROPN	_	_	24	conj:appos	_	_
 26	Achilli	Achilli	PROPN	_	_	25	flat	_	_
 
@@ -2471,8 +2471,8 @@
 # macrosyntax = vous vous trouvez au Gosier //
 # sent_id = Rhap_M2006-32
 # text = vous vous trouvez à le Gosier
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
-2	vous	lui	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obl	_	_
 3	trouvez	trouver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -2498,7 +2498,7 @@
 # sent_id = Rhap_M2006-35
 # text = on vous retrouve pour un nouveau point dans le journal de huit heures
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
-2	vous	le	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	_
+2	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	3	comp:obj	_	_
 3	retrouve	retrouver	VERB	_	_	0	root	_	_
 4	pour	pour	ADP	_	_	3	mod	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -2514,14 +2514,14 @@
 # macrosyntax = vous le savez //
 # sent_id = Rhap_M2006-36
 # text = vous le savez
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 3	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = vous y étiez il y a pas longtemps //
 # sent_id = Rhap_M2006-37
 # text = vous y étiez il y a pas longtemps
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:pred	_	_
 3	étiez	être	AUX	_	Number=Plur|Person=2	0	root	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
@@ -2814,7 +2814,7 @@
 1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bon	bon	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 5	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
 6	verrez	voir	VERB	DISCOURSE	Number=Plur|Person=2	2	discourse	_	_
 7	avec	avec	ADP	_	_	2	mod	_	_
@@ -2837,7 +2837,7 @@
 11	arrêtés	arrêter	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	mod	_	_
 12	hier	hier	ADV	_	_	13	mod	_	_
 13	matin	matin	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
-14	vous	il	PRON	_	Person=3|PronType=Prs	16	subj	_	_
+14	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
 15	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	comp:obj	_	_
 16	savez	savoir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	discourse	_	_
 17	après	après	ADP	_	_	11	mod	_	_
@@ -4013,10 +4013,10 @@
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	gare	gare	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
-11	vous	le	PRON	_	Person=3|PronType=Prs	12	comp:obj	_	_
+11	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	12	comp:obj	_	_
 12	éloigner	éloigner	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
 13	de	de	ADP	_	_	12	comp:obl	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -4036,7 +4036,7 @@
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	donc	donc	ADV	_	_	6	discourse	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
 8	avenue	avenue	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -4056,7 +4056,7 @@
 6	à	à	ADP	_	_	2	mod	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	moment	moment	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	vous	il	PRON	_	Person=3|PronType=Prs	10	subj	_	_
+9	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	10	subj	_	_
 10	verrez	voir	VERB	DISCOURSE	Number=Plur|Person=2	8	discourse	_	_
 
 # macrosyntax = ^et "euh" donc < vous passez à côté { de la poste | et caetera } //
@@ -4065,7 +4065,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	donc	donc	ADV	_	_	5	discourse	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	passez	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 6	à	à	ADP	_	_	5	comp:obl	_	_
 7	côté	côté	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -4085,7 +4085,7 @@
 5	d'	de	ADP	_	_	4	mod	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	temps	temps	NOUN	_	Gender=Masc	5	comp:obj	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 10	arriver	arriver	VERB	ETRE	VerbForm=Inf	9	comp:obj@x	_	_
 11	sur	sur	ADP	_	_	10	comp:obl	_	_
@@ -4116,7 +4116,7 @@
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	donc	donc	ADV	_	_	6	discourse	_	_
 4	euh	euh	INTJ	_	_	6	discourse	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	rencontrez	rencontrer	VERB	_	Number=Plur|Person=2	0	root	_	_
 7	à	à	ADP	_	_	6	mod	_	_
 8	ce	ce	DET	_	_	9	det	_	_
@@ -4126,11 +4126,11 @@
 12	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	conj:dicto	_	_
 13	tram	tram	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 14	que	que	PRON	_	_	17	comp:obj	_	_
-15	vous	il	PRON	_	Person=3|PronType=Prs	16	subj	_	_
+15	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
 16	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	_
 17	longer	longer	VERB	_	VerbForm=Inf	16	comp:obj@x	_	_
 18	que	que	PRON	_	_	21	comp:obj	_	_
-19	vous	il	PRON	_	Person=3|PronType=Prs	20	subj	_	_
+19	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	20	subj	_	_
 20	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	conj:dicto	_	_
 21	suivre	suivre	VERB	conj:reform	VerbForm=Inf	20	comp:obj@x	_	_
 22	euh	euh	INTJ	_	_	21	discourse	_	_
@@ -4148,15 +4148,15 @@
 4	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	-là	là	ADV	_	_	4	mod	_	_
 6	si	si	SCONJ	_	_	16	mod	_	_
-7	vous	vous	PRON	_	Person=3|PronType=Prs	6	conj:dicto	_	_
+7	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	conj:dicto	_	_
 8	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	conj:dicto	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 10	si	si	SCONJ	_	_	8	conj:dicto	_	_
-11	vous	il	PRON	_	Person=3|PronType=Prs	12	subj	_	_
+11	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	12	subj	_	_
 12	suivez	suivre	VERB	conj:reform	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	rails	rail	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
-15	vous	il	PRON	_	Person=3|PronType=Prs	16	subj	_	_
+15	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
 16	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 17	arriver	arriver	VERB	ETRE	VerbForm=Inf	16	comp:obj@x	_	_
 18	euh	euh	INTJ	_	_	17	discourse	_	_
@@ -4185,7 +4185,7 @@
 41	kilomètre	kilomètre	NOUN	_	Gender=Masc|Number=Sing	36	conj:dicto	_	_
 42	plus	plus	ADV	_	_	43	mod	_	_
 43	loin	loin	ADV	_	_	35	comp:obl	_	_
-44	vous	il	PRON	_	Person=3|PronType=Prs	45	subj	_	_
+44	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	45	subj	_	_
 45	allez	aller	VERB	ETRE	Number=Plur|Person=2	17	conj:dicto	_	_
 46	arriver	arriver	VERB	ETRE	VerbForm=Inf	45	comp:obj@x	_	_
 47	à	à	ADP	_	_	46	comp:obl	_	_
@@ -4204,7 +4204,7 @@
 # macrosyntax = vous le verrez "euh" sans problème //
 # sent_id = Rhap_M0013-11
 # text = vous le verrez euh sans problème
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 3	verrez	voir	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -4214,7 +4214,7 @@
 # macrosyntax = { connaissez déjà un peu | ^ou ESPERLUETTE } //
 # sent_id = Rhap_M0013-12
 # text = vous connaissez déjà un peu ou
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	déjà	déjà	ADV	_	_	2	mod	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
@@ -6167,7 +6167,7 @@
 # sent_id = Rhap_M0007-1
 # text = bon vous prenez la route là
 1	bon	bon	INTJ	_	_	3	discourse	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	route	route	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -6176,7 +6176,7 @@
 # macrosyntax = vous sortez "euh" de la "euh" commune de Pontamafrey //
 # sent_id = Rhap_M0007-2
 # text = vous sortez euh de la euh commune de Pontamafrey
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	sortez	sortir	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	de	de	ADP	_	_	2	comp:obl	_	_
@@ -6189,7 +6189,7 @@
 # macrosyntax = vous allez arriver <
 # sent_id = Rhap_M0007-3
 # text = vous allez arriver
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	arriver	arriver	VERB	ETRE	VerbForm=Inf	2	comp:obj@x	_	_
 
@@ -6211,13 +6211,13 @@
 # macrosyntax = vous continuez //
 # sent_id = Rhap_M0007-5
 # text = vous continuez
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = vous prenez le rond-point tout droit //
 # sent_id = Rhap_M0007-6
 # text = vous prenez le rond-point tout droit
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	rond-point	rond	NOUN	_	_	2	comp:obj	_	_
@@ -6227,7 +6227,7 @@
 # macrosyntax = vous passez le pont "euh" au-dessus de la voie ferrée //
 # sent_id = Rhap_M0007-7
 # text = vous passez le pont euh à le dessus de la voie ferrée
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	passez	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	pont	pont	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -6244,7 +6244,7 @@
 # sent_id = Rhap_M0007-8
 # text = après vous continuez direction Saint - Jean
 1	après	après	ADV	_	_	3	mod	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	direction	direction	NOUN	_	Gender=Fem|Number=Sing	3	mod	_	_
 5	Saint-Jean	Saint-Jean	PROPN	_	_	4	mod@appos	_	_
@@ -6266,13 +6266,13 @@
 # sent_id = Rhap_M0007-10
 # text = après vous continuez
 1	après	après	ADP	_	_	3	mod	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = vous suivez la route //
 # sent_id = Rhap_M0007-11
 # text = vous suivez la route
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	route	route	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -6295,7 +6295,7 @@
 # macrosyntax = vous arrivez à l' entrée de Saint-Jean-de-Maurienne "euh" est situé un garage Fiat //
 # sent_id = Rhap_M0007-13
 # text = vous arrivez à l' entrée de Saint-Jean-de-Maurienne euh où se situe un garage Fiat
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
@@ -6313,7 +6313,7 @@
 # macrosyntax = vous prenez ce rond-point à gauche //
 # sent_id = Rhap_M0007-14
 # text = vous prenez ce rond-point à gauche
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 3	ce	ce	DET	_	_	4	det	_	_
 4	rond-point	rond	NOUN	_	_	2	comp:obj	_	_
@@ -6338,7 +6338,7 @@
 # sent_id = Rhap_M0007-16
 # text = après vous continuez
 1	après	après	ADV	_	_	3	mod	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = au prochain rond-point <+ vous prenez à gauche //
@@ -6348,7 +6348,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	rond-point	rond	NOUN	_	_	1	comp:obj	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 7	à	à	ADP	_	_	6	comp:obl	_	_
 8	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
@@ -6356,7 +6356,7 @@
 # macrosyntax = vous descendez la route "euh" vers les sapeurs pompiers "euh" en bas de la route //
 # sent_id = Rhap_M0007-18
 # text = vous descendez la route euh vers les sapeurs pompiers euh en bas de la route
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	descendez	descendre	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	route	route	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -6375,7 +6375,7 @@
 # macrosyntax = vous arrivez après au fond de la route //
 # sent_id = Rhap_M0007-19
 # text = vous arrivez après à le fond de la route
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	après	après	ADV	_	_	2	mod	_	_
 4	à	à	ADP	_	_	2	comp:obl	_	_
@@ -6388,7 +6388,7 @@
 # macrosyntax = vous prenez à gauche devant "euh" Dorhôtel //
 # sent_id = Rhap_M0007-20
 # text = vous prenez à gauche devant euh Dorhôtel
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
@@ -6399,7 +6399,7 @@
 # macrosyntax = vous continuez tout droit //
 # sent_id = Rhap_M0007-21
 # text = vous continuez tout droit
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tout	tout	ADV	_	_	4	mod	_	_
 4	droit	droit	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
@@ -6407,7 +6407,7 @@
 # macrosyntax = vous arrivez "euh" en face de la gare au bout de la ligne droite //
 # sent_id = Rhap_M0007-22
 # text = vous arrivez euh en face de la gare à le bout de la ligne droite
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	arrivez	arriver	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	en	en	ADP	_	_	2	comp:obl	_	_
@@ -6533,9 +6533,9 @@
 # macrosyntax = { vous | vous | vous } prenez { à droite | la droite } //
 # sent_id = Rhap_D0017-2
 # text = vous vous vous prenez à droite la droite
-1	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
-2	vous	vous	PRON	conj:reform	Person=3|PronType=Prs	1	conj:dicto	_	_
-3	vous	vous	PRON	conj:reform	Person=3|PronType=Prs	2	conj:dicto	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+2	vous	vous	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
+3	vous	vous	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
 4	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	droite	droite	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -6546,7 +6546,7 @@
 # sent_id = Rhap_D0017-3
 # text = et vous allez tout droit jusqu' à le prochain arrêt de tram où il y a Nef Chavant
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	droit	droit	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
@@ -6568,7 +6568,7 @@
 # sent_id = Rhap_D0017-4
 # text = et vous continuez tout droit jusqu' à le deuxième arrêt
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	droit	droit	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
@@ -6588,7 +6588,7 @@
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	troisième	troisième	NOUN	_	_	5	comp:obj	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 10	à	à	ADP	_	_	9	comp:obl	_	_
 11	droite	droite	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -6606,7 +6606,7 @@
 # sent_id = Rhap_D0017-6
 # text = et vous marchez sur deux cents mètres
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	marchez	marcher	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	sur	sur	ADP	_	_	3	comp:obl	_	_
 5	deux	deux	NUM	_	Number=Plur	7	det	_	_
@@ -6617,7 +6617,7 @@
 # sent_id = Rhap_D0017-7
 # text = et vous y êtes
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp:pred	_	_
 4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 
@@ -6645,7 +6645,7 @@
 4	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 5	arrêt	arrêt	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 6	oui	oui	INTJ	_	_	5	discourse	_	_
-7	vous	il	PRON	_	Person=3|PronType=Prs	8	subj	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	jusqu'	jusque	ADP	_	_	8	comp:obl	_	_
 10	à	à	ADP	_	_	9	comp:obj	_	_
@@ -6676,7 +6676,7 @@
 # text = et là vous prenez à droite jusqu' à voir la cathédrale
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
 6	droite	droite	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -6831,14 +6831,14 @@
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
 3	que	que	SCONJ	_	_	1	comp:pred	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-5	vous	le	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
+5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
 6	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 
 # macrosyntax = $L1 alors < vous étiez un peu choquée > quand même  " hein "   "  non mais  "  //
 # sent_id = Rhap_D2007-1
 # text = alors vous étiez un peu choquée quand même hein non mais
 1	alors	alors	ADV	_	_	3	mod	_	_
-2	vous	vous	PRON	_	Person=3|PronType=Prs	3	subj@pass	_	_
+2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj@pass	_	_
 3	étiez	être	AUX	_	_	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	InIdiom=Yes
 5	peu	peu	NOUN	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -7076,7 +7076,7 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	époque	époque	NOUN	_	Gender=Fem|Number=Sing	6	comp:pred	_	_
 9	où	où	PRON	_	_	11	mod	_	_
-10	vous	il	PRON	_	Person=3|PronType=Prs	11	subj	_	_
+10	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	11	subj	_	_
 11	tourniez	tourner	VERB	_	Number=Plur|Person=2	8	mod@relcl	_	_
 12	Landru	Landru	PROPN	_	_	11	comp:obj	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
@@ -7174,7 +7174,7 @@
 4	marrant	marrant	ADJ	_	_	3	comp:pred	_	_
 5	parce	parce	SCONJ	_	_	3	mod	_	_
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
-7	vous	il	PRON	_	Person=3|PronType=Prs	8	subj	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 9	commencé	commencer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	_
 10	acteur	acteur	NOUN	_	Gender=Masc|Number=Sing	9	comp:pred	_	_
@@ -7297,7 +7297,7 @@
 17	rentrant	rentrer	VERB	_	Tense=Pres|VerbForm=Part	16	comp:obj	_	_
 18	plus	plus	ADV	_	_	19	mod	_	_
 19	tôt	tôt	ADV	_	_	17	mod	_	_
-20	vous	il	PRON	_	Person=3|PronType=Prs	21	subj	_	_
+20	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	21	subj	_	_
 21	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 22	déjà	déjà	ADV	_	_	21	mod	_	_
 23	surpris	surprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	21	comp:aux	_	_
@@ -7383,7 +7383,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 4	que	que	SCONJ	_	_	2	comp:pred	_	_
-5	vous	vous	PRON	_	Person=3|PronType=Prs	6	subj@caus	_	_
+5	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj@caus	_	_
 6	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	déjà	déjà	ADV	_	_	6	mod	_	_
 8	fait	faire	AUX	DoubleAux	_	6	comp:aux	_	_
@@ -7473,7 +7473,7 @@
 # macrosyntax = $L3 vous avez des fidélités // -$
 # sent_id = Rhap_D2007-55
 # text = vous avez des fidélités
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	fidélités	fidélité	NOUN	_	_	2	comp:obl	_	_
@@ -7535,7 +7535,7 @@
 # macrosyntax = $L3 vous avez des fidélités successives > en fait //
 # sent_id = Rhap_D2007-62
 # text = vous avez des fidélités successives en fait
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	fidélités	fidélité	NOUN	_	_	2	comp:obl	_	_
@@ -7852,7 +7852,7 @@
 # sent_id = Rhap_D2007-89
 # text = bientôt vous allez changer
 1	bientôt	bientôt	ADV	_	_	3	mod	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 4	changer	changer	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 
@@ -7874,8 +7874,8 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 4	que	que	SCONJ	_	_	2	comp:pred	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	7	subj	_	_
-6	vous	vous	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
+6	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	9	comp	_	InIdiom=Yes
 7	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	déjà	déjà	ADV	_	_	7	mod	_	_
 9	écriée	écrier	VERB	_	_	7	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
@@ -8048,7 +8048,7 @@
 5	dans	dans	ADP	_	_	9	mod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	intimité	intimité	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 10	déjà	déjà	ADV	_	_	9	mod	_	_
 11	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
@@ -8087,7 +8087,7 @@
 # macrosyntax = $L2 vous voyez ce que je veux dire // donc & //
 # sent_id = Rhap_D2007-107
 # text = vous voyez ce que je veux dire
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	ce	PRON	_	_	2	comp:obj	_	_
 4	que	que	PRON	_	_	7	comp:obj	_	_
@@ -8153,7 +8153,7 @@
 5	à	à	ADP	_	_	11	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	téléphone	téléphone	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 10	déjà	déjà	ADV	_	_	9	mod	_	_
 11	chauffé	chauffer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
@@ -8162,8 +8162,8 @@
 14	en	en	ADP	_	_	9	mod	_	_
 15	pensant	penser	VERB	_	Tense=Pres|VerbForm=Part	14	comp:obj	_	_
 16	que	que	SCONJ	_	_	15	comp:obj	_	_
-17	vous	il	PRON	_	Person=3|PronType=Prs	19	subj	_	_
-18	vous	le	PRON	_	Person=3|PronType=Prs	19	comp:obj	_	_
+17	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	19	subj	_	_
+18	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	19	comp:obj	_	_
 19	adressiez	adresser	VERB	_	Number=Plur|Person=2	16	comp:obj	_	_
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	_
@@ -8901,7 +8901,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	très	très	ADV	_	_	3	mod	_	_
 3	tôt	tôt	ADV	_	_	5	mod	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	_
@@ -9247,8 +9247,8 @@
 2	à	à	ADP	_	_	7	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	7	subj	_	_
-6	vous	le	PRON	_	Person=3|PronType=Prs	7	comp:obj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
+6	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 7	distinguez	distinguer	VERB	_	Number=Plur|Person=2	0	root	_	_
 8	par	par	ADP	_	_	7	mod	_	_
 9	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	12	det	_	_
@@ -9332,7 +9332,7 @@
 1	mais	mais	CCONJ	_	_	5	cc	_	_
 2	alors	alors	ADV	_	_	5	mod	_	_
 3	donc	donc	ADV	_	_	5	mod	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	11	mod	_	_
@@ -9657,7 +9657,7 @@
 # macrosyntax = $L1 vous êtes venue à Paris à quel âge //
 # sent_id = Rhap_D0003-1
 # text = vous êtes venue à Paris à quel âge
-1	vous	vous	PRON	_	Person=3|PronType=Prs	2	subj@pass	_	_
+1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj@pass	_	_
 2	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux@pass	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
@@ -10732,7 +10732,7 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	problème	problème	NOUN	_	Gender=Masc|Number=Sing	21	dislocated	_	_
 4	si	si	SCONJ	_	_	3	discourse	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	voulez	vouloir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	qui	qui	PRON	_	_	9	subj	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
@@ -10760,7 +10760,7 @@
 30	dans	dans	ADP	_	_	57	mod	_	_
 31	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	30	comp:obj	_	_
 32	quand	quand	SCONJ	_	_	57	mod	_	_
-33	vous	il	PRON	_	Person=3|PronType=Prs	34	subj	_	_
+33	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	34	subj	_	_
 34	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	32	comp:obj	_	_
 35	effectivement	effectivement	ADV	_	_	34	mod	_	_
 36	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	38	det	_	_
@@ -11344,7 +11344,7 @@
 # text = comment voulez vous apprendre à lire à un enfant qui parle pas français
 1	comment	comment	PRON	_	_	2	mod	_	_
 2	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 4	apprendre	apprendre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 5	à	à	ADP	_	_	4	comp:obl@x	_	_
 6	lire	lire	VERB	_	VerbForm=Inf	5	comp:obj	_	_
@@ -11590,7 +11590,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	raison	raison	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 
@@ -11608,7 +11608,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	raison	raison	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 
@@ -11618,7 +11618,7 @@
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2	mh	mh	INTJ	_	_	8	discourse	_	_
 3	si	si	SCONJ	_	_	2	discourse	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	voulez	vouloir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
@@ -11680,7 +11680,7 @@
 21	euh	euh	INTJ	_	_	20	discourse	_	_
 22	mh	mh	INTJ	_	_	20	discourse	_	_
 23	peuh	peuh	INTJ	_	_	20	discourse	_	_
-24	vous	il	PRON	_	Person=3|PronType=Prs	25	subj	_	_
+24	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	25	subj	_	_
 25	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	discourse	_	_
 26	en	en	ADP	_	_	13	mod	_	_
 27	bus	bus	NOUN	_	Gender=Masc	26	comp:obj	_	_
@@ -12068,14 +12068,14 @@
 1	donc	donc	ADV	_	_	5	mod	_	_
 2	là	là	ADV	_	_	5	mod	_	_
 3	ben	ben	INTJ	_	_	2	discourse	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	partez	partir	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 6	là	là	ADV	_	_	5	mod	_	_
 
 # macrosyntax = vous remontez le grand boulevard là "euh" //
 # sent_id = Rhap_M0003-4
 # text = vous remontez le grand boulevard là euh
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	remontez	remonter	VERB	_	Number=Plur|Person=2	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 4	grand	grand	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
@@ -12087,7 +12087,7 @@
 # sent_id = Rhap_M0003-5
 # text = donc vous allez jusqu' à le bout jusqu' à un grand carrefour là où vous allez voir le le cinéma La Nef Chavant
 1	donc	donc	ADV	_	_	3	mod	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 4	jusqu'	jusque	ADP	_	_	3	comp:obl	_	_
 5	à	à	ADP	_	_	4	comp:obj	_	_
@@ -12100,7 +12100,7 @@
 12	carrefour	carrefour	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 13	là	là	ADV	_	_	12	mod	_	_
 14	où	où	PRON	_	_	16	mod	_	_
-15	vous	il	PRON	_	Person=3|PronType=Prs	16	subj	_	_
+15	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
 16	allez	aller	VERB	ETRE	Number=Plur|Person=2	12	mod@relcl	_	_
 17	voir	voir	VERB	_	VerbForm=Inf	16	comp:obj@x	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
@@ -12115,7 +12115,7 @@
 # text = et quand vous serez donc à La Nef Chavant alors là euh il vous vous passez à droite de le cinéma
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	quand	quand	SCONJ	_	_	16	mod	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	serez	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	2	comp:obj	_	_
 5	donc	donc	ADV	_	_	8	discourse	_	_
 6	à	à	ADP	_	_	4	comp:obl	_	_
@@ -12126,8 +12126,8 @@
 11	là	là	ADV	_	_	8	conj:dicto	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	conj:dicto	_	_
-14	vous	il	PRON	_	Person=3|PronType=Prs	16	subj	_	_
-15	vous	vous	PRON	conj:reform	Person=3|PronType=Prs	14	conj:dicto	_	_
+14	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	16	subj	_	_
+15	vous	vous	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	14	conj:dicto	_	_
 16	passez	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 17	à	à	ADP	_	_	16	comp:obl	_	_
 18	droite	droite	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
@@ -12170,7 +12170,7 @@
 # macrosyntax = vous suivez la ligne du tram //
 # sent_id = Rhap_M0003-9
 # text = vous suivez la ligne de le tram
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -12182,7 +12182,7 @@
 # sent_id = Rhap_M0003-10
 # text = et vous remontez euh jusqu' à la une grande place
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	remontez	remonter	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	jusqu'	jusque	ADP	_	_	3	mod	_	_
@@ -12234,7 +12234,7 @@
 # text = donc quand vous arrivez sur la place de Verdun la Préfecture est sur votre droite
 1	donc	donc	ADV	_	_	13	mod	_	_
 2	quand	quand	SCONJ	_	_	12	mod	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	arrivez	arriver	VERB	ETRE	Number=Plur|Person=2	2	comp:obj	_	_
 5	sur	sur	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -12251,8 +12251,8 @@
 # macrosyntax = vous < vous continuez tout droit //
 # sent_id = Rhap_M0003-15
 # text = vous vous continuez tout droit
-1	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
-2	vous	vous	PRON	_	Person=3|PronType=Prs	1	conj:dicto	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
+2	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	droit	droit	NOUN	_	Gender=Masc|Number=Sing	3	mod	_	_
@@ -12266,7 +12266,7 @@
 4	ben	ben	INTJ	_	_	1	discourse	_	_
 5	là	là	ADV	_	_	8	mod	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
-7	vous	il	PRON	_	Person=3|PronType=Prs	8	subj	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	passez	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 9	euh	euh	INTJ	_	_	8	discourse	_	_
 
@@ -12289,9 +12289,9 @@
 # macrosyntax = { vous t~ | vous suivez } la ligne du tram qui passe vers { la & |
 # sent_id = Rhap_M0003-18
 # text = vous t~ vous suivez la ligne de le tram qui passe vers la
-1	vous	vous	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+1	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 2	t~	t~	X	_	_	1	unk@scrap	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	1	conj:dicto	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
 4	suivez	suivre	VERB	conj:reform	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
@@ -12321,7 +12321,7 @@
 # sent_id = Rhap_M0003-20
 # text = et vous suivez toujours la ligne de le tram
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	vous	il	PRON	_	Person=3|PronType=Prs	3	subj	_	_
+2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	toujours	toujours	ADV	_	_	3	mod	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -12335,7 +12335,7 @@
 # text = et là vous tombez donc euh à la Maison de le tourisme
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
-3	vous	il	PRON	_	Person=3|PronType=Prs	4	subj	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	tombez	tomber	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 5	donc	donc	ADV	_	_	4	discourse	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	_
@@ -12367,7 +12367,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	tourisme	tourisme	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	donc	donc	ADV	_	_	6	discourse	_	_
-8	vous	il	PRON	_	Person=3|PronType=Prs	9	subj	_	_
+8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 10	continuer	continuer	VERB	_	VerbForm=Inf	9	comp:obj@x	_	_
 11	s~	s~	X	_	_	10	mod	_	_
@@ -12388,7 +12388,7 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	et	et	CCONJ	_	_	5	cc	_	_
 3	là	là	ADV	_	_	5	mod	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	passez	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 6	devant	devant	ADP	_	_	5	comp:obl	_	_
 7	euh	euh	INTJ	_	_	9	discourse	_	_
@@ -12421,9 +12421,9 @@
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	donc	donc	ADV	_	_	5	discourse	_	_
 3	euh	euh	INTJ	_	_	5	discourse	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	vous	il	PRON	_	Person=3|PronType=Prs	7	subj	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
 7	con~	con~	VERB	conj:reform	Number=Plur|Person=2	5	conj:dicto	_	_
 
 # macrosyntax = "ben" { toujours | toujours } <+ vous suivez la ligne du tram > en fait //
@@ -12432,7 +12432,7 @@
 1	ben	ben	INTJ	_	_	5	discourse	_	_
 2	toujours	toujours	ADV	_	_	5	mod	_	_
 3	toujours	toujours	ADV	conj:reform	_	2	conj:dicto	_	_
-4	vous	il	PRON	_	Person=3|PronType=Prs	5	subj	_	_
+4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 5	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
@@ -12449,7 +12449,7 @@
 2	et	et	CCONJ	_	_	6	cc	_	_
 3	puis	puis	ADV	_	_	2	unk	_	InIdiom=Yes
 4	ben	ben	INTJ	_	_	6	discourse	_	_
-5	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
+5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	tombez	tomber	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
 7	place	place	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	eh	eh	INTJ	_	_	7	discourse	_	_
@@ -12477,10 +12477,10 @@
 # macrosyntax = { vous pou~ | { vous | vous } êtes obligé } de passer devant > en fait //
 # sent_id = Rhap_M0003-31
 # text = vous pou~ vous vous êtes obligé de passer devant en fait
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	pou~	pou~	VERB	_	Number=Plur|Person=2	0	root	_	_
-3	vous	vous	PRON	_	Person=3|PronType=Prs	5	subj@pass	_	_
-4	vous	vous	PRON	conj:reform	Person=3|PronType=Prs	3	conj:dicto	_	_
+3	vous	vous	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj@pass	_	_
+4	vous	vous	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	3	conj:dicto	_	_
 5	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
 6	obligé	obliger	VERB	conj:reform	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux@pass	_	_
 7	de	de	ADP	_	_	6	comp:obl@x	_	_
@@ -12498,7 +12498,7 @@
 4	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	long	long	NOUN	_	Gender=Masc|Number=Sing	8	dislocated	_	_
-7	vous	il	PRON	_	Person=3|PronType=Prs	8	subj	_	_
+7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	suivez	suivre	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	ligne	ligne	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
@@ -12522,10 +12522,10 @@
 # macrosyntax = vous pouvez pas vous tromper //
 # sent_id = Rhap_M0003-34
 # text = vous pouvez pas vous tromper
-1	vous	il	PRON	_	Person=3|PronType=Prs	2	subj	_	_
+1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	vous	le	PRON	_	Person=3|PronType=Prs	5	comp:obj	_	_
+4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	_
 5	tromper	tromper	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 
 # macrosyntax = ^alors "euh" bonjour à tous //
