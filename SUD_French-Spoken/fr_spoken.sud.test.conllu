@@ -99,7 +99,7 @@
 12	qu'	que	SCONJ	_	_	9	mod	_	_
 13	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes
-15	dit	dire	VERB	_	_	12	comp:obj	_	_
+15	dit	dire	VERB	_	_	12	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 16	mais	mais	CCONJ	_	_	21	cc	_	_
 17	pourquoi	pourquoi	PRON	_	_	21	mod	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
@@ -167,7 +167,7 @@
 # text = il s' agit tout simplement de ceci une boule de lavage que vous allez placer à le coeur de votre linge sans rien d' autre avant de mettre votre machine en route
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
-3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 4	tout	tout	ADV	_	_	5	mod	_	_
 5	simplement	simplement	ADV	_	_	3	mod	_	_
 6	de	de	ADP	_	_	3	comp:obl	_	_
@@ -574,7 +574,7 @@
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	retrouve	retrouver	VERB	_	_	0	root	_	_
+4	retrouve	retrouver	VERB	_	_	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	juste	juste	ADV	_	_	6	mod	_	_
 6	après	après	ADV	_	_	4	mod	_	_
 
@@ -1248,7 +1248,7 @@
 19	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	9	conj:dicto	_	_
 20	qui	qui	PRON	_	_	22	subj	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
-22	salit	salir	VERB	_	_	19	mod@relcl	_	_
+22	salit	salir	VERB	_	_	19	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 23	et	et	CCONJ	_	_	25	cc	_	_
 24	qui	qui	PRON	_	_	25	subj	_	_
 25	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	22	conj:coord	_	_
@@ -1949,7 +1949,7 @@
 10	fuite	fuite	NOUN	conj:reform	Gender=Fem|Number=Sing	9	comp:obj	_	_
 11	qui	qui	PRON	_	_	13	subj	_	_
 12	se	se	PRON	_	Person=3|PronType=Prs	13	comp	_	InIdiom=Yes
-13	produit	produire	VERB	_	_	5	mod@relcl	_	_
+13	produit	produire	VERB	_	_	5	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = c'est toujours { un | un } temps très difficile { que | que } le temps de la parution d'un livre //
 # sent_id = Rhap_D2010-35
@@ -2133,7 +2133,7 @@
 23	oeuvre	oeuvre	NOUN	_	_	22	unk	_	InIdiom=Yes
 24	qui	qui	PRON	_	_	26	subj	_	_
 25	s'	se	PRON	_	Person=3|PronType=Prs	26	comp	_	InIdiom=Yes
-26	appelle	appeler	VERB	_	_	13	mod@relcl	_	_
+26	appelle	appeler	VERB	_	_	13	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 27	Un	Un	DET	_	_	28	det	_	_
 28	Barrage	Barrage	NOUN	_	_	26	comp:obj	_	ExtPOS=PROPN|Title=Yes
 29	contre	contre	ADP	_	_	28	mod	_	_
@@ -2559,7 +2559,7 @@
 12	mode	mode	NOUN	_	_	10	comp:pred	_	_
 13	qui	qui	PRON	_	_	15	subj	_	_
 14	se	se	PRON	_	Person=3|PronType=Prs	15	comp	_	InIdiom=Yes
-15	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
+15	porte	porter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 16	couramment	couramment	ADV	_	_	15	mod	_	_
 17	chez	chez	ADP	_	_	15	mod	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
@@ -2627,7 +2627,7 @@
 3	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	4	det	_	_
 4	regards	regard	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes
-6	croisent	croiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	croisent	croiser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = ^et { on peut dire |
 # sent_id = Rhap_D2010-84
@@ -2662,7 +2662,7 @@
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	livre	livre	NOUN	_	_	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
+4	appelait	appeler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	avant	avant	ADP	_	_	4	comp:obj	_	_
 6	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	photographie	photographie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obl	_	ExtPOS=PROPN|Type=Title
@@ -2841,7 +2841,7 @@
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 6	s'	se	PRON	_	Person=3|PronType=Prs	8	comp	_	InIdiom=Yes
 7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp:obj	_	_
-8	assis	asseoir	VERB	_	_	7	comp:aux	_	_
+8	assis	asseoir	VERB	_	_	7	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 9	l'	l'	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	10	det	_	_
 10	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	mod	_	_
 11	devant	devant	ADP	_	_	7	mod	_	_
@@ -3857,7 +3857,7 @@
 21	et	et	CCONJ	_	_	24	cc	_	_
 22	où	où	PRON	_	_	24	mod	_	_
 23	se	se	PRON	_	Person=3|PronType=Prs	24	comp	_	InIdiom=Yes
-24	coalise	coaliser	VERB	_	_	17	conj:coord	_	_
+24	coalise	coaliser	VERB	_	_	17	conj:coord	_	ExtPos=VERB|PhraseType=Idiom
 25	en	en	ADP	_	_	24	mod	_	_
 26	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	27	det	_	_
 27	sorte	sorte	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
@@ -3917,7 +3917,7 @@
 27	Noskowski	Noskowski	PROPN	_	_	26	comp:obj	_	_
 28	qui	qui	PRON	_	_	30	subj	_	_
 29	se	se	PRON	_	Person=3|PronType=Prs	30	comp	_	InIdiom=Yes
-30	retrouvent	retrouver	VERB	_	_	23	mod@relcl	_	_
+30	retrouvent	retrouver	VERB	_	_	23	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = il y a Szymanoski //=
 # sent_id = Rhap_D2012-38
@@ -3987,7 +3987,7 @@
 8	très	très	ADV	_	_	9	mod	_	_
 9	vite	vite	ADV	_	_	7	mod	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
-11	désunir	désunir	VERB	_	_	7	comp:obj@x	_	_
+11	désunir	désunir	VERB	_	_	7	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 12	parce	parce	SCONJ	_	_	11	mod	_	_
 13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
@@ -4246,7 +4246,7 @@
 6	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	parataxis:obj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
-9	empêcher	empêcher	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	_
+9	empêcher	empêcher	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 10	à	à	ADP	_	_	6	mod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	fin	fin	NOUN	_	_	10	comp:obj	_	_
@@ -4321,7 +4321,7 @@
 1	alors	alors	ADV	_	_	4	discourse	_	_
 2	où	où	PRON	_	_	4	comp:obl	_	_
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 6	vraiment	vraiment	ADV	_	_	4	mod	_	_
 7	de	de	ADP	_	_	4	mod	_	_
@@ -4953,7 +4953,7 @@
 2	si	si	SCONJ	_	_	20	mod	_	_
 3	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
-5	déroule	dérouler	VERB	_	Number=Sing|Person=3	2	comp:obj	_	_
+5	déroule	dérouler	VERB	_	Number=Sing|Person=3	2	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 6	de	de	ADP	_	_	5	mod	_	_
 7	façon	façon	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
@@ -5103,7 +5103,7 @@
 15	aujourd'hui	aujourd'	ADV	_	_	14	comp:obj	_	_
 16	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	18	comp	_	InIdiom=Yes
-18	rapporte	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	rapporte	rapporter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 19	à	à	ADP	_	_	18	comp:obl	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
 21	catalogue	catalogue	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -5806,7 +5806,7 @@
 4	vous	il	PRON	_	Person=3|PronType=Prs	6	subj	_	_
 5	vous	vous	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-7	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
+7	fixé	fixer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 8	aussi	aussi	ADV	_	_	6	mod	_	_
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	cadre	cadre	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
@@ -6011,7 +6011,7 @@
 6	dit	dire	VERB	_	_	5	comp:aux	_	_
 7	faut	falloir	VERB	CCOMP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis:obj	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
-9	méfier	méfier	VERB	_	_	7	comp:obj@x	_	_
+9	méfier	méfier	VERB	_	_	7	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	retour	retour	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -6060,7 +6060,7 @@
 16	mille	mille	NUM	_	Number=Plur	15	flat	_	_
 17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	subj	_	_
 18	s'	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
-19	applique	appliquer	VERB	_	Number=Sing|Person=3	11	comp:obj	_	_
+19	applique	appliquer	VERB	_	Number=Sing|Person=3	11	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 20	à	à	ADP	_	_	19	comp:obl	_	_
 21	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	comp:obj	_	_
 
@@ -6224,7 +6224,7 @@
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	attendre	attendre	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
+10	attendre	attendre	VERB	_	VerbForm=Inf	8	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 11	encore	encore	ADV	_	_	8	mod	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	fois	fois	NOUN	_	_	11	mod	_	_
@@ -6259,7 +6259,7 @@
 42	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 43	pas	pas	ADV	_	Polarity=Neg	42	mod	_	_
 44	se	se	PRON	_	Person=3|PronType=Prs	45	comp	_	InIdiom=Yes
-45	plaire	plaire	VERB	_	VerbForm=Inf	42	comp:obj@x	_	_
+45	plaire	plaire	VERB	_	VerbForm=Inf	42	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 46	beaucoup	beaucoup	ADV	_	_	45	mod	_	_
 47	avec	avec	ADP	_	_	45	mod	_	_
 48	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	_
@@ -6379,7 +6379,7 @@
 13	qui	qui	PRON	_	_	14	subj	_	_
 14	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 15	se	se	PRON	_	Person=3|PronType=Prs	16	comp	_	InIdiom=Yes
-16	voir	voir	VERB	DoubleAux	VerbForm=Inf	14	comp:obj@x	_	_
+16	voir	voir	VERB	DoubleAux	VerbForm=Inf	14	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 17	euh	euh	INTJ	_	_	20	discourse	_	_
 18	non	non	ADV	_	Polarity=Neg	20	mod	_	_
 19	pas	pas	ADV	_	Polarity=Neg	18	unk	_	InIdiom=Yes
@@ -6432,7 +6432,7 @@
 1	si	si	SCONJ	_	_	14	mod	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	passe	passer	VERB	ETRE	_	1	comp:obj	_	_
+4	passe	passer	VERB	ETRE	_	1	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 5	comme	comme	ADP	_	_	4	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
 7	c'est-à-dire	c'	CCONJ	_	_	8	cc	_	_
@@ -6625,7 +6625,7 @@
 16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
 17	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:cleft	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
-19	passer	passer	VERB	ETRE	VerbForm=Inf	17	comp:obj@x	_	_
+19	passer	passer	VERB	ETRE	VerbForm=Inf	17	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 20	à	à	ADP	_	_	19	mod	_	_
 21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	automne	automne	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
@@ -6718,7 +6718,7 @@
 2	s'	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	ren~	ren~	VERB	_	_	3	comp:aux	_	_
-5	répandue	répandre	VERB	_	_	4	conj:dicto	_	_
+5	répandue	répandre	VERB	_	_	4	conj:dicto	_	ExtPos=VERB|PhraseType=Idiom
 6	assez	assez	ADV	_	_	7	mod	_	_
 7	rapidement	rapidement	ADV	_	_	5	mod	_	_
 8	quand	quand	SCONJ	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -7077,7 +7077,7 @@
 16	de	de	ADP	_	_	15	comp:obl@x	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
 18	laisser	laisser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
-19	toucher	toucher	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
+19	toucher	toucher	VERB	_	VerbForm=Inf	18	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 20	ou	ou	CCONJ	_	_	21	cc	_	_
 21	de	de	ADP	_	_	16	conj:coord	_	_
 22	bénir	bénir	VERB	_	_	21	comp:obj	_	_
@@ -7338,7 +7338,7 @@
 21	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	22	det	_	_
 22	message	message	NOUN	conj:reform	Gender=Masc|Number=Sing	2	conj:dicto	_	_
 23	s'	se	PRON	_	Person=3|PronType=Prs	24	comp	_	InIdiom=Yes
-24	inscrit	inscrire	VERB	_	_	0	root	_	_
+24	inscrit	inscrire	VERB	_	_	0	root	_	ExtPos=VERB|PhraseType=Idiom
 25	aujourd'hui	aujourd'	ADV	_	_	24	mod	_	_
 26	dans	dans	ADP	_	_	24	mod	_	_
 27	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	28	det	_	_
@@ -7371,7 +7371,7 @@
 7	aujourd'hui	aujourd'	ADV	_	_	6	comp:obj	_	_
 8	Jésus	Jésus	PROPN	_	_	10	subj	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	accorde	accorder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	accorde	accorder	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	pouvoir	pouvoir	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	de	de	ADP	_	_	12	mod	_	_
@@ -7720,7 +7720,7 @@
 6	avouer	avouer	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
 7	beaucoup	beaucoup	PRON	_	_	2	conj:dicto	_	_
 8	s'	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
-9	éloignent	éloigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	éloignent	éloigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 10	de	de	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	foi	foi	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -8595,7 +8595,7 @@
 8	me	me	PRON	_	_	11	comp	_	InIdiom=Yes
 9	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	conduit	conduire	VERB	_	_	9	comp:aux	_	_
+11	conduit	conduire	VERB	_	_	9	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 12	d'	de	ADP	_	_	11	comp:obl	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	façon	façon	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
@@ -8701,7 +8701,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 2	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
 3	en	en	PRON	_	Person=3|PronType=Prs	4	comp:obj	_	_
-4	aperçoit	apercevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	aperçoit	apercevoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	tout	tout	ADV	_	_	6	mod	_	_
 6	de	de	ADP	_	_	4	mod	_	_
 7	suite	suite	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
@@ -9121,7 +9121,7 @@
 2	s'	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-5	passé	passer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
+5	passé	passer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 6	tout	tout	ADV	_	_	10	mod	_	_
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	unk	_	InIdiom=Yes
@@ -9246,7 +9246,7 @@
 10	si	si	SCONJ	_	_	8	conj:coord	_	_
 11	s'	se	PRON	_	Person=3|PronType=Prs	13	comp	_	InIdiom=Yes
 12	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
-13	produites	produire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	_
+13	produites	produire	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	12	comp:aux@pass	_	ExtPos=VERB|PhraseType=Idiom
 14	sensiblement	sensiblement	ADV	_	_	15	mod	_	_
 15	plus	plus	ADV	_	_	16	mod	_	_
 16	tard	tard	ADV	_	_	13	mod	_	_
@@ -9294,7 +9294,7 @@
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	me	me	PRON	_	_	6	comp	_	InIdiom=Yes
 5	serais	être	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
-6	mariée	marier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
+6	mariée	marier	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	et	et	CCONJ	conj:reform	_	7	conj:dicto	_	_
 9	que	que	SCONJ	_	_	2	conj:coord	_	_
@@ -9372,7 +9372,7 @@
 11	euh	euh	INTJ	_	_	14	discourse	_	_
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
 13	se	se	PRON	_	Person=3|PronType=Prs	14	comp	_	InIdiom=Yes
-14	passait	passer	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	_
+14	passait	passer	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 15	tout	tout	ADV	_	_	16	mod	_	_
 16	de	de	ADP	_	_	18	mod	_	_
 17	suite	suite	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
@@ -9445,7 +9445,7 @@
 # text = il se trouve qu' il y a eu la guerre
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
-3	trouve	trouver	VERB	_	Number=Sing|Person=3	0	root	_	_
+3	trouve	trouver	VERB	_	Number=Sing|Person=3	0	root	_	ExtPos=VERB|PhraseType=Idiom
 4	qu'	que	SCONJ	_	_	3	comp:obj	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
 6	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
@@ -9459,7 +9459,7 @@
 # text = il se trouve que tout a été bouleversé qu' il n' y avait plus un journaliste à Paris puisque ils avaient tous plus ou moins collaboré et que à le moment de faire un journal on m' a proposé d' y entrer comme directrice ce qui est incroyable comme directrice de la rédaction
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 2	se	se	PRON	_	Person=3|PronType=Prs	3	comp	_	InIdiom=Yes
-3	trouve	trouver	VERB	_	Number=Sing|Person=3	0	root	_	_
+3	trouve	trouver	VERB	_	Number=Sing|Person=3	0	root	_	ExtPos=VERB|PhraseType=Idiom
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj@pass	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
@@ -9743,7 +9743,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	de	de	ADP	_	_	6	comp:pred	_	_
 8	se	se	PRON	_	Person=3|PronType=Prs	9	comp	_	InIdiom=Yes
-9	dire	dire	VERB	_	VerbForm=Inf	7	comp:obj	_	_
+9	dire	dire	VERB	_	VerbForm=Inf	7	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
 11	n'	ne	ADV	_	Polarity=Neg	13	mod	_	_
 12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	_
@@ -9855,7 +9855,7 @@
 55	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	57	subj	_	_
 56	me	me	PRON	_	_	58	comp	_	InIdiom=Yes
 57	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
-58	dit	dire	VERB	_	_	57	comp:aux	_	_
+58	dit	dire	VERB	_	_	57	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 59	ce	ce	PRON	_	_	64	dislocated	_	_
 60	qu'	que	PRON	_	_	62	comp:obj	_	_
 61	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	62	subj	_	_
@@ -9928,7 +9928,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	me	me	PRON	_	_	4	comp	_	InIdiom=Yes
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	dit	dire	VERB	_	_	3	comp:aux	_	_
+4	dit	dire	VERB	_	_	3	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	_
 7	apprendre	apprendre	VERB	CCOMP	VerbForm=Inf	6	comp:obj@x	_	_
@@ -10158,7 +10158,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
-5	doutait	douter	VERB	_	Number=Sing|Person=3	0	root	_	_
+5	doutait	douter	VERB	_	Number=Sing|Person=3	0	root	_	ExtPos=VERB|PhraseType=Idiom
 6	quand	quand	SCONJ	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
 7	même	même	ADV	_	_	6	unk	_	InIdiom=Yes
 8	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
@@ -10836,7 +10836,7 @@
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 3	se	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	tient	tenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 5	toujours	toujours	ADV	_	_	4	mod	_	_
 
 # macrosyntax = "euh" vous voyez ce que je veux dire //
@@ -11344,7 +11344,7 @@
 16	résolue	résoudre	ADJ	_	_	15	mod	_	_
 17	à	à	ADP	_	_	16	mod	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
-19	remettre	remettre	VERB	_	VerbForm=Inf	17	comp:obj	_	_
+19	remettre	remettre	VERB	_	VerbForm=Inf	17	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 20	en	en	ADP	_	_	19	mod	_	_
 21	mouvement	mouvement	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 22	après	après	ADP	_	_	19	mod	_	_
@@ -11517,10 +11517,10 @@
 16	terrain	terrain	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	que	que	SCONJ	_	_	13	comp:cleft	_	_
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
-19	gagne	gagner	VERB	_	_	17	comp:obj	_	_
+19	gagne	gagner	VERB	_	_	17	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 20	ou	ou	CCONJ	_	_	22	cc	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
-22	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj:coord	_	_
+22	perd	perdre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	conj:coord	_	ExtPos=VERB|PhraseType=Idiom
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	combat	combat	NOUN	_	Gender=Masc|Number=Sing	22	subj	_	_
 
@@ -11842,7 +11842,7 @@
 8	famille	famille	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 9	qui	qui	PRON	_	_	11	subj	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
-11	transmettent	transmettre	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
+11	transmettent	transmettre	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 12	dans	dans	ADP	_	_	11	mod	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	domaine	domaine	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -12507,7 +12507,7 @@
 1	lorsqu'	lorsque	SCONJ	_	_	13	mod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	s'	se	PRON	_	Person=3|PronType=Prs	4	comp	_	InIdiom=Yes
-4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 5	d'	de	ADP	_	_	4	comp:obl	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 7	grande	grand	ADJ	_	Gender=Fem|Number=Sing	8	mod	_	_
