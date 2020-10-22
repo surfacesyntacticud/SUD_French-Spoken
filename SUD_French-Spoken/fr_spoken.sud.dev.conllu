@@ -4886,7 +4886,7 @@
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	11	comp:pred	_	_
 
-# macrosyntax = les gens se mettaient vraiment dans le fond { { des | des | des | $- $L2 de } l'assise là "oui" | $L1 petits salons | ^ou des choses -$ $L1 comme ça } //
+# macrosyntax = les gens se mettaient vraiment dans le fond { { des | des | des } petits salons | ^ou des choses -$ comme ça  |} //+
 # sent_id = Rhap_D0009-56
 # text = les gens se mettaient vraiment dans le fond de les de les de les petits salons ou de les choses comme ça
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
@@ -4912,7 +4912,16 @@
 21	comme	comme	ADP	_	_	20	mod	_	_
 22	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	comp:obj	_	_
 
-# macrosyntax = ^et ils étaient vraiment { { très | très } $- assis //+ | $L2 très bas | -$ //+ $L1 très bas } //
+# macrosyntax = $L2 {| $-  de l'assise là  } "oui" //
+# sent_id = Rhap_D0009-56bis
+# text = de l' assise là oui
+1	de	de	ADP	_	_	0	root	_	_
+2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	assise	assise	NOUN	_	_	1	comp:obj	_	_
+4	là	là	ADV	_	_	3	mod	_	_
+5	oui	oui	INTJ	_	_	1	discourse	_	_
+
+# macrosyntax = ^et ils étaient vraiment { { très | très } $- assis -$ |} //+
 # sent_id = Rhap_D0009-57
 # text = et ils étaient vraiment très très assis
 1	et	et	CCONJ	_	_	3	cc	_	_
@@ -4922,6 +4931,18 @@
 5	très	très	ADV	_	_	7	mod	_	_
 6	très	très	ADV	_	_	5	conj:coord	_	_
 7	assis	asseoir	VERB	_	_	3	comp:aux	_	_
+
+# macrosyntax = $L2 {| très bas |} //+
+# sent_id = Rhap_D0009-57bis
+# text = très bas
+1	très	très	ADV	_	_	2	mod	_	_
+2	bas	bas	ADJ	_	Gender=Masc	0	root	_	_
+
+# macrosyntax = $L1 {| très bas } //
+# sent_id = Rhap_D0009-57tes
+# text = très bas
+1	très	très	ADV	_	_	2	mod	_	_
+2	bas	bas	ADJ	_	Gender=Masc	0	root	_	_
 
 # macrosyntax = donc < ce qui pourrait donner l'expression { de | d' } être assis $- comme un crapaud //
 # sent_id = Rhap_D0009-58
@@ -6913,13 +6934,28 @@
 11	show	show	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	quoi	quoi	INTJ	_	_	11	discourse	_	_
 
-# macrosyntax = $L1 un mois ( c'est pour ça que ça s'appelle radio Timsit  " quoi "  //=
+# macrosyntax = $L1 un mois //
 # sent_id = Rhap_D2007-8
 # text = un mois
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	mois	mois	NOUN	_	Gender=Masc	0	root	_	_
 
-# macrosyntax = c'est pour mouiller personne // ) //=
+# macrosyntax = c'est pour ça que ça s'appelle radio Timsit  " quoi " //
+# sent_id = Rhap_D2007-8bis
+# text = c' est pour ça que ça s' appelle radio Timsit quoi
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pour	pour	ADP	_	_	2	comp:pred	_	_
+4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
+5	que	que	SCONJ	_	_	2	comp:cleft	_	_
+6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
+7	s'	se	PRON	_	Person=3|PronType=Prs	8	comp	_	InIdiom=Yes
+8	appelle	appeler	VERB	_	_	5	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
+9	radio	radio	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+10	Timsit	Timsit	PROPN	_	_	9	mod@appos	_	_
+11	quoi	quoi	INTJ	_	_	10	discourse	_	_
+
+# macrosyntax = c'est pour mouiller personne //=
 # sent_id = Rhap_D2007-9
 # text = c' est pour mouiller personne
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
@@ -6942,7 +6978,7 @@
 9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	mois	mois	NOUN	_	Gender=Masc	6	mod	_	_
 
-# macrosyntax = j'ai dit [ un mois //
+# macrosyntax = j'ai dit [ un mois //  ] //
 # sent_id = Rhap_D2007-11
 # text = j' ai dit un mois
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -6951,7 +6987,7 @@
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	mois	mois	NOUN	_	Gender=Masc	3	comp:obj	_	_
 
-# macrosyntax = ^mais j'ai l'antenne vraiment // ] //
+# macrosyntax = ^mais j'ai l'antenne vraiment //
 # sent_id = Rhap_D2007-12
 # text = mais j' ai l' antenne vraiment
 1	mais	mais	CCONJ	_	_	3	cc	_	_
@@ -6961,7 +6997,7 @@
 5	antenne	antenne	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	vraiment	vraiment	ADV	_	_	3	mod	_	_
 
-# macrosyntax = ^et donc < on est parti  " euh "   " c'est vrai "  avec { Jean François Alain |
+# macrosyntax = ^et donc < on est parti  " euh "   " c'est vrai "  avec { Jean François Alain | Alexandre XXX } //
 # sent_id = Rhap_D2007-13
 # text = et donc on est parti euh c' est vrai avec Jean - François Alain
 1	et	et	CCONJ	_	_	4	cc	_	_
@@ -6976,17 +7012,17 @@
 10	avec	avec	ADP	_	_	4	mod	_	_
 11	Jean-François	Jean-François	PROPN	_	_	10	comp:obj	_	_
 12	Alain	Alain	PROPN	_	_	11	flat	_	_
+13	Alexandre	Alexandre	PROPN	_	_	11	conj:coord	_	_
+14	XXX	XXX	PROPN	_	_	4	flat	_	_
 
-# macrosyntax = $- ( $L3 c'est bien // ) $L1 Alexandre XXX } //
+# macrosyntax = $L3 $- c'est bien //
 # sent_id = Rhap_D2007-14
 # text = c' est bien Alexandre XXX
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADJ	_	_	4	mod	_	_
-4	Alexandre	Alexandre	PROPN	_	_	2	comp:pred	_	_
-5	XXX	XXX	PROPN	_	_	4	flat	_	_
 
-# macrosyntax = on est -$ $L1 des supers  " euh "  complices //
+# macrosyntax = $L1 on est -$ des supers  " euh "  complices //
 # sent_id = Rhap_D2007-15
 # text = on est des supers euh complices
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
@@ -6996,7 +7032,7 @@
 5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	complices	complice	NOUN	_	Gender=Masc|Number=Plur	2	comp:pred	_	_
 
-# macrosyntax = $- ( $L1 on écrivait des spectacles ensemble // )
+# macrosyntax = $L1 $- on écrivait des spectacles ensemble //
 # sent_id = Rhap_D2007-16
 # text = on écrivait de les spectacles ensemble
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
@@ -7006,7 +7042,7 @@
 5	spectacles	spectacle	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 6	ensemble	ensemble	ADV	_	_	2	mod	_	_
 
-# macrosyntax = $L3 ça manque { à la radio  >+ ça //+ |
+# macrosyntax = $L3 ça manque { à la radio |}  >+ ça //+
 # sent_id = Rhap_D2007-17
 # text = ça manque à la radio ça
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
@@ -7016,7 +7052,7 @@
 5	radio	radio	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	dislocated	_	_
 
-# macrosyntax = en -$ $L3 télé aussi d'ailleurs }  " ouais "  //
+# macrosyntax = $L3 {| en -$ télé aussi d'ailleurs }  " ouais "  //
 # sent_id = Rhap_D2007-18
 # text = en télé aussi d' ailleurs ouais
 1	en	en	ADP	_	_	3	mod	_	_
@@ -7969,7 +8005,7 @@
 6	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
 7	mari	mari	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 
-# macrosyntax = $L3 est-ce que tu as déjà dit à ta petite amie [ ^mais non // c'est pas ce que tu crois // c'est une copine // ] //
+# macrosyntax = $L3 est-ce que tu as déjà dit à ta petite amie [ ^mais non // c'est pas ce que tu crois // ] //
 # sent_id = Rhap_D2007-98
 # text = est -ce que tu as déjà dit à ta petite amie mais non c' est pas ce que tu crois
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7992,6 +8028,14 @@
 18	que	que	PRON	_	_	20	comp:obj	_	_
 19	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	20	subj	_	_
 20	crois	croire	VERB	_	Number=Sing|Person=2	17	mod@relcl	_	_
+
+# macrosyntax = c'est une copine //
+# sent_id = Rhap_D2007-98bis
+# text = c' est une copine
+1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	copine	copine	NOUN	_	_	2	comp:pred	_	_
 
 # macrosyntax = c'est déjà arrivé > ça //
 # sent_id = Rhap_D2007-99
@@ -13651,38 +13695,4 @@
 3	après	après	ADP	_	_	5	mod	_	_
 4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
 5	bifurques	bifurquer	VERB	_	Number=Sing|Person=2	0	root	_	_
-
-# text = c' est pour ça que ça s' appelle radio Timsit quoi
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	pour	pour	ADP	_	_	2	comp:pred	_	_
-4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
-5	que	que	SCONJ	_	_	2	comp:cleft	_	_
-6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
-7	s'	se	PRON	_	Person=3|PronType=Prs	8	comp	_	InIdiom=Yes
-8	appelle	appeler	VERB	_	_	5	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
-9	radio	radio	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-10	Timsit	Timsit	PROPN	_	_	9	mod@appos	_	_
-11	quoi	quoi	INTJ	_	_	10	discourse	_	_
-
-# text = c' est une copine
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	copine	copine	NOUN	_	_	2	comp:pred	_	_
-
-# text = très bas
-1	très	très	ADV	_	_	2	mod	_	_
-2	bas	bas	ADJ	_	Gender=Masc	0	root	_	_
-
-# text = très bas
-1	très	très	ADV	_	_	2	mod	_	_
-2	bas	bas	ADJ	_	Gender=Masc	0	root	_	_
-
-# text = de l' assise là oui
-1	de	de	ADP	_	_	0	root	_	_
-2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	assise	assise	NOUN	_	_	1	comp:obj	_	_
-4	là	là	ADV	_	_	3	mod	_	_
-5	oui	oui	INTJ	_	_	1	discourse	_	_
 

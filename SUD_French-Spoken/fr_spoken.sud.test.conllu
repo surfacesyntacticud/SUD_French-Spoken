@@ -776,7 +776,7 @@
 9	lavage	lavage	NOUN	_	_	8	comp:obj	_	_
 10	maître	maître	NOUN	_	Gender=Masc|Number=Sing	3	vocative	_	_
 
-# macrosyntax = alors < { qu'est ce qu' |} on peut dire en conclusion //+ $L3 "eh bien" {| que [ { sans savon | rien qu'avec la boule } <+ tous ces linges sont propres ] } //
+# macrosyntax = alors < { qu'est ce qu' |} on peut dire en conclusion //+
 # sent_id = Rhap_D2011-53
 # text = alors qu' est -ce qu' on peut dire en conclusion
 1	alors	alors	ADV	_	_	2	discourse	_	_
@@ -789,6 +789,25 @@
 8	dire	dire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
 9	en	en	ADP	_	_	7	mod	_	_
 10	conclusion	conclusion	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
+
+# macrosyntax = $L3 "eh bien" {| que [ { sans savon | rien qu'avec la boule } <+ tous ces linges sont propres ] //
+# sent_id = Rhap_D2011-53bis
+# text = eh bien que sans savon rien qu' avec la boule tous ces linges sont propres
+1	eh	eh	INTJ	_	_	3	discourse	_	_
+2	bien	bien	INTJ	_	_	3	discourse	_	_
+3	que	que	SCONJ	_	_	0	root	_	_
+4	sans	sans	ADP	_	_	14	mod	_	_
+5	savon	savon	NOUN	_	_	4	comp:obj	_	_
+6	rien	rien	PRON	_	_	8	mod	_	_
+7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
+8	avec	avec	ADP	_	_	4	conj:dicto	_	_
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+11	tous	tout	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
+12	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	13	det	_	_
+13	linges	linge	NOUN	_	_	14	subj	_	_
+14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+15	propres	propre	ADJ	_	Number=Plur	14	comp:pred	_	_
 
 # macrosyntax = $L1 merci beaucoup > maître //
 # sent_id = Rhap_D2011-54
@@ -9906,7 +9925,7 @@
 8	rien	rien	PRON	_	_	9	comp:obj	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
 
-# macrosyntax = je sais ce qu'on apprend aux jeunes filles bien élevées // donc < qu'est-ce que je peux apprendre // ] ] //
+# macrosyntax = je sais ce qu'on apprend aux jeunes filles bien élevées //
 # sent_id = Rhap_D2001-86
 # text = je sais ce qu' on apprend à les jeunes filles bien élevées
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
@@ -9922,7 +9941,19 @@
 11	bien	bien	ADV	_	_	12	mod	_	_
 12	élevées	élevé	ADJ	_	Gender=Fem|Number=Plur	10	mod	_	_
 
-# macrosyntax = je me suis dit [ je vais apprendre la sténodactylo //
+# macrosyntax = donc < qu'est-ce que je peux apprendre //
+# sent_id = Rhap_D2001-86bis
+# text = donc qu' est -ce qu' je peux apprendre
+1	donc	donc	ADV	_	_	3	mod	_	_
+2	qu'	qu'	PRON	_	_	3	comp:pred	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
+5	qu'	que	SCONJ	_	_	8	comp:obj	_	_
+6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
+7	peux	pouvoir	VERB	_	Number=Sing|Person=1	3	comp:cleft	_	_
+8	apprendre	apprendre	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
+
+# macrosyntax = je me suis dit [ je vais apprendre la sténodactylo // ] //
 # sent_id = Rhap_D2001-87
 # text = je me suis dit je vais apprendre la sténodactylo
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -9935,7 +9966,7 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	sténodactylo	sténodactylo	NOUN	_	_	7	comp:obj	_	_
 
-# macrosyntax = avec ça <+ quoi qu'il arrive < j'aurai un métier // ] //
+# macrosyntax = avec ça <+ quoi qu'il arrive < j'aurai un métier //
 # sent_id = Rhap_D2001-88
 # text = avec ça quoi qu' il arrive j' aurai un métier
 1	avec	avec	ADP	_	_	8	mod	_	_
@@ -10322,7 +10353,7 @@
 7	d'	de	ADP	_	_	6	comp:obl	_	_
 8	argent	argent	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 
-# macrosyntax = ^et il m'a dit [ "écoute" tout ça n'est pas sérieux // il faut que tu deviennes script girl > par exemple // viens travailler avec moi // ] //
+# macrosyntax = ^et il m'a dit [ "écoute" tout ça n'est pas sérieux // ] //
 # sent_id = Rhap_D2001-117
 # text = et il m' a dit écoute tout ça n' est pas sérieux
 1	et	et	CCONJ	_	_	4	cc	_	_
@@ -10337,6 +10368,27 @@
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	parataxis:obj	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	sérieux	sérieux	ADJ	_	Gender=Masc	10	comp:pred	_	_
+
+# macrosyntax = il faut que tu deviennes script girl > par exemple // 
+# sent_id = Rhap_D2001-117bis
+# text = il faut que tu deviennes script girl par exemple
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	que	que	SCONJ	_	_	2	comp:obj	_	_
+4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
+5	deviennes	devenir	VERB	_	Number=Sing|Person=2	3	comp:pred	_	_
+6	script	script	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
+7	girl	girl	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+8	par	par	ADP	_	_	2	mod	_	_
+9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+
+# macrosyntax = viens travailler avec moi // 
+# sent_id = Rhap_D2001-117ter
+# text = viens travailler avec moi
+1	viens	venir	VERB	_	_	0	root	_	_
+2	travailler	travailler	VERB	_	VerbForm=Inf	1	comp:obj@x	_	_
+3	avec	avec	ADP	_	_	2	mod	_	_
+4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	_
 
 # macrosyntax = c'était une autre époque où on pouvait faire ça //
 # sent_id = Rhap_D2001-118
@@ -12856,48 +12908,4 @@
 12	laquelle	lequel	PRON	_	Gender=Fem|Number=Sing|PronType=Rel	11	comp:obj	_	_
 13	nous	il	PRON	_	_	14	subj	_	_
 14	appartenons	appartenir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
-
-# text = il faut que tu deviennes script girl par exemple
-1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
-2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	que	que	SCONJ	_	_	2	comp:obj	_	_
-4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	5	subj	_	_
-5	deviennes	devenir	VERB	_	Number=Sing|Person=2	3	comp:pred	_	_
-6	script	script	NOUN	_	Gender=Masc|Number=Sing	7	compound	_	_
-7	girl	girl	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	par	par	ADP	_	_	2	mod	_	_
-9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-
-# text = viens travailler avec moi
-1	viens	venir	VERB	_	_	0	root	_	_
-2	travailler	travailler	VERB	_	VerbForm=Inf	1	comp:obj@x	_	_
-3	avec	avec	ADP	_	_	2	mod	_	_
-4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	comp:obj	_	_
-
-# text = donc qu' est -ce qu' je peux apprendre
-1	donc	donc	ADV	_	_	3	mod	_	_
-2	qu'	qu'	PRON	_	_	3	comp:pred	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
-5	qu'	que	SCONJ	_	_	8	comp:obj	_	_
-6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
-7	peux	pouvoir	VERB	_	Number=Sing|Person=1	3	comp:cleft	_	_
-8	apprendre	apprendre	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
-
-# text = eh bien que sans savon rien qu' avec la boule tous ces linges sont propres
-1	eh	eh	INTJ	_	_	3	discourse	_	_
-2	bien	bien	INTJ	_	_	3	discourse	_	_
-3	que	que	SCONJ	_	_	0	root	_	_
-4	sans	sans	ADP	_	_	14	mod	_	_
-5	savon	savon	NOUN	_	_	4	comp:obj	_	_
-6	rien	rien	PRON	_	_	8	mod	_	_
-7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
-8	avec	avec	ADP	_	_	4	conj:dicto	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	boule	boule	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-11	tous	tout	ADJ	_	Gender=Masc|Number=Plur	13	mod	_	_
-12	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	13	det	_	_
-13	linges	linge	NOUN	_	_	14	subj	_	_
-14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-15	propres	propre	ADJ	_	Number=Plur	14	comp:pred	_	_
 
