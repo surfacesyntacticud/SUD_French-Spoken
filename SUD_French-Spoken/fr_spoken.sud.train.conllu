@@ -4033,7 +4033,7 @@
 # macrosyntax = ^alors ^que c'est au moment où l'équipe de France "euh" dominait un peu > globalement //
 # sent_id = Rhap_D2003-66
 # text = alors que c' est à le moment où l' équipe de France euh dominait un peu globalement
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -4630,7 +4630,7 @@
 # macrosyntax = $L2 ^alors ^que nous sommes à -$ $L2 trois minutes de la mi-temps //
 # sent_id = Rhap_D2003-103
 # text = alors que nous sommes à trois minutes de la mi-temps
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	nous	il	PRON	_	_	4	subj	_	_
 4	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -4650,7 +4650,7 @@
 # macrosyntax = ^alors ^que le ballon maintenant est dans les pieds là-bas à droite de
 # sent_id = Rhap_D2003-105
 # text = alors que le ballon maintenant est dans les pieds là-bas à droite de
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
@@ -4746,7 +4746,7 @@
 # macrosyntax = ^alors ^que le ballon est revenu maintenant { dans le camp ESPERLUETTE | "ouh" à nouveau dans les pieds de Zanetti | là-bas | sur la droite | tout près de la ligne de touche } //
 # sent_id = Rhap_D2003-111
 # text = alors que le ballon est revenu maintenant dans le camp ouh à nouveau dans les pieds de Zanetti là-bas sur la droite tout près de la ligne de touche
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
@@ -5036,7 +5036,7 @@
 # macrosyntax = ^alors ^que Heinze < ( c'est quand même assez extraordinaire "hein" // ) c'est le patron de la défense //
 # sent_id = Rhap_D2003-132
 # text = alors que Heinze c' est quand même assez extraordinaire hein c' est le patron de la défense
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	Heinze	Heinze	PROPN	_	_	12	dislocated	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
@@ -7177,7 +7177,7 @@
 # macrosyntax = surtout que a fallu former les gens aussi à l' informatique "hein" //
 # sent_id = Rhap_D0005-33
 # text = surtout que a fallu former les gens aussi à l' informatique hein
-1	surtout	surtout	ADV	_	_	0	root	_	_
+1	surtout	surtout	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
 4	fallu	falloir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
@@ -7544,7 +7544,7 @@
 # macrosyntax = $L1 ^alors ^que ESPERLUETTE //
 # sent_id = Rhap_D0005-61
 # text = alors que
-1	alors	alors	ADV	_	_	0	root	_	_
+1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 
 # macrosyntax = { { oui | oui } | "non" ^mais oui } //
@@ -9582,7 +9582,7 @@
 # macrosyntax = plutôt que de ESPERLUETTE //
 # sent_id = Rhap_D0001-25
 # text = plutôt que de
-1	plutôt	plutôt	ADV	_	_	0	root	_	_
+1	plutôt	plutôt	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	de	de	ADP	_	_	1	comp:obl	_	_
 
@@ -9854,7 +9854,7 @@
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	Aligre	Aligre	PROPN	_	_	4	comp:pred	_	_
-6	plus	plus	ADV	_	_	8	cc	_	_
+6	plus	plus	ADV	_	_	8	cc	_	ExtPos=SCONJ|PhraseType=Idiom
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
 8	Nation	Nation	PROPN	_	_	5	conj:coord	_	_
 
@@ -12668,7 +12668,7 @@
 12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
 13	oublie	oublier	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 14	euh	euh	INTJ	_	_	13	discourse	_	_
-15	alors	alors	ADV	_	_	5	mod	_	_
+15	alors	alors	ADV	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 16	que	que	ADV	_	_	15	unk	_	InIdiom=Yes
 17	tout	tout	ADJ	_	Gender=Masc|Number=Sing	19	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
@@ -12714,7 +12714,7 @@
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	art	art	NOUN	_	Gender=Masc|Number=Sing	5	conj:coord	_	_
 24	en	en	ADP	_	_	23	mod	_	_
-25	tant	tant	ADV	_	_	24	comp:obj	_	_
+25	tant	tant	ADV	_	_	24	comp:obj	_	ExtPos=SCONJ|PhraseType=Idiom
 26	qu'	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	comp:obj	_	_
 28	euh	euh	INTJ	_	_	27	discourse	_	_
@@ -12980,7 +12980,7 @@
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	art	art	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	en	en	ADP	_	_	8	mod	_	_
-10	tant	tant	ADV	_	_	9	comp:obj	_	_
+10	tant	tant	ADV	_	_	9	comp:obj	_	ExtPos=SCONJ|PhraseType=Idiom
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	fabrication	fabrication	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 13	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
@@ -13174,7 +13174,7 @@
 17	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	18	det	_	_
 18	expérience	expérience	NOUN	conj:reform	Gender=Fem|Number=Sing	9	conj:dicto	_	_
 19	en	en	ADP	_	_	18	mod	_	_
-20	tant	tant	ADV	_	_	19	comp:obj	_	_
+20	tant	tant	ADV	_	_	19	comp:obj	_	ExtPos=SCONJ|PhraseType=Idiom
 21	que	que	SCONJ	_	_	20	unk	_	InIdiom=Yes
 22	pratiquant	pratiquer	VERB	_	Tense=Pres|VerbForm=Part	19	comp:obj	_	_
 23	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
@@ -13183,7 +13183,7 @@
 26	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	27	det	_	_
 27	expérience	expérience	NOUN	_	Gender=Fem|Number=Sing	18	conj:coord	_	_
 28	en	en	ADP	_	_	27	mod	_	_
-29	tant	tant	ADV	_	_	28	comp:obj	_	_
+29	tant	tant	ADV	_	_	28	comp:obj	_	ExtPos=SCONJ|PhraseType=Idiom
 30	que	que	SCONJ	_	_	29	unk	_	InIdiom=Yes
 31	consommateur	consommateur	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
 32	de	de	ADP	_	_	31	mod	_	_
@@ -14756,7 +14756,7 @@
 26	se	se	PRON	_	Person=3|PronType=Prs	27	comp	_	InIdiom=Yes
 27	retrouver	retrouver	VERB	_	VerbForm=Inf	25	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 28	euh	euh	INTJ	_	_	27	discourse	_	_
-29	alors	alors	ADV	_	_	27	mod	_	_
+29	alors	alors	ADV	_	_	27	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 30	qu'	que	PRON	_	_	29	unk	_	InIdiom=Yes
 31	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	32	subj	_	_
 32	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
@@ -16414,7 +16414,7 @@
 # macrosyntax = peut-être que "euh" c~ & //
 # sent_id = Rhap_D2009-11
 # text = peut-être que euh c~
-1	peut-être	peut-être	ADV	_	_	0	root	_	_
+1	peut-être	peut-être	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	c~	c~	X	_	_	1	comp:obj	_	_
@@ -17214,7 +17214,7 @@
 # macrosyntax = ^encore ^que il était mort "disons" au moment où je suis devenu adolescent //
 # sent_id = Rhap_D2009-54
 # text = encore que il était mort disons à le moment où je suis devenu adolescent
-1	encore	encore	ADV	_	_	0	root	_	_
+1	encore	encore	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
@@ -18427,7 +18427,7 @@
 9	achètent	acheter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:cleft	_	_
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	livres	livre	NOUN	_	_	9	comp:obj	_	_
-12	plus	plus	ADV	_	_	15	cc	_	_
+12	plus	plus	ADV	_	_	15	cc	_	ExtPos=SCONJ|PhraseType=Idiom
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	parents	parent	NOUN	_	Gender=Masc|Number=Plur	7	conj:coord	_	_

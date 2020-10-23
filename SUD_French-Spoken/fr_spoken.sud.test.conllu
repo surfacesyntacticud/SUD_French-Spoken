@@ -11552,7 +11552,7 @@
 # sent_id = Rhap_M2001-18
 # text = aujourd'hui plus que jamais et vous le savez mieux que personne c' est sur le terrain que se gagne ou se perd le combat
 1	aujourd'hui	aujourd'	ADV	_	_	16	mod	_	_
-2	plus	plus	ADV	_	_	4	cc	_	_
+2	plus	plus	ADV	_	_	4	cc	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	jamais	jamais	ADV	_	_	1	conj:coord	_	_
 5	et	et	CCONJ	_	_	8	cc	_	_

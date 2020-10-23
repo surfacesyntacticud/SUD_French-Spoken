@@ -111,7 +111,7 @@
 4	s'	se	PRON	_	Person=3|PronType=Prs	6	comp:obj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	accusé	accuser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
-7	plutôt	plutôt	ADV	_	_	5	mod	_	_
+7	plutôt	plutôt	ADV	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	de	de	ADP	_	_	7	mod	_	_
 10	laisser	laisser	VERB	_	VerbForm=Inf	9	comp:obj	_	_
@@ -12654,7 +12654,7 @@
 22	à	à	ADP	à	_	21	comp:obl	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
 24	collège	collège	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
-25	ainsi	ainsi	ADV	_	_	27	cc	_	_
+25	ainsi	ainsi	ADV	_	_	27	cc	_	ExtPos=SCONJ|PhraseType=Idiom
 26	qu'	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	à	à	ADP	à	_	22	conj:coord	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
