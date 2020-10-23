@@ -1106,7 +1106,7 @@
 13	mh	mh	INTJ	_	_	10	discourse	_	_
 14	mais	mais	CCONJ	_	_	15	cc	_	_
 15	sur	sur	ADP	_	_	25	mod	_	_
-16	par	par	ADP	_	_	18	mod	_	_
+16	par	par	ADP	_	_	18	mod	_	ExtPos=ADV|PhraseType=Idiom
 17	contre	contre	ADP	_	_	16	unk	_	InIdiom=Yes
 18	quand	quand	SCONJ	_	_	15	conj:dicto	_	_
 19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
@@ -5964,7 +5964,7 @@
 # macrosyntax = $L2 par contre < je l'ai gardée > la frange //
 # sent_id = Rhap_D0009-141
 # text = par contre je l' ai gardée la frange
-1	par	par	ADP	_	_	5	mod	_	_
+1	par	par	ADP	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
 2	contre	contre	NOUN	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	6	comp:obj	_	_
@@ -12645,7 +12645,7 @@
 13	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 14	d'	de	ADP	_	_	13	mod	_	_
 15	italien	italien	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
-16	à	à	ADP	_	_	18	cc	_	_
+16	à	à	ADP	_	_	18	cc	_	ExtPos=ADV|PhraseType=Idiom
 17	savoir	savoir	VERB	_	VerbForm=Inf	16	unk	_	InIdiom=Yes
 18	certifié	certifié	NOUN	_	_	13	conj:appos	_	_
 19	donc	donc	ADV	_	_	21	cc	_	_
@@ -13088,7 +13088,7 @@
 # macrosyntax = ^à ^savoir "euh" donc < "euh" je suis { dynamique | consciencieuse | "euh" persévérante | objective | ^et juste } //
 # sent_id = Rhap_M1003-23
 # text = à savoir euh donc euh je suis dynamique consciencieuse euh persévérante objective et juste
-1	à	à	ADP	_	_	0	root	_	_
+1	à	à	ADP	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
 2	savoir	savoir	VERB	_	VerbForm=Inf	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	7	discourse	_	_
 4	donc	donc	ADV	_	_	7	discourse	_	_
@@ -13213,7 +13213,7 @@
 # sent_id = Rhap_M1003-28
 # text = euh par ailleurs les avantages dans ce métier sont euh les possibilités d' évolution
 1	euh	euh	INTJ	_	_	9	discourse	_	_
-2	par	par	ADP	_	_	9	mod	_	_
+2	par	par	ADP	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 3	ailleurs	ailleurs	ADV	_	_	2	unk	_	InIdiom=Yes
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	avantages	avantage	NOUN	_	Gender=Masc|Number=Plur	9	subj	_	_
@@ -13355,7 +13355,7 @@
 2	inconvénients	inconvénient	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	euh	euh	INTJ	_	_	11	discourse	_	_
-5	par	par	ADP	_	_	3	mod	_	_
+5	par	par	ADP	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	ailleurs	ailleurs	ADV	_	_	5	unk	_	InIdiom=Yes
 7	en	en	ADP	_	_	11	mod	_	_
 8	premier	premier	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
