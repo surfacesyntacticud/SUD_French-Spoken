@@ -19205,7 +19205,7 @@
 7	et	et	CCONJ	_	_	10	cc	_	_
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 9	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	10	comp:obj	_	_
-10	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	parataxis:parenth	_	_
+10	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	parataxis:parenth	_	_
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	avant	avant	ADP	_	_	10	mod	_	_
 13	vingt	vingt	NUM	_	Number=Plur	14	mod	_	_
@@ -19213,7 +19213,7 @@
 15	quinze	quinze	NUM	_	Number=Plur	14	det	_	_
 16	hein	hein	INTJ	_	_	15	discourse	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
-18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	_
+18	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 19	à	à	ADP	_	_	18	mod	_	_
 20	peu	peu	NOUN	_	_	19	comp:obj	_	_
 21	près	près	ADV	_	_	19	mod	_	_
