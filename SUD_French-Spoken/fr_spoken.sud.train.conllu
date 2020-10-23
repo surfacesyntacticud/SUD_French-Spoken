@@ -16966,7 +16966,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	3	comp:obj	_	_
 3	lit	lire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	à	à	ADP	_	_	3	mod	_	_
+4	à	à	ADP	_	_	3	mod	_	ExtPos=ADP|PhraseType=Idiom
 5	travers	travers	NOUN	_	Gender=Masc	4	comp:obj	_	InIdiom=Yes
 6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
 7	éclairages	éclairage	NOUN	_	_	4	comp:obj	_	_
@@ -19354,7 +19354,7 @@
 # macrosyntax = à travers la foule <+ le policier { arrive | demande des explications "mh" de ce "euh" "mh" brouhaha } "euh" //
 # sent_id = Rhap_M0022-6
 # text = à travers la foule le policier arrive demande des explications mh de ce euh mh brouhaha euh
-1	à	à	ADP	_	_	7	mod	_	_
+1	à	à	ADP	_	_	7	mod	_	ExtPos=ADP|PhraseType=Idiom
 2	travers	travers	NOUN	_	Gender=Masc	1	comp:obj	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	foule	foule	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_

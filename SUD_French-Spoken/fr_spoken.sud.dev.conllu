@@ -515,7 +515,7 @@
 15	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	comp:obj	_	_
 16	mh	mh	INTJ	_	_	15	discourse	_	_
 17	mh	mh	INTJ	_	_	15	discourse	_	_
-18	à	à	ADP	_	_	21	cc	_	_
+18	à	à	ADP	_	_	21	cc	_	ExtPos=ADP|PhraseType=Idiom
 19	part	part	NOUN	_	Gender=Fem|Number=Sing	18	unk	_	InIdiom=Yes
 20	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	nourriture	nourriture	NOUN	_	Gender=Fem|Number=Sing	15	conj:coord	_	_

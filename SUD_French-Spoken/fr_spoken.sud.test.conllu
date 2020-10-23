@@ -7819,7 +7819,7 @@
 58	responsabilité	responsabilité	NOUN	_	Gender=Fem|Number=Sing	52	conj:appos	_	_
 59	de	de	ADP	_	_	58	mod	_	_
 60	chacun	chacun	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	59	comp:obj	_	_
-61	d'	de	ADP	_	_	60	comp:obl	_	_
+61	d'	de	ADP	_	_	60	comp:obl	_	ExtPos=ADP|PhraseType=Idiom
 62	entre	entre	ADP	_	_	61	unk	_	InIdiom=Yes
 63	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	61	comp:obj	_	_
 
@@ -11263,7 +11263,7 @@
 30	et	et	CCONJ	_	_	32	cc	_	_
 31	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	32	det	_	_
 32	valeurs	valeur	NOUN	_	Gender=Fem|Number=Plur	29	conj:coord	_	_
-33	à	à	ADP	_	_	25	mod	_	_
+33	à	à	ADP	_	_	25	mod	_	ExtPos=ADP|PhraseType=Idiom
 34	travers	travers	NOUN	_	Gender=Masc	33	comp:obj	_	InIdiom=Yes
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
 36	monde	monde	NOUN	_	Gender=Masc|Number=Sing	33	comp:obj	_	_
