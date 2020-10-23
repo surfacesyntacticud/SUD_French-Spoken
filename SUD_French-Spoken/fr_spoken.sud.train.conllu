@@ -5657,7 +5657,7 @@
 16	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
 17	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	pour	pour	ADP	_	_	3	mod	_	_
-19	peu	peu	NOUN	_	_	18	comp:obj	_	InIdiom=Yes
+19	peu	peu	NOUN	_	_	18	comp:obj	_	_
 20	qu'	que	SCONJ	_	_	18	comp:obj	_	_
 21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
@@ -16735,9 +16735,9 @@
 18	depuis	depuis	ADP	_	_	13	mod	_	_
 19	euh	euh	INTJ	_	_	26	discourse	_	_
 20	euh	euh	INTJ	_	_	26	discourse	_	_
-21	à	à	ADP	_	_	24	mod	_	_
+21	à	à	ADP	_	_	24	mod	_	ExtPos=ADV|PhraseType=Idiom
 22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	unk	_	InIdiom=Yes
-23	moins	moins	ADV	_	_	21	unk	_	InIdiom=Yes
+23	moins	moins	ADV	_	_	22	unk	_	InIdiom=Yes
 24	cent	cent	NUM	_	Number=Plur	26	det	_	_
 25	cent	cent	NUM	_	Number=Plur	24	conj:dicto	_	_
 26	ans	an	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
@@ -17829,9 +17829,9 @@
 21	enfant	enfant	NOUN	_	_	19	comp:obj	_	_
 22	ou	ou	CCONJ	_	_	23	cc	_	_
 23	deux	deux	NUM	_	Number=Plur	20	conj:coord	_	_
-24	à	à	ADP	_	_	27	mod	_	_
+24	à	à	ADP	_	_	27	mod	_	ExtPos=ADV|PhraseType=Idiom
 25	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	unk	_	InIdiom=Yes
-26	moins	moins	ADV	_	_	24	unk	_	InIdiom=Yes
+26	moins	moins	ADV	_	_	25	unk	_	InIdiom=Yes
 27	deux	deux	NUM	_	Number=Plur	23	conj:dicto	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	d~	d~	X	_	_	27	unk@scrap	_	_
@@ -18178,9 +18178,9 @@
 31	maintenant	maintenant	ADV	_	_	30	mod	_	_
 32	pff	pff	INTJ	_	_	31	discourse	_	_
 33	peut-être	peut-être	ADV	_	_	30	mod	_	_
-34	à	à	ADP	_	_	37	mod	_	_
+34	à	à	ADP	_	_	37	mod	_	ExtPos=ADV|PhraseType=Idiom
 35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	34	unk	_	InIdiom=Yes
-36	moins	moins	ADV	_	_	34	unk	_	InIdiom=Yes
+36	moins	moins	ADV	_	_	35	unk	_	InIdiom=Yes
 37	douze	douze	NUM	_	Number=Plur	38	det	_	_
 38	ans	an	NOUN	_	Gender=Masc|Number=Plur	30	comp:obj	_	_
 39	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	40	subj	_	_
