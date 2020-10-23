@@ -458,7 +458,7 @@
 # macrosyntax = ^et ^puis on a notre paire de baskets également très salie //
 # sent_id = Rhap_D2011-25
 # text = et puis on a notre paire de baskets également très salie
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1246,7 +1246,7 @@
 # macrosyntax = ^et ^puis je crois que vous avez { un garçon -$ $L1 qui salit |} >+ en plus "hein" //+ $L5 ( tout à fait // ) {| un garçon { qui se salit | ^et { qui faisait des allergies auparavant | ^et qui n'en fait plus grâce à la boule magique } } } //
 # sent_id = Rhap_D2011-84
 # text = et puis je crois que vous avez un garçon qui salit en plus hein tout à fait un garçon qui se salit et qui faisait des allergies auparavant et qui n' en fait plus grace à la boule magique
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	crois	croire	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -1831,7 +1831,7 @@
 # macrosyntax = ^et ^puis tout d'un coup <+ alors < ils vous retrouvent //
 # sent_id = Rhap_D2010-21
 # text = et puis tout d' un coup alors ils vous retrouvent
-1	et	et	CCONJ	_	_	10	cc	_	_
+1	et	et	CCONJ	_	_	10	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 4	d'	de	ADP	_	_	10	mod	_	_
@@ -2071,7 +2071,7 @@
 # macrosyntax = ^et ^puis alors < je ESPERLUETTE //
 # sent_id = Rhap_D2010-42
 # text = et puis alors je
-1	et	et	CCONJ	_	_	0	root	_	_
+1	et	et	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	alors	alors	ADV	_	_	1	cc	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	conj:dicto	_	_
@@ -2936,7 +2936,7 @@
 6	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	ah	ah	INTJ	_	_	6	discourse	_	_
 8	ouais	ouais	INTJ	_	_	6	discourse	_	_
-9	et	et	CCONJ	_	_	11	cc	_	_
+9	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 10	puis	puis	ADV	_	_	9	unk	_	InIdiom=Yes
 11	à	à	ADP	à	_	4	conj:coord	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -3985,7 +3985,7 @@
 # macrosyntax = $L2 ^et puis il y a "euh" Szeluto //
 # sent_id = Rhap_D2012-41
 # text = et puis il y a euh Szeluto
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -6359,7 +6359,7 @@
 # macrosyntax = ^et ^puis après <+ si jamais ces épidémies "euh" surviennent dans l'hémisphère sud <+ on aura une chance encore plus renforcée //
 # sent_id = Rhap_D2008-115
 # text = et puis après si jamais ces épidémies euh surviennent dans l' hémisphère sud on aura une chance encore plus renforcée
-1	et	et	CCONJ	_	_	15	cc	_	_
+1	et	et	CCONJ	_	_	15	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	15	mod	_	_
 4	si	si	SCONJ	_	_	15	mod	_	_
@@ -9000,7 +9000,7 @@
 # macrosyntax = ^et ^puis je suis toujours étonnée // maintenant < plus //
 # sent_id = Rhap_D2001-36
 # text = et puis je suis toujours étonnée maintenant plus
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10110,7 +10110,7 @@
 # macrosyntax = ^et ^puis il ne savait pas du tout l'âge que j'avais //
 # sent_id = Rhap_D2001-99
 # text = et puis il ne savait pas de le tout l' âge que j' avais
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
@@ -12085,7 +12085,7 @@
 # macrosyntax = $L1 ^et ^puis nous avons une autre région qui est le Gâtinet //
 # sent_id = Rhap_D1001-20
 # text = et puis nous avons une autre région qui est le Gâtinais
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	nous	il	PRON	_	_	4	subj	_	_
 4	avons	avoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12114,7 +12114,7 @@
 12	d'	de	ADP	_	_	11	mod	_	_
 13	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 14	part	part	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	et	et	CCONJ	_	_	20	cc	_	_
+15	et	et	CCONJ	_	_	20	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 16	puis	puis	ADV	_	_	15	unk	_	InIdiom=Yes
 17	beaucoup	beaucoup	ADV	_	_	18	mod	_	_
 18	plus	plus	ADV	_	_	20	mod	_	_
@@ -12196,7 +12196,7 @@
 # macrosyntax = $L1 ^et ^puis c'est un pays dans lequel on aime la bonne vie //=
 # sent_id = Rhap_D1001-27
 # text = et puis c' est un pays dans lequel on aime la bonne vie
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12511,7 +12511,7 @@
 15	avoir	avoir	VERB	_	VerbForm=Inf	14	comp:obj@x	_	_
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	prêtre	prêtre	NOUN	_	Gender=Masc|Number=Sing	14	subj	_	_
-18	et	et	CCONJ	_	_	21	cc	_	_
+18	et	et	CCONJ	_	_	21	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 19	puis	puis	ADV	_	_	18	unk	_	InIdiom=Yes
 20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 21	classes	classe	NOUN	_	Gender=Fem|Number=Plur	17	conj:coord	_	_

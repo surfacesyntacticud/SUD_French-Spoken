@@ -4724,7 +4724,7 @@
 # macrosyntax = ^et ^puis "bon" ce monsieur-là < il fait de la ESPERLUETTE //
 # sent_id = Rhap_D0009-44
 # text = et puis bon ce monsieur -là il fait de la
-1	et	et	CCONJ	_	_	8	cc	_	_
+1	et	et	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	bon	bon	INTJ	_	_	8	discourse	_	_
 4	ce	ce	DET	_	_	5	det	_	_
@@ -6036,7 +6036,7 @@
 # macrosyntax = ^et ^puis "bon" { tu | tu } vois avec ce monsieur-là //
 # sent_id = Rhap_D0009-148
 # text = et puis bon tu tu vois avec ce monsieur -là
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	bon	bon	INTJ	_	_	6	discourse	_	_
 4	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	_
@@ -6050,7 +6050,7 @@
 # macrosyntax = ^et ^puis voilà //
 # sent_id = Rhap_D0009-149
 # text = et puis voilà
-1	et	et	CCONJ	_	_	3	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	voilà	voilà	VERB	_	_	0	root	_	_
 
@@ -6755,7 +6755,7 @@
 # macrosyntax = ^et ^puis là <+ on arrive sur la place Victor Hugo //
 # sent_id = Rhap_D0020-5
 # text = et puis là on arrive sur la place Victor Hugo
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	là	là	ADV	_	_	5	mod	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
@@ -7635,7 +7635,7 @@
 # macrosyntax = ^et ^puis -$ $- $L4 il va le dire ce soir >
 # sent_id = Rhap_D2007-67
 # text = et puis il va le dire ce soir
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7765,7 +7765,7 @@
 # macrosyntax = ^et ^puis il s'étonne $- $L1 que les gens le sache //
 # sent_id = Rhap_D2007-77
 # text = et puis il s' étonne que les gens le sache
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 4	s'	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
@@ -8287,7 +8287,7 @@
 # macrosyntax = ^et ^puis chauffer comme ça } |
 # sent_id = Rhap_D2007-120
 # text = et puis chauffer comme ça
-1	et	et	CCONJ	_	_	3	cc	_	_
+1	et	et	CCONJ	_	_	3	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	chauffer	chauffer	VERB	_	VerbForm=Inf	0	root	_	_
 4	comme	comme	ADP	_	_	3	mod	_	_
@@ -9182,7 +9182,7 @@
 # macrosyntax = ^et ^puis je me suis mis { un peu plus tard | ^c'^est-^à-^dire vers dix-huit ans } à découvrir la littérature étrangère //
 # sent_id = Rhap_D2005-42
 # text = et puis je me suis mis un peu plus tard c'est-à-dire vers dix-huit ans à découvrir la littérature étrangère
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	me	me	PRON	_	_	6	comp	_	InIdiom=Yes
@@ -9553,7 +9553,7 @@
 # macrosyntax = ^et ^puis j'avais toujours présent à l'esprit Lewis Carroll mathématicien-écrivain //
 # sent_id = Rhap_D2005-63
 # text = et puis j' avais toujours présent à l' esprit Lewis Carroll mathématicien-écrivain
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -9737,7 +9737,7 @@
 # sent_id = Rhap_D0003-4
 # text = mh et puis en se mariant ils sont partis vivre en province
 1	mh	mh	INTJ	_	_	8	discourse	_	_
-2	et	et	CCONJ	_	_	8	cc	_	_
+2	et	et	CCONJ	_	_	8	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 3	puis	puis	ADV	_	_	2	unk	_	InIdiom=Yes
 4	en	en	ADP	_	_	8	mod	_	_
 5	se	se	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes
@@ -9777,7 +9777,7 @@
 23	voir	voir	VERB	_	VerbForm=Inf	22	comp:obj@x	_	_
 24	leurs	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=3|PronType=Prs	25	det	_	_
 25	amis	ami	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
-26	et	et	CCONJ	_	_	28	cc	_	_
+26	et	et	CCONJ	_	_	28	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 27	puis	puis	ADV	_	_	26	unk	_	InIdiom=Yes
 28	pour	pour	ADP	_	_	21	conj:coord	_	_
 29	y	y	PRON	_	Person=3|PronType=Prs	28	conj:dicto	_	_
@@ -9840,7 +9840,7 @@
 # sent_id = Rhap_D0003-10
 # text = mh et puis nous avons été euh
 1	mh	mh	INTJ	_	_	6	discourse	_	_
-2	et	et	CCONJ	_	_	5	cc	_	_
+2	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 3	puis	puis	ADV	_	_	2	unk	_	InIdiom=Yes
 4	nous	il	PRON	_	_	5	subj	_	_
 5	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10123,7 +10123,7 @@
 # macrosyntax = ^et ^puis quand il a entendu le bombardement anglais { le de~ | le $- $L2 dernier soir } <+ il a dit ( $L1 "mh" "mh" ) -$ $L2 [ ça < ce sont les anglais // ] //
 # sent_id = Rhap_D0003-32
 # text = et puis quand il a entendu le bombardement anglais le de~ le dernier soir il a dit mh mh ça ce sont les anglais
-1	et	et	CCONJ	_	_	16	cc	_	_
+1	et	et	CCONJ	_	_	16	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	quand	quand	SCONJ	_	_	16	mod	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
@@ -10203,7 +10203,7 @@
 # macrosyntax = ^et ^puis il a décidé de partir //
 # sent_id = Rhap_D0003-37
 # text = et puis il a décidé de partir
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10612,7 +10612,7 @@
 # macrosyntax = ^et ^puis après <+ ils étaient très étonnés parce que [ quand ils voulaient entrer en prépa <+ on les prenait après les gens qui venaient du public ] //
 # sent_id = Rhap_D0002-12
 # text = et puis après ils étaient très étonnés parce que quand ils voulaient entrer en prépa on les prenait après les gens qui venaient de le public
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	5	mod	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
@@ -11420,9 +11420,9 @@
 # macrosyntax = { ^et ^puis | ^et ^puis } voilà //
 # sent_id = Rhap_D0002-56
 # text = et puis et puis voilà
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
-3	et	et	CCONJ	conj:reform	_	2	conj:dicto	_	_
+3	et	et	CCONJ	conj:reform	_	2	conj:dicto	_	ExtPos=CCONJ|PhraseType=Idiom
 4	puis	puis	ADV	_	_	3	unk	_	InIdiom=Yes
 5	voilà	voilà	VERB	_	_	0	root	_	_
 
@@ -11765,7 +11765,7 @@
 # sent_id = Rhap_D0002-76
 # text = mh et puis il faudra que les parents l' acceptent
 1	mh	mh	INTJ	_	_	5	discourse	_	_
-2	et	et	CCONJ	_	_	5	cc	_	_
+2	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 3	puis	puis	ADV	_	_	2	unk	_	InIdiom=Yes
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	faudra	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
@@ -11880,7 +11880,7 @@
 # macrosyntax = ^et ^puis pendant qu'elle regardait cette vitrine <+ { il "euh" | il } y a quelqu'un qui arrivait pour livrer "euh" { du pain | ^et des gâteaux } //
 # sent_id = Rhap_M0002-2
 # text = et puis pendant qu' elle regardait cette vitrine il euh il y a quelqu' un qui arrivait pour livrer euh du pain et des gâteaux
-1	et	et	CCONJ	_	_	13	cc	_	_
+1	et	et	CCONJ	_	_	13	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	pendant	pendant	ADP	_	_	13	mod	_	_
 4	qu'	que	SCONJ	_	_	3	comp:obj	_	_
@@ -12490,7 +12490,7 @@
 # sent_id = Rhap_M0003-29
 # text = euh et puis ben vous tombez place eh ben place Notre-Dame
 1	euh	euh	INTJ	_	_	6	discourse	_	_
-2	et	et	CCONJ	_	_	6	cc	_	_
+2	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 3	puis	puis	ADV	_	_	2	unk	_	InIdiom=Yes
 4	ben	ben	INTJ	_	_	6	discourse	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_

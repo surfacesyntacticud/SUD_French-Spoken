@@ -1591,7 +1591,7 @@
 # macrosyntax = ^et ^puis "euh" $- $L1 finalement < { vous avez | $L1 vous êtes } repartie vers Mulhouse //
 # sent_id = Rhap_D2004-32
 # text = et puis euh finalement vous avez vous êtes repartie vers Mulhouse
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	finalement	finalement	ADV	_	_	6	mod	_	_
@@ -1642,7 +1642,7 @@
 # macrosyntax = ^et ^puis j'ai fait mes études au lycée "euh" de Mulhouse //
 # sent_id = Rhap_D2004-36
 # text = et puis j' ai fait mes études à le lycée euh de Mulhouse
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1705,7 +1705,7 @@
 # macrosyntax = ^et ^puis j'ai fini mes études à Mulhouse //
 # sent_id = Rhap_D2004-40
 # text = et puis j' ai fini mes études à Mulhouse
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6782,7 +6782,7 @@
 # macrosyntax = $L1 ^et ^puis après <+ "ben" j' ai travaillé sur { les micro-processeurs | l' informatique } //
 # sent_id = Rhap_D0005-9
 # text = et puis après ben j' ai travaillé sur les micro - processeurs l' informatique
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADP	_	_	6	mod	_	_
 4	ben	ben	INTJ	_	_	3	discourse	_	_
@@ -7582,7 +7582,7 @@
 # macrosyntax = ^ et ^ puis alors < XXX s' il y avait quelque chose qui n' allait pas < " euh " " bon " " ben " c' était tout de suite //=
 # sent_id = Rhap_D0005-65
 # text = et puis alors s' il y avait quelque chose qui n' allait pas euh bon ben c' était tout de suite
-1	et	et	CCONJ	_	_	18	cc	_	_
+1	et	et	CCONJ	_	_	18	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	alors	alors	ADV	_	_	18	discourse	_	_
 4	s'	si	SCONJ	_	_	18	mod	_	_
@@ -7746,7 +7746,7 @@
 # macrosyntax = ^et ^puis "bon" "ben" "voilà" // donc < ce qui fait que ( $L2 "ah" ouais // ) $L1 { c' est | c' est } pas { facile | facile } //
 # sent_id = Rhap_D0005-77
 # text = et puis bon ben voilà donc ce qui fait que ah ouais c' est c' est pas facile facile
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	bon	bon	INTJ	_	_	7	discourse	_	_
 4	ben	ben	INTJ	_	_	7	discourse	_	_
@@ -8531,7 +8531,7 @@
 87	dix-neuvième	dix-neuvième	ADJ	_	Gender=Fem|Number=Sing	88	mod	_	_
 88	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	85	comp:obj	_	_
 89	romantique	romantique	ADJ	_	Number=Sing	88	mod	_	_
-90	et	et	CCONJ	_	_	93	cc	_	_
+90	et	et	CCONJ	_	_	93	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 91	puis	puis	ADV	_	_	90	unk	_	InIdiom=Yes
 92	qui	qui	PRON	_	_	93	subj	_	_
 93	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	84	conj:coord	_	_
@@ -9343,7 +9343,7 @@
 # macrosyntax = ^et ^puis "euh" je travaille toute la journée //
 # sent_id = Rhap_D0001-10
 # text = et puis euh je travaille toute la journée
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	5	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
@@ -9521,7 +9521,7 @@
 # macrosyntax = ^et ^puis après <+ rue du Faubourg Saint Antoine <+ c'est très vivant //=
 # sent_id = Rhap_D0001-22
 # text = et puis après rue de le Faubourg Saint Antoine c' est très vivant
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADP	_	_	13	mod	_	_
 4	rue	rue	NOUN	_	Gender=Fem|Number=Sing	11	dislocated	_	_
@@ -10085,7 +10085,7 @@
 # macrosyntax = ^et ^puis après <+ j'étais au lycée Arago //+ $- $L2 donc < "voyez" { qui est ESPERLUETTE | ( $L1 mh XXX mh mh // ) -$ $L2 "hein" qui avait { une annexe d'ailleurs "euh" | une annexe qui est à Reuilly-Diderot } } //
 # sent_id = Rhap_D0001-63
 # text = et puis après j' étais à le lycée Arago donc voyez qui est mh mh mh hein qui avait une annexe d'ailleurs euh une annexe qui est à Reuilly - Diderot
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	6	mod	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
@@ -10118,7 +10118,7 @@
 # macrosyntax = ^et ^puis après <+ donc < "euh" j'étais { une année à la classe de philo au lycée Paul Valéry |} //+ ( $L1 mh mh // ) $L2 "euh" {| ^et en prépa évidemment "euh" | { à | à } la sor~ | à { Censier | ^puis la Sorbonne } "quoi" } //
 # sent_id = Rhap_D0001-64
 # text = et puis après donc euh j' étais une année à la classe de philo à le lycée Paul Valéry mh mh euh et en prépa évidemment euh à à la Sor~ à Censier puis la Sorbonne quoi
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	7	mod	_	_
 4	donc	donc	ADV	_	_	3	discourse	_	_
@@ -10498,7 +10498,7 @@
 # macrosyntax = $L2 ^et puis oui > -$ $L2 quand même quarante //
 # sent_id = Rhap_D0001-92
 # text = et puis oui quand même quarante
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	oui	oui	INTJ	_	_	6	discourse	_	_
 4	quand	quand	SCONJ	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -12587,7 +12587,7 @@
 # macrosyntax = ^et puis il y a des formes d'art { qui sont beaucoup plus hédonistes | ^et qui se préoccupent très peu "euh" { de "euh" | de } la connaissance } //
 # sent_id = Rhap_M2002-23
 # text = et puis il y a des formes d' art qui sont beaucoup plus hédonistes et qui se préoccupent très peu euh de euh de la connaissance
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -12709,7 +12709,7 @@
 17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
 18	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	_
 19	pratique	pratiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
-20	et	et	CCONJ	_	_	23	cc	_	_
+20	et	et	CCONJ	_	_	23	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 21	puis	puis	ADV	_	_	20	unk	_	InIdiom=Yes
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	art	art	NOUN	_	Gender=Masc|Number=Sing	5	conj:coord	_	_
@@ -12797,7 +12797,7 @@
 # macrosyntax = ^et ^puis il y a un autre aspect qui consiste à { { exp~ | éprouver } l'art | le ressentir | "euh" en faire l'expérience | avoir une sorte { de | de } vécu de l'expérience artistique } //
 # sent_id = Rhap_M2002-33
 # text = et puis il y a un autre aspect qui consiste à exp~ éprouver l' art le ressentir euh en faire l' expérience avoir une sorte de de vécu de l' expérience artistique
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -13130,7 +13130,7 @@
 # macrosyntax = ^et puis "eh ben" c'est quelque chose { que nous sommes ESPERLUETTE | "euh" que nous avons bien ESPERLUETTE | "euh" que nous connaissons bien } //
 # sent_id = Rhap_M2002-45
 # text = et puis eh ben c' est quelque chose que nous sommes euh que nous avons bien euh que nous connaissons bien
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	eh	eh	INTJ	_	_	6	discourse	_	_
 4	ben	ben	INTJ	_	_	6	discourse	_	_
@@ -13441,7 +13441,7 @@
 # macrosyntax = ^et ^puis il peut avoir des fonctions politiques aussi //=
 # sent_id = Rhap_M2002-58
 # text = et puis il peut avoir des fonctions politiques aussi
-1	et	et	CCONJ	_	_	4	cc	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16268,7 +16268,7 @@
 # macrosyntax = ^et ^puis peu à peu <+ se dégage finalement "euh" { la vérité |} //+ {| une vérité { plus | plus } nue "si je puis dire" } <
 # sent_id = Rhap_D2009-5
 # text = et puis peu à peu se dégage finalement euh la vérité une vérité plus plus nue si je puis dire
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	4	mod	_	_
 4	à	à	ADP	_	_	7	mod	_	_
@@ -17533,7 +17533,7 @@
 19	temps	temps	NOUN	_	Gender=Masc	18	comp:obj	_	_
 20	mh	mh	INTJ	_	_	19	discourse	_	_
 21	mh	mh	INTJ	_	_	19	discourse	_	_
-22	et	et	CCONJ	_	_	29	cc	_	_
+22	et	et	CCONJ	_	_	29	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 23	puis	puis	ADV	_	_	22	unk	_	InIdiom=Yes
 24	bon	bon	INTJ	_	_	29	discourse	_	_
 25	quand	quand	SCONJ	_	_	29	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -18008,7 +18008,7 @@
 # macrosyntax = $L1 ^et ^puis il y a ( quand même ) un problème financier "hein" > quand même "hein" //
 # sent_id = Rhap_D0004-29
 # text = et puis il y a quand même un problème financier hein quand même hein
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -18072,7 +18072,7 @@
 # macrosyntax = $L1 ^et ^puis les lycées < si vous voulez < maintenant <+ les livres sont gratuits //
 # sent_id = Rhap_D0004-34
 # text = et puis les lycées si vous voulez maintenant les livres sont gratuits
-1	et	et	CCONJ	_	_	11	cc	_	_
+1	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	11	dislocated	_	_
@@ -18636,7 +18636,7 @@
 # macrosyntax = $- $L1 {| { ^et puis | ( $L2 ça < ça commence aussi // 
 # sent_id = Rhap_D0004-62bis
 # text = et puis ça ça commence aussi
-1	et	et	CCONJ	_	_	5	cc	_	_
+1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	conj:dicto	_	_
@@ -18651,7 +18651,7 @@
 # macrosyntax = $- $L1 et puis } surtout { le | le } temps que les gens passent devant Internet } //
 # sent_id = Rhap_D0004-62quater
 # text = et puis surtout le le temps que les gens passent devant Internet
-1	et	et	CCONJ	_	_	6	cc	_	_
+1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	surtout	surtout	ADV	_	_	6	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -19762,7 +19762,7 @@
 # macrosyntax = ^et ^puis à la fin <+ je suis un peu déconcentré //
 # sent_id = Rhap_M0018-9
 # text = et puis à la fin je suis un peu déconcentré
-1	et	et	CCONJ	_	_	7	cc	_	_
+1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	à	à	ADP	_	_	10	mod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
