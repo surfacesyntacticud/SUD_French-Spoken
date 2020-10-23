@@ -3284,9 +3284,9 @@
 # macrosyntax = { bien sûr | bien sûr } // -$
 # sent_id = Rhap_D2003-6
 # text = bien sûr bien sûr
-1	bien	bien	ADV	_	_	0	root	_	_
+1	bien	bien	ADV	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes
-3	bien	bien	ADV	_	_	1	conj:dicto	_	_
+3	bien	bien	ADV	_	_	1	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
 4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
 
 # macrosyntax = $L2 en tout cas < il y a une $- $L2 protestation //
@@ -4480,7 +4480,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	récupéré	récupérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux@pass	_	_
-5	bien	bien	ADV	_	_	3	mod	_	_
+5	bien	bien	ADV	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	5	unk	_	InIdiom=Yes
 7	par	par	ADP	_	_	4	comp:obl	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
@@ -9609,7 +9609,7 @@
 5	oui	oui	INTJ	_	_	4	conj:coord	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	_
-8	bien	bien	ADV	_	_	7	discourse	_	_
+8	bien	bien	ADV	_	_	7	discourse	_	ExtPos=ADV|PhraseType=Idiom
 9	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	8	unk	_	InIdiom=Yes
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
@@ -14638,7 +14638,7 @@
 # sent_id = Rhap_D2002-60
 # text = mais bien sûr c' est totalement lui
 1	mais	mais	CCONJ	_	_	5	cc	_	_
-2	bien	bien	ADV	_	_	5	mod	_	_
+2	bien	bien	ADV	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
 3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	unk	_	InIdiom=Yes
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

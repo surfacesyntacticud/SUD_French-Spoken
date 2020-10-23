@@ -926,7 +926,7 @@
 9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 10	d'	de	ADP	_	_	9	comp:pred	_	_
 11	écouter	écouter	VERB	_	VerbForm=Inf	10	comp:obj	_	_
-12	bien	bien	ADV	_	_	9	mod	_	_
+12	bien	bien	ADV	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 13	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	12	unk	_	InIdiom=Yes
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	spécialiste	spécialiste	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
@@ -3077,7 +3077,7 @@
 10	et	et	CCONJ	_	_	11	cc	_	_
 11	attirée	attirer	VERB	_	_	8	conj:coord	_	_
 12	aussi	aussi	ADV	_	_	11	mod	_	_
-13	bien	bien	ADV	_	_	11	discourse	_	_
+13	bien	bien	ADV	_	_	11	discourse	_	ExtPos=ADV|PhraseType=Idiom
 14	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	13	unk	_	InIdiom=Yes
 
 # macrosyntax = $L1 { deux préludes de Karol Szymanowski extraits de son opus un de mille neuf cents | { le sixième | ^et le septième } } { interprétés par "euh" Maria Yudina | enregistrés en mille neuf cent cinquante-six } //
@@ -5612,7 +5612,7 @@
 5	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 6	d'	de	ADP	_	_	2	comp:obl	_	_
 7	antibiotiques	antibiotique	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-8	bien	bien	ADV	_	_	2	mod	_	_
+8	bien	bien	ADV	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 9	entendu	entendre	ADJ	_	_	8	unk	_	InIdiom=Yes
 
 # macrosyntax = on ne savait pas ce qu'était un virus en mille neuf cent dix-huit //=
@@ -6931,7 +6931,7 @@
 18	ce	ce	PRON	_	_	17	comp:obj	_	_
 19	qui	qui	PRON	_	_	20	subj	_	_
 20	concerne	concerner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
-21	bien	bien	ADV	_	_	20	discourse	_	_
+21	bien	bien	ADV	_	_	20	discourse	_	ExtPos=ADV|PhraseType=Idiom
 22	entendu	entendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	unk	_	InIdiom=Yes
 23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	_
 24	niveaux	niveau	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
@@ -11140,7 +11140,7 @@
 # text = c' est bien sûr dans mon esprit la marque de le lien direct qui unit le président de la république chef de les armées avec euh toutes celles et tous ceux qui ont la difficile mission de veiller sur nos intérêts et sur la sécurité de nos concitoyens
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	bien	bien	ADV	_	_	2	mod	_	_
+3	bien	bien	ADV	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
 5	dans	dans	ADP	_	_	2	mod	_	_
 6	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
