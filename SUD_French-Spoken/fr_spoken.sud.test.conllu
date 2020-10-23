@@ -2227,7 +2227,7 @@
 # macrosyntax = parce qu'ils ont ( $L2 non //
 # sent_id = Rhap_D2010-52
 # text = parce qu' ils ont non
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
 4	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -2307,7 +2307,7 @@
 7	à	à	ADP	conj:reform	_	6	conj:dicto	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	Barrage	Barrage	NOUN	_	_	7	comp:obj	_	ExtPOS=PROPN|Title=Yes
-10	parce	parce	SCONJ	_	_	5	mod	_	_
+10	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	13	subj	_	_
 13	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	10	comp:obj	_	_
@@ -2570,7 +2570,7 @@
 4	remarquerait	remarquer	VERB	_	_	0	root	_	_
 5	à	à	ADP	_	_	4	mod	_	_
 6	peine	peine	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-7	parce	parce	SCONJ	_	_	4	mod	_	_
+7	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
@@ -3137,7 +3137,7 @@
 2	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	choisie	choisir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
-5	parce	parce	SCONJ	_	_	3	mod	_	_
+5	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
@@ -3231,7 +3231,7 @@
 # macrosyntax = ^parce ^que prélude < ça fait penser { à ( évidemment ) | à } Frédéric Chopin //
 # sent_id = Rhap_D2012-7
 # text = parce que prélude ça fait penser à évidemment à Frédéric Chopin
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	prélude	prélude	NOUN	_	_	5	dislocated	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@caus	_	_
@@ -4007,7 +4007,7 @@
 9	vite	vite	ADV	_	_	7	mod	_	_
 10	se	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
 11	désunir	désunir	VERB	_	_	7	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
-12	parce	parce	SCONJ	_	_	11	mod	_	_
+12	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 13	qu'	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
 15	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
@@ -4058,7 +4058,7 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	intéressant	intéressant	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
-7	parce	parce	SCONJ	_	_	5	mod	_	_
+7	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 8	qu'	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
@@ -5256,7 +5256,7 @@
 # sent_id = Rhap_D2008-54
 # text = pa~ parce que à trente mille vous êtes dans dans encore dans le dans le raison~ enfin dans l~
 1	pa~	pa~	SCONJ	_	_	0	root	_	_
-2	parce	parce	SCONJ	_	_	1	conj:dicto	_	_
+2	parce	parce	SCONJ	_	_	1	conj:dicto	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	à	à	ADP	_	_	8	mod	_	_
 5	trente	trente	NUM	_	Number=Plur	6	det	_	_
@@ -6101,7 +6101,7 @@
 # macrosyntax = ^parce ^que la grippe est une maladie qu'on connaît bien //
 # sent_id = Rhap_D2008-103
 # text = parce que la grippe est une maladie qu' on connaît bien
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
@@ -7941,7 +7941,7 @@
 # macrosyntax = ^parce ^qu' en fait < "euh" j'aime la biologie //
 # sent_id = Rhap_M1001-7
 # text = parce qu' en fait euh j' aime la biologie
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	en	en	ADP	_	_	7	discourse	_	_
 4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
@@ -8011,7 +8011,7 @@
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
 8	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
 9	acceptée	accepter	VERB	DoubleAux	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
-10	parce	parce	SCONJ	_	_	6	mod	_	_
+10	parce	parce	SCONJ	_	_	6	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	comp:obl	_	_
@@ -8062,7 +8062,7 @@
 6	en	en	ADP	_	_	3	mod	_	_
 7	deuxième	deuxième	ADJ	_	Number=Sing	8	mod	_	_
 8	choix	choix	NOUN	_	Gender=Masc	6	comp:obj	_	_
-9	parce	parce	SCONJ	_	_	3	mod	_	_
+9	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	aussi	aussi	ADV	_	_	3	mod	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	_
@@ -8184,7 +8184,7 @@
 13	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
 14	en	en	ADP	_	_	13	comp:obl	_	_
 15	psychologie	psychologie	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-16	parce	parce	SCONJ	_	_	10	mod	_	_
+16	parce	parce	SCONJ	_	_	10	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 17	que	que	SCONJ	_	_	16	unk	_	InIdiom=Yes
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
@@ -8296,7 +8296,7 @@
 7	réorienterai	réorienter	VERB	_	Number=Sing|Person=1	4	comp:obj	_	_
 8	en	en	ADP	_	_	7	comp:obl	_	_
 9	psychologie	psychologie	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-10	parce	parce	SCONJ	_	_	7	mod	_	_
+10	parce	parce	SCONJ	_	_	7	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
 13	m'	le	PRON	_	_	14	comp:obj	_	_
@@ -9186,7 +9186,7 @@
 9	peu	peu	NOUN	_	_	10	mod	_	ExtPos=ADV|PhraseType=Idiom
 10	différent	différent	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
-12	parce	parce	SCONJ	_	_	4	mod	_	_
+12	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	20	subj	_	_
@@ -9386,7 +9386,7 @@
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	journalisme	journalisme	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
-9	parce	parce	SCONJ	_	_	2	conj:appos	_	_
+9	parce	parce	SCONJ	_	_	2	conj:appos	_	ExtPos=SCONJ|PhraseType=Idiom
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	euh	euh	INTJ	_	_	14	discourse	_	_
 12	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
@@ -12579,7 +12579,7 @@
 21	viennent	venir	VERB	_	_	19	mod@relcl	_	_
 22	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	comp:obj	_	_
 23	voir	voir	VERB	_	VerbForm=Inf	21	comp:obj@x	_	_
-24	parce	parce	SCONJ	_	_	13	mod	_	_
+24	parce	parce	SCONJ	_	_	13	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 25	qu'	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	28	subj	_	_
 27	ne	ne	ADV	_	Polarity=Neg	32	mod	_	_
@@ -12715,7 +12715,7 @@
 36	difficiles	difficile	ADJ	_	Number=Plur	33	comp:pred	_	_
 37	à	à	ADP	_	_	33	mod	_	_
 38	aborder	aborder	VERB	_	VerbForm=Inf	37	comp:obj	_	_
-39	parce	parce	SCONJ	_	_	33	mod	_	_
+39	parce	parce	SCONJ	_	_	33	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 40	que	que	SCONJ	_	_	39	unk	_	InIdiom=Yes
 41	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	48	subj	_	_

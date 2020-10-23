@@ -197,7 +197,7 @@
 23	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	_
 24	dû	devoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	23	comp:aux	_	_
 25	remettre	remettre	VERB	DoubleAux	VerbForm=Inf	24	comp:obj@x	_	_
-26	parce	parce	SCONJ	_	_	23	mod	_	_
+26	parce	parce	SCONJ	_	_	23	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 27	que	que	SCONJ	_	_	26	unk	_	InIdiom=Yes
 28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	gens	gens	NOUN	_	_	30	subj	_	_
@@ -361,7 +361,7 @@
 22	complètement	complètement	ADV	_	_	23	mod	_	_
 23	autonome	autonome	ADJ	_	Number=Sing	17	mod	_	_
 24	mh	mh	INTJ	_	_	23	discourse	_	_
-25	parce	parce	SCONJ	_	_	17	mod	_	_
+25	parce	parce	SCONJ	_	_	17	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 26	que	que	SCONJ	_	_	25	unk	_	InIdiom=Yes
 27	euh	euh	INTJ	_	_	30	discourse	_	_
 28	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	29	det	_	_
@@ -781,7 +781,7 @@
 # sent_id = Rhap_D0006-38
 # text = euh parce que euh je travaille dans le privé là
 1	euh	euh	INTJ	_	_	6	discourse	_	_
-2	parce	parce	SCONJ	_	_	0	root	_	_
+2	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	euh	euh	INTJ	_	_	6	discourse	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
@@ -815,7 +815,7 @@
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	aime	aimer	VERB	_	Number=Sing|Person=1	6	mod@relcl	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	parce	parce	SCONJ	_	_	9	mod	_	_
+11	parce	parce	SCONJ	_	_	9	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 12	que	que	SCONJ	_	_	11	unk	_	InIdiom=Yes
 13	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj@pass	_	_
 14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
@@ -862,7 +862,7 @@
 14	encore	encore	ADV	_	_	15	mod	_	_
 15	plus	plus	ADV	_	_	13	mod	_	_
 16	renforcée	renforcer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux@pass	_	_
-17	parce	parce	SCONJ	_	_	13	mod	_	_
+17	parce	parce	SCONJ	_	_	13	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 18	que	que	SCONJ	_	_	17	unk	_	InIdiom=Yes
 19	mh	mh	INTJ	_	_	26	discourse	_	_
 20	mh	mh	INTJ	_	_	26	discourse	_	_
@@ -1132,7 +1132,7 @@
 2	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	fait	faire	VERB	_	_	2	comp:aux	_	_
 4	médecine	médecine	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-5	parce	parce	SCONJ	_	_	2	mod	_	_
+5	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	euh	euh	INTJ	_	_	12	discourse	_	_
 8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
@@ -1232,7 +1232,7 @@
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
 5	spécialités	spécialité	NOUN	_	Gender=Fem|Number=Plur	3	comp:obl	_	_
 6	délaissées	délaisser	ADJ	_	_	5	mod	_	_
-7	parce	parce	SCONJ	_	_	3	mod	_	_
+7	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 8	que	que	SCONJ	_	_	7	unk	_	InIdiom=Yes
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 10	ne	ne	ADV	_	Polarity=Neg	11	mod	_	_
@@ -1347,7 +1347,7 @@
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	don	don	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	spécial	spécial	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
-9	parce	parce	SCONJ	_	_	5	mod	_	_
+9	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	14	dislocated	_	_
@@ -1514,7 +1514,7 @@
 # macrosyntax = ^parce ^que "bah"
 # sent_id = Rhap_D0006-85
 # text = parce que bah
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	bah	bah	INTJ	_	_	1	discourse	_	_
 
@@ -1639,7 +1639,7 @@
 11	en	en	ADP	_	_	9	conj:coord	_	_
 12	moins	moins	ADV	_	_	11	comp:obj	_	_
 13	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	8	comp:aux@pass	_	_
-14	parce	parce	SCONJ	_	_	8	mod	_	_
+14	parce	parce	SCONJ	_	_	8	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 15	que	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	euh	euh	INTJ	_	_	17	discourse	_	_
 17	dangereuses	dangereux	ADJ	_	Gender=Fem|Number=Plur	14	comp:obj	_	_
@@ -1688,7 +1688,7 @@
 # macrosyntax = ^parce ^que "euh" { c~ | c'est | pour moi < c'est } très important d'avoir ses idéaux //
 # sent_id = Rhap_D0006-98
 # text = parce que euh c~ c' est pour moi c' est très important d' avoir ses idéaux
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	c~	c~	X	_	_	6	subj	_	_
@@ -3241,7 +3241,7 @@
 12	acceptée	accepter	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
 13	en	en	ADP	_	_	10	mod	_	_
 14	S	S	PROPN	_	_	13	comp:obj	_	_
-15	parce	parce	SCONJ	_	_	10	mod	_	_
+15	parce	parce	SCONJ	_	_	10	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 16	que	que	SCONJ	_	_	15	unk	_	InIdiom=Yes
 17	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 18	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	15	comp:obj	_	_
@@ -3267,7 +3267,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	beaucoup	beaucoup	ADV	_	_	3	mod	_	_
 5	déçue	décevoir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
-6	parce	parce	SCONJ	_	_	3	mod	_	_
+6	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 7	que	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
 8	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	6	comp:obj	_	_
@@ -3322,7 +3322,7 @@
 # macrosyntax = ^parce ^que { quand j'étais petite | quand j'avais onze ans "euh" | "enfin" même avant | à sept ans } <+ on a commencé à énormément déménager avec ma famille //
 # sent_id = Rhap_D1003-8
 # text = parce que quand j' étais petite quand j' avais onze ans euh enfin même avant à sept ans on a commencé à énormément déménager avec ma famille
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	quand	quand	SCONJ	_	_	20	mod	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
@@ -3377,7 +3377,7 @@
 # macrosyntax = ^parce ^que j'ai { démé~ | déménagé } neuf fois dans ma vie //
 # sent_id = Rhap_D1003-10
 # text = parce que j' ai démé~ déménagé neuf fois dans ma vie
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -3476,7 +3476,7 @@
 # macrosyntax = ^parce ^que je suis d'origine portugaise //
 # sent_id = Rhap_D1003-16
 # text = parce que je suis d' origine portugaise
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -3583,7 +3583,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	conj:dicto	_	_
 11	chose	chose	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-12	parce	parce	SCONJ	_	_	4	mod	_	_
+12	parce	parce	SCONJ	_	_	4	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 15	je	il	PRON	conj:reform	Number=Sing|Person=1|PronType=Prs	14	conj:dicto	_	_
@@ -3683,7 +3683,7 @@
 # macrosyntax = ^parce ^que souvent < c'était les Portugais qui venaient dans { le | le } collège français pour avoir "euh" ( en gros ) un meilleur diplôme //
 # sent_id = Rhap_D1003-30
 # text = parce que souvent c' était les Portugais qui venaient dans le le collège français pour avoir euh en gros un meilleur diplôme
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	souvent	souvent	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@expl	_	_
@@ -4552,7 +4552,7 @@
 # macrosyntax = ^parce ^que dessus <+ il y avait { des ESPERLUETTE | [ c'est pas des coussins // c'était { des | des } carrés de laine tissés { qu'on avait eus en Tunisie | ^et qui avaient été mis $- dessus } // ] } //
 # sent_id = Rhap_D0009-31
 # text = parce que dessus il y avait des c' est pas des coussins c' était des des carrés de laine tissés qu' on avait eus en Tunisie et qui avaient été mis dessus
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	dessus	dessus	ADV	_	_	6	mod	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj@expl	_	_
@@ -4691,7 +4691,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dommage	dommage	NOUN	_	Gender=Masc|Number=Sing	3	comp:pred	_	_
-5	parce	parce	SCONJ	_	_	3	mod	_	_
+5	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 6	qu'	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -4880,7 +4880,7 @@
 5	appelle	appeler	VERB	_	_	0	root	_	_
 6	crapaud	crapaud	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 7	ben	ben	INTJ	_	_	6	discourse	_	_
-8	parce	parce	SCONJ	_	_	2	conj:appos	_	_
+8	parce	parce	SCONJ	_	_	2	conj:appos	_	ExtPos=SCONJ|PhraseType=Idiom
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
@@ -5330,7 +5330,7 @@
 # macrosyntax = $L2 ^parce ^que c'est des heures > ça "hein" //
 # sent_id = Rhap_D0009-91
 # text = parce que c' est des heures ça hein
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -5398,7 +5398,7 @@
 # macrosyntax = $L2 ^parce ^que j'ai un rouleau de tissu de velours beige //
 # sent_id = Rhap_D0009-95
 # text = parce que j' ai un rouleau de tissu de velours beige
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -5588,7 +5588,7 @@
 # macrosyntax = ^parce ^que "ouais" c'est ça //=
 # sent_id = Rhap_D0009-110
 # text = parce que ouais c' est ça
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ouais	ouais	INTJ	_	_	5	discourse	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
@@ -5598,7 +5598,7 @@
 # macrosyntax = ^parce ^que -$ $L1 du fait que tu as déjà quelque chose { d'un | d'un } fond clair < ( $L2 "mh" // ) $L1 je crains que [ { le beige | { ^et le | ^et { le | le } } jaunâtre un petit peu } < ça risque de $- XXX ] //
 # sent_id = Rhap_D0009-111
 # text = parce que de le fait que tu as déjà quelque chose d' un d' un fond clair mh je crains que le beige et le et le le jaunâtre un petit peu ça risque de
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	de	de	ADP	_	_	20	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
@@ -5699,7 +5699,7 @@
 # macrosyntax = ( ^parce ^que j'aime pas trop // ) la frange tout autour encore //
 # sent_id = Rhap_D0009-118
 # text = parce que j' aime pas trop la frange tout autour encore
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	aime	aimer	VERB	_	Number=Sing|Person=1	1	comp:obj	_	_
@@ -5714,7 +5714,7 @@
 # macrosyntax = ^parce ^que c'était une frange $- de { vingt | trente } //
 # sent_id = Rhap_D0009-119
 # text = parce que c' était une frange de vingt trente
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
@@ -5814,7 +5814,7 @@
 # macrosyntax = ^parce ^que j'ai regardé sur un catalogue //
 # sent_id = Rhap_D0009-128
 # text = parce que j' ai regardé sur un catalogue
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -5905,7 +5905,7 @@
 # macrosyntax = $L2 ^parce ^que ça donne un aspect ( quand même ) plus moderne si tu $- mets le tissu tout autour //
 # sent_id = Rhap_D0009-135
 # text = parce que ça donne un aspect quand même plus moderne si tu mets le tissu tout autour
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	donne	donner	VERB	_	_	1	comp:obj	_	_
@@ -6094,7 +6094,7 @@
 # macrosyntax = ^parce ^qu' on était allé le voir ce monsieur-là //
 # sent_id = Rhap_D0009-153
 # text = parce qu' on était allé le voir ce monsieur -là
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj@pass	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
@@ -7208,7 +7208,7 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	marrant	marrant	ADJ	_	_	3	comp:pred	_	_
-5	parce	parce	SCONJ	_	_	3	mod	_	_
+5	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
@@ -7440,7 +7440,7 @@
 # text = elle réfléchit parce qu' elle ne baise que dans les voitures
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	réfléchit	réfléchir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	parce	parce	SCONJ	_	_	2	mod	_	_
+3	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 4	qu'	que	SCONJ	_	_	3	unk	_	InIdiom=Yes
 5	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
@@ -7716,7 +7716,7 @@
 11	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 12	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	13	det	_	_
 13	emmerdes	emmerde	NOUN	_	_	11	comp:obl	_	_
-14	parce	parce	SCONJ	_	_	11	mod	_	_
+14	parce	parce	SCONJ	_	_	11	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 15	qu'	que	SCONJ	_	_	14	unk	_	InIdiom=Yes
 16	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 17	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
@@ -8050,7 +8050,7 @@
 # sent_id = Rhap_D2007-100
 # text = euh parce que c' était la vérité à chaque fois
 1	euh	euh	INTJ	_	_	5	discourse	_	_
-2	parce	parce	SCONJ	_	_	0	root	_	_
+2	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
@@ -8120,7 +8120,7 @@
 # macrosyntax = ^parce ^que le début < c'était Da //
 # sent_id = Rhap_D2007-106
 # text = parce que le début c' était Da
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	début	début	NOUN	_	Gender=Masc|Number=Sing	6	dislocated	_	_
@@ -9216,7 +9216,7 @@
 9	de	de	ADP	_	_	4	mod	_	_
 10	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
 11	activité	activité	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	parce	parce	SCONJ	_	_	2	mod	_	_
+12	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
 14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
 15	faisais	faire	VERB	_	Number=Sing|Person=1	12	comp:obj	_	_
@@ -9962,7 +9962,7 @@
 20	gens	gens	NOUN	_	_	18	comp:obj	_	_
 21	à	à	ADP	_	_	18	comp:obl@x	_	_
 22	mourir	mourir	VERB	ETRE	VerbForm=Inf	21	comp:obj	_	_
-23	parce	parce	SCONJ	_	_	3	mod	_	_
+23	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 24	qu'	que	SCONJ	_	_	23	unk	_	InIdiom=Yes
 25	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	26	subj	_	_
 26	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	comp:obj	_	_
@@ -10153,7 +10153,7 @@
 # text = c' est parce qu' il avait été pilote d' essai dès dix-sept dix-huit
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	parce	parce	SCONJ	_	_	2	comp:pred	_	_
+3	parce	parce	SCONJ	_	_	2	comp:pred	_	ExtPos=SCONJ|PhraseType=Idiom
 4	qu'	que	SCONJ	_	_	3	unk	_	InIdiom=Yes
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
@@ -10236,7 +10236,7 @@
 10	dans	dans	ADP	_	_	2	mod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	gare	gare	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	parce	parce	SCONJ	_	_	2	mod	_	_
+13	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 14	que	que	SCONJ	_	_	13	unk	_	InIdiom=Yes
 15	tous	tout	ADJ	_	Gender=Masc|Number=Plur	17	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
@@ -10619,7 +10619,7 @@
 5	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	très	très	ADV	_	_	7	mod	_	_
 7	étonnés	étonner	ADJ	_	_	5	comp:pred	_	_
-8	parce	parce	SCONJ	_	_	5	mod	_	_
+8	parce	parce	SCONJ	_	_	5	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 9	que	que	SCONJ	_	_	8	unk	_	InIdiom=Yes
 10	quand	quand	SCONJ	_	_	18	mod	_	_
 11	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
@@ -10900,7 +10900,7 @@
 # macrosyntax = $L1 ^parce ^que tous ces petits enfants qui arrivent < ils vont en maternelle //
 # sent_id = Rhap_D0002-29
 # text = parce que tous ces petits enfants qui arrivent ils vont en maternelle
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 4	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	6	det	_	_
@@ -10945,7 +10945,7 @@
 7	parlant	parler	VERB	_	Tense=Pres|VerbForm=Part	3	mod	_	_
 8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
 9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	_
-10	parce	parce	SCONJ	_	_	3	mod	_	_
+10	parce	parce	SCONJ	_	_	3	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes
 12	comme	comme	SCONJ	_	_	22	mod	_	_
 13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj	_	_
@@ -11285,7 +11285,7 @@
 # macrosyntax = ^parce ^que ça < personne n'en veut //
 # sent_id = Rhap_D0002-47
 # text = parce que ça personne n' en veut
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	_
 4	personne	personne	PRON	_	_	7	subj	_	_
@@ -11300,7 +11300,7 @@
 2	mh	mh	INTJ	_	_	7	discourse	_	_
 3	mh	mh	INTJ	_	_	7	discourse	_	_
 4	mh	mh	INTJ	_	_	7	discourse	_	_
-5	parce	parce	SCONJ	_	_	0	root	_	_
+5	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	dire	dire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
@@ -11678,7 +11678,7 @@
 # macrosyntax = ^parce ^que $- $L1 { quand ils sont petits  "ben" "euh" ESPERLUETTE //+ | $L2 quand il faut les emmener | ^et que c'est pas facile } //
 # sent_id = Rhap_D0002-72
 # text = parce que quand ils sont petits ben euh quand il faut les emmener et que c' est pas facile
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	quand	quand	SCONJ	_	_	1	comp:obj	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
@@ -11737,7 +11737,7 @@
 # macrosyntax = ^parce ^que déjà < c'est ESPERLUETTE //
 # sent_id = Rhap_D0002-74
 # text = parce que déjà c' est
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	déjà	déjà	ADV	_	_	5	mod	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
@@ -11778,7 +11778,7 @@
 # macrosyntax = ^parce ^que les mamans africaines < elles ont beaucoup de mal à se séparer de leurs petits //=
 # sent_id = Rhap_D0002-77
 # text = parce que les mamans africaines elles ont beaucoup de mal à se séparer de leurs petits
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	mamans	maman	NOUN	_	_	7	dislocated	_	_
@@ -12978,7 +12978,7 @@
 # macrosyntax = ^parce ^qu' { on remarque "euh" { ass~ "euh" | de façon "euh" } ESPERLUETTE | on remarque bien que le salaire n'est { ^ni en adéquation { avec le nombre d'années "euh" | avec le nombre d'études suivies } | ^ni avec le travail { à fournir | personnel que l'on fournit } } } //
 # sent_id = Rhap_M1003-21
 # text = parce qu' on remarque euh ass~ euh de façon euh on remarque bien que le salaire n' est ni en adéquation avec le nombre d' années euh avec le nombre d' études suivies ni avec le travail à fournir personnel que l' on fournit
-1	parce	parce	SCONJ	_	_	0	root	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 4	remarque	remarquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
