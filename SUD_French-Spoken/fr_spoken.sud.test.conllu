@@ -1705,7 +1705,7 @@
 
 # macrosyntax = $L2 XXX // "ah" quelqu'un -$ $L2 a dit du mal > quand même > de c~ ESPERLUETTE //
 # sent_id = Rhap_D2010-11
-# text = ah quelqu' un a dit du mal quand même de c~
+# text = ah quelqu'un a dit du mal quand même de c~
 1	ah	ah	INTJ	_	_	3	discourse	_	_
 2	quelqu'un	quelqueun	PRON	_	_	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1763,7 +1763,7 @@
 
 # macrosyntax = $L2 quelqu'un a dit "euh" [ { on n~ | on ne } comprend pas qu'un éditeur laisse passer des fautes de grammaire pareilles // ] //
 # sent_id = Rhap_D2010-17
-# text = quelqu' un a dit euh on n~ on ne comprend pas qu' un éditeur laisse passer des fautes de grammaire pareilles
+# text = quelqu'un a dit euh on n~ on ne comprend pas qu' un éditeur laisse passer des fautes de grammaire pareilles
 1	quelqu'un	quelqueun	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dit	dire	VERB	_	_	2	comp:aux	_	_
@@ -2622,7 +2622,7 @@
 
 # macrosyntax = ^et d'ailleurs < quelqu'un vous a remarquée >+ qui est dans une grande limousine noire //
 # sent_id = Rhap_D2010-82
-# text = et d' ailleurs quelqu' un vous a remarquée qui est dans une grande limousine noire
+# text = et d' ailleurs quelqu'un vous a remarquée qui est dans une grande limousine noire
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	d'	de	ADP	_	_	6	mod	_	_
 3	ailleurs	ailleurs	ADV	_	_	2	comp:obj	_	_
@@ -4629,7 +4629,7 @@
 
 # macrosyntax = Christian Perronne est { infectiologue | chef du service des maladies { infectieuses | ^et tropicales } à l'hôpital Raymond Poincaré de Garches dans les Hauts-de-Seine } //
 # sent_id = Rhap_D2008-18
-# text = Christian Perronne est infectiologue chef de le service de les maladies infectieuses et tropicales à l' hôpital Raymond Poincaré de Garches dans les Hauts - de - Seine
+# text = Christian Perronne est infectiologue chef de le service de les maladies infectieuses et tropicales à l' hôpital Raymond Poincaré de Garches dans les Hauts-de-Seine
 1	Christian	Christian	PROPN	_	_	3	subj	_	_
 2	Perronne	Perronne	PROPN	_	_	1	flat	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4837,7 +4837,7 @@
 
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = Rhap_D2008-32
-# text = c'est-à-dire que si vraiment euh l' activité que l' on constate aujourd'hui en en Amérique de le Nord oui euh devient l' activité d' une pandémie alors euh
+# text = c'est-à-dire que si vraiment euh l' activité que l'on constate aujourd'hui en en Amérique de le Nord oui euh devient l' activité d' une pandémie alors euh
 1	c'est-à-dire	c'est-à-dire 	ADV	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	si	si	SCONJ	_	_	21	mod	_	_
@@ -5653,7 +5653,7 @@
 
 # macrosyntax = il y a pas { de & | d'anti viraux } //=
 # sent_id = Rhap_D2008-77
-# text = il y a pas de d' anti - viraux
+# text = il y a pas de d' anti-viraux
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7055,7 +7055,7 @@
 
 # macrosyntax = il fait ( d'abord ) lever la belle-mère de Pierre //
 # sent_id = Rhap_M2003-5
-# text = il fait d' abord lever la belle - mère de Pierre
+# text = il fait d' abord lever la belle-mère de Pierre
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@caus	_	_
 2	fait	faire	AUX	_	_	0	root	_	_
 3	d'	de	ADP	_	_	5	mod	_	_
@@ -7181,7 +7181,7 @@
 
 # macrosyntax = ^et aujourd'hui <+ dans sa première journée <+ il fait de la belle-mère de Pierre une des toutes premières disciples //
 # sent_id = Rhap_M2003-12
-# text = et aujourd'hui dans sa première journée il fait de la belle - mère de Pierre une de les toutes premières disciples
+# text = et aujourd'hui dans sa première journée il fait de la belle-mère de Pierre une de les toutes premières disciples
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	aujourd'hui	aujourd'	ADV	_	_	8	mod	_	_
 3	dans	dans	ADP	_	_	8	mod	_	_
@@ -7758,7 +7758,7 @@
 
 # macrosyntax = ^aussi { à l'approche de la journée des malades voulue par Jean-Paul deux | le onze février | en la fête de Notre-Dame de Lourdes | en ce jour de la pastorale de la santé } <+ { la puissance de guérison de Jésus | le don de la vie qu'il communique } interroge { vraiment | vraiment } { la responsabilité de l'Église | ^c'^est-^à-^dire la responsabilité de chacun d'entre nous } //
 # sent_id = Rhap_M2003-39
-# text = aussi à l' approche de la journée de les malades voulue par Jean - Paul deux le onze février en la fête de Notre-Dame de Lourdes en ce jour de la pastorale de la santé la puissance de guérison de Jésus le don de la vie qu' il communique interroge vraiment vraiment la responsabilité de l' Église c'est-à-dire la responsabilité de chacun d' entre nous
+# text = aussi à l' approche de la journée de les malades voulue par Jean-Paul deux le onze février en la fête de Notre-Dame de Lourdes en ce jour de la pastorale de la santé la puissance de guérison de Jésus le don de la vie qu' il communique interroge vraiment vraiment la responsabilité de l' Église c'est-à-dire la responsabilité de chacun d' entre nous
 1	aussi	aussi	ADV	_	_	48	mod	_	_
 2	à	à	ADP	_	_	48	mod	_	_
 3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
@@ -7918,7 +7918,7 @@
 
 # macrosyntax = c'est sciences médico-sociales //
 # sent_id = Rhap_M1001-5
-# text = c' est sciences médico - sociales
+# text = c' est sciences médico-sociales
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	sciences	science	NOUN	_	Gender=Fem|Number=Plur	2	comp:pred	_	_
@@ -7953,7 +7953,7 @@
 
 # macrosyntax = ^et je suis plus "euh" vers { la biologie | ^et "euh" le social | ^donc "euh" XXX sciences médico-sociales } //
 # sent_id = Rhap_M1001-8
-# text = et je suis plus euh vers la biologie et euh le social donc euh sciences médico - sociales
+# text = et je suis plus euh vers la biologie et euh le social donc euh sciences médico-sociales
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	suis	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10611,7 +10611,7 @@
 
 # macrosyntax = je ne suis pas du tout quelqu'un { de | d' } extraverti //
 # sent_id = Rhap_D2001-132
-# text = je ne suis pas de le tout quelqu' un de d' extraverti
+# text = je ne suis pas de le tout quelqu'un de d' extraverti
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11002,7 +11002,7 @@
 
 # macrosyntax = ^et "euh" ensuite < vous prenez la direction de Saint-Jean //
 # sent_id = Rhap_M0008-2
-# text = et euh ensuite vous prenez la direction de Saint - Jean
+# text = et euh ensuite vous prenez la direction de Saint-Jean
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	ensuite	ensuite	ADV	_	_	5	mod	_	_
@@ -11634,7 +11634,7 @@
 
 # macrosyntax = { l' Afghanistan | le Proche-Orient } < je connais la somme { de courage | ^et d' abnégation } que requiert l' accomplissement de vos missions dans un tel contexte //
 # sent_id = Rhap_M2001-21
-# text = l' Afghanistan le Proche - Orient je connais la somme de courage et d' abnégation que requiert l' accomplissement de vos missions dans un tel contexte
+# text = l' Afghanistan le Proche-Orient je connais la somme de courage et d' abnégation que requiert l' accomplissement de vos missions dans un tel contexte
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	Afghanistan	Afghanistan	PROPN	_	_	6	dislocated	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -11852,7 +11852,7 @@
 
 # macrosyntax = ^et quand il a donné { sa | sa } foi à quelqu'un <+ c'est durable "euh" //
 # sent_id = Rhap_D1001-9
-# text = et quand il a donné sa sa foi à quelqu' un c' est durable euh
+# text = et quand il a donné sa sa foi à quelqu'un c' est durable euh
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	quand	quand	SCONJ	_	_	12	mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_

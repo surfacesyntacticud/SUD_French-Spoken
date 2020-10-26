@@ -207,7 +207,7 @@
 
 # macrosyntax = ^ensuite <+ "euh" je vais "euh" prendre [ je crois que c' est l' avenue Alsace-Lorraine // ] que je vais { remonter | remonter } //
 # sent_id = Rhap_M0016-14
-# text = ensuite euh je vais euh prendre je crois que c' est l' avenue Alsace - Lorraine que je vais remonter remonter
+# text = ensuite euh je vais euh prendre je crois que c' est l' avenue Alsace-Lorraine que je vais remonter remonter
 1	ensuite	ensuite	ADV	_	_	4	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
@@ -254,7 +254,7 @@
 
 # macrosyntax = je vais } toujours continuer cette avenue Alsace-Lorraine //
 # sent_id = Rhap_M0016-17
-# text = je vais toujours continuer cette avenue Alsace - Lorraine
+# text = je vais toujours continuer cette avenue Alsace-Lorraine
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
@@ -1006,7 +1006,7 @@
 
 # macrosyntax = je tombe sur la place Sainte-Claire ( on va dire ) là où il y a la halle //
 # sent_id = Rhap_M0014-5
-# text = je tombe sur la place Sainte - Claire on va dire là où il y a la halle
+# text = je tombe sur la place Sainte-Claire on va dire là où il y a la halle
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	tombe	tomber	VERB	ETRE	Number=Sing|Person=1	0	root	_	_
 3	sur	sur	ADP	_	_	2	mod	_	_
@@ -2500,7 +2500,7 @@
 
 # macrosyntax = oui // c'était bien un vote sanction (+ pour Jean Christophe Giesbert dans La dépêche du midi ) avec un cinglant désaveu pour { Nicolas Sarkozy | ^et le gouvernement de François Fillon } //
 # sent_id = Rhap_D2013-10
-# text = c' était bien un vote sanction pour Jean - Christophe Giesbert dans La dépêche de le midi avec un cinglant désaveu pour Nicolas Sarkozy et le gouvernement de François Fillon
+# text = c' était bien un vote sanction pour Jean-Christophe Giesbert dans La dépêche de le midi avec un cinglant désaveu pour Nicolas Sarkozy et le gouvernement de François Fillon
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADV	_	_	2	mod	_	_
@@ -2559,7 +2559,7 @@
 
 # macrosyntax = pour Le Parisien Aujourd'hui en France <+ à la une < ce n'est plus une vague //=
 # sent_id = Rhap_D2013-12
-# text = pour Le Parisien Aujourd' hui en France à la une ce n' est plus une vague
+# text = pour Le Parisien Aujourd'hui en France à la une ce n' est plus une vague
 1	pour	pour	ADP	_	_	12	mod	_	_
 2	Le	le	DET	_	_	3	det	_	_
 3	Parisien	Parisien	PROPN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -6638,7 +6638,7 @@
 
 # macrosyntax = { à chacune | ^et à chacun d'entre vous <+ }  { Françaises | ^et Français } { de métropole | d'outre-mer | de l'étranger } <+ je souhaite très chaleureusement { une bonne | ^et une heureuse } année deux mille //
 # sent_id = Rhap_M2004-60
-# text = à chacune et à chacun d' entre vous Françaises et Français de métropole d' outre - mer de l' étranger je souhaite très chaleureusement une bonne et une heureuse année deux mille
+# text = à chacune et à chacun d' entre vous Françaises et Français de métropole d' outre-mer de l' étranger je souhaite très chaleureusement une bonne et une heureuse année deux mille
 1	à	à	ADP	_	_	20	mod	_	_
 2	chacune	chacun	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Ind	1	comp:obj	_	_
 3	et	et	CCONJ	_	_	4	cc	_	_
@@ -6780,7 +6780,7 @@
 
 # macrosyntax = $L1 ^et ^puis après <+ "ben" j' ai travaillé sur { les micro-processeurs | l' informatique } //
 # sent_id = Rhap_D0005-9
-# text = et puis après ben j' ai travaillé sur les micro - processeurs l' informatique
+# text = et puis après ben j' ai travaillé sur les micro-processeurs l' informatique
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADP	_	_	6	mod	_	_
@@ -6937,7 +6937,7 @@
 
 # macrosyntax = moi < je suis rentré pour "euh" { f~ | faire } des automatismes "euh" d' appareillage { su~ | avec } des micro-processeurs //
 # sent_id = Rhap_D0005-20
-# text = moi je suis rentré pour euh f~ faire des automatismes euh d' appareillage su~ avec des micro - processeurs
+# text = moi je suis rentré pour euh f~ faire des automatismes euh d' appareillage su~ avec des micro-processeurs
 1	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	dislocated	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj@pass	_	_
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7111,7 +7111,7 @@
 
 # macrosyntax = donc < "euh" "bon" "ben" là < maintenant <+ { je s~ | je suis } { plus | ^ou moins } aidé "euh" par quelqu' un à mi-temps > heureusement //
 # sent_id = Rhap_D0005-29
-# text = donc euh bon ben là maintenant je s~ je suis plus ou moins aidé euh par quelqu'un à mi - temps heureusement
+# text = donc euh bon ben là maintenant je s~ je suis plus ou moins aidé euh par quelqu'un à mi-temps heureusement
 1	donc	donc	ADV	_	_	8	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	bon	bon	INTJ	_	_	1	discourse	_	_
@@ -8841,7 +8841,7 @@
 
 # macrosyntax = "euh" { je |} { d' ici | du CCJ } <+ {| je } remonte l' avenue Alsace-Lorraine jusqu' à la place Victor Hugo //
 # sent_id = Rhap_M0015-1
-# text = euh je d' ici de le CCJ je remonte l' avenue Alsace - Lorraine jusqu' à la place Victor Hugo
+# text = euh je d' ici de le CCJ je remonte l' avenue Alsace-Lorraine jusqu' à la place Victor Hugo
 1	euh	euh	INTJ	_	_	9	discourse	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	_
 3	d'	de	ADP	_	_	9	mod	_	_
@@ -9461,7 +9461,7 @@
 
 # macrosyntax = ça < c'est { { par le | par $- $L2 le | par le } quatre-vingt-six |} //+ $L1 {| par le quatre-vingt-six } //+ -$ $L2 { qui est un |} $- $L1 qui passe à l'arrière-plan //+ $L2 {| qui est un bus } { formidable | -$ $L2 formidable } { { qui | qui | qui } traverse le quar~ | qui $- $L2 passe { boulevard Saint-Germain | ( $L1 ah oui // ) -$ $L2 "euh" boulevard Henri Quatre } } //
 # sent_id = Rhap_D0001-20
-# text = ça c' est par le par le par le quatre-vingt-six par le quatre-vingt-six qui est un qui passe à l' arrière - plan qui est un bus formidable formidable qui qui qui traverse le quar~ qui passe boulevard Saint - Germain ah oui euh boulevard Henri Quatre
+# text = ça c' est par le par le par le quatre-vingt-six par le quatre-vingt-six qui est un qui passe à l' arrière-plan qui est un bus formidable formidable qui qui qui traverse le quar~ qui passe boulevard Saint-Germain ah oui euh boulevard Henri Quatre
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10083,7 +10083,7 @@
 
 # macrosyntax = ^et ^puis après <+ j'étais au lycée Arago //+ $- $L2 donc < "voyez" { qui est ESPERLUETTE | ( $L1 mh XXX mh mh // ) -$ $L2 "hein" qui avait { une annexe d'ailleurs "euh" | une annexe qui est à Reuilly-Diderot } } //
 # sent_id = Rhap_D0001-63
-# text = et puis après j' étais à le lycée Arago donc voyez qui est mh mh mh hein qui avait une annexe d'ailleurs euh une annexe qui est à Reuilly - Diderot
+# text = et puis après j' étais à le lycée Arago donc voyez qui est mh mh mh hein qui avait une annexe d'ailleurs euh une annexe qui est à Reuilly-Diderot
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	6	mod	_	_
@@ -12157,7 +12157,7 @@
 
 # macrosyntax = "hein" "je veux dire" comme je suis quelqu'un { de | de } discipliné < je vais traiter "euh" mon sujet [ l'art est-il le reflet de la société // ] //
 # sent_id = Rhap_M2002-4
-# text = hein je veux dire comme je suis quelqu' un de de discipliné je vais traiter euh mon sujet l' art est -il le reflet de la société
+# text = hein je veux dire comme je suis quelqu'un de de discipliné je vais traiter euh mon sujet l' art est -il le reflet de la société
 1	hein	hein	INTJ	_	_	13	discourse	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	discourse	_	_
@@ -17037,7 +17037,7 @@
 
 # macrosyntax = ^ou peut-être < y a-t-il { une nouvelle & | une anti-littérature | une contre-littérature } //
 # sent_id = Rhap_D2009-45
-# text = ou peut-être y a -t-il une nouvelle une anti - littérature une contre-littérature
+# text = ou peut-être y a -t-il une nouvelle une anti-littérature une contre-littérature
 1	ou	ou	CCONJ	_	_	4	cc	_	_
 2	peut-être	peut-être	ADV	_	_	4	mod	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	4	comp:obl	_	_
@@ -18414,7 +18414,7 @@
 
 # macrosyntax = ( $L2 "mh" // ) -$ $- $L1 donc < souvent < ce sont les grands-parents $L1 qui achètent les livres > $- $- $L1 plus que les parents //
 # sent_id = Rhap_D0004-51
-# text = mh donc souvent ce sont les grands - parents qui achètent les livres plus que les parents
+# text = mh donc souvent ce sont les grands-parents qui achètent les livres plus que les parents
 1	mh	mh	INTJ	_	_	5	discourse	_	_
 2	donc	donc	ADV	_	_	5	discourse	_	_
 3	souvent	souvent	ADV	_	_	5	mod	_	_
@@ -18609,7 +18609,7 @@
 
 # macrosyntax = c'est ( $L2 "mh" "mh" // ) -$ $L1 un peu "bon" "évidemment" { les achats { sur internet | ( $L2 "mh" "mh" // ) $L1  "euh" donc sur les sites de vente de livres } |} //+
 # sent_id = Rhap_D0004-62
-# text = c' est mh mh un peu bon évidemment les achats sur internet euh donc sur les sites de vente de livres et puis ça ça commence aussi oui et puis surtout le le temps que les gens passent devant Internet
+# text = c' est mh mh un peu bon évidemment les achats sur internet euh donc sur les sites de vente de livres
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mh	mh	INTJ	_	_	2	discourse	_	_
@@ -19194,7 +19194,7 @@
 
 # macrosyntax = ça veut dire que [ en général < ( ^et je les vois pas avant vingt heures quinze "hein" // ) c'est à peu près { l~ | l~ | leurs } heures de ESPERLUETTE // ] //
 # sent_id = Rhap_D0004-88_3
-# text = ça veut dire que en général et je les vois pas avant vingt heures quinze hein c' est à peu près l~ l~ leurs heures de si je les vois euh si je les vois vers vingt heures ou dix-neuf heures trente c' est qu' ils sont partis plus tôt
+# text = ça veut dire que en général et je les vois pas avant vingt heures quinze hein c' est à peu près l~ l~ leurs heures de
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_

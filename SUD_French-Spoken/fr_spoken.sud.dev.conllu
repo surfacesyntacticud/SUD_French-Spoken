@@ -2101,7 +2101,7 @@
 
 # macrosyntax = pendant ce temps <+ { les étudiants | ^et les enseignants-chercheurs } ne désarment pas //
 # sent_id = Rhap_M2006-12
-# text = pendant ce temps les étudiants et les enseignants - chercheurs ne désarment pas
+# text = pendant ce temps les étudiants et les enseignants-chercheurs ne désarment pas
 1	pendant	pendant	ADP	_	_	10	mod	_	_
 2	ce	ce	DET	_	_	3	det	_	_
 3	temps	temps	NOUN	_	Gender=Masc	1	comp:obj	_	_
@@ -2532,7 +2532,7 @@
 
 # macrosyntax = tout le monde est maintenant ( en tout cas ) suspendu à ce que Nicolas Sarkozy annoncera demain lors de sa rencontre à l'Élysée avec les élus d'outre-mer //
 # sent_id = Rhap_M2006-38
-# text = tout le monde est maintenant en tout cas suspendu à ce que Nicolas Sarkozy annoncera demain lors de sa rencontre à l' Élysée avec les élus d' outre - mer
+# text = tout le monde est maintenant en tout cas suspendu à ce que Nicolas Sarkozy annoncera demain lors de sa rencontre à l' Élysée avec les élus d' outre-mer
 1	tout	tout	ADV	_	_	3	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	monde	monde	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
@@ -2656,7 +2656,7 @@
 
 # macrosyntax = { le président de l'Unef | ( Jean-Baptiste Prévot ) } au micro de Sonia Bourane //
 # sent_id = Rhap_M2006-45
-# text = le président de l' Unef Jean - Baptiste Prévot à le micro de Sonia Bourane
+# text = le président de l' Unef Jean-Baptiste Prévot à le micro de Sonia Bourane
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	président	président	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	de	de	ADP	_	_	2	mod	_	_
@@ -2673,7 +2673,7 @@
 
 # macrosyntax = aux États Unis <+ Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès //
 # sent_id = Rhap_M2006-46
-# text = à les États - Unis Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès
+# text = à les États-Unis Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès
 1	à	à	ADP	_	_	7	mod	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	États-Unis	États-Unis	PROPN	_	_	1	comp:obj	_	_
@@ -4290,7 +4290,7 @@
 
 # macrosyntax = $- $L2 { tu as | tu as } quelqu'un qui peut ESPERLUETTE //
 # sent_id = Rhap_D0009-7
-# text = tu as tu as quelqu' un qui peut
+# text = tu as tu as quelqu'un qui peut
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
@@ -4313,7 +4313,7 @@
 
 # macrosyntax = j'ai quelqu'un -$ qui est de Saint-Sauveur Lorzac qui passe //
 # sent_id = Rhap_D0009-10
-# text = j' ai quelqu' un qui est de Saint - Sauveur Lorzac qui passe
+# text = j' ai quelqu'un qui est de Saint-Sauveur Lorzac qui passe
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	quelqu'un	quelqueun	PRON	_	_	2	comp:obj	_	_
@@ -6263,7 +6263,7 @@
 
 # macrosyntax = après <+ vous continuez direction Saint-Jean //
 # sent_id = Rhap_M0007-8
-# text = après vous continuez direction Saint - Jean
+# text = après vous continuez direction Saint-Jean
 1	après	après	ADV	_	_	3	mod	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6999,7 +6999,7 @@
 
 # macrosyntax = ^et donc < on est parti  " euh "   " c'est vrai "  avec { Jean François Alain | Alexandre XXX } //
 # sent_id = Rhap_D2007-13
-# text = et donc on est parti euh c' est vrai avec Jean - François Alain
+# text = et donc on est parti euh c' est vrai avec Jean-François Alain Alexandre XXX
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	donc	donc	ADV	_	_	4	mod	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
@@ -7017,7 +7017,7 @@
 
 # macrosyntax = $L3 $- c'est bien //
 # sent_id = Rhap_D2007-14
-# text = c' est bien Alexandre XXX
+# text = c' est bien
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADJ	_	_	2	comp:pred	_	_
@@ -7313,7 +7313,7 @@
 
 # macrosyntax = $L3 { est-ce qu' un après-midi -$ | $L3 { Emmanuelle | Emmanuelle } < est-ce qu' un après-midi } <+ en rentrant plus tôt <+ vous avez déjà surpris votre petit ami au lit avec quelqu'un d'autre //
 # sent_id = Rhap_D2007-39
-# text = est -ce qu' un après-midi Emmanuelle Emmanuelle est -ce que est -ce qu' un après-midi en rentrant plus tôt vous avez déjà surpris votre petit ami à le lit avec quelqu' un d' autre
+# text = est -ce qu' un après-midi Emmanuelle Emmanuelle est -ce que est -ce qu' un après-midi en rentrant plus tôt vous avez déjà surpris votre petit ami à le lit avec quelqu'un d' autre
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
 3	qu'	que	SCONJ	_	_	1	comp:pred	_	_
@@ -10422,7 +10422,7 @@
 
 # macrosyntax = ^et j' arrive "euh" à Alsace-Lorraine //
 # sent_id = Rhap_M0012-6
-# text = et j' arrive euh à Alsace - Lorraine
+# text = et j' arrive euh à Alsace-Lorraine
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	arrive	arriver	VERB	ETRE	Number=Sing|Person=1	0	root	_	_
@@ -11847,7 +11847,7 @@
 
 # macrosyntax = donc < "euh" il y a une jeune fille habillée tout en noir qui "euh" (+ en se baladant dans la rue ) a vu une vitrine de pâtissier-boulanger //
 # sent_id = Rhap_M0002-1
-# text = donc euh il y a une jeune fille euh habillée tout en noir qui euh en se baladant dans la rue a vu une euh vitrine de pâtissier - boulanger
+# text = donc euh il y a une jeune fille euh habillée tout en noir qui euh en se baladant dans la rue a vu une euh vitrine de pâtissier-boulanger
 1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
@@ -11879,7 +11879,7 @@
 
 # macrosyntax = ^et ^puis pendant qu'elle regardait cette vitrine <+ { il "euh" | il } y a quelqu'un qui arrivait pour livrer "euh" { du pain | ^et des gâteaux } //
 # sent_id = Rhap_M0002-2
-# text = et puis pendant qu' elle regardait cette vitrine il euh il y a quelqu' un qui arrivait pour livrer euh du pain et des gâteaux
+# text = et puis pendant qu' elle regardait cette vitrine il euh il y a quelqu'un qui arrivait pour livrer euh du pain et des gâteaux
 1	et	et	CCONJ	_	_	13	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	pendant	pendant	ADP	_	_	13	mod	_	_
@@ -12428,7 +12428,7 @@
 
 # macrosyntax = "euh" ^et là <+ vous passez devant "euh" les halles Sainte-Claire //
 # sent_id = Rhap_M0003-24
-# text = euh et là vous passez devant euh les halles Sainte - Claire
+# text = euh et là vous passez devant euh les halles Sainte-Claire
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	et	et	CCONJ	_	_	5	cc	_	_
 3	là	là	ADV	_	_	5	mod	_	_
