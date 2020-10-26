@@ -11740,13 +11740,13 @@
 13	foi	foi	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	vis-à-vis	vis-à-vis	ADV	_	_	10	conj:coord	_	_
 15	de	de	ADP	_	_	14	comp:obj	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-17	de	de	ADP	_	_	16	conj:dicto	_	_
-18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	conj:dicto	_	_
+16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	comp:obj@scrap	_	_
+17	de	de	ADP	_	_	15	conj:dicto	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	unk	_	_
 19	église	église	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 20	vis-à-vis	vis-à-vis	ADV	_	_	14	conj:coord	_	_
-21	de	de	ADP	_	_	20	comp:obl	_	_
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
+21	de	de	ADP	_	_	20	comp:obl	_	ExtPos=DET|PhraseType=Idiom
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	InIdiom=Yes
 23	vie	vie	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 24	chrétienne	chrétien	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 
