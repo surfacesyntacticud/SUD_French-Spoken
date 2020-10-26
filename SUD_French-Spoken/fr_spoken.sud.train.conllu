@@ -3852,7 +3852,7 @@
 3	pu	pouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
 5	capter	capter	VERB	_	_	3	comp:obj@x	_	_
-6	tout	tout	ADV	_	_	10	mod	_	_
+6	tout	tout	ADV	_	_	10	mod	_	ExtPos=ADV|PhraseType=Idiom
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
 8	fait	fait	NOUN	_	Gender=Masc|Number=Sing	7	unk	_	InIdiom=Yes
 9	euh	euh	INTJ	_	_	6	discourse	_	_
@@ -4077,7 +4077,7 @@
 9	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	8	comp:obl	_	_
 10	dire	dire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
 11	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
-12	tout	tout	ADV	_	_	11	mod	_	_
+12	tout	tout	ADV	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom
 13	à	à	ADP	_	_	12	unk	_	InIdiom=Yes
 14	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	unk	_	InIdiom=Yes
 15	d'accord	d'accord	INTJ	_	_	10	comp:obj	_	_
@@ -7599,7 +7599,7 @@
 16	ben	ben	INTJ	_	_	13	discourse	_	_
 17	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	18	subj	_	_
 18	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-19	tout	tout	ADV	_	_	18	mod	_	_
+19	tout	tout	ADV	_	_	18	mod	_	ExtPos=ADV|PhraseType=Idiom
 20	de	de	ADP	_	_	19	unk	_	InIdiom=Yes
 21	suite	suite	NOUN	_	Gender=Fem|Number=Sing	20	unk	_	InIdiom=Yes
 
@@ -8257,7 +8257,7 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod	_	_
 6	vraiment	vraiment	ADV	_	_	10	mod	_	_
-7	tout	tout	ADV	_	_	10	mod	_	_
+7	tout	tout	ADV	_	_	10	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	à	à	ADP	_	_	7	unk	_	InIdiom=Yes
 9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	unk	_	InIdiom=Yes
 10	sérieux	sérieux	ADJ	_	Gender=Masc	5	comp:pred	_	_
@@ -9382,7 +9382,7 @@
 # macrosyntax = $L2 ^ou ^alors je vais chez Gibert //=
 # sent_id = Rhap_D0001-13
 # text = ou alors je vais chez Gibert
-1	ou	ou	CCONJ	_	_	4	cc	_	_
+1	ou	ou	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	alors	alors	ADV	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10951,7 +10951,7 @@
 # macrosyntax = ^ou bien je prends { la rue Lesdiguières | ^et le boulevard Edouard Rey } //
 # sent_id = Rhap_M0011-10
 # text = ou bien je prends la rue Lesdiguières et le boulevard Edouard Rey
-1	ou	ou	CCONJ	_	_	4	cc	_	_
+1	ou	ou	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	bien	bien	ADV	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -11010,7 +11010,7 @@
 # macrosyntax = ^ou ^alors il y a { une petite rue ( ^mais dont je ne sais pas le nom ) | une petite rue { en ESPERLUETTE | qui tourne un peu } } //
 # sent_id = Rhap_M0011-15
 # text = ou alors il y a une petite rue mais dont je ne sais pas le nom une petite rue en qui tourne un peu
-1	ou	ou	CCONJ	_	_	5	cc	_	_
+1	ou	ou	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	alors	alors	ADV	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -13373,7 +13373,7 @@
 4	encore	encore	ADV	_	_	2	mod	_	_
 5	pour	pour	ADP	_	_	2	mod	_	_
 6	pas	pas	ADV	_	Polarity=Neg	7	mod	_	InIdiom=Yes
-7	mal	mal	ADV	_	_	5	comp:obj	_	_
+7	mal	mal	ADV	_	_	5	comp:obj	_	ExtPos=ADV|PhraseType=Idiom
 8	de	de	ADP	_	_	7	comp:obl	_	_
 9	masques	masque	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 10	africains	africain	ADJ	_	Gender=Masc|Number=Plur	9	mod	_	_
@@ -13692,7 +13692,7 @@
 23	dessinée	dessiné	ADJ	_	Gender=Fem|Number=Sing	22	mod	_	_
 24	mais	mais	CCONJ	_	_	26	cc	_	_
 25	pas	pas	ADV	_	Polarity=Neg	26	mod	_	InIdiom=Yes
-26	mal	mal	ADV	_	_	20	conj:coord	_	_
+26	mal	mal	ADV	_	_	20	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 27	de	de	ADP	_	_	26	comp:obl	_	_
 28	livres	livre	NOUN	_	_	27	comp:obj	_	_
 29	sur	sur	ADP	_	_	28	mod	_	_
@@ -17028,7 +17028,7 @@
 # macrosyntax = ^ou ^bien vous le pensez vraiment //
 # sent_id = Rhap_D2009-44
 # text = ou bien vous le pensez vraiment
-1	ou	ou	CCONJ	_	_	5	cc	_	_
+1	ou	ou	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	bien	bien	ADV	_	_	1	unk	_	InIdiom=Yes
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
 4	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	comp:obj	_	_
@@ -17476,7 +17476,7 @@
 21	par	par	ADP	_	_	27	mod	_	_
 22	là	là	ADV	_	_	21	comp:obj	_	_
 23	-même	même	ADV	_	_	22	mod	_	_
-24	euh	euh	INTJ	_	_	22	unk	_	InIdiom=Yes
+24	euh	euh	INTJ	_	_	22	unk	_	_
 25	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	subj	_	_
 26	il	il	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	conj:dicto	_	_
 27	contribue	contribuer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_

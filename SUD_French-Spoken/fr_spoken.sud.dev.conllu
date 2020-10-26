@@ -10477,7 +10477,7 @@
 # text = ils étaient tout à fait normaux
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	tout	tout	ADV	_	_	6	mod	_	_
+3	tout	tout	ADV	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 4	à	à	ADP	_	_	3	unk	_	InIdiom=Yes
 5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	unk	_	InIdiom=Yes
 6	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	_
@@ -13324,7 +13324,7 @@
 5	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	que	que	SCONJ	_	_	5	comp:obj@agent	_	_
 7	même	même	ADV	_	_	8	mod	_	_
-8	si	si	SCONJ	_	_	18	mod	_	_
+8	si	si	SCONJ	_	_	23	mod	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
 10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
@@ -13334,7 +13334,7 @@
 15	donc	donc	ADV	_	_	18	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	programmes	programme	NOUN	_	Gender=Masc|Number=Plur	18	subj@pass	_	_
-18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	_
+18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
 19	établis	établir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	18	comp:aux@pass	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	_
 21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
