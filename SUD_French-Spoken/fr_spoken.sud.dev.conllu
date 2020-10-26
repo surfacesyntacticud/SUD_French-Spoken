@@ -5227,8 +5227,8 @@
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	changera	changer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	grand	grand	PRON	_	_	2	comp:obj	_	_
-5	-chose	chose	PRON	_	_	4	unk	_	InIdiom=Yes
+4	grand	grand	ADJ	_	_	5	mod	_	InIdiom=Yes
+5	-chose	chose	NOUN	_	_	2	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 6	à	à	ADP	_	_	2	comp:obl	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	prix	prix	NOUN	_	_	6	comp:obj	_	_
@@ -9349,8 +9349,8 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	faisais	faire	VERB	_	Number=Sing|Person=1	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	grand	grand	PRON	_	_	3	comp:obj	_	_
-6	-chose	chose	PRON	_	_	5	unk	_	InIdiom=Yes
+5	grand	grand	ADJ	_	_	6	mod	_	_InIdiom=Yes
+6	-chose	chose	NOUN	_	_	3	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 
 # macrosyntax = j'étais toujours "euh" dans les cinq premiers de la classe //+ ^mais sans plus //
 # sent_id = Rhap_D2005-52
@@ -10468,9 +10468,9 @@
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	préféraient	préférer	VERB	_	Number=Plur|Person=3	0	root	_	_
 3	rigoler	rigoler	VERB	_	_	2	comp:obj@x	_	_
-4	que	que	SCONJ	_	_	6	cc	_	_
-5	de	de	ADP	_	_	4	comp:obj	_	InIdiom=Yes
-6	travailler	travailler	VERB	_	VerbForm=Inf	3	conj:coord	_	_
+4	que	que	SCONJ	_	_	3	comp:obj	_	_
+5	de	de	ADP	_	_	4	comp:obj	_	_
+6	travailler	travailler	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 
 # macrosyntax = $- $L1 ils étaient tout à fait normaux //
 # sent_id = Rhap_D0002-5
@@ -10660,7 +10660,7 @@
 8	mh	mh	INTJ	_	_	4	discourse	_	_
 9	mh	mh	INTJ	_	_	4	discourse	_	_
 10	mh	mh	INTJ	_	_	4	discourse	_	_
-11	mh	mh	INTJ	_	_	10	unk	_	InIdiom=Yes
+11	mh	mh	INTJ	_	_	10	discourse	_	_
 12	euh	euh	INTJ	_	_	4	discourse	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_

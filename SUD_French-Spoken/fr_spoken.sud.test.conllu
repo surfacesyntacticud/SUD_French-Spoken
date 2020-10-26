@@ -2173,11 +2173,11 @@
 3	Académie	Académie	PROPN	_	_	6	subj	_	_
 4	Goncourt	Goncourt	PROPN	_	_	3	mod@appos	_	_
 5	s'	se	PRON	_	Person=3|PronType=Prs	6	comp	_	InIdiom=Yes
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 7	complètement	complètement	ADV	_	_	6	mod	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
+10	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	ExtPos=VERB|PhraseType=Idiom
 11	ben	ben	INTJ	_	_	12	discourse	_	_
 12	misé	miser	VERB	_	_	10	comp:aux	_	_
 13	à	à	ADP	_	_	12	mod	_	_

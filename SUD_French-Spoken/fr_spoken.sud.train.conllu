@@ -2560,22 +2560,21 @@
 # macrosyntax = pour Le Parisien Aujourd'hui en France <+ à la une < ce n'est plus une vague //=
 # sent_id = Rhap_D2013-12
 # text = pour Le Parisien Aujourd' hui en France à la une ce n' est plus une vague
-1	pour	pour	ADP	_	_	16	mod	_	_
+1	pour	pour	ADP	_	_	12	mod	_	_
 2	Le	le	DET	_	_	3	det	_	_
 3	Parisien	Parisien	PROPN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-4	Aujourd'	Aujourd'	PROPN	_	_	3	unk	_	_
-5	hui	hui	NOUN	_	_	4	unk	_	InIdiom=Yes
-6	en	en	ADP	_	_	3	mod	_	_
-7	France	France	PROPN	_	_	6	comp:obj	_	_
-8	à	à	ADP	_	_	16	mod	_	_
-9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	une	une	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-11	ce	ce	PRON	_	_	13	subj	_	_
-12	n'	ne	ADV	_	Polarity=Neg	13	mod	_	_
-13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	plus	plus	ADV	_	_	13	mod	_	_
-15	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	vague	vague	NOUN	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
+4	Aujourd'hui	Aujourd'hui	PROPN	_	_	3	unk	_	_
+5	en	en	ADP	_	_	3	mod	_	_
+6	France	France	PROPN	_	_	5	comp:obj	_	_
+7	à	à	ADP	_	_	12	mod	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	une	une	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	ce	ce	PRON	_	_	12	subj	_	_
+11	n'	ne	ADV	_	Polarity=Neg	12	mod	_	_
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	plus	plus	ADV	_	_	12	mod	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	vague	vague	NOUN	_	Gender=Fem|Number=Sing	12	comp:pred	_	_
 
 # macrosyntax = c'est une déferlante pour la gauche //
 # sent_id = Rhap_D2013-13
@@ -3953,7 +3952,7 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Gutiérrez	Gutiérrez	PROPN	_	_	2	comp:pred	_	_
-4	oh	oh	INTJ	_	_	3	discourse	_	_
+4	oh	oh	INTJ	_	_	3	discourse	_	ExtPos=INTJ|PhraseType=Idiom
 5	la	la	INTJ	_	_	4	unk	_	InIdiom=Yes
 6	la	la	INTJ	_	_	5	unk	_	InIdiom=Yes
 7	qui	qui	PRON	_	_	8	subj	_	_
@@ -4011,8 +4010,8 @@
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	pouvait	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-6	grand	grand	PRON	_	_	4	comp:obj	_	_
-7	-chose	chose	PRON	_	_	6	unk	_	InIdiom=Yes
+6	grand	grand	ADJ	_	_	7	mod	_	InIdiom=Yes
+7	-chose	chose	NOUN	_	_	4	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 8	là	là	ADV	_	_	4	mod	_	_
 9	sur	sur	ADP	_	_	8	conj:dicto	_	_
 10	ce	ce	DET	_	_	11	det	_	_
@@ -4844,8 +4843,8 @@
 # text = et pas mal de le tout
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	pas	pas	ADV	_	Polarity=Neg	3	mod	_	InIdiom=Yes
-3	mal	mal	ADJ	_	_	0	root	_	_
-4	de	de	ADP	_	_	3	mod	_	_
+3	mal	mal	ADJ	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
+4	de	de	ADP	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
 6	tout	tout	ADV	_	_	4	comp:obj	_	InIdiom=Yes
 
@@ -5093,7 +5092,7 @@
 14	oui	oui	INTJ	_	_	13	discourse	_	_
 15	qui	qui	PRON	_	_	17	subj@caus	_	_
 16	se	se	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
-17	fait	faire	AUX	_	_	10	mod@relcl	_	_
+17	fait	faire	AUX	_	_	10	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
 18	là	là	ADV	_	_	17	mod	_	_
 19	vraiment	vraiment	ADV	_	_	20	mod	_	_
 20	balader	balader	VERB	_	VerbForm=Inf	17	comp:aux@caus	_	_
@@ -5989,7 +5988,7 @@
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	exigence	exigence	NOUN	_	Gender=Fem|Number=Sing	10	subj@caus	_	_
 9	se	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	fait	faire	AUX	_	_	0	root	_	_
+10	fait	faire	AUX	_	_	0	root	_	ExtPos=VERB|PhraseType=Idiom
 11	entendre	entendre	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	_
 12	toujours	toujours	ADV	_	_	14	mod	_	_
 13	plus	plus	NOUN	_	Gender=Masc	14	mod	_	_
@@ -7335,8 +7334,8 @@
 8	qui	qui	PRON	_	_	9	subj	_	_
 9	connaissent	connaître	VERB	_	_	4	mod@relcl	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	grand	grand	PRON	_	_	9	comp:obj	_	_
-12	-chose	chose	PRON	_	_	11	unk	_	InIdiom=Yes
+11	grand	grand	ADJ	_	_	12	mod	_	InIdiom=Yes
+12	-chose	chose	NOUN	_	_	9	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 13	à	à	ADP	_	_	9	comp:obl	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	ordinateur	ordinateur	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
