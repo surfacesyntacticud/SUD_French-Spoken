@@ -1146,9 +1146,9 @@
 16	où	où	PRON	_	_	18	mod	_	_
 17	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 18	gagneront	gagner	VERB	_	Number=Plur|Person=3	15	mod@relcl	_	_
-19	de	de	ADP	_	_	18	comp:obl	_	_
+19	de	de	ADP	_	_	21	det	_	ExtPos=DET|PhraseType=Idiom
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	unk	_	InIdiom=Yes
-21	argent	argent	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
+21	argent	argent	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 
 # macrosyntax = pour eux < c'est important //
 # sent_id = Rhap_D0006-59
@@ -4732,7 +4732,7 @@
 6	-là	là	ADV	_	_	5	mod	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	fait	faire	VERB	_	Number=Sing|Person=3	0	root	_	_
-9	de	de	ADP	_	_	8	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obj	_	ExtPos=DET|PhraseType=Idiom
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
 
 # macrosyntax = en plus < il travaille avec { de la | { de | de } la | pas de { la | la } | de la } véritable paille "quoi" //
@@ -4743,19 +4743,19 @@
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	travaille	travailler	VERB	_	Number=Sing|Person=3	0	root	_	_
 5	avec	avec	ADP	_	_	4	mod	_	_
-6	de	de	ADP	_	_	5	comp:obj	_	_
+6	de	de	ADP	_	_	18	det	_	ExtPos=DET|PhraseType=Idiom
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes
-8	de	de	ADP	_	_	5	conj:dicto	_	_
-9	de	de	ADP	_	_	8	conj:dicto	_	_
+8	de	de	ADP	_	_	6	conj:dicto	_	_
+9	de	de	ADP	_	_	8	conj:dicto	_	ExtPos=DET|PhraseType=Idiom
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
-11	pas	pas	ADV	_	Polarity=Neg	12	comp:obj	_	_
-12	de	de	ADP	_	_	9	conj:dicto	_	_
+11	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
+12	de	de	ADP	_	_	9	conj:dicto	_	ExtPos=DET|PhraseType=Idiom
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	unk	_	InIdiom=Yes
-14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	conj:dicto	_	_
-15	de	de	ADP	_	_	14	conj:dicto	_	_
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	conj:dicto	_	_
+15	de	de	ADP	_	_	12	conj:dicto	_	ExtPos=DET|PhraseType=Idiom
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	unk	_	InIdiom=Yes
 17	véritable	véritable	ADJ	_	Number=Sing	18	mod	_	_
-18	paille	paille	NOUN	_	_	6	comp:obj	_	_
+18	paille	paille	NOUN	_	_	5	comp:obj	_	_
 19	quoi	quoi	INTJ	_	_	18	discourse	_	_
 
 # macrosyntax = $L1 c'est { pas de la paille synthétique | ^ni
@@ -4875,7 +4875,7 @@
 # text = et pourquoi qu' on appelle crapaud ben parce que c' est des
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	pourquoi	pourquoi	PRON	_	_	5	mod	_	_
-3	qu'	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
+3	qu'	que	SCONJ	_	_	2	unk	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	appelle	appeler	VERB	_	_	0	root	_	_
 6	crapaud	crapaud	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
@@ -7147,11 +7147,11 @@
 5	que	que	SCONJ	_	_	2	comp:cleft	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	était	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	comp:obj	_	_
-8	ouais	ouais	INTJ	_	_	9	discourse	_	_
+8	ouais	ouais	INTJ	_	_	7	discourse	_	_
 9	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
-10	de	de	ADP	_	_	7	comp:obl	_	_
+10	de	de	ADP	_	_	12	det	_	ExtPos=DET|PhraseType=Idiom
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	unk	_	InIdiom=Yes
-12	radio	radio	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
+12	radio	radio	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 
 # macrosyntax = { c'était | à un moment < { c'était | c'était } } du show //
 # sent_id = Rhap_D2007-25
@@ -7732,9 +7732,9 @@
 2	peux	pouvoir	VERB	_	Number=Sing|Person=2	0	root	_	_
 3	jamais	jamais	ADV	_	_	2	mod	_	_
 4	avoir	avoir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
-5	de	de	ADP	_	_	4	comp:obl	_	_
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|PhraseType=Idiom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
-7	peine	peine	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
+7	peine	peine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 8	pour	pour	ADP	_	_	2	mod	_	_
 9	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	comp:obj	_	_
 10	quoi	quoi	PRON	_	_	9	discourse	_	_
@@ -8987,13 +8987,13 @@
 6	toujours	toujours	ADV	_	_	5	mod	_	_
 7	fait	faire	VERB	_	_	5	comp:aux	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	de	de	ADP	_	_	7	comp:obl	_	_
+9	de	de	ADP	_	_	11	det	_	ExtPos=DET|PhraseType=Idiom
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	unk	_	InIdiom=Yes
-11	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
-12	et	et	CCONJ	_	_	13	cc	_	_
-13	de	de	ADP	_	_	9	conj:coord	_	_
+11	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
+12	et	et	CCONJ	_	_	15	cc	_	_
+13	de	de	ADP	_	_	15	det	_	ExtPos=DET|PhraseType=Idiom
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	unk	_	InIdiom=Yes
-15	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
+15	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	11	conj:coord	_	_
 16	quelque	quelque	DET	_	Number=Sing|Person=3|PronType=Ind	17	det	_	_
 17	chose	chose	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 18	d'	de	ADP	_	_	17	mod	_	_
@@ -9426,16 +9426,16 @@
 2	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 4	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
-5	de	de	ADP	_	_	4	comp:obl	_	_
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|PhraseType=Idiom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
-7	sociologie	sociologie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	de	de	ADP	_	_	5	conj:coord	_	_
+7	sociologie	sociologie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
+8	de	de	ADP	_	_	10	det	_	ExtPos=DET|PhraseType=Idiom
 9	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
-10	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
-11	ou	ou	CCONJ	_	_	12	cc	_	_
-12	de	de	ADP	_	_	8	conj:coord	_	_
+10	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	7	conj:coord	_	_
+11	ou	ou	CCONJ	_	_	14	cc	_	_
+12	de	de	ADP	_	_	14	det	_	ExtPos=DET|PhraseType=Idiom
 13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	unk	_	InIdiom=Yes
-14	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
+14	recherche	recherche	NOUN	_	Gender=Fem|Number=Sing	10	conj:coord	_	_
 
 # macrosyntax = $L2 dans ma génération <+ "euh" c'était à peu près évident quand on était bon en maths de ne pas gaspiller ce talent //
 # sent_id = Rhap_D2005-57
@@ -10043,9 +10043,9 @@
 3	malheureux	malheureux	ADJ	_	Gender=Masc	4	subj	_	_
 4	allaient	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	puiser	puiser	VERB	_	_	4	comp:obj@x	_	_
-6	de	de	ADP	_	_	5	comp:obl	_	_
+6	de	de	ADP	_	_	8	det	_	ExtPos=DET|PhraseType=Idiom
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes
-8	eau	eau	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
+8	eau	eau	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	dans	dans	ADP	_	_	5	mod	_	_
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Loire	Loire	PROPN	_	_	9	comp:obj	_	_
@@ -10442,9 +10442,9 @@
 # text = j' avais de la chance d' avoir des enfants qui travaillaient euh
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	de	de	ADP	_	_	2	comp:obl	_	_
+3	de	de	ADP	_	_	5	det	_	ExtPos=DET|PhraseType=Idiom
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	unk	_	InIdiom=Yes
-5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+5	chance	chance	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 6	d'	de	ADP	_	_	5	mod	_	_
 7	avoir	avoir	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
