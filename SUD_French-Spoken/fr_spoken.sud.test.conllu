@@ -6400,8 +6400,8 @@
 15	se	se	PRON	_	Person=3|PronType=Prs	16	comp	_	InIdiom=Yes
 16	voir	voir	VERB	DoubleAux	VerbForm=Inf	14	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 17	euh	euh	INTJ	_	_	20	discourse	_	_
-18	non	non	ADV	_	Polarity=Neg	20	mod	_	_
-19	pas	pas	ADV	_	Polarity=Neg	18	unk	_	InIdiom=Yes
+18	non	non	ADV	_	Polarity=Neg	19	mod	_	_
+19	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 20	réconfortées	réconforter	VERB	DoubleAux	_	16	comp:pred	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	27	cc	_	_
@@ -6848,7 +6848,7 @@
 49	pendant	pendant	ADP	_	_	41	conj:coord	_	_
 50	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
 51	automne	automne	NOUN	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
-52	c'est-à-dire	c'	CCONJ	_	_	55	cc	_	_
+52	c'est-à-dire	c'est-à-dire	CCONJ	_	_	55	cc	_	_
 53	peut-être	peut-être	ADV	_	_	55	mod	_	_
 54	assez	assez	ADV	_	_	55	mod	_	_
 55	précocement	précocement	ADV	_	_	51	conj:appos	_	_
@@ -9888,10 +9888,10 @@
 # macrosyntax = même s'il est très humble < ça n'a aucune importance //
 # sent_id = Rhap_D2001-83
 # text = même s' il est très humble ça n' a aucune importance
-1	même	même	ADV	_	_	9	mod	_	_
-2	s'	si	SCONJ	_	_	1	unk	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	s'	si	SCONJ	_	_	9	mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	très	très	ADV	_	_	6	mod	_	_
 6	humble	humble	ADJ	_	_	4	comp:pred	_	_
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
@@ -10060,7 +10060,7 @@
 # sent_id = Rhap_D2001-95
 # text = euh c'est-à-dire que je connaissais Allégret très bien
 1	euh	euh	INTJ	_	_	2	discourse	_	_
-2	c'est-à-dire	c'	CCONJ	_	_	0	root	_	_
+2	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
@@ -10753,7 +10753,7 @@
 # macrosyntax = ^c'^est-^à-^dire { nous avons été tous les deux " euh " | nous avons tous les deux collaboré } { avec " euh " | avec } Renoir //
 # sent_id = Rhap_D2001-142
 # text = c'est-à-dire nous avons été tous les deux euh nous avons tous les deux collaboré avec euh avec Renoir
-1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	3	cc	_	_
 2	nous	il	PRON	_	_	3	subj	_	_
 3	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
@@ -10857,7 +10857,7 @@
 14	même	même	ADJ	_	Number=Sing	15	mod	_	_
 15	manière	manière	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 16	euh	euh	INTJ	_	_	15	discourse	_	_
-17	c'est-à-dire	c'	CCONJ	_	_	19	cc	_	_
+17	c'est-à-dire	c'est-à-dire	CCONJ	_	_	19	cc	_	_
 18	disons	dire	VERB	DISCOURSE	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	19	discourse	_	_
 19	d'	de	ADP	_	_	12	conj:appos	_	_
 20	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -12384,7 +12384,7 @@
 # macrosyntax = ^c'^est-^à-^dire ^que est-ce qu'il y a des couches sociales qui ( plus que d'autres ) ( "disons" dans Orléans même où évidemment { la | la } société est { plus stratifiée | $- $L2 ^et peut-être plus variée } { que | qu' } à la campagne ) ESPERLUETTE //
 # sent_id = Rhap_D1001-34
 # text = c'est-à-dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
-1	c'est-à-dire	c'	CCONJ	_	_	0	root	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_

@@ -310,10 +310,10 @@
 # macrosyntax = même si c'est quand même une fac dans le septième < "enfin" { ç~ | il y a } des gens qui viennent de partout "euh" //
 # sent_id = Rhap_D0006-11
 # text = même si c' est quand même une fac dans le septième enfin ç~ il y a des gens qui viennent de partout euh
-1	même	même	ADV	_	_	16	mod	_	_
-2	si	si	SCONJ	_	_	1	mod	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	si	si	SCONJ	_	_	16	mod	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	quand	quand	SCONJ	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 6	même	même	ADV	_	_	5	unk	_	InIdiom=Yes
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -2154,7 +2154,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	procès	procès	NOUN	_	Gender=Masc	8	comp:obj	_	_
 11	hier	hier	ADV	_	_	7	mod	_	_
-12	soir	soir	NOUN	_	Gender=Masc|Number=Sing	11	unk	_	InIdiom=Yes
+12	soir	soir	NOUN	_	Gender=Masc|Number=Sing	11	mod	_	_
 
 # macrosyntax = les parties civiles dénoncent des pratiques terroristes //
 # sent_id = Rhap_M2006-16
@@ -8270,8 +8270,8 @@
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	de	de	ADP	_	_	4	unk	_	InIdiom=Yes
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	unk	_	InIdiom=Yes
+5	de	de	ADP	_	_	3	comp:pred	_	ExtPos=DET|PhraseType=Idiom
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
 
 # macrosyntax = ^mais  " euh "   " euh "  { { { se | se | se } gourer |
 # sent_id = Rhap_D2007-119
@@ -9079,10 +9079,10 @@
 # macrosyntax = même s'ils parlaient le français { absolument parfaitement | sans accent | sans même aucun accent pied noir } //
 # sent_id = Rhap_D2005-34
 # text = même s' ils parlaient le français absolument parfaitement sans accent sans même aucun accent pied noir
-1	même	même	ADV	_	_	0	root	_	_
-2	s'	si	SCONJ	_	_	1	unk	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	s'	si	SCONJ	_	_	4	mod	_	_
 3	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
-4	parlaient	parler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	1	comp:obj	_	_
+4	parlaient	parler	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	français	français	NOUN	_	Gender=Masc	4	comp:obj	_	_
 7	absolument	absolument	ADV	_	_	8	mod	_	_
@@ -12055,10 +12055,10 @@
 # text = et visiblement même si c' est un film muet euh on comprend que euh Charlie Chaplin s' accuse à la place de la jeune fille qui donc euh reste euh toute seule fort étonnée
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	visiblement	visiblement	ADV	_	_	12	mod	_	_
-3	même	même	ADV	_	_	12	dislocated	_	_
-4	si	si	SCONJ	_	_	3	mod	_	InIdiom=Yes
+3	même	même	ADV	_	_	4	mod	_	_
+4	si	si	SCONJ	_	_	12	mod	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	film	film	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 9	muet	muet	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
@@ -12066,7 +12066,7 @@
 11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
 12	comprend	comprendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	que	que	SCONJ	_	_	12	comp:obj	_	_
-14	euh	euh	INTJ	_	_	18	discourse	_	_
+14	euh	euh	INTJ	_	_	13	discourse	_	_
 15	Charlie	Charlie	PROPN	_	_	18	subj	_	_
 16	Chaplin	Chaplin	PROPN	_	_	15	flat	_	_
 17	s'	se	PRON	_	Person=3|PronType=Prs	18	comp	_	InIdiom=Yes
@@ -13323,15 +13323,15 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 6	que	que	SCONJ	_	_	5	comp:obj@agent	_	_
-7	même	même	ADV	_	_	23	mod	_	_
-8	si	si	SCONJ	_	_	7	mod	_	InIdiom=Yes
+7	même	même	ADV	_	_	8	mod	_	_
+8	si	si	SCONJ	_	_	18	mod	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	10	subj	_	_
-10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+10	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	programme	programme	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	à	à	ADP	_	_	12	mod	_	_
 14	suivre	suivre	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	donc	donc	ADV	_	_	14	discourse	_	_
+15	donc	donc	ADV	_	_	18	mod	_	_
 16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	_
 17	programmes	programme	NOUN	_	Gender=Masc|Number=Plur	18	subj@pass	_	_
 18	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	_
@@ -13344,8 +13344,8 @@
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
 26	certaine	certain	ADJ	_	Gender=Fem|Number=Sing	27	mod	_	_
 27	liberté	liberté	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-28	en	en	ADP	_	_	23	mod	_	_
-29	en	en	ADP	_	_	28	comp:obj	_	_
+28	en	en	ADP	_	_	27	mod	_	_
+29	en	en	ADP	_	_	28	conj:dicto	_	_
 30	cours	cours	NOUN	_	_	29	comp:obj	_	_
 
 # macrosyntax = les inconvénients sont "euh" ( par ailleurs ) ( en premier lieu ) le salaire ( évidemment ) qui n'est pas vraiment haut //

@@ -2634,8 +2634,8 @@
 # macrosyntax = [ même si # ] dit-il ## les responsables de l'UMP s'obstinent à nier l'évidence { dans un accès de mauvaise foi soviétique | ^et dans un festival de langue de bois } // //
 # sent_id = Rhap_D2013-16
 # text = même si dit -il les responsables de l' UMP s' obstinent à nier l' évidence dans un accès de mauvaise foi soviétique et dans un festival de langue de bois
-1	même	même	ADV	_	_	0	root	_	_
-2	si	si	SCONJ	_	_	1	mod	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	si	si	SCONJ	_	_	0	root	_	_
 3	dit	dire	VERB	_	_	11	parataxis:insert	_	_
 4	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
@@ -2644,7 +2644,7 @@
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	UMP	UMP	PROPN	_	_	7	comp:obj	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
-11	obstinent	obstiner	VERB	_	_	1	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
+11	obstinent	obstiner	VERB	_	_	2	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 12	à	à	ADP	_	_	11	comp:obl@x	_	_
 13	nier	nier	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
@@ -4426,8 +4426,8 @@
 6	de	de	ADP	_	_	5	mod	_	_
 7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	mi-temps	mi	NOUN	_	_	6	comp:obj	_	_
-9	même	même	ADV	_	_	5	mod	_	_
-10	pas	pas	ADV	_	Polarity=Neg	9	unk	_	InIdiom=Yes
+9	même	même	ADV	_	_	10	mod	_	_
+10	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 
 # macrosyntax = ^et les Argentins mènent un à zéro //
 # sent_id = Rhap_D2003-88
@@ -5667,11 +5667,11 @@
 # macrosyntax = même si le passé est bien présent dans notre mémoire < je ne m'attarderai pas sur le { siècle qui s'achève | siècle de progrès sans précédent { pour { la santé | l'éducation | les conditions de vie } | pour { les libertés | la vie démocratique | la situation des femmes | les solidarités } } | ^mais ^aussi siècle { d'horreur | de tragédies | de convulsions } qui a vu { deux guerres mondiales | le goulag | les dictatures totalitaires | ^et la Shoah } } //
 # sent_id = Rhap_M2004-18
 # text = même si le passé est bien présent dans notre mémoire je ne m' attarderai pas sur le siècle qui s' achève siècle de progrès sans précédent pour la santé l' éducation les conditions de vie pour les libertés la vie démocratique la situation de les femmes les solidarités mais aussi siècle d' horreur de tragédies de convulsions qui a vu deux guerres mondiales le goulag les dictatures totalitaires et la Shoah
-1	même	même	ADV	_	_	14	mod	_	_
-2	si	si	SCONJ	_	_	1	mod	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	si	si	SCONJ	_	_	14	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	passé	passé	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
-5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 6	bien	bien	ADV	_	_	7	mod	_	_
 7	présent	présent	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 8	dans	dans	ADP	_	_	5	mod	_	_
@@ -6099,11 +6099,11 @@
 # macrosyntax = même si le monde change comme il n'a jamais changé < la modernité ne doit pas nous diviser //
 # sent_id = Rhap_M2004-37
 # text = même si le monde change comme il n' a jamais changé la modernité ne doit pas nous diviser
-1	même	même	ADV	_	_	15	mod	_	_
-2	si	si	SCONJ	_	_	1	mod	_	InIdiom=Yes
+1	même	même	ADV	_	_	2	mod	_	_
+2	si	si	SCONJ	_	_	15	mod	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	monde	monde	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
-5	change	changer	VERB	_	_	1	comp:obj	_	_
+5	change	changer	VERB	_	_	2	comp:obj	_	_
 6	comme	comme	SCONJ	_	_	5	mod	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj	_	_
 8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	_
@@ -11225,10 +11225,10 @@
 # sent_id = Rhap_M2005-10
 # text = car même si internet rapproche le monde A Small World est accessible uniquement sur invitation
 1	car	car	CCONJ	_	_	11	cc	_	_
-2	même	même	ADV	_	_	11	mod	_	_
-3	si	si	SCONJ	_	_	2	mod	_	InIdiom=Yes
+2	même	même	ADV	_	_	3	mod	_	_
+3	si	si	SCONJ	_	_	11	mod	_	_
 4	internet	internet	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
-5	rapproche	rapprocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+5	rapproche	rapprocher	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	monde	monde	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	A	A	DET	_	_	10	det	_	_
@@ -13866,8 +13866,8 @@
 4	vie	vie	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	courte	court	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
-7	non	non	ADV	_	Polarity=Neg	5	mod	_	_
-8	plus	plus	ADV	_	_	7	unk	_	InIdiom=Yes
+7	non	non	ADV	_	Polarity=Neg	5	mod	_	ExtPos=ADV|PhraseType=Idiom
+8	plus	plus	ADV	_	_	7	mod	_	InIdiom=Yes
 9	quand	quand	SCONJ	_	_	5	mod	_	ExtPos=ADV|PhraseType=Idiom
 10	même	même	ADV	_	_	9	unk	_	InIdiom=Yes
 11	en	en	ADP	_	_	5	mod	_	_
@@ -16571,8 +16571,8 @@
 24	phrases	phrase	NOUN	_	Gender=Fem|Number=Plur	23	comp:obj	_	_
 25	disons	dire	VERB	DISCOURSE	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	discourse	_	_
 26	et	et	CCONJ	_	_	29	cc	_	_
-27	non	non	ADV	_	Polarity=Neg	29	mod	_	_
-28	pas	pas	ADV	_	Polarity=Neg	27	unk	_	InIdiom=Yes
+27	non	non	ADV	_	Polarity=Neg	28	mod	_	_
+28	pas	pas	ADV	_	Polarity=Neg	29	mod	_	_
 29	à	à	ADP	_	_	20	conj:coord	_	_
 30	penser	penser	VERB	_	VerbForm=Inf	29	comp:obj	_	_
 31	par	par	ADP	_	_	30	mod	_	_
@@ -16623,7 +16623,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
-4	non	non	ADV	_	Polarity=Neg	2	mod	_	_
+4	non	non	ADV	_	Polarity=Neg	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 5	plus	plus	ADV	_	_	4	unk	_	InIdiom=Yes
 6	peut-être	peut-être	ADV	_	_	2	mod	_	_
 7	tout	tout	ADV	_	_	8	mod	_	_
