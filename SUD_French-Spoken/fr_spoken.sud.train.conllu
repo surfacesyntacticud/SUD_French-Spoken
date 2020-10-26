@@ -132,7 +132,7 @@
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	jusqu'	jusque	ADP	_	_	5	comp:obl	_	_
-7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
+7	à	à	ADP	_	_	6	unk	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	unk	_	_
 9	jusqu'	jusque	ADP	_	_	6	conj:dicto	_	_
 10	à	à	ADP	_	_	9	comp:obj	_	_
