@@ -133,11 +133,11 @@
 5	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	jusqu'	jusque	ADP	_	_	5	comp:obl	_	_
 7	à	à	ADP	_	_	6	unk	_	InIdiom=Yes
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	unk	_	InIdiom=Yes
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	unk	_	_
 9	jusqu'	jusque	ADP	_	_	6	conj:dicto	_	_
-10	à	à	ADP	_	_	9	unk	_	InIdiom=Yes
+10	à	à	ADP	_	_	9	comp:obj	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
-12	place	place	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
+12	place	place	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 13	Victor	Victor	PROPN	_	_	12	mod@appos	_	_
 14	Hugo	Hugo	PROPN	_	_	13	flat	_	_
 
@@ -2077,9 +2077,9 @@
 6	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	pendant	pendant	ADP	_	_	5	mod	_	_
 8	jusqu'	jusque	ADP	_	_	7	conj:dicto	_	_
-9	à	à	ADP	_	_	8	unk	_	InIdiom=Yes
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
-11	moment	moment	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+9	à	à	ADP	_	_	8	comp:obj	_	_
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
+11	moment	moment	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 12	où	où	PRON	_	_	15	mod	_	_
 13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj@expl	_	_
 14	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
@@ -13408,13 +13408,13 @@
 6	renaissance	renaissance	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	jusqu'	jusque	ADP	_	_	21	mod	_	_
-9	à	à	ADP	_	_	8	unk	_	InIdiom=Yes
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	unk	_	InIdiom=Yes
+9	à	à	ADP	_	_	8	comp:obj	_	InIdiom=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	comp:obj@scrap	_	InIdiom=Yes
 11	jusqu'	jusque	ADP	_	_	8	conj:dicto	_	_
-12	à	à	ADP	_	_	11	unk	_	InIdiom=Yes
-13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	unk	_	InIdiom=Yes
+12	à	à	ADP	_	_	11	comp:obj	_	_
+13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 14	seizième	seizième	ADJ	_	_	15	mod	_	_
-15	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
+15	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	peinture	peinture	NOUN	conj:reform	Gender=Fem|Number=Sing	3	conj:dicto	_	_
 18	de	de	ADP	_	_	17	mod	_	_

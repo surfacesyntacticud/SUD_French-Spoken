@@ -10383,9 +10383,9 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	continuerais	continuer	VERB	_	Number=Sing|Person=1	0	root	_	_
 4	jusqu'	jusque	ADP	_	_	3	mod	_	_
-5	à	à	ADP	_	_	4	unk	_	InIdiom=Yes
+5	à	à	ADP	_	_	4	comp:obj	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	Préfecture	Préfecture	PROPN	_	_	4	comp:obj	_	_
+7	Préfecture	Préfecture	PROPN	_	_	5	comp:obj	_	_
 
 # macrosyntax = je couperais par la place Grenette //
 # sent_id = Rhap_M0012-3
