@@ -2432,9 +2432,9 @@
 8	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fleuve	fleuve	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	c'est-à-dire	c'	CCONJ	_	_	13	cc	_	_
+11	c'est-à-dire	c'est-à-dire	ADV	_	_	10	mod	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Mekong	Mekong	PROPN	_	_	10	conj:coord	_	_
+13	Mekong	Mekong	PROPN	_	_	11	comp:obj	_	_
 
 # macrosyntax = ^et vous êtes drôlement attifée > quand même //
 # sent_id = Rhap_D2010-67
@@ -3016,10 +3016,10 @@
 # macrosyntax = $L2 ^c'^est-^à-^dire ^que j'ai su après qu'il m'avait pas déplu //+ sur le bac //
 # sent_id = Rhap_D2010-110
 # text = c'est-à-dire que j' ai su après qu' il m' avait pas déplu sur le bac
-1	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
-2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+1	c'est-à-dire	c'est-à-dire 	ADV	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 5	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	après	après	ADV	_	_	5	mod	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	_
@@ -3853,7 +3853,7 @@
 # macrosyntax = ^c'est-à-dire nous sommes dans cette Pologne "euh" { encore occupée | ^mais { où "euh" { la | la } vie artistique { est | est } très importante | ^et où se coalise en quelque sorte { le | le | le } mouvement de la jeune Pologne } } //
 # sent_id = Rhap_D2012-35
 # text = c'est-à-dire nous sommes dans cette Pologne euh encore occupée mais où euh la la vie artistique est est très importante et où se coalise en quelque sorte le le le mouvement de la jeune Pologne
-1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
+1	c'est-à-dire	c'est-à-dire 	CCONJ	_	_	3	cc	_	_
 2	nous	il	PRON	_	_	3	subj	_	_
 3	sommes	être	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dans	dans	ADP	_	_	3	comp:obl	_	_
@@ -4838,34 +4838,34 @@
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = Rhap_D2008-32
 # text = c'est-à-dire que si vraiment euh l' activité que l' on constate aujourd'hui en en Amérique de le Nord oui euh devient l' activité d' une pandémie alors euh
-1	c'est-à-dire	c'	CCONJ	_	_	27	cc	_	_
-2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
-3	si	si	SCONJ	_	_	27	mod	_	_
-4	vraiment	vraiment	ADV	_	_	21	mod	_	_
-5	euh	euh	INTJ	_	_	21	discourse	_	_
+1	c'est-à-dire	c'est-à-dire 	ADV	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	1	comp:obj	_	_
+3	si	si	SCONJ	_	_	21	mod	_	_
+4	vraiment	vraiment	ADV	_	_	3	mod	_	_
+5	euh	euh	INTJ	_	_	4	discourse	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	activité	activité	NOUN	_	Gender=Fem|Number=Sing	21	subj	_	_
 8	que	que	PRON	_	_	11	comp:obj	_	_
-9	l'	l'	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	10	det	_	_
-10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
+9	l'	l'	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	11	subj	_	ExtPos=PRON|PhraseType=Idiom|SpaceAfter=No
+10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	9	unk	_	InIdiom=Yes
 11	constate	constater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 12	aujourd'hui	aujourd'	ADV	_	_	11	mod	_	_
 13	en	en	ADP	_	_	11	mod	_	_
-14	en	en	ADP	conj:reform	_	13	comp:obj	_	_
+14	en	en	ADP	conj:reform	_	13	conj:dicto	_	_
 15	Amérique	Amérique	PROPN	_	_	14	comp:obj	_	_
 16	de	de	ADP	_	_	15	mod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	Nord	Nord	PROPN	_	_	16	comp:obj	_	_
-19	oui	oui	INTJ	_	_	15	discourse	_	_
-20	euh	euh	INTJ	_	_	15	discourse	_	_
-21	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
+19	oui	oui	INTJ	_	_	18	discourse	_	_
+20	euh	euh	INTJ	_	_	19	discourse	_	_
+21	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
-23	activité	activité	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
+23	activité	activité	NOUN	_	Gender=Fem|Number=Sing	21	comp:pred	_	_
 24	d'	de	ADP	_	_	23	mod	_	_
 25	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
-27	alors	alors	ADV	_	_	0	root	_	_
-28	euh	euh	INTJ	_	_	21	discourse	_	_
+27	alors	alors	ADV	_	_	21	mod	_	_
+28	euh	euh	INTJ	_	_	27	discourse	_	_
 
 # macrosyntax = on n'a jamais vraiment su jusqu'à présent arrêter les épidémies de grippe saisonnière //
 # sent_id = Rhap_D2008-33
@@ -5202,8 +5202,8 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	fait	faire	VERB	_	_	0	root	_	_
-4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	ExtPos=DET|PhraseType=Idiom
-5	de	de	ADP	_	_	7	det	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
+5	de	de	ADP	_	_	7	det	_	ExtPos=DET|PhraseType=Idiom
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	unk	_	InIdiom=Yes
 7	prédiction	prédiction	NOUN	_	_	3	comp:obj	_	_
 8	ou	ou	CCONJ	_	_	11	cc	_	_
@@ -5524,7 +5524,7 @@
 # macrosyntax = ^c'^est-^à-^dire une mortalité effroyable //
 # sent_id = Rhap_D2008-69
 # text = c'est-à-dire une mortalité effroyable
-1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	3	cc	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	mortalité	mortalité	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 4	effroyable	effroyable	ADJ	_	_	3	mod	_	_
@@ -6086,10 +6086,10 @@
 # macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe & //
 # sent_id = Rhap_D2008-102
 # text = c'est-à-dire que la grippe ce qu' on connaît de la grippe
-1	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
-2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 5	ce	ce	PRON	_	_	4	conj:dicto	_	_
 6	qu'	que	PRON	_	_	8	comp:obj	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
@@ -6454,7 +6454,7 @@
 4	passe	passer	VERB	ETRE	_	1	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 5	comme	comme	ADP	_	_	4	mod	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
-7	c'est-à-dire	c'	CCONJ	_	_	8	cc	_	_
+7	c'est-à-dire	c'est-à-dire	CCONJ	_	_	8	cc	_	_
 8	de	de	ADP	_	_	5	conj:appos	_	_
 9	façon	façon	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	euh	euh	INTJ	_	_	9	discourse	_	_
@@ -6777,14 +6777,14 @@
 # macrosyntax = ^c'^est-^à-^dire ^que { le m~ | { le | le } virus } sait faire sa propre besogne de lui-même sur place //
 # sent_id = Rhap_D2008-138
 # text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même sur place
-1	c'est-à-dire	c'	CCONJ	_	_	8	cc	_	_
-2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+1	c'est-à-dire	c'est-à-dire	ADV	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	m~	m~	X	_	_	8	subj	_	_
 5	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	conj:dicto	_	_
 7	virus	virus	NOUN	_	Gender=Masc	4	conj:dicto	_	_
-8	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	12	det	_	_
 11	propre	propre	ADJ	_	Number=Sing	12	mod	_	_
@@ -7496,7 +7496,7 @@
 # sent_id = Rhap_M2003-25
 # text = ou encore fillette je te le dis lève -toi
 1	ou	ou	CCONJ	_	_	7	cc	_	_
-2	encore	encore	ADV	_	_	1	unk	_	InIdiom=Yes
+2	encore	encore	ADV	_	_	7	mod	_	_
 3	fillette	fillette	NOUN	_	Gender=Fem|Number=Sing	7	dislocated	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 5	te	lui	PRON	_	_	7	comp:obl	_	_
@@ -7509,7 +7509,7 @@
 # sent_id = Rhap_M2003-26
 # text = ou encore moi moi je te l' ordonne
 1	ou	ou	CCONJ	_	_	8	cc	_	_
-2	encore	encore	ADV	_	_	1	unk	_	InIdiom=Yes
+2	encore	encore	ADV	_	_	8	mod	_	_
 3	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	8	dislocated	_	_
 4	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	conj:dicto	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
@@ -10059,11 +10059,11 @@
 # macrosyntax = $L2 " euh " c'est-à-dire que je connaissais Allégret très bien //
 # sent_id = Rhap_D2001-95
 # text = euh c'est-à-dire que je connaissais Allégret très bien
-1	euh	euh	INTJ	_	_	5	discourse	_	_
-2	c'est-à-dire	c'	CCONJ	_	_	5	cc	_	_
-3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
+1	euh	euh	INTJ	_	_	2	discourse	_	_
+2	c'est-à-dire	c'	CCONJ	_	_	0	root	_	_
+3	que	que	SCONJ	_	_	2	comp:obj	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-5	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
+5	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
 6	Allégret	Allégret	PROPN	_	_	5	comp:obj	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	bien	bien	ADV	_	_	5	mod	_	_
@@ -12384,9 +12384,9 @@
 # macrosyntax = ^c'^est-^à-^dire ^que est-ce qu'il y a des couches sociales qui ( plus que d'autres ) ( "disons" dans Orléans même où évidemment { la | la } société est { plus stratifiée | $- $L2 ^et peut-être plus variée } { que | qu' } à la campagne ) ESPERLUETTE //
 # sent_id = Rhap_D1001-34
 # text = c'est-à-dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
-1	c'est-à-dire	c'	CCONJ	_	_	3	cc	_	_
-2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+1	c'est-à-dire	c'	CCONJ	_	_	0	root	_	_
+2	que	que	SCONJ	_	_	1	comp:obj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
 5	qu'	que	SCONJ	_	_	3	comp:pred	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_

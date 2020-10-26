@@ -150,7 +150,7 @@
 24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	pain	pain	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 26	et	et	CCONJ	_	_	30	cc	_	_
-27	pas	pas	ADV	_	Polarity=Neg	26	unk	_	InIdiom=Yes
+27	pas	pas	ADV	_	Polarity=Neg	30	mod	_	_
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 29	jeune	jeune	ADJ	_	Number=Sing	30	mod	_	_
 30	homme	homme	NOUN	_	Gender=Masc|Number=Sing	20	conj:dicto	_	_
@@ -753,7 +753,7 @@
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	public	public	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	et	et	CCONJ	_	_	12	cc	_	_
-11	pas	pas	ADV	_	Polarity=Neg	10	unk	_	InIdiom=Yes
+11	pas	pas	ADV	_	Polarity=Neg	12	mod	_	_
 12	dans	dans	ADP	_	_	7	conj:coord	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	privé	privé	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
@@ -1777,7 +1777,7 @@
 20	de	de	ADP	_	_	17	conj:coord	_	_
 21	d'	de	ADP	_	_	20	conj:dicto	_	_
 22	équipements	équipement	NOUN	conj:reform	Gender=Masc|Number=Plur	21	comp:obj	_	_
-23	et	et	CCONJ	_	_	22	conj:coord	_	_
+23	et	et	CCONJ	_	_	22	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 24	caetera	caetera	ADV	_	_	23	unk	_	InIdiom=Yes
 
 # macrosyntax = les animaux < { dans les | dans les } quartiers de Paris < vous en pensez quoi $- $L2 ici //
@@ -4072,7 +4072,7 @@
 8	de	de	ADP	_	_	7	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	poste	poste	NOUN	_	_	8	comp:obj	_	_
-11	et	et	CCONJ	_	_	10	conj:coord	_	_
+11	et	et	CCONJ	_	_	10	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 12	caetera	caetera	ADV	_	_	11	unk	_	InIdiom=Yes
 
 # macrosyntax = ^et au bout d' un temps <+ vous allez arriver sur une grande place avec une fontaine au milieu //
@@ -6921,13 +6921,13 @@
 # macrosyntax = $L1  " ben "  { c'est | ^c' ^est ^-à ^-dire } ^que je l'ai vécu comme un show  " quoi "  //
 # sent_id = Rhap_D2007-7
 # text = ben c'est~ c'est-à-dire que je l' ai vécu comme un show quoi
-1	ben	ben	INTJ	_	_	8	discourse	_	_
-2	c'est~	c'est~	CCONJ	_	_	7	cc	_	_
-3	c'est-à-dire	c'	CCONJ	_	_	2	conj:dicto	_	_
-4	que	que	SCONJ	_	_	3	unk	_	InIdiom=Yes
+1	ben	ben	INTJ	_	_	2	discourse	_	_
+2	c'est~	c'est~	ADV	_	_	0	root	_	_
+3	c'est-à-dire	c'est-à-dire	ADV	_	_	2	conj:dicto	_	_
+4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
-7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 8	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
 9	comme	comme	ADP	_	_	8	mod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
@@ -8296,8 +8296,8 @@
 # macrosyntax = ^c' ^est ^-à ^-dire { dragouiller la mère |
 # sent_id = Rhap_D2007-121
 # text = c'est-à-dire dragouiller la mère
-1	c'est-à-dire	c'	CCONJ	_	_	2	cc	_	_
-2	dragouiller	dragouiller	VERB	_	_	0	root	_	_
+1	c'est-à-dire	c'est-à-dire	ADV	_	_	0	root	_	_
+2	dragouiller	dragouiller	VERB	_	_	1	comp:obj	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	mère	mère	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 
@@ -9192,7 +9192,7 @@
 8	peu	peu	NOUN	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 9	plus	plus	ADV	_	_	10	mod	_	_
 10	tard	tard	ADV	_	_	5	mod	_	_
-11	c'est-à-dire	c'	CCONJ	_	_	12	cc	_	_
+11	c'est-à-dire	c'est-à-dire	ADV	_	_	12	cc	_	_
 12	vers	vers	ADP	_	_	10	conj:dicto	_	_
 13	dix-huit	dix-huit	NUM	_	Number=Plur	14	det	_	_
 14	ans	an	NOUN	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
@@ -9579,7 +9579,7 @@
 8	mathématiques	mathématique	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 9	comme	comme	ADP	_	_	6	comp:obl	_	_
 10	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	comp:obj	_	_
-11	c'est-à-dire	c'	CCONJ	_	_	12	cc	_	_
+11	c'est-à-dire	c'est-à-dire	ADV	_	_	12	cc	_	_
 12	comme	comme	ADP	_	_	9	conj:appos	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 14	autre	autre	PRON	_	_	15	mod	_	_
@@ -10197,7 +10197,7 @@
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 8	démolir	démolir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
-9	et	et	CCONJ	_	_	8	conj:dicto	_	_
+9	et	et	CCONJ	_	_	8	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
 10	caetera	caetera	ADV	_	_	9	unk	_	InIdiom=Yes
 
 # macrosyntax = ^et ^puis il a décidé de partir //
@@ -12748,7 +12748,7 @@
 5	souvent	souvent	ADV	_	_	4	mod	_	_
 6	complexes	complexe	ADJ	_	Number=Plur	4	comp:pred	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
-8	également	également	ADV	_	_	7	unk	_	InIdiom=Yes
+8	également	également	ADV	_	_	9	mod	_	_
 9	fragiles	fragile	ADJ	_	Gender=Masc|Number=Plur	6	conj:coord	_	_
 
 # macrosyntax = "euh" il faut ( également ) proposer des méthodes pédagogiques { qui | qui } visent à intéresser "euh" donc { son auditoire | donc sa classe } "euh" pour parvenir à de très bons résultats //
@@ -12798,7 +12798,7 @@
 10	de	de	ADP	_	_	7	mod	_	_
 11	corriger	corriger	VERB	_	VerbForm=Inf	10	comp:obj	_	_
 12	mais	mais	CCONJ	_	_	14	cc	_	_
-13	également	également	ADV	_	_	12	unk	_	InIdiom=Yes
+13	également	également	ADV	_	_	14	mod	_	_
 14	de	de	ADP	_	_	10	conj:coord	_	_
 15	réaliser	réaliser	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 16	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_

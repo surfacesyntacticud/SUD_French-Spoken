@@ -7398,7 +7398,7 @@
 9	hein	hein	INTJ	_	_	7	discourse	_	_
 10	euh	euh	INTJ	_	_	7	discourse	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	_
-12	c'est-à-dire	c'	CCONJ	_	_	7	cc	_	_
+12	c'est-à-dire	c'est-à-dire	CCONJ	_	_	7	cc	_	_
 13	enfin	enfin	ADV	_	_	7	discourse	_	_
 14	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	_
 15	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7845,7 +7845,7 @@
 # sent_id = Rhap_D0005-86
 # text = ah sauf qu' il faut changer quand même de système
 1	ah	ah	INTJ	_	_	2	cc	_	_
-2	sauf	sauf	CCONJ	_	_	0	root	_	_
+2	sauf	sauf	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
 3	qu'	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
@@ -11181,7 +11181,7 @@
 16	Paris	Paris	PROPN	_	_	11	conj:coord	_	_
 17	Hilton	Hilton	PROPN	_	_	16	flat	_	_
 18	ou	ou	CCONJ	_	_	22	cc	_	_
-19	encore	encore	ADV	_	_	18	unk	_	InIdiom=Yes
+19	encore	encore	ADV	_	_	22	mod	_	_
 20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 21	indéboulonnable	indéboulonnable	ADJ	_	_	22	mod	_	_
 22	Massimo	Massimo	PROPN	_	_	16	conj:coord	_	_
@@ -11373,7 +11373,7 @@
 19	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	20	det	_	_
 20	vidéos	vidéo	NOUN	_	Gender=Fem|Number=Plur	18	conj:coord	_	_
 21	ou	ou	CCONJ	_	_	25	cc	_	_
-22	encore	encore	ADV	_	_	21	unk	_	InIdiom=Yes
+22	encore	encore	ADV	_	_	25	mod	_	_
 23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 24	un	un	DET	conj:reform	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	conj:dicto	_	_
 25	agenda	agenda	NOUN	_	Gender=Masc|Number=Sing	20	conj:coord	_	_
@@ -12140,9 +12140,9 @@
 63	de	de	ADP	_	_	62	comp:obl	_	_
 64	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	65	det	_	_
 65	sociologie	sociologie	NOUN	_	Gender=Fem|Number=Sing	63	comp:obj	_	_
-66	et	et	CCONJ	_	_	62	conj:coord	_	_
+66	et	et	CCONJ	_	_	62	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 67	caetera	caetera	ADV	_	_	66	unk	_	InIdiom=Yes
-68	et	et	CCONJ	_	_	66	conj:coord	_	_
+68	et	et	CCONJ	_	_	66	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 69	caetera	caetera	ADV	_	_	68	unk	_	InIdiom=Yes
 
 # macrosyntax = donc < je vais traiter mon sujet //=
@@ -12236,7 +12236,7 @@
 # sent_id = Rhap_M2002-7
 # text = voyez c'est-à-dire c' est une réponse un peu de un peu trop nuancée hein
 1	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	discourse	_	_
-2	c'est-à-dire	c'	CCONJ	_	_	4	cc	_	_
+2	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -12442,7 +12442,7 @@
 26	comme	comme	ADP	_	_	25	mod	_	_
 27	concept	concept	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
 28	flou	flou	ADJ	_	_	27	mod	_	_
-29	c'est-à-dire	c'	CCONJ	_	_	31	cc	_	_
+29	c'est-à-dire	c'est-à-dire	CCONJ	_	_	31	cc	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	art	art	NOUN	conj:reform	Gender=Masc|Number=Sing	25	conj:dicto	_	_
 32	dont	dont	PRON	_	PronType=Rel	31	conj:dicto	_	_
@@ -16008,7 +16008,7 @@
 12	de	de	ADP	_	_	11	mod	_	_
 13	friandises	friandise	NOUN	_	_	12	comp:obj	_	_
 14	gâteaux	gâteau	NOUN	_	Gender=Masc|Number=Plur	13	conj:coord	_	_
-15	et	et	CCONJ	_	_	14	conj:coord	_	_
+15	et	et	CCONJ	_	_	14	conj:coord	_	ExtPos=ADV|PhraseType=Idiom
 16	caetera	caetera	ADV	_	_	15	unk	_	InIdiom=Yes
 
 # macrosyntax = ^et donc < { { elle "euh"| elle } vole | elle emprunte } dans le camion de livraison { { une | un } sandwich | ^ou une baguette } //
@@ -17054,7 +17054,7 @@
 # sent_id = Rhap_D2009-46
 # text = bah c'est-à-dire la littérature avec un grand L euh n' est -ce pas ça a été pendant très longtemps une véritable institution
 1	bah	bah	INTJ	_	_	22	discourse	_	_
-2	c'est-à-dire	c'	CCONJ	_	_	15	cc	_	_
+2	c'est-à-dire	c'est-à-dire	CCONJ	_	_	15	cc	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	15	dislocated	_	_
 5	avec	avec	ADP	_	_	4	mod	_	_
