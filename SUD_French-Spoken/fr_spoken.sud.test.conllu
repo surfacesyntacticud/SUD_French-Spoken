@@ -798,7 +798,7 @@
 3	que	que	SCONJ	_	_	0	root	_	_
 4	sans	sans	ADP	_	_	14	mod	_	_
 5	savon	savon	NOUN	_	_	4	comp:obj	_	_
-6	rien	rien	PRON	_	_	8	mod	_	_
+6	rien	rien	PRON	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
 7	qu'	que	SCONJ	_	_	6	unk	_	InIdiom=Yes
 8	avec	avec	ADP	_	_	4	conj:dicto	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
@@ -2139,7 +2139,7 @@
 10	paraître	paraître	VERB	CAUSATIVE	VerbForm=Inf	9	comp:aux@caus	_	_
 11	ce	ce	DET	_	_	13	det	_	_
 12	ce	ce	DET	_	_	11	conj:dicto	_	_
-13	chef	chef	NOUN	_	_	10	comp:obj	_	_
+13	chef	chef	NOUN	_	_	10	comp:obj	_	ExtPos=NOUN|PhraseType=Idiom
 14	-d'	d'	ADP	_	_	13	unk	_	InIdiom=Yes
 15	oeuvre	oeuvre	NOUN	_	_	14	unk	_	InIdiom=Yes
 16	pour	pour	ADP	_	_	19	mod	_	_
@@ -2147,7 +2147,7 @@
 18	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	19	subj	_	_
 19	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	parataxis:parenth	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	chef	chef	NOUN	_	_	19	comp:pred	_	_
+21	chef	chef	NOUN	_	_	19	comp:pred	_	ExtPos=NOUN|PhraseType=Idiom
 22	-d'	de	ADP	_	_	21	unk	_	InIdiom=Yes
 23	oeuvre	oeuvre	NOUN	_	_	22	unk	_	InIdiom=Yes
 24	qui	qui	PRON	_	_	26	subj	_	_
@@ -4660,8 +4660,8 @@
 # text = vous présidez par ailleurs la commission maladies transmissibles euh de le Haut Conseil de la santé publique
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	présidez	présider	VERB	_	Number=Plur|Person=2	0	root	_	_
-3	par	par	NOUN	_	_	2	dislocated	_	_
-4	ailleurs	ailleurs	ADV	_	_	3	unk	_	InIdiom=Yes
+3	par	par	ADP	_	_	2	dislocated	_	ExtPos=ADV|PhraseType=Idiom
+4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	commission	commission	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 7	maladies	maladie	NOUN	_	Gender=Fem|Number=Plur	6	compound	_	_
@@ -6363,7 +6363,7 @@
 2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	15	mod	_	_
 4	si	si	SCONJ	_	_	15	mod	_	_
-5	jamais	jamais	ADV	_	_	4	unk	_	InIdiom=Yes
+5	jamais	jamais	ADV	_	_	9	mod	_	_
 6	ces	ce	DET	_	Number=Plur|Person=3|PronType=Dem	7	det	_	_
 7	épidémies	épidémie	NOUN	_	Gender=Fem|Number=Plur	9	subj	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
@@ -8989,9 +8989,9 @@
 6	envie	envie	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj@lvc	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
 8	savoir	savoir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
-9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
-10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
-11	peu	peu	NOUN	_	_	12	mod	_	_
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	mod	_	ExtPos=ADV|PhraseType=Idiom
+10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
+11	peu	peu	NOUN	_	_	10	unk	_	InIdiom=Yes
 12	mieux	mieux	ADV	_	_	8	mod	_	_
 13	comment	comment	PRON	_	_	15	mod	_	_
 14	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	15	subj	_	_

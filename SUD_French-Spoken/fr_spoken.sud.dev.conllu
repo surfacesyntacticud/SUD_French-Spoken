@@ -2751,8 +2751,8 @@
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	rue	rue	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	faute	faute	NOUN	_	Gender=Fem|Number=Sing	7	mod@x	_	_
-11	de	de	ADP	_	_	10	unk	_	InIdiom=Yes
-12	pouvoir	pouvoir	VERB	_	VerbForm=Inf	10	comp:obj@x	_	_
+11	de	de	ADP	_	_	10	comp:obl	_	_
+12	pouvoir	pouvoir	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
 13	payer	payer	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
 14	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	15	det	_	_
 15	crédit	crédit	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -12727,8 +12727,8 @@
 # macrosyntax = par ailleurs < ça demande ( également ) d'être à l'écoute //
 # sent_id = Rhap_M1003-8
 # text = par ailleurs ça demande également d' être à l' écoute
-1	par	par	NOUN	_	_	4	dislocated	_	_
-2	ailleurs	ailleurs	ADV	_	_	1	unk	_	InIdiom=Yes
+1	par	par	ADP	_	_	4	dislocated	_	ExtPos=ADV|PhraseType=Idiom
+2	ailleurs	ailleurs	ADV	_	_	1	comp:obj	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	demande	demander	VERB	_	_	0	root	_	_
 5	également	également	ADV	_	_	4	mod	_	_
@@ -12809,8 +12809,8 @@
 # text = donc euh par ailleurs euh ce métier peut nous emmener euh nous amener également à nous déplacer donc lors de sorties qui peuvent être plus ou moins importantes
 1	donc	donc	ADV	_	_	8	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	par	par	NOUN	_	_	8	dislocated	_	_
-4	ailleurs	ailleurs	ADV	_	_	3	unk	_	InIdiom=Yes
+3	par	par	ADP	_	_	8	dislocated	_	ExtPos=ADV|PhraseType=Idiom
+4	ailleurs	ailleurs	ADV	_	_	3	comp:obj	_	InIdiom=Yes
 5	euh	euh	INTJ	_	_	3	discourse	_	_
 6	ce	ce	DET	_	_	7	det	_	_
 7	métier	métier	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_

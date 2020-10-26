@@ -13408,7 +13408,7 @@
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	jusqu'	jusque	ADP	_	_	21	mod	_	_
 9	à	à	ADP	_	_	8	comp:obj	_	InIdiom=Yes
-10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	comp:obj@scrap	_	InIdiom=Yes
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	comp:obj@scrap	_	_
 11	jusqu'	jusque	ADP	_	_	8	conj:dicto	_	_
 12	à	à	ADP	_	_	11	comp:obj	_	_
 13	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -14927,7 +14927,7 @@
 # text = et une fois que vous êtes arrivé à l' arrêt vous allez sur votre gauche donc face à l' arrêt
 1	et	et	CCONJ	_	_	12	cc	_	_
 2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-3	fois	fois	NOUN	_	_	12	dislocated	_	_
+3	fois	fois	NOUN	_	_	12	dislocated	_	ExtPos=ADV|PhraseType=Idiom
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
 6	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
