@@ -2432,7 +2432,7 @@
 8	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fleuve	fleuve	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	c'est-à-dire	c'est-à-dire	ADV	_	_	10	mod	_	_
+11	c'est-à-dire	c'est-à-dire	CCONJ	_	_	10	cc	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	Mekong	Mekong	PROPN	_	_	11	comp:obj	_	_
 
@@ -3016,7 +3016,7 @@
 # macrosyntax = $L2 ^c'^est-^à-^dire ^que j'ai su après qu'il m'avait pas déplu //+ sur le bac //
 # sent_id = Rhap_D2010-110
 # text = c'est-à-dire que j' ai su après qu' il m' avait pas déplu sur le bac
-1	c'est-à-dire	c'est-à-dire 	ADV	_	_	0	root	_	_
+1	c'est-à-dire	c'est-à-dire 	CCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
@@ -4838,7 +4838,7 @@
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = Rhap_D2008-32
 # text = c'est-à-dire que si vraiment euh l' activité que l'on constate aujourd'hui en en Amérique de le Nord oui euh devient l' activité d' une pandémie alors euh
-1	c'est-à-dire	c'est-à-dire 	ADV	_	_	0	root	_	_
+1	c'est-à-dire	c'est-à-dire 	CCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	si	si	SCONJ	_	_	21	mod	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
@@ -6777,7 +6777,7 @@
 # macrosyntax = ^c'^est-^à-^dire ^que { le m~ | { le | le } virus } sait faire sa propre besogne de lui-même sur place //
 # sent_id = Rhap_D2008-138
 # text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même sur place
-1	c'est-à-dire	c'est-à-dire	ADV	_	_	0	root	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	m~	m~	X	_	_	8	subj	_	_
