@@ -11746,7 +11746,7 @@
 19	église	église	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 20	vis-à-vis	vis-à-vis	ADV	_	_	14	conj:coord	_	_
 21	de	de	ADP	_	_	20	comp:obl	_	_
-22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	InIdiom=Yes
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 23	vie	vie	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
 24	chrétienne	chrétien	ADJ	_	Gender=Fem|Number=Sing	23	mod	_	_
 
