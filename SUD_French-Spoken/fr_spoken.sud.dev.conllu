@@ -287,7 +287,7 @@
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	sorti	sortir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
-6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	InIdiom=Yes
 7	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	de	de	ADP	_	_	4	comp:obl	_	_
 9	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
@@ -605,7 +605,7 @@
 # sent_id = Rhap_D0006-26
 # text = et euh et j~
 1	et	et	CCONJ	_	_	3	cc	_	_
-2	euh	euh	INTJ	_	_	3	cc	_	_
+2	euh	euh	INTJ	_	_	3	discourse	_	_
 3	et	et	CCONJ	_	_	0	root	_	_
 4	j~	j~	PRON	_	_	3	conj:dicto	_	_
 
@@ -1468,17 +1468,17 @@
 # macrosyntax = n'importe quelle heure //
 # sent_id = Rhap_D0006-80
 # text = n' importe quelle heure
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	_
+1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
 2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|PhraseType=Idiom
-3	quelle	quel	PRON	_	_	2	comp:obj	_	_
+3	quelle	quel	PRON	_	_	2	comp:obj	_	InIdiom=Yes
 4	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # macrosyntax = n'importe quelle heure //
 # sent_id = Rhap_D0006-81
 # text = n' importe quelle heure
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	_
+1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
 2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|PhraseType=Idiom
-3	quelle	quel	PRON	_	_	2	comp:obj	_	_
+3	quelle	quel	PRON	_	_	2	comp:obj	_	InIdiom=Yes
 4	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # macrosyntax = ^et c'est une des moins payées //
@@ -5628,7 +5628,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	conj:dicto	_	_
 29	jaunâtre	jaunâtre	NOUN	_	_	25	conj:dicto	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	det	_	InIdiom=Yes
-31	petit	petit	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	_
+31	petit	petit	ADJ	_	Gender=Masc|Number=Sing	32	mod	_	InIdiom=Yes
 32	peu	peu	NOUN	_	_	34	mod	_	ExtPos=ADV|PhraseType=Idiom
 33	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	34	subj	_	_
 34	risque	risquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	comp:obj	_	_
@@ -6747,7 +6747,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	InIdiom=Yes
-8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	_
+8	petit	petit	ADJ	_	Gender=Masc|Number=Sing	9	mod	_	InIdiom=Yes
 9	peu	peu	NOUN	_	_	10	mod	_	ExtPos=ADV|PhraseType=Idiom
 10	en	en	ADP	_	_	6	mod	_	_
 11	face	face	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -7013,7 +7013,7 @@
 11	Jean-François	Jean-François	PROPN	_	_	10	comp:obj	_	_
 12	Alain	Alain	PROPN	_	_	11	flat	_	_
 13	Alexandre	Alexandre	PROPN	_	_	11	conj:coord	_	_
-14	XXX	XXX	PROPN	_	_	4	flat	_	_
+14	XXX	XXX	PROPN	_	_	13	flat	_	_
 
 # macrosyntax = $L3 $- c'est bien //
 # sent_id = Rhap_D2007-14
@@ -12701,7 +12701,7 @@
 36	façon	façon	NOUN	_	Gender=Fem|Number=Sing	35	comp:obj	_	_
 37	personnelle	personnel	ADJ	_	Gender=Fem|Number=Sing	36	mod	_	_
 38	et	et	CCONJ	_	_	37	conj:dicto	_	_
-39	euh	euh	INTJ	_	_	38	cc	_	_
+39	euh	euh	INTJ	_	_	38	discourse	_	_
 40	afin	afin	ADV	_	_	7	mod	_	_
 41	d'	de	ADP	_	_	40	mod	_	_
 42	offrir	offrir	VERB	_	VerbForm=Inf	41	comp:obj	_	_
@@ -12847,7 +12847,7 @@
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	région	région	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 8	comme	comme	SCONJ	_	_	10	cc	_	_
-9	euh	euh	INTJ	_	_	8	discourse	_	_
+9	euh	euh	INTJ	_	_	10	discourse	_	_
 10	à	à	ADP	_	_	5	conj:coord	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	étranger	étranger	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_

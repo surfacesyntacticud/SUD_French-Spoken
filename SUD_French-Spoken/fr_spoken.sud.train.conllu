@@ -4168,8 +4168,8 @@
 # sent_id = Rhap_D2003-72
 # text = voilà qui change les données euh de le problème
 1	voilà	voilà	VERB	_	_	0	root	_	_
-2	qui	qui	PRON	_	_	1	comp:obj	_	_
-3	change	changer	VERB	_	_	2	mod@relcl	_	_
+2	qui	qui	PRON	_	_	3	subj	_	_
+3	change	changer	VERB	_	_	1	mod@relcl	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	données	donnée	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 6	euh	euh	INTJ	_	_	5	discourse	_	_
@@ -4359,7 +4359,7 @@
 14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	ouverture	ouverture	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 
-# macrosyntax = ^et il rebondit un peu "je crois" > le ballon // 
+# macrosyntax = ^et il rebondit un peu "je crois" > le ballon //
 # sent_id = Rhap_D2003-82bis
 # text = et il rebondit un peu je crois le ballon
 1	et	et	CCONJ	_	_	3	cc	_	_
@@ -5091,8 +5091,8 @@
 13	actuellement	actuellement	ADV	_	_	3	mod	_	_
 14	oui	oui	INTJ	_	_	13	discourse	_	_
 15	qui	qui	PRON	_	_	17	subj@caus	_	_
-16	se	se	PRON	_	Person=3|PronType=Prs	17	comp	_	InIdiom=Yes
-17	fait	faire	AUX	_	_	10	mod@relcl	_	ExtPos=VERB|PhraseType=Idiom
+16	se	se	PRON	_	Person=3|PronType=Prs	17	comp	_	_
+17	fait	faire	AUX	_	_	10	mod@relcl	_	_
 18	là	là	ADV	_	_	17	mod	_	_
 19	vraiment	vraiment	ADV	_	_	20	mod	_	_
 20	balader	balader	VERB	_	VerbForm=Inf	17	comp:aux@caus	_	_
@@ -5987,8 +5987,8 @@
 6	nation	nation	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	exigence	exigence	NOUN	_	Gender=Fem|Number=Sing	10	subj@caus	_	_
-9	se	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	fait	faire	AUX	_	_	0	root	_	ExtPos=VERB|PhraseType=Idiom
+9	se	se	PRON	_	Person=3|PronType=Prs	11	comp	_	_
+10	fait	faire	AUX	_	_	0	root	_	_
 11	entendre	entendre	VERB	_	VerbForm=Inf	10	comp:aux@caus	_	_
 12	toujours	toujours	ADV	_	_	14	mod	_	_
 13	plus	plus	NOUN	_	Gender=Masc	14	mod	_	_
@@ -6827,7 +6827,7 @@
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	rien	rien	PRON	_	_	5	comp:pred	_	_
 8	et	et	CCONJ	_	_	7	conj:dicto	_	_
-9	euh	euh	INTJ	_	_	8	cc	_	_
+9	euh	euh	INTJ	_	_	10	discourse	_	_
 10	et	et	CCONJ	_	_	8	conj:dicto	_	_
 
 # macrosyntax = $L2 "ah" d' accord //
@@ -7844,7 +7844,7 @@
 # macrosyntax = $L1 "ah" sauf qu' il faut -$ changer quand même de système //
 # sent_id = Rhap_D0005-86
 # text = ah sauf qu' il faut changer quand même de système
-1	ah	ah	INTJ	_	_	2	cc	_	_
+1	ah	ah	INTJ	_	_	2	discourse	_	_
 2	sauf	sauf	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
 3	qu'	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
@@ -8460,7 +8460,7 @@
 17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	art	art	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	mais	mais	CCONJ	_	_	22	cc	_	_
-20	euh	euh	INTJ	_	_	19	cc	_	_
+20	euh	euh	INTJ	_	_	22	discourse	_	_
 21	notamment	notamment	ADV	_	_	22	mod	_	_
 22	de	de	ADP	_	_	16	conj:dicto	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
@@ -8721,7 +8721,7 @@
 39	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	40	subj	_	_
 40	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	43	det	_	InIdiom=Yes
-42	petit	petit	ADJ	_	Gender=Masc|Number=Sing	43	mod	_	_
+42	petit	petit	ADJ	_	Gender=Masc|Number=Sing	43	mod	_	InIdiom=Yes
 43	peu	peu	NOUN	_	_	45	mod	_	ExtPos=ADV|PhraseType=Idiom
 44	du	du	DET	_	_	45	det	_	_
 45	contresens	contresens	NOUN	_	Gender=Masc	40	comp:pred	_	_
@@ -10285,7 +10285,7 @@
 5	non	non	ADV	_	Polarity=Neg	4	conj:coord	_	_
 6	non	non	ADV	_	Polarity=Neg	5	conj:coord	_	_
 
-# macrosyntax = "ah" non // 
+# macrosyntax = "ah" non //
 # sent_id = Rhap_D0001-73ter
 # text = ah non
 1	ah	ah	INTJ	_	_	2	discourse	_	_
@@ -11821,7 +11821,7 @@
 # sent_id = Rhap_M0023-23
 # text = et euh
 1	et	et	CCONJ	_	_	0	root	_	_
-2	euh	euh	INTJ	_	_	1	cc	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	_
 
 # macrosyntax = le policier "euh"
 # sent_id = Rhap_M0023-24
@@ -12175,15 +12175,15 @@
 15	euh	euh	INTJ	_	_	14	discourse	_	_
 16	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	17	det	_	_
 17	sujet	sujet	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
-18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
-19	art	art	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	_
-20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@appos	_	_
-21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	_
-22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	_
-23	reflet	reflet	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	_
-24	de	de	ADP	_	_	23	mod	_	_
-25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
-26	société	société	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	_
+18	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	InTitle=Yes
+19	art	art	NOUN	_	Gender=Masc|Number=Sing	20	subj	_	InTitle=Yes
+20	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	mod@appos	_	ExtPos=PROPN|PhraseType=Title
+21	-il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	subj@expl	_	InTitle=Yes
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	InTitle=Yes
+23	reflet	reflet	NOUN	_	Gender=Masc|Number=Sing	20	comp:pred	_	InTitle=Yes
+24	de	de	ADP	_	_	23	mod	_	InTitle=Yes
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	InTitle=Yes
+26	société	société	NOUN	_	Gender=Fem|Number=Sing	24	comp:obj	_	InTitle=Yes
 
 # macrosyntax = ^et "euh" la réponse ( question réponse < vous allez le voir tout de suite // ) < c'est [ oui //
 # sent_id = Rhap_M2002-5
@@ -12224,7 +12224,7 @@
 14	temps	temps	NOUN	_	Gender=Masc	3	mod	_	_
 15	et	et	CCONJ	_	_	20	cc	_	_
 16	pas	pas	ADV	_	Polarity=Neg	15	mod	_	_
-17	euh	euh	INTJ	_	_	18	cc	_	_
+17	euh	euh	INTJ	_	_	18	discourse	_	_
 18	et	et	CCONJ	_	_	15	conj:dicto	_	_
 19	pas	pas	ADV	_	Polarity=Neg	20	mod	_	_
 20	sous	sous	ADP	_	_	14	conj:coord	_	_
@@ -13681,7 +13681,7 @@
 12	français	français	ADJ	_	Gender=Masc	11	mod	_	_
 13	contemporains	contemporain	ADJ	_	Gender=Masc|Number=Plur	11	mod	_	_
 14	mais	mais	CCONJ	_	_	17	cc	_	_
-15	aussi	aussi	ADV	_	_	17	mod@appos	_	_
+15	aussi	aussi	ADV	_	_	17	mod	_	_
 16	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	17	det	_	_
 17	essais	essai	NOUN	_	Gender=Masc|Number=Plur	11	conj:coord	_	_
 18	mais	mais	CCONJ	_	_	20	cc	_	_
@@ -16910,11 +16910,11 @@
 11	de	de	ADP	_	_	10	mod	_	_
 12	Bachelard	Bachelard	PROPN	_	_	11	comp:obj	_	_
 13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-14	les	le	DET	conj:reform	Definite=Def|Number=Plur|PronType=Art	13	conj:dicto	_	_
-15	écrivains	écrivain	NOUN	_	Gender=Masc|Number=Plur	16	subj@pass	_	_
-16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	mod@appos	_	_
-17	seulement	seulement	ADV	_	_	16	mod	_	_
-18	lus	lire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	_
+14	les	le	DET	conj:reform	Definite=Def|Number=Plur|PronType=Art	13	conj:dicto	_	InTitle=Yes
+15	écrivains	écrivain	NOUN	_	Gender=Masc|Number=Plur	16	subj@pass	_	InTitle=Yes
+16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	mod@appos	_	ExtPos=PROPN|PhraseType=Title
+17	seulement	seulement	ADV	_	_	16	mod	_	InTitle=Yes
+18	lus	lire	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	16	comp:aux@pass	_	InTitle=Yes
 
 # macrosyntax = ^alors on pourrait poser la question [ les écrivains ont-ils existé // ] //
 # sent_id = Rhap_D2009-36
@@ -17870,7 +17870,7 @@
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
-7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
+7	petit	petit	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	InIdiom=Yes
 8	peu	peu	NOUN	_	_	9	mod	_	ExtPos=ADV|PhraseType=Idiom
 9	pour	pour	ADP	_	_	5	comp:obl	_	_
 10	ce	ce	PRON	_	_	9	comp:obj	_	_
@@ -18247,7 +18247,7 @@
 14	Avennes	Avennes	PROPN	_	_	13	comp:obj	_	_
 15	là	là	ADV	_	_	11	conj:appos	_	_
 16	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	InIdiom=Yes
-17	petit	petit	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	_
+17	petit	petit	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	InIdiom=Yes
 18	peu	peu	NOUN	_	_	15	mod	_	ExtPos=ADV|PhraseType=Idiom
 19	à	à	ADP	_	_	15	conj:dicto	_	_
 20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -18632,7 +18632,7 @@
 20	de	de	ADP	_	_	19	mod	_	_
 21	livres	livre	NOUN	_	_	20	comp:obj	_	_
 
-# macrosyntax = $- $L1 {| { ^et puis | ( $L2 ça < ça commence aussi // 
+# macrosyntax = $- $L1 {| { ^et puis | ( $L2 ça < ça commence aussi //
 # sent_id = Rhap_D0004-62bis
 # text = et puis ça ça commence aussi
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
@@ -18642,7 +18642,7 @@
 5	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	aussi	aussi	ADV	_	_	5	mod	_	_
 
-# macrosyntax = $L1 "oui" -$ 
+# macrosyntax = $L1 "oui" -$
 # sent_id = Rhap_D0004-62ter
 # text = oui
 1	oui	oui	INTJ	_	_	0	root	_	_
@@ -19222,7 +19222,7 @@
 25	heures	heure	NOUN	_	Gender=Fem|Number=Plur	18	comp:pred	_	_
 26	de	de	ADP	_	_	25	mod	_	_
 
-# macrosyntax = { si je les vois "euh" | si je les vois } vers { vingt heures | ^ou dix-neuf heures trente } < c'est qu'ils sont partis plus tôt  
+# macrosyntax = { si je les vois "euh" | si je les vois } vers { vingt heures | ^ou dix-neuf heures trente } < c'est qu'ils sont partis plus tôt
 # sent_id = Rhap_D0004-88_3bis
 # text = si je les vois euh si je les vois vers vingt heures ou dix-neuf heures trente c' est qu' ils sont partis plus tôt
 1	si	si	SCONJ	_	_	18	mod	_	_

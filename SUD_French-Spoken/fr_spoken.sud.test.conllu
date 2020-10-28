@@ -608,9 +608,9 @@
 # sent_id = Rhap_D2011-37
 # text = voilà qui est fait
 1	voilà	voilà	VERB	_	_	0	root	_	_
-2	qui	qui	PRON	_	_	1	comp:obj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@appos	_	_
-4	fait	faire	VERB	_	_	3	mod@relcl	_	_
+2	qui	qui	PRON	_	_	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
+4	fait	faire	VERB	_	_	3	comp:aux	_	_
 
 # macrosyntax = j'ouvre //
 # sent_id = Rhap_D2011-38
@@ -2118,7 +2118,7 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	regardé	regarder	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	InIdiom=Yes
-6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	InIdiom=Yes
 7	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	dans	dans	ADP	_	_	4	comp:obl	_	_
 9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -2176,8 +2176,8 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 7	complètement	complètement	ADV	_	_	6	mod	_	_
 8	euh	euh	INTJ	_	_	7	discourse	_	_
-9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
-10	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	ExtPos=VERB|PhraseType=Idiom
+9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	_
+10	est	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj:dicto	_	_
 11	ben	ben	INTJ	_	_	12	discourse	_	_
 12	misé	miser	VERB	_	_	10	comp:aux	_	_
 13	à	à	ADP	_	_	12	mod	_	_
@@ -2432,9 +2432,9 @@
 8	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	fleuve	fleuve	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
-11	c'est-à-dire	c'est-à-dire	CCONJ	_	_	10	cc	_	_
+11	c'est-à-dire	c'est-à-dire	CCONJ	_	_	13	cc	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
-13	Mekong	Mekong	PROPN	_	_	11	comp:obj	_	_
+13	Mekong	Mekong	PROPN	_	_	10	conj:appos	_	_
 
 # macrosyntax = ^et vous êtes drôlement attifée > quand même //
 # sent_id = Rhap_D2010-67
@@ -3795,7 +3795,7 @@
 38	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	39	subj	_	_
 39	caricature	caricaturer	VERB	_	Number=Sing|Person=1	32	parataxis:parenth	_	_
 40	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	InIdiom=Yes
-41	petit	petit	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	_
+41	petit	petit	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	InIdiom=Yes
 42	peu	peu	NOUN	_	_	39	mod	_	ExtPos=ADV|PhraseType=Idiom
 43	mais	mais	CCONJ	_	_	46	cc	_	_
 44	enfin	enfin	ADV	_	_	42	discourse	_	_
@@ -5090,7 +5090,7 @@
 # sent_id = Rhap_D2008-44
 # text = un petit peu
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	InIdiom=Yes
-2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
+2	petit	petit	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
 
 # macrosyntax = vous parliez de la météo //
@@ -6405,7 +6405,7 @@
 20	réconfortées	réconforter	VERB	DoubleAux	_	16	comp:pred	_	_
 21	hein	hein	INTJ	_	_	20	discourse	_	_
 22	mais	mais	CCONJ	_	_	27	cc	_	_
-23	euh	euh	INTJ	_	_	22	cc	_	_
+23	euh	euh	INTJ	_	_	27	discourse	_	_
 24	plutôt	plutôt	ADV	_	_	27	mod	_	_
 25	euh	euh	INTJ	_	_	24	discourse	_	_
 26	euh	euh	INTJ	_	_	24	discourse	_	_
@@ -10369,7 +10369,7 @@
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	sérieux	sérieux	ADJ	_	Gender=Masc	10	comp:pred	_	_
 
-# macrosyntax = il faut que tu deviennes script girl > par exemple // 
+# macrosyntax = il faut que tu deviennes script girl > par exemple //
 # sent_id = Rhap_D2001-117bis
 # text = il faut que tu deviennes script girl par exemple
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
@@ -10382,7 +10382,7 @@
 8	par	par	ADP	_	_	2	mod	_	_
 9	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 
-# macrosyntax = viens travailler avec moi // 
+# macrosyntax = viens travailler avec moi //
 # sent_id = Rhap_D2001-117ter
 # text = viens travailler avec moi
 1	viens	venir	VERB	_	_	0	root	_	_
