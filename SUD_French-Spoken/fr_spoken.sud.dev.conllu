@@ -9349,7 +9349,7 @@
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	faisais	faire	VERB	_	Number=Sing|Person=1	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	grand	grand	ADJ	_	_	6	mod	_	_InIdiom=Yes
+5	grand	grand	ADJ	_	_	6	mod	_	InIdiom=Yes
 6	-chose	chose	NOUN	_	_	3	comp:obj	_	ExtPos=PRON|PhraseType=Idiom
 
 # macrosyntax = j'étais toujours "euh" dans les cinq premiers de la classe //+ ^mais sans plus //

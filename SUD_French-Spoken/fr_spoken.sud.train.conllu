@@ -18446,8 +18446,8 @@
 10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	crise	crise	NOUN	_	Gender=Fem|Number=Sing	9	comp:pred	_	_
 12	générale	général	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
-13	de	de	ADP	de	_	11	mod	_	_
-14	les	le	ADP	de	_	13	comp:obj@scrap	_	_
+13	de	de	ADP	_	_	11	mod	_	_
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	13	comp:obj@scrap	_	_
 15	oui	oui	INTJ	_	_	16	discourse	_	_
 16	de	de	ADP	de	_	13	conj:dicto	_	_
 17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
