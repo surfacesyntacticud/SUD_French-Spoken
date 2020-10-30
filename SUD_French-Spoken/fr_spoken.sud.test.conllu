@@ -10914,9 +10914,9 @@
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	fois	fois	NOUN	_	_	29	mod	_	_
 
-# macrosyntax = je m'excuse des répéter si vous les connaissez //
+# macrosyntax = je m'excuse de les répéter si vous les connaissez //
 # sent_id = Rhap_D2001-144
-# text = je m' excuse des répéter si vous les connaissez
+# text = je m' excuse de les répéter si vous les connaissez
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	m'	lui	PRON	_	_	3	comp:obl	_	_
 3	excuse	excuser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12471,9 +12471,9 @@
 58	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	59	det	_	_
 59	austérité	austérité	NOUN	_	Gender=Fem|Number=Sing	57	comp:obj	_	_
 
-# macrosyntax = est-ce qu'il y a une différence nette parmi { l~ | les } différentes couches sociales > dans la mesure où vous arrivez { { à | à } les toucher | ^et aux attacher à l'église } //
+# macrosyntax = est-ce qu'il y a une différence nette parmi { l~ | les } différentes couches sociales > dans la mesure où vous arrivez { { à | à } les toucher | ^et à les attacher à l'église } //
 # sent_id = Rhap_D1001-33
-# text = est -ce qu' il y a une différence nette parmi l~ les différentes couches sociales dans la mesure où vous arrivez à aux toucher et aux attacher à l' église
+# text = est -ce qu' il y a une différence nette parmi l~ les différentes couches sociales dans la mesure où vous arrivez à à les toucher et à les attacher à l' église
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
 3	qu'	que	SCONJ	_	_	1	comp:pred	_	_

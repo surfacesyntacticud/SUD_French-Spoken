@@ -5326,7 +5326,7 @@
 
 # macrosyntax = $L2 "ah" "oui" il fait pas que $- de { le remettre | le restaurer } //
 # sent_id = Rhap_D0009-83
-# text = ah oui il fait pas que du remettre le restaurer
+# text = ah oui il fait pas que de le remettre le restaurer
 1	ah	ah	INTJ	_	_	9	discourse	_	_
 2	oui	oui	INTJ	_	_	9	discourse	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
@@ -8356,7 +8356,7 @@
 
 # macrosyntax = donc < c'est pas du & //
 # sent_id = Rhap_D2007-118
-# text = donc c' est pas de le
+# text = donc c' est pas du
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9785,9 +9785,9 @@
 10	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	politique	politique	ADJ	_	Number=Sing	10	mod	_	_
 
-# macrosyntax = j'ai toujours envie de faire "euh" avancer le monde par mes idées > quitte aux mettre en oeuvre moi-même //
+# macrosyntax = j'ai toujours envie de faire "euh" avancer le monde par mes idées > quitte à les mettre en oeuvre moi-même //
 # sent_id = Rhap_D2005-71
-# text = j' ai toujours envie de faire euh avancer le monde par mes idées quitte aux mettre en oeuvre moi-même
+# text = j' ai toujours envie de faire euh avancer le monde par mes idées quitte à les mettre en oeuvre moi-même
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	toujours	toujours	ADV	_	_	2	mod	_	_
@@ -10763,7 +10763,7 @@
 
 # macrosyntax = $- $L1 "enfin" "je veux dire" "euh" ( $L2 { "mh mh" | "mh mh" | "mh mh" } // ) -$ $L1 "euh" les lycées du ESPERLUETTE //
 # sent_id = Rhap_D0002-14
-# text = enfin je veux dire euh mh mh mh mh mh mh euh les lycées de le
+# text = enfin je veux dire euh mh mh mh mh mh mh euh les lycées du
 1	enfin	enfin	ADV	_	_	14	discourse	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	discourse	_	_

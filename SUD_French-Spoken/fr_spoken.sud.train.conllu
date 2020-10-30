@@ -2048,9 +2048,9 @@
 7	d'	de	ADP	_	_	6	mod	_	_
 8	Aden	Aden	PROPN	_	_	7	comp:obj	_	_
 
-# macrosyntax = on m'a demandé du faire //
+# macrosyntax = on m'a demandé de le faire //
 # sent_id = Rhap_D2004-60
-# text = on m' a demandé du faire
+# text = on m' a demandé de le faire
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	m'	lui	PRON	_	_	4	comp:obl	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
