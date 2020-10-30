@@ -6302,11 +6302,12 @@
 
 # macrosyntax = donc < " euh " le scénario auquel on peut s' attendre encore une fois avec toutes les précautions { qu' il faut |} d' usage {| qu' il faut mettre } < c' est que cette souche que l' on voit en Amérique du nord ne va pas se plaire beaucoup avec l' été " euh " { chez nous | dans l' hémisphère nord } //
 # sent_id = Rhap_D2008-112
-# text = donc euh le scénario à lequel on peut s' attendre encore une fois avec toutes les précautions qu' il faut d' usage qu' il faut mettre c' est que cette souche que l' on voit en Amérique du Nord ne va pas se plaire beaucoup avec l' été euh chez nous dans l' hémisphère nord
+# text = donc euh le scénario auquel on peut s' attendre encore une fois avec toutes les précautions qu' il faut d' usage qu' il faut mettre c' est que cette souche que l' on voit en Amérique du Nord ne va pas se plaire beaucoup avec l' été euh chez nous dans l' hémisphère nord
 1	donc	donc	ADV	_	_	28	discourse	_	_
 2	euh	euh	INTJ	_	_	28	discourse	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	scénario	scénario	NOUN	_	Gender=Masc|Number=Sing	28	dislocated	_	_
+5-6	auquel	_	_	_	_	_	_	_	_
 5	à	à	ADP	_	_	10	comp:obl	_	_
 6	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	5	comp:obj	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_

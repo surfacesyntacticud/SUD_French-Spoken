@@ -5435,7 +5435,7 @@
 
 # macrosyntax = nous mesurons aussi l'importance du rôle de { l'État |} dans notre société >+ {| un État sur lequel pèsent { des responsabilités essentielles | (+ { le service public | la sécurité | la solidarité } ) | un État auquel il appartient { de prévoir | de faire face | d'assurer la coordination des moyens du pays } } } //=
 # sent_id = Rhap_M2004-7
-# text = nous mesurons aussi l' importance du rôle de l' État dans notre société un État sur lequel pèsent des responsabilités essentielles le service public la sécurité la solidarité un État à lequel il appartient de prévoir de faire face d' assurer la coordination des moyens du pays
+# text = nous mesurons aussi l' importance du rôle de l' État dans notre société un État sur lequel pèsent des responsabilités essentielles le service public la sécurité la solidarité un État auquel il appartient de prévoir de faire face d' assurer la coordination des moyens du pays
 1	nous	il	PRON	_	_	2	subj	_	_
 2	mesurons	mesurer	VERB	_	Number=Plur|Person=1	0	root	_	_
 3	aussi	aussi	ADV	_	_	2	mod	_	_
@@ -5468,6 +5468,7 @@
 29	solidarité	solidarité	NOUN	_	Gender=Fem|Number=Sing	27	conj:coord	_	_
 30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	31	det	_	_
 31	État	État	PROPN	_	_	16	conj:dicto	_	_
+32-33	auquel	_	_	_	_	_	_	_	_
 32	à	à	ADP	_	_	35	comp:obl	_	_
 33	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	32	comp:obj	_	_
 34	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	35	subj	_	_
@@ -17001,7 +17002,7 @@
 
 # macrosyntax = { la | la } lecture n'était pas "euh" { l~ | l~ } à un niveau auquel on s'intéressait quand on faisait une théorie de la littérature //
 # sent_id = Rhap_D2009-30
-# text = la la lecture n' était pas euh l~ l~ à un niveau à lequel on s' intéressait quand on faisait une théorie de la littérature
+# text = la la lecture n' était pas euh l~ l~ à un niveau auquel on s' intéressait quand on faisait une théorie de la littérature
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	1	conj:dicto	_	_
 3	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
@@ -17014,6 +17015,7 @@
 10	à	à	ADP	_	_	5	comp:obl	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+13-14	auquel	_	_	_	_	_	_	_	_
 13	à	à	ADP	_	_	17	comp:obl	_	_
 14	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	13	comp:obj	_	_
 15	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
