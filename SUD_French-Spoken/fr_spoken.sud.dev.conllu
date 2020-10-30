@@ -4356,7 +4356,7 @@
 2	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
 4	as	avoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	conj:dicto	_	_
-5	quelqu'un	quelqueun	PRON	_	_	4	comp:obj	_	_
+5	quelqu'un	quelqu'un	PRON	_	_	4	comp:obj	_	_
 6	qui	qui	PRON	_	_	7	subj	_	_
 7	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 
@@ -4377,7 +4377,7 @@
 # text = j' ai quelqu'un qui est de Saint-Sauveur Lorzac qui passe
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	quelqu'un	quelqueun	PRON	_	_	2	comp:obj	_	_
+3	quelqu'un	quelqu'un	PRON	_	_	2	comp:obj	_	_
 4	qui	qui	PRON	_	_	5	subj	_	_
 5	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 6	de	de	ADP	_	_	5	comp:obl	_	_
@@ -7432,7 +7432,7 @@
 28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
 29	lit	lit	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 30	avec	avec	ADP	_	_	21	mod	_	_
-31	quelqu'un	quelqueun	PRON	_	_	30	comp:obj	_	_
+31	quelqu'un	quelqu'un	PRON	_	_	30	comp:obj	_	_
 32	d'	de	ADP	_	_	31	comp:obl	_	_
 33	autre	autre	PRON	_	_	32	comp:obj	_	_
 
@@ -12017,7 +12017,7 @@
 11	il	il	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	conj:dicto	_	_
 12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	quelqu'un	quelqueun	PRON	_	_	13	comp:obj	_	_
+14	quelqu'un	quelqu'un	PRON	_	_	13	comp:obj	_	_
 15	qui	qui	PRON	_	_	16	subj	_	_
 16	arrivait	arriver	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	mod@relcl	_	_
 17	pour	pour	ADP	_	_	16	mod	_	_
@@ -12224,7 +12224,7 @@
 # text = la cathédrale Notre-Dame alors euh en fait elle
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	cathédrale	cathédrale	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-3	Notre-Dame	Notre	PROPN	_	_	2	mod@appos	_	_
+3	Notre-Dame	Notre-Dame	PROPN	_	_	2	mod@appos	_	_
 4	alors	alors	ADV	_	_	3	discourse	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	_
 6	en	en	ADP	_	_	3	discourse	_	_
@@ -12637,7 +12637,7 @@
 8	eh	eh	INTJ	_	_	7	discourse	_	_
 9	ben	ben	INTJ	_	_	7	discourse	_	_
 10	place	place	NOUN	conj:reform	Gender=Fem|Number=Sing	7	conj:dicto	_	_
-11	Notre-Dame	Notre	PROPN	_	_	10	mod@appos	_	_
+11	Notre-Dame	Notre-Dame	PROPN	_	_	10	mod@appos	_	_
 
 # macrosyntax = "eh ben" { la ca~ | { la | la } cathédrale } < elle est sur la place Notre-Dame //
 # sent_id = Rhap_M0003-30
@@ -12654,7 +12654,7 @@
 10	sur	sur	ADP	_	_	9	comp:obl	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	place	place	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-13	Notre-Dame	Notre	PROPN	_	_	12	mod@appos	_	_
+13	Notre-Dame	Notre-Dame	PROPN	_	_	12	mod@appos	_	_
 
 # macrosyntax = { vous pou~ | { vous | vous } êtes obligé } de passer devant > en fait //
 # sent_id = Rhap_M0003-31

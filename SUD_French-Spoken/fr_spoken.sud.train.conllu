@@ -966,7 +966,7 @@
 11	à	à	ADP	_	_	10	comp:obl	_	_
 12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	place	place	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
-14	Notre-Dame	Notre	PROPN	_	_	13	mod@appos	_	_
+14	Notre-Dame	Notre-Dame	PROPN	_	_	13	mod@appos	_	_
 15	alors	alors	ADV	_	_	17	discourse	_	_
 16	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
 17	emprunte	emprunter	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -1055,7 +1055,7 @@
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	place	place	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-7	Notre-Dame	Notre	PROPN	_	_	6	mod@appos	_	_
+7	Notre-Dame	Notre-Dame	PROPN	_	_	6	mod@appos	_	_
 
 # macrosyntax = $L1 ^et vous appartenez à ce qu'on appelle les flying doctors de la Mref > qui est { une | une } association { des médecins | ^et { de | de | de } recherche } qui est basée { ici | { à | à } Nairobi | au Kenya } //
 # sent_id = Rhap_D2004-1
@@ -9774,7 +9774,7 @@
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
 38	arrière	arrière	NOUN	_	_	36	comp:obj	_	_
 39	de	de	ADP	_	_	38	mod	_	_
-40	Notre-Dame	Notre	PROPN	_	_	39	comp:obj	_	_
+40	Notre-Dame	Notre-Dame	PROPN	_	_	39	comp:obj	_	_
 41	hein	hein	INTJ	_	_	40	discourse	_	_
 42	en	en	ADP	_	_	35	mod	_	_
 43	particulier	particulier	ADJ	_	Gender=Masc|Number=Sing	42	comp:obj	_	_
@@ -10981,7 +10981,7 @@
 5	de	de	ADP	_	_	4	comp:obl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	place	place	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	Notre-Dame	Notre	PROPN	_	_	7	mod@appos	_	_
+8	Notre-Dame	Notre-Dame	PROPN	_	_	7	mod@appos	_	_
 9	à	à	ADP	_	_	5	conj:coord	_	_
 10	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
 11	Nef	Nef	PROPN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
@@ -10990,7 +10990,7 @@
 14	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	place	place	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-17	Notre-Dame	Notre	PROPN	_	_	16	mod@appos	_	_
+17	Notre-Dame	Notre-Dame	PROPN	_	_	16	mod@appos	_	_
 18	par	par	ADP	_	_	14	comp:obl	_	_
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	place	place	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
@@ -12326,7 +12326,7 @@
 5	comme	comme	SCONJ	_	_	13	mod	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-8	quelqu'un	quelqueun	PRON	_	_	7	comp:pred	_	_
+8	quelqu'un	quelqu'un	PRON	_	_	7	comp:pred	_	_
 9	de	de	ADP	_	_	8	mod	_	_
 10	de	de	ADP	conj:reform	_	9	conj:dicto	_	_
 11	discipliné	discipliner	ADJ	_	_	10	comp:obj	_	_

@@ -76,7 +76,7 @@
 6	fontaine	fontaine	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	place	place	NOUN	_	Gender=Fem|Number=Sing	4	conj:coord	_	_
-9	Notre-Dame	Notre	PROPN	_	_	8	mod@appos	_	_
+9	Notre-Dame	Notre-Dame	PROPN	_	_	8	mod@appos	_	_
 
 # macrosyntax = ^et "ben" voilà //
 # sent_id = Rhap_M0001-14
@@ -1723,7 +1723,7 @@
 # sent_id = Rhap_D2010-11
 # text = ah quelqu'un a dit du mal quand même de c~
 1	ah	ah	INTJ	_	_	3	discourse	_	_
-2	quelqu'un	quelqueun	PRON	_	_	3	subj	_	_
+2	quelqu'un	quelqu'un	PRON	_	_	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	dit	dire	VERB	_	_	3	comp:aux	_	_
 5	du	du	DET	_	_	6	det	_	_
@@ -1780,7 +1780,7 @@
 # macrosyntax = $L2 quelqu'un a dit "euh" [ { on n~ | on ne } comprend pas qu'un éditeur laisse passer des fautes de grammaire pareilles // ] //
 # sent_id = Rhap_D2010-17
 # text = quelqu'un a dit euh on n~ on ne comprend pas qu' un éditeur laisse passer des fautes de grammaire pareilles
-1	quelqu'un	quelqueun	PRON	_	_	2	subj	_	_
+1	quelqu'un	quelqu'un	PRON	_	_	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dit	dire	VERB	_	_	2	comp:aux	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -2647,7 +2647,7 @@
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	d'	de	ADP	_	_	6	mod	_	_
 3	ailleurs	ailleurs	ADV	_	_	2	comp:obj	_	_
-4	quelqu'un	quelqueun	PRON	_	_	6	subj	_	_
+4	quelqu'un	quelqu'un	PRON	_	_	6	subj	_	_
 5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	remarquée	remarquer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
@@ -4567,7 +4567,7 @@
 20	cause	cause	NOUN	_	Gender=Fem|Number=Sing	19	comp:obj	_	_
 21	de	de	ADP	_	_	20	mod	_	_
 22	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
-23	AH1N1	AN1N1	PROPN	_	_	22	mod@appos	_	_
+23	AH1N1	AH1N1	PROPN	_	_	22	mod@appos	_	_
 
 # macrosyntax = "euh" je rappelle que votre livre { Des épidémies | ^et des Hommes } vient de paraître aux éditions de la Martinière //
 # sent_id = Rhap_D2008-13
@@ -7866,7 +7866,7 @@
 19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	fête	fête	NOUN	conj:reform	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	de	de	ADP	_	_	20	mod	_	_
-22	Notre-Dame	Notre	PROPN	_	_	21	comp:obj	_	_
+22	Notre-Dame	Notre-Dame	PROPN	_	_	21	comp:obj	_	_
 23	de	de	ADP	_	_	22	mod	_	_
 24	Lourdes	Lourdes	PROPN	_	_	23	comp:obj	_	_
 25	en	en	ADP	_	_	18	comp:obj	_	_
@@ -10725,7 +10725,7 @@
 5	de	de	ADP	_	_	4	mod	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	tout	tout	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-8	quelqu'un	quelqueun	PRON	_	_	3	comp:pred	_	_
+8	quelqu'un	quelqu'un	PRON	_	_	3	comp:pred	_	_
 9	de	de	ADP	_	_	8	mod	_	_
 10	d'	de	ADP	conj:reform	_	9	conj:dicto	_	_
 11	extraverti	extravertir	ADJ	_	_	10	comp:obj	_	_
@@ -11981,7 +11981,7 @@
 7	sa	son	DET	conj:reform	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	6	conj:dicto	_	_
 8	foi	foi	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 9	à	à	ADP	_	_	5	comp:obl	_	_
-10	quelqu'un	quelqueun	PRON	_	_	9	comp:obj	_	_
+10	quelqu'un	quelqu'un	PRON	_	_	9	comp:obj	_	_
 11	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	subj	_	_
 12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	durable	durable	ADJ	_	Number=Sing	12	comp:pred	_	_
