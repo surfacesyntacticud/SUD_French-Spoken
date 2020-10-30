@@ -6723,7 +6723,7 @@
 
 # macrosyntax = ^et quand je reçois { le bulletin trimestrimel de & | le premier bulletin trimestriel { de ma | de ma } fille } <+ { je | j' } appelle les pompes funèbres //
 # sent_id = Rhap_D2008-132
-# text = et quand je reçois le bulletin trimestrimel du premier bulletin trimestriel de ma de ma fille je j' appelle les pompes funèbres
+# text = et quand je reçois le bulletin trimestrimel de le premier bulletin trimestriel de ma de ma fille je j' appelle les pompes funèbres
 1	et	et	CCONJ	_	_	20	cc	_	_
 2	quand	quand	SCONJ	_	_	20	mod	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
@@ -6731,7 +6731,6 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 6	bulletin	bulletin	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	trimestrimel	trimestrimel	ADJ	_	_	6	mod	_	_
-8-9	du	_	_	_	_	_	_	_	_
 8	de	de	ADP	_	_	6	mod	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
 10	premier	premier	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
