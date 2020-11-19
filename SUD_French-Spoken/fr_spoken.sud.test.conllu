@@ -3039,10 +3039,10 @@
 # macrosyntax = $L2 ^c'^est-^à-^dire ^que j'ai su après qu'il m'avait pas déplu //+ sur le bac //
 # sent_id = Rhap_D2010-110
 # text = c'est-à-dire que j' ai su après qu' il m' avait pas déplu sur le bac
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	su	savoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
 6	après	après	ADV	_	_	5	mod	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	_
@@ -4887,8 +4887,8 @@
 # macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
 # sent_id = Rhap_D2008-32
 # text = c'est-à-dire que si vraiment euh l' activité que l'on constate aujourd'hui en en Amérique du Nord oui euh devient l' activité d' une pandémie alors euh
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	21	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	si	si	SCONJ	_	_	21	mod	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
 5	euh	euh	INTJ	_	_	4	discourse	_	_
@@ -4908,7 +4908,7 @@
 18	Nord	Nord	PROPN	_	_	16	comp:obj	_	_
 19	oui	oui	INTJ	_	_	18	discourse	_	_
 20	euh	euh	INTJ	_	_	19	discourse	_	_
-21	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+21	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	activité	activité	NOUN	_	Gender=Fem|Number=Sing	21	comp:pred	_	_
 24	d'	de	ADP	_	_	23	mod	_	_
@@ -6154,10 +6154,10 @@
 # macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe & //
 # sent_id = Rhap_D2008-102
 # text = c'est-à-dire que la grippe ce qu' on connaît de la grippe
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
+4	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	ce	ce	PRON	_	_	4	conj:dicto	_	_
 6	qu'	que	PRON	_	_	8	comp:obj	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
@@ -6854,8 +6854,8 @@
 # macrosyntax = ^c'^est-^à-^dire ^que { le m~ | { le | le } virus } sait faire sa propre besogne de lui-même sur place //
 # sent_id = Rhap_D2008-138
 # text = c'est-à-dire que le m~ le le virus sait faire sa propre besogne de lui-même sur place
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	comp:obj	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	comp:obj	_	InIdiom=Yes
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	m~	m~	X	_	_	8	subj	_	_
 5	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -10160,10 +10160,10 @@
 # sent_id = Rhap_D2001-95
 # text = euh c'est-à-dire que je connaissais Allégret très bien
 1	euh	euh	INTJ	_	_	2	discourse	_	_
-2	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-3	que	que	SCONJ	_	_	2	comp:obj	_	_
+2	c'est-à-dire	c'est-à-dire	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-5	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	3	comp:obj	_	_
+5	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 6	Allégret	Allégret	PROPN	_	_	5	comp:obj	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	bien	bien	ADV	_	_	5	mod	_	_
@@ -12510,9 +12510,9 @@
 # macrosyntax = ^c'^est-^à-^dire ^que est-ce qu'il y a des couches sociales qui ( plus que d'autres ) ( "disons" dans Orléans même où évidemment { la | la } société est { plus stratifiée | $- $L2 ^et peut-être plus variée } { que | qu' } à la campagne ) ESPERLUETTE //
 # sent_id = Rhap_D1001-34
 # text = c'est-à-dire que est -ce qu' il y a des couches sociales qui plus que d' autres disons dans Orléans même où évidemment la la société est plus stratifiée et peut-être plus variée que qu' à la campagne
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	0	root	_	_
-2	que	que	SCONJ	_	_	1	comp:obj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	3	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
 5	qu'	que	SCONJ	_	_	3	comp:pred	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_

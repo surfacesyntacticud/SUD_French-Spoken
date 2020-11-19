@@ -7008,12 +7008,12 @@
 # sent_id = Rhap_D2007-7
 # text = ben c'est~ c'est-à-dire que je l' ai vécu comme un show quoi
 1	ben	ben	INTJ	_	_	2	discourse	_	_
-2	c'est~	c'est~	ADV	_	_	0	root	_	_
-3	c'est-à-dire	c'est-à-dire	CCONJ	_	_	2	conj:dicto	_	_
-4	que	que	SCONJ	_	_	3	comp:obj	_	_
+2	c'est~	c'est~	CCONJ	_	_	7	cc	_	_
+3	c'est-à-dire	c'est-à-dire	CCONJ	_	_	2	conj:dicto	_	ExtPos=CCONJ|PhraseType=Idiom
+4	que	que	SCONJ	_	_	3	unk	_	InIdiom=Yes
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 6	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	8	comp:obj	_	_
-7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
 9	comme	comme	ADP	_	_	8	mod	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	_
