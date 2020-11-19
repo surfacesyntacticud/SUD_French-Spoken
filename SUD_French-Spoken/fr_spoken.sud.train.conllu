@@ -1626,7 +1626,7 @@
 # sent_id = Rhap_D2004-32
 # text = et puis euh finalement vous avez vous êtes repartie vers Mulhouse
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	finalement	finalement	ADV	_	_	6	mod	_	_
 5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
@@ -1677,7 +1677,7 @@
 # sent_id = Rhap_D2004-36
 # text = et puis j' ai fait mes études au lycée euh de Mulhouse
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fait	faire	VERB	_	_	4	comp:aux	_	_
@@ -1741,7 +1741,7 @@
 # sent_id = Rhap_D2004-40
 # text = et puis j' ai fini mes études à Mulhouse
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	fini	finir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
@@ -6884,7 +6884,7 @@
 # sent_id = Rhap_D0005-9
 # text = et puis après ben j' ai travaillé sur les micro-processeurs l' informatique
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADP	_	_	6	mod	_	_
 4	ben	ben	INTJ	_	_	3	discourse	_	_
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
@@ -7690,7 +7690,7 @@
 # sent_id = Rhap_D0005-65
 # text = et puis alors s' il y avait quelque chose qui n' allait pas euh bon ben c' était tout de suite
 1	et	et	CCONJ	_	_	18	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	alors	alors	ADV	_	_	18	discourse	_	_
 4	s'	si	SCONJ	_	_	18	mod	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj@expl	_	_
@@ -7855,7 +7855,7 @@
 # sent_id = Rhap_D0005-77
 # text = et puis bon ben voilà donc ce qui fait que ah ouais c' est c' est pas facile facile
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	bon	bon	INTJ	_	_	7	discourse	_	_
 4	ben	ben	INTJ	_	_	7	discourse	_	_
 5	voilà	voilà	VERB	_	_	7	discourse	_	_
@@ -8648,7 +8648,7 @@
 88	siècle	siècle	NOUN	_	Gender=Masc|Number=Sing	85	comp:obj	_	_
 89	romantique	romantique	ADJ	_	Number=Sing	88	mod	_	_
 90	et	et	CCONJ	_	_	93	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-91	puis	puis	ADV	_	_	90	unk	_	InIdiom=Yes
+91	puis	puis	CCONJ	_	_	90	unk	_	InIdiom=Yes
 92	qui	qui	PRON	_	_	93	subj	_	_
 93	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	84	conj:coord	_	_
 94	continué	continuer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	93	comp:aux	_	_
@@ -9474,7 +9474,7 @@
 # sent_id = Rhap_D0001-10
 # text = et puis euh je travaille toute la journée
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	5	discourse	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	travaille	travailler	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -9654,7 +9654,7 @@
 # sent_id = Rhap_D0001-22
 # text = et puis après rue du Faubourg Saint Antoine c' est très vivant
 1	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADP	_	_	13	mod	_	_
 4	rue	rue	NOUN	_	Gender=Fem|Number=Sing	11	dislocated	_	_
 5-6	du	_	_	_	_	_	_	_	_
@@ -10224,7 +10224,7 @@
 # sent_id = Rhap_D0001-63
 # text = et puis après j' étais au lycée Arago donc voyez qui est mh mh mh hein qui avait une annexe d'ailleurs euh une annexe qui est à Reuilly-Diderot
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	6	mod	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 5	étais	être	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -10258,7 +10258,7 @@
 # sent_id = Rhap_D0001-64
 # text = et puis après donc euh j' étais une année à la classe de philo au lycée Paul Valéry mh mh euh et en prépa évidemment euh à à la Sor~ à Censier puis la Sorbonne quoi
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	7	mod	_	_
 4	donc	donc	ADV	_	_	3	discourse	_	_
 5	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -10643,7 +10643,7 @@
 # sent_id = Rhap_D0001-92
 # text = et puis oui quand même quarante
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	oui	oui	INTJ	_	_	6	discourse	_	_
 4	quand	quand	SCONJ	_	_	6	mod	_	ExtPos=ADV|PhraseType=Idiom
 5	même	même	ADV	_	_	4	unk	_	InIdiom=Yes
@@ -12750,7 +12750,7 @@
 # sent_id = Rhap_M2002-23
 # text = et puis il y a des formes d' art qui sont beaucoup plus hédonistes et qui se préoccupent très peu euh de euh de la connaissance
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12872,7 +12872,7 @@
 18	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	comp:obj	_	_
 19	pratique	pratiquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 20	et	et	CCONJ	_	_	23	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-21	puis	puis	ADV	_	_	20	unk	_	InIdiom=Yes
+21	puis	puis	CCONJ	_	_	20	unk	_	InIdiom=Yes
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	art	art	NOUN	_	Gender=Masc|Number=Sing	5	conj:coord	_	_
 24	en	en	ADP	_	_	23	mod	_	_
@@ -12960,7 +12960,7 @@
 # sent_id = Rhap_M2002-33
 # text = et puis il y a un autre aspect qui consiste à exp~ éprouver l' art le ressentir euh en faire l' expérience avoir une sorte de de vécu de l' expérience artistique
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13300,7 +13300,7 @@
 # sent_id = Rhap_M2002-45
 # text = et puis eh ben c' est quelque chose que nous sommes euh que nous avons bien euh que nous connaissons bien
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	eh	eh	INTJ	_	_	6	discourse	_	_
 4	ben	ben	INTJ	_	_	6	discourse	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
@@ -13614,7 +13614,7 @@
 # sent_id = Rhap_M2002-58
 # text = et puis il peut avoir des fonctions politiques aussi
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 4	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	avoir	avoir	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
@@ -16473,7 +16473,7 @@
 # sent_id = Rhap_D2009-5
 # text = et puis peu à peu se dégage finalement euh la vérité une vérité plus plus nue si je puis dire
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	peu	peu	NOUN	_	_	4	mod	_	_
 4	à	à	ADP	_	_	7	mod	_	_
 5	peu	peu	NOUN	_	_	4	comp:obj	_	_
@@ -17756,7 +17756,7 @@
 20	mh	mh	INTJ	_	_	19	discourse	_	_
 21	mh	mh	INTJ	_	_	19	discourse	_	_
 22	et	et	CCONJ	_	_	29	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-23	puis	puis	ADV	_	_	22	unk	_	InIdiom=Yes
+23	puis	puis	CCONJ	_	_	22	unk	_	InIdiom=Yes
 24	bon	bon	INTJ	_	_	29	discourse	_	_
 25	quand	quand	SCONJ	_	_	29	mod	_	ExtPos=ADV|PhraseType=Idiom
 26	même	même	ADV	_	_	25	unk	_	InIdiom=Yes
@@ -18234,7 +18234,7 @@
 # sent_id = Rhap_D0004-29
 # text = et puis il y a quand même un problème financier hein quand même hein
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 4	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18299,7 +18299,7 @@
 # sent_id = Rhap_D0004-34
 # text = et puis les lycées si vous voulez maintenant les livres sont gratuits
 1	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	lycées	lycée	NOUN	_	Gender=Masc|Number=Plur	11	dislocated	_	_
 5	si	si	SCONJ	_	_	4	discourse	_	_
@@ -18878,7 +18878,7 @@
 # sent_id = Rhap_D0004-62bis
 # text = et puis ça ça commence aussi
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	conj:dicto	_	_
 5	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18893,7 +18893,7 @@
 # sent_id = Rhap_D0004-62quater
 # text = et puis surtout le le temps que les gens passent devant Internet
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	surtout	surtout	ADV	_	_	6	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
 5	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	conj:dicto	_	_
@@ -20014,7 +20014,7 @@
 # sent_id = Rhap_M0018-9
 # text = et puis à la fin je suis un peu déconcentré
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-2	puis	puis	ADV	_	_	1	unk	_	InIdiom=Yes
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	à	à	ADP	_	_	10	mod	_	_
 4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	fin	fin	NOUN	_	_	3	comp:obj	_	_
