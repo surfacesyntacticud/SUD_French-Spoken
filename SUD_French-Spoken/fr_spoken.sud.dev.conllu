@@ -1287,7 +1287,7 @@
 3	psychiatrie	psychiatrie	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
 4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
 5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	ê~	ê~	VERB	CCOMP	_	5	parataxis:obj	_	_
+6	ê~	ê~	VERB	CCOMP	_	5	comp:obj@scrap	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj:dicto	_	_
 9	être	être	AUX	conj:reform	VerbForm=Inf	8	comp:obj@x	_	_
@@ -2302,7 +2302,7 @@
 17	et	et	CCONJ	_	_	18	cc	_	_
 18	comment	comment	PRON	_	_	16	conj:coord	_	_
 19	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	20	subj	_	_
-20	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	parataxis:obj	_	_
+20	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
 21	se	se	PRON	_	Person=3|PronType=Prs	22	comp	_	InIdiom=Yes
 22	passer	passer	VERB	ETRE	VerbForm=Inf	20	comp:obj@x	_	ExtPos=VERB|PhraseType=Idiom
 23	avec	avec	ADP	_	_	14	mod	_	_

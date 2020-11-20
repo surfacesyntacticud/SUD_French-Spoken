@@ -2354,7 +2354,7 @@
 9	bon	bon	INTJ	_	_	8	discourse	_	_
 10	ben	ben	INTJ	_	_	8	discourse	_	_
 11	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-12	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	parataxis:obj	_	_
+12	vais	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis:obj	_	_
 13	voir	voir	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
 
 # macrosyntax = ^et à ESPERLUETTE < par hasard < je suis allée en quarante-neuf { { à ( ayant fini mon tour à Aden ) | à } ESPERLUETTE | ici | au Kenya } //
@@ -15231,10 +15231,10 @@
 7	savoir	savoir	VERB	DoubleAux	VerbForm=Inf	6	comp:obj@x	_	_
 8	comment	comment	PRON	_	_	10	mod	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
-10	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	parataxis:obj	_	_
+10	pouvais	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	7	comp:obj	_	_
 11	me	lui	PRON	_	_	12	comp:obl	_	_
 12	rendre	rendre	VERB	CCOMP	VerbForm=Inf	10	comp:obj@x	_	_
-13	à	à	ADP	_	_	10	mod	_	_
+13	à	à	ADP	_	_	12	mod	_	_
 14	pied	pied	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15-16	au	_	_	_	_	_	_	_	_
 15	à	à	ADP	_	_	12	comp:obl	_	_
