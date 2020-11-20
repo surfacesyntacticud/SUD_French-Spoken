@@ -18273,7 +18273,7 @@
 1	mais	mais	CCONJ	_	_	7	cc	_	_
 2	euh	euh	INTJ	_	_	9	discourse	_	_
 3-4	du	_	_	_	_	_	_	_	_
-3	de	de	ADP	_	_	9	mod	_	_
+3	de	de	ADP	_	_	9	discourse	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	coup	coup	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
