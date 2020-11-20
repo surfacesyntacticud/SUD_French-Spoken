@@ -7565,9 +7565,9 @@
 # macrosyntax = sois purifié // ] entend-on dans l'évangile //
 # sent_id = Rhap_M2003-24
 # text = sois purifié entend -on dans l' évangile
-1	sois	être	AUX	CCOMP	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:obj	_	_
+1	sois	être	AUX	CCOMP	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	parataxis:insert	_	_
 2	purifié	purifier	VERB	_	_	1	comp:aux	_	_
-3	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 4	-on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 5	dans	dans	ADP	_	_	3	mod	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
