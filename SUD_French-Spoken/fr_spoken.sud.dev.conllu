@@ -5901,7 +5901,7 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	_
-6	en	en	ADP	_	_	11	mod	_	_
+6	en	en	ADP	_	_	11	discourse	_	_
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	11	subj	_	_
@@ -6964,7 +6964,7 @@
 3	à	à	ADP	_	_	2	comp:obl	_	_
 4	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
 5	procès	procès	NOUN	_	Gender=Masc	3	comp:obj	_	_
-6	en	en	ADP	_	_	3	mod	_	_
+6	en	en	ADP	_	_	3	discourse	_	_
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 
 # macrosyntax = $L1 tu peux le dire //=
@@ -12322,9 +12322,9 @@
 10	cinéma	cinéma	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	euh	euh	INTJ	_	_	10	discourse	_	_
 12	qui	qui	PRON	_	_	11	conj:dicto	_	_
-13	en	en	ADP	_	_	12	conj:dicto	_	_
+13	en	en	ADP	_	_	12	discourse	_	_
 14	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
-15	qui	qui	PRON	_	_	14	conj:dicto	_	_
+15	qui	qui	PRON	_	_	12	conj:dicto	_	_
 
 # macrosyntax = c' est sur la ligne du tram "hein" //
 # sent_id = Rhap_M0003-8
@@ -12434,7 +12434,7 @@
 # macrosyntax = en fait < "euh" "ben" là <+ "euh" vous passez "euh" & //
 # sent_id = Rhap_M0003-16
 # text = en fait euh ben là euh vous passez euh
-1	en	en	ADP	_	_	8	mod	_	_
+1	en	en	ADP	_	_	8	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	ben	ben	INTJ	_	_	1	discourse	_	_
@@ -12448,7 +12448,7 @@
 # sent_id = Rhap_M0003-17
 # text = ben en fait c' est la ligne du tram toujours là
 1	ben	ben	INTJ	_	_	5	discourse	_	_
-2	en	en	ADP	_	_	5	mod	_	_
+2	en	en	ADP	_	_	5	discourse	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12674,8 +12674,8 @@
 # macrosyntax = { en | en } fait < tout le long <+ vous suivez la ligne du tram //
 # sent_id = Rhap_M0003-32
 # text = en en fait tout le long vous suivez la ligne du tram
-1	en	en	ADP	_	_	8	mod	_	_
-2	en	en	ADP	_	_	1	comp:obj	_	_
+1	en	en	ADP	_	_	8	discourse	_	_
+2	en	en	ADP	_	_	1	conj:dicto	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	tout	tout	ADJ	_	Gender=Masc|Number=Sing	6	mod	_	_
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_

@@ -7243,7 +7243,7 @@
 # macrosyntax = en fait < tout l'évangile nous montre un Jésus qui remet l'humanité debout //
 # sent_id = Rhap_M2003-11
 # text = en fait tout l' évangile nous montre un Jésus qui remet l' humanité debout
-1	en	en	ADP	_	_	7	mod	_	_
+1	en	en	ADP	_	_	7	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	5	mod	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	_

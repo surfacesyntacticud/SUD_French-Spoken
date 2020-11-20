@@ -549,7 +549,7 @@
 # macrosyntax = en fait < c' est une route qui descend //
 # sent_id = Rhap_M0009-21
 # text = en fait c' est une route qui descend
-1	en	en	ADP	_	_	4	mod	_	_
+1	en	en	ADP	_	_	4	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1521,7 +1521,7 @@
 # sent_id = Rhap_D2004-24
 # text = alors en fait vous êtes euh liée à la France puisque vous êtes française
 1	alors	alors	ADV	_	_	5	mod	_	_
-2	en	en	ADP	_	_	5	mod	_	_
+2	en	en	ADP	_	_	5	discourse	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj@pass	_	_
 5	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14714,7 +14714,7 @@
 11	truc	truc	NOUN	_	_	9	comp:obj	_	_
 12	comme	comme	ADP	_	_	11	mod	_	_
 13	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	_
-14	en	en	ADP	_	_	2	mod	_	_
+14	en	en	ADP	_	_	2	discourse	_	_
 15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 
 # macrosyntax = $L2 ça m'a l'air très bien > ça //
@@ -14912,7 +14912,7 @@
 # macrosyntax = en fait < c'est { deux & | un amour d'enfance loin de { dix | douze } ans entre { un jeune homme | ^et une jeune femme } qui finissent par se retrouver "euh" alors qu'ils ont { trente cinq | ^ou quarante } ans } //
 # sent_id = Rhap_D2002-67
 # text = en fait c' est deux un amour d' enfance loin de dix douze ans entre un jeune homme et une jeune femme qui finissent par se retrouver euh alors qu' ils ont trente cinq ou quarante ans
-1	en	en	ADP	_	_	4	mod	_	_
+1	en	en	ADP	_	_	4	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15189,7 +15189,7 @@
 # sent_id = Rhap_M0005-10
 # text = et en fait faut toujours suivre euh la la ligne de tram
 1	et	et	CCONJ	_	_	4	cc	_	_
-2	en	en	ADP	_	_	4	mod	_	_
+2	en	en	ADP	_	_	4	discourse	_	_
 3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 4	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	toujours	toujours	ADV	_	_	4	mod	_	_
@@ -15222,7 +15222,7 @@
 # macrosyntax = $L2 voilà // en fait < { je | j' } aurais voulu savoir comment je pouvais me rendre à pied au départ du téléphérique de Grenoble //
 # sent_id = Rhap_D0008-1
 # text = en fait je j' aurais voulu savoir comment je pouvais me rendre à pied au départ du téléphérique de Grenoble
-1	en	en	ADP	_	_	5	mod	_	_
+1	en	en	ADP	_	_	5	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
 4	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	conj:dicto	_	_
@@ -15898,7 +15898,7 @@
 6	kiosque	kiosque	NOUN	_	_	3	comp:obj	_	_
 7	à	à	ADP	_	_	6	mod	_	_
 8	journaux	journal	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
-9	en	en	ADP	_	_	2	mod	_	_
+9	en	en	ADP	_	_	2	discourse	_	_
 10	fait	fait	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
 
 # macrosyntax = passez devant //
@@ -16658,7 +16658,7 @@
 5	savons	savoir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	bien	bien	ADV	_	_	5	mod	_	_
 7	qu'	que	SCONJ	_	_	5	comp:obj	_	_
-8	en	en	ADP	_	_	11	mod	_	_
+8	en	en	ADP	_	_	11	discourse	_	_
 9	fait	fait	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 11	pense	penser	VERB	_	_	7	comp:obj	_	_
