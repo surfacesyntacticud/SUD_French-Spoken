@@ -11020,9 +11020,9 @@
 5	édu~	éducation	NOUN	_	_	4	conj:dicto	_	_
 6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	éducation	éducation	NOUN	_	Gender=Fem|Number=Sing	5	conj:dicto	_	_
-8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	mod	_	ExtPos=ADV|PhraseType=Idiom
-9	petit	petit	NOUN	_	Gender=Masc|Number=Sing	8	unk	_	InIdiom=Yes
-10	peu	peu	ADV	_	_	9	unk	_	InIdiom=Yes
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes
+9	petit	petit	NOUN	_	Gender=Masc|Number=Sing	10	mod	_	InIdiom=Yes
+10	peu	peu	NOUN	_	_	11	mod	_	ExtPos=ADV|PhraseType=Idiom
 11	rigide	rigide	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 12	à	à	ADP	_	_	7	udep	_	_
 13	cet	cet	DET	_	_	14	det	_	_
