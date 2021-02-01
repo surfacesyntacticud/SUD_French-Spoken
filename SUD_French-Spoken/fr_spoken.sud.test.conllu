@@ -425,14 +425,20 @@
 2	constatez	constater	VERB	_	Number=Plur|Person=2	0	root	_	_
 3	maître	maître	NOUN	_	Gender=Masc|Number=Sing	2	vocative	_	_
 
-# macrosyntax = $L3 { très sale |} //+ $L1 {| { très | très } sale } //
+# macrosyntax = { très sale |} //+ 
 # sent_id = Rhap_D2011-22
-# text = très sale très très sale
+# text = très sale
+# speaker = L3
 1	très	très	ADV	_	_	2	mod	_	_
 2	sale	sale	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
-3	très	très	ADV	_	_	5	mod	_	_
-4	très	très	ADV	_	_	3	conj:coord	_	_
-5	sale	sale	ADJ	_	Gender=Masc|Number=Sing	2	conj:dicto	_	_
+
+# macrosyntax = {| { très | très } sale } //
+# sent_id = Rhap_D2011-22bis
+# text = très sale très très sale
+# speaker = L1
+1	très	très	ADV	_	_	3	mod	_	_
+1	très	très	ADV	_	_	1	conj:coord	_	_
+3	sale	sale	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # macrosyntax = on a ici un pantalon avec une grosse tache de grenadine //
 # sent_id = Rhap_D2011-23
@@ -879,14 +885,15 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	comp:cleft	_	_
 
-# macrosyntax = $L1 alors < -$ $- $L1 "eh bah" tout simplement ESPERLUETTE //
+# macrosyntax = alors < -$ $- "eh bah" tout simplement ESPERLUETTE //
 # sent_id = Rhap_D2011-59
 # text = alors eh bah tout simplement
+# speaker = L1
 1	alors	alors	ADV	_	_	5	mod	_	_
 2	eh	eh	INTJ	_	_	1	discourse	_	_
 3	bah	bah	INTJ	_	_	1	discourse	_	_
 4	tout	tout	ADV	_	_	5	mod	_	_
-5	simplement	simplement	ADV	_	_	0	root	_	_
+5	simplement	simplement	ADV	_	_	0	root@scrap	_	_
 
 # macrosyntax = $L2 Pierre -$ < à l'intérieur de la boule magique <+ il y a des billes en céramique qui ont chacune une efficacité de lavage tout à fait différents //
 # sent_id = Rhap_D2011-60
@@ -1254,9 +1261,10 @@
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 
-# macrosyntax = ^et ^puis je crois que vous avez { un garçon -$ $L1 qui salit |} >+ en plus "hein" //+ $L5 ( tout à fait // ) {| un garçon { qui se salit | ^et { qui faisait des allergies auparavant | ^et qui n'en fait plus grâce à la boule magique } } } //
+# macrosyntax = ^et ^puis je crois que vous avez { un garçon -$ {| un garçon { qui se salit | ^et { qui faisait des allergies auparavant | ^et qui n'en fait plus grâce à la boule magique } } } //
 # sent_id = Rhap_D2011-84
-# text = et puis je crois que vous avez un garçon qui salit en plus hein tout à fait un garçon qui se salit et qui faisait des allergies auparavant et qui n' en fait plus grace à la boule magique
+# text = et puis je crois que vous avez un garçon un garçon qui se salit et qui faisait des allergies auparavant et qui n' en fait plus grace à la boule magique
+# speaker = L5
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
@@ -1266,14 +1274,6 @@
 7	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-10	qui	qui	PRON	_	_	11	subj	_	_
-11	salit	salir	VERB	_	_	9	mod@relcl	_	_
-12	en	en	ADP	_	_	11	mod	_	_
-13	plus	plus	ADV	_	_	12	comp:obj	_	_
-14	hein	hein	INTJ	_	_	13	discourse	_	_
-15	tout	tout	ADV	_	_	13	discourse	_	_
-16	à	à	ADP	_	_	15	comp:obl	_	_
-17	fait	fait	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	_
 19	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	9	conj:dicto	_	_
 20	qui	qui	PRON	_	_	22	subj	_	_
@@ -1296,6 +1296,24 @@
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	boule	boule	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39	magique	magique	ADJ	_	Number=Sing	38	mod	_	_
+
+# macrosyntax = qui salit |} >+ en plus "hein" //+
+# sent_id = Rhap_D2011-84bis
+# text = qui salit en plus hein
+# speaker = L1
+1	qui	qui	PRON	_	_	2	subj	_	_
+2	salit	salir	VERB	_	_	0	root	_	_
+3	en	en	ADP	_	_	2	mod	_	_
+4	plus	plus	ADV	_	_	3	comp:obj	_	_
+5	hein	hein	INTJ	_	_	4	discourse	_	_
+
+# macrosyntax = tout à fait //
+# sent_id = Rhap_D2011-84ter
+# text = tout à fait
+# speaker = L5
+1	tout	tout	ADV	_	_	0	root	_	_
+2	à	à	ADP	_	_	1	comp:obl	_	_
+3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 
 # macrosyntax = $L2 ^et au niveau { de | des | des odeurs } < est-ce que c'est efficace > également //
 # sent_id = Rhap_D2011-85
@@ -1362,9 +1380,10 @@
 8	de	de	ADP	_	_	7	udep	_	_
 9	fraîcheur	fraîcheur	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 
-# macrosyntax = $L2 ça < c'est quand même très $- $L2 agréable //
+# macrosyntax = ça < c'est quand même très $- agréable //
 # sent_id = Rhap_D2011-89
 # text = ça c' est quand même très agréable
+# speaker = L2
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1373,9 +1392,10 @@
 6	très	très	ADV	_	_	7	mod	_	_
 7	agréable	agréable	ADJ	_	Number=Sing	3	comp:pred	_	_
 
-# macrosyntax = $L1 est-ce qu'elle est -$ $L1 { silencieuse |} >+ la boule magique >+ dans le $- $L1 tambour >+ quand il ( $L5 tout à fait // ) -$ $L1 tourne //+
+# macrosyntax = est-ce qu'elle est -$ { silencieuse |} >+ la boule magique >+ dans le $- tambour >+ quand il -$ tourne //+
 # sent_id = Rhap_D2011-90
-# text = est -ce qu' elle est silencieuse la boule magique dans le tambour quand il tout à fait tourne
+# text = est -ce qu' elle est silencieuse la boule magique dans le tambour quand il tourne
+# speaker = L1
 1	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 2	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	1	subj@expl	_	_
 3	qu'	que	SCONJ	_	_	1	comp:pred	_	_
@@ -1390,10 +1410,15 @@
 12	tambour	tambour	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	quand	quand	SCONJ	_	_	5	mod	_	_
 14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
-15	tout	tout	ADV	_	_	18	discourse	_	_
-16	à	à	ADP	_	_	15	comp:obl	_	_
-17	fait	fait	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+
+# macrosyntax = $L5 tout à fait //
+# sent_id = Rhap_D2011-90bis
+# text = tout à fait tourne
+# speaker = L5
+1	tout	tout	ADV	_	_	0	root	_	_
+2	à	à	ADP	_	_	1	comp:obl	_	_
+3	fait	fait	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 
 # macrosyntax = $L5 {| très silencieuse } //+
 # sent_id = Rhap_D2011-91
@@ -1417,9 +1442,10 @@
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	2	comp:obj	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 
-# macrosyntax = $L1 ^et elle n'abîme { absolument pas |} le linge //+ $L5 {| pas du tout } //
+# macrosyntax = $L1 ^et elle n'abîme { absolument pas |} le linge //+
 # sent_id = Rhap_D2011-94
-# text = et elle n' abîme absolument pas le linge pas du tout
+# text = et elle n' abîme absolument pas le linge
+# speaker = L1
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	_
@@ -1428,11 +1454,16 @@
 6	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	linge	linge	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
-9	pas	pas	ADV	_	Polarity=Neg	6	conj:dicto	_	_
-10-11	du	_	_	_	_	_	_	_	_
-10	de	de	ADP	_	_	9	mod	_	_
-11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
-12	tout	tout	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
+
+# macrosyntax = {| pas du tout } //
+# sent_id = Rhap_D2011-94bis
+# text = pas du tout
+# speaker = L5
+1	pas	pas	ADV	_	Polarity=Neg	0	root	_	_
+2-3	du	_	_	_	_	_	_	_	_
+2	de	de	ADP	_	_	1	mod	_	_
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	tout	tout	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 
 # macrosyntax = $L1 voilà // donc < la boule magique < c'est vraiment l'idéal //
 # sent_id = Rhap_D2011-95
@@ -1527,19 +1558,25 @@
 14	comme	comme	ADP	_	_	8	mod	_	_
 15	Magalie	Magalie	PROPN	_	_	14	comp:obj	_	_
 
-# macrosyntax = merci $- $L1 beaucoup d'être venue ( $L2 merci Magalie // ) -$ $- $L1 sur notre plateau //
+# macrosyntax = merci $- beaucoup d'être venue -$ $- sur notre plateau //
 # sent_id = Rhap_D2011-99
-# text = merci beaucoup d' être venue merci Magalie sur notre plateau
+# text = merci beaucoup d' être venue sur notre plateau
+# speaker = L1
 1	merci	merci	NOUN	_	_	0	root	_	_
 2	beaucoup	beaucoup	PRON	_	_	1	mod	_	_
 3	d'	de	ADP	_	_	1	udep	_	_
 4	être	être	AUX	_	VerbForm=Inf	3	comp:obj	_	_
 5	venue	venir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	merci	merci	NOUN	_	_	1	conj:coord	_	_
-7	Magalie	Magalie	PROPN	_	_	6	vocative	_	_
 8	sur	sur	ADP	_	_	5	comp:obl	_	_
 9	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	10	det	_	_
 10	plateau	plateau	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+
+# macrosyntax = merci Magalie //
+# sent_id = Rhap_D2011-99bis
+# text = merci Magalie
+# speaker = L2
+1	merci	merci	NOUN	_	_	0	root	_	_
+2	Magalie	Magalie	PROPN	_	_	1	vocative	_	_
 
 # macrosyntax = $L5 merci à vous -$ //
 # sent_id = Rhap_D2011-100
@@ -1705,9 +1742,10 @@
 1	puis	puis	CCONJ	_	_	2	cc	_	_
 2	voilà	voilà	VERB	_	_	0	root	_	_
 
-# macrosyntax = $L1 ^et alors < la critique déferlante $- $L1 < c'est une vague incroyable //
+# macrosyntax = ^et alors < la critique déferlante $- < c'est une vague incroyable //
 # sent_id = Rhap_D2010-10
 # text = et alors la critique déferlante c' est une vague incroyable
+# speaker = L1
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	alors	alors	ADV	_	_	7	mod	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
@@ -1719,9 +1757,10 @@
 9	vague	vague	NOUN	_	Gender=Fem|Number=Sing	7	comp:pred	_	_
 10	incroyable	incroyable	ADJ	_	Number=Sing	9	mod	_	_
 
-# macrosyntax = $L2 XXX // "ah" quelqu'un -$ $L2 a dit du mal > quand même > de c~ ESPERLUETTE //
+# macrosyntax = XXX // "ah" quelqu'un -$ a dit du mal > quand même > de c~ ESPERLUETTE //
 # sent_id = Rhap_D2010-11
 # text = ah quelqu'un a dit du mal quand même de c~
+# speaker = L2
 1	ah	ah	INTJ	_	_	3	discourse	_	_
 2	quelqu'un	quelqu'un	PRON	_	_	3	subj	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -1756,14 +1795,14 @@
 4	bien	bien	ADV	_	_	3	mod	_	_
 5	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	comp:obj	_	_
 
-# macrosyntax = $- $L2 c'est mon éditeur ( $L1 mais ESPERLUETTE // ) -$ $L2 qui me l'a dit //
+# macrosyntax = $- c'est mon éditeur -$ qui me l'a dit //
 # sent_id = Rhap_D2010-15
-# text = c' est mon éditeur mais qui me l' a dit
+# text = c' est mon éditeur qui me l' a dit
+# speaker = L2
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	4	det	_	_
 4	éditeur	éditeur	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
-5	mais	mais	CCONJ	_	_	4	conj:dicto	_	_
 6	qui	qui	PRON	_	_	9	subj	_	_
 7	me	lui	PRON	_	_	10	comp:obl	_	_
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
@@ -1801,9 +1840,10 @@
 19	grammaire	grammaire	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 20	pareilles	pareil	ADJ	_	Gender=Fem|Number=Plur	17	mod	_	_
 
-# macrosyntax = $L1 "bon" "euh" on y reviendra ( d'ailleurs ) $- $L1 { sur | ( $L2 oui // ) -$ $L1 sur } le style //
+# macrosyntax = "bon" "euh" on y reviendra ( d'ailleurs ) $- { sur | ( $L2 oui // ) -$ sur } le style //
 # sent_id = Rhap_D2010-18
 # text = bon euh on y reviendra d' ailleurs sur oui sur le style
+# speaker = L1
 1	bon	bon	INTJ	_	_	5	discourse	_	_
 2	euh	euh	INTJ	_	_	5	discourse	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
@@ -1812,7 +1852,6 @@
 6	d'	de	ADP	_	_	5	mod	_	_
 7	ailleurs	ailleurs	ADV	_	_	6	comp:obj	_	_
 8	sur	sur	ADP	_	_	5	comp:obl	_	_
-9	oui	oui	INTJ	_	_	12	discourse	_	_
 10	sur	sur	ADP	conj:reform	_	8	conj:dicto	_	_
 11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	style	style	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
@@ -2061,9 +2100,10 @@
 3	d'	d'	ADP	_	_	2	comp:obl	_	_
 4	accord	accord	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 
-# macrosyntax = $L1 "mh" -$ c'est certainement vrai $- $L1 { pour | pour } les auteurs //
+# macrosyntax = "mh" -$ c'est certainement vrai $- { pour | pour } les auteurs //
 # sent_id = Rhap_D2010-40
 # text = mh c' est certainement vrai pour pour les auteurs
+# speaker = L1
 1	mh	mh	INTJ	_	_	3	discourse	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -2074,15 +2114,14 @@
 8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	auteurs	auteur	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 
-# macrosyntax = ^mais ( $L2 { ouais | ouais } // ) -$ $L1 "euh" di~ "euh" ESPERLUETTE //
+# macrosyntax = ^mais ( $L2 { ouais | ouais } // ) -$ "euh" di~ "euh" ESPERLUETTE //
 # sent_id = Rhap_D2010-41
 # text = mais ouais ouais euh di~ euh
-1	mais	mais	CCONJ	_	_	5	cc	_	_
-2	ouais	ouais	INTJ	_	_	5	discourse	_	_
-3	ouais	ouais	INTJ	_	_	2	conj:coord	_	_
+# speaker = L1
+1	mais	mais	CCONJ	_	_	3	cc	_	_
+2	euh	euh	INTJ	_	_	1	discourse	_	_
+3	di~	di~	VERB	_	_	0	root@scrap	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
-5	di~	di~	VERB	_	_	0	root	_	_
-6	euh	euh	INTJ	_	_	5	discourse	_	_
 
 # macrosyntax = ^et ^puis alors < je ESPERLUETTE //
 # sent_id = Rhap_D2010-42
@@ -2280,20 +2319,21 @@
 11	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
 12	tomber	tomber	VERB	ETRE	VerbForm=Inf	11	comp:obj@x	_	_
 
-# macrosyntax = alors < ils $- $L1 doivent avoir du ( $L2 oui // ) -$ $L1 regret //
+# macrosyntax = alors < ils $- doivent avoir du ( $L2 oui // ) -$ regret //
 # sent_id = Rhap_D2010-55
 # text = alors ils doivent avoir du oui regret
+# speaker = L1
 1	alors	alors	ADV	_	_	3	mod	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
 3	doivent	devoir	VERB	_	Number=Plur|Person=3	0	root	_	_
 4	avoir	avoir	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
-5	du	du	DET	_	_	7	det	_	_
-6	oui	oui	INTJ	_	_	7	discourse	_	_
-7	regret	regret	NOUN	_	Gender=Masc|Number=Sing	4	comp:obl	_	_
+5	du	du	DET	_	_	6	det	_	_
+6	regret	regret	NOUN	_	Gender=Masc|Number=Sing	4	comp:obl	_	_
 
-# macrosyntax = $L2 ils voulaient pas //=
+# macrosyntax = ils voulaient pas //=
 # sent_id = Rhap_D2010-56
 # text = ils voulaient pas
+# speaker = L2
 1	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
 2	voulaient	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
@@ -2354,9 +2394,10 @@
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	PC	PC	PROPN	_	_	5	comp:obj	_	_
 
-# macrosyntax = ce qui fait { que [ le Barrage < ça a été une expérience épouvantable { pour la famille | pour ma mère } ] | ^et que j'en ai été punie > par ailleurs >+ { quand j'en ai parlé | $- $L2 quand ( $L1 mh ) -$ j'en ai écrit "enfin" ESPERLUETTE } } //
+# macrosyntax = ce qui fait { que [ le Barrage < ça a été une expérience épouvantable { pour la famille | pour ma mère } ] | ^et que j'en ai été punie > par ailleurs >+ { quand j'en ai parlé | $- quand ( $L1 mh ) -$ j'en ai écrit "enfin" ESPERLUETTE } } //
 # sent_id = Rhap_D2010-62
 # text = ce qui fait que le Barrage ça a été une expérience épouvantable pour la famille pour ma mère et que j' en ai été punie par ailleurs quand j' en ai parlé quand j' en ai écrit enfin
+# speaker = L2
 1	ce	ce	PRON	_	_	0	root	_	_
 2	qui	qui	PRON	_	_	3	subj	_	_
 3	fait	faire	VERB	_	_	1	mod@relcl	_	_
@@ -2393,7 +2434,7 @@
 34	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	36	subj	_	_
 35	en	en	PRON	_	Person=3|PronType=Prs	37	comp:obj	_	_
 36	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	comp:obj	_	_
-37	écrit	écrire	VERB	_	_	36	comp:aux	_	_
+37	écrit	écrire	VERB	_	_	36	comp:aux@scrap	_	_
 38	enfin	enfin	ADV	_	_	37	discourse	_	_
 
 # macrosyntax = $L1 alors < venons à L'Amant //
@@ -2486,26 +2527,21 @@
 1	racontez	raconter	VERB	_	_	0	root	_	_
 2	-nous	nous	PRON	_	_	1	comp:obl	_	_
 
-# macrosyntax = $L2 j'ai { un chapeau d'homme |} //+ ( $L1 oui // ) $L2 {| un feutre |} //+ $L1 ( oui // ) {| un feutre } //+ $L2 { rose |} //+ $L1 {| couleur bois de rose } au large ruban noir //
+# macrosyntax = j'ai { un chapeau d'homme |} //+ ( $L1 oui // ) {| un feutre |} //+ $L1 ( oui // ) {| un feutre } //+ { rose |} //+ au large ruban noir //
 # sent_id = Rhap_D2010-71
-# text = j' ai un chapeau d' homme oui un feutre oui un feutre rose couleur bois de rose au large ruban noir
+# text = j' ai un chapeau d' homme un feutre un feutre rose au large ruban noir
+# speaker = L2
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	chapeau	chapeau	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	d'	de	ADP	_	_	4	udep	_	_
 6	homme	homme	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
-7	oui	oui	INTJ	_	_	6	discourse	_	_
 8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
 9	feutre	feutre	NOUN	_	Gender=Masc|Number=Sing	4	conj:appos	_	_
-10	oui	oui	INTJ	_	_	9	discourse	_	_
 11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	_
 12	feutre	feutre	NOUN	_	Gender=Masc|Number=Sing	9	conj:dicto	_	_
 13	rose	rose	ADJ	_	Number=Sing	12	mod	_	_
-14	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	13	conj:dicto	_	_
-15	bois	bois	NOUN	_	Gender=Masc	14	compound	_	_
-16	de	de	ADP	_	_	15	udep	_	_
-17	rose	rose	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 18-19	au	_	_	_	_	_	_	_	_
 18	à	à	ADP	_	_	12	udep	_	_
 19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -2513,14 +2549,29 @@
 21	ruban	ruban	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 22	noir	noir	ADJ	_	Gender=Masc|Number=Sing	21	mod	_	_
 
-# macrosyntax = $L1 ^et { aux pieds ( $L2 j'ai eu ce chapeau-là //
+# macrosyntax = {| couleur bois de rose }
+# sent_id = Rhap_D2010-71bis
+# text = couleur bois de rose
+# speaker = L1
+1	couleur	couleur	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+2	bois	bois	NOUN	_	Gender=Masc	1	compound	_	_
+3	de	de	ADP	_	_	2	udep	_	_
+4	rose	rose	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+
+# macrosyntax = ^et { aux pieds
 # sent_id = Rhap_D2010-72
-# text = et aux pieds j' ai eu ce chapeau -là
-1	et	et	CCONJ	_	_	6	cc	_	_
+# text = et aux pieds
+# speaker = L1
+1	et	et	CCONJ	_	_	2	cc	_	_
 2-3	aux	_	_	_	_	_	_	_	_
-2	à	à	ADP	_	_	7	mod	_	_
+2	à	à	ADP	_	_	0	root	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	pieds	pied	NOUN	_	Gender=Masc|Number=Plur	2	comp:obj	_	_
+
+# macrosyntax = j'ai eu ce chapeau-là //
+# sent_id = Rhap_D2010-72bis
+# text = j' ai eu ce chapeau -là
+# speaker = L2
 5	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
@@ -2844,9 +2895,10 @@
 9	autos	auto	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10	-là	là	ADV	_	_	9	mod	_	_
 
-# macrosyntax = $L1 "ah" "oui" "non" de toute façon < il y a $- $L1 bien longtemps
+# macrosyntax = "ah" "oui" "non" de toute façon < il y a $- bien longtemps
 # sent_id = Rhap_D2010-96
 # text = ah oui non de toute façon il y a bien longtemps
+# speaker = L1
 1	ah	ah	INTJ	_	_	9	discourse	_	_
 2	oui	oui	INTJ	_	_	9	discourse	_	_
 3	non	non	ADV	_	Polarity=Neg	9	discourse	_	_
@@ -2859,22 +2911,23 @@
 10	bien	bien	ADV	_	_	11	mod	_	_
 11	longtemps	longtemps	ADV	_	_	9	comp:obj	_	_
 
-# macrosyntax = ( $L2 c'était ESPERLUETTE // ) -$ $L1 qu'elles sont dans les musées "hein" //
+# macrosyntax = ( $L2 c'était ESPERLUETTE // ) -$ qu'elles sont dans les musées "hein" //
 # sent_id = Rhap_D2010-97
-# text = c' était qu' elles sont dans les musées hein
-1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	qu'	que	SCONJ	_	_	2	comp:pred	_	_
-4	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
-5	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	dans	dans	ADP	_	_	5	comp:obl	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	musées	musée	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
-9	hein	hein	INTJ	_	_	8	discourse	_	_
+# text = elles sont dans les musées hein
+# speaker = L1
+# text = qu' elles sont dans les musées hein
+1	qu'	que	SCONJ	_	_	0	root	_	_
+2	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+3	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	dans	dans	ADP	_	_	3	comp:obl	_	_
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
+6	musées	musée	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
+7	hein	hein	INTJ	_	_	6	discourse	_	_
 
-# macrosyntax = $L2 je pense que [ si on s'était assis l'un devant l'autre < on aurait été { à c~ | à cette } distance-là $- $L2 { dans cette auto |} ] //+ ( $L1 avec XXX // ) -$ $L1 {| dans cette auto } //
+# macrosyntax = je pense que [ si on s'était assis l'un devant l'autre < on aurait été { à c~ | à cette } distance-là $- { dans cette auto |} ] //+ ( $L1 avec XXX // ) -$ 
 # sent_id = Rhap_D2010-98
-# text = je pense que si on s' était assis l' un devant l' autre on aurait été à c~ à cette distance -là dans cette auto avec dans cette auto
+# text = je pense que si on s' était assis l' un devant l' autre on aurait été à c~ à cette distance -là dans cette auto
+# speaker = L2
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	pense	penser	VERB	_	Number=Sing|Person=1	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
@@ -2900,14 +2953,19 @@
 23	dans	dans	ADP	_	_	15	mod	_	_
 24	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	25	det	_	_
 25	auto	auto	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
-26	avec	avec	ADP	_	_	25	udep	_	_
-27	dans	dans	ADP	_	_	23	conj:dicto	_	_
-28	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	29	det	_	_
-29	auto	auto	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
 
-# macrosyntax = $L2 c'était gigantesque //
+# macrosyntax = {| dans cette auto } //
+# sent_id = Rhap_D2010-98bis
+# text = dans cette auto
+# speaker = L1
+1	dans	dans	ADP	_	_	0	root	_	_
+2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
+3	auto	auto	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+
+# macrosyntax = c'était gigantesque //
 # sent_id = Rhap_D2010-99
 # text = c' était gigantesque
+# speaker = L2
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	gigantesque	gigantesque	ADJ	_	Number=Sing	2	comp:pred	_	_
@@ -2947,17 +3005,16 @@
 12	moment	moment	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	-là	là	ADV	_	_	12	mod	_	_
 
-# macrosyntax = je le sais { à l'automobile |} //+ ( $L1 "ah" ouais // ) $L2 {| ^et ^puis au chauffeur } //=
+# macrosyntax = je le sais { à l'automobile |} //+ ( $L1 "ah" ouais // ) {| ^et ^puis au chauffeur } //=
 # sent_id = Rhap_D2010-103
-# text = je le sais à l' automobile ah ouais et puis au chauffeur
+# text = je le sais à l' automobile et puis au chauffeur
+# speaker = L2
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
 3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	à	à	ADP	_	_	3	comp:obl	_	_
 5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	automobile	automobile	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-7	ah	ah	INTJ	_	_	6	discourse	_	_
-8	ouais	ouais	INTJ	_	_	6	discourse	_	_
 9	et	et	CCONJ	_	_	11	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 10	puis	puis	CCONJ	_	_	9	unk	_	InIdiom=Yes
 11-12	au	_	_	_	_	_	_	_	_
@@ -3508,14 +3565,14 @@
 17	dans	dans	ADP	_	_	2	mod	_	_
 18	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	comp:obj	_	_
 
-# macrosyntax = $L2 ça pourrait être $- { Lohengrin | ( $L1 "oui" // ) -$ ^et Parsifal } > effectivement //
+# macrosyntax = ça pourrait être $- { Lohengrin | ( $L1 "oui" // ) -$ ^et Parsifal } > effectivement //
 # sent_id = Rhap_D2012-21
-# text = ça pourrait être Lohengrin oui et Parsifal effectivement
+# text = ça pourrait être Lohengrin et Parsifal effectivement
+# speaker = L2
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	pourrait	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	être	être	AUX	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	Lohengrin	Lohengrin	PROPN	_	_	3	comp:pred	_	_
-5	oui	oui	INTJ	_	_	4	discourse	_	_
 6	et	et	CCONJ	_	_	7	cc	_	_
 7	Parsifal	Parsifal	PROPN	_	_	4	conj:coord	_	_
 8	effectivement	effectivement	ADV	_	_	2	mod	_	_
@@ -3758,7 +3815,7 @@
 10	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	choses	chose	NOUN	_	Gender=Fem|Number=Plur	9	comp:obj	_	_
 
-# macrosyntax = ce qui "euh" explique que "ben" il aimait bien descendre { dans # les $- ## $L1  les beaux hôtels // $L2 grands | dans les -$ grands } hôtels //
+# macrosyntax = ce qui "euh" explique que "ben" il aimait bien descendre { dans # les $- ## grands | dans les -$ grands } hôtels //
 # sent_id = Rhap_D2012-31
 # text = ce qui euh explique que ben il aimait bien descendre dans les beaux hôtels les grands dans les grands hôtels
 1	ce	ce	PRON	_	_	0	root	_	_
@@ -3772,15 +3829,20 @@
 9	bien	bien	ADV	_	_	8	mod	_	_
 10	descendre	descendre	VERB	ETRE	VerbForm=Inf	8	comp:obj@x	_	_
 11	dans	dans	ADP	_	_	10	comp:obl	_	_
-12	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-13	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	14	mod	_	_
-14	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 15	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
-16	grands	grand	ADJ	_	Gender=Masc|Number=Plur	14	conj:dicto	_	_
+16	grands	grand	ADJ	_	Gender=Masc|Number=Plur	11	comp:obj	_	_
 17	dans	dans	ADP	_	_	11	conj:dicto	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 19	grands	grand	ADJ	_	Gender=Masc|Number=Plur	20	mod	_	_
 20	hôtels	hôtel	NOUN	conj:reform	Gender=Masc|Number=Plur	17	comp:obj	_	_
+
+# macrosyntax = les beaux hôtels //
+# sent_id = Rhap_D2012-31bis
+# text = les beaux hôtels
+# speaker = L1
+1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+2	beaux	beau	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	_
+3	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
 # macrosyntax = ^et { à la fin de sa vie | "euh" quand il est en France ( d'ailleurs ) pour essayer de soigner en vain "euh" sa tuberculose } <+ "euh" il dira "euh" [ { { si | si } je dois aller dans un bouiboui "euh" ( je caricature un petit peu // ^mais enfin "euh" & // ) | si je dois descendre dans un hôtel de troisième catégorie } < alors < ça ne vaut plus la peine // ] //
 # sent_id = Rhap_D2012-32
@@ -4870,9 +4932,10 @@
 13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
 14	scénario	scénario	NOUN	_	Gender=Masc|Number=Sing	12	comp:pred	_	_
 
-# macrosyntax = $L2 c'est { un -$ | $L2 un } des scénarios possibles "euh" //
+# macrosyntax = c'est { un -$ | un } des scénarios possibles "euh" //
 # sent_id = Rhap_D2008-31
 # text = c' est un un des scénarios possibles euh
+# speaker = L2
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	un	un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	comp:pred	_	_
@@ -5285,9 +5348,10 @@
 6	scénarios	scénario	NOUN	_	_	4	comp:obj	_	_
 7	possibles	possible	ADJ	_	Number=Plur	6	mod	_	_
 
-# macrosyntax = ^mais celui qui $- est $L1 { le plus grave | $L2 le -$ plus & |} $- $L1 pour la Fran~ //+ $L2 ( non // ) -$ {| pas le plus grave } //
+# macrosyntax = ^mais celui qui $- est { le plus grave | $L2 le -$ plus & |} $-  pour la Fran~ //+ $L2 ( non // ) -$ {| pas le plus grave } //
 # sent_id = Rhap_D2008-53
-# text = mais celui qui est le plus grave le plus pour la Fran~ non pas le plus grave
+# text = mais celui qui est le plus grave pour la Fran~ pas le plus grave
+# speaker = L1
 1	mais	mais	CCONJ	_	_	2	cc	_	_
 2	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 3	qui	qui	PRON	_	_	4	subj	_	_
@@ -5295,20 +5359,18 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	plus	plus	ADV	_	_	7	mod	_	_
 7	grave	grave	ADJ	_	Number=Sing	4	comp:pred	_	_
-8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
-9	plus	plus	ADV	_	_	7	conj:dicto	_	_
-10	pour	pour	ADP	_	_	9	mod	_	_
+10	pour	pour	ADP	_	_	7	mod	_	_
 11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	Fran~	Fran~	PROPN	_	_	10	comp:obj	_	_
-13	non	non	ADV	_	Polarity=Neg	12	discourse	_	_
 14	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
 15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 16	plus	plus	ADV	_	_	17	mod	_	_
-17	grave	grave	ADJ	_	Number=Sing	9	conj:dicto	_	_
+17	grave	grave	ADJ	_	Number=Sing	7	conj:dicto	_	_
 
-# macrosyntax = $- $L1 { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ $L1 à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ & } //=
+# macrosyntax = $- { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ & } //=
 # sent_id = Rhap_D2008-54
 # text = pa~ parce que à trente mille vous êtes dans dans encore dans le dans le raison~ enfin dans l~
+# speaker = L1
 1	pa~	pa~	SCONJ	_	_	0	root	_	_
 2	parce	parce	SCONJ	_	_	1	conj:dicto	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
@@ -5371,12 +5433,13 @@
 2	grippe	grippe	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 3	saisonnière	saisonnier	ADJ	_	_	2	mod	_	_
 
-# macrosyntax = $L1 ^mais "enfin" { entre cinq mille morts par an | ^et trente mille } < { v~ | je } & // voilà // $L2 il y a six fois plus de cas //
+# macrosyntax = ^mais "enfin" { entre cinq mille morts par an | ^et trente mille } < { v~ | je } & //
 # sent_id = Rhap_D2008-58
 # text = mais enfin entre cinq mille morts par an et trente mille v~ je il y a six fois plus de cas
-1	mais	mais	CCONJ	_	_	16	cc	_	_
-2	enfin	enfin	ADV	_	_	16	discourse	_	_
-3	entre	entre	ADP	_	_	16	mod	_	_
+# speaker = L1
+1	mais	mais	CCONJ	_	_	3	cc	_	_
+2	enfin	enfin	ADV	_	_	3	discourse	_	_
+3	entre	entre	ADP	_	_	0	root	_	_
 4	cinq	cinq	NUM	_	Number=Plur	6	det	_	_
 5	mille	mille	NUM	_	Number=Plur	4	flat	_	_
 6	morts	mort	NOUN	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
@@ -5387,14 +5450,19 @@
 11	mille	mille	NUM	_	Number=Plur	10	flat	_	_
 12	v~	v~	NOUN	_	_	6	conj:coord	_	_
 13	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	conj:dicto	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	subj@expl	_	_
-15	y	y	PRON	_	Person=3|PronType=Prs	16	comp:obl	_	_
-16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-17	six	six	NUM	_	Number=Plur	18	det	_	_
-18	fois	fois	NOUN	_	_	19	mod	_	_
-19	plus	plus	ADV	_	_	16	comp:obj	_	_
-20	de	de	ADP	_	_	19	comp:obl	_	_
-21	cas	cas	NOUN	_	Gender=Masc	20	comp:obj	_	_
+
+# macrosyntax = il y a six fois plus de cas //
+# sent_id = Rhap_D2008-58'bis
+# text = il y a six fois plus de cas
+# speaker = L2
+1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
+2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	six	six	NUM	_	Number=Plur	5	det	_	_
+5	fois	fois	NOUN	_	_	6	mod	_	_
+6	plus	plus	ADV	_	_	3	comp:obj	_	_
+7	de	de	ADP	_	_	6	comp:obl	_	_
+8	cas	cas	NOUN	_	Gender=Masc	7	comp:obj	_	_
 
 # macrosyntax = vous avez raison //
 # sent_id = Rhap_D2008-59
@@ -5444,9 +5512,10 @@
 36	de	de	ADP	conj:reform	_	35	conj:dicto	_	_
 37	décès	décès	NOUN	_	Gender=Masc	36	comp:obj	_	_
 
-# macrosyntax = $L1 { j~ | j~ | je } suis -$ $L1 pas pervers //
+# macrosyntax = { j~ | j~ | je } suis -$ pas pervers //
 # sent_id = Rhap_D2008-61
 # text = j~ j~ je suis pas pervers
+# speaker = L1
 1	j~	j~	PRON	_	_	4	subj	_	_
 2	j~	j~	PRON	_	_	1	conj:dicto	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	_
@@ -5762,9 +5831,10 @@
 25	aussi	aussi	ADV	_	_	26	mod	_	_
 26	effroyable	effroyable	ADJ	_	_	24	mod	_	_
 
-# macrosyntax = ^donc "euh" les scénarios "euh" catastrophes qu'on a pu voir éclore { { de ci ( $L1 oui ) $L2 "euh" | de ci } | de là } { ne me paraissent pas ( ^mais encore une fois je suis pas { un | un | un } devin // ) | ne me paraissent pas } très probables //
+# macrosyntax = ^donc "euh" les scénarios "euh" catastrophes qu'on a pu voir éclore { { de ci ( $L1 oui ) "euh" | de ci } | de là } { ne me paraissent pas ( ^mais encore une fois je suis pas { un | un | un } devin // ) | ne me paraissent pas } très probables //
 # sent_id = Rhap_D2008-80
-# text = donc euh les scénarios euh catastrophes qu' on a pu voir éclore de ci oui euh de ci de là ne me paraissent pas mais encore une fois je suis pas un un un devin ne me paraissent pas très probables
+# text = donc euh les scénarios euh catastrophes qu' on a pu voir éclore de ci euh de ci de là ne me paraissent pas mais encore une fois je suis pas un un un devin ne me paraissent pas très probables
+# speaker = L2
 1	donc	donc	ADV	_	_	23	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
@@ -5779,7 +5849,6 @@
 12	éclore	éclore	VERB	_	_	11	comp:obj@x	_	_
 13	de	de	ADP	_	_	12	mod	_	_
 14	ci	ci	ADV	_	_	13	comp:obj	_	_
-15	oui	oui	INTJ	_	_	14	discourse	_	_
 16	euh	euh	INTJ	_	_	14	discourse	_	_
 17	de	de	ADP	_	_	13	conj:dicto	_	_
 18	ci	ci	ADV	_	_	17	comp:obj	_	_
@@ -5932,9 +6001,10 @@
 11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 12	question	question	NOUN	conj:reform	Gender=Fem|Number=Sing	10	comp:pred	_	_
 
-# macrosyntax = $L1 XXX { vous | vous } savez on a tous été { frai~ -$ | $L1 très frappés } //
+# macrosyntax = XXX { vous | vous } savez on a tous été { frai~ -$ | très frappés } //
 # sent_id = Rhap_D2008-88
 # text = vous vous savez on a tous été frai~ très frappés
+# speaker = L1
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 2	vous	il	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	1	conj:dicto	_	_
 3	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -6682,9 +6752,10 @@
 16	qu'	que	ADV	_	_	17	mod	_	_
 17	augmenter	augmenter	VERB	CAUSATIVE	VerbForm=Inf	15	comp:obj	_	_
 
-# macrosyntax = $L1 donc < je -$ $L1 pars en vacances de bonne humeur //
+# macrosyntax = donc < je -$ pars en vacances de bonne humeur //
 # sent_id = Rhap_D2008-130
 # text = donc je pars en vacances de bonne humeur
+# speaker = L1
 1	donc	donc	ADV	_	_	3	mod	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	pars	partir	VERB	ETRE	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -8690,9 +8761,10 @@
 3	expliquez	expliquer	VERB	_	Number=Plur|Person=2	0	root	_	_
 4	alors	alors	ADV	_	_	3	mod	_	_
 
-# macrosyntax = $L2 "eh bien" je crois que je ne me suis pas conduit d'une façon conforme à ce qu'on attend "euh" { d'une jeune fille d'abord | ^et d'une femme ensuite //+ $L1 | d'une jeune $- $L1 bourgeoise //+ ( $L2 dans la ESPERLUETTE // ) -$ $L2 | "disons" d'une jeune bourgeoise } //
+# macrosyntax = "eh bien" je crois que je ne me suis pas conduit d'une façon conforme à ce qu'on attend "euh" { d'une jeune fille d'abord | ^et d'une femme ensuite //+ $L1 | d'une jeune $- $L1 bourgeoise //+ ( dans la ESPERLUETTE // ) -$ | "disons" d'une jeune bourgeoise } //
 # sent_id = Rhap_D2001-13
 # text = eh bien je crois que je ne me suis pas conduit d' une façon conforme à ce qu' on attend euh d' une jeune fille d' abord et d' une femme ensuite d' une jeune bourgeoise dans la disons d' une jeune bourgeoise
+# speaker = L2
 1	eh	eh	INTJ	_	_	4	discourse	_	_
 2	bien	bien	INTJ	_	_	4	discourse	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
@@ -8724,18 +8796,23 @@
 29	d'	de	ADP	_	_	22	conj:coord	_	_
 30	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	31	det	_	_
 31	femme	femme	NOUN	_	Gender=Fem|Number=Sing	29	comp:obj	_	_
-32	ensuite	ensuite	ADV	_	_	33	mod	_	_
-33	d'	de	ADP	_	_	29	conj:dicto	_	_
-34	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	36	det	_	_
-35	jeune	jeune	ADJ	_	Number=Sing	36	mod	_	_
-36	bourgeoise	bourgeois	NOUN	_	_	33	comp:obj	_	_
-37	dans	dans	ADP	_	_	36	udep	_	_
-38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	comp:obj	_	_
-39	disons	dire	VERB	DISCOURSE	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	43	discourse	_	_
-40	d'	de	ADP	_	_	33	conj:dicto	_	_
+32	ensuite	ensuite	ADV	_	_	31	mod	_	_
+37	dans	dans	ADP	_	_	31	udep	_	_
+38	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	comp:obj@scrap	_	_
+39	disons	dire	VERB	DISCOURSE	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	40	discourse	_	_
+40	d'	de	ADP	_	_	29	conj:dicto	_	_
 41	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	43	det	_	_
 42	jeune	jeune	ADJ	_	Number=Sing	43	mod	_	_
 43	bourgeoise	bourgeois	NOUN	_	_	40	comp:obj	_	_
+
+# macrosyntax = d'une jeune $- bourgeoise //+
+# sent_id = Rhap_D2001-13bis
+# text = d' une jeune bourgeoise
+# speaker = L1
+1	d'	de	ADP	_	_	0	root	_	_
+2	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	jeune	jeune	ADJ	_	Number=Sing	4	mod	_	_
+4	bourgeoise	bourgeois	NOUN	_	_	1	comp:obj	_	_
 
 # macrosyntax = $L1 vous le regrettez aujourd'hui //
 # sent_id = Rhap_D2001-14
@@ -9001,9 +9078,10 @@
 14	cette	ce	DET	conj:reform	Gender=Fem|Number=Sing|PronType=Dem	12	conj:dicto	_	_
 15	faculté	faculté	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 
-# macrosyntax = $L1 ce qui vous a toujours intéressée < c'était chez les gens { le mécanisme de la carrière |} //+ $L2 {| le mécanisme { tout simplement | pas spécialement de la carrière } //+ $L1 | ^et la personnalité aussi } //
+# macrosyntax = ce qui vous a toujours intéressée < c'était chez les gens { le mécanisme de la carrière |} //+ | ^et la personnalité aussi } //
 # sent_id = Rhap_D2001-31
 # text = ce qui vous a toujours intéressée c' était chez les gens le mécanisme de la carrière le mécanisme tout simplement pas spécialement de la carrière et la personnalité aussi
+# speaker = L1
 1	ce	ce	PRON	_	_	8	dislocated	_	_
 2	qui	qui	PRON	_	_	4	subj	_	_
 3	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
@@ -9020,19 +9098,24 @@
 14	de	de	ADP	_	_	13	udep	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
 16	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	14	comp:obj	_	_
-17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
-18	mécanisme	mécanisme	NOUN	conj:reform	Gender=Masc|Number=Sing	13	conj:dicto	_	_
-19	tout	tout	ADV	_	_	20	mod	_	_
-20	simplement	simplement	ADV	_	_	18	mod	_	_
-21	pas	pas	ADV	_	Polarity=Neg	22	mod	_	_
-22	spécialement	spécialement	ADV	_	_	23	mod	_	_
-23	de	de	ADP	_	_	20	conj:dicto	_	_
-24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
-25	carrière	carrière	NOUN	conj:reform	Gender=Fem|Number=Sing	23	comp:obj	_	_
-26	et	et	CCONJ	_	_	28	cc	_	_
-27	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
-28	personnalité	personnalité	NOUN	_	Gender=Fem|Number=Sing	18	conj:coord	_	_
-29	aussi	aussi	ADV	_	_	28	mod	_	_
+17	et	et	CCONJ	_	_	19	cc	_	_
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	personnalité	personnalité	NOUN	_	Gender=Fem|Number=Sing	13	conj:coord	_	_
+20	aussi	aussi	ADV	_	_	19	mod	_	_
+
+# macrosyntax = {| le mécanisme { tout simplement | pas spécialement de la carrière } //+ 
+# sent_id = Rhap_D2001-31bis
+# text = le mécanisme tout simplement pas spécialement de la carrière
+# speaker = L2
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
+2	mécanisme	mécanisme	NOUN	conj:reform	Gender=Masc|Number=Sing	0	root	_	_
+3	tout	tout	ADV	_	_	4	mod	_	_
+4	simplement	simplement	ADV	_	_	2	mod	_	_
+5	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
+6	spécialement	spécialement	ADV	_	_	7	mod	_	_
+7	de	de	ADP	_	_	4	conj:dicto	_	_
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	carrière	carrière	NOUN	conj:reform	Gender=Fem|Number=Sing	7	comp:obj	_	_
 
 # macrosyntax = $L2 j'aime bien comprendre comment ça marche > les autres //
 # sent_id = Rhap_D2001-32
@@ -9801,9 +9884,10 @@
 10	jamais	jamais	ADV	_	_	9	mod	_	_
 11	oubliée	oublier	VERB	_	_	9	comp:aux	_	_
 
-# macrosyntax = $L2 ce -$ $L2 qui est dur < { ce n'est pas | surtout quand on est très jeune <+ ce n'est vraiment pas } { d'être pauvre | ^ou de ESPERLUETTE } //
+# macrosyntax = ce -$ qui est dur < { ce n'est pas | surtout quand on est très jeune <+ ce n'est vraiment pas } { d'être pauvre | ^ou de ESPERLUETTE } //
 # sent_id = Rhap_D2001-75
 # text = ce qui est dur ce n' est pas surtout quand on est très jeune ce n' est vraiment pas d' être pauvre ou de
+# speaker = L2
 1	ce	ce	PRON	_	_	7	dislocated	_	_
 2	qui	qui	PRON	_	_	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
@@ -10647,9 +10731,10 @@
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tout	tout	ADV	_	_	11	comp:obj	_	_
 
-# macrosyntax = ^mais mettons { que vous ayez tourné dans ce film |} //+ ( $L2 oui // ) $L1 {| que le film ait eu du succès |} //+ ( $L2 oui // ) $L1 {| que vous soyez devenue une vedette } //
+# macrosyntax = ^mais mettons { que vous ayez tourné dans ce film |} //+ ( $L2 oui // ) {| que le film ait eu du succès |} //+ ( $L2 oui // ) {| que vous soyez devenue une vedette } //
 # sent_id = Rhap_D2001-128
 # text = mais mettons que vous ayez tourné dans ce film que le film ait eu du succès que vous soyez devenue une vedette
+# speaker = L1
 1	mais	mais	CCONJ	_	_	2	cc	_	_
 2	mettons	mettre	VERB	_	_	0	root	_	_
 3	que	que	SCONJ	_	_	2	comp:obj	_	_
@@ -10801,16 +10886,14 @@
 7	Jean	Jean	PROPN	_	_	6	comp:obj	_	_
 8	Renoir	Renoir	PROPN	_	_	7	flat	_	_
 
-# macrosyntax = je veux dire que ( $L2 oui // $- $L2 beaucoup < oui // ) $L1 vous avez travaillé avec Jean -$ $L1 Renoir //
+# macrosyntax = je veux dire que ( $L2 oui // $- $L2 beaucoup < oui // ) vous avez travaillé avec Jean -$ Renoir //
 # sent_id = Rhap_D2001-137
 # text = je veux dire que oui beaucoup oui vous avez travaillé avec Jean Renoir
+# speaker = L1
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	dire	dire	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
-5	oui	oui	INTJ	_	_	10	discourse	_	_
-6	beaucoup	beaucoup	ADV	_	_	9	mod	_	_
-7	oui	oui	INTJ	_	_	6	discourse	_	_
 8	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	9	subj	_	_
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 10	travaillé	travailler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
@@ -12406,9 +12489,10 @@
 16	en	en	ADP	_	_	13	comp:obl	_	_
 17	profondeur	profondeur	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 
-# macrosyntax = ^mais il gagne tellement { en spontanéité | { en | en } amabilité | en gentillesse } ( $L2 "mh" // ) $L1 { { qu'ils "euh" | qu'ils } ont peut-être davantage "si vous voulez" de l'évangile { la | la } caractéristique { de la sympathie | de l'accueil | ^et de la charité } | ^mais que il faudrait peut-être { moins | moins } chercher du côté { du renoncement | { ^ou de | ^ou de } l'austérité } } //
+# macrosyntax = ^mais il gagne tellement { en spontanéité | { en | en } amabilité | en gentillesse } ( $L2 "mh" // ) { { qu'ils "euh" | qu'ils } ont peut-être davantage "si vous voulez" de l'évangile { la | la } caractéristique { de la sympathie | de l'accueil | ^et de la charité } | ^mais que il faudrait peut-être { moins | moins } chercher du côté { du renoncement | { ^ou de | ^ou de } l'austérité } } //
 # sent_id = Rhap_D1001-32
-# text = mais il gagne tellement en spontanéité en en amabilité en gentillesse mh qu' ils euh qu' ils ont peut-être davantage si vous voulez de l' évangile la la caractéristique de la sympathie de l' accueil et de la charité mais que il faudrait peut-être moins moins chercher du côté du renoncement ou de ou de l' austérité
+# text = mais il gagne tellement en spontanéité en en amabilité en gentillesse qu' ils euh qu' ils ont peut-être davantage si vous voulez de l' évangile la la caractéristique de la sympathie de l' accueil et de la charité mais que il faudrait peut-être moins moins chercher du côté du renoncement ou de ou de l' austérité
+# speaker = L1
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	gagne	gagner	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -12420,7 +12504,6 @@
 9	amabilité	amabilité	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 10	en	en	ADP	_	_	7	comp:obj	_	_
 11	gentillesse	gentillesse	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-12	mh	mh	INTJ	_	_	11	discourse	_	_
 13	qu'	que	SCONJ	_	_	4	mod	_	_
 14	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
 15	euh	euh	INTJ	_	_	14	discourse	_	_
@@ -12548,9 +12631,10 @@
 36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	_
 37	campagne	campagne	NOUN	conj:reform	Gender=Fem|Number=Sing	35	comp:obj	_	_
 
-# macrosyntax = $L1 "oui" alors < là <+ on aborde { l'autre point de vue { qui n'est plus le point de vue géographique | ^mais qui est le point de vue sociologique } //+ ( $L2 oui // ) $L1 | "n'est-ce pas" les différentes couches de la société } //
+# macrosyntax = "oui" alors < là <+ on aborde { l'autre point de vue { qui n'est plus le point de vue géographique | ^mais qui est le point de vue sociologique } //+ ( $L2 oui // ) | "n'est-ce pas" les différentes couches de la société } //
 # sent_id = Rhap_D1001-35
 # text = oui alors là on aborde l' autre point de vue qui n' est plus le point de vue géographique mais qui est le point de vue sociologique oui n' est -ce pas les différentes couches de la société
+# speaker = L1
 1	oui	oui	INTJ	_	_	5	discourse	_	_
 2	alors	alors	ADV	_	_	5	discourse	_	_
 3	là	là	ADV	_	_	5	mod	_	_
@@ -12578,7 +12662,6 @@
 25	de	de	ADP	_	_	24	udep	_	_
 26	vue	vue	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 27	sociologique	sociologique	ADJ	_	Gender=Masc|Number=Sing	24	mod	_	_
-28	oui	oui	INTJ	_	_	27	discourse	_	_
 29	n'	ne	ADV	_	Polarity=Neg	30	mod	_	_
 30	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	discourse	_	_
 31	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	30	subj	_	_
@@ -12590,9 +12673,10 @@
 37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	_
 38	société	société	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 
-# macrosyntax = il est bien vrai que [ dans les campagnes <+ le prêtre est à même de côtoyer tout le monde ] ( $L2 "mh" // ) $L1 "n'est-ce pas" //
+# macrosyntax = il est bien vrai que [ dans les campagnes <+ le prêtre est à même de côtoyer tout le monde ] ( $L2 "mh" // )"n'est-ce pas" //
 # sent_id = Rhap_D1001-36
 # text = il est bien vrai que dans les campagnes le prêtre est à même de côtoyer tout le monde mh n' est -ce pas
+# speaker = L1
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	bien	bien	ADV	_	_	4	mod	_	_
@@ -12611,7 +12695,6 @@
 16	tout	tout	ADV	_	_	18	mod	_	_
 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	monde	monde	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
-19	mh	mh	INTJ	_	_	18	discourse	_	_
 20	n'	ne	ADV	_	Polarity=Neg	21	mod	_	_
 21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	discourse	_	_
 22	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	21	subj	_	_
