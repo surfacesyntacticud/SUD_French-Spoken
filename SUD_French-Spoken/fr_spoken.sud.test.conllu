@@ -437,7 +437,7 @@
 # text = très sale très très sale
 # speaker = L1
 1	très	très	ADV	_	_	3	mod	_	_
-1	très	très	ADV	_	_	1	conj:coord	_	_
+2	très	très	ADV	_	_	1	conj:coord	_	_
 3	sale	sale	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # macrosyntax = on a ici un pantalon avec une grosse tache de grenadine //
