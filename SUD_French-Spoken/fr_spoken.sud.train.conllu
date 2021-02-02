@@ -1437,9 +1437,9 @@
 11	arrière	arrière	NOUN	_	_	10	comp:obj	_	_
 
 # macrosyntax = ( $L2 oui // ) ^puisque finalement < ça fait "euh" { quarante-huit ans |} que vous êtes au Kenya //+
+# speaker = L1
 # sent_id = Rhap_D2004-18
 # text = puisque finalement ça fait euh quarante-huit ans que vous êtes au Kenya
-# speaker = L1
 2	puisque	puisque	SCONJ	_	_	0	root	_	_
 3	finalement	finalement	ADV	_	_	5	discourse	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
@@ -1456,9 +1456,9 @@
 14	Kenya	Kenya	PROPN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 
 # macrosyntax = {| quarante-huit ans } //
+# speaker = L2
 # sent_id = Rhap_D2004-18bis
 # text = quarante-huit ans
-# speaker = L2
 1	quarante-huit	quarante-huit	NUM	_	_	2	det	_	_
 2	ans	an	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
 
@@ -1551,9 +1551,9 @@
 6	française	français	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
 
 # macrosyntax = vous êtes "euh" de l'est de la -$ France //
+# speaker = L1
 # sent_id = Rhap_D2004-26
 # text = vous êtes euh de l' est de la France
-# speaker = L1
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	êtes	être	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	euh	euh	INTJ	_	_	6	discourse	_	_
@@ -1629,9 +1629,9 @@
 5	Cannes	Cannes	PROPN	_	_	4	comp:obj	_	_
 
 # macrosyntax = ^et ^puis "euh" $- finalement < { vous avez | vous êtes } repartie vers Mulhouse //
+# speaker = L1
 # sent_id = Rhap_D2004-32
 # text = et puis euh finalement vous avez vous êtes repartie vers Mulhouse
-# speaker = L1
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	euh	euh	INTJ	_	_	6	discourse	_	_
@@ -1800,9 +1800,9 @@
 5	Paris	Paris	PROPN	_	_	4	comp:obj	_	_
 
 # macrosyntax = une fois qu'on a goûté Paris <+ on veut plus aller à la province //+ ( $L1 "ah bon" // ) $- { pour des études |} //+ ( $L1 XXX ) -$ $- {| "non" pour les études } > ( $L1 XXX ouais // ) -$ { sûrement | sûrement } { "ouais" | "ouais" } //
-# sent_id = Rhap_D2004-45
-# text = une fois qu' on a goûté Paris on veut plus aller à la province ah bon pour des études non pour les études ouais sûrement sûrement ouais ouais
 # speaker = L2
+# sent_id = Rhap_D2004-45
+# text = une fois qu' on a goûté Paris on veut plus aller à la province pour des études non pour les études sûrement sûrement ouais ouais
 1	une	une	DET	_	_	2	det	_	_
 2	fois	fois	NOUN	_	_	9	mod	_	_
 3	qu'	que	SCONJ	_	_	2	mod	_	_
@@ -2065,9 +2065,9 @@
 7	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj	_	_
 
 # macrosyntax = ^mais vous étiez auprès des femmes >+ $- ( $L2 alors // ) là-bas // -$
-# sent_id = Rhap_D2004-61
-# text = mais vous étiez auprès des femmes alors là-bas
 # speaker = L1
+# sent_id = Rhap_D2004-61
+# text = mais vous étiez auprès des femmes là-bas
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	étiez	être	VERB	_	Number=Plur|Person=2	0	root	_	_
@@ -3282,9 +3282,9 @@
 4	délicat	délicat	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # macrosyntax = donc < "euh" dans le doute <+ $- peut-être ( $L2 d'accord // ) -$ que { l'arbitre "euh" | Erikson } s'est abstenu //
+# speaker = L1
 # sent_id = Rhap_D2003-2
 # text = donc euh dans le doute peut-être que l' arbitre euh Erikson s' est abstenu
-# speaker = L1
 1	donc	donc	ADV	_	_	6	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	dans	dans	ADP	_	_	6	mod	_	_
@@ -3301,9 +3301,9 @@
 14	abstenu	abstenir	VERB	_	_	13	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = allez // avec $- Messi { qui va chercher ( $L3 oh // ) -$ le corner | ^et qui va trouver { le corner | ^ou la touche | $- ^ou la sortie de but } } //
-# sent_id = Rhap_D2003-3
-# text = avec Messi qui va chercher oh le corner et qui va trouver le corner ou la touche ou la sortie de but
 # speaker = L2
+# sent_id = Rhap_D2003-3
+# text = avec Messi qui va chercher le corner et qui va trouver le corner ou la touche ou la sortie de but
 1	avec	avec	ADP	_	_	0	root	_	_
 2	Messi	Messi	PROPN	_	_	1	comp:obj	_	_
 3	qui	qui	PRON	_	_	4	subj	_	_
@@ -3351,9 +3351,9 @@
 4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
 
 # macrosyntax = en tout cas < il y a une $- protestation //
+# speaker = L2
 # sent_id = Rhap_D2003-7
 # text = en tout cas il y a une protestation
-# speaker = L2
 1	en	en	ADP	_	_	6	mod	_	_
 2	tout	tout	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 3	cas	cas	NOUN	_	Gender=Masc	1	comp:obj	_	_
@@ -3370,9 +3370,9 @@
 2	ouais	ouais	INTJ	_	_	1	conj:coord	_	_
 
 # macrosyntax = { sortie de but | sortie de but } > puisque -$ il a poussé le ballon trop loin > Messi //
+# speaker = L3
 # sent_id = Rhap_D2003-9
 # text = sortie de but sortie de but puisque il a poussé le ballon trop loin Messi
-# speaker = L3
 1	sortie	sortie	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 2	de	de	ADP	_	_	1	udep	_	_
 3	but	but	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
@@ -3440,9 +3440,9 @@
 9	hein	hein	INTJ	_	_	7	discourse	_	_
 
 # macrosyntax = l'arbitre -$ revient à la première faute avec un avertissement ( effectivement ) pour $- { Diarra |} //+ $L3 {| Gallas } // -$
+# speaker = L2
 # sent_id = Rhap_D2003-15
 # text = l' arbitre revient à la première faute avec un avertissement effectivement pour Diarra
-# speaker = L2
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	arbitre	arbitre	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	revient	revenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3483,9 +3483,9 @@
 5	Heinze	Heinze	PROPN	_	_	4	flat	_	_
 
 # macrosyntax = ^mais il semblerait que Gourcuff ait perdu $- le ballon > ( $L3 ouais // ) -$ raison pour laquelle peut-être monsieur Erikson n'a pas sifflé le penalty //
+# speaker = L2
 # sent_id = Rhap_D2003-18
 # text = mais il semblerait que Gourcuff ait perdu le ballon raison pour laquelle peut-être monsieur Erikson n' a pas sifflé le penalty
-# speaker = L2
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	semblerait	sembler	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3654,9 +3654,9 @@
 2	tête	tête	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 
 # macrosyntax = $- "ah" la tête de Mexès //+ qui repousse -$ ce ballon de la tête en corner //
+# speaker = L3
 # sent_id = Rhap_D2003-32
 # text = ah la tête de Mexès qui repousse ce ballon de la tête en corner
-# speaker = L3
 1	ah	ah	INTJ	_	_	3	discourse	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tête	tête	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
@@ -3764,9 +3764,9 @@
 3	deux	deux	PRON	_	_	2	comp:obj	_	_
 
 # macrosyntax = ^et Messi -$ est sur son pied gauche //
+# speaker = L3
 # sent_id = Rhap_D2003-41
 # text = et Messi est sur son pied gauche
-# speaker = L3
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	Messi	Messi	PROPN	_	_	3	subj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -3987,9 +3987,9 @@
 7	tirer	tirer	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
 
 # macrosyntax = $- { le but | le but } { de Maxi ( $L2 XXX // ) -$ Rodriguez |} { du pied | du pied } ESPERLUETTE //+ "non" {| de $- Gutiérrez |} "pardon" //
+# speaker = L3
 # sent_id = Rhap_D2003-57
 # text = le but le but de Maxi Rodriguez du pied du pied non de Gutiérrez pardon
-# speaker = L3
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	but	but	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
@@ -4017,9 +4017,9 @@
 2	Gutiérrez	Gutiérrez	PROPN	_	_	1	conj:dicto	_	_
 
 # macrosyntax = c'est Gutiérrez $- ( $L2 "oh la la" // ) qui marque ce -$ but du pied droit //
-# sent_id = Rhap_D2003-59
-# text = c' est Gutiérrez oh la la qui marque ce but du pied droit
 # speaker = L3
+# sent_id = Rhap_D2003-59
+# text = c' est Gutiérrez qui marque ce but du pied droit
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	Gutiérrez	Gutiérrez	PROPN	_	_	2	comp:pred	_	_
@@ -4034,9 +4034,9 @@
 14	droit	droit	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
 
 # macrosyntax = ^mais le côté droit < { complètement "euh" seul //+ $- | $L3 dégarni } //
-# sent_id = Rhap_D2003-60
-# text = mais le côté droit complètement euh seul dégarni
 # speaker = L2
+# sent_id = Rhap_D2003-60
+# text = mais le côté droit complètement euh seul
 1	mais	mais	CCONJ	_	_	7	cc	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	côté	côté	NOUN	_	Gender=Masc|Number=Sing	7	dislocated	_	_
@@ -4046,15 +4046,15 @@
 7	seul	seul	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 
 # macrosyntax = dégarni } //
+# speaker = L3
 # sent_id = Rhap_D2003-60bis
 # text = dégarni
-# speaker = L3
 1	dégarni	dégarnir	ADJ	_	_	0	root	_	_
 
 # macrosyntax = $L3 Gutiérrez //+ qui reste complètement -$ $- seul //
+# speaker = L2
 # sent_id = Rhap_D2003-61
 # text = qui reste complètement seul
-# speaker = L2
 1	qui	qui	PRON	_	_	2	subj	_	_
 2	reste	rester	VERB	ETRE	_	0	root	_	_
 3	complètement	complètement	ADV	_	_	4	mod	_	_
@@ -4140,9 +4140,9 @@
 9	relâchement	relâchement	NOUN	_	_	6	comp:obj	_	_
 
 # macrosyntax = "eh bien" "voilà" -$ { j~ | j~ | j~ | j' } allais vous dire [ pas tout à fait d'accord avec vous // ] //+ $- parce que [ depuis ( $L3 oui // ) -$ cinq minutes <+ effectivement < l'équipe de France { commençait de nouveau à reculer | ( $L3 oui // ) ^et commençait à lâcher son emprise sur l'adversaire $- argentin } ] //
-# sent_id = Rhap_D2003-68
-# text = eh bien voilà j~ j~ j~ j' allais vous dire pas tout à fait d'accord avec vous parce que depuis oui cinq minutes effectivement l' équipe de France commençait de nouveau à reculer oui et commençait à lâcher son emprise sur l' adversaire argentin
 # speaker = L2
+# sent_id = Rhap_D2003-68
+# text = eh bien voilà j~ j~ j~ j' allais vous dire pas tout à fait d'accord avec vous parce que depuis cinq minutes effectivement l' équipe de France commençait de nouveau à reculer et commençait à lâcher son emprise sur l' adversaire argentin
 1	eh	eh	INTJ	_	_	8	discourse	_	_
 2	bien	bien	INTJ	_	_	8	discourse	_	_
 3	voilà	voilà	VERB	_	_	8	discourse	_	_
@@ -4187,9 +4187,9 @@
 44	argentin	argentin	ADJ	_	Gender=Masc|Number=Sing	43	mod	_	_
 
 # macrosyntax = ^et les Argentins -$ (+ sous les ordres de Maradona ) "euh" jouaient un peu plus haut //
+# speaker = L3
 # sent_id = Rhap_D2003-69
 # text = et les Argentins sous les ordres de Maradona euh jouaient un peu plus haut
-# speaker = L3
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	Argentins	Argentin	PROPN	_	_	10	subj	_	_
@@ -4551,9 +4551,9 @@
 3	manqué	manquer	ADJ	_	_	2	comp:pred	_	_
 
 # macrosyntax = ^et c'est récupéré ( bien sûr ) par l'équipe $- ( $L3 argentine //+ ) qui -$ sont de nouveau en possession ( les Argentins ) du "euh" ballon //
-# sent_id = Rhap_D2003-92
-# text = et c' est récupéré bien sûr par l' équipe argentine qui sont de nouveau en possession les Argentins du euh ballon
 # speaker = L2
+# sent_id = Rhap_D2003-92
+# text = et c' est récupéré bien sûr par l' équipe qui sont de nouveau en possession les Argentins du euh ballon
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -4629,9 +4629,9 @@
 4	là	là	ADV	_	_	3	discourse	_	_
 
 # macrosyntax = "euh" -$ ouais //
+# speaker = L2
 # sent_id = Rhap_D2003-97
 # text = euh ouais
-# speaker = L2
 1	euh	euh	INTJ	_	_	0	root	_	_
 2	ouais	ouais	INTJ	_	_	1	discourse	_	_
 
@@ -4708,9 +4708,9 @@
 9	nouveau	nouveau	NOUN	_	_	8	comp:obj	_	_
 
 # macrosyntax = ^alors ^que nous sommes à -$ trois minutes de la mi-temps //
+# speaker = L2
 # sent_id = Rhap_D2003-103
 # text = alors que nous sommes à trois minutes de la mi-temps
-# speaker = L2
 1	alors	alors	ADV	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	ADV	_	_	1	unk	_	InIdiom=Yes
 3	nous	il	PRON	_	_	4	subj	_	_
@@ -4858,9 +4858,9 @@
 29	touche	touche	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
 
 # macrosyntax = ^et il donne { à Gaga //+ ( $L2 | à { Gago | >+ ) effectivement //+ $- Gago | "pardon" //+
+# speaker = L3
 # sent_id = Rhap_D2003-112
 # text = et il donne à Gaga
-# speaker = L3
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	donne	donner	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -4868,16 +4868,16 @@
 5	Gaga	Gaga	PROPN	_	_	4	comp:obj	_	_
 
 # macrosyntax = à { Gago | >+
+# speaker = L2
 # sent_id = Rhap_D2003-112bis
 # text = à Gago
-# speaker = L2
 1	à	à	ADP	_	_	0	root	_	_
 2	Gago	Gago	PROPN	_	_	1	comp:obj	_	_
 
 # macrosyntax = effectivement //+ $- $L3 Gago | "pardon" //+
+# speaker = L3
 # sent_id = Rhap_D2003-112ter
 # text = effectivement Gago pardon
-# speaker = L3
 1	effectivement	effectivement	ADV	_	_	2	discourse	_	_
 2	Gago	Gago	PROPN	_	_	0	root	_	_
 3	pardon	pardon	NOUN	_	Gender=Masc|Number=Sing	2	discourse	_	_
@@ -5053,16 +5053,16 @@
 7	Papa	Papa	PROPN	_	_	5	comp:obj	_	_
 
 # macrosyntax = ballon ( $L3 XXX // ) -$ contré //
+# speaker = L2
 # sent_id = Rhap_D2003-127
 # text = ballon contré
-# speaker = L2
 1	ballon	ballon	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
 2	contré	contrer	VERB	_	_	1	mod	_	_
 
 # macrosyntax = ^mais ça continue de $- circuler { avec $L3 "et oui" Messi | -$ >+ maintenant //+ $- avec } Messi //
-# sent_id = Rhap_D2003-128
-# text = mais ça continue de circuler avec eh oui Messi maintenant avec Messi
 # speaker = L2
+# sent_id = Rhap_D2003-128
+# text = mais ça continue de circuler avec avec Messi
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	continue	continuer	VERB	_	_	0	root	_	_
@@ -5166,9 +5166,9 @@
 5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = il y a } une mauvais séquence "hein" >+ pour l'équipe de $- France actuellement ( $L3 oui // ) -$ >+ qui se fait là vraiment balader "hein" //
-# sent_id = Rhap_D2003-135
-# text = il y a une mauvais séquence hein pour l' équipe de France actuellement oui qui se fait là vraiment balader hein
 # speaker = L2
+# sent_id = Rhap_D2003-135
+# text = il y a une mauvais séquence hein pour l' équipe de France actuellement qui se fait là vraiment balader hein
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -5233,9 +5233,9 @@
 11	stoppé	stopper	VERB	_	_	10	comp:aux@pass	_	_
 
 # macrosyntax = { un Français | deux Français } qui "euh" tentent de repousser les $- assauts //
+# speaker = L2
 # sent_id = Rhap_D2003-138
 # text = un Français deux Français qui euh tentent de repousser les assauts
-# speaker = L2
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	Français	Français	PROPN	_	_	0	root	_	_
 3	deux	deux	NUM	_	Number=Plur	4	mod	_	_
@@ -7265,9 +7265,9 @@
 20	heureusement	heureusement	ADV	_	_	10	mod	_	_
 
 # macrosyntax = ^parce ^que sinon < $- ( $L2 ouais // ) { c' est | c' est -$ | c' est | c' est } intenable "hein" //
-# sent_id = Rhap_D0005-30
-# text = parce que sinon ouais c' est c' est c' est c' est intenable hein
 # speaker = L1
+# sent_id = Rhap_D0005-30
+# text = parce que sinon c' est c' est c' est c' est intenable hein
 1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	sinon	sinon	ADV	_	_	6	mod	_	_
@@ -7498,9 +7498,9 @@
 3	ouais	ouais	INTJ	_	_	2	conj:coord	_	_
 
 # macrosyntax = $- ^tandis ^que il y a des gens < ( $L2 c' est vrai -$ // ) "bon" ils savaient pas XXX //
-# sent_id = Rhap_D0005-50
-# text = tandis que il y a des gens c' est vrai bon ils savaient pas
 # speaker = L1
+# sent_id = Rhap_D0005-50
+# text = tandis que il y a des gens bon ils savaient pas
 1	tandis	tandis	ADV	_	_	0	root	_	_
 2	que	que	SCONJ	_	_	1	mod	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
@@ -7702,9 +7702,9 @@
 9	débutant	débutant	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 
 # macrosyntax = ^mais "bon" $- "ben" ( $L2 ouais // ) -$ il faut ESPERLUETTE //
-# sent_id = Rhap_D0005-64
-# text = mais bon ben ouais il faut
 # speaker = L1
+# sent_id = Rhap_D0005-64
+# text = mais bon ben il faut
 1	mais	mais	CCONJ	_	_	6	cc	_	_
 2	bon	bon	INTJ	_	_	6	discourse	_	_
 3	ben	ben	INTJ	_	_	6	discourse	_	_
@@ -7877,9 +7877,9 @@
 8	erreurs	erreur	NOUN	_	Gender=Fem|Number=Plur	3	comp:obj	_	_
 
 # macrosyntax = ^et ^puis "bon" "ben" "voilà" // donc < ce qui fait que ( $L2 "ah" ouais // ) { c' est | c' est } pas { facile | facile } //
-# sent_id = Rhap_D0005-77
-# text = et puis bon ben voilà donc ce qui fait que ah ouais c' est c' est pas facile facile
 # speaker = L1
+# sent_id = Rhap_D0005-77
+# text = et puis bon ben voilà donc ce qui fait que c' est c' est pas facile facile
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	bon	bon	INTJ	_	_	7	discourse	_	_
@@ -7967,9 +7967,9 @@
 4	maintenant	maintenant	ADV	_	_	3	mod	_	_
 
 # macrosyntax = "oui" "enfin" "bon" $- en gros //
+# speaker = L2
 # sent_id = Rhap_D0005-85
 # text = oui enfin bon en gros
-# speaker = L2
 1	oui	oui	INTJ	_	_	5	discourse	_	_
 2	enfin	enfin	ADV	_	_	5	discourse	_	_
 3	bon	bon	INTJ	_	_	5	discourse	_	_
@@ -8137,9 +8137,9 @@
 15	quoi	quoi	INTJ	_	_	14	discourse	_	_
 
 # macrosyntax = { c' est | c' est } { pra~ | ( $- $L2 "ah" ouais // ) pratiquement } ESPERLUETTE -$ //
-# sent_id = Rhap_D0005-98
-# text = c' est c' est pra~ ah ouais pratiquement
 # speaker = L1
+# sent_id = Rhap_D0005-98
+# text = c' est c' est pra~ pratiquement
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
@@ -8267,9 +8267,9 @@
 10	Dubedout	Dubedout	PROPN	_	_	9	flat	_	_
 
 # macrosyntax = ( $L2 "mh mh" // ) ^soit vous continuez ESPERLUETTE //
-# sent_id = Rhap_D0007-8
-# text = mh mh soit vous continuez
 # speaker = L1
+# sent_id = Rhap_D0007-8
+# text = soit vous continuez
 1	soit	soit	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
 3	continuez	continuer	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
@@ -8296,9 +8296,9 @@
 16	bleu	bleu	ADJ	_	Gender=Masc|Number=Sing	15	mod	_	_
 
 # macrosyntax = ^soit alors <  $- vous tournez { à | ( $L2 d'accord // ) -$ à } droite //+ juste après l' arrêt Hubert Dubedout //
+# speaker = L1
 # sent_id = Rhap_D0007-10
 # text = soit alors vous tournez à à droite juste après l' arrêt euh Hubert Dubedout
-# speaker = L1
 1	soit	soit	CCONJ	_	_	4	cc	_	_
 2	alors	alors	ADV	_	_	4	discourse	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
@@ -9364,9 +9364,9 @@
 11	précision	précision	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 
 # macrosyntax = une journée ( $L2 "eh ben" XXX soit on $- travaille // )
+# speaker = L2
 # sent_id = Rhap_D0001-2
 # text = une journée eh ben soit on travaille
-# speaker = L2
 1	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	journée	journée	NOUN	_	Gender=Fem|Number=Sing	7	mod	_	_
 3	eh	eh	INTJ	_	_	2	discourse	_	_
@@ -9376,9 +9376,9 @@
 7	travaille	travailler	VERB	_	_	0	root	_	_
 
 # macrosyntax = par exemple } // -$
+# speaker = L1
 # sent_id = Rhap_D0001-2bis
 # text = par exemple
-# speaker = L1
 1	par	par	ADP	_	_	0	root	_	_
 2	exemple	exemple	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 
@@ -9439,9 +9439,9 @@
 13	demie	demie	NOUN	_	_	10	conj:coord	_	_
 
 # macrosyntax = $- donc < "euh" ( $L1 mh mh // ) -$ je descends au Palais Royal //
-# sent_id = Rhap_D0001-6
-# text = donc euh mh mh je descends au Palais Royal
 # speaker = L2
+# sent_id = Rhap_D0001-6
+# text = donc euh je descends au Palais Royal
 1	donc	donc	ADV	_	_	6	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
@@ -9620,9 +9620,9 @@
 5	bus	bus	NOUN	_	Gender=Masc	4	comp:obj	_	_
 
 # macrosyntax = ça < c'est { { par le | par $- le | par le } quatre-vingt-six |} //+ $L1 {| par le quatre-vingt-six } //+ -$ { qui est un |} $- $L1 qui passe à l'arrière-plan //+ {| qui est un bus } { formidable | -$ formidable } { { qui | qui | qui } traverse le quar~ | qui $- passe { boulevard Saint-Germain | ( $L1 ah oui // ) -$ "euh" boulevard Henri Quatre } } //
-# sent_id = Rhap_D0001-20
-# text = ça c' est par le par le par le quatre-vingt-six par le quatre-vingt-six qui est un qui passe à l' arrière-plan qui est un bus formidable formidable qui qui qui traverse le quar~ qui passe boulevard Saint-Germain ah oui euh boulevard Henri Quatre
 # speaker = L2
+# sent_id = Rhap_D0001-20
+# text = ça c' est par le par le par le quatre-vingt-six qui est un qui est un bus formidable formidable qui qui qui traverse le quar~ qui passe boulevard Saint-Germain euh boulevard Henri Quatre
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9751,9 +9751,9 @@
 9	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	comp:obj	_	_
 
 # macrosyntax = $L3 "euh" -$ { monsieur YYY |} $- $L2 ( { oui | oui } "je vois" //= bien sûr "je vois" // ) {| voisin } "euh" { prend ESPERLUETTE | -$ $L1 a } $- le même ( $L2 { oui | oui } // ) -$ discours $- "euh" ( absolument // ) ( $L2 absolument // ) -$ $- $L2 ( { oui | oui | oui } "je sais" // ) ému ( $L2 { oui | oui } // ) -$ quand on passe à l'arrière de Notre Dame "hein" >+ en $- particulier //
-# sent_id = Rhap_D0001-27
-# text = euh monsieur YYY oui oui je vois bien sûr je vois voisin euh prend a le même oui oui discours absolument euh absolument absolument oui oui oui je sais ému oui oui quand on passe à l' arrière de Notre-Dame hein en particulier
 # speaker = L1
+# sent_id = Rhap_D0001-27
+# text = monsieur YYY voisin euh prend a le même discours absolument euh absolument ému quand on passe à l' arrière de Notre-Dame hein en particulier
 2	monsieur	Monsieur	NOUN	_	_	14	subj	_	_
 3	YYY	YYY	PROPN	_	_	2	mod@appos	_	_
 12	voisin	voisin	NOUN	_	Gender=Masc|Number=Sing	2	conj:dicto	_	_
@@ -9787,9 +9787,9 @@
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = "ah" "oui" c'est un très beau trajet > -$ $- ce quatre-vingt-six //= -$
+# speaker = L2
 # sent_id = Rhap_D0001-29
 # text = ah oui c' est un très beau trajet ce quatre-vingt-six
-# speaker = L2
 1	ah	ah	INTJ	_	_	4	discourse	_	_
 2	oui	oui	INTJ	_	_	4	discourse	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
@@ -9814,16 +9814,16 @@
 8	trajet	trajet	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 
 # macrosyntax = ( $L1 "mh" -$ ) { oui | oui } //
-# sent_id = Rhap_D0001-31
 # speaker = L2
-# text = mh oui oui
+# sent_id = Rhap_D0001-31
+# text = oui oui
 1	oui	oui	INTJ	_	_	0	root	_	_
 2	oui	oui	INTJ	_	_	1	conj:coord	_	_
 
 # macrosyntax = $- ^et { vous | vous } ( $L2 ça < c'est ESPERLUETTE // ) -$ avez comme ça des moments de ESPERLUETTE //
+# speaker = L1
 # sent_id = Rhap_D0001-32
 # text = et vous vous avez comme ça des moments de
-# speaker = L1
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
@@ -9985,9 +9985,9 @@
 12	temps	temps	NOUN	_	Gender=Masc	7	mod	_	_
 
 # macrosyntax = votre marché < c'est { Aligre | $- ^plus ^que Nation } //
+# speaker = L1
 # sent_id = Rhap_D0001-44
 # text = votre marché c' est Aligre plus que Nation
-# speaker = L1
 1	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	2	det	_	_
 2	marché	marché	NOUN	_	Gender=Masc|Number=Sing	4	dislocated	_	_
 3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
@@ -10020,9 +10020,9 @@
 2	Aligre	Aligre	PROPN	_	_	0	root	_	_
 
 # macrosyntax = ( $L1 "mh" -$ ) c'est pas le marché d'Aligre lui-même //
+# speaker = L3
 # sent_id = Rhap_D0001-48
 # text = c' est pas le marché d' Aligre lui-même
-# speaker = L3
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
@@ -10096,9 +10096,9 @@
 5	ponctuel	ponctuel	ADJ	_	_	4	comp:pred	_	_
 
 # macrosyntax = c'est ( $L1 "mh" oui d'accord // ) -$ $- des achats ponctuels //
+# speaker = L3
 # sent_id = Rhap_D0001-55
 # text = c' est des achats ponctuels
-# speaker = L3
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
@@ -10107,9 +10107,9 @@
 
 
 # macrosyntax = $L1 "mh" oui d'accord //
-# sent_id = Rhap_D0001-55bis
-# text = c' est mh oui d' accord des achats ponctuels
 # speaker = L1
+# sent_id = Rhap_D0001-55bis
+# text = mh oui d' accord
 1	mh	mh	INTJ	_	_	2	discourse	_	_
 2	oui	oui	INTJ	_	_	0	root	_	_
 3	d'	d'	ADP	_	_	2	discourse	_	_
@@ -10201,9 +10201,9 @@
 3	oui	oui	INTJ	_	_	2	conj:coord	_	_
 
 # macrosyntax = moi < { j'étais donc "euh" | j'étais } à l'école rue de Picpus //+ $L3 { qui existe toujours |} //+ {| qui existe toujours } > absolument //
-# sent_id = Rhap_D0001-61
-# text = moi j' étais donc euh j' étais à l' école rue de Picpus qui existe toujours qui existe toujours absolument
 # speaker = L2
+# sent_id = Rhap_D0001-61
+# text = moi j' étais donc euh j' étais à l' école rue de Picpus qui existe toujours absolument
 1	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	3	dislocated	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -10230,9 +10230,9 @@
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 
 # macrosyntax = ^et ^puis après <+ j'étais au lycée Arago //+ $- donc < "voyez" { qui est ESPERLUETTE | ( $L1 mh XXX mh mh // ) -$ "hein" qui avait { une annexe d'ailleurs "euh" | une annexe qui est à Reuilly-Diderot } } //
+# speaker = L2
 # sent_id = Rhap_D0001-63
 # text = et puis après j' étais au lycée Arago donc voyez qui est hein qui avait une annexe d'ailleurs euh une annexe qui est à Reuilly-Diderot
-# speaker = L2
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	5	mod	_	_
@@ -10262,9 +10262,9 @@
 29	Reuilly-Diderot	Reuilly-Diderot	PROPN	_	_	28	comp:obj	_	_
 
 # macrosyntax = ^et ^puis après <+ donc < "euh" j'étais { une année à la classe de philo au lycée Paul Valéry |} //+ ( $L1 mh mh // ) "euh" {| ^et en prépa évidemment "euh" | { à | à } la sor~ | à { Censier | ^puis la Sorbonne } "quoi" } //
-# sent_id = Rhap_D0001-64
-# text = et puis après donc euh j' étais une année à la classe de philo au lycée Paul Valéry mh mh euh et en prépa évidemment euh à à la Sor~ à Censier puis la Sorbonne quoi
 # speaker = L2
+# sent_id = Rhap_D0001-64
+# text = et puis après donc euh j' étais une année à la classe de philo au lycée Paul Valéry euh et en prépa évidemment euh à à la Sor~ à Censier puis la Sorbonne quoi
 1	et	et	CCONJ	_	_	7	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	après	après	ADV	_	_	7	mod	_	_
@@ -10309,9 +10309,9 @@
 2	voilà	voilà	VERB	_	_	1	conj:coord	_	_
 
 # macrosyntax = on a pu se croiser ( peut-être ) à $- Censier //
+# speaker = L1
 # sent_id = Rhap_D0001-66
 # text = on a pu se croiser peut-être à Censier
-# speaker = L1
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
@@ -10502,9 +10502,9 @@
 5	vraiment	vraiment	ADV	_	_	4	mod	_	_
 
 # macrosyntax = $- l'école ( $L2 c'était ESPERLUETTE // ) -$ est conçue $- maintenant comme un ( $L2 voilà // ) -$ pensum //
+# speaker = L3
 # sent_id = Rhap_D0001-81
 # text = l' école est conçue maintenant comme un pensum
-# speaker = L3
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	école	école	NOUN	_	Gender=Fem|Number=Sing	3	subj@pass	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10515,9 +10515,9 @@
 8	pensum	pensum	NOUN	_	_	6	comp:obj	_	_
 
 # macrosyntax = autrefois $- ( $L2 { oui | oui | oui } // ) <+ c'était pas le cas -$ "euh" $- "je veux dire" "euh" // ( $L2 oui // -$ )
+# speaker = L3
 # sent_id = Rhap_D0001-82
 # text = autrefois c' était pas le cas euh je veux dire euh
-# speaker = L3
 1	autrefois	autrefois	ADV	_	_	6	mod	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -10547,9 +10547,9 @@
 5	bons	bon	ADJ	_	Gender=Masc|Number=Plur	3	comp:obj	_	_
 
 # macrosyntax = on n'avait -$ pas les conditions matérielles $- ( $L3 { non | non } // ) qu'ils ont maintenant -$ "ça" "euh" //
-# sent_id = Rhap_D0001-85
-# text = on n' avait pas les conditions matérielles non non qu' ils ont maintenant ça euh
 # speaker = L2
+# sent_id = Rhap_D0001-85
+# text = on n' avait pas les conditions matérielles qu' ils ont maintenant ça euh
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -10615,9 +10615,9 @@
 12	euh	euh	INTJ	_	_	10	discourse	_	_
 
 # macrosyntax = quand on voit $- ( $L3 ^et nombreux par classe // ) maintenant ce qu'ils ont <+ ça laisse rêveur -$ //
+# speaker = L2
 # sent_id = Rhap_D0001-89
 # text = quand on voit maintenant ce qu' ils ont ça laisse rêveur
-# speaker = L2
 1	quand	quand	SCONJ	_	_	10	mod	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
@@ -10646,9 +10646,9 @@
 3	classe	classe	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
 
 # macrosyntax = ^et puis oui > -$ quand même quarante //
+# speaker = L2
 # sent_id = Rhap_D0001-92
 # text = et puis oui quand même quarante
-# speaker = L2
 1	et	et	CCONJ	_	_	6	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	oui	oui	INTJ	_	_	6	discourse	_	_
@@ -10774,9 +10774,9 @@
 21	Zep	Zep	PROPN	_	_	20	comp:obj	_	_
 
 # macrosyntax = $- "je veux dire" ça me ( $L3 ## a été en Zep // "oui" // ) -$ laisse assez rêveur //
+# speaker = L2
 # sent_id = Rhap_D0001-103
 # text = je veux dire ça me oui laisse assez rêveur
-# speaker = L2
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	_
 3	dire	dire	VERB	DISCOURSE	VerbForm=Inf	2	comp:obj@x	_	_
@@ -10788,9 +10788,9 @@
 9	rêveur	rêveur	ADJ	_	_	7	comp:obj	_	_
 
 # macrosyntax = $- { sur le | sur les | sur le } changement qui est ( $L2 là -$ // $- $L2 oui // ^et ça // ) intervenu -$ //
+# speaker = L3
 # sent_id = Rhap_D0001-104
 # text = sur le sur les sur le changement qui est intervenu
-# speaker = L3
 1	sur	sur	ADP	_	_	0	root	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	1	comp:obj	_	_
 3	sur	sur	ADP	_	_	1	conj:dicto	_	_
@@ -10899,9 +10899,9 @@
 33	époque	époque	NOUN	_	Gender=Fem|Number=Sing	31	comp:obj	_	_
 
 # macrosyntax = $- maintenant <+ c'est plutôt ( $L2 "je veux dire" "euh" ESPERLUETTE -$ $L2 là // ) euh l'exemple ESPERLUETTE //
-# sent_id = Rhap_D0001-111
-# text = maintenant c' est plutôt je veux dire euh là euh l' exemple
 # speaker = L3
+# sent_id = Rhap_D0001-111
+# text = maintenant c' est plutôt euh l' exemple
 1	maintenant	maintenant	ADV	_	_	3	mod	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14596,9 +14596,9 @@
 6	auditeurs	auditeur	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
 
 # macrosyntax = "euh" on peut avoir un aperçu { de | de } l'écriture $- { de Murakami |} //+ ( $L1 {| de Murakami } -$ // )
-# sent_id = Rhap_D2002-42
-# text = euh on peut avoir un aperçu de de l' écriture de Murakami de Murakami
 # speaker = L2
+# sent_id = Rhap_D2002-42
+# text = euh on peut avoir un aperçu de de l' écriture de Murakami
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 3	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14624,9 +14624,9 @@
 7	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = moi < je ( $L1 ouais // -$ ) voudrais entendre ce que vous disiez sur { le sexe | la sexualité } de lui //
-# sent_id = Rhap_D2002-44
-# text = moi je ouais voudrais entendre ce que vous disiez sur le sexe la sexualité de lui
 # speaker = L2
+# sent_id = Rhap_D2002-44
+# text = moi je voudrais entendre ce que vous disiez sur le sexe la sexualité de lui
 1	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	dislocated	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	voudrais	vouloir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14840,9 +14840,9 @@
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	comp:pred	_	_
 
 # macrosyntax = { c'est | ça paraît } { { une | ( $L2 une } incongruité | ) "oui" "enfin" un exercice un peu difficile } //
-# sent_id = Rhap_D2002-62
-# text = c' est ça paraît une une incongruité oui enfin un exercice un peu difficile
 # speaker = L1
+# sent_id = Rhap_D2002-62
+# text = c' est ça paraît une oui enfin un exercice un peu difficile
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
@@ -15545,9 +15545,9 @@
 7	banque	banque	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 
 # macrosyntax = à l' angle <+ il y a une banque pour vous repérer // ) | $L2  les quais  //+ | "euh" les quais du tram } //
-# sent_id = Rhap_D0008-24
-# text = à l' angle il y a une banque pour vous repérer les quais euh les quais du tram
 # speaker = L1
+# sent_id = Rhap_D0008-24
+# text = à l' angle il y a une banque pour vous repérer euh les quais du tram
 1	à	à	ADP	_	_	6	mod	_	_
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	angle	angle	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -15727,9 +15727,9 @@
 3	oui	oui	INTJ	_	_	2	discourse	_	_
 
 # macrosyntax = ^et là <+ ( vous allez voir ) vous allez arriver à une autre place où il y a { une grande fontaine | ( vous pouvez pas la louper // ) $- ( $L2 oui // ) ^et "euh" $- la boutique France Loisirs } //
-# sent_id = Rhap_D0008-36
-# text = et là vous allez voir vous allez arriver à une autre place où il y a une grande fontaine vous pouvez pas la louper oui et euh la boutique France Loisirs
 # speaker = L1
+# sent_id = Rhap_D0008-36
+# text = et là vous allez voir vous allez arriver à une autre place où il y a une grande fontaine vous pouvez pas la louper et euh la boutique France Loisirs
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	là	là	ADV	_	_	4	mod	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
@@ -15890,9 +15890,9 @@
 17	Grenoble	Grenoble	PROPN	_	_	16	comp:obj	_	_
 
 # macrosyntax = on passe devant { le | le } kiosque à journaux > $- en fait //
+# speaker = L2
 # sent_id = Rhap_D0008-48
 # text = on passe devant le le kiosque à journaux en fait
-# speaker = L2
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	passe	passer	VERB	ETRE	_	0	root	_	_
 3	devant	devant	ADP	_	_	2	comp:obl	_	_
@@ -15954,9 +15954,9 @@
 26	gauche	gauche	NOUN	conj:reform	Gender=Fem|Number=Sing	24	comp:obj	_	_
 
 # macrosyntax = { ^parce | $- ^parce } ^que "euh" ( $L2 d'accord // ) -$ vous longez ESPERLUETTE //
-# sent_id = Rhap_D0008-52
-# text = parce parce que euh d' accord vous longez
 # speaker = L1
+# sent_id = Rhap_D0008-52
+# text = parce parce que euh vous longez
 1	parce	parce	SCONJ	_	_	0	root	_	_
 2	parce	parce	SCONJ	_	_	1	conj:dicto	_	ExtPos=SCONJ|PhraseType=Idiom
 3	que	que	SCONJ	_	_	2	unk	_	InIdiom=Yes
@@ -16105,9 +16105,9 @@
 15	Grenoble	Grenoble	PROPN	_	_	14	comp:obj	_	_
 
 # macrosyntax = { on | on | on } verra les $- bulles //
+# speaker = L2
 # sent_id = Rhap_D0008-61
 # text = on on on verra les bulles
-# speaker = L2
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj	_	_
 2	on	on	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	conj:dicto	_	_
 3	on	on	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	conj:dicto	_	_
@@ -16116,16 +16116,16 @@
 6	bulles	bulle	NOUN	_	_	4	comp:obj	_	_
 
 # macrosyntax = { oui -$ | $- oui } //
-# sent_id = Rhap_D0008-62
 # speaker = L1
+# sent_id = Rhap_D0008-62
 # text = oui oui
 1	oui	oui	INTJ	_	_	0	root	_	_
 2	oui	oui	INTJ	_	_	1	conj:coord	_	_
 
 # macrosyntax = { vous pouvez pas ( $L2 XXX -$ "euh" ) | $- vous pouvez pas louper } "euh" //
-# sent_id = Rhap_D0008-63
-# text = vous pouvez pas euh vous pouvez pas louper euh
 # speaker = L1
+# sent_id = Rhap_D0008-63
+# text = vous pouvez pas vous pouvez pas louper euh
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
@@ -16583,9 +16583,9 @@
 39	autres	autre	PRON	_	_	34	comp:obj	_	_
 
 # macrosyntax = ^mais l'acte d'écrire est-il { le prolongement |} de l'acte de penser //+
+# speaker = L2
 # sent_id = Rhap_D2009-9
 # text = mais l' acte d' écrire est -il le prolongement de l' acte de penser
-# speaker = L2
 1	mais	mais	CCONJ	_	_	6	cc	_	_
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	acte	acte	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
@@ -16602,9 +16602,9 @@
 14	penser	penser	VERB	_	VerbForm=Inf	13	comp:obj	_	_
 
 # macrosyntax = "ah" {| { non s~ & | non seulement } le prolongement |
+# speaker = L1
 # sent_id = Rhap_D2009-9bis
 # text = ah non s~ non seulement le prolongement
-# speaker = L1
 15	ah	ah	INTJ	_	_	16	discourse	_	_
 16	non	non	ADV	_	Polarity=Neg	21	mod	_	_
 17	s~	s~	ADV	_	_	21	mod	_	_
@@ -17419,9 +17419,9 @@
 18	littérature	littérature	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 
 # macrosyntax = pour -$ vous < il y avait Proust //
+# speaker = L2
 # sent_id = Rhap_D2009-52
 # text = pour vous il y avait Proust
-# speaker = L2
 1	pour	pour	ADP	_	_	5	mod	_	_
 2	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	1	comp:obj	_	_
 3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
@@ -17742,9 +17742,9 @@
 12	vieillissent	vieillir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
 
 # macrosyntax = "euh" il y en a { d'autres qui sont partis du quartier qui reviennent de $- temps en temps //+ ( $L2 "mh mh" // ) -$ | ^et ^puis "bon" ( quand même ) ( évidemment ) des nouveaux } //
-# sent_id = Rhap_D0004-2
-# text = euh il y en a d' autres qui sont partis du quartier qui reviennent de temps en temps mh mh et puis bon quand même évidemment des nouveaux
 # speaker = L1
+# sent_id = Rhap_D0004-2
+# text = euh il y en a d' autres qui sont partis du quartier qui reviennent de temps en temps et puis bon quand même évidemment des nouveaux
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj@expl	_	_
 3	y	y	PRON	_	Person=3|PronType=Prs	5	comp:obl	_	_
@@ -17799,9 +17799,9 @@
 19	livre	livre	NOUN	_	_	17	comp:obj	_	_
 
 # macrosyntax = ( "mh mh" // ) $L1 "hein" //
-# sent_id = Rhap_D0004-4
-# text = mh mh hein
 # speaker = L2
+# sent_id = Rhap_D0004-4
+# text = mh mh
 1	mh	mh	INTJ	_	_	0	root	_	_
 2	mh	mh	INTJ	_	_	1	discourse	_	_
 
@@ -17841,9 +17841,9 @@
 22	ici	ici	ADV	_	_	18	mod	_	_
 
 # macrosyntax = ( $L2 "mh mh" // ) -$ "euh" l'immobilier est très cher dans le quartier //
+# speaker = L1
 # sent_id = Rhap_D0004-7
 # text = euh l' immobilier est très cher dans le quartier
-# speaker = L1
 3	euh	euh	INTJ	_	_	6	discourse	_	_
 4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	immobilier	immobilier	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
@@ -17907,9 +17907,9 @@
 26	Paris	Paris	PROPN	_	_	25	comp:obj	_	_
 
 # macrosyntax = ^et "euh" sur { le quartier vert | $- ce fameux ( $L2 "mh mh" // ) -$ quartier vert } "euh" < ils ont dit que ça avait augmenté d' à peu près douze à treize pour cent là > par contre //
-# sent_id = Rhap_D0004-11
-# text = et euh sur le quartier vert ce fameux mh mh quartier vert euh ils ont dit que ça avait augmenté d' à peu près douze à treize pour cent là par contre
 # speaker = L1
+# sent_id = Rhap_D0004-11
+# text = et euh sur le quartier vert ce fameux quartier vert euh ils ont dit que ça avait augmenté d' à peu près douze à treize pour cent là par contre
 1	et	et	CCONJ	_	_	15	cc	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	sur	sur	ADP	_	_	16	mod	_	_
@@ -17966,9 +17966,9 @@
 20	cher	cher	ADJ	_	Gender=Masc|Number=Sing	17	comp:pred	_	_
 
 # macrosyntax = ( $L2 "mh mh" // ) ^et on n'arrive plus à maintenir des clientèles //
-# sent_id = Rhap_D0004-13
-# text = mh mh et on n' arrive plus à maintenir des clientèles
 # speaker = L1
+# sent_id = Rhap_D0004-13
+# text = et on n' arrive plus à maintenir des clientèles
 3	et	et	CCONJ	_	_	6	cc	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	_
 5	n'	ne	ADV	_	Polarity=Neg	6	mod	_	_
@@ -17996,9 +17996,9 @@
 12	ans	an	NOUN	_	Gender=Masc|Number=Plur	9	comp:pred	_	_
 
 # macrosyntax = ( $L2 "mh mh" // ) il y a { des déménagements | ^et des emménagements } en permanence //
+# speaker = L1
 # sent_id = Rhap_D0004-15
 # text = il y a des déménagements et des emménagements en permanence
-# speaker = L1
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18035,9 +18035,9 @@
 12	appartements	appartement	NOUN	_	Gender=Masc|Number=Plur	7	comp:obj	_	_
 
 # macrosyntax = ( $L2 "mh mh" // ) donc < des jeunes $- couples qui s'installent < { dès qu'il y a un enfant | ( $L2 XXX pas tellement d'enfants // voilà // $L2 voilà // ) -$ dès qu'il y a { un |} enfant {| ^ou deux | au moins deux } | <+ le d~ <+  quand le deuxième } arrive <+ ils partent //
+# speaker = L1
 # sent_id = Rhap_D0004-18
 # text = donc des jeunes couples qui s' installent dès qu' il y a un enfant dès qu' il y a un enfant ou deux au moins deux le d~ quand le deuxième arrive ils partent
-# speaker = L1
 1	donc	donc	ADV	_	_	35	mod	_	_
 2	des	de+le	DET	_	_	4	det	_	_
 3	jeunes	jeune	ADJ	_	Number=Plur	4	mod	_	_
@@ -18132,9 +18132,9 @@
 8	ans	an	NOUN	_	Gender=Masc|Number=Plur	5	comp:obj	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" // ) donc < c'est vrai que ça fait ( quand même ) beaucoup de changements //
-# sent_id = Rhap_D0004-23
-# text = mh mh donc c' est vrai que ça fait quand même euh beaucoup de changements
 # speaker = L1
+# sent_id = Rhap_D0004-23
+# text = donc c' est vrai que ça fait quand même euh beaucoup de changements
 3	donc	donc	ADV	_	_	5	cc	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj@expl	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18189,9 +18189,9 @@
 35	maintenant	maintenant	ADV	_	_	30	mod	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" "mh" "mh" // ) -$ $- donc < on a beaucoup de mal à maintenir "voilà" une clientèle de quartier //
+# speaker = L1
 # sent_id = Rhap_D0004-25
 # text = donc on a beaucoup de mal à maintenir voilà une clientèle de quartier
-# speaker = L1
 5	donc	donc	ADV	_	_	7	cc	_	_
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	_
 7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18317,9 +18317,9 @@
 12	gratuits	gratuit	ADJ	_	Gender=Masc|Number=Plur	11	comp:pred	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" // ) "euh" nous < dans le quartier <+ { on n'a | on n'a } pas de lycée > déjà //
-# sent_id = Rhap_D0004-35
-# text = mh mh euh nous dans le quartier on n' a on n' a pas de lycée déjà
 # speaker = L1
+# sent_id = Rhap_D0004-35
+# text = euh nous dans le quartier on n' a on n' a pas de lycée déjà
 3	euh	euh	INTJ	_	_	10	discourse	_	_
 4	nous	lui	PRON	_	Number=Plur|Person=1|PronType=Prs	10	dislocated	_	_
 5	dans	dans	ADP	_	_	10	mod	_	_
@@ -18337,9 +18337,9 @@
 17	déjà	déjà	ADV	_	_	13	mod	_	_
 
 # macrosyntax = $- il y a deux collèges { là | ( $L2 "mh" "mh" // ) -$ $- { rue A~ | rue } d'Alésia } //
+# speaker = L1
 # sent_id = Rhap_D0004-36
 # text = il y a deux collèges là rue A~ rue d' Alésia
-# speaker = L1
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18353,9 +18353,9 @@
 13	Alésia	Alésia	PROPN	_	_	12	comp:obj	_	_
 
 # macrosyntax = ( $L2 XXX -$ $L2 "mh"  "mh" // ) ^mais { ce | ce } ESPERLUETTE //
+# speaker = L1
 # sent_id = Rhap_D0004-37
 # text = mais ce ce
-# speaker = L1
 3	mais	mais	CCONJ	_	_	4	cc	_	_
 4	ce	ce	DET	_	_	0	root@scrap	_	_
 5	ce	ce	DET	conj:reform	_	4	conj:dicto	_	_
@@ -18420,9 +18420,9 @@
 44	ans	an	NOUN	conj:reform	Gender=Masc|Number=Plur	38	conj:dicto	_	_
 
 # macrosyntax = donc < ( $L2 oui // ) -$ "euh" { de ce point de vue-là |} ( ^puis il y a deux maternelles // ) ^mais "euh" {| de ce point de vue-là } < ce sont des écoles publiques "hein" //
+# speaker = L1
 # sent_id = Rhap_D0004-40
 # text = donc euh de ce point de vue -là puis il y a deux maternelles mais euh de ce point de vue -là ce sont des écoles publiques hein
-# speaker = L1
 1	donc	donc	ADV	_	_	24	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 3	de	de	ADP	_	_	24	mod	_	_
@@ -18486,9 +18486,9 @@
 21	dessus	dessus	NOUN	conj:reform	Gender=Masc	19	comp:obj	_	_
 
 # macrosyntax = "non" je pensais à ça parce que -$ j'imagine que [ des maternelles < ça a besoin { de livres d'enfants "euh" | $- d'avoir "euh" XXX } ] //
+# speaker = L2
 # sent_id = Rhap_D0004-43
 # text = non je pensais à ça parce que j' imagine que des maternelles ça a besoin de livres d' enfants euh d' avoir euh
-# speaker = L2
 1	non	non	ADV	_	Polarity=Neg	3	discourse	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -18514,9 +18514,9 @@
 23	euh	euh	INTJ	_	_	22	discourse	_	_
 
 # macrosyntax = "oui" "bon" alors < "euh" { { pour ce qui est de | pour ce qui est du } livre jeunesse | -$ $- "on va dire" du livre de détente | ^mais ( $L2 "oui" "oui" // ) -$ { pas | pas } du livre scolaire } "hein" //
+# speaker = L1
 # sent_id = Rhap_D0004-44
 # text = oui bon alors euh pour ce qui est de pour ce qui est du livre jeunesse on va dire du livre de détente mais pas pas du livre scolaire hein
-# speaker = L1
 1	oui	oui	INTJ	_	_	6	discourse	_	_
 2	bon	bon	INTJ	_	_	6	discourse	_	_
 3	alors	alors	ADV	_	_	6	discourse	_	_
@@ -18556,7 +18556,7 @@
 
 # macrosyntax = c'est vrai qu' [ au niveau scolaire < "non" on n'a jamais vraiment travaillé "euh" ( $L2 "mh" "mh" // ) $- ( $L2 "non" "non"
 # sent_id = Rhap_D0004-45
-# text = c' est vrai qu' au niveau scolaire non on n' a jamais vraiment travaillé euh mh mh non non
+# text = c' est vrai qu' au niveau scolaire non on n' a jamais vraiment travaillé euh
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vrai	vrai	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
@@ -18650,9 +18650,9 @@
 30	livre	livre	NOUN	_	_	28	comp:obj	_	_
 
 # macrosyntax = ( $L2 "mh" // ) -$ $- donc < souvent < ce sont les grands-parents qui achètent les livres > $- $- plus que les parents //
-# sent_id = Rhap_D0004-51
-# text = mh donc souvent ce sont les grands-parents qui achètent les livres plus que les parents
 # speaker = L1
+# sent_id = Rhap_D0004-51
+# text = donc souvent ce sont les grands-parents qui achètent les livres plus que les parents
 2	donc	donc	ADV	_	_	5	discourse	_	_
 3	souvent	souvent	ADV	_	_	5	mod	_	_
 4	ce	ce	PRON	_	_	5	subj@expl	_	_
@@ -18669,9 +18669,9 @@
 15	parents	parent	NOUN	_	Gender=Masc|Number=Plur	7	conj:coord	_	_
 
 # macrosyntax = ( ^mais { ce dont | # ) -$ ## ce dont  } // vous parlez < -$ c'est la crise générale $- { { des | ( $L1 "oui" // ) -$ des } Français //+ |} $- $L1 oui //+ "oui" {| "enfin" -$ $- des Français | ( $L1 "mh" "mh" // ) -$ pas simplement des Français "hein" | { { des | de } l'humanité | ^et de la $- lecture } } //
-# sent_id = Rhap_D0004-52
-# text = mais ce dont ce dont vous parlez c' est la crise générale des oui des Français oui oui enfin des Français mh mh pas simplement des Français hein des de l' humanité de la lecture
 # speaker = L2
+# sent_id = Rhap_D0004-52
+# text = mais ce dont ce dont vous parlez c' est la crise générale des des Français oui enfin des Français pas simplement des Français hein des de l' humanité de la lecture
 1	mais	mais	CCONJ	_	_	9	cc	_	_
 2	ce	ce	PRON	_	_	9	mod	_	_
 3	dont	dont	PRON	_	PronType=Rel	2	mod@relcl	_	_
@@ -18715,18 +18715,18 @@
 40	lecture	lecture	NOUN	_	Gender=Fem|Number=Sing	38	comp:obj	_	_
 
 # macrosyntax = oui // -$ $- "oui" "oui" "oui" absolument //
+# speaker = L1
 # sent_id = Rhap_D0004-53
 # text = oui oui oui absolument
-# speaker = L1
 1	oui	oui	INTJ	_	_	4	discourse	_	_
 2	oui	oui	INTJ	_	_	1	conj:coord	_	_
 3	oui	oui	INTJ	_	_	2	conj:coord	_	_
 4	absolument	absolument	ADV	_	_	0	root	_	_
 
 # macrosyntax = { on | on } est tous "euh"  -$ très inquiets //
+# speaker = L2
 # sent_id = Rhap_D0004-54
 # text = on on est tous euh très inquiets
-# speaker = L2
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	3	subj	_	_
 2	on	on	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Ind	1	conj:dicto	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18749,9 +18749,9 @@
 9	maintenant	maintenant	ADV	_	_	3	mod	_	_
 
 # macrosyntax = $- "hein" le loisir < surtout sur ces générations-là < quand même maintenant < ( $L2 "mh" "mh" "mh" // ) -$ c'est des générations ESPERLUETTE //
+# speaker = L1
 # sent_id = Rhap_D0004-56
 # text = hein le loisir surtout sur ces générations -là quand même maintenant c' est des générations
-# speaker = L1
 1	hein	hein	INTJ	_	_	13	discourse	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	loisir	loisir	NOUN	_	Gender=Masc|Number=Sing	13	dislocated	_	_
@@ -18799,9 +18799,9 @@
 17	hein	hein	INTJ	_	_	16	discourse	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" // ) donc < "euh" ils sont déjà de la génération { de l'image | ( $L2 "mh" "mh" // ) { ^et | ^et } d'internet } //
-# sent_id = Rhap_D0004-59
-# text = mh mh donc euh ils sont déjà de la génération de l' image mh mh et et d' internet
 # speaker = L1
+# sent_id = Rhap_D0004-59
+# text = donc euh ils sont déjà de la génération de l' image et et d' internet
 3	donc	donc	ADV	_	_	6	cc	_	_
 4	euh	euh	INTJ	_	_	10	discourse	_	_
 5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
@@ -18848,9 +18848,9 @@
 15	concurrence	concurrence	NOUN	_	Gender=Fem|Number=Sing	13	comp:pred	_	_
 
 # macrosyntax = c'est ( $L2 "mh" "mh" // ) -$ un peu "bon" "évidemment" { les achats { sur internet | ( $L2 "mh" "mh" // ) "euh" donc sur les sites de vente de livres } |} //+
-# sent_id = Rhap_D0004-62
-# text = c' est mh mh un peu bon évidemment les achats sur internet euh donc sur les sites de vente de livres
 # speaker = L1
+# sent_id = Rhap_D0004-62
+# text = c' est un peu bon évidemment les achats sur internet euh donc sur les sites de vente de livres
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	InIdiom=Yes
@@ -18872,16 +18872,16 @@
 21	livres	livre	NOUN	_	_	20	comp:obj	_	_
 
 # macrosyntax = $- {| { ^et puis |
+# speaker = L1
 # sent_id = Rhap_D0004-62bis
 # text = et puis
-# speaker = L1
 1	et	et	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 
 # macrosyntax = ça < ça commence aussi //
+# speaker = L2
 # sent_id = Rhap_D0004-62ter
 # text = ça ça commence aussi
-# speaker = L2
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	conj:dicto	_	_
 5	commence	commencer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -18909,9 +18909,9 @@
 12	Internet	Internet	PROPN	_	_	11	comp:obj	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" "mh" // ) -$ "ah" ça < ça  a mangé énormément //
-# sent_id = Rhap_D0004-63
-# text = mh mh mh ah ça ça a mangé énormément
 # speaker = L1
+# sent_id = Rhap_D0004-63
+# text = ah ça ça a mangé énormément
 4	ah	ah	INTJ	_	_	7	discourse	_	_
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	conj:dicto	_	_
@@ -18942,9 +18942,9 @@
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" // ) -$ quand on passe quatre heures sur internet <+ { on pen~ | on n'a } plus beaucoup de temps pour ouvrir un livre //
-# sent_id = Rhap_D0004-66
-# text = mh mh quand on passe quatre heures sur internet on pen~ on n' a plus beaucoup de temps pour ouvrir un livre
 # speaker = L1
+# sent_id = Rhap_D0004-66
+# text = quand on passe quatre heures sur internet on pen~ on n' a plus beaucoup de temps pour ouvrir un livre
 3	quand	quand	SCONJ	_	_	11	mod	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	passe	passer	VERB	ETRE	_	3	comp:obj	_	_
@@ -18967,9 +18967,9 @@
 22	livre	livre	NOUN	_	_	20	comp:obj	_	_
 
 # macrosyntax = $- donc < ( $L2 absolument // ) -$ "euh" { ^et | ^et } ça < ce sont des jeunes qui sont vraiment génération image //
+# speaker = L1
 # sent_id = Rhap_D0004-67
 # text = donc euh et et ça ce sont des jeunes qui sont vraiment génération image
-# speaker = L1
 1	donc	donc	ADV	_	_	8	mod	_	_
 3	euh	euh	INTJ	_	_	2	discourse	_	_
 4	et	et	CCONJ	_	_	8	cc	_	_
@@ -18986,9 +18986,9 @@
 15	image	image	NOUN	_	Gender=Fem|Number=Sing	14	mod@appos	_	_
 
 # macrosyntax = ( $L2 "mh" "mh" // ) "bon" ^puis d'autre part < il y a un problème d'horaire "hein" //
-# sent_id = Rhap_D0004-68
-# text = mh mh bon puis d' autre part il y a un problème d' horaire hein
 # speaker = L1
+# sent_id = Rhap_D0004-68
+# text = bon puis d' autre part il y a un problème d' horaire hein
 3	bon	bon	INTJ	_	_	10	discourse	_	_
 4	puis	puis	CCONJ	_	_	10	cc	_	_
 5	d'	de	ADP	_	_	10	mod	_	_
@@ -19072,9 +19072,9 @@
 10	soir	soir	NOUN	_	Gender=Masc|Number=Sing	7	mod	_	_
 
 # macrosyntax = $- ça < c'est le problème { de Paris "je pense" |} //+ ( $L2 "mh" "mh" // ) -$ {| ^et de la région parisienne aussi } //
-# sent_id = Rhap_D0004-74
-# text = ça c' est le problème de Paris je pense mh mh et de la région parisienne aussi
 # speaker = L1
+# sent_id = Rhap_D0004-74
+# text = ça c' est le problème de Paris je pense et de la région parisienne aussi
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -19127,9 +19127,9 @@
 2	euh	euh	INTJ	_	_	1	discourse	_	_
 
 # macrosyntax = on aurait pu penser -$ que les gens du quatorzième { étaient privilégiés | restaient dans la ville } //
+# speaker = L2
 # sent_id = Rhap_D0004-77
 # text = on aurait pu penser que les gens du quatorzième étaient privilégiés restaient dans la ville
-# speaker = L2
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	aurait	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pu	pouvoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
@@ -19214,9 +19214,9 @@
 19	près	près	ADV	_	_	17	mod	_	_
 
 # macrosyntax = ( $L2 "mh" // ) -$ "euh" "bon" eux n'ont pas d'enfants //
-# sent_id = Rhap_D0004-83
-# text = mh euh bon eux n' ont pas d' enfants
 # speaker = L1
+# sent_id = Rhap_D0004-83
+# text = euh bon eux n' ont pas d' enfants
 2	euh	euh	INTJ	_	_	6	discourse	_	_
 3	bon	bon	INTJ	_	_	6	discourse	_	_
 4	eux	lui	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
