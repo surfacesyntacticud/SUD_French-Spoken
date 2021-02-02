@@ -434,7 +434,7 @@
 
 # macrosyntax = {| { très | très } sale } //
 # sent_id = Rhap_D2011-22bis
-# text = très sale très très sale
+# text = très très sale
 # speaker = L1
 1	très	très	ADV	_	_	3	mod	_	_
 2	très	très	ADV	_	_	1	conj:coord	_	_
