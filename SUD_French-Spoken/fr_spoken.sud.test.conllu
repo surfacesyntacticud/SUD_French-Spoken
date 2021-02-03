@@ -1259,7 +1259,7 @@
 3-4	au	_	_	_	_	_	_	_	_
 3	à	à	ADP	_	_	0	root	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
-5	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+5	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj@scrap	_	_
 
 # macrosyntax = ^et ^puis je crois que vous avez { un garçon -$ {| un garçon { qui se salit | ^et { qui faisait des allergies auparavant | ^et qui n'en fait plus grâce à la boule magique } } } //
 # speaker = L5
@@ -1769,7 +1769,7 @@
 6	mal	mal	NOUN	_	Gender=Masc|Number=Sing	4	comp:obl	_	_
 7	quand	quand	SCONJ	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	même	même	ADV	_	_	7	unk	_	InIdiom=Yes
-9	de	de	ADP	_	_	4	comp:obl	_	_
+9	de	de	ADP	_	_	4	comp:obl@scrap	_	_
 10	c~	c~	X	_	_	9	comp:obj	_	_
 
 # macrosyntax = $L1 "ah" alors //
@@ -1900,7 +1900,7 @@
 # macrosyntax = ^et ils vous ESPERLUETTE //
 # sent_id = Rhap_D2010-22
 # text = et ils vous
-1	et	et	CCONJ	_	_	0	root	_	_
+1	et	et	CCONJ	_	_	0	root@scrap	_	_
 2	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	conj:dicto	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	_
 
@@ -1909,7 +1909,7 @@
 # text = et c' est
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 
 # macrosyntax = ils vous couvrent de $- $L1 fleurs //
 # sent_id = Rhap_D2010-24
@@ -1953,13 +1953,13 @@
 # sent_id = Rhap_D2010-28
 # text = vous savez je
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
-2	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root@scrap 	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	conj:dicto	_	_
 
 # macrosyntax = pendant dix ans ESPERLUETTE //=
 # sent_id = Rhap_D2010-29
 # text = pendant dix ans
-1	pendant	pendant	ADP	_	_	0	root	_	_
+1	pendant	pendant	ADP	_	_	0	root@scrap	_	_
 2	dix	dix	NUM	_	Number=Plur	3	det	_	_
 3	ans	an	NOUN	_	Gender=Masc|Number=Plur	1	comp:obj	_	_
 
@@ -2004,7 +2004,7 @@
 # sent_id = Rhap_D2010-33
 # text = c' est un peu
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
 4	peu	peu	NOUN	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 
@@ -2051,7 +2051,7 @@
 # sent_id = Rhap_D2010-36
 # text = c' est un peu
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	InIdiom=Yes
 4	peu	peu	NOUN	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 
@@ -2129,7 +2129,7 @@
 1	et	et	CCONJ	_	_	0	root	_	ExtPos=CCONJ|PhraseType=Idiom
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	alors	alors	ADV	_	_	1	cc	_	_
-4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	conj:dicto	_	_
+4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	unk@scrap	_	_
 
 # macrosyntax = il y a une rumeur qui court Paris "euh" //
 # sent_id = Rhap_D2010-43
@@ -2349,7 +2349,7 @@
 # sent_id = Rhap_D2010-58
 # text = c' est
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 
 # macrosyntax = ils voulaient pas le donner { à | au } Barrage parce que j'étais de gauche //
 # sent_id = Rhap_D2010-59
@@ -9134,7 +9134,7 @@
 # text = ça c' est euh
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	dislocated	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
-3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root@scrap	_	_
 4	euh	euh	INTJ	_	_	3	conj:dicto	_	_
 
 # macrosyntax = "bon" je l'ai toujours eu "je crois" //
@@ -9910,7 +9910,7 @@
 21	être	être	AUX	_	VerbForm=Inf	20	comp:obj	_	_
 22	pauvre	pauvre	ADJ	conj:reform	Gender=Fem|Number=Sing	17	comp:pred	_	_
 23	ou	ou	CCONJ	_	_	24	cc	_	_
-24	de	de	ADP	_	_	22	conj:coord	_	_
+24	de	de	ADP	_	_	22	conj:coord@scrap	_	_
 
 # macrosyntax = { ce n'est | c'est } pas grave quand on est très jeune //
 # sent_id = Rhap_D2001-76
@@ -10052,7 +10052,7 @@
 52-53	du	_	_	_	_	_	_	_	_
 52	de	de	ADP	de	_	48	conj:dicto	_	_
 53	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	54	det	_	_
-54	type	type	NOUN	conj:reform	Gender=Masc|Number=Sing	52	comp:obj	_	_
+54	type	type	NOUN	conj:reform	Gender=Masc|Number=Sing	52	comp:obj@scrap	_	_
 55	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	57	subj	_	_
 56	me	me	PRON	_	_	58	comp	_	InIdiom=Yes
 57	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
@@ -10350,7 +10350,7 @@
 # macrosyntax = donc < il ne ESPERLUETTE //
 # sent_id = Rhap_D2001-103
 # text = donc il ne
-1	donc	donc	ADV	_	_	0	root	_	_
+1	donc	donc	ADV	_	_	0	root@scrap	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	conj:dicto	_	_
 3	ne	ne	ADV	_	Polarity=Neg	2	conj:dicto	_	_
 
