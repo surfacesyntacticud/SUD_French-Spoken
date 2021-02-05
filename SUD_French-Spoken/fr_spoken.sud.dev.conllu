@@ -683,12 +683,12 @@
 # speaker = L2
 # sent_id = Rhap_D0006-29bis
 # text = en sortant de la famille quoi
-3	en	en	ADP	_	_	0	root	_	_
-4	sortant	sortir	VERB	ETRE	Tense=Pres|VerbForm=Part	3	comp:obj	_	_
-5	de	de	ADP	_	_	4	comp:obl	_	_
-6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	famille	famille	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	quoi	quoi	INTJ	_	_	7	discourse	_	_
+1	en	en	ADP	_	_	0	root	_	_
+2	sortant	sortir	VERB	ETRE	Tense=Pres|VerbForm=Part	1	comp:obj	_	_
+3	de	de	ADP	_	_	2	comp:obl	_	_
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	famille	famille	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+6	quoi	quoi	INTJ	_	_	5	discourse	_	_
 
 # macrosyntax = $- ( $L1 "mh" // ) { sinon | -$ sinon } < ça ESPERLUETTE //
 # speaker = L2
@@ -7579,7 +7579,7 @@
 # macrosyntax = $L1 { oui | oui } { je | je } suis pas une trompeuse //
 # speaker = L2
 # sent_id = Rhap_D2007-50
-# text =je je suis pas une trompeuse
+# text = je je suis pas une trompeuse
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	je	il	PRON	conj:reform	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	_
 3	suis	suivre	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -7648,7 +7648,7 @@
 12	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = ^mais -$ { c'est très | c'est } & //
-# speaker =L3
+# speaker = L3
 # sent_id = Rhap_D2007-57
 # text = mais c' est très c' est
 1	mais	mais	CCONJ	_	_	3	cc	_	_
@@ -8505,7 +8505,7 @@
 2	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 
-# macrosyntax =  la mère //
+# macrosyntax = la mère //
 # speaker = L1
 # sent_id = Rhap_D2007-128bis
 # text = la mère
@@ -10032,12 +10032,12 @@
 # speaker = L2
 # sent_id = Rhap_D0003-13
 # text = mais euh euh finalement euh quand
-3	mais	mais	CCONJ	_	_	8	cc	_	_
-4	euh	euh	INTJ	_	_	8	discourse	_	_
-5	euh	euh	INTJ	_	_	8	discourse	_	_
-6	finalement	finalement	ADV	_	_	8	mod	_	_
-7	euh	euh	INTJ	_	_	6	discourse	_	_
-8	quand	quand	PRON	_	_	0	root@scrap	_	_
+1	mais	mais	CCONJ	_	_	6	cc	_	_
+2	euh	euh	INTJ	_	_	6	discourse	_	_
+3	euh	euh	INTJ	_	_	6	discourse	_	_
+4	finalement	finalement	ADV	_	_	6	mod	_	_
+5	euh	euh	INTJ	_	_	4	discourse	_	_
+6	quand	quand	PRON	_	_	0	root@scrap	_	_
 
 # macrosyntax = nous avons été sous très gros bombardements $- $L2 { américains | ^puis anglais } //
 # sent_id = Rhap_D0003-14
@@ -10066,23 +10066,23 @@
 # speaker = L2
 # sent_id = Rhap_D0003-16
 # text = après le bombardement anglais mon mon père a dit bon il f~ il faut partir il faut
-1	après	après	ADP	_	_	10	mod	_	_
+1	après	après	ADP	_	_	9	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	_
-5	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	8	det	_	_
-7	mon	son	DET	conj:reform	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	5	conj:dicto	_	_
-8	père	père	NOUN	_	Gender=Masc|Number=Sing	9	subj	_	_
-9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-10	dit	dire	VERB	_	_	9	comp:aux	_	_
-11	bon	bon	INTJ	_	_	13	discourse	_	_
-12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
-13	f~	f~	VERB	CCOMP	Number=Sing|Person=3	10	parataxis:obj	_	_
-14	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	subj	_	_
-15	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	conj:dicto	_	_
-16	partir	partir	VERB	ETRE	VerbForm=Inf	15	comp:obj@x	_	_
-17	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
-18	faut	falloir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	conj:dicto	_	_
+5	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	conj:reform	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	5	conj:dicto	_	_
+7	père	père	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
+8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	dit	dire	VERB	_	_	8	comp:aux	_	_
+10	bon	bon	INTJ	_	_	12	discourse	_	_
+11	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	subj	_	_
+12	f~	f~	VERB	CCOMP	Number=Sing|Person=3	9	parataxis:obj	_	_
+13	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj	_	_
+14	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj:dicto	_	_
+15	partir	partir	VERB	ETRE	VerbForm=Inf	14	comp:obj@x	_	_
+16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj	_	_
+17	faut	falloir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	_
 
 # macrosyntax = tout le monde partait //
 # sent_id = Rhap_D0003-17
@@ -10494,17 +10494,17 @@
 3	toujours	toujours	ADV	_	_	2	mod	_	_
 4	restés	rester	VERB	ETRE	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux	_	_
 5	à	à	ADP	_	_	4	comp:obl	_	_
-7	Paris	Paris	PROPN	_	_	5	comp:obj	_	_
-8	en	en	ADP	_	_	2	mod	_	_
-9	allant	aller	VERB	ETRE	Tense=Pres|VerbForm=Part	8	comp:obj	_	_
-10	fidèlement	fidèlement	ADV	_	_	9	mod	_	_
-11	en	en	ADP	_	_	9	comp:obl	_	_
-12	Bretagne	Bretagne	PROPN	_	_	11	comp:obj	_	_
-13	euh	euh	INTJ	_	_	12	discourse	_	_
-14	souvent	souvent	ADV	_	_	9	mod	_	_
-15	et	et	CCONJ	_	_	17	cc	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
-17	été	été	NOUN	_	Gender=Masc|Number=Sing	14	conj:coord	_	_
+6	Paris	Paris	PROPN	_	_	5	comp:obj	_	_
+7	en	en	ADP	_	_	2	mod	_	_
+8	allant	aller	VERB	ETRE	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
+9	fidèlement	fidèlement	ADV	_	_	8	mod	_	_
+10	en	en	ADP	_	_	8	comp:obl	_	_
+11	Bretagne	Bretagne	PROPN	_	_	10	comp:obj	_	_
+12	euh	euh	INTJ	_	_	11	discourse	_	_
+13	souvent	souvent	ADV	_	_	8	mod	_	_
+14	et	et	CCONJ	_	_	16	cc	_	_
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
+16	été	été	NOUN	_	Gender=Masc|Number=Sing	13	conj:coord	_	_
 
 # macrosyntax = donc < "euh" j' irais à pied "euh" en longeant { là | donc "euh" jusqu' au cinéma Nef Chavant } //
 # sent_id = Rhap_M0012-1
@@ -11248,72 +11248,72 @@
 # speaker = L1
 # sent_id = Rhap_D0002-39
 # text = dans le vingtième il faudrait qu' il y ait qu' on sépare enfin qu' il y ait des cours de français pour les petits enfants qui parlent pas français c' est pas compliqué quand même c' est pas très difficile d' apprendre le français à des petits enfants de cet âge -là ça ça ça se fait assez facilement dont les mamans ne parlent pas français
-1	dans	dans	ADP	_	_	6	discourse	_	_
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	vingtième	vingtième	NOUN	_	_	1	comp:obj	_	_
-5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
-6	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	qu'	que	SCONJ	_	_	6	comp:obj	_	_
-8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj@expl	_	_
-9	y	y	PRON	_	Person=3|PronType=Prs	10	comp:obl	_	_
-10	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
-11	qu'	que	SCONJ	_	_	10	conj:dicto	_	_
-12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	13	subj	_	_
-13	sépare	séparer	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
-14	enfin	enfin	ADV	_	_	13	discourse	_	_
-15	qu'	que	SCONJ	_	_	11	conj:dicto	_	_
-16	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	subj@expl	_	_
-17	y	y	PRON	_	Person=3|PronType=Prs	18	comp:obl	_	_
-18	ait	avoir	VERB	conj:reform	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
-19	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	_
-20	cours	cours	NOUN	_	_	18	comp:obl	_	_
-21	de	de	ADP	_	_	20	udep	_	_
-22	français	français	NOUN	_	Gender=Masc	21	comp:obj	_	_
-23	pour	pour	ADP	_	_	18	mod	_	_
-24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
-25	petits	petit	ADJ	_	Gender=Masc|Number=Plur	26	mod	_	_
-26	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
-27	qui	qui	PRON	_	_	28	subj	_	_
-28	parlent	parler	VERB	_	_	26	mod@relcl	_	_
-29	pas	pas	ADV	_	Polarity=Neg	28	mod	_	_
-30	français	français	ADJ	_	Gender=Masc	28	comp:obj	_	_
-31	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	32	subj	_	_
-32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	parataxis:parenth	_	_
-33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
-34	compliqué	compliquer	ADJ	_	_	32	comp:pred	_	_
-35	quand	quand	SCONJ	_	_	34	discourse	_	ExtPos=ADV|PhraseType=Idiom
-36	même	même	ADV	_	_	35	unk	_	InIdiom=Yes
-37	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	38	subj	_	_
-38	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	65	parataxis:parenth	_	_
-39	pas	pas	ADV	_	Polarity=Neg	38	mod	_	_
-40	très	très	ADV	_	_	41	mod	_	_
-41	difficile	difficile	ADJ	_	Number=Sing	38	comp:pred	_	_
-42	d'	de	ADP	_	_	38	mod	_	_
-43	apprendre	apprendre	VERB	_	VerbForm=Inf	42	comp:obj	_	_
-44	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	_
-45	français	français	NOUN	_	Gender=Masc	43	comp:obj	_	_
-46	à	à	ADP	_	_	43	comp:obl	_	_
-47	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	49	det	_	_
-48	petits	petit	ADJ	_	Gender=Masc|Number=Plur	49	mod	_	_
-49	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	46	comp:obj	_	_
-50	de	de	ADP	_	_	49	udep	_	_
-51	cet	ce	DET	_	_	52	det	_	_
-52	âge	âge	NOUN	_	Gender=Masc|Number=Sing	50	comp:obj	_	_
-53	-là	là	ADV	_	_	52	mod	_	_
-54	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	58	subj	_	_
+1	dans	dans	ADP	_	_	5	discourse	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	vingtième	vingtième	NOUN	_	_	1	comp:obj	_	_
+4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
+5	faudrait	falloir	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	qu'	que	SCONJ	_	_	5	comp:obj	_	_
+7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
+8	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
+9	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
+10	qu'	que	SCONJ	_	_	9	conj:dicto	_	_
+11	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	_
+12	sépare	séparer	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+13	enfin	enfin	ADV	_	_	12	discourse	_	_
+14	qu'	que	SCONJ	_	_	10	conj:dicto	_	_
+15	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	subj@expl	_	_
+16	y	y	PRON	_	Person=3|PronType=Prs	17	comp:obl	_	_
+17	ait	avoir	VERB	conj:reform	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
+18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	_
+19	cours	cours	NOUN	_	_	17	comp:obl	_	_
+20	de	de	ADP	_	_	19	udep	_	_
+21	français	français	NOUN	_	Gender=Masc	20	comp:obj	_	_
+22	pour	pour	ADP	_	_	17	mod	_	_
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+24	petits	petit	ADJ	_	Gender=Masc|Number=Plur	25	mod	_	_
+25	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	22	comp:obj	_	_
+26	qui	qui	PRON	_	_	27	subj	_	_
+27	parlent	parler	VERB	_	_	25	mod@relcl	_	_
+28	pas	pas	ADV	_	Polarity=Neg	27	mod	_	_
+29	français	français	ADJ	_	Gender=Masc	27	comp:obj	_	_
+30	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	_
+31	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	parataxis:parenth	_	_
+32	pas	pas	ADV	_	Polarity=Neg	31	mod	_	_
+33	compliqué	compliquer	ADJ	_	_	31	comp:pred	_	_
+34	quand	quand	SCONJ	_	_	33	discourse	_	ExtPos=ADV|PhraseType=Idiom
+35	même	même	ADV	_	_	34	unk	_	InIdiom=Yes
+36	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	37	subj	_	_
+37	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	64	parataxis:parenth	_	_
+38	pas	pas	ADV	_	Polarity=Neg	37	mod	_	_
+39	très	très	ADV	_	_	40	mod	_	_
+40	difficile	difficile	ADJ	_	Number=Sing	37	comp:pred	_	_
+41	d'	de	ADP	_	_	37	mod	_	_
+42	apprendre	apprendre	VERB	_	VerbForm=Inf	41	comp:obj	_	_
+43	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	44	det	_	_
+44	français	français	NOUN	_	Gender=Masc	42	comp:obj	_	_
+45	à	à	ADP	_	_	42	comp:obl	_	_
+46	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	48	det	_	_
+47	petits	petit	ADJ	_	Gender=Masc|Number=Plur	48	mod	_	_
+48	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	45	comp:obj	_	_
+49	de	de	ADP	_	_	48	udep	_	_
+50	cet	ce	DET	_	_	51	det	_	_
+51	âge	âge	NOUN	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
+52	-là	là	ADV	_	_	51	mod	_	_
+53	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	57	subj	_	_
+54	ça	ça	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Dem	53	conj:dicto	_	_
 55	ça	ça	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Dem	54	conj:dicto	_	_
-56	ça	ça	PRON	conj:reform	Gender=Masc|Number=Sing|Person=3|PronType=Dem	55	conj:dicto	_	_
-57	se	se	PRON	_	Person=3|PronType=Prs	58	comp	_	InIdiom=Yes
-58	fait	faire	VERB	_	_	65	parataxis:parenth	_	ExtPos=VERB|PhraseType=Idiom
-59	assez	assez	ADV	_	_	60	mod	_	_
-60	facilement	facilement	ADV	_	_	58	mod	_	_
-61	dont	dont	PRON	_	PronType=Rel	63	mod	_	_
-62	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	63	det	_	_
-63	mamans	maman	NOUN	_	_	65	subj	_	_
-64	ne	ne	ADV	_	Polarity=Neg	65	mod	_	_
-65	parlent	parler	VERB	_	_	28	conj:dicto	_	_
-66	pas	pas	ADV	_	Polarity=Neg	65	mod	_	_
-67	français	français	NOUN	_	Gender=Masc	65	comp:obj	_	_
+56	se	se	PRON	_	Person=3|PronType=Prs	57	comp	_	InIdiom=Yes
+57	fait	faire	VERB	_	_	64	parataxis:parenth	_	ExtPos=VERB|PhraseType=Idiom
+58	assez	assez	ADV	_	_	59	mod	_	_
+59	facilement	facilement	ADV	_	_	57	mod	_	_
+60	dont	dont	PRON	_	PronType=Rel	62	mod	_	_
+61	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	62	det	_	_
+62	mamans	maman	NOUN	_	_	64	subj	_	_
+63	ne	ne	ADV	_	Polarity=Neg	64	mod	_	_
+64	parlent	parler	VERB	_	_	27	conj:dicto	_	_
+65	pas	pas	ADV	_	Polarity=Neg	64	mod	_	_
+66	français	français	NOUN	_	Gender=Masc	64	comp:obj	_	_
 
 # macrosyntax = donc < ils ne voient pas souvent leur papa //
 # sent_id = Rhap_D0002-40
@@ -11331,14 +11331,14 @@
 # speaker = L1
 # sent_id = Rhap_D0002-41
 # text = donc par définition ils ne parlent pas français
-1	donc	donc	ADV	_	_	7	mod	_	_
-2	par	par	ADP	_	_	7	mod	_	_
+1	donc	donc	ADV	_	_	6	mod	_	_
+2	par	par	ADP	_	_	6	mod	_	_
 3	définition	définition	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
-5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	7	subj	_	_
-6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	_
-7	parlent	parler	VERB	_	Number=Plur|Person=3	0	root	_	_
-8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	_
-9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	_
+4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	_
+6	parlent	parler	VERB	_	Number=Plur|Person=3	0	root	_	_
+7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
+8	français	français	ADJ	_	Gender=Masc	6	comp:obj	_	_
 
 # macrosyntax = ils ne parlent jamais français //=
 # sent_id = Rhap_D0002-42
@@ -11454,36 +11454,36 @@
 # speaker = L1
 # sent_id = Rhap_D0002-48
 # text = parce que faut dire qu' apprendre à lire à écrire à quelqu'un de trente cinq ans qui a jamais tenu un crayon ça se fait pas en deux cents heures
-5	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
-6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
-7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-8	dire	dire	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
-9	qu'	que	SCONJ	_	_	8	comp:obj	_	_
-10	apprendre	apprendre	VERB	_	VerbForm=Inf	31	mod	_	_
-11	à	à	ADP	_	_	10	comp:obl@x	_	_
-12	lire	lire	VERB	_	VerbForm=Inf	11	comp:obj	_	_
-13	à	à	ADP	_	_	11	conj:coord	_	_
-14	écrire	écrire	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	à	à	ADP	_	_	10	comp:obl	_	_
-16	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	comp:obj	_	_
-17	de	de	ADP	_	_	16	comp:obl	_	_
-18	trente	trente	NUM	_	Number=Plur	20	det	_	_
-19	cinq	cinq	NUM	_	Number=Plur	18	flat	_	_
-20	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
-21	qui	qui	PRON	_	_	22	subj	_	_
-22	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-24	jamais	jamais	ADV	_	_	22	mod	_	_
-25	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	22	comp:aux	_	_
-26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
-27	crayon	crayon	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
-29	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	31	subj	_	_
-30	se	se	PRON	_	Person=3|PronType=Prs	31	comp	_	InIdiom=Yes
-31	fait	faire	VERB	_	_	9	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
-32	pas	pas	ADV	_	Polarity=Neg	31	mod	_	_
-33	en	en	ADP	_	_	31	mod	_	_
-34	deux	deux	NUM	_	Number=Plur	36	det	_	_
-35	cents	cents	NUM	_	Number=Plur	34	flat	_	_
-36	heures	heure	NOUN	_	Gender=Fem|Number=Plur	33	comp:obj	_	_
+1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|PhraseType=Idiom
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	_
+4	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+5	qu'	que	SCONJ	_	_	4	comp:obj	_	_
+6	apprendre	apprendre	VERB	_	VerbForm=Inf	25	mod	_	_
+7	à	à	ADP	_	_	6	comp:obl@x	_	_
+8	lire	lire	VERB	_	VerbForm=Inf	7	comp:obj	_	_
+9	à	à	ADP	_	_	7	conj:coord	_	_
+10	écrire	écrire	VERB	_	VerbForm=Inf	9	comp:obj	_	_
+11	à	à	ADP	_	_	6	comp:obl	_	_
+12	quelqu'un	quelqu'un	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	comp:obj	_	_
+13	de	de	ADP	_	_	12	comp:obl	_	_
+14	trente	trente	NUM	_	Number=Plur	16	det	_	_
+15	cinq	cinq	NUM	_	Number=Plur	14	flat	_	_
+16	ans	an	NOUN	_	Gender=Masc|Number=Plur	13	comp:obj	_	_
+17	qui	qui	PRON	_	_	18	subj	_	_
+18	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	_
+19	jamais	jamais	ADV	_	_	18	mod	_	_
+20	tenu	tenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux	_	_
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
+22	crayon	crayon	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
+23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	subj	_	_
+24	se	se	PRON	_	Person=3|PronType=Prs	25	comp	_	InIdiom=Yes
+25	fait	faire	VERB	_	_	5	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
+26	pas	pas	ADV	_	Polarity=Neg	25	mod	_	_
+27	en	en	ADP	_	_	25	mod	_	_
+28	deux	deux	NUM	_	Number=Plur	30	det	_	_
+29	cents	cents	NUM	_	Number=Plur	28	flat	_	_
+30	heures	heure	NOUN	_	Gender=Fem|Number=Plur	27	comp:obj	_	_
 
 # macrosyntax = $L3 bien sûr //
 # sent_id = Rhap_D0002-49
@@ -11556,18 +11556,18 @@
 # speaker = L1
 # sent_id = Rhap_D0002-55
 # text = bon donc par définition cet enfant va perdre pied en en CP
-2	bon	bon	INTJ	_	_	8	discourse	_	_
-3	donc	donc	ADV	_	_	8	mod	_	_
-4	par	par	ADP	_	_	8	mod	_	_
-5	définition	définition	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
-6	cet	ce	DET	_	_	7	det	_	_
-7	enfant	enfant	NOUN	_	_	8	subj	_	_
-8	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	perdre	perdre	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
-10	pied	pied	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
-11	en	en	ADP	_	_	9	mod	_	_
-12	en	en	ADP	conj:reform	_	11	comp:obj	_	_
-13	CP	CP	PROPN	_	_	12	comp:obj	_	_
+1	bon	bon	INTJ	_	_	7	discourse	_	_
+2	donc	donc	ADV	_	_	7	mod	_	_
+3	par	par	ADP	_	_	7	mod	_	_
+4	définition	définition	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
+5	cet	ce	DET	_	_	6	det	_	_
+6	enfant	enfant	NOUN	_	_	7	subj	_	_
+7	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	perdre	perdre	VERB	_	VerbForm=Inf	7	comp:obj@x	_	_
+9	pied	pied	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+10	en	en	ADP	_	_	8	mod	_	_
+11	en	en	ADP	conj:reform	_	10	comp:obj	_	_
+12	CP	CP	PROPN	_	_	11	comp:obj	_	_
 
 # macrosyntax = { ^et ^puis | ^et ^puis } voilà //
 # sent_id = Rhap_D0002-56
@@ -11582,18 +11582,18 @@
 # speaker = L1
 # sent_id = Rhap_D0002-57
 # text = alors bien sûr qu' il y en a qui s' en sortent
-1	alors	alors	ADV	_	_	3	mod	_	_
-3	bien	bien	ADV	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
-4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
-5	qu'	que	SCONJ	_	_	3	mod	_	_
-6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	subj@expl	_	_
-7	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
-8	en	en	ADP	_	_	9	comp:obj	_	_
-9	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	_
-10	qui	qui	PRON	_	_	13	subj	_	_
-11	s'	se	PRON	_	Person=3|PronType=Prs	13	comp	_	InIdiom=Yes
-12	en	en	PRON	_	Person=3|PronType=Prs	13	comp:obj	_	_
-13	sortent	sortir	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
+1	alors	alors	ADV	_	_	2	mod	_	_
+2	bien	bien	ADV	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
+3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	unk	_	InIdiom=Yes
+4	qu'	que	SCONJ	_	_	2	mod	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj@expl	_	_
+6	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obl	_	_
+7	en	en	ADP	_	_	8	comp:obj	_	_
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
+9	qui	qui	PRON	_	_	12	subj	_	_
+10	s'	se	PRON	_	Person=3|PronType=Prs	12	comp	_	InIdiom=Yes
+11	en	en	PRON	_	Person=3|PronType=Prs	12	comp:obj	_	_
+12	sortent	sortir	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 
 # macrosyntax = il y a toujours des gens très intelligents quelque part //
 # sent_id = Rhap_D0002-58
@@ -11646,11 +11646,11 @@
 # speaker = L1
 # sent_id = Rhap_D0002-62
 # text = globalement c' est très difficile
-2	globalement	globalement	ADV	_	_	4	mod	_	_
-3	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
-4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	très	très	ADV	_	_	6	mod	_	_
-6	difficile	difficile	ADJ	_	Number=Sing	4	comp:pred	_	_
+1	globalement	globalement	ADV	_	_	3	mod	_	_
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	très	très	ADV	_	_	5	mod	_	_
+5	difficile	difficile	ADJ	_	Number=Sing	3	comp:pred	_	_
 
 # macrosyntax = "euh" { quand on prend des enfants d'immigrés | ^et qu'on les mélange avec "euh" $- soixante pour cent de gamins ( $L1 "bah" "oui" ils réussissent // ) -$ qui parlent français } <
 # speaker = L2
@@ -11676,9 +11676,9 @@
 18	cent	cent	NUM	_	Number=Plur	17	comp:obj	_	InIdiom=Yes
 19	de	de	ADP	_	_	17	comp:obj	_	_
 20	gamins	gamin	NOUN	_	_	19	comp:obj	_	_
-25	qui	qui	PRON	_	_	26	subj	_	_
-26	parlent	parler	VERB	_	_	20	mod@relcl	_	_
-27	français	français	NOUN	_	Gender=Masc	26	comp:obj	_	_
+21	qui	qui	PRON	_	_	22	subj	_	_
+22	parlent	parler	VERB	_	_	20	mod@relcl	_	_
+23	français	français	NOUN	_	Gender=Masc	22	comp:obj	_	_
 
 # macrosyntax = "bah" "oui" ils réussissent //
 # speaker = L1
@@ -11776,26 +11776,26 @@
 # speaker = L2
 # sent_id = Rhap_D0002-67bis
 # text = donc c' est pour ça que je parlais de mélange euh
-4	donc	donc	ADV	_	_	6	discourse	_	_
-5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj@expl	_	_
-6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	pour	pour	ADP	_	_	6	comp:pred	_	_
-8	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	comp:obj	_	_
-13	que	que	SCONJ	_	_	6	comp:cleft	_	_
-14	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	15	subj	_	_
-15	parlais	parler	VERB	_	Number=Sing|Person=1	13	comp:obj	_	_
-18	de	de	ADP	_	_	15	comp:obl	_	_
-19	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
-20	euh	euh	INTJ	_	_	19	discourse	_	_
+1	donc	donc	ADV	_	_	3	discourse	_	_
+2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj@expl	_	_
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pour	pour	ADP	_	_	3	comp:pred	_	_
+5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
+6	que	que	SCONJ	_	_	3	comp:cleft	_	_
+7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
+8	parlais	parler	VERB	_	Number=Sing|Person=1	6	comp:obj	_	_
+9	de	de	ADP	_	_	8	comp:obl	_	_
+10	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	9	comp:obj	_	_
+11	euh	euh	INTJ	_	_	10	discourse	_	_
 
 # macrosyntax = { bien sûr | bien sûr } //
 # speaker = L1
 # sent_id = Rhap_D0002-67ter
 # text = bien sûr bien sûr
-9	bien	bien	ADV	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
-10	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	9	unk	_	InIdiom=Yes
-11	bien	bien	ADV	_	_	9	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
-12	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	11	unk	_	InIdiom=Yes
+1	bien	bien	ADV	_	_	0	root	_	ExtPos=ADV|PhraseType=Idiom
+2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	1	unk	_	InIdiom=Yes
+3	bien	bien	ADV	_	_	1	conj:dicto	_	ExtPos=ADV|PhraseType=Idiom
+4	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	unk	_	InIdiom=Yes
 
 # macrosyntax = ^mais je pense que vous avez raison // )
 # sent_id = Rhap_D0002-68
@@ -11831,19 +11831,19 @@
 # speaker = L1
 # sent_id = Rhap_D0002-71
 # text = mais si vous voulez le mélange est est difficile quand ils sont petits
-1	mais	mais	CCONJ	_	_	8	cc	_	_
-3	si	si	SCONJ	_	_	8	discourse	_	_
-4	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	_
-5	voulez	vouloir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
-6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
-7	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
-8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj:dicto	_	_
-10	difficile	difficile	ADJ	conj:reform	Number=Sing	9	comp:pred	_	_
-12	quand	quand	SCONJ	_	_	9	mod	_	_
-13	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	14	subj	_	_
-14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp:obj	_	_
-15	petits	petit	ADJ	_	Gender=Masc|Number=Plur	14	comp:pred	_	_mp:pred
+1	mais	mais	CCONJ	_	_	7	cc	_	_
+2	si	si	SCONJ	_	_	7	discourse	_	_
+3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
+4	voulez	vouloir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp:obj	_	_
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
+6	mélange	mélange	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
+9	difficile	difficile	ADJ	conj:reform	Number=Sing	8	comp:pred	_	_
+10	quand	quand	SCONJ	_	_	8	mod	_	_
+11	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	12	subj	_	_
+12	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	comp:obj	_	_
+13	petits	petit	ADJ	_	Gender=Masc|Number=Plur	12	comp:pred	_	_
 
 # macrosyntax = ^parce ^que $- { quand ils sont petits  "ben" "euh" ESPERLUETTE //+
 # speaker = L1
@@ -11862,17 +11862,17 @@
 # speaker = L2
 # sent_id = Rhap_D0002-72bis
 # text = quand il faut les emmener et que c' est pas facile
-9	quand	quand	SCONJ	_	_	11	mod	_	_
-10	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	subj	_	_
-11	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-12	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	13	comp:obj	_	_
-13	emmener	emmener	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
-14	et	et	CCONJ	_	_	15	cc	_	_
-15	que	que	SCONJ	_	_	9	conj:coord	_	_
-16	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	17	subj	_	_
-17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp:obj	_	_
-18	pas	pas	ADV	_	Polarity=Neg	17	mod	_	_
-19	facile	facile	ADJ	_	Number=Sing	17	comp:pred	_	_
+1	quand	quand	SCONJ	_	_	3	mod	_	_
+2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	5	comp:obj	_	_
+5	emmener	emmener	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
+6	et	et	CCONJ	_	_	7	cc	_	_
+7	que	que	SCONJ	_	_	1	conj:coord	_	_
+8	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp:obj	_	_
+10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
+11	facile	facile	ADJ	_	Number=Sing	9	comp:pred	_	_
 
 # macrosyntax = "oui" je crois que c'est pas ( $L2 mh mh // ) tellement bon d'emmener un petit enfant de { trois | quatre } ans "euh" ( $L3 mh // ) "peuh" "vous voyez" en bus "euh" un peu plus loin //
 # speaker = L1
@@ -11885,28 +11885,28 @@
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
-10	tellement	tellement	ADV	_	_	6	mod	_	_
-11	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-12	d'	de	ADP	_	_	6	mod	_	_
-13	emmener	emmener	VERB	_	VerbForm=Inf	12	comp:obj	_	_
-14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	_
-15	petit	petit	ADJ	_	Gender=Masc|Number=Sing	16	mod	_	_
-16	enfant	enfant	NOUN	_	_	13	comp:obj	_	_
-17	de	de	ADP	_	_	16	udep	_	_
-18	trois	trois	NUM	_	Number=Plur	20	det	_	_
-19	quatre	quatre	NUM	_	Number=Plur	18	flat	_	_
-20	ans	an	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
-21	euh	euh	INTJ	_	_	20	discourse	_	_
-23	peuh	peuh	INTJ	_	_	20	discourse	_	_
-24	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	25	subj	_	_
-25	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	discourse	_	_
-26	en	en	ADP	_	_	13	mod	_	_
-27	bus	bus	NOUN	_	Gender=Masc	26	comp:obj	_	_
-28	euh	euh	INTJ	_	_	27	discourse	_	_
-29	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	InIdiom=Yes
-30	peu	peu	NOUN	_	_	31	mod	_	ExtPos=ADV|PhraseType=Idiom
-31	plus	plus	ADV	_	_	32	mod	_	_
-32	loin	loin	ADV	_	_	13	comp:obl	_	_
+8	tellement	tellement	ADV	_	_	6	mod	_	_
+9	bon	bon	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
+10	d'	de	ADP	_	_	6	mod	_	_
+11	emmener	emmener	VERB	_	VerbForm=Inf	10	comp:obj	_	_
+12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	_
+13	petit	petit	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
+14	enfant	enfant	NOUN	_	_	11	comp:obj	_	_
+15	de	de	ADP	_	_	14	udep	_	_
+16	trois	trois	NUM	_	Number=Plur	18	det	_	_
+17	quatre	quatre	NUM	_	Number=Plur	16	flat	_	_
+18	ans	an	NOUN	_	Gender=Masc|Number=Plur	15	comp:obj	_	_
+19	euh	euh	INTJ	_	_	18	discourse	_	_
+20	peuh	peuh	INTJ	_	_	18	discourse	_	_
+21	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	22	subj	_	_
+22	voyez	voir	VERB	DISCOURSE	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	discourse	_	_
+23	en	en	ADP	_	_	11	mod	_	_
+24	bus	bus	NOUN	_	Gender=Masc	23	comp:obj	_	_
+25	euh	euh	INTJ	_	_	24	discourse	_	_
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	InIdiom=Yes
+27	peu	peu	NOUN	_	_	28	mod	_	ExtPos=ADV|PhraseType=Idiom
+28	plus	plus	ADV	_	_	29	mod	_	_
+29	loin	loin	ADV	_	_	11	comp:obl	_	_
 
 # macrosyntax = ^parce ^que déjà < c'est ESPERLUETTE //
 # sent_id = Rhap_D0002-74
@@ -11939,15 +11939,15 @@
 # speaker = L1
 # sent_id = Rhap_D0002-76
 # text = et puis il faudra que les parents l' acceptent
-2	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|PhraseType=Idiom
-3	puis	puis	CCONJ	_	_	2	unk	_	InIdiom=Yes
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-5	faudra	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
-6	que	que	SCONJ	_	_	5	comp:obj	_	_
-7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	parents	parent	NOUN	_	Gender=Masc|Number=Plur	10	subj	_	_
-9	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
-10	acceptent	accepter	VERB	_	_	6	comp:obj	_	_
+1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|PhraseType=Idiom
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
+3	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
+4	faudra	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+5	que	que	SCONJ	_	_	4	comp:obj	_	_
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	parents	parent	NOUN	_	Gender=Masc|Number=Plur	9	subj	_	_
+8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	9	comp:obj	_	_
+9	acceptent	accepter	VERB	_	_	5	comp:obj	_	_
 
 # macrosyntax = ^parce ^que les mamans africaines < elles ont beaucoup de mal à se séparer de leurs petits //=
 # sent_id = Rhap_D0002-77
@@ -11973,12 +11973,12 @@
 # speaker = L1
 # sent_id = Rhap_D0002-78
 # text = elles le font pas très volontiers
-2	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	4	subj	_	_
-3	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	comp:obj	_	_
-4	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-6	très	très	ADV	_	_	7	mod	_	_
-7	volontiers	volontiers	ADV	_	_	4	mod	_	_
+1	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	subj	_	_
+2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
+3	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
+5	très	très	ADV	_	_	6	mod	_	_
+6	volontiers	volontiers	ADV	_	_	3	mod	_	_
 
 # macrosyntax = donc < si ( en plus ) on leur explique que "euh" ça veut dire que l'enfant restera déjeuner là-bas <+ les mamans africaines < elles veulent pas //= $-
 # sent_id = Rhap_D0002-79
@@ -12012,9 +12012,9 @@
 # speaker = L1
 # sent_id = Rhap_D0002-80
 # text = elles veulent pas
-5	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
-6	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	_
+1	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	2	subj	_	_
+2	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 
 # macrosyntax = donc < "euh" il y a une jeune fille habillée tout en noir qui "euh" (+ en se baladant dans la rue ) a vu une vitrine de pâtissier-boulanger //
 # sent_id = Rhap_M0002-1
