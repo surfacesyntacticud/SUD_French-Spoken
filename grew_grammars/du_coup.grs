@@ -1,0 +1,16 @@
+package du_coup {
+
+  rule one {
+    pattern { N1 [form="de"]; N2 [form="le"]; N3 [form="coup"]; N1 < N2 ; N2 < N3 ; e : H -[mod]-> N1 }
+    commands { del_edge e; add_edge H-[discourse]->N1}
+}
+
+  rule two {
+    pattern { N1 [form="de"]; N2 [form="le"]; N3 [form="coup"]; N1 < N2 ; N2 < N3 ; e : H -[cc]-> N1 }
+    commands { del_edge e; add_edge H-[discourse]->N1}
+}
+
+}
+
+
+strat main {Seq (Onf (du_coup))}

@@ -1,0 +1,19 @@
+package scrap {
+
+% dans la phrase "Je veux du pain"
+% "du" est analysé : de-[comp:obj]->pain, pain-[det]->le
+
+% cette grammaire sert à corriger les cas des phrases infinies comme "Je veux du..."  
+% il n'y a pas de substantif, alors nous lions de->le avec une relation comp:obj@scrap 
+
+  rule det_scrap {
+    pattern { GOV[lemma=de] ; DEP[upos=DET] ; e: GOV-[comp:obj]->DEP }
+    commands { e.deep=scrap }
+    }
+    }
+
+strat main {
+  Seq (
+    Onf (scrap)
+  )
+}

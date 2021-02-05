@@ -1,0 +1,21 @@
+package pron_trait {
+
+% correction de quelques traits morphologiques
+
+	rule vous_pers {
+		pattern { X[form=vous|Vous, Person=3]}
+		commands {X.Person=2}
+	}
+	rule vous_num {
+		pattern { X[form=vous|Vous]}
+		without { X[Number] }
+		commands {X.Number=Plur }
+	}
+
+}
+
+strat main {
+  Seq (
+    Onf (pron_trait)
+  )
+}

@@ -1,0 +1,14 @@
+rule head_mwe {
+
+% verbes pronominaux comme 'se montrer', le verbe M sera noté avec PhraseType égal à Idiom et le ExtPos sera VERB
+
+  pattern { M -> N; N[_MISC_InIdiom=Yes, upos=PRON]; M[upos=VERB] }
+    without { M[_MISC_InIdiom=Yes] }
+    without { M[_MISC_ExtPos] }
+    without { M[_MISC_PhraseType]}
+  commands {
+    M._MISC_ExtPos = VERB;
+    M._MISC_PhraseType = Idiom }
+  }
+
+strat main { Onf (head_mwe) }

@@ -1,0 +1,24 @@
+package tete {
+
+% analyse des idioms tel que "alors que" : ADV+que où que est analysé avec le trait InIdiom
+% analyse souhaitée = ExtPos=SCONJ
+
+	rule bien {
+		pattern { e: M -> N; N[_MISC_InIdiom=Yes];  M[upos=ADV] ; N[lemma=que] }
+		without { M[_MISC_InIdiom=Yes]; }
+		without { M[_MISC_ExtPos]; }
+
+		commands {
+		M._MISC_PhraseType = Idiom;
+		M._MISC_ExtPos = SCONJ;
+
+			 }
+	}
+}
+
+
+strat main {
+  Seq (
+    Onf (tete)
+  )
+}

@@ -1,0 +1,28 @@
+package un_peu {
+
+% "un peu" doit être analysé peu->un avec PhraseType=Idiom et ExtPos=ADV
+
+rule one {
+	pattern { A[form=un];B[form=peu, upos<>NOUN];A<B; e:B->A }
+	commands { B.upos=NOUN }
+}
+
+rule two{
+	pattern { A[form=un];B[form=peu, upos=NOUN];A<B; e:B->A }
+	without {B[_MISC_PhraseType=Idiom]}
+	commands {B._MISC_PhraseType=Idiom}
+}
+
+rule three{
+	pattern { A[form=un];B[form=peu, upos=NOUN];A<B; e:B->A }
+	without {B[_MISC_ExtPos=ADV]}
+	commands {B._MISC_ExtPos=ADV}
+}
+
+}
+
+strat main {
+  Seq (
+    Onf (un_peu)
+  )
+}

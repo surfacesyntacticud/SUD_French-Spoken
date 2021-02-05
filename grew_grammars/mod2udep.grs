@@ -1,0 +1,14 @@
+package udep {
+
+% tous les dépendants des substantifs qui étaient analysés comme mod deviennent des udep
+
+  rule one {
+    pattern { e : GOV -[mod]-> DEP ; GOV[upos=NOUN]; DEP[upos=ADP, !ExtPos] }
+    commands {  del_edge e ; add_edge GOV-[udep]->DEP }
+    }}
+
+strat main {
+  Seq (
+    Onf (udep)
+  )
+}

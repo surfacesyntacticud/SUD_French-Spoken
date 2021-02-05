@@ -1,0 +1,21 @@
+package en_fait {
+
+  rule one {
+    pattern { N1 [form="en"]; N2 [form="fait"]; N1 < N2 ; e : H -[mod]-> N1 ; N1 -> N2 }
+    commands { del_edge e; add_edge H-[discourse]->N1}
+}
+
+  rule two {
+    pattern { N1 [form="en"]; N2 [form="fait"]; N1 < N2 ; e : H -[cc]-> N1 ; N1 -> N2 }
+    commands { del_edge e; add_edge H-[discourse]->N1}
+}
+
+  rule three {
+    pattern { N1 [form="en"]; N2 [form="fait"]; N1 < N2 ; e : H -[comp:obj]-> N1 ; N1 -> N2 }
+    commands { del_edge e; add_edge H-[discourse]->N1}
+}
+
+}
+
+
+strat main {Seq (Onf (en_fait))}

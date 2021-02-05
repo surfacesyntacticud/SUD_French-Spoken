@@ -1,0 +1,46 @@
+package pron_lemme {
+
+% correction du lemme des pronoms selon la position syntaxique (selon le cas grammatical)
+% nous considérons comme lemme la forme au singulier masculin dans le cas grammatical correspondant
+
+% pour les sujets, le lemme = il
+% pour les compléments d'objet directes, le lemme = le
+% pour les compléments d'objet indirectes, le lemme = lui
+
+
+	rule pron_obj {
+		pattern{ X[upos=PRON, form=nous|vous|elle|Nous|Vous|Elle] ; V[upos=VERB|AUX]; e:V-[comp:obj]->X }
+		without{ X[lemma=le] }
+		commands {X.lemma=le}
+		}
+
+	rule pron_obl {
+		pattern{ X[upos=PRON, form=nous|vous|elle|Nous|Vous|Elle] ; V[upos=VERB|AUX]; e:V-[comp:obl]->X }
+		without{ X[lemma=lui] }
+		commands {X.lemma=lui}
+		}
+
+	rule pron_subj {
+		pattern{ X[upos=PRON, form=nous|vous|elle|Nous|Vous|Elle] ; V[upos=VERB|AUX]; e:V-[subj]->X }
+		without{ X[lemma=il] }
+		commands {X.lemma=il}
+		}
+
+	rule me-te_obj {
+	pattern{ X[form=me|Me|te|Te|m'|M'|t'|T'] ; V[upos=VERB|AUX]; e:V-[comp:obj]->X }
+	without{ X[lemma=le]}
+	commands{ X.lemma=le}
+	}
+
+	rule me-te_obl {
+	pattern{ X[form=me|Me|te|Te|T'|t'|m'|M'] ; V[upos=VERB|AUX]; e:V-[comp:obl]->X }
+	without{ X[lemma=lui]}
+	commands{ X.lemma=lui}
+	}
+}
+
+strat main {
+  Seq (
+    Onf (pron_lemme)
+  )
+}

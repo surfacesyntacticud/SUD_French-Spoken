@@ -1,0 +1,42 @@
+package accord {
+
+% correction de l'accord entre pronom et verbe/auxiliaire---
+
+	rule je {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Je|je|j'|J']; e: GOV-[subj]->DEP }
+		without { GOV [Person=1 , Number=Sing] }	
+		commands { GOV.Person=1; GOV.Number=Sing }
+    }
+    rule tu {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Tu|tu|t'|T']; e: GOV-[subj]->DEP }
+		without { GOV [Person=2,Number=Sing] }
+		commands { GOV.Person=2; GOV.Number=Sing }
+    }
+    rule il_elle {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Il|il|Elle|elle]; e: GOV-[subj]->DEP }
+		without { GOV [Person=3, Number=Sing] }
+		commands { GOV.Person=3; GOV.Number=Sing }
+    }
+    rule nous {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Nous|nous]; e: GOV-[subj]->DEP }
+		without { GOV [Person=1,Number=Plur] }
+		commands { GOV.Person=1; GOV.Number=Plur }
+    }
+    rule vous {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Vous|vous]; e: GOV-[subj]->DEP }
+		without { GOV [Person=2 , Number=Plur] }
+		commands { GOV.Person=2; GOV.Number=Plur }
+    }
+    rule ils_elles {
+		pattern { GOV[upos=VERB|AUX]; DEP[form=Ils|ils|Elles|elles]; e: GOV-[subj]->DEP }
+		without { GOV [Person=3 , Number=Plur] }
+		commands { GOV.Person=3; GOV.Number=Plur }
+    }
+
+    }
+
+strat main {
+  Seq (
+    Onf (accord)
+  )
+}
