@@ -18971,7 +18971,7 @@
 # sent_id = Rhap_D0004-67
 # text = donc euh et et ça ce sont des jeunes qui sont vraiment génération image
 1	donc	donc	ADV	_	_	8	mod	_	_
-3	euh	euh	INTJ	_	_	2	discourse	_	_
+3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	et	et	CCONJ	_	_	8	cc	_	_
 5	et	et	CCONJ	conj:reform	_	4	conj:dicto	_	_
 6	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	dislocated	_	_
