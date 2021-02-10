@@ -298,7 +298,7 @@
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	InIdiom=Yes
 7	peu	peu	NOUN	_	_	4	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	de	de	ADP	_	_	4	comp:obl	_	_
-9	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
+9	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
 10	petit	petit	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
 11	cocon	cocon	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12-13	du	_	_	_	_	_	_	_	_
@@ -373,7 +373,7 @@
 24	parce	parce	SCONJ	_	_	17	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 25	que	que	SCONJ	_	_	24	unk	_	InIdiom=Yes
 26	euh	euh	INTJ	_	_	29	discourse	_	_
-27	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	28	det	_	_
+27	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	28	det	_	_
 28	parents	parent	NOUN	_	Gender=Masc|Number=Plur	29	subj	_	_
 29	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	comp:obj	_	_
 30	divorcés	divorcé	ADJ	_	_	29	comp:pred	_	_
@@ -557,7 +557,7 @@
 3	viens	venir	VERB	_	Number=Sing|Person=1	0	root	_	_
 4	de	de	ADP	_	_	3	comp:obl@x	_	_
 5	faire	faire	VERB	_	VerbForm=Inf	4	comp:obj	_	_
-6	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	8	det	_	_
+6	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
 7	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	6	conj:dicto	_	_
 8	vaccins	vaccin	NOUN	_	_	5	comp:obj	_	_
 9	par	par	ADP	_	_	3	mod	_	_
@@ -644,7 +644,7 @@
 17	peu	peu	NOUN	_	_	18	mod	_	ExtPos=ADV|PhraseType=Idiom
 18	sorti	sortir	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	15	comp:aux	_	_
 19	de	de	ADP	_	_	18	comp:obl	_	_
-20	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	22	det	_	_
+20	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	22	det	_	_
 21	petit	petit	ADJ	_	Gender=Masc|Number=Sing	22	mod	_	_
 22	cocon	cocon	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 23	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	25	subj	_	_
@@ -1078,8 +1078,8 @@
 # macrosyntax = $L2 { votre | vos } camarades sont à peu près sur la même longueur d'ondes //
 # sent_id = Rhap_D0006-54
 # text = votre vos camarades sont à peu près sur la même longueur d' ondes
-1	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	3	det	_	_
-2	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	1	conj:dicto	_	_
+1	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	3	det	_	_
+2	vos	son	DET	_	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	1	conj:dicto	_	_
 3	camarades	camarade	NOUN	_	Gender=Masc|Number=Plur	4	subj	_	_
 4	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|PhraseType=Idiom
@@ -1724,7 +1724,7 @@
 12	important	important	ADJ	conj:reform	Gender=Masc|Number=Sing	10	comp:pred	_	_
 13	d'	de	ADP	_	_	10	mod	_	_
 14	avoir	avoir	VERB	_	VerbForm=Inf	13	comp:obj	_	_
-15	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	16	det	_	_
+15	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
 16	idéaux	idéal	NOUN	_	_	14	comp:obj	_	_
 
 # macrosyntax = ^mais faut aussi être réaliste //
@@ -1765,7 +1765,7 @@
 5	vous	lui	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	4	conj:dicto	_	_
 6	poser	poser	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 7	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
-8	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	9	det	_	_
+8	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
 9	questions	question	NOUN	_	Gender=Fem|Number=Plur	6	comp:obj	_	_
 10	sur	sur	ADP	_	_	9	udep	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
@@ -1888,13 +1888,13 @@
 17	qui	qui	PRON	conj:reform	_	19	subj	_	_
 18	qui	qui	PRON	conj:reform	_	17	conj:dicto	_	_
 19	prennent	prendre	VERB	_	_	16	conj:coord	_	_
-20	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	21	det	_	_
+20	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	21	det	_	_
 21	chien	chien	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 22	qui	qui	PRON	_	_	24	subj@caus	_	_
 23	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	25	comp:obj	_	_
 24	font	faire	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	conj:coord	_	_
 25	faire	faire	VERB	CAUSATIVE	VerbForm=Inf	24	comp:aux@caus	_	_
-26	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	27	det	_	_
+26	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	27	det	_	_
 27	besoin	besoin	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	dans	dans	ADP	_	_	24	mod	_	_
 29	dans	dans	ADP	conj:reform	_	28	conj:dicto	_	_
@@ -2022,7 +2022,7 @@
 8	en	en	ADP	_	_	2	mod	_	_
 9	direct	direct	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 10	avec	avec	ADP	_	_	2	mod	_	_
-11	notre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	12	det	_	_
+11	notre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=1|PronType=Prs	12	det	_	_
 12	envoyé	envoyé	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 13	spécial	spécial	ADJ	_	Gender=Masc|Number=Sing	12	mod	_	_
 14	Sébastien	Sébastien	PROPN	_	_	12	mod@appos	_	_
@@ -2593,7 +2593,7 @@
 16	demain	demain	ADV	_	_	15	mod	_	_
 17	lors	lors	ADV	_	_	15	mod	_	_
 18	de	de	ADP	_	_	17	comp:obl	_	_
-19	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
+19	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	20	det	_	_
 20	rencontre	rencontre	NOUN	_	Gender=Fem|Number=Sing	18	comp:obj	_	_
 21	à	à	ADP	_	_	20	udep	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
@@ -2726,7 +2726,7 @@
 5	Obama	Obama	PROPN	_	_	4	flat	_	_
 6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	promulgué	promulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
-8	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	9	det	_	_
+8	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	det	_	_
 9	plan	plan	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	relance	relance	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -2799,7 +2799,7 @@
 11	de	de	ADP	_	_	10	comp:obl	_	_
 12	pouvoir	pouvoir	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
 13	payer	payer	VERB	_	VerbForm=Inf	12	comp:obj@x	_	_
-14	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	15	det	_	_
+14	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	15	det	_	_
 15	crédit	crédit	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
 
 # macrosyntax = une rallonge à venir ( également ) dans le secteur automobile //
@@ -2825,7 +2825,7 @@
 5	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	présenté	présenter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	hier	hier	ADV	_	_	5	mod	_	_
-8	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	9	det	_	_
+8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	9	det	_	_
 9	plan	plan	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 10	de	de	ADP	_	_	9	udep	_	_
 11	restructuration	restructuration	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
@@ -3007,7 +3007,7 @@
 18	se	se	PRON	_	Person=3|PronType=Prs	19	comp	_	InIdiom=Yes
 19	prononce	prononcer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 20	sur	sur	ADP	_	_	19	comp:obl	_	_
-21	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	22	det	_	_
+21	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	22	det	_	_
 22	demande	demande	NOUN	_	Gender=Fem|Number=Sing	20	comp:obj	_	_
 23	de	de	ADP	_	_	22	udep	_	_
 24	supplément	supplément	NOUN	_	_	23	comp:obj	_	_
@@ -3025,7 +3025,7 @@
 6	qu'	que	SCONJ	_	_	5	comp:obj	_	_
 7	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	subj	_	_
 8	rendrait	rendre	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
-9	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	10	det	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
 10	décision	décision	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	dans	dans	ADP	_	_	8	mod	_	_
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
@@ -3240,7 +3240,7 @@
 6	de	de	ADP	_	_	5	udep	_	_
 7	relégation	relégation	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj	_	_
 8	après	après	ADP	_	_	2	mod	_	_
-9	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	10	det	_	_
+9	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
 10	victoire	victoire	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	sur	sur	ADP	_	_	10	udep	_	_
 12	Caen	Caen	PROPN	_	_	11	comp:obj	_	_
@@ -3404,7 +3404,7 @@
 23	énormément	énormément	ADV	_	_	24	mod	_	_
 24	déménager	déménager	VERB	_	_	22	comp:obj	_	_
 25	avec	avec	ADP	_	_	24	mod	_	_
-26	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	27	det	_	_
+26	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	27	det	_	_
 27	famille	famille	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	_
 
 # macrosyntax = { ^et "euh" | ^et } quand j'étais petite <+ j'ai vraiment mal vécu le fait qu'on déménage tout le temps //
@@ -3443,7 +3443,7 @@
 7	neuf	neuf	NUM	_	Number=Plur	8	det	_	_
 8	fois	fois	NOUN	_	_	4	mod	_	_
 9	dans	dans	ADP	_	_	4	mod	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
 11	vie	vie	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 
 # macrosyntax = { ^et "euh" | ^et } donc < à chaque fois <+ { je | on } changeait d'école //
@@ -3547,7 +3547,7 @@
 # text = enfin toute ma famille est portugaise
 1	enfin	enfin	ADV	_	_	5	discourse	_	_
 2	toute	tout	ADJ	_	Gender=Fem|Number=Sing	4	mod	_	_
-3	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	4	det	_	_
+3	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
 4	famille	famille	NOUN	_	Gender=Fem|Number=Sing	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	portugaise	portugais	ADJ	_	Gender=Fem|Number=Sing	5	comp:pred	_	_
@@ -3925,7 +3925,7 @@
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	retrouvé	retrouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
-5	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	6	det	_	_
+5	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
 6	origines	origine	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 7	quand	quand	SCONJ	_	_	3	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	même	même	ADV	_	_	7	unk	_	InIdiom=Yes
@@ -4301,8 +4301,8 @@
 # text = on a nos nos chaises qui ont besoin de refaire
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	nos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	5	det	_	_
-4	nos	son	DET	conj:reform	Number=Plur|Person=3|PossNumber=Plur|PossPerson=1|PronType=Prs	3	conj:dicto	_	_
+3	nos	son	DET	_	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=1|PronType=Prs	5	det	_	_
+4	nos	son	DET	conj:reform	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=1|PronType=Prs	3	conj:dicto	_	_
 5	chaises	chaise	NOUN	_	_	2	comp:obj	_	_
 6	qui	qui	PRON	_	_	7	subj	_	_
 7	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
@@ -4903,7 +4903,7 @@
 18	été	être	AUX	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	16	comp:aux	_	_
 19	appelé	appeler	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	18	comp:aux@pass	_	_
 20	par	par	ADP	_	_	16	mod	_	_
-21	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	22	det	_	_
+21	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	22	det	_	_
 22	parents	parent	NOUN	_	Gender=Masc|Number=Plur	20	comp:obj	_	_
 23	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
 24	crapaud	crapaud	NOUN	_	Gender=Masc|Number=Sing	23	compound	_	_
@@ -5719,7 +5719,7 @@
 # speaker = L2
 # sent_id = Rhap_D0009-112
 # text = mon tissu là de coussins est quand même euh foncé rouge
-1	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	2	det	_	_
+1	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
 2	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
 3	là	là	ADV	_	_	2	mod	_	_
 4	de	de	ADP	_	_	2	udep	_	_
@@ -6241,7 +6241,7 @@
 # speaker = L2
 # sent_id = Rhap_D0009-159
 # text = sa femme est originaire de la région
-1	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	2	det	_	_
+1	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	_
 2	femme	femme	NOUN	_	Gender=Fem|Number=Sing	3	subj	_	_
 3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	originaire	originaire	ADJ	_	_	3	comp:pred	_	_
@@ -6451,7 +6451,7 @@
 6	juste	juste	ADV	_	_	8	mod	_	_
 7	euh	euh	INTJ	_	_	6	discourse	_	_
 8	sur	sur	ADP	_	_	3	mod	_	_
-9	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	10	det	_	_
+9	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	10	det	_	_
 10	droite	droite	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 
 # macrosyntax = après <+ vous continuez //
@@ -6987,7 +6987,7 @@
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	pensais	penser	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	à	à	ADP	_	_	2	comp:obl	_	_
-4	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
+4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	procès	procès	NOUN	_	Gender=Masc	3	comp:obj	_	_
 6	en	en	ADP	_	_	3	discourse	_	_
 7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -7017,7 +7017,7 @@
 5	était	être	AUX	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	conj:dicto	_	_
 6	solidaire	solidaire	ADJ	_	Number=Sing	5	comp:pred	_	_
 7	pour	pour	ADP	_	_	5	mod	_	_
-8	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	10	det	_	_
+8	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
 9	futur	futur	ADJ	_	Gender=Masc|Number=Sing	10	mod	_	_
 10	procès	procès	NOUN	_	Gender=Masc	7	comp:obj	_	_
 
@@ -7453,7 +7453,7 @@
 21	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
 22	déjà	déjà	ADV	_	_	21	mod	_	_
 23	surpris	surprendre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	21	comp:aux	_	_
-24	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	26	det	_	_
+24	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	26	det	_	_
 25	petit	petit	ADJ	_	Gender=Masc|Number=Sing	26	mod	_	_
 26	ami	ami	NOUN	_	Gender=Masc|Number=Sing	23	comp:obj	_	_
 27-28	au	_	_	_	_	_	_	_	_
@@ -8040,7 +8040,7 @@
 8	déjà	déjà	ADV	_	_	7	mod	_	_
 9	écriée	écrier	VERB	_	_	7	comp:aux	_	ExtPos=VERB|PhraseType=Idiom
 10	ciel	ciel	NOUN	_	Gender=Masc|Number=Sing	9	parataxis:obj	_	_
-11	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	12	det	_	_
+11	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	12	det	_	_
 12	mari	mari	NOUN	_	Gender=Masc|Number=Sing	10	dislocated	_	_
 13	en	en	ADP	_	_	7	mod	_	_
 14	entendant	entendre	VERB	_	Tense=Pres|VerbForm=Part	13	comp:obj	_	_
@@ -8078,7 +8078,7 @@
 6	de	de	ADP	_	_	5	comp:obl@x	_	_
 7	dire	dire	VERB	_	VerbForm=Inf	6	comp:obj	_	_
 8	ciel	ciel	NOUN	_	Gender=Masc|Number=Sing	7	parataxis:obj	_	_
-9	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	10	det	_	_
+9	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
 10	mari	mari	NOUN	_	Gender=Masc|Number=Sing	8	dislocated	_	_
 11	toi	lui	PRON	_	Number=Sing|Person=2|PronType=Prs	3	dislocated	_	_
 12	en	en	ADP	_	_	3	mod	_	_
@@ -8096,7 +8096,7 @@
 4	que	que	SCONJ	_	_	3	comp:obj	_	_
 5	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	6	subj	_	_
 6	trompes	tromper	VERB	_	Number=Sing|Person=2	4	comp:obj	_	_
-7	ton	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=2|PronType=Prs	8	det	_	_
+7	ton	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=2|PronType=Prs	8	det	_	_
 8	ma~	ma~	NOUN	_	_	6	comp:obj	_	_
 
 # macrosyntax = ^et en plus < tu es chez toi  " mh "  //
@@ -8126,7 +8126,7 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	jamais	jamais	ADV	_	_	3	mod	_	_
 5	trompé	tromper	VERB	_	_	3	comp:aux	_	_
-6	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
 7	mari	mari	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 
 # macrosyntax = $L3 est-ce que tu as déjà dit à ta petite amie [ ^mais non // c'est pas ce que tu crois // ] //
@@ -8220,11 +8220,11 @@
 9	avez	avoir	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 10	déjà	déjà	ADV	_	_	9	mod	_	_
 11	appelé	appeler	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux	_	_
-12	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	14	det	_	_
+12	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	14	det	_	_
 13	petit	petit	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 14	ami	ami	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
 15	ou	ou	CCONJ	_	_	17	cc	_	_
-16	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	17	det	_	_
+16	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	17	det	_	_
 17	fiancé	fiancé	NOUN	_	_	14	conj:coord	_	_
 18	par	par	ADP	_	_	11	comp:obl	_	_
 19	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
@@ -8232,7 +8232,7 @@
 21	prénom	prénom	NOUN	_	Gender=Masc|Number=Sing	18	comp:obj	_	_
 22	que	que	SCONJ	_	_	20	comp:obj	_	_
 23	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
-24	sien	sien	PRON	_	Gender=Masc|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	22	comp:obj	_	_
+24	sien	sien	PRON	_	Gender=Masc|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	22	comp:obj	_	_
 
 # macrosyntax = c'est arrivé //
 # sent_id = Rhap_D2007-105
@@ -8374,7 +8374,7 @@
 18	de	de	ADP	_	_	11	conj:coord	_	_
 19	tomber	tomber	VERB	ETRE	VerbForm=Inf	18	comp:obj	_	_
 20	sur	sur	ADP	_	_	19	comp:obl	_	_
-21	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	22	det	_	_
+21	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	22	det	_	_
 22	père	père	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 
 # macrosyntax = ^mais ça < c'était pas une relation amoureuse //
@@ -8594,7 +8594,7 @@
 # macrosyntax = ses talents séduisent un large public //
 # sent_id = Rhap_D2005-3
 # text = ses talents séduisent un large public
-1	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	2	det	_	_
+1	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	_
 2	talents	talent	NOUN	_	Gender=Masc|Number=Plur	3	subj	_	_
 3	séduisent	séduire	VERB	_	_	0	root	_	_
 4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8646,9 +8646,9 @@
 3	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	surdoué	surdoué	NOUN	_	_	2	comp:obj	_	_
 5	de	de	ADP	_	_	4	udep	_	_
-6	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	7	det	_	_
+6	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
 7	génération	génération	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
-8	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	9	det	_	_
+8	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	det	_	_
 9	action	action	NOUN	_	Gender=Fem|Number=Sing	11	subj	_	_
 10	s'	se	PRON	_	Person=3|PronType=Prs	11	comp	_	InIdiom=Yes
 11	étend	étendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	ExtPos=VERB|PhraseType=Idiom
@@ -8706,7 +8706,7 @@
 3	acteur	acteur	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	principal	principal	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
 5	de	de	ADP	_	_	3	udep	_	_
-6	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	7	det	_	_
+6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
 7	idées	idée	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 9	s'	se	PRON	_	Person=3|PronType=Prs	10	comp	_	InIdiom=Yes
@@ -8773,7 +8773,7 @@
 1	aujourd'hui	aujourd'	ADV	_	_	3	mod	_	_
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	continue	continuer	VERB	_	Number=Sing|Person=3	0	root	_	_
-4	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	5	det	_	_
+4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	_
 5	activité	activité	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	conseil	conseil	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -8837,7 +8837,7 @@
 # text = donc euh mon anniversaire coïncide avec le début de l' insurrection algérienne
 1	donc	donc	ADV	_	_	5	mod	_	_
 2	euh	euh	INTJ	_	_	1	discourse	_	_
-3	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	4	det	_	_
+3	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	4	det	_	_
 4	anniversaire	anniversaire	NOUN	_	Gender=Masc|Number=Sing	5	subj	_	_
 5	coïncide	coïncider	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	avec	avec	ADP	_	_	5	comp:obl	_	_
@@ -8866,7 +8866,7 @@
 # sent_id = Rhap_D2005-17
 # text = euh mon père était un autodidacte venant d' un milieu très pauvre ayant fait aucune étude mais ayant une passion de la littérature et du savoir et ayant accumulé un énorme savoir d' autodidacte
 1	euh	euh	INTJ	_	_	4	discourse	_	_
-2	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	père	père	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 4	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
@@ -8910,11 +8910,11 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vécu	vivre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	avec	avec	ADP	_	_	3	mod	_	_
-6	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
 7	frère	frère	NOUN	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
 8	jumeau	jumeau	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 9	et	et	CCONJ	_	_	11	cc	_	_
-10	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
+10	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
 11	soeur	soeur	NOUN	_	_	7	conj:coord	_	_
 12	dans	dans	ADP	_	_	4	comp:obl	_	_
 13	dans	dans	ADP	conj:reform	_	12	conj:dicto	_	_
@@ -8971,7 +8971,7 @@
 5	à	à	ADP	à	_	4	comp:obl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	comp:obj	_	_
 7	fait	faire	VERB	_	_	3	conj:dicto	_	_
-8	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	9	det	_	_
+8	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
 9	études	étude	NOUN	_	Gender=Fem|Number=Plur	7	comp:obj	_	_
 10-11	au	_	_	_	_	_	_	_	_
 10	à	à	ADP	à	_	7	mod	_	_
@@ -9035,7 +9035,7 @@
 3	n'	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
-6	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
 7	problème	problème	NOUN	_	Gender=Masc|Number=Sing	4	comp:pred	_	_
 
 # macrosyntax = servir à quelque chose est quelque chose qui me préoccupe tout le temps //
@@ -9119,14 +9119,14 @@
 16	intellectuel	intellectuel	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 17	qui	qui	PRON	_	_	18	subj	_	_
 18	marque	marquer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-19	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
+19	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	20	det	_	_
 20	temps	temps	NOUN	_	Gender=Masc	18	comp:obj	_	_
 
 # macrosyntax = dans ma famille on a toujours fait "euh" { de la littérature | ^et de la recherche } quelque chose d'essentiel //
 # sent_id = Rhap_D2005-28
 # text = dans ma famille on a toujours fait euh de la littérature et de la recherche quelque chose d' essentiel
 1	dans	dans	ADP	_	_	7	mod	_	_
-2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	famille	famille	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9160,7 +9160,7 @@
 4	en	en	ADP	_	_	2	comp:pred	_	_
 5	révolte	révolte	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 6	avec	avec	ADP	_	_	5	udep	_	_
-7	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	8	det	_	_
+7	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	8	det	_	_
 8	environnement	environnement	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	que	que	SCONJ	_	_	2	comp:cleft	_	_
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
@@ -9189,7 +9189,7 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	religion	religion	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	de	de	ADP	_	_	11	conj:coord	_	_
-17	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	18	det	_	_
+17	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	18	det	_	_
 18	communauté	communauté	NOUN	_	Gender=Fem|Number=Sing	16	comp:obj	_	_
 19	euh	euh	INTJ	_	_	18	discourse	_	_
 20	culturelle	culturel	ADJ	_	Gender=Fem|Number=Sing	18	mod	_	_
@@ -9197,7 +9197,7 @@
 # macrosyntax = $L2 mon père -$ { était "euh" | ét~ } ESPERLUETTE //=
 # sent_id = Rhap_D2005-32
 # text = mon père était euh ét~
-1	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	2	det	_	_
+1	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
 2	père	père	NOUN	_	Gender=Masc|Number=Sing	3	subj	_	_
 3	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root@scrap	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
@@ -9210,14 +9210,14 @@
 2	langue	langue	NOUN	_	Gender=Fem|Number=Sing	14	subj	_	_
 3	maternelle	maternel	ADJ	_	Gender=Fem|Number=Sing	2	mod	_	_
 4	de	de	ADP	_	_	2	udep	_	_
-5	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	6	det	_	_
+5	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
 6	père	père	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	et	et	CCONJ	_	_	9	cc	_	_
 8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
 9	langue	langue	NOUN	_	Gender=Fem|Number=Sing	2	conj:coord	_	_
 10	maternelle	maternel	ADJ	_	Gender=Fem|Number=Sing	9	mod	_	_
 11	de	de	ADP	_	_	9	udep	_	_
-12	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	13	det	_	_
+12	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	13	det	_	_
 13	mère	mère	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
 14	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
@@ -9273,8 +9273,8 @@
 # text = quelles étaient vos vos lectures
 1	quelles	quel	PRON	_	_	2	comp:pred	_	_
 2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-3	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	5	det	_	_
-4	vos	son	DET	conj:reform	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	3	conj:dicto	_	_
+3	vos	son	DET	_	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	5	det	_	_
+4	vos	son	DET	conj:reform	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	3	conj:dicto	_	_
 5	lectures	lecture	NOUN	_	Gender=Fem|Number=Plur	2	subj	_	_
 
 # macrosyntax = $L2 enfant < { je | je } lisais tout //
@@ -9362,7 +9362,7 @@
 7	quand	quand	SCONJ	_	_	2	mod	_	ExtPos=ADV|PhraseType=Idiom
 8	même	même	ADV	_	_	7	unk	_	InIdiom=Yes
 9	de	de	ADP	_	_	4	udep	_	_
-10	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	11	det	_	_
+10	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	11	det	_	_
 11	activité	activité	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	parce	parce	SCONJ	_	_	2	mod	_	ExtPos=SCONJ|PhraseType=Idiom
 13	que	que	SCONJ	_	_	12	unk	_	InIdiom=Yes
@@ -9389,7 +9389,7 @@
 2	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	_
 3	et	et	CCONJ	conj:reform	_	2	conj:dicto	_	_
 4	m~	m~	X	_	_	5	discourse	_	_
-5	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	6	det	_	_
+5	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	det	_	_
 6	idée	idée	NOUN	_	Gender=Fem|Number=Sing	8	dislocated	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
@@ -9444,9 +9444,9 @@
 6	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
 7	distinguez	distinguer	VERB	_	Number=Plur|Person=2	0	root	_	_
 8	par	par	ADP	_	_	7	mod	_	_
-9	vos	son	DET	_	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	12	det	_	_
-10	vos	son	DET	conj:reform	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	9	conj:dicto	_	_
-11	vos	son	DET	conj:reform	Number=Plur|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	10	conj:dicto	_	_
+9	vos	son	DET	_	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	12	det	_	_
+10	vos	son	DET	conj:reform	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	9	conj:dicto	_	_
+11	vos	son	DET	conj:reform	Number=Plur|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	10	conj:dicto	_	_
 12	talents	talent	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 13	intellectuels	intellectuel	ADJ	_	_	12	mod	_	_
 
@@ -9591,7 +9591,7 @@
 # sent_id = Rhap_D2005-57
 # text = dans ma génération euh c' était à peu près évident quand on était bon en maths de ne pas gaspiller ce talent
 1	dans	dans	ADP	_	_	10	mod	_	_
-2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	génération	génération	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	euh	euh	INTJ	_	_	3	discourse	_	_
 5	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	_
@@ -9842,7 +9842,7 @@
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	monde	monde	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 11	par	par	ADP	_	_	8	comp:obl	_	_
-12	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	13	det	_	_
+12	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	13	det	_	_
 13	idées	idée	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 14	quitte	quitter	VERB	_	_	2	mod	_	_
 15	à	à	ADP	_	_	14	comp:obl	_	_
@@ -9875,7 +9875,7 @@
 # macrosyntax = { mes parents | tous les deux } ont vécu à Paris jeunes "hein" //
 # sent_id = Rhap_D0003-3
 # text = mes parents tous les deux ont vécu à Paris jeunes hein
-1	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	2	det	_	_
+1	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	2	det	_	_
 2	parents	parent	NOUN	_	Gender=Masc|Number=Plur	6	subj	_	_
 3	tous	tout	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
 4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -9929,7 +9929,7 @@
 21	pour	pour	ADP	_	_	9	mod	_	_
 22	revenir	revenir	VERB	_	VerbForm=Inf	21	comp:obj	_	_
 23	voir	voir	VERB	_	VerbForm=Inf	22	comp:obj@x	_	_
-24	leurs	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=3|PronType=Prs	25	det	_	_
+24	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	25	det	_	_
 25	amis	ami	NOUN	_	Gender=Masc|Number=Plur	23	comp:obj	_	_
 26	et	et	CCONJ	_	_	28	cc	_	ExtPos=CCONJ|PhraseType=Idiom
 27	puis	puis	CCONJ	_	_	26	unk	_	InIdiom=Yes
@@ -10070,8 +10070,8 @@
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	_
-5	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	7	det	_	_
-6	mon	son	DET	conj:reform	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	5	conj:dicto	_	_
+5	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	7	det	_	_
+6	mon	son	DET	conj:reform	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	conj:dicto	_	_
 7	père	père	NOUN	_	Gender=Masc|Number=Sing	8	subj	_	_
 8	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	dit	dire	VERB	_	_	8	comp:aux	_	_
@@ -10264,11 +10264,11 @@
 # sent_id = Rhap_D0003-31
 # text = alors mon père avait passé ses nuits à faire ça
 1	alors	alors	ADV	_	_	4	mod	_	_
-2	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	père	père	NOUN	_	Gender=Masc|Number=Sing	4	subj	_	_
 4	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 5	passé	passer	VERB	ETRE	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	_
-6	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	7	det	_	_
+6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	7	det	_	_
 7	nuits	nuit	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
 8	à	à	ADP	_	_	5	comp:obl@x	_	_
 9	faire	faire	VERB	_	VerbForm=Inf	8	comp:obj	_	_
@@ -10701,7 +10701,7 @@
 6	problème	problème	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 7	scolaire	scolaire	ADJ	_	Number=Sing	6	mod	_	_
 8	pour	pour	ADP	_	_	3	mod	_	_
-9	mes	son	DET	_	Number=Plur|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	10	det	_	_
+9	mes	son	DET	_	Number=Plur|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
 10	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	8	comp:obj	_	_
 
 # macrosyntax = ^et { j'ai | j'ai } jamais très bien compris les gens qui ESPERLUETTE //
@@ -10733,7 +10733,7 @@
 8	septième	septième	NOUN	_	_	6	comp:obj	_	_
 9	qui	qui	PRON	_	_	10	subj	_	_
 10	mettaient	mettre	VERB	_	_	5	mod@relcl	_	_
-11	leurs	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=3|PronType=Prs	12	det	_	_
+11	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	12	det	_	_
 12	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	d'	de	ADP	_	_	15	mod	_	_
 14	abord	abord	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
@@ -11324,7 +11324,7 @@
 4	voient	voir	VERB	_	Number=Plur|Person=3	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	souvent	souvent	ADV	_	_	4	mod	_	_
-7	leur	son	DET	_	Number=Sing|PossNumber=Plur|PossPerson=3|PronType=Prs	8	det	_	_
+7	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|PronType=Prs	8	det	_	_
 8	papa	papa	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
 
 # macrosyntax = donc < $- par définition < ( $L3 mh // ) -$ ils ne parlent pas français //=
@@ -11382,7 +11382,7 @@
 16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
 17	français	français	NOUN	_	Gender=Masc	15	comp:obj	_	_
 18	à	à	ADP	_	_	15	comp:obl	_	_
-19	leurs	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=3|PronType=Prs	20	det	_	_
+19	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	20	det	_	_
 20	enfants	enfant	NOUN	_	Gender=Masc|Number=Plur	18	comp:obj	_	_
 
 # macrosyntax = chose que ne fait aucun organisme d'Etat //
@@ -11966,7 +11966,7 @@
 12	se	se	PRON	_	Person=3|PronType=Prs	13	comp	_	InIdiom=Yes
 13	séparer	séparer	VERB	_	VerbForm=Inf	11	comp:obj	_	ExtPos=VERB|PhraseType=Idiom
 14	de	de	ADP	_	_	13	comp:obl	_	_
-15	leurs	son	DET	_	Number=Plur|PossNumber=Plur|PossPerson=3|PronType=Prs	16	det	_	_
+15	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|PronType=Prs	16	det	_	_
 16	petits	petit	NOUN	_	Gender=Masc|Number=Plur	14	comp:obj	_	_
 
 # macrosyntax = ( $L2 mh // )elles le font pas très volontiers //
@@ -12093,7 +12093,7 @@
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	subj	_	_
 13	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 14	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
-15	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	16	det	_	_
+15	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	16	det	_	_
 16	camion	camion	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
 17	ouvert	ouvrir	ADJ	_	_	14	comp:pred	_	_
 
@@ -12466,7 +12466,7 @@
 11	Préfecture	Préfecture	PROPN	_	_	12	subj	_	_
 12	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 13	sur	sur	ADP	_	_	12	comp:obl	_	_
-14	votre	son	DET	_	Number=Sing|Person=3|PossNumber=Plur|PossPerson=2|PronType=Prs	15	det	_	_
+14	votre	son	DET	_	Number=Sing|Person=3|Number[psor]=Plur|Person[psor]=2|PronType=Prs	15	det	_	_
 15	droite	droite	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 
 # macrosyntax = vous < vous continuez tout droit //
@@ -12801,7 +12801,7 @@
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	obtenu	obtenir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
-4	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	5	det	_	_
+4	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	5	det	_	_
 5	bac	bac	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
 6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	année	année	NOUN	_	Gender=Fem|Number=Sing	2	mod	_	_
@@ -12823,7 +12823,7 @@
 5	souhaiterais	souhaiter	VERB	_	Number=Sing|Person=1	2	mod@relcl	_	_
 6	faire	faire	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
 7	de	de	ADP	_	_	6	comp:obl	_	_
-8	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	9	det	_	_
+8	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
 9	vie	vie	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
 10	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	subj	_	_
 11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12863,10 +12863,10 @@
 10	de	de	ADP	_	_	9	udep	_	_
 11	transmettre	transmettre	VERB	_	VerbForm=Inf	10	comp:obj	_	_
 12	euh	euh	INTJ	_	_	11	discourse	_	_
-13	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	14	det	_	_
+13	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	14	det	_	_
 14	compétences	compétence	NOUN	_	Gender=Fem|Number=Plur	11	comp:obj	_	_
 15	et	et	CCONJ	_	_	17	cc	_	_
-16	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
+16	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	17	det	_	_
 17	acquis	acquis	NOUN	_	Gender=Masc|Number=Plur	14	conj:coord	_	_
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	choses	chose	NOUN	_	Gender=Fem|Number=Plur	17	conj:appos	_	_
@@ -12880,7 +12880,7 @@
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	long	long	ADJ	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
 28	de	de	ADP	_	_	27	mod	_	_
-29	ses	son	DET	_	Number=Plur|PossNumber=Sing|PossPerson=3|PronType=Prs	30	det	_	_
+29	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	30	det	_	_
 30	années	année	NOUN	_	Gender=Fem|Number=Plur	28	comp:obj	_	_
 31	d'	de	ADP	_	_	30	udep	_	_
 32	études	étude	NOUN	_	Gender=Fem|Number=Plur	31	comp:obj	_	_
@@ -12958,10 +12958,10 @@
 13	intéresser	intéresser	VERB	_	VerbForm=Inf	12	comp:obj	_	_
 14	euh	euh	INTJ	_	_	13	discourse	_	_
 15	donc	donc	ADV	_	_	13	discourse	_	_
-16	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
+16	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	17	det	_	_
 17	auditoire	auditoire	NOUN	_	_	13	comp:obj	_	_
 18	donc	donc	ADV	_	_	20	cc	_	_
-19	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=3|PronType=Prs	20	det	_	_
+19	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	20	det	_	_
 20	classe	classe	NOUN	_	Gender=Fem|Number=Sing	17	conj:appos	_	_
 21	euh	euh	INTJ	_	_	20	discourse	_	_
 22	pour	pour	ADP	_	_	5	mod	_	_
@@ -13248,7 +13248,7 @@
 28	également	également	ADV	_	_	29	mod	_	_
 29	grâce	grâce	ADV	_	_	9	comp:obj	_	_
 30	à	à	ADP	_	_	29	comp:obl	_	_
-31	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	32	det	_	_
+31	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	32	det	_	_
 32	dossier	dossier	NOUN	_	Gender=Masc|Number=Sing	30	comp:obj	_	_
 33	à	à	ADP	_	_	30	conj:coord	_	_
 34	à	à	ADP	_	_	33	conj:dicto	_	_
@@ -13257,7 +13257,7 @@
 37	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
 38	élaboration	élaboration	NOUN	_	Gender=Fem|Number=Sing	36	comp:obj	_	_
 39	de	de	ADP	_	_	38	udep	_	_
-40	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	41	det	_	_
+40	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	41	det	_	_
 41	projet	projet	NOUN	_	Gender=Masc|Number=Sing	39	comp:obj	_	_
 42	que	que	SCONJ	_	_	8	comp:obj	_	_
 43	euh	euh	INTJ	_	_	46	discourse	_	_
@@ -13353,7 +13353,7 @@
 10	par	par	ADP	_	_	7	mod	_	_
 11	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
 12	à	à	ADP	_	_	11	udep	_	_
-13	mon	son	DET	_	Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	14	det	_	_
+13	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	14	det	_	_
 14	profil	profil	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	que	que	SCONJ	_	_	7	comp:obj	_	_
 16	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	17	subj	_	_
@@ -13727,14 +13727,14 @@
 10	souvent	souvent	ADV	_	_	9	mod	_	_
 11	éloigné	éloigner	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@pass	_	_
 12	de	de	ADP	_	_	11	comp:obl	_	_
-13	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	14	det	_	_
+13	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	14	det	_	_
 14	domicile	domicile	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 
 # macrosyntax = ^puisque ma professeur d'italien ( par exemple ) de l'année dernière "euh" mettait une heure et demie avant d'arriver ( donc ) à son lycée //
 # sent_id = Rhap_M1003-48
 # text = puisque ma professeur d' italien par exemple de l' année dernière euh mettait une heure et demie avant d' arriver donc à son lycée
 1	puisque	puisque	SCONJ	_	_	0	root	_	_
-2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	professeur	professeur	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
 4	d'	de	ADP	_	_	3	udep	_	_
 5	italien	italien	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
@@ -13755,14 +13755,14 @@
 20	arriver	arriver	VERB	ETRE	VerbForm=Inf	19	comp:obj	_	_
 21	donc	donc	ADV	_	_	20	discourse	_	_
 22	à	à	ADP	_	_	20	comp:obl	_	_
-23	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	24	det	_	_
+23	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	24	det	_	_
 24	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
 
 # macrosyntax = ^et ma mère qui est également prof est à trois quarts d'heure { de | de } son lycée > également //
 # sent_id = Rhap_M1003-49
 # text = et ma mère qui est également prof est à trois quarts d' heure de de son lycée également
 1	et	et	CCONJ	_	_	8	cc	_	_
-2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|PossNumber=Sing|PossPerson=1|PronType=Prs	3	det	_	_
+2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 3	mère	mère	NOUN	_	Gender=Fem|Number=Sing	8	subj	_	_
 4	qui	qui	PRON	_	_	5	subj	_	_
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
@@ -13776,7 +13776,7 @@
 13	heure	heure	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
 14	de	de	ADP	_	_	11	udep	_	_
 15	de	de	ADP	conj:reform	_	14	conj:dicto	_	_
-16	son	son	DET	_	Number=Sing|PossNumber=Sing|PossPerson=3|PronType=Prs	17	det	_	_
+16	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	17	det	_	_
 17	lycée	lycée	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 18	également	également	ADV	_	_	11	mod	_	_
 
