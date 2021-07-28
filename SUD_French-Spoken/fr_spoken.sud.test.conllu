@@ -7711,7 +7711,7 @@
 9	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	Overlap=Rhap_D2008-87
 10	frai~	frai~	ADJ	_	_	9	comp:pred	_	Overlap=Rhap_D2008-87
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	très	très	ADV	_	_	12	mod	_	_
+12	très	très	ADV	_	_	13	mod	_	_
 13	frappés	frapper	VERB	conj:reform	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj:dicto	_	_
 14	.	.	PUNCT	_	_	5	punct	_	_
 
