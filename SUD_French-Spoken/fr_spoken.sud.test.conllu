@@ -1,7 +1,6 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
 # macrosyntax = "euh" il y a une petite bifurcation "euh" juste avant la place du Tribunal //
 # text_ortho = euh, il y a une petite bifurcation, euh, juste avant la place du Tribunal.
-# speaker = L1
 # sent_id = Rhap_M0001-9
 1	euh	euh	INTJ	_	_	5	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -26,7 +25,6 @@
 
 # macrosyntax = tu passes à côté d' une petite fontaine //
 # text_ortho = tu passes à côté d' une petite fontaine.
-# speaker = L1
 # sent_id = Rhap_M0001-10
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	passes	passer	VERB	ETRE	Number=Sing|Person=2	0	root	_	_
@@ -40,7 +38,6 @@
 
 # macrosyntax = tu arrives place aux Herbes avec { une | une } sorte { de halle "quoi" | { de | de | de } structure métallique } //
 # text_ortho = tu arrives place aux Herbes avec une, une sorte de halle, quoi, de, de, de structure métallique.
-# speaker = L1
 # sent_id = Rhap_M0001-11
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	arrives	arriver	VERB	ETRE	Number=Sing|Person=2	0	root	_	_
@@ -70,7 +67,6 @@
 
 # macrosyntax = tu continues { la rue | la petite rue } //
 # text_ortho = tu continues la rue, la petite rue.
-# speaker = L1
 # sent_id = Rhap_M0001-12
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	continues	continuer	VERB	_	Number=Sing|Person=2	0	root	_	_
@@ -84,7 +80,6 @@
 
 # macrosyntax = ^et tu arrives à la fontaine "euh" place Notre-Dame //
 # text_ortho = et tu arrives à la fontaine, euh, place Notre-Dame.
-# speaker = L1
 # sent_id = Rhap_M0001-13
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	3	subj	_	_
@@ -101,7 +96,6 @@
 
 # macrosyntax = ^et "ben" voilà //
 # text_ortho = et, ben, voilà.
-# speaker = L1
 # sent_id = Rhap_M0001-14
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -368,12 +362,11 @@
 17	effectivement	effectivement	ADV	_	_	15	mod	_	_
 18	,	,	PUNCT	_	_	19	punct	_	_
 19	ce	ce	PRON	_	_	15	comp:obj	_	_
-20	que	que	PRON	_	_	24	comp:obj	_	_
-21	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	22	det	_	_
-22	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
-23	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	24	comp:obl	_	_
-24	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
-25	.	.	PUNCT	_	_	3	punct	_	_
+20	que	que	PRON	_	_	23	comp:obj	_	_
+21	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	23	subj	_	_
+22	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	23	comp:obl	_	_
+23	raconte	raconter	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	_
+24	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = $L1 nous allons vous prouver l'efficacité de { notre boule magique | notre boule de lavage } en compagnie de maître Vendiste huissier de justice //
 # text_ortho = nous allons vous prouver l'efficacité de notre boule magique, notre boule de lavage en compagnie de Maître Vendiste, huissier de justice.
@@ -871,7 +864,7 @@
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	vois	voir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	plus	plus	ADV	_	_	3	mod	_	_
-5	de	UN	DET	_	_	6	det	_	_
+5	de	un	DET	_	_	6	det	_	_
 6	taches	tache	NOUN	_	Gender=Fem|Number=Plur	3	comp:obl	_	_
 7	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -934,7 +927,7 @@
 14	côté	côté	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
 15	,	,	PUNCT	_	_	12	punct	_	_
 16	plus	plus	ADV	_	_	18	mod	_	_
-17	de	UN	DET	_	_	18	det	_	_
+17	de	un	DET	_	_	18	det	_	_
 18	traces	trace	NOUN	_	Gender=Fem|Number=Plur	7	conj:coord	_	_
 19	de	de	ADP	_	_	18	udep	_	_
 20	café	café	NOUN	_	Gender=Masc|Number=Sing	19	comp:obj	_	_
@@ -1117,11 +1110,10 @@
 12	ce	ce	DET	_	_	16	det	_	Overlap=Rhap_D2011-57bis
 13	petit	petit	ADJ	_	Gender=Masc|Number=Sing	14	mod	_	_
 14	bruit	bruit	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-15	que	que	PRON	_	_	18	comp:obj	_	_
-16	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	17	det	_	_
-17	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
-18	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
-19	.	.	PUNCT	_	_	8	punct	_	_
+15	que	que	PRON	_	_	17	comp:obj	_	_
+16	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	17	subj	_	_
+17	entend	entendre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	_
+18	.	.	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = "eh bien" le secret < il est { là | dans ce ( $L1 "eh" oui // ) petit bruit que l'on entend } //
 # text_ortho = eh oui.
@@ -1409,7 +1401,7 @@
 4	faire	faire	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
 5	en	en	ADP	_	_	4	mod	_	_
 6	plus	plus	NOUN	_	Gender=Masc	5	comp:obj	_	_
-7	d'	UN	DET	_	_	9	det	_	_
+7	d'	un	DET	_	_	9	det	_	_
 8	énormes	énorme	ADJ	_	Gender=Fem|Number=Plur	9	mod	_	_
 9	économies	économie	NOUN	_	Gender=Fem|Number=Plur	4	comp:obj	_	_
 10	.	.	PUNCT	_	_	3	punct	_	_
@@ -2858,7 +2850,7 @@
 20	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	19	comp:obj	_	_
 21	,	,	PUNCT	_	_	19	punct	_	_
 22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	subj	_	_
-23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:parenth	_	PhraseType=Graft
+23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:parenth	_	Graft=Yes
 24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
 25	chef	chef	NOUN	_	_	23	comp:pred	_	ExtPos=NOUN|Idiom=Yes
 26	-d'	de	ADP	_	_	25	unk	_	InIdiom=Yes
@@ -4333,7 +4325,7 @@
 39	aussi	aussi	ADV	_	_	32	mod	_	_
 40	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = $L1 alors < c'est à la fois "euh" comment dire & //
+# macrosyntax = $L1 alors < c'est à la fois "euh" comment dire ESPERLUETTE //
 # text_ortho = alors, c'est à la fois, euh, comment dire…
 # speaker = L1
 # sent_id = Rhap_D2012-6
@@ -4641,7 +4633,7 @@
 12	sous	sou	NOUN	_	Gender=Masc|Number=Plur	10	comp:obj	_	_
 13	.	.	PUNCT	_	_	4	punct	_	_
 
-# macrosyntax = $L1 c'est à la fois à ce moment-là "euh" { Lohengrin | ^et Parsifal } "il me semble" dans le & //
+# macrosyntax = $L1 c'est à la fois à ce moment-là "euh" { Lohengrin | ^et Parsifal } "il me semble" dans le ESPERLUETTE //
 # text_ortho = c'est à la fois à ce moment-là, euh, Lohengrin et Parsifal, il me semble, dans le…
 # speaker = L1
 # sent_id = Rhap_D2012-20
@@ -4997,7 +4989,7 @@
 3	hôtels	hôtel	NOUN	_	Gender=Masc|Number=Plur	0	root	_	AttachTo=22@Rhap_D2012-31|Rel=conj:dicto|Overlap=Rhap_D2012-31
 4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2012-31
 
-# macrosyntax = ^et { à la fin de sa vie | "euh" quand il est en France ( d'ailleurs ) pour essayer de soigner en vain "euh" sa tuberculose } <+ "euh" il dira "euh" [ { { si | si } je dois aller dans un bouiboui "euh" ( je caricature un petit peu // ^mais enfin "euh" & // ) | si je dois descendre dans un hôtel de troisième catégorie } < alors < ça ne vaut plus la peine // ] //
+# macrosyntax = ^et { à la fin de sa vie | "euh" quand il est en France ( d'ailleurs ) pour essayer de soigner en vain "euh" sa tuberculose } <+ "euh" il dira "euh" [ { { si | si } je dois aller dans un bouiboui "euh" ( je caricature un petit peu // ^mais enfin "euh" ESPERLUETTE // ) | si je dois descendre dans un hôtel de troisième catégorie } < alors < ça ne vaut plus la peine // ] //
 # text_ortho = et à la fin de sa vie, euh, quand il est en France, d'ailleurs, pour essayer de soigner en vain, euh, sa tuberculose, euh, il dira, euh, si, si je dois aller dans un bouiboui, euh, je caricature un petit peu, mais enfin, euh,…, si je dois descendre dans un hôtel de troisième catégorie, alors, ça ne vaut plus la peine.
 # speaker = L2
 # sent_id = Rhap_D2012-32
@@ -5052,7 +5044,7 @@
 49	euh	euh	INTJ	_	_	47	discourse	_	_
 50	,	,	PUNCT	_	_	52	punct	_	_
 51	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	52	subj	_	_
-52	caricature	caricaturer	VERB	_	Number=Sing|Person=1	43	parataxis:parenth	_	PhraseType=Graft
+52	caricature	caricaturer	VERB	_	Number=Sing|Person=1	43	parataxis:parenth	_	Graft=Yes
 53	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	55	det	_	InIdiom=Yes
 54	petit	petit	ADJ	_	Gender=Masc|Number=Sing	55	mod	_	InIdiom=Yes
 55	peu	peu	NOUN	_	_	52	mod	_	ExtPos=ADV|Idiom=Yes
@@ -6204,7 +6196,7 @@
 15	hein	hein	INTJ	_	_	13	discourse	_	_
 16	.	.	PUNCT	_	_	11	punct	_	_
 
-# macrosyntax = c'est & //
+# macrosyntax = c'est ESPERLUETTE //
 # text_ortho = c'est…
 # speaker = L1
 # sent_id = Rhap_D2008-23
@@ -6289,7 +6281,7 @@
 5	prévisions	prévision	NOUN	_	_	2	comp:pred	_	_
 6	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = c'est & //
+# macrosyntax = c'est ESPERLUETTE //
 # text_ortho = c'est…
 # speaker = L2
 # sent_id = Rhap_D2008-29
@@ -6345,48 +6337,47 @@
 11	euh	euh	INTJ	_	_	9	discourse	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
+# macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" ESPERLUETTE //
 # text_ortho = c'est-à-dire que si vraiment, euh, l'activité que l'on constate aujourd'hui en, en Amérique du nord, euh, devient l'activité d'une pandémie, alors, euh…
 # speaker = L2
 # sent_id = Rhap_D2008-32
-1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	25	cc	_	ExtPos=CCONJ|Idiom=Yes
+1	c'est-à-dire	c'est-à-dire	CCONJ	_	_	24	cc	_	ExtPos=CCONJ|Idiom=Yes
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
-3	si	si	SCONJ	_	_	25	mod	_	_
+3	si	si	SCONJ	_	_	24	mod	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	euh	euh	INTJ	_	_	4	discourse	_	_
 7	,	,	PUNCT	_	_	3	punct	_	_
 8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	activité	activité	NOUN	_	Gender=Fem|Number=Sing	25	subj	_	_
-10	que	que	PRON	_	_	13	comp:obj	_	_
-11	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	13	subj	_	ExtPos=PRON|Idiom=Yes|SpaceAfter=No
-12	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	unk	_	InIdiom=Yes
-13	constate	constater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
-14	aujourd'hui	aujourd'hui	ADV	_	_	13	mod	_	_
-15	en	en	ADP	_	_	13	mod	_	_
-16	,	,	PUNCT	_	_	17	punct	_	_
-17	en	en	ADP	conj:reform	_	15	conj:dicto	_	_
-18	Amérique	Amérique	PROPN	_	_	17	comp:obj	_	_
-19-20	du	_	_	_	_	_	_	_	_
-19	de	de	ADP	_	_	18	mod	_	_
-20	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
-21	Nord	Nord	PROPN	_	_	19	comp:obj	_	_
-22	,	,	PUNCT	_	_	23	punct	_	_
-23	euh	euh	INTJ	_	_	21	discourse	_	_
-24	,	,	PUNCT	_	_	9	punct	_	_
-25	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-26	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	27	det	_	_
-27	activité	activité	NOUN	_	Gender=Fem|Number=Sing	25	comp:pred	_	_
-28	d'	de	ADP	_	_	27	udep	_	_
-29	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
-31	,	,	PUNCT	_	_	32	punct	_	_
-32	alors	alors	ADV	_	_	25	mod	_	_
-33	,	,	PUNCT	_	_	34	punct	_	_
-34	euh	euh	INTJ	_	_	32	discourse	_	_
-35	…	…	PUNCT	_	_	25	punct	_	_
+9	activité	activité	NOUN	_	Gender=Fem|Number=Sing	24	subj	_	_
+10	que	que	PRON	_	_	12	comp:obj	_	_
+11	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	12	subj	_	InIdiom=Yes
+12	constate	constater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	_
+13	aujourd'hui	aujourd'hui	ADV	_	_	12	mod	_	_
+14	en	en	ADP	_	_	12	mod	_	_
+15	,	,	PUNCT	_	_	16	punct	_	_
+16	en	en	ADP	conj:reform	_	14	conj:dicto	_	_
+17	Amérique	Amérique	PROPN	_	_	16	comp:obj	_	_
+18-19	du	_	_	_	_	_	_	_	_
+18	de	de	ADP	_	_	17	mod	_	_
+19	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	_
+20	Nord	Nord	PROPN	_	_	18	comp:obj	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	euh	euh	INTJ	_	_	20	discourse	_	_
+23	,	,	PUNCT	_	_	9	punct	_	_
+24	devient	devenir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
+26	activité	activité	NOUN	_	Gender=Fem|Number=Sing	24	comp:pred	_	_
+27	d'	de	ADP	_	_	26	udep	_	_
+28	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+29	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
+30	,	,	PUNCT	_	_	31	punct	_	_
+31	alors	alors	ADV	_	_	24	mod	_	_
+32	,	,	PUNCT	_	_	33	punct	_	_
+33	euh	euh	INTJ	_	_	31	discourse	_	_
+34	…	…	PUNCT	_	_	24	punct	_	_
 
-# macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" & //
+# macrosyntax = ^c'^est-^à-^dire ^que si vraiment "euh" l'activité que l'on constate aujourd'hui { en | en } Amérique du nord ( $L1 oui // ) "euh" devient l'activité d'une pandémie < alors < "euh" ESPERLUETTE //
 # text_ortho = oui.
 # speaker = L1
 # sent_id = Rhap_D2008-32bis
@@ -6509,7 +6500,7 @@
 29	vague	vague	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
 30	.	.	PUNCT	_	_	4	punct	_	_
 
-# macrosyntax = ^mais si elle se déroule { de façon "je dirais" "euh" & | un peu comme dans { les | les } fois passées } < c'est les scénarios que l'on peut imaginer //
+# macrosyntax = ^mais si elle se déroule { de façon "je dirais" "euh" ESPERLUETTE | un peu comme dans { les | les } fois passées } < c'est les scénarios que l'on peut imaginer //
 # text_ortho = mais si elle se déroule de façon, je dirais, euh, un peu comme dans les, les fois passées, c'est les scénarios que l'on peut imaginer.
 # speaker = L2
 # sent_id = Rhap_D2008-38
@@ -6540,14 +6531,13 @@
 25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 26	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	scénarios	scénario	NOUN	_	_	25	comp:pred	_	_
-28	que	que	PRON	_	_	32	comp:obj	_	_
-29	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	30	det	_	_
-30	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	31	subj	_	_
-31	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod@relcl	_	_
-32	imaginer	imaginer	VERB	_	VerbForm=Inf	31	comp:obj@x	_	_
-33	.	.	PUNCT	_	_	25	punct	_	_
+28	que	que	PRON	_	_	31	comp:obj	_	_
+29	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	30	subj	_	_
+30	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod@relcl	_	_
+31	imaginer	imaginer	VERB	_	VerbForm=Inf	30	comp:obj@x	_	_
+32	.	.	PUNCT	_	_	25	punct	_	_
 
-# macrosyntax = $L1 alors < { je | je | je } & //
+# macrosyntax = $L1 alors < { je | je | je } ESPERLUETTE //
 # text_ortho = alors, je, je, je…
 # speaker = L1
 # sent_id = Rhap_D2008-39
@@ -6749,15 +6739,14 @@
 16	cyclone	cyclone	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
 17	de	de	ADP	_	_	8	mod	_	_
 18	ce	ce	PRON	_	_	17	comp:obj	_	_
-19	que	que	PRON	_	_	22	comp:obj	_	_
-20	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	21	det	_	_
-21	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	22	subj	_	_
-22	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
-23	,	,	PUNCT	_	_	24	punct	_	_
-24	euh	euh	INTJ	_	_	22	discourse	_	_
-25	,	,	PUNCT	_	_	26	punct	_	_
-26	actuellement	actuellement	ADV	_	_	22	mod	_	_
-27	.	.	PUNCT	_	_	3	punct	_	_
+19	que	que	PRON	_	_	21	comp:obj	_	_
+20	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
+21	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
+22	,	,	PUNCT	_	_	23	punct	_	_
+23	euh	euh	INTJ	_	_	21	discourse	_	_
+24	,	,	PUNCT	_	_	25	punct	_	_
+25	actuellement	actuellement	ADV	_	_	21	mod	_	_
+26	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = "eh bien" on peut dire un peu de la même façon qu' [ aujourd'hui <+ ce que l'on voit < c'est un prémice de démarrage de pandémie "euh" ] //
 # text_ortho = eh bien, on peut dire un peu de la même façon qu' aujourd'hui, ce que l'on voit, c'est un prémice de démarrage de pandémie, euh.
@@ -6776,25 +6765,24 @@
 11	même	même	ADJ	_	Number=Sing	12	mod	_	_
 12	façon	façon	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 13	qu'	que	SCONJ	_	_	6	comp:obj	_	_
-14	aujourd'hui	aujourd'hui	ADV	_	_	23	mod	_	_
+14	aujourd'hui	aujourd'hui	ADV	_	_	22	mod	_	_
 15	,	,	PUNCT	_	_	14	punct	_	_
-16	ce	ce	PRON	_	_	23	dislocated	_	_
-17	que	que	PRON	_	_	20	comp:obj	_	_
-18	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	20	det	_	_
-19	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	18	subj	_	_
-20	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
-21	,	,	PUNCT	_	_	16	punct	_	_
-22	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	subj	_	_
-23	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
-24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	det	_	_
-25	prémice	prémice	NOUN	_	_	23	comp:pred	_	_
-26	de	de	ADP	_	_	25	udep	_	_
-27	démarrage	démarrage	NOUN	_	Gender=Masc|Number=Sing	26	comp:obj	_	_
-28	de	de	ADP	_	_	27	udep	_	_
-29	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	28	comp:obj	_	_
-30	,	,	PUNCT	_	_	31	punct	_	_
-31	euh	euh	INTJ	_	_	29	discourse	_	_
-32	.	.	PUNCT	_	_	5	punct	_	_
+16	ce	ce	PRON	_	_	22	dislocated	_	_
+17	que	que	PRON	_	_	19	comp:obj	_	_
+18	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	19	subj	_	_
+19	voit	voir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	mod@relcl	_	_
+20	,	,	PUNCT	_	_	16	punct	_	_
+21	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	22	subj	_	_
+22	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	comp:obj	_	_
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	24	det	_	_
+24	prémice	prémice	NOUN	_	_	22	comp:pred	_	_
+25	de	de	ADP	_	_	24	udep	_	_
+26	démarrage	démarrage	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
+27	de	de	ADP	_	_	26	udep	_	_
+28	pandémie	pandémie	NOUN	_	Gender=Fem|Number=Sing	27	comp:obj	_	_
+29	,	,	PUNCT	_	_	31	punct	_	_
+30	euh	euh	INTJ	_	_	28	discourse	_	_
+31	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = on n'est pas des devins //=
 # text_ortho = on n'est pas des devins.
@@ -6850,7 +6838,7 @@
 7	possibles	possible	ADJ	_	Number=Plur	6	mod	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
-# macrosyntax = ^mais celui qui $- est $L1 { le plus grave | $L2 le -$ plus & |} $-  pour la Fran~ //+
+# macrosyntax = ^mais celui qui $- est $L1 { le plus grave | $L2 le -$ plus ESPERLUETTE |} $-  pour la Fran~ //+
 # text_ortho = mais celui qui est le plus…
 # speaker = L2
 # sent_id = Rhap_D2008-53
@@ -6862,7 +6850,7 @@
 6	plus	plus	ADV	_	_	4	comp:pred	_	_
 7	…	…	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = ^mais celui qui $- est $L1 { le plus grave | $L2 le -$ plus & |} $-  pour la Fran~ //+
+# macrosyntax = ^mais celui qui $- est $L1 { le plus grave | $L2 le -$ plus ESPERLUETTE |} $-  pour la Fran~ //+
 # text_ortho = le plus grave, pour la Fran~.
 # speaker = L1
 # sent_id = Rhap_D2008-53bis
@@ -6892,7 +6880,7 @@
 4	grave	grave	ADJ	_	Number=Sing	0	root	_	AttachTo=3@Rhap_D2008-53bis|Rel=conj:dicto
 5	.	.	PUNCT	_	_	4	punct	_	_
 
-# macrosyntax = $- { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ & } //=
+# macrosyntax = $- { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ ESPERLUETTE } //=
 # text_ortho = pa~, parce que à trente mille, vous êtes dans, dans, encore dans le, dans le raison~, enfin, dans l~…
 # speaker = L1
 # sent_id = Rhap_D2008-54
@@ -6924,7 +6912,7 @@
 26	l~	l~	X	_	_	25	comp:obj	_	_
 27	…	…	PUNCT	_	_	1	punct	_	_
 
-# macrosyntax = $- { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ & } //=
+# macrosyntax = $- { ^pa~ | ^parce ^que } ( $L2 XXX ) -$ à trente mille <+ vous êtes { { { dans | dans | encore dans } le | dans le } raison~ | "enfin" dans l~ ESPERLUETTE } //=
 # text_ortho = XXX.
 # speaker = L2
 # sent_id = Rhap_D2008-54bis
@@ -6965,7 +6953,7 @@
 28	meurtrière	meurtrier	ADJ	_	Gender=Fem|Number=Sing	27	comp:pred	_	_
 29	.	.	PUNCT	_	_	6	punct	_	_
 
-# macrosyntax = la grippe saisonnière & //
+# macrosyntax = la grippe saisonnière ESPERLUETTE //
 # text_ortho = la grippe saisonnière…
 # speaker = L2
 # sent_id = Rhap_D2008-57
@@ -6974,7 +6962,7 @@
 3	saisonnière	saisonnier	ADJ	_	_	2	mod	_	_
 4	…	…	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = $L1 ^mais "enfin" { entre cinq mille morts par an | ^et trente mille } < { v~ | je } & //
+# macrosyntax = $L1 ^mais "enfin" { entre cinq mille morts par an | ^et trente mille } < { v~ | je } ESPERLUETTE //
 # text_ortho = mais, enfin, entre cinq mille morts par an et trente mille, v~, je…
 # speaker = L1
 # sent_id = Rhap_D2008-58
@@ -7090,7 +7078,7 @@
 8	pervers	pervers	ADJ	_	_	6	comp:pred	_	_
 9	.	.	PUNCT	_	_	6	punct	_	_
 
-# macrosyntax = ^mais enfin de~ XXX & //
+# macrosyntax = ^mais enfin de~ XXX ESPERLUETTE //
 # text_ortho = mais enfin de~…
 # speaker = L1
 # sent_id = Rhap_D2008-62
@@ -7142,7 +7130,7 @@
 35	quoi	quoi	PRON	_	_	34	comp:pred	_	_
 36	?	?	PUNCT	_	_	34	punct	_	_
 
-# macrosyntax = $L2 les estimations inquiétantes < $- "euh" XXX & //
+# macrosyntax = $L2 les estimations inquiétantes < $- "euh" XXX ESPERLUETTE //
 # text_ortho = les estimations inquiétantes, euh XXX…
 # speaker = L2
 # sent_id = Rhap_D2008-64
@@ -7154,7 +7142,7 @@
 6	XXX	XXX	X	_	_	2	unk@scrap	_	Overlap=Rhap_D2008-65
 7	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2008-65
 
-# macrosyntax = $L1 ça peut aller jusqu'à -$ combien concernant { { les | les } & | la France | ^et les Français } //
+# macrosyntax = $L1 ça peut aller jusqu'à -$ combien concernant { { les | les } ESPERLUETTE | la France | ^et les Français } //
 # text_ortho = ça peut aller jusqu'à combien concernant les, les, la France et les Français ?
 # speaker = L1
 # sent_id = Rhap_D2008-65
@@ -7298,7 +7286,7 @@
 26	baignoires	baignoire	NOUN	_	_	24	comp:obj	_	_
 27	.	.	PUNCT	_	_	24	punct	_	_
 
-# macrosyntax = en mille neuf cent dix-huit <+ il y avait pas { de | de | de } & //
+# macrosyntax = en mille neuf cent dix-huit <+ il y avait pas { de | de | de } ESPERLUETTE //
 # text_ortho = en mille neuf cent dix-huit, il y avait pas de, de, de…
 # speaker = L2
 # sent_id = Rhap_D2008-72
@@ -7312,11 +7300,11 @@
 8	y	y	PRON	_	Person=3|PronType=Prs	9	comp:obl	_	_
 9	avait	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	_
-11	de	UN	DET	_	_	9	comp:obj	_	_
+11	de	un	DET	_	_	9	comp:obj	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	de	UN	DET	conj:reform	_	11	conj:dicto	_	_
+13	de	un	DET	conj:reform	_	11	conj:dicto	_	_
 14	,	,	PUNCT	_	_	15	punct	_	_
-15	de	UN	DET	conj:reform	_	13	conj:dicto	_	_
+15	de	un	DET	conj:reform	_	13	conj:dicto	_	_
 16	…	…	PUNCT	_	_	9	punct	_	_
 
 # macrosyntax = la moitié { des | des | des } domiciles parisiens n'avait pas { le | le } raccord à l'égout "euh" //
@@ -7410,7 +7398,7 @@
 14	dix-huit	dix-huit	NUM	_	Number=Plur	13	flat	_	_
 15	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = il y a pas { de & | d'anti viraux } //=
+# macrosyntax = il y a pas { de ESPERLUETTE | d'anti viraux } //=
 # text_ortho = il y a pas de, d'anti viraux.
 # speaker = L2
 # sent_id = Rhap_D2008-77
@@ -7536,7 +7524,7 @@
 1	oui	oui	ADV	_	_	0	root	_	AttachTo=23@Rhap_D2008-80|Rel=discourse|Overlap=Rhap_D2008-80
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2008-80
 
-# macrosyntax = $L1 "euh" vous & //
+# macrosyntax = $L1 "euh" vous ESPERLUETTE //
 # text_ortho = euh, vous…
 # speaker = L1
 # sent_id = Rhap_D2008-81
@@ -7545,7 +7533,7 @@
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	0	root	_	_
 4	…	…	PUNCT	_	_	3	punct	_	_
 
-# macrosyntax = { il | il } y a un & //
+# macrosyntax = { il | il } y a un ESPERLUETTE //
 # text_ortho = il, il y a un…
 # speaker = L1
 # sent_id = Rhap_D2008-82
@@ -7586,7 +7574,7 @@
 23	dire	dire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	_
 24	?	?	PUNCT	_	_	11	punct	_	_
 
-# macrosyntax = c'est & //
+# macrosyntax = c'est ESPERLUETTE //
 # text_ortho = c'est…
 # speaker = L1
 # sent_id = Rhap_D2008-84
@@ -7882,7 +7870,7 @@
 11	gradations	gradation	NOUN	_	_	9	comp:obl	_	_
 12	.	.	PUNCT	_	_	8	punct	_	_
 
-# macrosyntax = je & //
+# macrosyntax = je ESPERLUETTE //
 # text_ortho = je…
 # speaker = L1
 # sent_id = Rhap_D2008-98
@@ -7980,7 +7968,7 @@
 1	oui	oui	ADV	_	_	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe & //
+# macrosyntax = ^c'^est-^à-^dire ^que la grippe < ce qu'on connaît de la grippe ESPERLUETTE //
 # text_ortho = c'est-à-dire que la grippe, ce qu'on connaît de la grippe…
 # speaker = L2
 # sent_id = Rhap_D2008-102
@@ -8125,7 +8113,7 @@
 2	circule	circuler	VERB	_	Number=Sing|Person=3	0	root	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
-5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	ExtPos=ADV|PhraseType=Graft
+5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	ExtPos=ADV|Graft=Yes
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	bien	bien	ADV	_	_	5	mod	_	_
@@ -8416,7 +8404,7 @@
 11	reportage	reportage	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
 12	.	.	PUNCT	_	_	4	punct	_	_
 
-# macrosyntax = c'est "euh" & //
+# macrosyntax = c'est "euh" ESPERLUETTE //
 # text_ortho = c'est, euh…
 # speaker = L1
 # sent_id = Rhap_D2008-118
@@ -8522,7 +8510,7 @@
 13	près	près	ADV	_	_	12	mod	_	_
 14	.	.	PUNCT	_	_	1	punct	_	_
 
-# macrosyntax = ça fait rire cette & //
+# macrosyntax = ça fait rire cette ESPERLUETTE //
 # text_ortho = ça fait rire cette…
 # speaker = L1
 # sent_id = Rhap_D2008-125
@@ -8539,7 +8527,7 @@
 1	bon	bon	INTJ	_	_	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
-# macrosyntax = $L1 "euh" ^mais je veux dire & //
+# macrosyntax = $L1 "euh" ^mais je veux dire ESPERLUETTE //
 # text_ortho = euh, mais je veux dire…
 # speaker = L1
 # sent_id = Rhap_D2008-126
@@ -8697,7 +8685,7 @@
 22	automne	automne	NOUN	_	Gender=Masc|Number=Sing	20	comp:obj	_	_
 23	?	?	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = ^et quand je reçois { le bulletin trimestrimel de & | le premier bulletin trimestriel { de ma | de ma } fille } <+ { je | j' } appelle les pompes funèbres //
+# macrosyntax = ^et quand je reçois { le bulletin trimestrimel de ESPERLUETTE | le premier bulletin trimestriel { de ma | de ma } fille } <+ { je | j' } appelle les pompes funèbres //
 # text_ortho = et quand je reçois le bulletin trimestrimel de, le premier bulletin trimestriel de ma, de ma fille, je, j' appelle les pompes funèbres.
 # speaker = L1
 # sent_id = Rhap_D2008-132
@@ -8959,7 +8947,7 @@
 61	précocement	précocement	ADV	_	_	56	conj:appos	_	_
 62	.	.	PUNCT	_	_	7	punct	_	_
 
-# macrosyntax = $L1 alors < j~ & //
+# macrosyntax = $L1 alors < j~ ESPERLUETTE //
 # text_ortho = alors, j~…
 # speaker = L1
 # sent_id = Rhap_D2008-140
@@ -9118,7 +9106,6 @@
 
 # macrosyntax = c'est { la première journée de Jésus que nous venons d'entendre |} //+ {| la première journée où il manifeste { son autorité | ^et { la nouveauté | la bonne nouvelle | l'évangile } qui arrive avec lui } } //
 # text_ortho = c'est la première journée de Jésus que nous venons d'entendre, la première journée où il manifeste son autorité et la nouveauté, la bonne nouvelle, l'évangile qui arrive avec lui.
-# speaker = L1
 # sent_id = Rhap_M2003-1
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9159,7 +9146,6 @@
 
 # macrosyntax = ^et vous l'avez remarqué en écoutant l'évangile //
 # text_ortho = et vous l'avez remarqué en écoutant l'évangile.
-# speaker = L1
 # sent_id = Rhap_M2003-2
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
@@ -9174,7 +9160,6 @@
 
 # macrosyntax = Jésus ne dit rien avant la fin de l'épisode //
 # text_ortho = Jésus ne dit rien avant la fin de l'épisode.
-# speaker = L1
 # sent_id = Rhap_M2003-3
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
@@ -9190,7 +9175,6 @@
 
 # macrosyntax = il agit //
 # text_ortho = il agit.
-# speaker = L1
 # sent_id = Rhap_M2003-4
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	agit	agir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9198,7 +9182,6 @@
 
 # macrosyntax = il fait ( d'abord ) lever la belle-mère de Pierre //
 # text_ortho = il fait, d'abord, lever la belle-mère de Pierre.
-# speaker = L1
 # sent_id = Rhap_M2003-5
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj@caus	_	_
 2	fait	faire	AUX	_	_	0	root	_	_
@@ -9215,7 +9198,6 @@
 
 # macrosyntax = ^et sa fièvre la quitte //
 # text_ortho = et sa fièvre la quitte.
-# speaker = L1
 # sent_id = Rhap_M2003-6
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	3	det	_	_
@@ -9226,7 +9208,6 @@
 
 # macrosyntax = il guérit ensuite toutes sortes de malades > comme [ plus tard <+ dans l'évangile <+ il acceptera { de se laisser toucher | ^ou de bénir en imposant les mains } ] //
 # text_ortho = il guérit ensuite toutes sortes de malades comme plus tard, dans l'évangile, il acceptera de se laisser toucher ou de bénir en imposant les mains.
-# speaker = L1
 # sent_id = Rhap_M2003-7
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	guérit	guérir	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -9260,7 +9241,6 @@
 
 # macrosyntax = il chasse { beaucoup d'esprits | >+ ce qui fait du mal aux gens } //
 # text_ortho = il chasse beaucoup d'esprits, ce qui fait du mal aux gens.
-# speaker = L1
 # sent_id = Rhap_M2003-8
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	chasse	chasser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9281,7 +9261,6 @@
 
 # macrosyntax = { avant de parler | avant toute parole } <+ la vie de Jésus { est une action //+ | est une action salutaire } //
 # text_ortho = avant de parler, avant toute parole, la vie de Jésus est une action, est une action salutaire.
-# speaker = L1
 # sent_id = Rhap_M2003-9
 1	avant	avant	NOUN	_	Gender=Masc|Number=Sing	13	dislocated	_	_
 2	de	de	ADP	_	_	1	udep	_	_
@@ -9307,7 +9286,6 @@
 
 # macrosyntax = tout chez lui est fait { de compassion | ^et non { de violence | ^ou de châtiment } } //
 # text_ortho = tout chez lui est fait de compassion et non de violence ou de châtiment.
-# speaker = L1
 # sent_id = Rhap_M2003-10
 1	tout	tout	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	subj@pass	_	_
 2	chez	chez	ADP	_	_	4	mod	_	_
@@ -9327,7 +9305,6 @@
 
 # macrosyntax = en fait < tout l'évangile nous montre un Jésus qui remet l'humanité debout //
 # text_ortho = en fait, tout l'évangile nous montre un Jésus qui remet l'humanité debout.
-# speaker = L1
 # sent_id = Rhap_M2003-11
 1	en	en	ADP	_	_	8	discourse	_	_
 2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
@@ -9348,7 +9325,6 @@
 
 # macrosyntax = ^et aujourd'hui <+ dans sa première journée <+ il fait de la belle-mère de Pierre une des toutes premières disciples //
 # text_ortho = et aujourd'hui, dans sa première journée, il fait de la belle-mère de Pierre une des toutes premières disciples.
-# speaker = L1
 # sent_id = Rhap_M2003-12
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	aujourd'hui	aujourd'hui	ADV	_	_	10	mod	_	_
@@ -9376,7 +9352,6 @@
 
 # macrosyntax = { l'évangile | la bonne nouvelle ( comme le répète l'apôtre Paul // ) | la bonne nouvelle en la personne de Jésus } < c'est ( d'abord ) { une action //+ | une action pour restaurer la dignité de la personne humaine //+ | une action pour rétablir la personne en sa qualité de sujet de parole //+ | une action pour rétablir { les uns | ^et les autres } dans les relations { avec les uns | ^et avec les autres } } //
 # text_ortho = l'évangile, la bonne nouvelle, comme le répète l'apôtre Paul, la bonne nouvelle en la personne de Jésus, c'est, d'abord, une action, une action pour restaurer la dignité de la personne humaine, une action pour rétablir la personne en sa qualité de sujet de parole, une action pour rétablir les uns et les autres dans les relations avec les uns et avec les autres.
-# speaker = L1
 # sent_id = Rhap_M2003-13
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	évangile	évangile	NOUN	_	Gender=Masc|Number=Sing	25	dislocated	_	_
@@ -9458,7 +9433,6 @@
 
 # macrosyntax = Jésus ne pose même pas ses gestes de bonté comme des appels à la foi //
 # text_ortho = Jésus ne pose même pas ses gestes de bonté comme des appels à la foi.
-# speaker = L1
 # sent_id = Rhap_M2003-14
 1	Jésus	Jésus	PROPN	_	_	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
@@ -9479,14 +9453,12 @@
 
 # macrosyntax = non //
 # text_ortho = non.
-# speaker = L1
 # sent_id = Rhap_M2003-14bis
 1	non	non	ADV	_	Polarity=Neg	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = en ses gestes <+ dans ce premier jour <+ il inaugure en sa personne { la venue de Dieu parmi les Hommes //+ | la venue définitive de Dieu pour rétablir l'humanité { dans sa vocation | ^et dans sa dignité } } //
 # text_ortho = en ses gestes, dans ce premier jour, il inaugure en sa personne la venue de Dieu parmi les Hommes, la venue définitive de Dieu pour rétablir l'humanité dans sa vocation et dans sa dignité.
-# speaker = L1
 # sent_id = Rhap_M2003-15
 1	en	en	ADP	_	_	11	mod	_	_
 2	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|PronType=Prs	3	det	_	_
@@ -9530,7 +9502,6 @@
 
 # macrosyntax = { son message initial au tout début de l'évangile [ convertissez-vous // le royaume de Dieu est proche de vous // ] | son message } s'inscrit aujourd'hui dans sa personne //
 # text_ortho = son message initial au tout début de l'évangile convertissez-vous, le royaume de Dieu est proche de vous, son message s'inscrit aujourd'hui dans sa personne.
-# speaker = L1
 # sent_id = Rhap_M2003-16
 1	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	2	det	_	_
 2	message	message	NOUN	_	Gender=Masc|Number=Sing	26	subj	_	_
@@ -9567,7 +9538,6 @@
 
 # macrosyntax = il trouve sa traduction en action dans ses gestes de libération //
 # text_ortho = il trouve sa traduction en action dans ses gestes de libération.
-# speaker = L1
 # sent_id = Rhap_M2003-17
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	trouve	trouver	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -9584,7 +9554,6 @@
 
 # macrosyntax = plus encore < dans l'évangile d'aujourd'hui <+ Jésus s'accorde le pouvoir { de guérir | ^et de chasser les esprits mauvais } //
 # text_ortho = plus encore, dans l'évangile d'aujourd'hui, Jésus s'accorde le pouvoir de guérir et de chasser les esprits mauvais.
-# speaker = L1
 # sent_id = Rhap_M2003-18
 1	plus	plus	ADV	_	_	2	mod	_	_
 2	encore	encore	ADV	_	_	12	mod	_	_
@@ -9612,7 +9581,6 @@
 
 # macrosyntax = il n'en appelle plus { ( comme on le faisait en son temps ) |} à Salomon {| >+ comme le faisaient des guérisseurs de son temps } //
 # text_ortho = il n'en appelle plus, comme on le faisait en son temps, à Salomon, comme le faisaient des guérisseurs de son temps.
-# speaker = L1
 # sent_id = Rhap_M2003-19
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	4	mod	_	_
@@ -9643,7 +9611,6 @@
 
 # macrosyntax = il guérit de son propre chef les malades //
 # text_ortho = il guérit de son propre chef les malades.
-# speaker = L1
 # sent_id = Rhap_M2003-20
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	guérit	guérir	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -9657,7 +9624,6 @@
 
 # macrosyntax = c'est sa propre vie qu'il communique à ceux qu'il rencontre //=
 # text_ortho = c'est sa propre vie qu'il communique à ceux qu'il rencontre.
-# speaker = L1
 # sent_id = Rhap_M2003-21
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9676,7 +9642,6 @@
 
 # macrosyntax = c'est { sa propre autorité qu'il engage | l'autorité de sa vie } //+
 # text_ortho = c'est sa propre autorité qu'il engage, l'autorité de sa vie.
-# speaker = L1
 # sent_id = Rhap_M2003-22
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9696,7 +9661,6 @@
 
 # macrosyntax = [ je le veux //
 # text_ortho = je le veux.
-# speaker = L1
 # sent_id = Rhap_M2003-23
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
@@ -9705,7 +9669,6 @@
 
 # macrosyntax = sois purifié // ] entend-on dans l'évangile //
 # text_ortho = sois purifié, entend-on dans l'évangile.
-# speaker = L1
 # sent_id = Rhap_M2003-24
 1	sois	être	AUX	CCOMP	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	parataxis:insert	_	Reported=Yes
 2	purifié	purifier	VERB	_	_	1	comp:aux	_	_
@@ -9719,7 +9682,6 @@
 
 # macrosyntax = ^ou ^encore [ fillette < je te le dis > [ lève-toi // ] // ]
 # text_ortho = ou encore fillette, je te le dis lève-toi.
-# speaker = L1
 # sent_id = Rhap_M2003-25
 1	ou	ou	CCONJ	_	_	8	cc	_	_
 2	encore	encore	ADV	_	_	8	mod	_	_
@@ -9735,7 +9697,6 @@
 
 # macrosyntax = ^ou ^encore [ { moi | moi } < je te l'ordonne // ] //
 # text_ortho = ou encore moi, moi, je te l'ordonne.
-# speaker = L1
 # sent_id = Rhap_M2003-26
 1	ou	ou	CCONJ	_	_	10	cc	_	_
 2	encore	encore	ADV	_	_	10	mod	_	_
@@ -9751,7 +9712,6 @@
 
 # macrosyntax = c'est désormais en son propre nom que Jésus chasse les démons //
 # text_ortho = c'est désormais en son propre nom que Jésus chasse les démons.
-# speaker = L1
 # sent_id = Rhap_M2003-27
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9769,7 +9729,6 @@
 
 # macrosyntax = il enseigne { avec autorité | pas comme { les pharisiens | ^et les scribes } } //
 # text_ortho = il enseigne avec autorité, pas comme les pharisiens et les scribes.
-# speaker = L1
 # sent_id = Rhap_M2003-28
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	enseigne	enseigner	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -9787,7 +9746,6 @@
 
 # macrosyntax = il guérit { en donnant la vie | en donnant sa propre vie } //
 # text_ortho = il guérit en donnant la vie, en donnant sa propre vie.
-# speaker = L1
 # sent_id = Rhap_M2003-29
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	guérit	guérir	VERB	_	Number=Sing|Person=3	0	root	_	_
@@ -9805,7 +9763,6 @@
 
 # macrosyntax = ^mais "voilà" le mal est toujours présent au milieu de nous //
 # text_ortho = mais, voilà, le mal est toujours présent au milieu de nous.
-# speaker = L1
 # sent_id = Rhap_M2003-30
 1	mais	mais	CCONJ	_	_	7	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -9826,7 +9783,6 @@
 
 # macrosyntax = depuis le temps de Jésus <+ il y a { le mal |} dans l'humanité //+ {| le mal moral | celui que l'on fait en faisant du mal aux autres |} //+ {| le mal physique quand surviennent aussi des catastrophes naturelles } //
 # text_ortho = depuis le temps de Jésus, il y a le mal, dans l'humanité, le mal moral, celui que l'on fait en faisant du mal aux autres, le mal physique quand surviennent aussi des catastrophes naturelles.
-# speaker = L1
 # sent_id = Rhap_M2003-31
 1	depuis	depuis	ADP	_	_	9	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9849,35 +9805,33 @@
 19	moral	moral	ADJ	_	Gender=Masc|Number=Sing	18	mod	_	_
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	celui	celui	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	11	conj:appos	_	_
-22	que	que	PRON	_	_	25	comp:obj	_	_
-23	l'	le	DET	_	Definite=Def|Number=Sing|Person=3|PronType=Art	24	det	_	_
-24	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	25	subj	_	_
-25	fait	faire	VERB	_	_	21	mod@relcl	_	_
-26	en	en	ADP	_	_	25	mod	_	_
-27	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	26	comp:obj	_	_
-28-29	du	_	_	_	_	_	_	_	_
-28	de	de	ADP	_	_	27	comp:obl	_	_
-29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
-30	mal	mal	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
-31-32	aux	_	_	_	_	_	_	_	_
-31	à	à	ADP	_	_	27	comp:obj	_	_
-32	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	33	det	_	_
-33	autres	autre	PRON	_	_	31	comp:obj	_	_
-34	,	,	PUNCT	_	_	36	punct	_	_
-35	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	36	det	_	_
-36	mal	mal	NOUN	_	Gender=Masc|Number=Sing	21	conj:coord	_	_
-37	physique	physique	ADJ	_	Number=Sing	36	mod	_	_
-38	quand	quand	SCONJ	_	_	9	mod	_	_
-39	surviennent	survenir	VERB	_	_	38	comp:obj	_	_
-40	aussi	aussi	ADV	_	_	39	mod	_	_
-41	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	42	det	_	_
-42	catastrophes	catastrophe	NOUN	_	Gender=Fem|Number=Plur	39	subj	_	_
-43	naturelles	naturel	ADJ	_	Gender=Fem|Number=Plur	42	mod	_	_
-44	.	.	PUNCT	_	_	9	punct	_	_
+22	que	que	PRON	_	_	24	comp:obj	_	_
+23	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	24	subj	_	_
+24	fait	faire	VERB	_	_	21	mod@relcl	_	_
+25	en	en	ADP	_	_	24	mod	_	_
+26	faisant	faire	VERB	_	Tense=Pres|VerbForm=Part	25	comp:obj	_	_
+27-28	du	_	_	_	_	_	_	_	_
+27	de	de	ADP	_	_	26	comp:obl	_	_
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	_
+29	mal	mal	NOUN	_	Gender=Masc|Number=Sing	27	comp:obj	_	_
+30-31	aux	_	_	_	_	_	_	_	_
+30	à	à	ADP	_	_	26	comp:obj	_	_
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	_
+32	autres	autre	PRON	_	_	30	comp:obj	_	_
+33	,	,	PUNCT	_	_	35	punct	_	_
+34	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	35	det	_	_
+35	mal	mal	NOUN	_	Gender=Masc|Number=Sing	21	conj:coord	_	_
+36	physique	physique	ADJ	_	Number=Sing	35	mod	_	_
+37	quand	quand	SCONJ	_	_	9	mod	_	_
+38	surviennent	survenir	VERB	_	_	37	comp:obj	_	_
+39	aussi	aussi	ADV	_	_	38	mod	_	_
+40	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	41	det	_	_
+41	catastrophes	catastrophe	NOUN	_	Gender=Fem|Number=Plur	38	subj	_	_
+42	naturelles	naturel	ADJ	_	Gender=Fem|Number=Plur	41	mod	_	_
+43	.	.	PUNCT	_	_	9	punct	_	_
 
 # macrosyntax = ^et le cri de Job (+ que nous avons entendu dans la première lecture ) retentit à nos oreilles //
 # text_ortho = et le cri de Job, que nous avons entendu dans la première lecture, retentit à nos oreilles.
-# speaker = L1
 # sent_id = Rhap_M2003-32
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
@@ -9902,7 +9856,6 @@
 
 # macrosyntax = vraiment ( dit Job ) < la vie de l'homme sur terre est une corvée //
 # text_ortho = vraiment, dit Job, la vie de l'homme sur terre est une corvée.
-# speaker = L1
 # sent_id = Rhap_M2003-33
 1	vraiment	vraiment	ADV	_	_	13	mod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -9923,7 +9876,6 @@
 
 # macrosyntax = il fait des journées de manoeuvre //
 # text_ortho = il fait des journées de manoeuvre.
-# speaker = L1
 # sent_id = Rhap_M2003-34
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	fait	faire	VERB	_	Number=Sing|Person=3	0	root	_	Reported=Yes
@@ -9935,7 +9887,6 @@
 
 # macrosyntax = { comme l' esclave qui désire un peu d' ombre | comme le manoeuvre qui attend sa paye depuis des mois } (+ dit Job ) < je n' y ai { rien |} gagné {| ^ sinon ^ que du néant } //
 # text_ortho = comme l' esclave qui désire un peu d' ombre, comme le manoeuvre qui attend sa paye depuis des mois, dit Job, je n' y ai rien gagné, sinon que du néant.
-# speaker = L1
 # sent_id = Rhap_M2003-35
 1	comme	comme	ADP	_	_	30	mod	_	_
 2	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
@@ -9976,7 +9927,6 @@
 
 # macrosyntax = je ne compte { que des nuits de souffrance //+ |
 # text_ortho = je ne compte que des nuits de souffrance…
-# speaker = L1
 # sent_id = Rhap_M2003-36
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	_
@@ -9990,7 +9940,6 @@
 
 # macrosyntax = que de nuits de souffrance } dans notre humanité //
 # text_ortho = que de nuits de souffrance dans notre humanité.
-# speaker = L1
 # sent_id = Rhap_M2003-37
 1	que	que	ADV	_	_	0	root	_	_
 2	de	de	ADP	_	_	1	comp:obl	_	Reported=Yes
@@ -10004,7 +9953,6 @@
 
 # macrosyntax = ^et { beaucoup ( il faut l'avouer // ) | beaucoup } s'éloignent de la foi { à cause de ce mal | à cause de cette souffrance sans répit } //
 # text_ortho = et beaucoup, il faut l'avouer, beaucoup s'éloignent de la foi à cause de ce mal, à cause de cette souffrance sans répit.
-# speaker = L1
 # sent_id = Rhap_M2003-38
 1	et	et	CCONJ	_	_	11	cc	_	_
 2	beaucoup	beaucoup	PRON	_	_	11	subj	_	_
@@ -10037,7 +9985,6 @@
 
 # macrosyntax = ^aussi { à l'approche de la journée des malades voulue par Jean-Paul deux | le onze février | en la fête de Notre-Dame de Lourdes | en ce jour de la pastorale de la santé } <+ { la puissance de guérison de Jésus | le don de la vie qu'il communique } interroge { vraiment | vraiment } { la responsabilité de l'Église | ^c'^est-^à-^dire la responsabilité de chacun d'entre nous } //
 # text_ortho = aussi à l'approche de la journée des malades voulue par Jean-Paul deux, le onze février, en la fête de Notre-Dame de Lourdes, en ce jour de la pastorale de la santé, la puissance de guérison de Jésus, le don de la vie qu'il communique interroge vraiment, vraiment la responsabilité de l'Église, c'est-à-dire la responsabilité de chacun d'entre nous.
-# speaker = L1
 # sent_id = Rhap_M2003-39
 1	aussi	aussi	ADV	_	_	53	mod	_	_
 2	à	à	ADP	_	_	53	mod	_	_
@@ -10114,7 +10061,6 @@
 
 # macrosyntax = { pour que la parole des chrétiens soit entendue ( comme la parole du Christ qui donne la vie ) | pour que notre parole soit entendue | pour qu'elle soit comprise } < ne faut-il pas ( comme pour Jésus ) que ( d'abord ) nous agissions //
 # text_ortho = pour que la parole des chrétiens soit entendue, comme la parole du Christ qui donne la vie, pour que notre parole soit entendue, pour qu'elle soit comprise, ne faut-il pas, comme pour Jésus, que, d'abord, nous agissions ?
-# speaker = L1
 # sent_id = Rhap_M2003-40
 1	pour	pour	ADP	_	_	36	mod	_	_
 2	que	que	SCONJ	_	_	1	comp:obj	_	_
@@ -10172,7 +10118,6 @@
 
 # macrosyntax = ^alors "euh" je m'appelle Clara //
 # text_ortho = alors, euh, je m'appelle Clara.
-# speaker = L1
 # sent_id = Rhap_M1001-1
 1	alors	alors	ADV	_	_	7	mod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -10186,7 +10131,6 @@
 
 # macrosyntax = j'ai dix-neuf ans //
 # text_ortho = j'ai dix-neuf ans.
-# speaker = L1
 # sent_id = Rhap_M1001-2
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10196,7 +10140,6 @@
 
 # macrosyntax = j'ai eu l'obtention de mon bac "euh" ( donc ) l'année dernière //
 # text_ortho = j'ai eu l'obtention de mon bac, euh, donc, l'année dernière.
-# speaker = L1
 # sent_id = Rhap_M1001-3
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10218,7 +10161,6 @@
 
 # macrosyntax = c'est un bac "euh" { SMS | donc technologique } //
 # text_ortho = c'est un bac, euh, SMS, donc technologique.
-# speaker = L1
 # sent_id = Rhap_M1001-4
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10235,7 +10177,6 @@
 
 # macrosyntax = c'est sciences médico-sociales //
 # text_ortho = c'est sciences médico-sociales.
-# speaker = L1
 # sent_id = Rhap_M1001-5
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10245,7 +10186,6 @@
 
 # macrosyntax = ça n'a rien à voir avec "euh" la littérature //
 # text_ortho = ça n'a rien à voir avec, euh, la littérature.
-# speaker = L1
 # sent_id = Rhap_M1001-6
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	_
@@ -10263,7 +10203,6 @@
 
 # macrosyntax = ^parce ^qu' en fait < "euh" j'aime la biologie //
 # text_ortho = parce qu' en fait, euh, j'aime la biologie.
-# speaker = L1
 # sent_id = Rhap_M1001-7
 1	parce	parce	SCONJ	_	_	0	root	_	ExtPos=SCONJ|Idiom=Yes
 2	qu'	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
@@ -10280,7 +10219,6 @@
 
 # macrosyntax = ^et je suis plus "euh" vers { la biologie | ^et "euh" le social | ^donc "euh" XXX sciences médico-sociales } //
 # text_ortho = et je suis plus, euh, vers la biologie et, euh, le social, donc, euh, XXX sciences médico-sociales.
-# speaker = L1
 # sent_id = Rhap_M1001-8
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -10310,7 +10248,6 @@
 
 # macrosyntax = ^et donc < en fait < "euh" j'ai choisi italien en deuxième choix //
 # text_ortho = et donc, en fait, euh, j'ai choisi italien en deuxième choix.
-# speaker = L1
 # sent_id = Rhap_M1001-9
 1	et	et	CCONJ	_	_	10	cc	_	_
 2	donc	donc	ADV	_	_	10	mod	_	_
@@ -10331,7 +10268,6 @@
 
 # macrosyntax = mon premier choix "euh" < c'était "euh" psychologie //
 # text_ortho = mon premier choix, euh, c'était, euh, psychologie.
-# speaker = L1
 # sent_id = Rhap_M1001-10
 1	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
 2	premier	premier	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
@@ -10349,7 +10285,6 @@
 
 # macrosyntax = ^et en fait "euh" < j'ai pas été acceptée parce qu'il y avait un entretien oral //
 # text_ortho = et en fait, euh, j'ai pas été acceptée parce qu'il y avait un entretien oral.
-# speaker = L1
 # sent_id = Rhap_M1001-11
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	en	en	ADP	_	_	11	discourse	_	_
@@ -10374,7 +10309,6 @@
 
 # macrosyntax = ^et je le savais pas //
 # text_ortho = et je le savais pas.
-# speaker = L1
 # sent_id = Rhap_M1001-12
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
@@ -10385,7 +10319,6 @@
 
 # macrosyntax = donc < en fait "euh" voilà //
 # text_ortho = donc, euh, en fait, euh, voilà.
-# speaker = L1
 # sent_id = Rhap_M1001-13
 1	donc	donc	ADV	_	_	10	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10401,7 +10334,6 @@
 
 # macrosyntax = { c'est | c'est } trop ( enfin ) { s~ | stupide } //
 # text_ortho = c'est, c'est trop, enfin, s~, stupide.
-# speaker = L1
 # sent_id = Rhap_M1001-14
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10419,7 +10351,6 @@
 
 # macrosyntax = donc < j'ai pris italien en deuxième choix parce que [ aussi "euh" < j'ai des facilités en italien ] //
 # text_ortho = donc, j'ai pris italien en deuxième choix parce que aussi, euh, j'ai des facilités en italien.
-# speaker = L1
 # sent_id = Rhap_M1001-15
 1	donc	donc	ADV	_	_	4	mod	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10446,7 +10377,6 @@
 
 # macrosyntax = je suis bilingue //
 # text_ortho = je suis bilingue.
-# speaker = L1
 # sent_id = Rhap_M1001-16
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10455,7 +10385,6 @@
 
 # macrosyntax = je parle l'italien //
 # text_ortho = je parle l'italien.
-# speaker = L1
 # sent_id = Rhap_M1001-17
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	parle	parler	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -10465,7 +10394,6 @@
 
 # macrosyntax = je le comprends //
 # text_ortho = je le comprends.
-# speaker = L1
 # sent_id = Rhap_M1001-18
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	comp:obj	_	_
@@ -10474,7 +10402,6 @@
 
 # macrosyntax = ^et donc < "euh" en fait "euh" "ben" < j'aime beaucoup l'italien > là "euh" //
 # text_ortho = et donc, euh, en fait, euh, ben, j'aime beaucoup l'italien là, euh.
-# speaker = L1
 # sent_id = Rhap_M1001-19
 1	et	et	CCONJ	_	_	14	cc	_	_
 2	donc	donc	ADV	_	_	14	mod	_	_
@@ -10500,7 +10427,6 @@
 
 # macrosyntax = ^et j' apprécie vraiment ce que je fais //
 # text_ortho = et j' apprécie vraiment ce que je fais.
-# speaker = L1
 # sent_id = Rhap_M1001-20
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -10512,9 +10438,8 @@
 8	fais	faire	VERB	_	Number=Sing|Person=1	5	mod@relcl	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
 
-# macrosyntax = ^mais en fait "euh" < je pense que je vais peut-être me réorienter "euh" > { si à la fin de l'année | si "euh" } & //
+# macrosyntax = ^mais en fait "euh" < je pense que je vais peut-être me réorienter "euh" > { si à la fin de l'année | si "euh" } ESPERLUETTE //
 # text_ortho = mais en fait, euh, je pense que je vais peut-être me réorienter, euh, si à la fin de l'année, si, euh…
-# speaker = L1
 # sent_id = Rhap_M1001-21
 1	mais	mais	CCONJ	_	_	8	cc	_	_
 2	en	en	ADP	_	_	8	discourse	_	_
@@ -10548,7 +10473,6 @@
 
 # macrosyntax = enfin < je vais finir l' année ( là ) "euh" en un an //
 # text_ortho = enfin, je vais finir l' année, là, euh, en un an.
-# speaker = L1
 # sent_id = Rhap_M1001-22
 1	enfin	enfin	ADV	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10569,7 +10493,6 @@
 
 # macrosyntax = ^et "euh" si "euh" je réussis pas < "ben" je pense que je vais en psychologie parce que [ c'est plus "euh" ce que je veux faire > la psycho ] //
 # text_ortho = et, euh, si, euh, je réussis pas, ben, je pense que je vais en psychologie parce que c'est plus, euh, ce que je veux faire la psycho.
-# speaker = L1
 # sent_id = Rhap_M1001-23
 1	et	et	CCONJ	_	_	16	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10611,7 +10534,6 @@
 
 # macrosyntax = ^et "euh" { si je | si je } passe l'année < par contre < je pense que je vais finir ma licence //
 # text_ortho = et, euh, si je, si je passe l'année, par contre, je pense que je vais finir ma licence.
-# speaker = L1
 # sent_id = Rhap_M1001-24
 1	et	et	CCONJ	_	_	18	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10641,7 +10563,6 @@
 
 # macrosyntax = { s~ | si } je passe < je passerai { en deuxième année | en troisième année } //
 # text_ortho = s~, si je passe, je passerai en deuxième année, en troisième année.
-# speaker = L1
 # sent_id = Rhap_M1001-25
 1	s~	s~	X	_	_	8	mod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -10662,7 +10583,6 @@
 
 # macrosyntax = { je fini~ | je finirai } ma licence pour avoir ma licence //
 # text_ortho = je fini~, je finirai ma licence pour avoir ma licence.
-# speaker = L1
 # sent_id = Rhap_M1001-26
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	fini~	fini~	VERB	_	Number=Sing|Person=1	0	root	_	_
@@ -10677,9 +10597,8 @@
 11	licence	licence	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = ^mais si je la passe pas < enfin < { je & | c'est & | j'ai beau~ | j'ai appris beaucoup de choses } //
+# macrosyntax = ^mais si je la passe pas < enfin < { je ESPERLUETTE | c'est ESPERLUETTE | j'ai beau~ | j'ai appris beaucoup de choses } //
 # text_ortho = mais si je la passe pas, enfin, je, c'est, j'ai beau~, j'ai appris beaucoup de choses.
-# speaker = L1
 # sent_id = Rhap_M1001-27
 1	mais	mais	CCONJ	_	_	13	cc	_	_
 2	si	si	SCONJ	_	_	13	mod	_	_
@@ -10709,7 +10628,6 @@
 
 # macrosyntax = ^et "euh" c'est très intéressant //
 # text_ortho = et, euh, c'est très intéressant.
-# speaker = L1
 # sent_id = Rhap_M1001-28
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10723,7 +10641,6 @@
 
 # macrosyntax = ^mais je pense que je me réorienterai en psychologie parce que ça m'intéresse plus //
 # text_ortho = mais je pense que je me réorienterai en psychologie parce que ça m'intéresse plus.
-# speaker = L1
 # sent_id = Rhap_M1001-29
 1	mais	mais	CCONJ	_	_	3	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
@@ -10742,9 +10659,8 @@
 15	plus	plus	ADV	_	_	14	mod	_	_
 16	.	.	PUNCT	_	_	3	punct	_	_
 
-# macrosyntax = je suis plus "euh" & //
+# macrosyntax = je suis plus "euh" ESPERLUETTE //
 # text_ortho = je suis plus, euh…
-# speaker = L1
 # sent_id = Rhap_M1001-30
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -10753,9 +10669,8 @@
 5	euh	euh	INTJ	_	_	3	discourse	_	_
 6	…	…	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = enfin < on dit que { { je suis à l'écoute des personnes | je suis compréhensive } | ^et que & } //
+# macrosyntax = enfin < on dit que { { je suis à l'écoute des personnes | je suis compréhensive } | ^et que ESPERLUETTE } //
 # text_ortho = enfin, on dit que je suis à l'écoute des personnes, je suis compréhensive, et que…
-# speaker = L1
 # sent_id = Rhap_M1001-31
 1	enfin	enfin	ADV	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10782,7 +10697,6 @@
 
 # macrosyntax = enfin < tout le monde me dit que je suis plus "euh" faite { pour "euh" | pour "euh" } { ces métiers-là | ^et ces études-là } que pour l'italien //
 # text_ortho = enfin, tout le monde me dit que je suis plus, euh, faite pour, euh, pour, euh, ces métiers-là et ces études-là que pour l'italien.
-# speaker = L1
 # sent_id = Rhap_M1001-32
 1	enfin	enfin	ADV	_	_	7	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -10822,7 +10736,6 @@
 
 # macrosyntax = donc < "euh" je pense que { je vais "euh" | je vais } sûrement me réorienter //+ en psychologie //
 # text_ortho = donc, euh, je pense que je vais, euh, je vais sûrement me réorienter, en psychologie.
-# speaker = L1
 # sent_id = Rhap_M1001-33
 1	donc	donc	ADV	_	_	6	mod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -11066,7 +10979,7 @@
 5	,	,	PUNCT	_	_	14	punct	_	_
 6	euh	euh	INTJ	_	_	14	discourse	_	_
 7	,	,	PUNCT	_	_	6	punct	_	_
-8	disons	dire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	subj	_	PhraseType=Graft
+8	disons	dire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	subj	_	Graft=Yes
 9	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	10	det	_	_
 10	carrière	carrière	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	pour	pour	ADP	_	_	8	mod	_	_
@@ -11613,7 +11526,7 @@
 5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	eu	avoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	envie	envie	NOUN	_	Gender=Fem|Number=Sing	6	comp:obj@lvc	_	_
-8	de	de	ADP	_	_	7	comp:obl	_	_
+8	de	de	ADP	_	_	7	comp:obl@x	_	_
 9	savoir	savoir	VERB	_	VerbForm=Inf	8	comp:obj	_	_
 10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	mod	_	ExtPos=ADV|Idiom=Yes
 11	petit	petit	ADJ	_	Gender=Masc|Number=Sing	10	unk	_	InIdiom=Yes
@@ -14133,7 +14046,6 @@
 
 # macrosyntax = vous allez à Hermillon //
 # text_ortho = vous allez à Hermillon.
-# speaker = L1
 # sent_id = Rhap_M0008-1
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
@@ -14143,7 +14055,6 @@
 
 # macrosyntax = ^et "euh" ensuite < vous prenez la direction de Saint-Jean //
 # text_ortho = et, euh, ensuite, vous prenez la direction de Saint-Jean.
-# speaker = L1
 # sent_id = Rhap_M0008-2
 1	et	et	CCONJ	_	_	8	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14161,7 +14072,6 @@
 
 # macrosyntax = { vous passe~ | "euh"
 # text_ortho = vous passe~, euh.
-# speaker = L1
 # sent_id = Rhap_M0008-3
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	passe~	passer	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
@@ -14171,7 +14081,6 @@
 
 # macrosyntax = vous prenez } la grande ligne droite //
 # text_ortho = vous prenez la grande ligne droite.
-# speaker = L1
 # sent_id = Rhap_M0008-4
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	prenez	prendre	VERB	_	Number=Plur|Person=2	0	root	_	_
@@ -14183,7 +14092,6 @@
 
 # macrosyntax = ^et vous tournez { à | à } gauche //
 # text_ortho = et vous tournez à, à gauche.
-# speaker = L1
 # sent_id = Rhap_M0008-5
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
@@ -14196,7 +14104,6 @@
 
 # macrosyntax = "euh" vous passez devant les pompiers //
 # text_ortho = euh, vous passez devant les pompiers.
-# speaker = L1
 # sent_id = Rhap_M0008-6
 1	euh	euh	INTJ	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14209,7 +14116,6 @@
 
 # macrosyntax = ^et ensuite < il y a une ligne droite //
 # text_ortho = et ensuite, il y a une ligne droite.
-# speaker = L1
 # sent_id = Rhap_M0008-7
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	ensuite	ensuite	ADV	_	_	6	mod	_	_
@@ -14224,7 +14130,6 @@
 
 # macrosyntax = vous allez à droite //
 # text_ortho = vous allez à droite.
-# speaker = L1
 # sent_id = Rhap_M0008-8
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	allez	aller	VERB	ETRE	Number=Plur|Person=2	0	root	_	_
@@ -14234,7 +14139,6 @@
 
 # macrosyntax = ^et "euh" vous continuez //
 # text_ortho = et, euh, vous continuez.
-# speaker = L1
 # sent_id = Rhap_M0008-9
 1	et	et	CCONJ	_	_	6	cc	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14246,7 +14150,6 @@
 
 # macrosyntax = ^et vous tombez sur la gare //
 # text_ortho = et vous tombez sur la gare.
-# speaker = L1
 # sent_id = Rhap_M0008-10
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	3	subj	_	_
@@ -14258,7 +14161,6 @@
 
 # macrosyntax = { mesdames | ^et messieurs } < je suis heureux de me retrouver ce soir parmi vous //
 # text_ortho = mesdames et messieurs, je suis heureux de me retrouver ce soir parmi vous.
-# speaker = L1
 # sent_id = Rhap_M2001-1
 1	mesdames	Monsieur	NOUN	_	_	6	dislocated	_	_
 2	et	et	CCONJ	_	_	3	cc	_	_
@@ -14278,7 +14180,6 @@
 
 # macrosyntax = après ma visite { à Landivisiau | ^et à l' île Longue } ce matin < c' est ( donc ) une journée entière que j' aurai passée avec nos forces armées //
 # text_ortho = après ma visite à Landivisiau et à l' île Longue ce matin, c' est donc une journée entière que j' aurai passée avec nos forces armées.
-# speaker = L1
 # sent_id = Rhap_M2001-2
 1	après	après	ADP	_	_	18	udep	_	_
 2	ma	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	3	det	_	_
@@ -14311,7 +14212,6 @@
 
 # macrosyntax = c' est bien sûr dans mon esprit la marque du lien direct qui unit le président de la république (+ chef des armées ) avec " euh " { toutes celles | ^ et tous ceux } qui ont la difficile mission de veiller { sur nos intérêts | ^ et sur la sécurité de nos concitoyens } //
 # text_ortho = c' est bien sûr dans mon esprit la marque du lien direct qui unit le président de la république, chef des armées, avec, euh, toutes celles et tous ceux qui ont la difficile mission de veiller sur nos intérêts et sur la sécurité de nos concitoyens.
-# speaker = L1
 # sent_id = Rhap_M2001-3
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14371,7 +14271,6 @@
 
 # macrosyntax = c' est pour cela que je tenais à vous rencontrer la veille de notre fête nationale //
 # text_ortho = c' est pour cela que je tenais à vous rencontrer la veille de notre fête nationale.
-# speaker = L1
 # sent_id = Rhap_M2001-4
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14393,7 +14292,6 @@
 
 # macrosyntax = le quatorze juillet <+ lors du traditionnel défilé <+ c' est la nation toute entière qui vous rend hommage //
 # text_ortho = le quatorze juillet, lors du traditionnel défilé, c' est la nation tout entière qui vous rend hommage.
-# speaker = L1
 # sent_id = Rhap_M2001-5
 1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	quatorze	quatorze	NUM	_	Number=Plur	14	mod	_	_
@@ -14420,7 +14318,6 @@
 
 # macrosyntax = { elle salue le courage | elle salue la loyauté | elle salue le dévouement | elle salue l' esprit de sacrifice } de ceux qui ont choisi de servir { sa défense | ses intérêts | ^et ses valeurs } à travers le monde //
 # text_ortho = elle salue le courage, elle salue la loyauté, elle salue le dévouement, elle salue l' esprit de sacrifice de ceux qui ont choisi de servir sa défense, ses intérêts et ses valeurs à travers le monde.
-# speaker = L1
 # sent_id = Rhap_M2001-6
 1	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	salue	saluer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14466,7 +14363,6 @@
 
 # macrosyntax = ^et c' est la raison pour laquelle [ au nom de la république <+ j'honorerai certains d' entre vous dans quelques instants ] //
 # text_ortho = et c' est la raison pour laquelle au nom de la république, j'honorerai certains d' entre vous dans quelques instants.
-# speaker = L1
 # sent_id = Rhap_M2001-7
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	subj	_	_
@@ -14496,7 +14392,6 @@
 
 # macrosyntax = cette année <+ j' ai tenu à ce que cette fête nationale soit aussi celle de l' Europe //
 # text_ortho = cette année, j' ai tenu à ce que cette fête nationale soit aussi celle de l' Europe.
-# speaker = L1
 # sent_id = Rhap_M2001-8
 1	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	2	det	_	_
 2	année	année	NOUN	_	Gender=Fem|Number=Sing	5	dislocated	_	_
@@ -14520,7 +14415,6 @@
 
 # macrosyntax = ^et demain <+ ce sont les vingt-six drapeaux de nos partenaires européens qui défileront aux côtés de nos armées //
 # text_ortho = et demain, ce sont les vingt-six drapeaux de nos partenaires européens qui défileront aux côtés de nos armées.
-# speaker = L1
 # sent_id = Rhap_M2001-9
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	demain	demain	ADV	_	_	5	mod	_	_
@@ -14547,7 +14441,6 @@
 
 # macrosyntax = j' en remercie d' ailleurs ( { cher Hervé | cher Alain } ) tout spécialement les ministres de la défense qui sont parmi nous ce soir //
 # text_ortho = j' en remercie d' ailleurs, cher Hervé, cher Alain, tout spécialement les ministres de la défense qui sont parmi nous ce soir.
-# speaker = L1
 # sent_id = Rhap_M2001-10
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	en	en	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	_
@@ -14578,7 +14471,6 @@
 
 # macrosyntax = je leur adresse un salut très amical //
 # text_ortho = je leur adresse un salut très amical.
-# speaker = L1
 # sent_id = Rhap_M2001-11
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
 2	leur	lui	PRON	_	Number=Plur|Person=3|PronType=Prs	3	comp:obl	_	_
@@ -14591,7 +14483,6 @@
 
 # macrosyntax = c' est l' image d' { une Europe qui repart d' un même pas | une Europe résolue à se remettre en mouvement après deux années d' immobilisme | une Europe vigilante qui n' oublie pas l' impératif de protection dans un monde { plus instable | ^et moins prévisible } | une Europe { prête à assumer ses responsabilités | ^et au sein de laquelle la France a bien l' intention de tenir son rang } } //
 # text_ortho = c' est l' image d' une Europe qui repart d' un même pas, une Europe résolue à se remettre en mouvement après deux années d' immobilisme, une Europe vigilante qui n' oublie pas l' impératif de protection dans un monde plus instable et moins prévisible, une Europe prête à assumer ses responsabilités et au sein de laquelle la France a bien l' intention de tenir son rang.
-# speaker = L1
 # sent_id = Rhap_M2001-12
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14660,8 +14551,8 @@
 64	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	mod@relcl	_	_
 65	bien	bien	ADV	_	_	64	mod	_	_
 66	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	67	det	_	_
-67	intention	intention	NOUN	_	Gender=Fem|Number=Sing	64	comp:obj	_	_
-68	de	de	ADP	_	_	67	udep	_	_
+67	intention	intention	NOUN	_	Gender=Fem|Number=Sing	64	comp:obj@lvc	_	_
+68	de	de	ADP	_	_	67	comp:obl@x	_	_
 69	tenir	tenir	VERB	_	VerbForm=Inf	68	comp:obj	_	_
 70	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	71	det	_	_
 71	rang	rang	NOUN	_	Gender=Masc|Number=Sing	69	comp:obj	_	_
@@ -14669,7 +14560,6 @@
 
 # macrosyntax = les bases d' une défense européenne existent //
 # text_ortho = les bases d' une défense européenne existent.
-# speaker = L1
 # sent_id = Rhap_M2001-13
 1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
 2	bases	base	NOUN	_	Gender=Fem|Number=Plur	7	subj	_	_
@@ -14682,7 +14572,6 @@
 
 # macrosyntax = il faut les faire grandir en quittant le terrain des mots pour gagner celui de l' action //
 # text_ortho = il faut les faire grandir en quittant le terrain des mots pour gagner celui de l' action.
-# speaker = L1
 # sent_id = Rhap_M2001-14
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	subj	_	_
 2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14707,7 +14596,6 @@
 
 # macrosyntax = { demain | ^davantage ^qu' aujourd' hui } <+ je souhaite que l' Europe soit capable d' assurer sa sécurité de façon autonome //
 # text_ortho = demain, davantage qu' aujourd' hui, je souhaite que l' Europe soit capable d' assurer sa sécurité de façon autonome.
-# speaker = L1
 # sent_id = Rhap_M2001-15
 1	demain	demain	ADV	_	_	8	mod	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
@@ -14733,7 +14621,6 @@
 
 # macrosyntax = alors < si la France pèse aujourd' hui sur la scène internationale < il lui faut un outil de défense adapté à la hauteur de ses ambitions //
 # text_ortho = alors, si la France pèse aujourd' hui sur la scène internationale, il lui faut un outil de défense adapté à la hauteur de ses ambitions.
-# speaker = L1
 # sent_id = Rhap_M2001-16
 1	alors	alors	ADV	_	_	15	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
@@ -14765,7 +14652,6 @@
 
 # macrosyntax = c' est aussi là l' intérêt fondamental { de l' Europe | ^et de nos partenaires } //
 # text_ortho = c' est aussi là l' intérêt fondamental de l' Europe et de nos partenaires.
-# speaker = L1
 # sent_id = Rhap_M2001-17
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14785,7 +14671,6 @@
 
 # macrosyntax = { aujourd' hui | ^plus ^que jamais } ( ^et vous le savez mieux que personne // ) <+ c' est sur le terrain que { se gagne | ^ou se perd } le combat //=
 # text_ortho = aujourd' hui, plus que jamais, et vous le savez mieux que personne, c' est sur le terrain que se gagne ou se perd le combat.
-# speaker = L1
 # sent_id = Rhap_M2001-18
 1	aujourd'hui	aujourd'hui	ADV	_	_	19	mod	_	_
 2	,	,	PUNCT	_	_	5	punct	_	_
@@ -14818,7 +14703,6 @@
 
 # macrosyntax = c' est sur le terrain { qu' une nation affirme son influence | qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager } //
 # text_ortho = c' est sur le terrain qu' une nation affirme son influence, qu' elle pèse dans une coalition au travers des forces qu' elle est capable d' engager.
-# speaker = L1
 # sent_id = Rhap_M2001-19
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj@expl	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14856,7 +14740,6 @@
 
 # macrosyntax = cet engagement sur le terrain est pour vous { de plus en plus difficile | ^et de plus en plus dangereux } //
 # text_ortho = cet engagement sur le terrain est pour vous de plus en plus difficile et de plus en plus dangereux.
-# speaker = L1
 # sent_id = Rhap_M2001-20
 1	cet	ce	DET	_	_	2	det	_	_
 2	engagement	engagement	NOUN	_	Gender=Masc|Number=Sing	6	subj	_	_
@@ -14881,7 +14764,6 @@
 
 # macrosyntax = { l' Afghanistan | le Proche-Orient } < je connais la somme { de courage | ^et d' abnégation } que requiert l' accomplissement de vos missions dans un tel contexte //
 # text_ortho = l' Afghanistan, le Proche-Orient, je connais la somme de courage et d' abnégation que requiert l' accomplissement de vos missions dans un tel contexte.
-# speaker = L1
 # sent_id = Rhap_M2001-21
 1	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	2	det	_	_
 2	Afghanistan	Afghanistan	PROPN	_	_	8	dislocated	_	_
@@ -14913,7 +14795,6 @@
 
 # macrosyntax = je sais également ce que cela signifie pour vos familles { que je veux saluer particulièrement | dont j' imagine qu' elles sont souvent confrontées à { l' absence | ^et parfois l' angoisse } } //
 # text_ortho = je sais également ce que cela signifie pour vos familles que je veux saluer particulièrement, dont j' imagine qu' elles sont souvent confrontées à l' absence et parfois l' angoisse.
-# speaker = L1
 # sent_id = Rhap_M2001-22
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -14950,7 +14831,6 @@
 
 # macrosyntax = je sais aussi "hélas" le { lourd tribut payé par certains de vos compagnons d' armes | tribut qui peut aller jusqu' au sacrifice ultime } //
 # text_ortho = je sais aussi, hélas, le lourd tribut payé par certains de vos compagnons d' armes, tribut qui peut aller jusqu' au sacrifice ultime.
-# speaker = L1
 # sent_id = Rhap_M2001-23
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	2	subj	_	_
 2	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -15022,8 +14902,9 @@
 # speaker = L2
 # sent_id = Rhap_D1001-1bis
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=29@Rhap_D1001-1|Rel=discourse
-2	mh	mh	INTJ	_	_	1	conj:dicto	_	_
-3	.	.	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mh	mh	INTJ	_	_	1	conj:dicto	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L1 on dit que il y a la région de Beauce //
 # text_ortho = on dit que il y a la région de Beauce.
@@ -15296,8 +15177,8 @@
 2	n'	ne	ADV	_	Polarity=Neg	3	mod	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	_
-5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
-6	de	de	ADP	_	_	5	udep	_	_
+5	peur	peur	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj@lvc	_	_
+6	de	de	ADP	_	_	5	comp:obl	_	_
 7	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	effort	effort	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
 9	.	.	PUNCT	_	_	3	punct	_	_
@@ -15880,7 +15761,7 @@
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	plus	plus	ADV	_	_	12	mod	_	_
 15	que	que	SCONJ	_	_	14	comp:obj	_	_
-16	d'	UN	DET	_	_	17	det	_	_
+16	d'	un	DET	_	_	17	det	_	_
 17	autres	autre	PRON	_	_	15	comp:obj	_	_
 18	,	,	PUNCT	_	_	21	punct	_	_
 19	disons	dire	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	discourse	_	_
@@ -16083,8 +15964,9 @@
 # speaker = L2
 # sent_id = Rhap_D1001-39bis
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=13@Rhap_D1001-39|Rel=discourse
-2	mh	mh	INTJ	_	_	1	conj:dicto	_	_
-3	.	.	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mh	mh	INTJ	_	_	1	conj:dicto	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L1 lorsqu' il s'agit d'une grande ville comme Orléans <+ le prêtre est bien plus en contact avec ceux qui viennent le voir // ^parce ^qu'il ne peut pas être en contact avec tout le monde //
 # text_ortho = lorsqu' il s'agit d'une grande ville comme Orléans, le prêtre est bien plus en contact avec ceux qui viennent le voir, parce qu'il ne peut pas être en contact avec tout le monde.
@@ -16135,8 +16017,9 @@
 # speaker = L2
 # sent_id = Rhap_D1001-40bis
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=38@Rhap_D1001-40|Rel=discourse
-2	mh	mh	INTJ	_	_	1	conj:dicto	_	_
-3	.	.	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mh	mh	INTJ	_	_	1	conj:dicto	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L1 alors < ceux qui viennent le voir < ce sont { les | les } hommes { qui ont une formation chrétienne | ^et qui font partie de la paroisse | ^et qui viennent { à l'occasion de l'éducation des enfants | à l'occasion des offices | à l'occasion des cérémonies religieuses } | "euh" qui viennent { pour les baptêmes | pour { les mariages | les enterrements } } | "euh" qui viennent toujours pour un but "euh" précis qui a trait { à la | à la } vie chrétienne } //
 # text_ortho = alors, ceux qui viennent le voir, ce sont les, les hommes qui ont une formation chrétienne et qui font partie de la paroisse et qui viennent à l'occasion de l'éducation des enfants, à l'occasion des offices, à l'occasion des cérémonies religieuses, euh, qui viennent pour les baptêmes, pour les mariages, les enterrements, euh, qui viennent toujours pour un but, euh, précis qui a trait à la, à la vie chrétienne.
@@ -16321,8 +16204,9 @@
 # speaker = L2
 # sent_id = Rhap_D1001-42bis
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=69@Rhap_D1001-42|Rel=discourse
-2	mh	mh	INTJ	_	_	1	conj:dicto	_	_
-3	.	.	PUNCT	_	_	1	punct	_	_
+2	,	,	PUNCT	_	_	3	punct	_	_
+3	mh	mh	INTJ	_	_	1	conj:dicto	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L1 ^alors vous abordez là { tout | tout } cet aspect de l'effort de l'église actuelle pour n'être pas simplement en contact avec ceux qui traditionnellement sont chrétiens // ^mais le problème { de l'église | du contact } { avec tous les hommes | ^et en particulier avec ceux { qui | qui } sont { plus | plus } éprouvés "quoi" dans le travail } ESPERLUETTE //
 # text_ortho = alors vous abordez là tout, tout cet aspect de l'effort de l'église actuelle pour n'être pas simplement en contact avec ceux qui traditionnellement sont chrétiens, mais le problème de l'église, du contact avec tous les hommes, et en particulier avec ceux qui, qui sont plus, plus éprouvés, quoi, dans le travail…
