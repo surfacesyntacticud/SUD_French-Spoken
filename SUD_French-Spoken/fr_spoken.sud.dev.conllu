@@ -3327,16 +3327,16 @@
 # macrosyntax = au moins six blessés légers > des policiers //
 # text_ortho = au moins six blessés légers des policiers.
 # sent_id = Rhap_M2006-29
-1	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	3	mod	_	_
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	moins	moins	ADV	_	_	1	comp:obj	_	_
-3	six	six	NUM	_	Number=Plur	4	det	_	_
-4	blessés	blessé	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
-5	légers	léger	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	_
-6	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	7	det	_	_
-7	policiers	policier	NOUN	_	Gender=Masc|Number=Plur	4	conj:appos	_	_
-8	.	.	PUNCT	_	_	4	punct	_	_
+1-2	au	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	4	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	moins	moins	ADV	_	_	1	comp:obj	_	_
+4	six	six	NUM	_	Number=Plur	5	det	_	_
+5	blessés	blessé	NOUN	_	Gender=Masc|Number=Plur	0	root	_	_
+6	légers	léger	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	_
+7	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	8	det	_	_
+8	policiers	policier	NOUN	_	Gender=Masc|Number=Plur	5	conj:appos	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = des jeunes { cagoulés | ^et armés } ont { pillé des magasins | brûlé { des pneus | ^et des voitures } } //
 # text_ortho = des jeunes cagoulés et armés ont pillé des magasins, brûlé des pneus et des voitures.
@@ -3598,26 +3598,26 @@
 # macrosyntax = aux États Unis <+ Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès //
 # text_ortho = aux États Unis, Barack Obama a promulgué son plan de relance adopté ce week-end par le congrès.
 # sent_id = Rhap_M2006-46
-1	aux	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	7	mod	_	_
-1	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	2	det	_	_
-2	États-Unis	États-Unis	PROPN	_	_	1	comp:obj	_	_
-3	,	,	PUNCT	_	_	1	punct	_	_
-4	Barack	Barack	PROPN	_	_	6	subj	_	_
-5	Obama	Obama	PROPN	_	_	4	flat	_	_
-6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	promulgué	promulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	_
-8	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	9	det	_	_
-9	plan	plan	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj	_	_
-10	de	de	ADP	_	_	9	udep	_	_
-11	relance	relance	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
-12	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	mod	_	_
-13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	14	det	_	_
-14	week-end	week-end	NOUN	_	Gender=Masc|Number=Sing	12	mod	_	_
-15	par	par	ADP	_	_	12	comp:obl	_	_
-16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	_
-17	congrès	congrès	NOUN	_	Gender=Masc	15	comp:obj	_	_
-18	.	.	PUNCT	_	_	6	punct	_	_
+1-2	aux	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	8	mod	_	_
+2	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
+3	États-Unis	États-Unis	PROPN	_	_	1	comp:obj	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	Barack	Barack	PROPN	_	_	7	subj	_	_
+6	Obama	Obama	PROPN	_	_	5	flat	_	_
+7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	promulgué	promulguer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	comp:aux	_	_
+9	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	10	det	_	_
+10	plan	plan	NOUN	_	Gender=Masc|Number=Sing	8	comp:obj	_	_
+11	de	de	ADP	_	_	10	udep	_	_
+12	relance	relance	NOUN	_	Gender=Fem|Number=Sing	11	comp:obj	_	_
+13	adopté	adopter	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	mod	_	_
+14	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_
+15	week-end	week-end	NOUN	_	Gender=Masc|Number=Sing	13	mod	_	_
+16	par	par	ADP	_	_	13	comp:obl	_	_
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+18	congrès	congrès	NOUN	_	Gender=Masc	16	comp:obj	_	_
+19	.	.	PUNCT	_	_	7	punct	_	_
 
 # macrosyntax = sept-cent quatre-vingt-sept milliards de dollars destinés à { sauver | ^ou créer } plus de trois millions et demi d'emplois //
 # text_ortho = sept-cent quatre-vingt-sept milliards de dollars destinés à sauver ou créer plus de trois millions et demi d'emplois.
@@ -5183,17 +5183,17 @@
 # macrosyntax = au rond-point <+ il faut tourner à gauche //
 # text_ortho = au rond-point, il faut tourner à gauche.
 # sent_id = Rhap_M0004-4
-1	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	5	mod	_	_
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-3	,	,	PUNCT	_	_	1	punct	_	_
-4	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	subj	_	_
-5	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	tourner	tourner	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
-7	à	à	ADP	_	_	6	mod	_	_
-8	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	.	.	PUNCT	_	_	5	punct	_	_
+1-2	au	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	6	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
+5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
+6	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	tourner	tourner	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
+8	à	à	ADP	_	_	7	mod	_	_
+9	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+10	.	.	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = ^et tout droit //
 # text_ortho = et tout droit.
@@ -5691,9 +5691,9 @@
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	XXX	XXX	PROPN	_	_	2	comp:pred	_	Overlap=Rhap_D0009-16
-4	juste	juste	ADV	_	_	4	mod	_	Overlap=Rhap_D0009-16
-4	XXX	XXX	PROPN	_	_	4	conj:dicto	_	Overlap=Rhap_D0009-16
-5	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0009-16
+5	juste	juste	ADV	_	_	4	mod	_	Overlap=Rhap_D0009-16
+6	XXX	XXX	PROPN	_	_	4	conj:dicto	_	Overlap=Rhap_D0009-16
+7	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0009-16
 
 # macrosyntax = $L2 "ben" c'est les chaises { de l'autre côté | là } // -$
 # text_ortho = ben, c'est les chaises de l'autre côté, là.
@@ -7743,9 +7743,9 @@
 11	,	,	PUNCT	_	_	1	punct	_	_
 12	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	subj	_	_
 13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
-14	XXX	XXX	PROPN	_	_	13	comp:pred	_	_
-15	.	.	PUNCT	_	_	13	punct	_	_
+14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
+15	XXX	XXX	PROPN	_	_	13	comp:pred	_	_
+16	.	.	PUNCT	_	_	13	punct	_	_
 
 # macrosyntax = $L2 "ben" non //
 # text_ortho = ben, non.
@@ -8508,8 +8508,8 @@
 13	situe	situer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	ExtPos=VERB|Idiom=Yes
 14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
 15	garage	garage	NOUN	_	Gender=Masc|Number=Sing	13	subj	_	_
-15	Fiat	Fiat	PROPN	_	_	15	mod@appos	_	_
-16	.	.	PUNCT	_	_	2	punct	_	_
+16	Fiat	Fiat	PROPN	_	_	15	mod@appos	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = vous prenez ce rond-point à gauche //
 # text_ortho = vous prenez ce rond-point à gauche.
@@ -8553,17 +8553,17 @@
 # macrosyntax = au prochain rond-point <+ vous prenez à gauche //
 # text_ortho = au prochain rond-point, vous prenez à gauche.
 # sent_id = Rhap_M0007-17
-1	au	_	_	_	_	_	_	_	_
-1	à	à	ADP	_	_	6	mod	_	_
-1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-2	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	3	mod	_	_
-3	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-4	,	,	PUNCT	_	_	1	punct	_	_
-5	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	6	subj	_	_
-6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-7	à	à	ADP	_	_	6	comp:obl	_	_
-8	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
-9	.	.	PUNCT	_	_	6	punct	_	_
+1-2	au	_	_	_	_	_	_	_	_
+1	à	à	ADP	_	_	7	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+3	prochain	prochain	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
+4	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	7	subj	_	_
+7	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	à	à	ADP	_	_	7	comp:obl	_	_
+9	gauche	gauche	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
+10	.	.	PUNCT	_	_	7	punct	_	_
 
 # macrosyntax = vous descendez la route "euh" vers les sapeurs pompiers "euh" en bas de la route //
 # text_ortho = vous descendez la route, euh, vers les sapeurs pompiers, euh, en bas de la route.
@@ -15568,7 +15568,7 @@
 2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Idiom=Yes|AttachTo=4@Rhap_D0002-67bis|Rel=mod|Overlap=Rhap_D0002-67bis
 3	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-67bis
 4	bien	bien	ADV	_	_	5	mod	_	ExtPos=ADV|InIdiom=Yes|Overlap=Rhap_D0002-67bis
-5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	conj:dicto	_	Idiom=Yes||Overlap=Rhap_D0002-67bis
+5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	conj:dicto	_	Idiom=Yes|Overlap=Rhap_D0002-67bis
 6	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-67bis
 
 # macrosyntax = $- donc < c'est pour ça ( $L1 { bien sûr | bien sûr } // ) -$ que je parlais $- ( $L1 oui // XXX oui // ) $L2 de mélange XXX "euh" //
