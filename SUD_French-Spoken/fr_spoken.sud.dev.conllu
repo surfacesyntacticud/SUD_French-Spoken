@@ -232,7 +232,7 @@
 5	dans	dans	ADP	_	_	15	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	adresses	adresse	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
-8	qu'	que	PRON	_	_	12	comp:obj	_	_
+8	qu'	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 9	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	11	subj	_	_
 10	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	12	comp:obl	_	_
 11	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	mod@relcl	_	_
@@ -248,7 +248,7 @@
 21	a	avoir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	conj:dicto	_	_
 22	deux	deux	NUM	_	Number=Plur	23	det	_	_
 23	rendez-vous	rendez-vous	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
-24	que	que	PRON	_	_	28	comp:obj	_	_
+24	que	que	PRON	_	PronType=Rel	28	comp:obj	_	_
 25	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	26	subj	_	_
 26	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
 27	dû	devoir	VERB	DoubleAux	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	26	comp:aux	_	_
@@ -610,7 +610,7 @@
 29	,	,	PUNCT	_	_	31	punct	_	_
 30	vraiment	vraiment	ADV	_	_	21	mod	_	_
 31	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	comp:obj	_	_
-32	que	que	PRON	_	_	34	comp:pred	_	_
+32	que	que	PRON	_	PronType=Rel	34	comp:pred	_	_
 33	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	34	subj@expl	_	_
 34	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	31	mod@relcl	_	_
 35	que	que	SCONJ	_	_	34	comp:cleft	_	_
@@ -892,9 +892,9 @@
 13	euh	euh	INTJ	_	_	11	discourse	_	_
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	de	de	ADP	_	_	6	conj:dicto	_	_
-16	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	22	comp:obj	_	_
+16	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	22	comp:obj	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	m'	me	PRON	_	Number=Sing|Person=1|PronType=Prs	16	conj:dicto	_	_
+18	m'	se	PRON	_	Number=Sing|Person=1|PronType=Prs	16	conj:dicto	_	_
 19	être	être	AUX	_	VerbForm=Inf	15	comp:obj	_	_
 20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	InIdiom=Yes
 21	peu	peu	NOUN	_	_	22	mod	_	ExtPos=ADV|Idiom=Yes
@@ -1103,7 +1103,7 @@
 7	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	8	subj	_	_
 8	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	6	comp:obj	_	_
 9	savoir	savoir	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
-10	pourquoi	pourquoi	PRON	_	_	9	comp:obj	_	_
+10	pourquoi	pourquoi	ADV	_	_	9	comp:obj	_	_
 11	.	.	PUNCT	_	_	4	punct	_	_
 
 # macrosyntax = $L2 { oui | si } //
@@ -1159,7 +1159,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-9	que	que	PRON	_	_	11	comp:obj	_	_
+9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	_
@@ -1260,7 +1260,7 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	endroit	endroit	NOUN	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
-9	que	que	PRON	_	_	11	comp:obj	_	_
+9	que	que	PRON	_	PronType=Rel	11	comp:obj	_	_
 10	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	aime	aimer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	pas	pas	ADV	_	Polarity=Neg	13	mod	_	_
@@ -1706,7 +1706,7 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	euh	euh	INTJ	_	_	15	discourse	_	_
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	qui	qui	PRON	conj:reform	_	15	conj:dicto	_	_
+19	qui	qui	PRON	conj:reform	PronType=Rel	15	conj:dicto	_	_
 20	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 21	,	,	PUNCT	_	_	23	punct	_	_
 22	qui	qui	PRON	_	PronType=Rel	23	subj	_	_
@@ -1824,7 +1824,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	comme	comme	ADP	_	_	2	comp:pred	_	_
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	comment	comment	PRON	_	_	6	mod	_	_
+5	comment	comment	ADV	_	_	6	mod	_	_
 6	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj	_	Graft=Yes
 7	?	?	PUNCT	_	_	2	punct	_	_
 
@@ -1858,7 +1858,7 @@
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	4	subj	_	_
 4	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	comp:obj	_	_
-6	que	que	PRON	_	_	9	comp:obj	_	_
+6	que	que	PRON	_	PronType=Rel	9	comp:obj	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	_
 9	dire	dire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
@@ -2079,18 +2079,18 @@
 # text_ortho = n'importe quand.
 # speaker = L2
 # sent_id = Rhap_D0006-80
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
-2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|Idiom=Yes
-3	quand	quand	ADV	_	_	2	comp:obj	_	InIdiom=Yes
-4	.	.	PUNCT	_	_	2	punct	_	_
+1	n'	ne	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|Idiom=Yes
+2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	|InIdiom=Yes
+3	quand	quand	ADV	_	_	3	unk	_	InIdiom=Yes
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = n'importe quelle heure //
 # text_ortho = n'importe quelle heure.
 # speaker = L2
 # sent_id = Rhap_D0006-80bis
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
-2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|Idiom=Yes
-3	quelle	quel	DET	_	Gender=Fem|Number=Sing	2	comp:obj	_	InIdiom=Yes
+1	n'	ne	ADV	_	Polarity=Neg	4	det	_	ExtPos=DET|Idiom=Yes
+2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
+3	quelle	quel	DET	_	Gender=Fem|Number=Sing	2	unk	_	InIdiom=Yes
 4	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2098,18 +2098,18 @@
 # text_ortho = n'importe quand.
 # speaker = L1
 # sent_id = Rhap_D0006-81
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
-2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|Idiom=Yes
-3	quand	quand	ADV	_	_	2	comp:obj	_	InIdiom=Yes|AttachTo=4@Rhap_D0006-80|Rel=parataxis:conj
-4	.	.	PUNCT	_	_	4	punct	_	_
+1	n'	ne	ADV	_	Polarity=Neg	0	root	_	ExtPos=PRON|Idiom=YesIdiom=Yes
+2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
+3	quand	quand	ADV	_	_	2	unk	_	InIdiom=Yes|AttachTo=4@Rhap_D0006-80|Rel=parataxis:conj
+4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = n'importe quelle heure //
 # text_ortho = n'importe quelle heure.
 # speaker = L1
 # sent_id = Rhap_D0006-81bis
-1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	InIdiom=Yes
-2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	det	_	ExtPos=DET|Idiom=Yes
-3	quelle	quel	DET	_	Gender=Fem|Number=Sing	2	comp:obj	_	InIdiom=Yes
+1	n'	ne	ADV	_	Polarity=Neg	4	det	_	ExtPos=DET|Idiom=Yes
+2	importe	importer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	unk	_	InIdiom=Yes
+3	quelle	quel	DET	_	Gender=Fem|Number=Sing	2	unk	_	InIdiom=Yes
 4	heure	heure	NOUN	_	Gender=Fem|Number=Sing	0	root	_	AttachTo=4@Rhap_D0006-80bis|Rel=parataxis:conj
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2160,13 +2160,13 @@
 2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	bah	bah	INTJ	_	_	1	discourse	_	_
-5	,	,	PUNCT	_	_	10	punct	_	_
-6	en	en	ADP	_	_	0	root@scrap	_	_
-7	volume	volume	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
-8	horaire	horaire	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
-9	,	,	PUNCT	_	_	11	punct	_	_
-10	en	en	ADP	_	_	4	discourse	_	_
-11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
+6	en	en	ADP	_	_	1	mod	_	_
+7	volume	volume	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+8	horaire	horaire	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
+9	,	,	PUNCT	_	_	10	punct	_	_
+10	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+11	fait	fait	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	InIdiom=Yes
 12	…	…	PUNCT	_	_	6	punct	_	_
 
 # macrosyntax = il y a énormément "euh" de fois où on ira à l'hôpital //
@@ -2210,7 +2210,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	comp:obj	_	_
-4	que	que	PRON	_	_	7	comp:obj	_	_
+4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	dire	dire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -2269,8 +2269,8 @@
 23	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	24	comp:obj	_	_
 24	intéresse	intéresser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:cleft	_	_
 25	,	,	PUNCT	_	_	28	punct	_	_
-26	petit	petit	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	_
-27	peu	peu	NOUN	_	_	28	mod	_	_
+26	petit	petit	ADJ	_	Gender=Masc|Number=Sing	27	mod	_	InIdiom=Yes
+27	peu	peu	NOUN	_	_	28	mod	_	ExtPos=ADV|Idiom=Yes
 28	moins	moins	ADV	_	_	13	conj:dicto	_	_
 29	prises	prendre	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	7	mod@relcl	_	_
 30	,	,	PUNCT	_	_	31	punct	_	_
@@ -2533,7 +2533,7 @@
 13	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	15	subj	_	_
 14	en	en	PRON	_	Person=3|PronType=Prs	15	comp:obj	_	_
 15	pensez	penser	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-16	quoi	quoi	PRON	_	_	15	comp:obj	_	_
+16	quoi	quoi	PRON	_	Person=3|PronType=Ind	15	comp:obj	_	_
 17	ici	ici	ADV	_	_	15	mod	_	Overlap=Rhap_D0006-105
 18	?	?	PUNCT	_	_	15	punct	_	Overlap=Rhap_D0006-105
 
@@ -3140,11 +3140,11 @@
 14	propose	proposer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 15	de	de	ADP	_	_	14	comp:obl@x	_	_
 16	voir	voir	VERB	_	VerbForm=Inf	15	comp:obj	_	_
-17	où	où	PRON	_	PronType=Rel	23	mod	_	_
+17	où	où	ADV	_	PronType=Rel	23	mod	_	_
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	quand	quand	PRON	_	_	17	conj:coord	_	_
+19	quand	quand	ADV	_	_	17	conj:coord	_	_
 20	et	et	CCONJ	_	_	21	cc	_	_
-21	comment	comment	PRON	_	_	19	conj:coord	_	_
+21	comment	comment	ADV	_	_	19	conj:coord	_	_
 22	cela	cela	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	23	subj	_	_
 23	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
 24	se	se	PRON	_	Person=3|PronType=Prs	25	comp	_	InIdiom=Yes
@@ -3263,7 +3263,7 @@
 25	de	de	ADP	_	_	23	udep	_	_
 26	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	gouvernement	gouvernement	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	_
-28	qu'	que	PRON	_	_	30	comp:obj	_	_
+28	qu'	que	PRON	_	PronType=Rel	30	comp:obj	_	_
 29	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	30	subj	_	_
 30	jugent	juger	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	_
 31	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	30	comp:obj	_	_
@@ -3278,7 +3278,7 @@
 # sent_id = Rhap_M2006-27
 1	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	mesure	mesure	NOUN	_	Gender=Fem|Number=Sing	10	dislocated	_	_
-3	qu'	que	PRON	_	_	5	comp:obj	_	_
+3	qu'	que	PRON	_	PronType=Rel	5	comp:obj	_	_
 4	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	5	subj	_	_
 5	attendent	attendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	_
 6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
@@ -3452,7 +3452,7 @@
 11	suspendu	suspendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	4	comp:pred	_	_
 12	à	à	ADP	_	_	11	comp:obl	_	_
 13	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	12	comp:obj	_	_
-14	que	que	PRON	_	_	17	comp:obj	_	_
+14	que	que	PRON	_	PronType=Rel	17	comp:obj	_	_
 15	Nicolas	Nicolas	PROPN	_	_	17	subj	_	_
 16	Sarkozy	Sarkozy	PROPN	_	_	15	flat	_	_
 17	annoncera	annoncer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	13	mod@relcl	_	_
@@ -4321,7 +4321,7 @@
 2	ensuite	ensuite	ADV	_	_	6	mod	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
-5	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp	_	InIdiom=Yes
+5	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp	_	InIdiom=Yes
 6	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	6	comp:aux	_	ExtPos=VERB|Idiom=Yes
 8	compte	compte	NOUN	_	Gender=Masc|Number=Sing	7	comp:obj@lvc	_	_
@@ -4751,7 +4751,7 @@
 # sent_id = Rhap_D1003-25
 1	et	et	CCONJ	_	_	4	cc	_	_
 2	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
-3	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp	_	InIdiom=Yes
+3	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp	_	InIdiom=Yes
 4	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	sentie	sentir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	4	comp:aux	_	ExtPos=VERB|Idiom=Yes
 6	complètement	complètement	ADV	_	_	7	mod	_	_
@@ -4997,13 +4997,13 @@
 16	L	L	PROPN	_	_	15	mod@appos	_	_
 17	que	que	SCONJ	_	_	3	comp:cleft	_	_
 18	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	20	subj	_	_
-19	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	21	comp	_	InIdiom=Yes
+19	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	21	comp	_	InIdiom=Yes
 20	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	comp:obj	_	_
 21	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	20	comp:aux	_	ExtPos=VERB|Idiom=Yes
 22	compte	compte	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj@lvc	_	_
 23	qu'	que	SCONJ	_	_	22	comp:obl	_	_
-24	en	en	ADP	_	_	28	discourse	_	_
-25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	_
+24	en	en	ADP	_	_	28	discourse	_	ExtPos=ADV|Idiom=Yes
+25	fait	fait	NOUN	_	Gender=Masc|Number=Sing	24	comp:obj	_	InIdiom=Yes
 26	,	,	PUNCT	_	_	24	punct	_	_
 27	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	28	subj	_	_
 28	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	23	comp:obj	_	_
@@ -5093,7 +5093,7 @@
 # speaker = L1
 # sent_id = Rhap_D1003-42
 1	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp	_	InIdiom=Yes
+2	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	5	comp	_	InIdiom=Yes
 3	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vraiment	vraiment	ADV	_	_	3	mod	_	_
 5	ouverte	ouvrir	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	ExtPos=VERB|Idiom=Yes
@@ -5379,12 +5379,12 @@
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	le	le	DET	conj:reform	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	conj:dicto	_	_
 18	tram	tram	NOUN	_	Gender=Masc|Number=Sing	10	comp:obj	_	_
-19	que	que	PRON	_	_	22	comp:obj	_	_
+19	que	que	PRON	_	PronType=Rel	22	comp:obj	_	_
 20	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	21	subj	_	_
 21	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 22	longer	longer	VERB	_	VerbForm=Inf	21	comp:obj@x	_	_
 23	,	,	PUNCT	_	_	26	punct	_	_
-24	que	que	PRON	_	_	27	comp:obj	_	_
+24	que	que	PRON	_	PronType=Rel	27	comp:obj	_	_
 25	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	26	subj	_	_
 26	pouvez	pouvoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	22	conj:dicto	_	_
 27	suivre	suivre	VERB	conj:reform	VerbForm=Inf	26	comp:obj@x	_	_
@@ -5424,22 +5424,22 @@
 22	,	,	PUNCT	_	_	23	punct	_	_
 23	euh	euh	INTJ	_	_	21	discourse	_	_
 24	,	,	PUNCT	_	_	25	punct	_	_
-25	à	à	ADP	_	_	21	mod	_	_
-26	peu	peu	ADV	_	_	25	comp:obj	_	_
-27	près	près	ADV	_	_	25	mod	_	_
+25	à	à	ADP	_	_	21	mod	_	ExtPos=ADV|Idiom=Yes
+26	peu	peu	ADV	_	_	25	comp:obj	_	InIdiom=Yes
+27	près	près	ADV	_	_	25	mod	_	InIdiom=Yes
 28	,	,	PUNCT	_	_	29	punct	_	_
 29	euh	euh	INTJ	_	_	27	discourse	_	_
 30	,	,	PUNCT	_	_	32	punct	_	_
 31	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	32	subj	_	_
 32	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	parataxis:parenth	_	Graft=Yes
 33	pas	pas	ADV	_	Polarity=Neg	32	mod	_	_
-34	combien	combien	PRON	_	_	33	comp:obl	_	_
+34	combien	combien	ADV	_	_	33	comp:obl	_	ExtPos=PRON
 35	de	de	ADP	_	_	34	comp:obl	_	_
 36	temps	temps	NOUN	_	Gender=Masc	35	comp:obj	_	_
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	à	à	ADP	_	_	25	conj:dicto	_	_
-39	peu	peu	ADV	_	_	38	comp:obj	_	_
-40	près	près	ADV	_	_	38	mod	_	_
+38	à	à	ADP	_	_	25	conj:dicto	_	ExtPos=ADV|Idiom=Yes
+39	peu	peu	ADV	_	_	38	comp:obj	_	InIdiom=Yes
+40	près	près	ADV	_	_	38	mod	_	InIdiom=Yes
 41	,	,	PUNCT	_	_	42	punct	_	_
 42	euh	euh	INTJ	_	_	40	discourse	_	_
 43	,	,	PUNCT	_	_	45	punct	_	_
@@ -5666,10 +5666,10 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	Overlap=Rhap_D0009-11
 3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	compter	compter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
-5	à	à	ADP	_	_	8	comp:obl	_	_
-6	peu	peu	ADV	_	_	5	comp:obj	_	_
-7	près	près	ADV	_	_	5	mod	_	_
-8	combien	combien	PRON	_	_	4	comp:obj	_	_
+5	à	à	ADP	_	_	8	comp:obl	_	ExtPos=ADV|Idiom=Yes
+6	peu	peu	ADV	_	_	5	comp:obj	_	InIdiom=Yes
+7	près	près	ADV	_	_	5	mod	_	InIdiom=Yes
+8	combien	combien	ADV	_	_	4	comp:obj	_	_
 9	par	par	ADP	_	_	4	mod	_	_
 10	chaise	chaise	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 11	?	?	PUNCT	_	_	3	punct	_	_
@@ -5809,7 +5809,7 @@
 # text_ortho = pareil ?
 # speaker = L2
 # sent_id = Rhap_D0009-20ter
-11	pareil	pareil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
+1	pareil	pareil	ADJ	_	Gender=Masc|Number=Sing	0	root	_	_
 2	?	?	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L1 ouais //
@@ -5897,7 +5897,7 @@
 2	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
 3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	compter	compter	VERB	_	VerbForm=Inf	3	comp:obj@x	_	_
-5	combien	combien	PRON	_	_	4	comp:obj	_	_
+5	combien	combien	ADV	_	_	4	comp:obj	_	ExtPos=PRON
 6	de	de	ADP	_	_	5	comp:obl	_	_
 7	temps	temps	NOUN	_	Gender=Masc	6	comp:obj	_	_
 8	après	après	ADV	_	_	4	mod	_	_
@@ -6003,7 +6003,7 @@
 22	de	de	ADP	_	_	21	udep	_	_
 23	laine	laine	NOUN	_	Gender=Fem|Number=Sing	22	comp:obj	_	_
 24	tissés	tisser	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	21	mod	_	_
-25	qu'	que	PRON	_	_	28	comp:obj	_	_
+25	qu'	que	PRON	_	PronType=Rel	28	comp:obj	_	_
 26	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	27	subj	_	_
 27	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	mod	_	_
 28	eus	avoir	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	27	comp:aux	_	_
@@ -6094,7 +6094,7 @@
 4	parfois	parfois	ADV	_	_	8	mod	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
-7	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp	_	InIdiom=Yes
+7	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	9	comp	_	InIdiom=Yes
 8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	demandé	demander	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	comp:aux	_	ExtPos=VERB|Idiom=Yes
 10	si	si	SCONJ	_	_	9	comp:obj	_	_
@@ -6358,7 +6358,7 @@
 5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 6	petit	petit	ADJ	_	Gender=Masc|Number=Sing	7	mod	_	_
 7	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	20	subj@pass	_	_
-8	que	que	PRON	_	_	10	comp:obj	_	_
+8	que	que	PRON	_	PronType=Rel	10	comp:obj	_	_
 9	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj	_	_
 10	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	là	là	ADV	_	_	10	mod	_	_
@@ -6366,7 +6366,7 @@
 13	à	à	ADP	_	_	11	conj:dicto	_	_
 14	côté	côté	NOUN	conj:reform	Gender=Masc|Number=Sing	13	comp:obj	_	_
 15	,	,	PUNCT	_	_	18	punct	_	_
-16	que	que	PRON	_	_	19	comp:obj	_	_
+16	que	que	PRON	_	PronType=Rel	19	comp:obj	_	_
 17	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	18	subj	_	_
 18	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	conj:coord	_	_
 19	rhabiller	rhabiller	VERB	_	VerbForm=Inf	18	comp:obj@x	_	_
@@ -6443,7 +6443,7 @@
 # speaker = L2
 # sent_id = Rhap_D0009-55
 1	et	et	CCONJ	_	_	6	cc	_	Overlap=Rhap_D0009-54
-2	pourquoi	pourquoi	PRON	_	_	6	mod	_	Overlap=Rhap_D0009-54
+2	pourquoi	pourquoi	ADV	_	_	6	mod	_	Overlap=Rhap_D0009-54
 3	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0009-54
 4	qu'	que	SCONJ	_	_	2	unk	_	Overlap=Rhap_D0009-54
 5	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	subj	_	Overlap=Rhap_D0009-54
@@ -6573,10 +6573,10 @@
 5	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	6	subj	_	Overlap=Rhap_D0009-58
 6	date	dater	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0009-58
 7	de	de	ADP	_	_	6	comp:obl	_	Overlap=Rhap_D0009-58
-8	quand	quand	PRON	_	_	7	comp:obj	_	_
-9	à	à	ADP	_	_	6	mod	_	_
-10	peu	peu	ADV	_	_	9	comp:obj	_	_
-11	près	près	ADV	_	_	9	mod	_	_
+8	quand	quand	ADV	_	_	7	comp:obj	_	_
+9	à	à	ADP	_	_	6	mod	_	ExtPos=ADV|Idiom=Yes
+10	peu	peu	ADV	_	_	9	comp:obj	_	InIdiom=Yes
+11	près	près	ADV	_	_	9	mod	_	InIdiom=Yes
 12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	_
 13	fauteuil	fauteuil	NOUN	_	Gender=Masc|Number=Sing	6	dislocated	_	_
 14	-là	là	ADV	_	_	13	mod	_	_
@@ -6872,7 +6872,7 @@
 1	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	2	subj	_	_
 2	as	avoir	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	comp:aux	_	_
-4	comment	comment	PRON	_	_	6	comp:pred	_	_
+4	comment	comment	ADV	_	_	6	comp:pred	_	_
 5	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	6	subj	_	_
 6	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp:obj	_	_
 7	?	?	PUNCT	_	_	2	punct	_	_
@@ -7215,7 +7215,7 @@
 6	aussi	aussi	ADV	_	_	5	mod	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	teintes	teinte	NOUN	_	Gender=Fem|Number=Plur	5	comp:obj	_	_
-9	que	que	PRON	_	_	12	comp:obj	_	_
+9	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj	_	_
 11	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	mettre	mettre	VERB	_	VerbForm=Inf	11	comp:obj@x	_	_
@@ -7375,7 +7375,7 @@
 9	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	conj	_	_
-12	que	que	PRON	_	_	11	udep	_	_
+12	que	que	PRON	_	PronType=Rel	11	udep	_	_
 13	j~	j~	PRON	_	_	12	conj:dicto	_	_
 14	…	…	PUNCT	_	_	9	punct	_	_
 
@@ -7779,8 +7779,8 @@
 3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	vu	voir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	qu'	que	SCONJ	_	_	4	comp:obj	_	_
-6	en	en	ADP	_	_	12	discourse	_	_
-7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	en	en	ADP	_	_	12	discourse	_	ExtPos=ADV|Idiom=Yes
+7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	_
 10	tissu	tissu	NOUN	_	Gender=Masc|Number=Sing	12	subj	_	_
@@ -8403,7 +8403,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-4	rond-point	rond-point	NOUN	Gender=Masc|Number=Sing	2	comp:obj	_	_
+4	rond-point	rond-point	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
 5	tout	tout	ADV	_	_	6	mod	_	_
 6	droit	droit	ADJ	_	Gender=Masc|Number=Sing	2	mod	_	_
 7	.	.	PUNCT	_	_	2	punct	_	_
@@ -8713,7 +8713,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	_
 4	vas	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	4	comp:obl	_	_
+5	te	se	PRON	_	Number=Sing|Person=2|PronType=Prs	4	comp:obl	_	_
 6	retrouver	retrouver	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
 7	vers	vers	ADP	_	_	6	comp:obl	_	_
 8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
@@ -9134,7 +9134,7 @@
 8	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 9	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	mod	_	Graft=Yes
 10	plus	plus	ADV	_	_	9	mod	_	_
-11	quoi	quoi	PRON	_	_	9	comp:obj	_	_
+11	quoi	quoi	PRON	_	Person=3|PronType=Ind	9	comp:obj	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	Verdun	Verdun	PROPN	_	_	9	conj:dicto	_	_
 14	.	.	PUNCT	_	_	2	punct	_	_
@@ -9208,8 +9208,8 @@
 3	à	à	ADP	_	_	2	comp:obl	_	Overlap=Rhap_D2007-3
 4	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	5	det	_	Overlap=Rhap_D2007-3
 5	procès	procès	NOUN	_	Gender=Masc	3	comp:obj	_	Overlap=Rhap_D2007-3
-6	en	en	ADP	_	_	3	discourse	_	Overlap=Rhap_D2007-3
-7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	Overlap=Rhap_D2007-3
+6	en	en	ADP	_	_	3	discourse	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2007-3
+7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes|Overlap=Rhap_D2007-3
 8	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2007-3
 
 # macrosyntax = $L1 tu peux le dire //=
@@ -9650,7 +9650,7 @@
 2	devait	devoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
 3	expliquer	expliquer	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
-5	que	que	PRON	_	_	7	comp:obj	_	_
+5	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
 6	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	7	subj	_	_
 7	faisais	faire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	mod@relcl	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
@@ -10206,7 +10206,7 @@
 # speaker = L2
 # sent_id = Rhap_D2007-61
 1	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	0	root	_	_
-2	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	_
+2	me	le	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj:dicto	_	_
 3	…	…	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = $L3 vous avez des fidélités successives > en fait //
@@ -10218,8 +10218,8 @@
 3	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	4	det	_	_
 4	fidélités	fidélité	NOUN	_	Gender=Fem|Number=Plur	2	comp:obl	_	_
 5	successives	successif	ADJ	_	Gender=Fem|Number=Plur	4	mod	_	_
-6	en	en	ADP	_	_	2	discourse	_	_
-7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
+6	en	en	ADP	_	_	2	discourse	_	ExtPos=ADV|Idiom=Yes
+7	fait	fait	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	InIdiom=Yes
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $L2 moi < j'ai été fidèle  " oui "  //
@@ -10454,7 +10454,7 @@
 5	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:obj	_	Reported=Yes
 6	con	con	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 7	ou	ou	CCONJ	_	_	8	cc	_	_
-8	quoi	quoi	PRON	_	_	6	conj:coord	_	_
+8	quoi	quoi	PRON	_	Person=3|PronType=Ind	6	conj:coord	_	_
 9	?	?	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = il a été se confier en télé //
@@ -10714,7 +10714,7 @@
 8	jamais	jamais	ADV	_	_	7	mod	_	_
 9	,	,	PUNCT	_	_	12	punct	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	12	subj	_	_
-11	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp	_	InIdiom=Yes
+11	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	14	comp	_	InIdiom=Yes
 12	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj:dicto	_	_
 13	jamais	jamais	ADV	_	_	12	mod	_	_
 14	mariée	marier	VERB	conj:reform	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	12	comp:aux	_	ExtPos=VERB|Idiom=Yes
@@ -10741,7 +10741,7 @@
 15	entendant	entendre	VERB	_	Tense=Pres|VerbForm=Part	14	comp:obj	_	_
 16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 17	porte	porte	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
-18	que	que	PRON	_	_	17	mod@relcl	_	_
+18	que	que	PRON	_	PronType=Rel	17	mod@relcl	_	_
 19	…	…	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = $L1 ça voudrait dire que tu trompes ton ma~ //
@@ -10819,7 +10819,7 @@
 16	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis:obj	_	Reported=Yes
 17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	_
 18	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	16	comp:pred	_	_
-19	que	que	PRON	_	_	21	comp:obj	_	_
+19	que	que	PRON	_	PronType=Rel	21	comp:obj	_	_
 20	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	21	subj	_	_
 21	crois	croire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	mod@relcl	_	_
 22	.	.	PUNCT	_	_	1	punct	_	_
@@ -10970,7 +10970,7 @@
 1	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 2	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	comp:obj	_	_
-4	que	que	PRON	_	_	7	comp:obj	_	_
+4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	dire	dire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -11290,7 +11290,7 @@
 # sent_id = Rhap_D2007-126
 1	en	en	ADP	_	_	0	root	_	AttachTo=3@Rhap_D2007-125|Rel=parataxis:conj
 2	croyant	croire	VERB	_	Tense=Pres|VerbForm=Part	1	comp:obj	_	_
-3	que	que	PRON	_	_	2	comp:obj	_	_
+3	que	que	PRON	_	PronType=Rel	2	comp:obj	_	_
 4	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	mod@relcl	_	_
 6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
@@ -11464,8 +11464,8 @@
 16	auteur	auteur	NOUN	_	Gender=Masc|Number=Sing	14	comp:pred	_	_
 17	de	de	ADP	_	_	16	udep	_	_
 18	nombreux	nombreux	ADJ	_	Gender=Masc|Number=Plur	19	mod	_	_
-19	best	best	NOUN	_	_	17	comp:obj	_	_
-20	sellers	seller	NOUN	_	Number=Plur	19	compound	_	_
+19	best	best	NOUN	_	_	17	comp:obj	_	Idiom=Yes
+20	sellers	seller	NOUN	_	Number=Plur	19	compound	_	InIdiom=Yes
 21	comme	comme	ADP	_	_	19	udep	_	_
 22	Mille	Mille	PROPN	_	_	21	comp:obj	_	Title=Yes
 23	quatre	quatre	NUM	_	Number=Plur	22	mod	_	InTitle=Yes
@@ -11608,7 +11608,7 @@
 1	et	et	CCONJ	_	_	7	cc	_	_
 2	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	tourmente	tourmente	NOUN	_	Gender=Fem|Number=Sing	7	subj	_	_
-4	qu'	que	PRON	_	_	6	comp:obj	_	_
+4	qu'	que	PRON	_	PronType=Rel	6	comp:obj	_	_
 5	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	subj	_	_
 6	génère	générer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12305,7 +12305,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	ExtPos=CCONJ|Idiom=Yes
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-4	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp	_	InIdiom=Yes
+4	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	6	comp	_	InIdiom=Yes
 5	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	mis	mettre	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	5	comp:aux	_	ExtPos=VERB|Idiom=Yes
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	InIdiom=Yes
@@ -12391,7 +12391,7 @@
 24	dans	dans	ADP	_	_	32	mod	_	_
 25	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	24	comp:obj	_	_
 26	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	28	subj	_	_
-27	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	28	comp:obl	_	_
+27	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	28	comp:obl	_	_
 28	trouvais	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	23	mod@relcl	_	_
 29	être	être	AUX	_	VerbForm=Inf	28	comp:obj@x	_	_
 30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	32	det	_	_
@@ -12509,7 +12509,7 @@
 5	d'	de	ADP	_	_	4	comp:obl@x	_	_
 6	être	être	AUX	_	VerbForm=Inf	5	comp:obj	_	_
 7	très	très	ADV	_	_	8	mod	_	_
-8	doué	douer	ADJ	_	_	6	comp:pred	_	_
+8	doué	doué	ADJ	_	Gender=Masc|Number=Sing	6	comp:pred	_	_
 9	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^mais je faisais pas grand chose //
@@ -12594,7 +12594,7 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	euh	euh	INTJ	_	_	1	discourse	_	_
 4	,	,	PUNCT	_	_	1	punct	_	_
-5	pourquoi	pourquoi	PRON	_	_	7	mod	_	_
+5	pourquoi	pourquoi	ADV	_	_	7	mod	_	_
 6	se	se	PRON	_	Person=3|PronType=Prs	7	comp	_	InIdiom=Yes
 7	diriger	diriger	VERB	_	VerbForm=Inf	0	root	_	ExtPos=VERB|Idiom=Yes
 8	vers	vers	ADP	_	_	7	comp:obl	_	_
@@ -12620,7 +12620,7 @@
 # text_ortho = pourquoi ne pas faire de la sociologie, de l'histoire ou de la recherche ?
 # speaker = L1
 # sent_id = Rhap_D2005-56
-1	pourquoi	pourquoi	PRON	_	_	4	mod	_	_
+1	pourquoi	pourquoi	ADV	_	_	4	mod	_	_
 2	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 3	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 4	faire	faire	VERB	_	VerbForm=Inf	0	root	_	_
@@ -12649,9 +12649,9 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
 8	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	_
-9	à	à	ADP	_	_	8	mod	_	_
-10	peu	peu	ADV	_	_	9	comp:obj	_	_
-11	près	près	ADV	_	_	9	mod	_	_
+9	à	à	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
+10	peu	peu	ADV	_	_	9	comp:obj	_	InIdiom=Yes
+11	près	près	ADV	_	_	9	mod	_	InIdiom=Yes
 12	évident	évident	ADJ	_	Gender=Masc|Number=Sing	8	comp:pred	_	_
 13	quand	quand	SCONJ	_	_	8	mod	_	_
 14	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	15	subj	_	_
@@ -12695,7 +12695,7 @@
 10	Elem	Elem	PROPN	_	_	9	flat	_	_
 11	,	,	PUNCT	_	_	5	punct	_	_
 12	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	14	subj	_	_
-13	me	me	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp	_	InIdiom=Yes
+13	me	se	PRON	_	Number=Sing|Person=1|PronType=Prs	15	comp	_	InIdiom=Yes
 14	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:obj	_	_
 15	trouvé	trouver	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	14	comp:aux	_	ExtPos=VERB|Idiom=Yes
 16	très	très	ADV	_	_	17	mod	_	_
@@ -12965,7 +12965,7 @@
 20	mettre	mettre	VERB	_	VerbForm=Inf	18	comp:obj	_	_
 21	en	en	ADP	_	_	20	comp:obl	_	_
 22	œuvre	œuvre	NOUN	_	Gender=Fem|Number=Sing	21	comp:obj	_	_
-23	moi-même	lui-même	PRON	_	Number=Sing|Person=1|PronType=Prs	18	mod	_	_
+23	moi-même	lui-même	PRON	_	Number=Sing|Person=1|PronType=Prs|Reflex=Yes	18	mod	_	_
 24	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = $L1 vous êtes venue à Paris à quel âge //
@@ -13225,7 +13225,7 @@
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	euh	euh	INTJ	_	_	7	discourse	_	_
 10	,	,	PUNCT	_	_	7	punct	_	_
-11	quand	quand	PRON	_	_	0	root@scrap	_	_
+11	quand	quand	SCONJ	_	_	0	root@scrap	_	_
 12	…	…	PUNCT	_	_	11	punct	_	_
 
 # macrosyntax = nous avons été sous très gros bombardements $- $L2 { américains | ^puis anglais } //
@@ -13640,7 +13640,7 @@
 2	vont	aller	VERB	ETRE	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Reported=Yes
 3	démolir	démolir	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
 4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	3	comp:obj	_	_
-5	qu'	que	PRON	_	_	8	comp:obj	_	_
+5	qu'	que	PRON	_	PronType=Rel	8	comp:obj	_	_
 6	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	subj	_	_
 7	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	mod@relcl	_	_
 8	démolir	démolir	VERB	_	VerbForm=Inf	7	comp:obj	_	_
@@ -14213,7 +14213,7 @@
 13	voulaient	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	comp:obj	_	_
 14	entrer	entrer	VERB	ETRE	VerbForm=Inf	13	comp:obj@x	_	_
 15	en	en	ADP	_	_	14	comp:obl	_	_
-16	prépa	prépa	NOUN	_	_	15	comp:obj	_	_
+16	prépa	prépa	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 17	,	,	PUNCT	_	_	11	punct	_	_
 18	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	20	subj	_	_
 19	les	le	PRON	_	Number=Plur|Person=3|PronType=Prs	20	comp:obj	_	_
@@ -14433,7 +14433,7 @@
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	enfin	enfin	ADV	_	_	16	discourse	_	_
 19	,	,	PUNCT	_	_	22	punct	_	_
-20	que	que	PRON	_	_	22	comp:obj	_	_
+20	que	que	PRON	_	PronType=Rel	22	comp:obj	_	_
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	_
 22	vois	voir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	conj:dicto	_	_
 23	dans	dans	ADP	_	_	22	mod	_	_
@@ -14517,7 +14517,7 @@
 6	,	,	PUNCT	_	_	5	punct	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 8	mamans	maman	NOUN	_	Gender=Fem|Number=Plur	18	dislocated	_	_
-9	que	que	PRON	_	_	12	comp:obj	_	_
+9	que	que	PRON	_	PronType=Rel	12	comp:obj	_	_
 10	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	11	subj@caus	_	_
 11	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	_
 12	travailler	travailler	VERB	CAUSATIVE	VerbForm=Inf	11	comp:aux@caus	_	_
@@ -15033,7 +15033,7 @@
 # speaker = L1
 # sent_id = Rhap_D0002-45
 1	chose	chose	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
-2	que	que	PRON	_	_	4	comp:obj	_	_
+2	que	que	PRON	_	PronType=Rel	4	comp:obj	_	_
 3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	_
 4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	_
 5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|Person=3|PronType=Neg	6	det	_	_
@@ -15163,14 +15163,14 @@
 # text_ortho = ouais.
 # speaker = L3
 # sent_id = Rhap_D0002-48bis
-1	ouais	ouais	INTJ	_	_	1	root	_	AttachTo=1@Rhap_D0002-48|Rel=discourse|Overlap=Rhap_D0002-48
+1	ouais	ouais	INTJ	_	_	0	root	_	AttachTo=1@Rhap_D0002-48|Rel=discourse|Overlap=Rhap_D0002-48
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-48
 
 # macrosyntax = $- ( $L2 mh mh // ) ( $L3 mh mh // ) -$ ^parce ^que faut dire qu' [ apprendre { à lire | à écrire } à quelqu'un de trente cinq $- ans qui a ( $L3 ouais // ) -$ jamais tenu $- un crayon <+ ( $L3 ouais ) -$ ça se fait pas en deux cents heures ] //
 # text_ortho = ouais.
 # speaker = L3
 # sent_id = Rhap_D0002-48ter
-1	ouais	ouais	INTJ	_	_	1	root	_	AttachTo=19@Rhap_D0002-48|Rel=discourse|Overlap=Rhap_D0002-48
+1	ouais	ouais	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0002-48|Rel=discourse|Overlap=Rhap_D0002-48
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-48
 
 # macrosyntax = $L3 bien sûr //
@@ -15258,7 +15258,7 @@
 # text_ortho = comment voulez vous apprendre à lire à un enfant qui parle pas français ?
 # speaker = L1
 # sent_id = Rhap_D0002-54
-1	comment	comment	PRON	_	_	2	mod	_	_
+1	comment	comment	ADV	_	_	2	mod	_	_
 2	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	2	subj	_	_
 4	apprendre	apprendre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
@@ -16239,8 +16239,8 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	en	en	ADP	_	_	7	discourse	_	_
-14	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	_
+13	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+14	fait	fait	NOUN	_	Gender=Masc|Number=Sing	13	comp:obj	_	InIdiom=Yes
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	comp:obj	_	_
 17	…	…	PUNCT	_	_	6	punct	_	_
@@ -16358,8 +16358,8 @@
 12	euh	euh	INTJ	_	_	10	discourse	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	qui	qui	PRON	_	PronType=Rel	12	conj:dicto	_	_
-15	en	en	ADP	_	_	14	discourse	_	_
-16	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	_
+15	en	en	ADP	_	_	14	discourse	_	ExtPos=ADV|Idiom=Yes
+16	fait	fait	NOUN	_	Gender=Masc|Number=Sing	15	comp:obj	_	InIdiom=Yes
 17	,	,	PUNCT	_	_	18	punct	_	_
 18	qui	qui	PRON	_	PronType=Rel	14	conj:dicto	_	_
 19	…	…	PUNCT	_	_	3	punct	_	_
@@ -16498,8 +16498,8 @@
 # macrosyntax = en fait < "euh" "ben" là <+ "euh" vous passez "euh" ESPERLUETTE //
 # text_ortho = en fait, euh, ben, là, euh, vous passez, euh…
 # sent_id = Rhap_M0003-16
-1	en	en	ADP	_	_	13	discourse	_	_
-2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+1	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+2	fait	fait	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	InIdiom=Yes
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	euh	euh	INTJ	_	_	1	discourse	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
@@ -16520,8 +16520,8 @@
 # sent_id = Rhap_M0003-17
 1	ben	ben	INTJ	_	_	7	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	en	en	ADP	_	_	7	discourse	_	_
-4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+3	en	en	ADP	_	_	7	discourse	_	ExtPos=ADV|Idiom=Yes
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	,	,	PUNCT	_	_	3	punct	_	_
 6	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -16686,8 +16686,8 @@
 1	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	_	_	8	punct	_	_
-4	en	en	ADP	_	_	8	discourse	_	_
-5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	_
+4	en	en	ADP	_	_	8	discourse	_	ExtPos=ADV|Idiom=Yes
+5	fait	fait	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj	_	InIdiom=Yes
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
 8	marché	marché	NOUN	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
@@ -16744,8 +16744,8 @@
 11	de	de	ADP	_	_	10	udep	_	_
 12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	_
 13	tram	tram	NOUN	_	Gender=Masc|Number=Sing	11	comp:obj	_	_
-14	en	en	ADP	_	_	13	discourse	_	_
-15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	_
+14	en	en	ADP	_	_	13	discourse	_	ExtPos=ADV|Idiom=Yes
+15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	14	comp:obj	_	InIdiom=Yes
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = "euh" ^et ^puis "ben" vous tombez { place | "eh ben" place } Notre-Dame //
@@ -16805,8 +16805,8 @@
 9	de	de	ADP	_	_	8	comp:obl@x	_	_
 10	passer	passer	VERB	ETRE	VerbForm=Inf	9	comp:obj	_	_
 11	devant	devoir	ADV	_	_	10	mod	_	_
-12	en	en	ADP	_	_	11	discourse	_	_
-13	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	_
+12	en	en	ADP	_	_	11	discourse	_	ExtPos=ADV|Idiom=Yes
+13	fait	fait	NOUN	_	Gender=Masc|Number=Sing	12	comp:obj	_	InIdiom=Yes
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = { en | en } fait < tout le long <+ vous suivez la ligne du tram //
@@ -16814,8 +16814,8 @@
 # sent_id = Rhap_M0003-32
 1	en	en	ADP	_	_	11	discourse	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
-3	en	en	ADP	_	_	1	conj:dicto	_	_
-4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	_
+3	en	en	ADP	_	_	1	conj:dicto	_	ExtPos=ADV|Idiom=Yes
+4	fait	fait	NOUN	_	Gender=Masc|Number=Sing	3	comp:obj	_	InIdiom=Yes
 5	,	,	PUNCT	_	_	1	punct	_	_
 6	tout	tout	ADJ	_	Gender=Masc|Number=Sing	8	mod	_	_
 7	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	_
@@ -16838,7 +16838,7 @@
 2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	bien	bien	ADV	_	_	5	mod	_	_
-5	compliqué	compliquer	ADJ	_	_	2	comp:pred	_	_
+5	compliqué	compliqué	ADJ	_	Gender=Masc|Number=Sing	2	comp:pred	_	_
 6	à	à	ADP	_	_	2	mod	_	_
 7	y	y	PRON	_	Person=3|PronType=Prs	8	comp:obj	_	_
 8	aller	aller	VERB	ETRE	VerbForm=Inf	6	comp:obj	_	_
@@ -16929,7 +16929,7 @@
 1	alors	alors	ADV	_	_	13	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	13	dislocated	_	_
-4	que	que	PRON	_	_	7	comp:obj	_	_
+4	que	que	PRON	_	PronType=Rel	7	comp:obj	_	_
 5	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	6	subj	_	_
 6	souhaiterais	souhaiter	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	_
 7	faire	faire	VERB	_	VerbForm=Inf	6	comp:obj@x	_	_
@@ -16945,7 +16945,7 @@
 17	italien	italien	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 18	à	à	ADP	_	_	20	cc	_	ExtPos=ADV|Idiom=Yes
 19	savoir	savoir	VERB	_	VerbForm=Inf	18	unk	_	InIdiom=Yes
-20	certifié	certifié	NOUN	_	_	15	conj:appos	_	_
+20	certifié	certifié	ADJ	_	Gender=Masc|Number=Sing	15	conj:appos	_	_
 21	,	,	PUNCT	_	_	26	punct	_	_
 22	donc	donc	ADV	_	_	26	cc	_	_
 23	,	,	PUNCT	_	_	22	punct	_	_
@@ -16993,7 +16993,7 @@
 24	,	,	PUNCT	_	_	26	punct	_	_
 25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	_
 26	choses	chose	NOUN	_	Gender=Fem|Number=Plur	23	conj:appos	_	_
-27	qu'	que	PRON	_	_	30	comp:obj	_	_
+27	qu'	que	PRON	_	PronType=Rel	30	comp:obj	_	_
 28	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	29	subj	_	_
 29	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	mod@relcl	_	_
 30	acquis	acquérir	VERB	_	Gender=Masc|Tense=Past|VerbForm=Part	29	comp:aux	_	_
@@ -17026,7 +17026,7 @@
 56	,	,	PUNCT	_	_	57	punct	_	_
 57	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	55	conj:dicto	_	_
 58	outils	outil	NOUN	_	Gender=Masc|Number=Plur	53	conj:dicto	_	_
-59	nécessaires	nécessaire	ADJ	_	_	58	mod	_	_
+59	nécessaires	nécessaire	ADJ	_	Gender=Masc|Number=Plur	58	mod	_	_
 60	à	à	ADP	_	_	59	comp:obl	_	_
 61	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	62	det	_	_
 62	réussite	réussite	NOUN	_	Gender=Fem|Number=Sing	60	comp:obj	_	_
@@ -17090,7 +17090,7 @@
 11	pédagogiques	pédagogique	ADJ	_	Number=Plur	10	mod	_	_
 12	qui	qui	PRON	_	PronType=Rel	15	subj	_	_
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	qui	qui	PRON	conj:reform	_	12	conj:dicto	_	_
+14	qui	qui	PRON	conj:reform	PronType=Rel	12	conj:dicto	_	_
 15	visent	viser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 16	à	à	ADP	_	_	15	comp:obl@x	_	_
 17	intéresser	intéresser	VERB	_	VerbForm=Inf	16	comp:obj	_	_
@@ -17099,7 +17099,7 @@
 20	,	,	PUNCT	_	_	21	punct	_	_
 21	donc	donc	ADV	_	_	17	discourse	_	_
 22	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	23	det	_	_
-23	auditoire	auditoire	NOUN	_	_	17	comp:obj	_	_
+23	auditoire	auditoire	NOUN	_	Gender=Masc|Number=Sing	17	comp:obj	_	_
 24	,	,	PUNCT	_	_	27	punct	_	_
 25	donc	donc	ADV	_	_	27	cc	_	_
 26	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	27	det	_	_
@@ -17268,9 +17268,9 @@
 6	,	,	PUNCT	_	_	1	punct	_	_
 7	c'	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	8	subj	_	_
 8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-9	à	à	ADP	_	_	8	mod@scrap	_	_
-10	peu	peu	ADV	_	_	9	comp:obj	_	_
-11	près	près	ADV	_	_	9	mod	_	_
+9	à	à	ADP	_	_	8	mod@scrap	_	ExtPos=ADV|Idiom=Yes
+10	peu	peu	ADV	_	_	9	comp:obj	_	InIdiom=Yes
+11	près	près	ADV	_	_	9	mod	_	InIdiom=Yes
 12	…	…	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = donc < un professeur certifié "euh" ( donc ) travaille dix-huit heures "euh" { par semaine | donc hebdomadaires } //
@@ -17337,7 +17337,7 @@
 32	par	par	ADP	_	_	31	mod	_	_
 33	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
 34	matière	matière	NOUN	_	Gender=Fem|Number=Sing	32	comp:obj	_	_
-35	qu'	que	PRON	_	_	37	comp:obj	_	_
+35	qu'	que	PRON	_	PronType=Rel	37	comp:obj	_	_
 36	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	37	subj	_	_
 37	enseignent	enseigner	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	_
 38	mais	mais	CCONJ	_	_	40	cc	_	_
@@ -17376,7 +17376,7 @@
 24	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 25	ni	ni	CCONJ	_	_	26	cc	_	_
 26	en	en	ADP	_	_	24	comp:pred	_	_
-27	adéquation	adéquation	NOUN	_	_	26	comp:obj	_	_
+27	adéquation	adéquation	NOUN	_	Gender=Fem|Number=Sing	26	comp:obj	_	_
 28	avec	avec	ADP	_	_	27	udep	_	_
 29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	_
 30	nombre	nombre	NOUN	_	Gender=Masc|Number=Sing	28	comp:obj	_	_
@@ -17400,7 +17400,7 @@
 48	fournir	fournir	VERB	_	VerbForm=Inf	47	comp:obj	_	_
 49	,	,	PUNCT	_	_	50	punct	_	_
 50	personnel	personnel	ADJ	_	Gender=Masc|Number=Sing	46	mod	_	_
-51	que	que	PRON	_	_	53	comp:obj	_	_
+51	que	que	PRON	_	PronType=Rel	53	comp:obj	_	_
 52	l'on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	53	subj	_	_
 53	fournit	fournir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	46	mod@relcl	_	_
 54	.	.	PUNCT	_	_	1	punct	_	_
@@ -18227,3 +18227,4 @@
 7	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	8	subj	_	_
 8	bifurques	bifurquer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
 9	.	.	PUNCT	_	_	8	punct	_	_
+
