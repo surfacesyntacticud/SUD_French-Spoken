@@ -7700,7 +7700,7 @@
 10	frai~	frai~	ADJ	_	_	9	comp:pred	_	Overlap=Rhap_D2008-87
 11	,	,	PUNCT	_	_	13	punct	_	_
 12	très	très	ADV	_	_	13	mod	_	_
-13	frappés	frapper	VERB	conj:reform	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	11	conj:dicto	_	_
+13	frappés	frapper	VERB	conj:reform	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	10	conj:dicto	_	_
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # macrosyntax = par exemple < { { notre | notre } ministre de la santé | Roselyne Bachelot } < elle a géré cette crise "on va dire" au minimum en trois temps en termes de communication perçue par XXX //
@@ -11886,7 +11886,7 @@
 41	pas	pas	ADV	_	Polarity=Neg	40	mod	_	_
 42	moi	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	40	dislocated	_	_
 43	,	,	PUNCT	_	_	46	punct	_	_
-44	quand	quand	SCONJ	_	_	40	conj:dicto	_	_
+44	quand	quand	SCONJ	_	_	36	conj:dicto	_	_
 45	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	46	subj	_	_
 46	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	44	comp:obj	_	_
 47	vingt	vingt	NUM	_	Number=Plur	48	det	_	_

@@ -2239,13 +2239,13 @@
 14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	province	province	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	pour	pour	ADP	_	_	10	mod	_	Overlap=Yes
-17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	20	det	_	Overlap=Rhap_D2004-45bis
-18	études	étude	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	Overlap=Rhap_D2004-45bis
+17	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	18	det	_	Overlap=Rhap_D2004-45bis
+18	études	étude	NOUN	_	Gender=Fem|Number=Plur	16	comp:obj	_	Overlap=Rhap_D2004-45bis
 19	,	,	PUNCT	_	_	20	punct	_	Overlap=Rhap_D2004-45bis
 20	non	non	ADV	_	Polarity=Neg	18	discourse	_	Overlap=Rhap_D2004-45ter
 21	,	,	PUNCT	_	_	22	punct	_	Overlap=Rhap_D2004-45ter
-22	pour	pour	ADP	_	_	17	conj:dicto	_	Overlap=Rhap_D2004-45ter
-23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	Overlap=Rhap_D2004-45ter
+22	pour	pour	ADP	_	_	16	conj:dicto	_	Overlap=Rhap_D2004-45ter
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	Overlap=Rhap_D2004-45ter
 24	études	étude	NOUN	_	Gender=Fem|Number=Plur	22	comp:obj	_	Overlap=Rhap_D2004-45ter
 25	,	,	PUNCT	_	_	26	punct	_	_
 26	sûrement	sûrement	ADV	_	_	10	mod	_	_
@@ -7006,7 +7006,7 @@
 1-2	au	_	_	_	_	_	_	_	_
 1	à	à	ADP	_	_	20	mod	_	_
 2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
-3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	2	comp:obj	_	_
+3	moment	moment	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
 4	où	où	PRON	_	PronType=Rel	8	mod	_	_
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	où	où	PRON	_	PronType=Rel	4	conj:dicto	_	_
@@ -12056,7 +12056,7 @@
 # text_ortho = non, tu vas chez Gibert.
 # speaker = L3
 # sent_id = Rhap_D0001-12
-1	non	non	ADV	_	Polarity=Neg	2	discourse	_	Overlap=Rhap_D0001-11
+1	non	non	ADV	_	Polarity=Neg	4	discourse	_	Overlap=Rhap_D0001-11
 2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0001-11
 3	tu	il	PRON	_	Number=Sing|Person=2|PronType=Prs	4	subj	_	Overlap=Rhap_D0001-11
 4	vas	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -12383,11 +12383,11 @@
 14	,	,	PUNCT	_	_	15	punct	_	_
 15	euh	euh	INTJ	_	_	13	discourse	_	Overlap=Rhap_D0001-27quinquies
 16	,	,	PUNCT	_	_	17	punct	_	Overlap=Rhap_D0001-27quinquies
-17	absolument	absolument	ADV	_	_	19	mod	_	Overlap=Rhap_D0001-27quinquies
+17	absolument	absolument	ADV	_	_	18	mod	_	Overlap=Rhap_D0001-27quinquies
 18	ému	émouvoir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	mod	_	Overlap=Rhap_D0001-27sexies
 19	quand	quand	SCONJ	_	_	10	mod	_	_
 20	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	21	subj	_	_
-21	passe	passer	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
+21	passe	passer	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	comp:obj	_	_
 22	à	à	ADP	_	_	21	comp:obl	_	_
 23	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	arrière	arrière	NOUN	_	Gender=Masc|Number=Sing	22	comp:obj	_	_
@@ -17083,10 +17083,10 @@
 32	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	comp:obj	_	_
 33	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	34	det	_	_
 34	fonctions	fonction	NOUN	_	Gender=Fem|Number=Plur	32	comp:obl	_	_
-35	extrêmement	extrêmement	ADV	_	_	37	mod	_	_
+35	extrêmement	extrêmement	ADV	_	_	36	mod	_	_
 36	diverses	divers	ADJ	_	Gender=Fem|Number=Plur	34	mod	_	_
 37	,	,	PUNCT	_	_	38	punct	_	_
-38	euh	euh	INTJ	_	_	37	discourse	_	_
+38	euh	euh	INTJ	_	_	36	discourse	_	_
 39	,	,	PUNCT	_	_	40	punct	_	_
 40	selon	selon	ADP	_	_	32	mod	_	_
 41	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
