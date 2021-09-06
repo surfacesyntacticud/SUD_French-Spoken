@@ -486,7 +486,7 @@
 1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	_
 2	va	aller	VERB	ETRE	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	mettre	mettre	VERB	_	VerbForm=Inf	2	comp:obj@x	_	_
-4	ici	ici	ADV	_	_	3	comp:obj	_	_
+4	ici	ici	ADV	_	_	3	mod	_	_
 5	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	6	det	_	_
 6	chemise	chemise	NOUN	_	Gender=Fem|Number=Sing	3	comp:obj	_	_
 7	avec	avec	ADP	_	_	6	udep	_	_
@@ -2496,7 +2496,7 @@
 1	hein	hein	INTJ	_	_	3	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
-4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
+4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	comp:aux	_	_
 7	plaisir	plaisir	NOUN	_	Gender=Masc|Number=Sing	6	comp:obj	_	_
@@ -3830,7 +3830,7 @@
 12	y	y	PRON	_	Person=3|PronType=Prs	13	comp:obl	_	_
 13	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 14	bien	bien	ADV	_	_	15	mod	_	Overlap=Rhap_D2010-97
-15	longtemps	longtemps	ADV	_	_	13	comp:obj	_	Overlap=Rhap_D2010-97
+15	longtemps	longtemps	ADV	_	_	13	mod	_	Overlap=Rhap_D2010-97
 16	qu'	que	SCONJ	_	_	13	comp:obj	_	_
 17	elles	il	PRON	_	Gender=Fem|Number=Plur|Person=3|PronType=Prs	18	subj	_	_
 18	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	comp:obj	_	_
@@ -4374,7 +4374,7 @@
 5	trouve	trouver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	comp:obj	_	_
-8	chopinien	chopinien	ADJ	_	Gender=Masc|Number=Sing	5	comp:obj	_	_
+8	chopinien	chopinien	ADJ	_	Gender=Masc|Number=Sing	5	comp:pred	_	_
 9-10	du	_	_	_	_	_	_	_	_
 9	de	de	ADP	_	_	8	mod	_	ExtPos=ADV|Idiom=Yes
 10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	InIdiom=Yes
@@ -4558,7 +4558,7 @@
 9	euh	euh	INTJ	_	_	48	discourse	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
-12	arrivée	arrivé	NOUN	_	Gender=Fem|Number=Sing	48	subj	_	_
+12	arrivée	arrivé	NOUN	_	Gender=Fem|Number=Sing	49	subj	_	_
 13-14	du	_	_	_	_	_	_	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
@@ -7273,7 +7273,7 @@
 13	soixante-dix	soixante-dix	NUM	_	Number=Plur	14	det	_	_
 14	mille	mille	NUM	_	Number=Plur	15	det	_	_
 15	habitants	habitant	NOUN	_	Gender=Masc|Number=Plur	9	mod	_	_
-16	en	en	ADP	_	_	2	comp:obj	_	_
+16	en	en	ADP	_	_	2	conj:dicto	_	_
 17	mille	mille	NUM	_	Number=Plur	16	comp:obj	_	_
 18	neuf	neuf	NUM	_	Number=Plur	17	flat	_	_
 19	cent	cent	NUM	_	Number=Plur	18	flat	_	_
@@ -7557,9 +7557,9 @@
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	euh	euh	INTJ	_	_	5	discourse	_	_
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	comp:obj	_	_
-10	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
-11	qu'	que	SCONJ	_	_	0	root	_	_
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	9	subj@expl	_	_
+11	qu'	que	SCONJ	_	_	9	comp:pred	_	_
 12	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	subj@expl	_	_
 13	y	y	PRON	_	Person=3|PronType=Prs	14	comp:obl	_	_
 14	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	comp:obj	_	_
@@ -7572,7 +7572,7 @@
 21	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	22	subj	_	_
 22	puis	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
 23	dire	dire	VERB	_	VerbForm=Inf	22	comp:obj@x	_	_
-24	?	?	PUNCT	_	_	11	punct	_	_
+24	?	?	PUNCT	_	_	9	punct	_	_
 
 # macrosyntax = c'est ESPERLUETTE //
 # text_ortho = c'est…
@@ -9320,7 +9320,7 @@
 12	remet	remettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	humanité	humanité	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	debout	debout	ADJ	_	Gender=Masc|Number=Plur	12	comp:obj	_	_
+15	debout	debout	ADJ	_	Gender=Masc|Number=Plur	12	comp:pred	_	_
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = ^et aujourd'hui <+ dans sa première journée <+ il fait de la belle-mère de Pierre une des toutes premières disciples //
@@ -9754,7 +9754,7 @@
 5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	vie	vie	NOUN	_	Gender=Fem|Number=Sing	4	comp:obj	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	en	en	ADP	_	_	3	comp:obj	_	_
+8	en	en	ADP	_	_	3	conj:coord	_	_
 9	donnant	donner	VERB	_	Tense=Pres|VerbForm=Part	8	comp:obj	_	_
 10	sa	son	DET	_	Gender=Fem|Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=3|PronType=Prs	12	det	_	_
 11	propre	propre	ADJ	_	Gender=Fem|Number=Sing	12	mod	_	_
@@ -10014,7 +10014,7 @@
 25	de	de	ADP	_	_	24	mod	_	_
 26	Lourdes	Lourdes	PROPN	_	_	25	comp:obj	_	_
 27	,	,	PUNCT	_	_	28	punct	_	_
-28	en	en	ADP	_	_	20	comp:obj	_	_
+28	en	en	ADP	_	_	20	conj:coord	_	_
 29	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	30	det	_	_
 30	jour	jour	NOUN	conj:reform	Gender=Masc|Number=Sing	28	comp:obj	_	_
 31	de	de	ADP	_	_	30	udep	_	_
@@ -10576,7 +10576,7 @@
 10	deuxième	deuxième	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 11	année	année	NOUN	_	Gender=Fem|Number=Sing	9	comp:obj	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	en	en	ADP	_	_	9	comp:obj	_	_
+13	en	en	ADP	_	_	9	conj:dicto	_	_
 14	troisième	troisième	ADJ	_	Gender=Fem|Number=Sing	15	mod	_	_
 15	année	année	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 16	.	.	PUNCT	_	_	8	punct	_	_
@@ -10703,7 +10703,7 @@
 3	tout	tout	ADV	_	_	5	mod	_	_
 4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	_
 5	monde	monde	NOUN	_	Gender=Masc|Number=Sing	7	subj	_	_
-6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obj	_	_
+6	me	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	7	comp:obl	_	_
 7	dit	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	que	que	SCONJ	_	_	7	comp:obj	_	_
 9	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	10	subj@pass	_	_
@@ -12944,7 +12944,7 @@
 # speaker = L2
 # sent_id = Rhap_D2001-100
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj	_	_
-2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obj	_	_
+2	m'	lui	PRON	_	Number=Sing|Person=1|PronType=Prs	4	comp:obl	_	_
 3	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	laissé	laisser	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	comp:aux	_	_
 5	toute	tout	ADJ	_	Gender=Fem|Number=Sing	7	mod	_	_
@@ -14443,7 +14443,7 @@
 # text_ortho = j' en remercie d' ailleurs, cher Hervé, cher Alain, tout spécialement les ministres de la défense qui sont parmi nous ce soir.
 # sent_id = Rhap_M2001-10
 1	j'	il	PRON	_	Number=Sing|Person=1|PronType=Prs	3	subj	_	_
-2	en	en	PRON	_	Person=3|PronType=Prs	3	comp:obj	_	_
+2	en	en	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	remercie	remercier	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	d'	de	ADP	_	_	3	mod	_	_
 5	ailleurs	ailleurs	ADV	_	_	4	comp:obj	_	_
@@ -14749,16 +14749,16 @@
 6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	pour	pour	ADP	_	_	6	mod	_	_
 8	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	7	comp:obj	_	_
-9	de	de	ADP	_	_	13	mod	_	_
-10	plus	plus	ADV	_	_	9	comp:obj	_	_
-11	en	en	ADP	_	_	9	conj:coord	_	_
-12	plus	plus	ADV	_	_	11	comp:obj	_	_
+9	de	de	ADP	_	_	13	mod	_	ExtPos=ADV|Idiom=Yes
+10	plus	plus	ADV	_	_	9	comp:obj	_	InIdiom=Yes
+11	en	en	ADP	_	_	10	mod	_	InIdiom=Yes
+12	plus	plus	ADV	_	_	11	comp:obj	_	InIdiom=Yes
 13	difficile	difficile	ADJ	_	Number=Sing	6	comp:pred	_	_
 14	et	et	CCONJ	_	_	19	cc	_	_
-15	de	de	ADP	_	_	19	mod	_	_
-16	plus	plus	ADV	_	_	15	comp:obj	_	_
-17	en	en	ADP	_	_	15	conj:coord	_	_
-18	plus	plus	ADV	_	_	17	comp:obj	_	_
+15	de	de	ADP	_	_	19	mod	_	ExtPos=ADV|Idiom=Yes
+16	plus	plus	ADV	_	_	15	comp:obj	_	InIdiom=Yes
+17	en	en	ADP	_	_	16	mod	_	InIdiom=Yes
+18	plus	plus	ADV	_	_	17	comp:obj	_	InIdiom=Yes
 19	dangereux	dangereux	ADJ	_	Gender=Masc	13	conj:coord	_	_
 20	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -15556,7 +15556,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	_
 4	pourrais	pouvoir	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obj	_	_
+5	vous	lui	PRON	_	Number=Plur|Person=2|PronType=Prs	6	comp:obl	_	_
 6	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj@x	_	_
 7	que	que	SCONJ	_	_	6	comp:obj	_	_
 8	certainement	certainement	ADV	_	_	4	mod	_	_
@@ -15621,12 +15621,12 @@
 5	en	en	ADP	_	_	3	comp:obl	_	_
 6	spontanéité	spontanéité	NOUN	_	Gender=Fem|Number=Sing	5	comp:obj	_	_
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	en	en	ADP	_	_	5	comp:obj	_	_
+8	en	en	ADP	_	_	5	conj:coord	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
-10	en	en	ADP	_	_	8	comp:obj	_	_
+10	en	en	ADP	_	_	8	conj:dicto	_	_
 11	amabilité	amabilité	NOUN	_	Gender=Fem|Number=Sing	10	comp:obj	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
-13	en	en	ADP	_	_	8	comp:obj	_	_
+13	en	en	ADP	_	_	8	conj:coord	_	_
 14	gentillesse	gentillesse	NOUN	_	Gender=Fem|Number=Sing	13	comp:obj	_	_
 15	qu'	que	SCONJ	_	_	4	mod	_	_
 16	ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	15	comp:obj	_	_
