@@ -1016,7 +1016,7 @@
 3	qu'	que	PRON	_	Person=3|PronType=Int	4	comp:pred	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj@expl	_	_
-6	qu'	que	PROPN	_	PronType=Rel	9	comp:obj	_	_
+6	qu'	que	PRON	_	PronType=Rel	9	comp:obj	_	_
 7	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	8	subj	_	_
 8	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp:cleft	_	_
 9	dire	dire	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
@@ -1581,26 +1581,26 @@
 # text_ortho = et, et au niveau…
 # speaker = L5
 # sent_id = Rhap_D2011-83
-1	et	et	CCONJ	_	_	4	cc	_	Overlap=Rhap_D2011-84
-2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2011-84
-3	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	Overlap=Rhap_D2011-84bis
+1	et	et	CCONJ	_	_	4	cc	_	Overlap=Rhap_D2011-83bis
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D2011-83bis
+3	et	et	CCONJ	conj:reform	_	1	conj:dicto	_	Overlap=Rhap_D2011-84
 4-5	au	_	_	_	_	_	_	_	_
-4	à	à	ADP	_	_	0	root	_	Overlap=Rhap_D2011-84bis
-5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Overlap=Rhap_D2011-84bis
-6	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@scrap	_	Overlap=Rhap_D2011-84bis
-7	…	…	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2011-84bis
+4	à	à	ADP	_	_	0	root	_	Overlap=Rhap_D2011-84
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Overlap=Rhap_D2011-84
+6	niveau	niveau	NOUN	_	Gender=Masc|Number=Sing	4	comp:obj@scrap	_	Overlap=Rhap_D2011-84
+7	…	…	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2011-84
 
 # macrosyntax = $L1 voilà //
 # text_ortho = voilà.
 # speaker = L1
-# sent_id = Rhap_D2011-84
+# sent_id = Rhap_D2011-83bis
 1	voilà	voilà	VERB	_	_	0	root	_	Overlap=Rhap_D2011-83
 2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D2011-83
 
 # macrosyntax = ^et ^puis je crois que vous avez { un garçon -$ //
 # text_ortho = et puis je crois que vous avez un garçon.
 # speaker = L1
-# sent_id = Rhap_D2011-84bis
+# sent_id = Rhap_D2011-84
 1	et	et	CCONJ	_	_	4	cc	_	ExtPos=CCONJ|Idiom=Yes|Overlap=Rhap_D2011-83
 2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|Overlap=Rhap_D2011-83
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	4	subj	_	Overlap=Rhap_D2011-83
@@ -1615,7 +1615,7 @@
 # macrosyntax = qui salit |} >+ en plus "hein" //+
 # text_ortho = qui salit, en plus, hein.
 # speaker = L1
-# sent_id = Rhap_D2011-84ter
+# sent_id = Rhap_D2011-84bis
 1	qui	qui	PRON	_	PronType=Rel	2	subj	_	_
 2	salit	salir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	,	,	PUNCT	_	_	4	punct	_	_
@@ -1639,7 +1639,7 @@
 # speaker = L5
 # sent_id = Rhap_D2011-84quater
 1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
-2	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AttachTo=9@Rhap_D2011-84bis|Rel=conj:dicto
+2	garçon	garçon	NOUN	_	Gender=Masc|Number=Sing	0	root	_	AttachTo=9@Rhap_D2011-84|Rel=conj:dicto
 3	qui	qui	PRON	_	PronType=Rel	5	subj	_	_
 4	se	se	PRON	_	Person=3|PronType=Prs	5	comp	_	InIdiom=Yes
 5	salit	salir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod@relcl	_	ExtPos=VERB|Idiom=Yes
@@ -6995,7 +6995,7 @@
 # macrosyntax = $L2 il y a six fois plus de cas //
 # text_ortho = il y a six fois plus de cas.
 # speaker = L2
-# sent_id = Rhap_D2008-58bis
+# sent_id = Rhap_D2008-58ter
 1	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	subj@expl	_	_
 2	y	y	PRON	_	Person=3|PronType=Prs	3	comp:obl	_	_
 3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -7691,7 +7691,7 @@
 1	XXX	XXX	X	_	_	5	unk	_	Overlap=Rhap_D2008-87
 2	vous	il	PRON	_	Number=Plur|Person=2|PronType=Prs	5	subj	_	Overlap=Rhap_D2008-87
 3	,	,	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2008-87
-4	vous	il	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	3	conj:dicto	_	Overlap=Rhap_D2008-87
+4	vous	il	PRON	conj:reform	Number=Plur|Person=2|PronType=Prs	2	conj:dicto	_	Overlap=Rhap_D2008-87
 5	savez	savoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D2008-87
 6	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	subj	_	Overlap=Rhap_D2008-87
 7	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Overlap=Rhap_D2008-87
@@ -8113,12 +8113,12 @@
 2	circule	circuler	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	5	subj	_	_
 4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	_
-5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	mod	_	ExtPos=ADV|Graft=Yes
+5	sait	savoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:appos	_	ExtPos=ADV|Graft=Yes
 6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	_
 7	très	très	ADV	_	_	8	mod	_	_
 8	bien	bien	ADV	_	_	5	mod	_	_
 9	comment	comment	ADV	_	_	5	comp:obj	_	_
-10	.	.	PUNCT	_	_	3	punct	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
 
 # macrosyntax = ^car c'est pas très surveillé dans la zone intertropicale //
 # text_ortho = car c'est pas très surveillé dans la zone intertropicale.
@@ -9366,7 +9366,7 @@
 11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	apôtre	apôtre	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 13	Paul	Paul	PROPN	_	_	12	mod@appos	_	_
-14	,	,	PUNCT	_	_	17	punct	_	_
+14	,	,	PUNCT	_	_	8	punct	_	_
 15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
 16	bonne	bon	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	_
 17	nouvelle	nouvelle	NOUN	_	Gender=Fem|Number=Sing	6	conj:dicto	_	_
@@ -9424,7 +9424,7 @@
 69	relations	relation	NOUN	_	Gender=Fem|Number=Plur	67	comp:obj	_	_
 70	avec	avec	ADP	_	_	69	udep	_	_
 71	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	72	det	_	_
-72	uns	un	NOUN	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	70	comp:obj	_	_
+72	uns	un	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Ind	70	comp:obj	_	_
 73	et	et	CCONJ	_	_	74	cc	_	_
 74	avec	avec	ADP	_	_	70	conj:coord	_	_
 75	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	76	det	_	_
@@ -12724,7 +12724,7 @@
 3	qu'	que	PRON	_	Person=3|PronType=Int	4	comp:pred	_	_
 4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	-ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj@expl	_	_
-6	qu'	que	SCONJ	_	PronType=Rel	9	comp:obj	_	_
+6	qu'	que	SCONJ	_	_	9	comp:obj	_	_
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	8	subj	_	_
 8	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	comp:cleft	_	_
 9	apprendre	apprendre	VERB	_	VerbForm=Inf	8	comp:obj@x	_	_
@@ -13461,7 +13461,7 @@
 # macrosyntax = $L1 non //
 # text_ortho = non.
 # speaker = L1
-# sent_id = Rhap_D2001-128bis
+# sent_id = Rhap_D2001-127bis
 1	non	non	ADV	_	Polarity=Neg	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -13743,8 +13743,8 @@
 # macrosyntax = $L2 oui //
 # text_ortho = oui.
 # speaker = L2
-# sent_id = Rhap_D2001-142
-1	oui	oui	ADV	_	_	0	root	_	AttachTo=9@Rhap_D2001-142|Rel=discourse
+# sent_id = Rhap_D2001-141bis
+1	oui	oui	ADV	_	_	0	root	_	AttachTo=9@Rhap_D2001-141|Rel=discourse
 2	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = ^c'^est-^à-^dire { nous avons été tous les deux " euh " | nous avons tous les deux collaboré } { avec " euh " | avec } Renoir //
@@ -14527,7 +14527,7 @@
 41	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	42	det	_	_
 42	monde	monde	NOUN	_	Gender=Masc|Number=Sing	40	comp:obj	_	_
 43	plus	plus	ADV	_	_	44	mod	_	_
-44	instable	instable	ADJ	_	Gender=Mac|Number=Sing	42	mod	_	_
+44	instable	instable	ADJ	_	Gender=Masc|Number=Sing	42	mod	_	_
 45	et	et	CCONJ	_	_	47	cc	_	_
 46	moins	moins	ADV	_	_	47	mod	_	_
 47	prévisible	prévisible	ADJ	_	Gender=Masc|Number=Sing	44	conj:coord	_	_

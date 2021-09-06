@@ -3257,7 +3257,7 @@
 7	,	,	PUNCT	_	_	1	punct	_	_
 8	à	à	ADP	_	_	14	mod	_	_
 9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	une	une	NOUN	_	Gender=Fem|Number=Sing	7	comp:obj	_	_
+10	une	une	NOUN	_	Gender=Fem|Number=Sing	8	comp:obj	_	_
 11	,	,	PUNCT	_	_	8	punct	_	_
 12	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	14	subj	_	_
 13	n'	ne	ADV	_	Polarity=Neg	14	mod	_	_
@@ -3923,7 +3923,7 @@
 6-7	des	_	_	_	_	_	_	_	_
 6	de	de	ADP	_	_	5	udep	_	_
 7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
-8	égards	égard	NOUN	_	Gender=Plur|Number=Sing	6	comp:obj	_	_
+8	égards	égard	NOUN	_	Gender=Masc|Number=Plur	6	comp:obj	_	_
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	écrit	écrire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:insert	_	_
 11	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
@@ -4139,10 +4139,10 @@
 # speaker = L3
 # sent_id = Rhap_D2003-6
 1	bien	bien	ADV	_	_	2	mod	_	InIdiom=Yes|Overlap=Rhap_D2003-4
-2	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	0	root	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2003-4
+2	sûr	sûr	ADV	_	_	0	root	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2003-4
 3	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D2003-4
 4	bien	bien	ADV	_	_	1	mod	_	InIdiom=Yes|Overlap=Rhap_D2003-4
-5	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	2	conj:dicto	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2003-4
+5	sûr	sûr	ADV	_	_	2	conj:dicto	_	ExtPos=ADV|Idiom=Yes|Overlap=Rhap_D2003-4
 6	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2003-4
 
 # macrosyntax = en tout cas < il y a une $- protestation //
@@ -7241,7 +7241,7 @@
 16	son	son	DET	_	Number=Sing|Number[psor]=Sing|Person[psor]=3|PronType=Prs	17	det	_	_
 17	histoire	histoire	NOUN	_	Gender=Fem|Number=Sing	15	comp:obj	_	_
 18	pour	pour	ADP	_	_	3	mod	_	InIdiom=Yes
-19	peu	peu	NOUN	_	_	18	comp:obj	_	ExtPos=ADV|Idiom=Yes
+19	peu	peu	ADV	_	_	18	comp:obj	_	ExtPos=ADV|Idiom=Yes
 20	qu'	que	SCONJ	_	_	18	comp:obj	_	_
 21	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	subj	_	_
 22	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	comp:obj	_	_
@@ -10283,7 +10283,7 @@
 # macrosyntax = $- $L1 oui //
 # text_ortho = oui.
 # speaker = L1
-# sent_id = Rhap_D0005-98bis
+# sent_id = Rhap_D0005-98ter
 1	oui	oui	INTJ	_	_	0	root	_	Overlap=Rhap_D0005-99bis
 
 # macrosyntax = "bah" { oui | oui } //
@@ -10752,7 +10752,7 @@
 9	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	_
 11	fait	faire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	10	comp:aux	_	_
-12	.	.	PUNCT	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	punct	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
 
 # macrosyntax = par contre < quand même < { c'est une | c'est une } référence //=
 # text_ortho = par contre, quand même, c'est une, c'est une référence.
@@ -13121,7 +13121,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=17@Rhap_D0001-63|Rel=discourse|Overlap=Rhap_D0001-63
 2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0001-63
 3	XXX	XXX	X	_	_	1	unk@scrap	_	Overlap=Rhap_D0001-63
-4	mh	mh	INTJ	_	_	2	conj:dicto	_	Overlap=Rhap_D0001-63
+4	mh	mh	INTJ	_	_	3	conj:dicto	_	Overlap=Rhap_D0001-63
 5	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0001-63
 6	mh	mh	INTJ	_	_	4	conj:dicto	_	Overlap=Rhap_D0001-63
 7	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0001-63
@@ -13378,7 +13378,7 @@
 # speaker = L2
 # sent_id = Rhap_D0001-73quater
 1	pas	pas	ADV	_	Polarity=Neg	0	root	_	Overlap=Rhap_D0001-74bis
-2-3	du	_	Overlap=Rhap_D0001-74bis	_	_	_	_	_	_
+2-3	du	_	_	_	_	_	_	_	_
 2	de	de	ADP	_	_	1	mod	_	Overlap=Rhap_D0001-74bis
 3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Overlap=Rhap_D0001-74bis
 4	tout	tout	ADV	_	_	2	comp:obj	_	Overlap=Rhap_D0001-74bis
@@ -17328,7 +17328,7 @@
 45	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	43	conj:dicto	_	_
 46	,	,	PUNCT	_	_	47	punct	_	_
 47	des	un	DET	de	Definite=Ind|Number=Plur|PronType=Art	45	conj:dicto	_	_
-48	travaux	travail	NOUN	_	Gender=Sing|Number=Plur	42	comp:obj	_	_
+48	travaux	travail	NOUN	_	Gender=Masc|Number=Plur	42	comp:obj	_	_
 49	de	de	ADP	_	_	48	udep	_	_
 50	design	design	NOUN	_	Gender=Masc|Number=Sing	49	comp:obj	_	_
 51	.	.	PUNCT	_	_	3	punct	_	_
@@ -17761,7 +17761,7 @@
 # macrosyntax = voilà //
 # text_ortho = voilà.
 # speaker = L1
-# sent_id = Rhap_D2002-16
+# sent_id = Rhap_D2002-16bis
 1	voilà	voilà	VERB	_	_	0	root	_	_
 2	.	.	PUNCT	_	_	1	punct	_	_
 

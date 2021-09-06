@@ -512,7 +512,7 @@
 # macrosyntax = $L2 "mh" //
 # text_ortho = mh.
 # speaker = L2
-# sent_id = Rhap_D0006-12bis
+# sent_id = Rhap_D0006-12ter
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=49@Rhap_D0006-12|Rel=discourse
 2	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -607,7 +607,7 @@
 26	réaliser	réaliser	VERB	CAUSATIVE	VerbForm=Inf	22	comp:aux@caus	_	_
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	euh	euh	INTJ	_	_	26	discourse	_	_
-29	,	,	PUNCT	_	_	31	punct	_	_
+29	,	,	PUNCT	_	_	30	punct	_	_
 30	vraiment	vraiment	ADV	_	_	21	mod	_	_
 31	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	26	comp:obj	_	_
 32	que	que	PRON	_	PronType=Rel	34	comp:pred	_	_
@@ -9299,7 +9299,7 @@
 3	c'est~	c'est~	CCONJ	_	_	9	cc	_	_
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	c'est-à-dire	c'est-à-dire	CCONJ	_	_	3	conj:dicto	_	ExtPos=CCONJ|Idiom=Yes
-6	que	que	SCONJ	_	_	4	unk	_	InIdiom=Yes
+6	que	que	SCONJ	_	_	5	unk	_	InIdiom=Yes
 7	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	9	subj	_	_
 8	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	10	comp:obj	_	_
 9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13024,7 +13024,7 @@
 # macrosyntax = ( $L1 "mh" )
 # text_ortho = mh.
 # speaker = L1
-# sent_id = Rhap_D0003-3
+# sent_id = Rhap_D0003-3bis
 1	mh	mh	INTJ	_	_	0	root	_	AttachTo=12@Rhap_D0003-3|Rel=discourse
 2	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -13235,7 +13235,7 @@
 11	quand	quand	SCONJ	_	_	0	root@scrap	_	_
 12	…	…	PUNCT	_	_	11	punct	_	_
 
-# macrosyntax = nous avons été sous très gros bombardements $- $L2 { américains | ^puis anglais } //
+# macrosyntax = nous avons été sous très gros bombardements { américains | ^puis anglais } //
 # text_ortho = nous avons été sous très gros bombardements américains, puis anglais.
 # speaker = L2
 # sent_id = Rhap_D0003-14
@@ -13246,35 +13246,42 @@
 5	très	très	ADV	_	_	6	mod	_	_
 6	gros	gros	ADJ	_	Gender=Masc	7	mod	_	_
 7	bombardements	bombardement	NOUN	_	Gender=Masc|Number=Plur	4	comp:obj	_	_
-8	américains	américain	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	Overlap=Rhap_D0003-16
-9	,	,	PUNCT	_	_	11	punct	_	Overlap=Rhap_D0003-16
-10	puis	puis	CCONJ	_	_	11	cc	_	Overlap=Rhap_D0003-16
-11	anglais	anglais	NOUN	_	Gender=Masc	8	conj:coord	_	Overlap=Rhap_D0003-16
-12	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0003-16
+8	américains	américain	ADJ	_	Gender=Masc|Number=Plur	7	mod	_	_
+9	,	,	PUNCT	_	_	11	punct	_	_
+10	puis	puis	CCONJ	_	_	11	cc	_	_
+11	anglais	anglais	NOUN	_	Gender=Masc	8	conj:coord	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
 
-# macrosyntax = ( ^et nous sommes { ob~ | ob~ |
+# macrosyntax = $- $L2 ( ^et nous sommes { ob~ | ob~ | ( $L1 "mh" ) -$
 # text_ortho = et nous sommes ob~, ob~…
 # speaker = L2
 # sent_id = Rhap_D0003-15
-1	et	et	CCONJ	_	_	3	cc	_	Overlap=Rhap_D0003-16
-2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	Overlap=Rhap_D0003-16
-3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0003-16
-4	ob~	ob~	X	_	_	3	comp:aux	_	Overlap=Rhap_D0003-16
-5	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0003-16
-6	ob~	ob~	X	conj:reform	_	4	conj:dicto	_	Overlap=Rhap_D0003-16
-7	…	…	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-16
+1	et	et	CCONJ	_	_	3	cc	_	Overlap=Rhap_D0003-15bis
+2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	Overlap=Rhap_D0003-15bis
+3	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0003-15bis
+4	ob~	ob~	X	_	_	3	comp:aux	_	Overlap=Rhap_D0003-15bis
+5	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0003-15bis
+6	ob~	ob~	X	conj:reform	_	4	conj:dicto	_	Overlap=Rhap_D0003-15bis
+7	…	…	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-15bis
 
-# macrosyntax = après } le bombardement anglais // ) { mon | ( $L1 "mh" ) -$ mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
+# macrosyntax = $- $L2 ( ^et nous sommes { ob~ | ob~ | ( $L1 "mh" ) -$
+# text_ortho = mh.
+# speaker = L1
+# sent_id = Rhap_D0003-15bis
+1	mh	mh	INTJ	_	_	0	root	_	AttachTo=2@Overlap=Rhap_D0003-14|Rel=discourse|Overlap=Rhap_D0003-15
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-15
+
+# macrosyntax = après } le bombardement anglais // ) { mon | mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
 # text_ortho = après le bombardement anglais, mon, mon père a dit, bon, il f~, il faut partir, il faut…
 # speaker = L2
 # sent_id = Rhap_D0003-16
-1	après	après	ADP	_	_	11	mod	_	Overlap=Rhap_D0003-16
-2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Overlap=Rhap_D0003-16
-3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	Overlap=Rhap_D0003-16
-4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	Overlap=Rhap_D0003-16
-5	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-16
-6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	Overlap=Rhap_D0003-16
-7	,	,	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0003-16
+1	après	après	ADP	_	_	11	mod	_	_
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	bombardement	bombardement	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+4	anglais	anglais	ADJ	_	Gender=Masc	3	mod	_	_
+5	,	,	PUNCT	_	_	1	punct	_	_
+6	mon	son	DET	_	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	9	det	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	mon	son	DET	conj:reform	Number=Sing|Person=3|Number[psor]=Sing|Person[psor]=1|PronType=Prs	6	conj:dicto	_	_
 9	père	père	NOUN	_	Gender=Masc|Number=Sing	10	subj	_	_
 10	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -13292,13 +13299,6 @@
 22	il	il	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	subj	_	_
 23	faut	falloir	VERB	conj:reform	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	conj:dicto	_	_
 24	…	…	PUNCT	_	_	10	punct	_	_
-
-# macrosyntax = après } le bombardement anglais // ) { mon | ( $L1 "mh" ) -$ mon } père a dit [ "bon" { il f~ | il faut partir | il faut ESPERLUETTE } // ] //
-# text_ortho = mh.
-# speaker = L1
-# sent_id = Rhap_D0003-16
-1	mh	mh	INTJ	_	_	0	root	_	AttachTo=2@Overlap=Rhap_D0003-14|Rel=discourse|Overlap=Rhap_D0003-14
-2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-14
 
 # macrosyntax = tout le monde partait //
 # text_ortho = tout le monde partait.
@@ -13827,11 +13827,11 @@
 # text_ortho = on est toujours restés à Paris en allant fidèlement en Bretagne, euh, souvent, et l'été.
 # speaker = L2
 # sent_id = Rhap_D0003-47
-1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Overlap=Rhap_D0003-47
-2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0003-47
-3	toujours	toujours	ADV	_	_	2	mod	_	Overlap=Rhap_D0003-47
-4	restés	rester	VERB	ETRE	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux	_	Overlap=Rhap_D0003-47
-5	à	à	ADP	_	_	4	comp:obl	_	Overlap=Rhap_D0003-47
+1	on	on	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Ind	2	subj	_	Overlap=Rhap_D0003-47bis
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0003-47bis
+3	toujours	toujours	ADV	_	_	2	mod	_	Overlap=Rhap_D0003-47bis
+4	restés	rester	VERB	ETRE	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	comp:aux	_	Overlap=Rhap_D0003-47bis
+5	à	à	ADP	_	_	4	comp:obl	_	Overlap=Rhap_D0003-47bis
 6	Paris	Paris	PROPN	_	_	5	comp:obj	_	_
 7	en	en	ADP	_	_	2	mod	_	_
 8	allant	aller	VERB	ETRE	Tense=Pres|VerbForm=Part	7	comp:obj	_	_
@@ -13852,15 +13852,15 @@
 # text_ortho = ah, oui.
 # speaker = L1
 # sent_id = Rhap_D0003-47bis
-1	ah	ah	INTJ	_	_	3	discourse	_	Overlap=Rhap_D0003-46
-2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-46
-3	oui	oui	INTJ	_	_	0	root	_	AttachTo=2@Rhap_D0003-46|Rel=discourse|Overlap=Rhap_D0003-46
-4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-46
+1	ah	ah	INTJ	_	_	3	discourse	_	Overlap=Rhap_D0003-47
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0003-47
+3	oui	oui	INTJ	_	_	0	root	_	AttachTo=2@Rhap_D0003-47|Rel=discourse|Overlap=Rhap_D0003-47
+4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0003-47
 
 # macrosyntax = $L1 oui //
 # text_ortho = oui.
 # speaker = L1
-# sent_id = Rhap_D0003-47bis
+# sent_id = Rhap_D0003-47ter
 1	oui	oui	INTJ	_	_	0	root	_	AttachTo=19@Rhap_D0003-46|Rel=discourse
 2	.	.	PUNCT	_	_	1	punct	_	_
 
@@ -14709,7 +14709,7 @@
 # macrosyntax = "oui" d'abord c'est ESPERLUETTE //
 # text_ortho = oui, d'abord c'est…
 # speaker = L1
-# sent_id = Rhap_D0002-35
+# sent_id = Rhap_D0002-35bis
 1	oui	oui	INTJ	_	_	6	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	d'	de	ADP	_	_	6	mod	_	_
@@ -15207,7 +15207,7 @@
 # macrosyntax = $L2 mh mh //
 # text_ortho = mh, mh.
 # speaker = L2
-# sent_id = Rhap_D0002-50bis
+# sent_id = Rhap_D0002-50ter
 1	mh	mh	INTJ	_	_	0	root	_	_
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	mh	mh	INTJ	_	_	1	conj:dicto	_	_
