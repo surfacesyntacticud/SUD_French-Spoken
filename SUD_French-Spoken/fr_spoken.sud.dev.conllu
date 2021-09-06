@@ -15430,7 +15430,7 @@
 # speaker = L2
 # sent_id = Rhap_D0002-62bis
 1	oui	oui	INTJ	_	_	0	root	_	AttachTo=4@Rhap_D0002-62|Rel=discourse|Overlap=Rhap_D0002-62
-2	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-62
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-62
 
 # macrosyntax = "euh" { quand on prend des enfants d'immigrés | ^et qu'on les mélange avec "euh" $- soixante pour cent de gamins ( $L1 "bah" "oui" ils réussissent // ) -$ qui parlent français } < ça s'installe $- $L2 { très | très } vite //
 # text_ortho = euh, quand on prend des enfants d'immigrés et qu'on les mélange avec, euh, soixante pour cent de gamins qui parlent français, ça s'installe très très vite.
@@ -15490,7 +15490,7 @@
 1	mais	mais	CCONJ	_	_	2	cc	_	Overlap=Rhap_D0002-63
 2	bien	bien	ADV	_	_	3	mod	_	ExtPos=ADV|InIdiom=Yes|Overlap=Rhap_D0002-63
 3	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Idiom=Yes|AttachTo=30@Rhap_D0002-63|Rel=mod|Overlap=Rhap_D0002-63
-4	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-63
+4	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0002-63
 5	bien	bien	ADV	_	_	6	mod	_	ExtPos=ADV|InIdiom=Yes|Overlap=Rhap_D0002-65
 6	sûr	sûr	ADJ	_	Gender=Masc|Number=Sing	3	conj:dicto	_	Idiom=Yes|Overlap=Rhap_D0002-65
 7	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-65
@@ -16242,7 +16242,7 @@
 6	cathédrale	cathédrale	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
 7	Notre-Dame	Notre-Dame	PROPN	_	_	6	mod@appos	_	_
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	alors	alors	ADV	_	_	9	discourse	_	_
+9	alors	alors	ADV	_	_	6	discourse	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	euh	euh	INTJ	_	_	7	discourse	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
