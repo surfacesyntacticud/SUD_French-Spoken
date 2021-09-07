@@ -1647,7 +1647,7 @@
 7	qui	qui	PRON	_	PronType=Rel	8	subj	_	_
 8	faisait	faire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	conj:coord	_	_
 9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	_
-10	allergies	allergie	NOUN	_	Gender=Fem|Number=Sing	8	comp:obl	_	_
+10	allergies	allergie	NOUN	_	Gender=Fem|Number=Plur	8	comp:obl	_	_
 11	auparavant	auparavant	ADV	_	_	8	mod	_	_
 12	et	et	CCONJ	_	_	16	cc	_	_
 13	qui	qui	PRON	_	PronType=Rel	16	subj	_	_
@@ -2111,7 +2111,7 @@
 15	peu	peu	NOUN	_	_	16	mod	_	ExtPos=ADV|Idiom=Yes
 16	pressenti	pressentir	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	comp:aux	_	_
 17	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
-18	succès	succès	NOUN	_	Gender=Masc|Number=Plur	16	comp:obj	_	_
+18	succès	succès	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
 19	?	?	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = non //
@@ -2905,7 +2905,7 @@
 # sent_id = Rhap_D2010-48
 1	enfin	enfin	ADV	_	_	4	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	subj	_	_
+3	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	4	subj	_	_
 4	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -3703,7 +3703,7 @@
 8	homme	homme	NOUN	_	Gender=Masc|Number=Sing	4	conj:coord	_	_
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	_
-11	auto	auto	NOUN	_	Gender=Masc|Number=Sing	8	conj:coord	_	_
+11	auto	auto	NOUN	_	Gender=Fem|Number=Sing	8	conj:coord	_	_
 12	noire	noir	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 13	et	et	CCONJ	_	_	16	cc	_	_
 14	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -3879,7 +3879,7 @@
 24	-là	là	ADV	_	_	23	mod	_	_
 25	dans	dans	ADP	_	_	16	mod	_	Overlap=Rhap_D2010-98bis
 26	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	27	det	_	Overlap=Rhap_D2010-98bis
-27	auto	auto	NOUN	_	Gender=Masc|Number=Sing	25	comp:obj	_	Overlap=Rhap_D2010-98bis
+27	auto	auto	NOUN	_	Gender=Fem|Number=Sing	25	comp:obj	_	Overlap=Rhap_D2010-98bis
 28	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D2010-98bis
 
 # macrosyntax = ( $L1 avec XXX // ) -$
@@ -3896,7 +3896,7 @@
 # sent_id = Rhap_D2010-98ter
 1	dans	dans	ADP	_	_	0	root	_	_
 2	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	3	det	_	_
-3	auto	auto	NOUN	_	Gender=Masc|Number=Sing	1	comp:obj	_	_
+3	auto	auto	NOUN	_	Gender=Fem|Number=Sing	1	comp:obj	_	_
 4	.	.	PUNCT	_	_	1	punct	_	_
 
 # macrosyntax = c'était gigantesque //
@@ -4235,7 +4235,7 @@
 9	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	une	un	DET	conj:reform	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	9	conj:dicto	_	_
-12	élève	élève	NOUN	_	Gender=Masc|Number=Sing	8	comp:pred	_	_
+12	élève	élève	NOUN	_	Gender=Fem|Number=Sing	8	comp:pred	_	_
 13	de	de	ADP	_	_	12	udep	_	_
 14	Blumenfeld	Blumenfeld	PROPN	_	_	13	comp:obj	_	_
 15	,	,	PUNCT	_	_	16	punct	_	_
@@ -5693,7 +5693,7 @@
 # speaker = L1
 # sent_id = Rhap_D2008-2
 1	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	2	subj	_	_
-2	consacrerons	consacrer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	_
+2	consacrerons	consacrer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin	0	root	_	_
 3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 4	dernière	dernier	ADJ	_	Gender=Fem|Number=Sing	5	mod	_	_
 5	partie	partie	NOUN	_	Gender=Fem|Number=Sing	2	comp:obj	_	_
@@ -5776,9 +5776,9 @@
 15	,	,	PUNCT	_	_	16	punct	_	_
 16	effectivement	effectivement	ADV	_	_	14	mod	_	_
 17	,	,	PUNCT	_	_	18	punct	_	_
-18	de	de	ADP	_	_	14	comp:obj	_	_
+18	de	de	ADP	_	_	20	comp:obl	_	_
 19	quoi	quoi	PRON	_	Person=3|PronType=Ind	18	comp:obj	_	_
-20	alarmer	alarmer	VERB	_	VerbForm=Inf	18	comp:obj	_	_
+20	alarmer	alarmer	VERB	_	VerbForm=Inf	14	comp:obj	_	_
 21	.	.	PUNCT	_	_	14	punct	_	_
 
 # macrosyntax = c'est comme un très mauvais rendez-vous à venir //
@@ -6274,7 +6274,7 @@
 # text_ortho = ce sont pas des prévisions.
 # speaker = L2
 # sent_id = Rhap_D2008-28bis
-1	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	subj	_	_
+1	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	2	subj	_	_
 2	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	_
 4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	_
@@ -8287,7 +8287,7 @@
 17	de	de	ADP	_	_	16	udep	_	_
 18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	zone	zone	NOUN	_	Gender=Fem|Number=Sing	17	comp:obj	_	_
-20	tempérée	tempérer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
+20	tempérée	tempérer	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	19	mod	_	_
 21	de	de	ADP	_	_	19	udep	_	_
 22	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	hémisphère	hémisphère	NOUN	_	Gender=Masc|Number=Sing	21	comp:obj	_	_
@@ -8979,7 +8979,7 @@
 1	alors	alors	ADV	_	_	5	discourse	_	_
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	je	il	PRON	_	Number=Sing|Person=1|PronType=Prs	5	subj	_	_
-4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obj	_	_
+4	vous	le	PRON	_	Number=Plur|Person=2|PronType=Prs	5	comp:obl	_	_
 5	rappelle	rappeler	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	que	que	SCONJ	_	_	5	comp:obj	_	_
 7	depuis	depuis	ADP	_	_	23	mod	_	_
@@ -9320,7 +9320,7 @@
 12	remet	remettre	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	_
 13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	humanité	humanité	NOUN	_	Gender=Fem|Number=Sing	12	comp:obj	_	_
-15	debout	debout	ADJ	_	Gender=Masc|Number=Plur	12	comp:pred	_	_
+15	debout	debout	ADJ	_	_	12	comp:pred	_	_
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # macrosyntax = ^et aujourd'hui <+ dans sa première journée <+ il fait de la belle-mère de Pierre une des toutes premières disciples //
@@ -9347,7 +9347,7 @@
 18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
 19	toutes	tout	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
 20	premières	premier	ADJ	_	Gender=Fem|Number=Plur	21	mod	_	_
-21	disciples	disciple	NOUN	_	Gender=Masc|Number=Plur	17	comp:obj	_	_
+21	disciples	disciple	NOUN	_	Gender=Fem|Number=Plur	17	comp:obj	_	_
 22	.	.	PUNCT	_	_	10	punct	_	_
 
 # macrosyntax = { l'évangile | la bonne nouvelle ( comme le répète l'apôtre Paul // ) | la bonne nouvelle en la personne de Jésus } < c'est ( d'abord ) { une action //+ | une action pour restaurer la dignité de la personne humaine //+ | une action pour rétablir la personne en sa qualité de sujet de parole //+ | une action pour rétablir { les uns | ^et les autres } dans les relations { avec les uns | ^et avec les autres } } //
@@ -12185,7 +12185,7 @@
 3	tout	tout	ADJ	_	Gender=Masc|Number=Sing	4	mod	_	_
 4	ça	ça	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	dislocated	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	7	subj	_	_
+6	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	7	subj	_	_
 7	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	_
 9	conditions	condition	NOUN	_	Gender=Fem|Number=Plur	7	comp:pred	_	_
@@ -13369,7 +13369,7 @@
 11	pas	pas	ADV	_	Polarity=Neg	10	mod	_	_
 12	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	organisation	organisation	NOUN	conj:reform	Gender=Fem|Number=Sing	10	comp:pred	_	_
-14	rigide	rigide	ADJ	_	Gender=Masc|Number=Sing	13	mod	_	_
+14	rigide	rigide	ADJ	_	Gender=Fem|Number=Sing	13	mod	_	_
 15	comme	comme	SCONJ	_	_	10	mod	_	_
 16	elle	il	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	subj	_	_
 17	l'	le	PRON	_	Number=Sing|Person=3|PronType=Prs	18	comp:pred	_	_
@@ -13952,7 +13952,7 @@
 12	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	InIdiom=Yes
 13	petit	petit	NOUN	_	Gender=Masc|Number=Sing	14	mod	_	InIdiom=Yes
 14	peu	peu	NOUN	_	_	15	mod	_	ExtPos=ADV|Idiom=Yes
-15	rigide	rigide	ADJ	_	Gender=Masc|Number=Sing	11	mod	_	_
+15	rigide	rigide	ADJ	_	Gender=Fem|Number=Sing	11	mod	_	_
 16	à	à	ADP	_	_	11	udep	_	_
 17	cet	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	18	det	_	_
 18	égard	égard	NOUN	_	Gender=Masc|Number=Sing	16	comp:obj	_	_
@@ -14034,7 +14034,7 @@
 # sent_id = Rhap_D2001-154
 1	et	et	CCONJ	_	_	3	cc	_	_
 2	nous	il	PRON	_	Number=Plur|Person=1|PronType=Prs	3	subj	_	_
-3	jouions	jouer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Imp|VerbForm=Fin	0	root	_	_
+3	jouions	jouer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	_
 4	tous	tout	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	_
 5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	_
 6	deux	deux	NUM	_	Number=Plur	3	mod	_	_
@@ -14419,7 +14419,7 @@
 1	et	et	CCONJ	_	_	5	cc	_	_
 2	demain	demain	ADV	_	_	5	mod	_	_
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	5	subj	_	_
+4	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	5	subj	_	_
 5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	_
 7	vingt-six	vingt-six	NUM	_	Number=Plur	8	mod	_	_
@@ -16033,7 +16033,7 @@
 6	le	le	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	comp:obj	_	_
 7	voir	voir	VERB	_	VerbForm=Inf	5	comp:obj@x	_	_
 8	,	,	PUNCT	_	_	3	punct	_	_
-9	ce	ce	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Dem	10	subj	_	_
+9	ce	ce	PRON	_	Number=Sing|Person=3|PronType=Dem	10	subj	_	_
 10	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 12	,	,	PUNCT	_	_	13	punct	_	_
